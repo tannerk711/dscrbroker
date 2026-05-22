@@ -1,0 +1,114 @@
+---
+// Universal "What Generic DSCR Lenders Miss" section. State-agnostic so every state LP reuses it
+// without a rebuild. The 4 boxes (DSCR Flexibility, Seasoning, Experienced Consultant, Wholesale
+// Lender Network) come from John Peisner's 2026-05-23 draft, grammar-cleaned and positioning-
+// corrected (rate-tier labels stripped per Anchor 3; Box 4 reframed from rate-shopping to
+// lender-navigation).
+// History: this file was originally FloridaUnderwritingReality.astro with 4 FL-specific pillars
+// (Surfside condos, STR zoning, coastal exposure, post-sale reassessment). Rewritten 2026-05-23
+// (Change 16); renamed 2026-05-24.
+
+const boxes = [
+  {
+    label: 'DSCR Flexibility',
+    title: 'Qualify on the Property, Not Your Income',
+    body: "DSCR (Debt Service Coverage Ratio) lending qualifies you on the property's cash flow, not your personal income. That removes DTI limits, drops the need for W-2s and tax returns, and lets you scale a portfolio without your tax picture getting in the way. Even a property running negative cash flow still has options.",
+    // DSCR tiers. Structure kept, rate labels stripped (rejected Change 5 / Anchor 3).
+    // Tiers describe program access, never a rate outcome.
+    tiers: [
+      { ratio: 'DSCR 1.25+', note: 'Strong deal. Broadest program access.' },
+      { ratio: 'DSCR 1.00 - 1.24', note: 'Solid deal. Qualifies comfortably.' },
+      { ratio: 'DSCR 0.75 - 0.99', note: 'Workable. Still funds, even with negative cash flow.' },
+      { ratio: 'DSCR below 0.75', note: 'No-ratio option. Cash flow stops being the gate.' },
+    ],
+    iconPath: 'M3 12l2-2 4 4 8-8 4 4M3 21h18',
+    accent: 'blue',
+  },
+  {
+    label: 'Seasoning Requirements',
+    title: 'Access Your Equity Without the Wait',
+    body: "Conventional loans make you sit through 12 months of seasoning before a cash-out refinance. DSCR programs typically run a 6-month wait. John's network goes further: no seasoning on cash-out, no title seasoning, and refinances allowed on a new appraised value. Buy distressed with cash or hard money, renovate, and refinance on the improved value right away. No scope-of-work paperwork required, so your capital is not stuck.",
+    iconPath: 'M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z',
+    accent: 'green',
+  },
+  {
+    label: 'Experienced DSCR Consultant',
+    title: 'A Specialist Who Has Run These Deals Before',
+    body: "Working with a seasoned DSCR specialist gives you specialized underwriting, flexible entity structuring (LLCs, trusts), access to niche products like 40-year terms and interest-only, and faster closings because there is no income or employment documentation to chase. John knows how to evaluate the asset, process complex corporate tax structures and write-offs without penalizing you, and underwrite tricky income: short-term rentals, Airbnb, and properties with variable or undocumented market rent.",
+    iconPath: 'M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z',
+    accent: 'amber',
+  },
+  {
+    label: 'Wholesale Lender Network',
+    title: '70+ Lenders, One Specialist Navigating Them',
+    body: "A single lender only knows its own guidelines. John works a network of 70+ lenders and funding sources, so instead of you filling out applications with lender after lender, one specialist navigates the network for you. He routes your file to the lender whose overlays and product set actually fit your scenario, which is how deals that get declined elsewhere still get done.",
+    iconPath: 'M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z',
+    accent: 'blue',
+  },
+];
+
+const accentClasses: Record<string, string> = {
+  amber: 'bg-amber/15 text-amber',
+  blue: 'bg-blue/15 text-blue-light',
+  green: 'bg-green/15 text-green',
+};
+---
+
+<section id="fl-underwriting" data-fl-section="underwriting" class="bg-off-white py-16 md:py-20">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="mx-auto max-w-3xl text-center mb-12">
+      <p class="text-xs font-medium uppercase tracking-[0.1em] text-amber mb-3">DSCR UNDERWRITING REALITY</p>
+      <h2 class="text-3xl md:text-4xl font-bold tracking-tight text-navy">What Generic DSCR Lenders Miss</h2>
+      <p class="mt-4 text-lg text-gray-500 leading-relaxed">
+        Four things that separate a specialist from an order-taker. John walks you through each one on the first call, so you know what you are working with before you write an offer.
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-7">
+      {boxes.map((b) => (
+        <div class="flex flex-col rounded-xl bg-white card-soft-shadow transition-shadow hover:shadow-lg p-6 md:p-7">
+          <!-- Icon + label/title header -->
+          <div class="flex items-center gap-3 mb-4">
+            <div class={`flex h-11 w-11 flex-shrink-0 items-center justify-center rounded-lg ${accentClasses[b.accent]}`}>
+              <svg class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d={b.iconPath} />
+              </svg>
+            </div>
+            <div class="flex-1 min-w-0">
+              <p class="text-[10px] uppercase tracking-[0.1em] text-amber font-semibold">{b.label}</p>
+              <h3 class="text-base md:text-lg font-bold text-navy">{b.title}</h3>
+            </div>
+          </div>
+
+          <p class="text-sm leading-relaxed text-gray-600">{b.body}</p>
+
+          {b.tiers && (
+            <ul class="mt-4 space-y-2 border-t border-gray-100 pt-4">
+              {b.tiers.map((t) => (
+                <li class="flex items-baseline gap-3 text-sm">
+                  <span class="font-bold text-navy whitespace-nowrap">{t.ratio}</span>
+                  <span class="text-gray-500">{t.note}</span>
+                </li>
+              ))}
+            </ul>
+          )}
+        </div>
+      ))}
+    </div>
+
+    <!-- Closing line + CTA -->
+    <div class="mt-10 text-center">
+      <a
+        href="#lead-form"
+        data-event="scroll_to_form"
+        data-location="fl_underwriting"
+        class="inline-flex items-center rounded-lg bg-blue px-6 py-3 text-base font-semibold text-white transition-colors hover:bg-blue-dark"
+      >
+        Get My Deal Reviewed
+        <svg class="ml-2 h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+        </svg>
+      </a>
+    </div>
+  </div>
+</section>

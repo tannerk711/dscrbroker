@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { STATE_NAMES, PROPERTY_TYPE_NAMES } from '../../utils/brokerRouting';
 import type { DealVerdict, ProgramRecommendation } from '../../utils/rateEstimation';
+import { JOHN_LICENSING_LINE, JOHN_LICENSING_PARAGRAPH } from '../../data/john-licensing';
 
 interface SubmissionPayload {
   loanGoal?: string;
@@ -26,7 +27,12 @@ const TIER_STYLES: Record<DealVerdict['tier'], { ring: string; pill: string; pil
 // at Barrett Financial. As more LOs come into the network, add their entries here keyed
 // by the broker identifier in brokerRouting.ts.
 interface SpecialistProfile {
+  // Legal identity. The individual licensed loan officer. Used for NMLS attribution
+  // and any compliance text. Never a "team" or company name.
   name: string;
+  // Presentation label shown in headings/UI (may be a team label, e.g. "John Peisner Team").
+  // Falls back to `name` if not set.
+  displayName?: string;
   title: string;
   nmls: string;
   company: string;
@@ -39,10 +45,14 @@ interface SpecialistProfile {
     count: number;
     quotes: { quote: string; author: string; avatar: string }[];
   };
+  // Full state-licensing disclaimer for this specialist. Rendered in the thank-you
+  // page footer only when this broker is the matched specialist. null = no block.
+  licensing: { line: string; paragraph: string } | null;
 }
 
 const DEFAULT_SPECIALIST: SpecialistProfile = {
   name: 'John Peisner',
+  displayName: 'John Peisner Team',
   title: 'Senior Loan Officer',
   nmls: '239185',
   company: 'Barrett Financial Group',
@@ -75,6 +85,10 @@ const DEFAULT_SPECIALIST: SpecialistProfile = {
       },
     ],
   },
+  licensing: {
+    line: JOHN_LICENSING_LINE,
+    paragraph: JOHN_LICENSING_PARAGRAPH,
+  },
 };
 
 const BROKER_PROFILES: Record<string, SpecialistProfile> = {
@@ -96,7 +110,7 @@ function getThankYouCopy(loanGoal: string | undefined, firstName: string | undef
   if (loanGoal === 'flip') {
     return {
       headline: `${greeting} You're matched.`,
-      body: "Based on the info you provided, your file looks like a fit for a fix & flip. Your matched DSCR specialist will reach out shortly to review the details, pre-qualify you, and walk you through a formal quote and term sheet.",
+      body: "Based on the info you provided, your file looks like a fit for a fix & flip or fix-and-hold. Your matched DSCR specialist will reach out shortly to review the details, pre-qualify you, and walk you through a formal quote and term sheet.",
     };
   }
   return {
@@ -187,6 +201,8 @@ export default function ThankYou() {
   const propertyTypeName = propertyType ? PROPERTY_TYPE_NAMES[propertyType] || propertyType : '';
   const tierStyle = dealVerdict ? TIER_STYLES[dealVerdict.tier] : TIER_STYLES.workable;
   const specialist = (matchedBroker && BROKER_PROFILES[matchedBroker]) || DEFAULT_SPECIALIST;
+  // Presentation label (may be a team name). Legal/NMLS text still uses specialist.name.
+  const specialistDisplayName = specialist.displayName ?? specialist.name;
 
   return (
     <div className="max-w-3xl mx-auto">
@@ -227,7 +243,7 @@ export default function ThankYou() {
             <svg className="mt-0.5 h-5 w-5 flex-shrink-0 text-blue-light" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2.5">
               <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
             </svg>
-            <span className="text-sm md:text-base">Once verified, your specialist structures your file and presents it to the right lender for approval.</span>
+            <span className="text-sm md:text-base">Once verified, your DSCR specialist structures your file, walks you through the pros and cons, presents rates and payments for your review, and guides you through a same-day formal pre-approval.</span>
           </li>
         </ul>
       </div>
@@ -238,7 +254,7 @@ export default function ThankYou() {
           <div className="relative flex-shrink-0 mx-auto sm:mx-0">
             <img
               src={specialist.headshot}
-              alt={`${specialist.name}, ${specialist.title}`}
+              alt={`${specialistDisplayName}, ${specialist.title}`}
               className="w-24 h-24 md:w-28 md:h-28 rounded-full object-cover ring-2 ring-white/15"
               loading="lazy"
             />
@@ -253,7 +269,7 @@ export default function ThankYou() {
               Your Matched Specialist
             </p>
             <h2 className="text-xl md:text-2xl font-bold text-white mt-1" style={{ fontFamily: 'var(--font-sans)' }}>
-              {specialist.name}
+              {specialistDisplayName}
             </h2>
             <p className="text-sm text-white/60 mt-0.5">
               {specialist.title} · NMLS #{specialist.nmls}
@@ -407,6 +423,17 @@ export default function ThankYou() {
       <p className="text-white/30 text-xs mt-10 max-w-xl mx-auto text-center leading-relaxed">
         Pre-qualification is based on the information you provided. Final approval is subject to your specialist's review, full underwriting, appraisal, and lender guidelines. This is not a loan offer or commitment to lend. DSCRBroker.com is a matching service, not a lender or mortgage broker. {specialist.name} is a licensed loan officer with {specialist.company} (NMLS #{specialist.nmls}).
       </p>
+
+      {/* Matched-specialist licensing block. Renders only when the matched broker
+          carries a licensing disclaimer (currently John Peisner / Barrett Financial). */}
+      {specialist.licensing && (
+        <div className="mt-8 pt-6 border-t border-white/10 text-white/30 text-[11px] leading-relaxed space-y-3 max-w-3xl mx-auto">
+          <p>
+            <strong className="text-white/50">Licensing:</strong> {specialist.licensing.line}
+          </p>
+          <p>{specialist.licensing.paragraph}</p>
+        </div>
+      )}
     </div>
   );
 }

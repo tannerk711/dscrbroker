@@ -4,7 +4,6 @@ const navLinks = [
   { label: 'Loan Programs', href: '/programs/' },
   { label: 'Deal Analyzer', href: '/analyze/' },
   { label: 'States', href: '/states/' },
-  { label: 'Learn', href: '/learn/' },
   { label: 'About', href: '/about/' },
   { label: 'Contact', href: '/contact/' },
 ];
@@ -82,19 +81,6 @@ export default function MobileNav() {
               Match Me With a Specialist
             </a>
           </div>
-
-          {/* PLACEHOLDER: Phone number */}
-          <a
-            href="tel:+10000000000"
-            className="mt-2 flex items-center justify-center gap-2 rounded-lg border border-navy-mid px-4 py-3 text-sm font-medium text-slate-300 transition-colors hover:border-blue hover:text-white"
-            onClick={() => setIsOpen(false)}
-          >
-            <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-              <path strokeLinecap="round" strokeLinejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-            </svg>
-            {/* PLACEHOLDER: Phone number */}
-            (XXX) XXX-XXXX
-          </a>
         </nav>
       </div>
     </>

@@ -329,7 +329,7 @@ export default function DSCRCalculator() {
             Match Me With a Specialist
           </a>
           <p className="text-xs text-gray-400 text-center mt-2">
-            Takes under 2 minutes. No credit pull.
+            Takes under 2 minutes. No SSN. No credit pull.
           </p>
         </div>
       </div>

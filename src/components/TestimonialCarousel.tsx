@@ -37,7 +37,7 @@ const testimonials: Testimonial[] = [
     quote: 'My local credit union told me my self-employed income wouldn\'t qualify and tried to push me into a worse program. My matched broker structured a DSCR loan that ignored my personal income entirely and qualified on the property\'s rent.',
     outcome: 'Self-employed, declined elsewhere',
     ltv: '75%',
-    closeDays: '21 Days',
+    closeDays: 'Fast Closing',
   },
   {
     name: 'Keisha D.',

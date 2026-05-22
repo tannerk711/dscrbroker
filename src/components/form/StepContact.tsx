@@ -228,7 +228,7 @@ export default function StepContact({
               after:content-[''] after:absolute after:left-1.5 after:top-0.5 after:w-1.5 after:h-3 after:border-white after:border-r-2 after:border-b-2 after:rotate-45 after:opacity-0 checked:after:opacity-100"
           />
           <span className="text-white/60 text-xs leading-relaxed">
-            I agree to be contacted by a licensed DSCR loan specialist about my deal. Soft credit pull only.
+            I agree to be contacted by a licensed DSCR loan specialist about my deal. Submitting this form does not pull my credit.
           </span>
         </label>
         {errors.consent && touched.consent && (
@@ -266,10 +266,6 @@ export default function StepContact({
             >
               Try Again
             </button>
-            <a href="tel:+15555555555" className="text-blue hover:underline text-sm">
-              {/* PLACEHOLDER: Phone number */}
-              Call Us
-            </a>
           </div>
         </div>
       )}

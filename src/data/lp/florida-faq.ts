@@ -42,7 +42,7 @@ export const floridaFAQ: FAQItem[] = [
   {
     question: 'What credit score do I need for a Florida DSCR loan?',
     answer:
-      "Most Florida DSCR programs in John's network require 660+, with the strongest terms at 700+. Some Foreign National and Bridge-to-DSCR programs accept lower. John runs your scenario across multiple programs and matches you to the right one. Soft pull only at the qualification stage. No credit impact from getting matched.",
+      "Most Florida DSCR programs in John's network require 660+, with the strongest terms at 700+. Some Foreign National and Bridge-to-DSCR programs accept lower. John runs your scenario across multiple programs and matches you to the right one. Getting matched does not pull your credit. Any credit check is run by John later, only after you submit a formal application and give consent.",
   },
   {
     question: 'I was declined by another DSCR lender. Can John still close my deal?',

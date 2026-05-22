@@ -320,7 +320,7 @@ export default function DSCRForm() {
       window.location.href = '/thank-you/';
     } else {
       trackEvent('form_error', { error_type: 'webhook_failed', step: currentStep });
-      $submitError.set('Something went wrong. Your information has been saved. Please try again or call us.');
+      $submitError.set('Something went wrong. Your information has been saved. Please try again.');
     }
   }, [currentStep]);
 

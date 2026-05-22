@@ -1,4 +1,5 @@
 ---
+import { JOHN_LICENSING_LINE, JOHN_LICENSING_PARAGRAPH } from '../../data/john-licensing';
 const currentYear = new Date().getFullYear();
 ---
 
@@ -15,6 +16,14 @@ const currentYear = new Date().getFullYear();
       <p>
         By submitting your information, you consent to be contacted by your matched DSCR specialist via phone, SMS, or email regarding your inquiry, even if your number is on a Do Not Call list. Consent is not a condition of any loan or service. Message and data rates may apply.
       </p>
+    </div>
+
+    <!-- Licensing block (matched specialist: John Peisner / Barrett Financial Group) -->
+    <div class="mt-8 pt-6 border-t border-white/5 text-white/35 text-[11px] leading-relaxed space-y-3">
+      <p>
+        <strong class="text-white/55">Licensing:</strong> {JOHN_LICENSING_LINE}
+      </p>
+      <p>{JOHN_LICENSING_PARAGRAPH}</p>
     </div>
 
     <!-- Links + EHO -->
