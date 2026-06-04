@@ -32,3 +32,6 @@ DSCRbrokers-apr2.vtt
 context/
 scripts/
 CHANGE-LOG-*.md
+
+# Local dev server log
+dev.log

@@ -4,7 +4,7 @@ const rows = [
   { feature: 'Accepts STR / short-term rental income', us: 'yes', generic: 'maybe', bank: 'no' },
   { feature: 'No-ratio program to 70% LTV', us: 'yes', generic: 'maybe', bank: 'no' },
   { feature: 'Funds non-warrantable condos', us: 'yes', generic: 'maybe', bank: 'no' },
-  { feature: 'Tax returns required', us: 'no', generic: 'no', bank: 'yes' },
+  { feature: 'No tax returns required', us: 'yes', generic: 'yes', bank: 'no' },
   { feature: 'Fast closings on clean files', us: 'yes', generic: 'maybe', bank: 'no' },
   { feature: 'Consultative on the first call', us: 'yes', generic: 'no', bank: 'no' },
   { feature: 'Lender options on your deal', us: '70+', generic: 'Single program', bank: 'Single program' },
@@ -63,14 +63,14 @@ function renderCell(value: string): Cell {
               {generic.kind === 'glyph' ? (
                 <span class={`chip chip-glyph ${generic.chipClass}`}>{generic.label}</span>
               ) : (
-                <span class="text-navy font-semibold text-sm">{generic.label}</span>
+                <span class="text-navy font-bold text-sm">{generic.label}</span>
               )}
             </div>
             <div class="px-5 py-4 text-center border-l border-gray-100">
               {bank.kind === 'glyph' ? (
                 <span class={`chip chip-glyph ${bank.chipClass}`}>{bank.label}</span>
               ) : (
-                <span class="text-gray-400 font-semibold text-sm">{bank.label}</span>
+                <span class="text-gray-500 font-bold text-sm">{bank.label}</span>
               )}
             </div>
           </div>
@@ -100,7 +100,7 @@ function renderCell(value: string): Cell {
                 {generic.kind === 'glyph' ? (
                   <span class={`chip chip-glyph ${generic.chipClass}`}>{generic.label}</span>
                 ) : (
-                  <span class="text-navy font-semibold text-xs">{generic.label}</span>
+                  <span class="text-navy font-bold text-xs">{generic.label}</span>
                 )}
                 <div class="text-[10px] uppercase tracking-wider text-gray-500">Generic DSCR</div>
               </div>
@@ -108,7 +108,7 @@ function renderCell(value: string): Cell {
                 {bank.kind === 'glyph' ? (
                   <span class={`chip chip-glyph ${bank.chipClass}`}>{bank.label}</span>
                 ) : (
-                  <span class="text-gray-400 font-semibold text-xs">{bank.label}</span>
+                  <span class="text-gray-500 font-bold text-xs">{bank.label}</span>
                 )}
                 <div class="text-[10px] uppercase tracking-wider text-gray-500">Big Bank</div>
               </div>
