@@ -1,0 +1,282 @@
+---
+import LandingLayout from '../../layouts/LandingLayout.astro';
+import LPHeader from '../../components/lp/LPHeader.astro';
+import HeroTennessee from '../../components/lp/HeroTennessee.astro';
+import BenefitsFL from '../../components/lp/BenefitsFL.astro';
+import HowItWorksTennessee from '../../components/lp/HowItWorksTennessee.astro';
+import DSCRUnderwritingReality from '../../components/lp/DSCRUnderwritingReality.astro';
+import TestimonialCarouselTennessee from '../../components/lp/TestimonialCarouselTennessee.tsx';
+import BarrettReviews from '../../components/lp/BarrettReviews.astro';
+import SpecialistCard from '../../components/lp/SpecialistCard.astro';
+import ComparisonTable from '../../components/lp/ComparisonTable.astro';
+import FAQAccordion from '../../components/FAQAccordion.tsx';
+import FinalCTATennessee from '../../components/lp/FinalCTATennessee.astro';
+import LPFooter from '../../components/lp/LPFooter.astro';
+import StickyMobileCTA from '../../components/lp/StickyMobileCTA.astro';
+import { tennesseeFAQ } from '../../data/lp/tennessee-faq';
+
+const title = 'Tennessee DSCR Loans, Consultative From Day One | DSCRBroker.com';
+const description = "Get matched with John Peisner at Barrett Financial, a Tennessee DSCR specialist with 1000+ closed loans. No state income tax and low property taxes help the deal pencil. Nashville, Memphis, Knoxville, and declined files handled. Qualify on rents, not tax returns.";
+
+const faqJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: tennesseeFAQ.map((q) => ({
+    '@type': 'Question',
+    name: q.question,
+    acceptedAnswer: {
+      '@type': 'Answer',
+      text: q.answer,
+    },
+  })),
+};
+
+const serviceJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'FinancialService',
+  name: 'DSCRBroker.com Tennessee DSCR Specialist Matching',
+  description,
+  url: 'https://dscrbroker.com/lp/tennessee-dscr/',
+  areaServed: {
+    '@type': 'State',
+    name: 'Tennessee',
+  },
+  provider: {
+    '@type': 'Organization',
+    name: 'DSCRBroker.com',
+  },
+};
+---
+
+<LandingLayout
+  title={title}
+  description={description}
+  noIndex={true}
+  hideHeader={true}
+  hideFooter={true}
+  jsonLd={[serviceJsonLd, faqJsonLd]}
+>
+  <Fragment slot="head">
+    <noscript>
+      <style>
+        .fl-reveal, .fl-reveal-chip { opacity: 1 !important; transform: none !important; }
+      </style>
+    </noscript>
+  </Fragment>
+
+  <LPHeader phoneNumber="(855) 738-1557" phoneLabel="Talk to a TN DSCR Specialist" />
+
+  <HeroTennessee />
+
+  <!-- Comparison up front: kills "why not go direct" while cold -->
+  <ComparisonTable />
+
+  <!-- DSCR Underwriting Reality: the spine of the page -->
+  <DSCRUnderwritingReality />
+
+  <!-- Meet John AFTER the visitor knows why DSCR is hard. Anchor panel: soft blue tint frames the section. -->
+  <section data-tn-section="specialist" class="py-20 md:py-24" style="background: linear-gradient(180deg, rgba(59,130,246,0.04) 0%, rgba(59,130,246,0.07) 100%);">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-10">
+        <p class="text-xs font-medium uppercase tracking-[0.1em] text-amber mb-3">MEET YOUR SPECIALIST</p>
+        <h2 class="text-3xl md:text-4xl font-bold tracking-tight text-navy">John Peisner, Tennessee DSCR Specialist</h2>
+      </div>
+      <SpecialistCard
+        variant="full"
+        theme="light"
+        title="Tennessee DSCR Specialist"
+        specialistLabel="Your TN Specialist"
+        bio="John Peisner has closed 1000+ DSCR and non-QM loans at Barrett Financial Group, and he's the specialist real estate investors call when their first lender said no. Consultative on the first call: he walks you through entity structuring, how lenders treat short-term rental income in Knoxville, Chattanooga, and the Smokies, the Nashville STR permit rules, and what the lender will actually want so you know what you're working with before you write the offer."
+      />
+    </div>
+  </section>
+
+  <BenefitsFL />
+
+  <HowItWorksTennessee />
+
+  <!-- TN Deal Stories: dark navy band -->
+  <section data-tn-section="testimonials" class="bg-navy py-20 md:py-24">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-10">
+        <p class="text-xs font-medium uppercase tracking-[0.1em] text-amber mb-3">TENNESSEE DEAL STORIES</p>
+        <h2 class="text-3xl md:text-4xl font-bold tracking-tight text-white">Real Tennessee Deals, Real Outcomes</h2>
+        <p class="mt-4 text-lg text-white/60 leading-relaxed max-w-3xl mx-auto">
+          A snapshot of recent Tennessee deals John and his lender network closed, including the file-rescue ones other brokers walked away from.
+        </p>
+      </div>
+      <TestimonialCarouselTennessee client:visible />
+
+      <!-- CTA after the testimonial emotional peak -->
+      <div class="mt-12 flex flex-col items-center gap-3 sm:gap-4 sm:flex-row sm:justify-center">
+        <a
+          href="#lead-form"
+          data-event="scroll_to_form"
+          data-location="after_testimonials"
+          class="inline-flex items-center justify-center rounded-lg bg-blue px-6 py-3 text-base font-semibold text-white transition-colors hover:bg-blue-dark w-full sm:w-auto"
+        >
+          Match Me With John
+          <svg class="ml-2 h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+          </svg>
+        </a>
+        <a
+          href="tel:8557381557"
+          data-event="phone_click"
+          data-location="after_testimonials"
+          class="inline-flex items-center justify-center gap-2 rounded-lg border border-white/15 bg-white/[0.04] px-6 py-3 text-base font-medium text-white transition-colors hover:border-blue hover:bg-blue/10 w-full sm:w-auto"
+        >
+          <svg class="h-5 w-5 text-amber" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h2.28a1 1 0 01.95.68l1.5 4.49a1 1 0 01-.5 1.21l-1.86.93a11 11 0 005.2 5.2l.93-1.86a1 1 0 011.21-.5l4.49 1.5a1 1 0 01.68.95V19a2 2 0 01-2 2h-1C9.72 21 3 14.28 3 6V5z" />
+          </svg>
+          Call (855) 738-1557
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Live Google reviews as closing third-party trust signal -->
+  <BarrettReviews state="Tennessee" />
+
+  <!-- FAQ -->
+  <section data-tn-section="faq" class="bg-off-white py-20 md:py-24">
+    <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-10">
+        <p class="text-xs font-medium uppercase tracking-[0.1em] text-amber mb-3">QUESTIONS</p>
+        <h2 class="text-3xl md:text-4xl font-bold tracking-tight text-navy">Tennessee DSCR Loan Questions</h2>
+        <p class="mt-4 text-base text-gray-500">The questions TN investors actually ask after their first lender said no.</p>
+      </div>
+      <FAQAccordion items={tennesseeFAQ} client:visible />
+
+      <!-- CTA after FAQ, before final close -->
+      <div class="mt-12 flex flex-col items-center gap-3 sm:gap-4 sm:flex-row sm:justify-center">
+        <a
+          href="#lead-form"
+          data-event="scroll_to_form"
+          data-location="after_faq"
+          class="inline-flex items-center justify-center rounded-lg bg-blue px-6 py-3 text-base font-semibold text-white transition-colors hover:bg-blue-dark w-full sm:w-auto"
+        >
+          Check My TN Deal's Eligibility
+          <svg class="ml-2 h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+          </svg>
+        </a>
+        <a
+          href="tel:8557381557"
+          data-event="phone_click"
+          data-location="after_faq"
+          class="inline-flex items-center justify-center gap-2 rounded-lg border border-gray-300 bg-white px-6 py-3 text-base font-medium text-navy transition-colors hover:border-blue hover:text-blue w-full sm:w-auto"
+        >
+          <svg class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h2.28a1 1 0 01.95.68l1.5 4.49a1 1 0 01-.5 1.21l-1.86.93a11 11 0 005.2 5.2l.93-1.86a1 1 0 011.21-.5l4.49 1.5a1 1 0 01.68.95V19a2 2 0 01-2 2h-1C9.72 21 3 14.28 3 6V5z" />
+          </svg>
+          Call John Direct
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <FinalCTATennessee phoneNumber="(855) 738-1557" />
+
+  <LPFooter state="Tennessee" />
+
+  <StickyMobileCTA phoneNumber="(855) 738-1557" />
+</LandingLayout>
+
+<!-- GSAP-driven motion for the TN LP. Lazy-loads gsap/ScrollTrigger via dynamic import and respects prefers-reduced-motion. -->
+<script>
+  const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (!reduce) {
+    Promise.all([
+      import('gsap'),
+      import('gsap/ScrollTrigger'),
+    ]).then(([{ default: gsap }, { ScrollTrigger }]) => {
+      gsap.registerPlugin(ScrollTrigger);
+
+      const sections = document.querySelectorAll('[data-tn-section]:not([data-tn-section="hero"])');
+      sections.forEach((section) => {
+        const heading = section.querySelector('h2');
+        if (!heading) return;
+        const headingBlock = heading.parentElement || heading;
+        gsap.set(headingBlock, { opacity: 0, y: 24 });
+        ScrollTrigger.create({
+          trigger: section,
+          start: 'top 80%',
+          once: true,
+          onEnter: () => {
+            gsap.to(headingBlock, { opacity: 1, y: 0, duration: 0.6, ease: 'power2.out' });
+          },
+        });
+      });
+
+      const heroBg = document.getElementById('tn-hero-bg');
+      if (heroBg) {
+        gsap.to(heroBg, {
+          yPercent: 10,
+          ease: 'none',
+          scrollTrigger: { trigger: '[data-tn-section="hero"]', start: 'top top', end: 'bottom top', scrub: true },
+        });
+      }
+
+      const heroChips = document.querySelectorAll('[data-tn-hero-chips] .fl-reveal-chip');
+      if (heroChips.length) {
+        gsap.to(heroChips, { opacity: 1, y: 0, duration: 0.5, ease: 'power2.out', stagger: 0.08, delay: 0.3 });
+      }
+
+      const finalChips = document.querySelectorAll('[data-tn-finalcta-chips] .fl-reveal-chip');
+      if (finalChips.length) {
+        ScrollTrigger.create({
+          trigger: '[data-tn-section="final-cta"]',
+          start: 'top 80%',
+          once: true,
+          onEnter: () => {
+            gsap.to(finalChips, { opacity: 1, y: 0, duration: 0.5, ease: 'power2.out', stagger: 0.08 });
+          },
+        });
+      }
+
+      const steps = document.querySelectorAll('[data-tn-step]');
+      if (steps.length) {
+        gsap.set(steps, { opacity: 0, y: 24 });
+        ScrollTrigger.create({
+          trigger: '[data-tn-section="how-it-works"]',
+          start: 'top 75%',
+          once: true,
+          onEnter: () => {
+            gsap.to(steps, { opacity: 1, y: 0, duration: 0.6, ease: 'power2.out', stagger: 0.12 });
+          },
+        });
+      }
+
+      const statEls = document.querySelectorAll('[data-stat-value]');
+      statEls.forEach((el) => {
+        const raw = (el as HTMLElement).dataset.statValue || '';
+        const match = raw.match(/^([^\d]*)(\d[\d,]*)(.*)$/);
+        if (!match) return;
+        const prefix = match[1];
+        const numStr = match[2].replace(/,/g, '');
+        const suffix = match[3];
+        const target = parseInt(numStr, 10);
+        if (Number.isNaN(target) || target <= 0) return;
+        const obj = { v: 0 };
+        ScrollTrigger.create({
+          trigger: el,
+          start: 'top 85%',
+          once: true,
+          onEnter: () => {
+            gsap.to(obj, {
+              v: target,
+              duration: 1.2,
+              ease: 'power2.out',
+              onUpdate: () => {
+                const display = Math.round(obj.v).toLocaleString();
+                el.textContent = `${prefix}${display}${suffix}`;
+              },
+              onComplete: () => { el.textContent = raw; },
+            });
+          },
+        });
+      });
+    });
+  }
+</script>

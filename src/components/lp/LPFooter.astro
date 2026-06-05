@@ -1,5 +1,10 @@
 ---
 import { JOHN_LICENSING_LINE, JOHN_LICENSING_PARAGRAPH } from '../../data/john-licensing';
+
+interface Props {
+  state?: string;
+}
+const { state = 'Florida' } = Astro.props;
 const currentYear = new Date().getFullYear();
 ---
 
@@ -8,7 +13,7 @@ const currentYear = new Date().getFullYear();
     <!-- Compliance block -->
     <div class="text-white/40 text-xs leading-relaxed space-y-3">
       <p>
-        <strong class="text-white/70">DSCRBroker.com is a lead matching service.</strong> We are not a lender, bank, or licensed mortgage broker. Licensed broker activity, including pre-qualification, pre-approval, file structuring, lender selection, rate quotes, credit pulls, and income verification, is performed by your matched specialist. For Florida deals, your matched specialist is John Peisner / Barrett Financial Group, NMLS #239185.
+        <strong class="text-white/70">DSCRBroker.com is a lead matching service.</strong> We are not a lender, bank, or licensed mortgage broker. Licensed broker activity, including pre-qualification, pre-approval, file structuring, lender selection, rate quotes, credit pulls, and income verification, is performed by your matched specialist. For {state} deals, your matched specialist is John Peisner / Barrett Financial Group, NMLS #239185.
       </p>
       <p>
         Equal Housing Opportunity. All loan products are offered by independent licensed mortgage brokers and lenders. This is not a commitment to lend. Loan terms, eligibility, and approval are subject to the matched specialist's underwriting review and the originating lender's program requirements. Property types, locations, and borrower scenarios may not qualify under all programs.

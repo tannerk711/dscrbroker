@@ -1,0 +1,223 @@
+{
+  "account": {
+    "customer_id": "2692254480",
+    "name": "John P - Self Employed"
+  },
+  "campaign": {
+    "id": "22223910646",
+    "name": "DSCR Multi-State Campaign",
+    "status": "PAUSED",
+    "channel_type": "SEARCH",
+    "bidding_strategy": "MAXIMIZE_CONVERSIONS",
+    "budget_name": "DSCR Multi-State Campaign",
+    "daily_budget_usd": 50.0
+  },
+  "geo_targets": [
+    {
+      "geo_target_constant": "geoTargetConstants/2076",
+      "negative": true
+    },
+    {
+      "geo_target_constant": "geoTargetConstants/2124",
+      "negative": true
+    },
+    {
+      "geo_target_constant": "geoTargetConstants/2156",
+      "negative": true
+    },
+    {
+      "geo_target_constant": "geoTargetConstants/2356",
+      "negative": true
+    },
+    {
+      "geo_target_constant": "geoTargetConstants/2484",
+      "negative": true
+    },
+    {
+      "geo_target_constant": "geoTargetConstants/2586",
+      "negative": true
+    },
+    {
+      "geo_target_constant": "geoTargetConstants/2608",
+      "negative": true
+    },
+    {
+      "geo_target_constant": "geoTargetConstants/2643",
+      "negative": true
+    },
+    {
+      "geo_target_constant": "geoTargetConstants/21136",
+      "negative": false
+    },
+    {
+      "geo_target_constant": "geoTargetConstants/21137",
+      "negative": false
+    },
+    {
+      "geo_target_constant": "geoTargetConstants/21138",
+      "negative": false
+    },
+    {
+      "geo_target_constant": "geoTargetConstants/21139",
+      "negative": false
+    },
+    {
+      "geo_target_constant": "geoTargetConstants/21140",
+      "negative": false
+    },
+    {
+      "geo_target_constant": "geoTargetConstants/21142",
+      "negative": false
+    },
+    {
+      "geo_target_constant": "geoTargetConstants/21143",
+      "negative": false
+    },
+    {
+      "geo_target_constant": "geoTargetConstants/21144",
+      "negative": false
+    },
+    {
+      "geo_target_constant": "geoTargetConstants/21147",
+      "negative": false
+    },
+    {
+      "geo_target_constant": "geoTargetConstants/21152",
+      "negative": false
+    },
+    {
+      "geo_target_constant": "geoTargetConstants/21153",
+      "negative": false
+    },
+    {
+      "geo_target_constant": "geoTargetConstants/21160",
+      "negative": false
+    },
+    {
+      "geo_target_constant": "geoTargetConstants/21164",
+      "negative": false
+    },
+    {
+      "geo_target_constant": "geoTargetConstants/21166",
+      "negative": false
+    },
+    {
+      "geo_target_constant": "geoTargetConstants/21167",
+      "negative": false
+    },
+    {
+      "geo_target_constant": "geoTargetConstants/21171",
+      "negative": false
+    },
+    {
+      "geo_target_constant": "geoTargetConstants/21175",
+      "negative": false
+    },
+    {
+      "geo_target_constant": "geoTargetConstants/21176",
+      "negative": false
+    },
+    {
+      "geo_target_constant": "geoTargetConstants/21178",
+      "negative": false
+    },
+    {
+      "geo_target_constant": "geoTargetConstants/21180",
+      "negative": false
+    }
+  ],
+  "ad_groups": [
+    {
+      "id": "172077307102",
+      "name": "DSCR Loan",
+      "status": "ENABLED",
+      "cpc_bid_usd": 0.01,
+      "keywords": [
+        {
+          "text": "dscr",
+          "match_type": "BROAD",
+          "status": "PAUSED"
+        },
+        {
+          "text": "dscr loan",
+          "match_type": "BROAD",
+          "status": "PAUSED"
+        },
+        {
+          "text": "dscr loan",
+          "match_type": "PHRASE",
+          "status": "ENABLED"
+        },
+        {
+          "text": "dscr lender",
+          "match_type": "EXACT",
+          "status": "ENABLED"
+        },
+        {
+          "text": "dscr investor loan",
+          "match_type": "BROAD",
+          "status": "PAUSED"
+        },
+        {
+          "text": "dscr lender",
+          "match_type": "PHRASE",
+          "status": "ENABLED"
+        },
+        {
+          "text": "dscr lender",
+          "match_type": "BROAD",
+          "status": "PAUSED"
+        }
+      ],
+      "negative_keywords": [
+        {
+          "text": "prestamos",
+          "match_type": "PHRASE",
+          "status": "ENABLED"
+        }
+      ],
+      "responsive_search_ads": [
+        {
+          "ad_id": "732446434722",
+          "status": "ENABLED",
+          "final_urls": [
+            "https://dscrbrokers.com/home-1"
+          ],
+          "path1": "dscr-loan",
+          "path2": "lender",
+          "headlines": [
+            "DSCR Investment Property Loans",
+            "{LOCATION(State)} DSCR Loan Lender",
+            "DSCR Loan Approval",
+            "No Tax Return DSCR Loans",
+            "Buy, Flip, or Cash Out Refi",
+            "No Doc DSCR Investor Loans"
+          ],
+          "descriptions": [
+            "{LOCATION(State)} DSCR Investor Loans. No Tax Returns or W2's Needed. Minimum 20% Down.",
+            "DSCR Investment Property Lender Will Help You Identify How Much You Can Qualify For!",
+            "No Docs Needed. Scale Your Portfolio with A DSCR Loan. Check Your Eligibility."
+          ]
+        }
+      ]
+    }
+  ],
+  "campaign_negatives": [
+    {
+      "text": "mobile",
+      "match_type": "PHRASE"
+    },
+    {
+      "text": "manufactured",
+      "match_type": "PHRASE"
+    },
+    {
+      "text": "bad",
+      "match_type": "PHRASE"
+    }
+  ],
+  "sitelinks": [],
+  "callouts": [],
+  "structured_snippets": [],
+  "call_assets": []
+}

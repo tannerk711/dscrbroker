@@ -5,6 +5,11 @@
 //
 // Reviews are rendered by the Elfsight widget below, which pulls live from Barrett's GBP.
 // The script is async + lazy via data-elfsight-app-lazy.
+
+interface Props {
+  state?: string;
+}
+const { state = 'Florida' } = Astro.props;
 ---
 
 <section data-fl-section="barrett-reviews" class="bg-off-white py-16 md:py-20 border-t border-gray-100">
@@ -24,7 +29,7 @@
       <h2 class="text-3xl md:text-4xl font-bold tracking-tight text-navy">What Clients Have to Say About John and Barrett Financial</h2>
 
       <p class="mt-4 text-xs text-gray-500 max-w-2xl mx-auto leading-relaxed">
-        Reviews for <strong class="text-navy">John Peisner / Barrett Financial Group</strong>, NMLS #239185, your matched Florida specialist. Aggregated live from Google.
+        Reviews for <strong class="text-navy">John Peisner / Barrett Financial Group</strong>, NMLS #239185, your matched {state} specialist. Aggregated live from Google.
       </p>
     </div>
 

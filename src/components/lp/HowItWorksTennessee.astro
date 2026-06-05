@@ -1,0 +1,48 @@
+---
+const steps = [
+  {
+    number: '01',
+    title: 'Tell us about your Tennessee deal',
+    description: 'Property type, metro, estimated value, down payment, credit range. One question at a time. 60 seconds. No SSN required.',
+  },
+  {
+    number: '02',
+    title: 'Get matched to John, your TN specialist',
+    description: 'Tennessee submissions route to John Peisner / Barrett Financial Group, NMLS #239185. He (or a licensed member of his team) reviews your scenario and reaches out the same business day.',
+  },
+  {
+    number: '03',
+    title: 'Talk it through, then submit',
+    description: "John walks you through the deal: what fits, what to watch for, what the lender will need. Once the plan makes sense, your file goes to the right lender in his network. Fast closings on clean files, with a realistic timeline for your specific file.",
+  },
+];
+---
+
+<section id="how-it-works" data-tn-section="how-it-works" class="relative bg-off-white py-20 md:py-24 overflow-hidden">
+  <div class="absolute inset-0" aria-hidden="true">
+    <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[900px] h-[900px] rounded-full" style="background: radial-gradient(circle, rgba(11,17,32,0.04) 0%, transparent 60%);"></div>
+  </div>
+  <div class="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    <div class="mx-auto max-w-3xl text-center">
+      <p class="text-xs font-medium uppercase tracking-[0.1em] text-amber mb-3">HOW IT WORKS</p>
+      <h2 class="text-3xl font-bold tracking-tight text-navy md:text-4xl">From Tennessee Deal to Closing in 3 Steps</h2>
+      <p class="mt-4 text-lg text-gray-500">One form. A licensed Tennessee DSCR specialist. A real conversation about your deal before anything gets submitted.</p>
+    </div>
+
+    <div class="relative mt-14 grid grid-cols-1 gap-10 md:grid-cols-3 md:gap-12">
+      <div class="connector-dashed absolute top-8 left-[calc(33.333%-1rem)] hidden w-[calc(33.333%+2rem)] md:block" aria-hidden="true"></div>
+      <div class="connector-dashed absolute top-8 left-[calc(66.666%-1rem)] hidden w-[calc(33.333%+2rem)] md:block" aria-hidden="true"></div>
+
+      {steps.map((step) => (
+        <div data-tn-step class="relative flex flex-col items-center text-center md:items-start md:text-left">
+          <div class="step-circle-glow flex h-16 w-16 items-center justify-center rounded-full bg-blue text-base font-bold text-white">
+            {step.number}
+          </div>
+
+          <h3 class="mt-5 text-lg md:text-xl font-bold text-navy">{step.title}</h3>
+          <p class="mt-2 text-sm md:text-[15px] leading-relaxed text-gray-500">{step.description}</p>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
