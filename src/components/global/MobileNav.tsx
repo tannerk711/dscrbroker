@@ -4,8 +4,6 @@ const navLinks = [
   { label: 'Loan Programs', href: '/programs/' },
   { label: 'Deal Analyzer', href: '/analyze/' },
   { label: 'States', href: '/states/' },
-  { label: 'About', href: '/about/' },
-  { label: 'Contact', href: '/contact/' },
 ];
 
 export default function MobileNav() {
