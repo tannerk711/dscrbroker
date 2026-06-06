@@ -8,8 +8,7 @@ import TestimonialCarousel from '../components/TestimonialCarousel';
 import FAQAccordion from '../components/FAQAccordion';
 import FinalCTA from '../components/FinalCTA.astro';
 import DSCRForm from '../components/form/DSCRForm';
-// Deal Analyzer hidden until fully functional. Re-add the import + section below when ready.
-// import DealAnalyzer from '../components/DealAnalyzer';
+import DealAnalyzer from '../components/DealAnalyzer';
 
 const title = 'DSCR Loans | Specialist Brokers in All 50 States | DSCRBroker.com';
 const description = 'DSCR loans for real estate investors, structured by licensed specialists across all 50 states. No income verification. No tax returns. No credit pull, 2-minute match.';
@@ -194,8 +193,7 @@ const faqJsonLd = {
   <!-- Section 4: Loan Programs -->
   <ProgramGrid />
 
-  {/* Section 5: Deal Analyzer hidden until fully functional. Re-enable this section
-      (and the DealAnalyzer import at top) when ready.
+  <!-- Section 5: Deal Analyzer -->
   <section id="deal-analyzer" class="relative bg-navy py-16 md:py-24 overflow-hidden">
     <div class="absolute inset-0" style="background: radial-gradient(ellipse at 50% 30%, #131C31 0%, #0B1120 70%);" aria-hidden="true"></div>
     <div class="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -209,7 +207,6 @@ const faqJsonLd = {
       </div>
     </div>
   </section>
-  */}
 
   <!-- Section 6: Who Qualifies -->
   <WhoQualifies />
