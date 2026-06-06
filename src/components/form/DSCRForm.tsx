@@ -7,7 +7,7 @@ import {
   $currentStep, $direction, $consent, $honeypot, $isSubmitting, $submitError,
   $submittedData, $matchedBroker, captureUTMParams, clearFormData, processURLParams,
 } from '../../stores/formStore';
-import { getBrokerForState, formatPhoneE164, getDeviceType } from '../../utils/brokerRouting';
+import { getBrokerForState, formatPhoneE164, getDeviceType, STATE_NAMES } from '../../utils/brokerRouting';
 import { getDealVerdict, getRecommendedProgram } from '../../utils/rateEstimation';
 import ProgressBar from './ProgressBar';
 import StepLoanGoal from './StepLoanGoal';
@@ -207,7 +207,8 @@ export default function DSCRForm() {
       });
       const payload = {
         loanGoal: $loanGoal.get() || 'purchase',
-        state: $state.get() || 'TX',
+        state: STATE_NAMES[$state.get()] || $state.get() || 'Texas',
+        stateCode: $state.get() || 'TX',
         propertyType: $propertyType.get() || 'single_family',
         creditScore: '700_739',
         cashFlow: 'positive',
@@ -243,7 +244,10 @@ export default function DSCRForm() {
       phone: formatPhoneE164($phone.get()),
       loanGoal: $loanGoal.get(),
       propertyType: $propertyType.get(),
-      state: $state.get(),
+      // Send the full spelled-out state name to the zap (easier to read in GHL).
+      // Keep the 2-letter code on `stateCode` for any downstream logic.
+      state: STATE_NAMES[$state.get()] || $state.get(),
+      stateCode: $state.get(),
       propertyValue: $propertyValue.get(),
       downPayment: $downPayment.get(),
       loanBalance: $loanBalance.get(),
