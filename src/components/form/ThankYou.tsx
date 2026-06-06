@@ -123,6 +123,7 @@ export default function ThankYou() {
   const [data, setData] = useState<SubmissionPayload | null>(null);
   const [loaded, setLoaded] = useState(false);
   const confettiRef = useRef(false);
+  const conversionFiredRef = useRef(false);
 
   useEffect(() => {
     try {
@@ -154,6 +155,18 @@ export default function ThankYou() {
     }
     setLoaded(true);
   }, []);
+
+  // Fire the Google Ads "New Lead" conversion. Real leads only: skip honeypot
+  // submissions (isFake) and the ?demo=1 preview. Fires once per page load.
+  useEffect(() => {
+    if (!data || data.isFake || conversionFiredRef.current) return;
+    if (typeof window === 'undefined') return;
+    if (new URLSearchParams(window.location.search).get('demo') === '1') return;
+    const gtag = (window as any).gtag;
+    if (typeof gtag !== 'function') return;
+    conversionFiredRef.current = true;
+    gtag('event', 'conversion', { send_to: 'AW-11297975154/E6kSCNqfnP4YEPLWpYsq' });
+  }, [data]);
 
   useEffect(() => {
     if (!data || data.isFake || confettiRef.current) return;

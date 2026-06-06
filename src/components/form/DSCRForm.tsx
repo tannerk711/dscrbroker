@@ -272,15 +272,22 @@ export default function DSCRForm() {
     let success = false;
 
     if (config.webhookUrl) {
+      // Browser -> Zapier CORS note: sending Content-Type: application/json (or any
+      // custom header like x-api-key) triggers a CORS preflight that Zapier catch
+      // hooks do not answer, so the POST silently drops. text/plain is a "simple"
+      // request that skips preflight; Zapier still parses the JSON body fine. Only
+      // send the x-api-key header when an apiKey is actually configured (a real
+      // broker endpoint that needs it), since that header forces preflight.
+      const body = JSON.stringify(payload);
       for (let attempt = 0; attempt < 2; attempt++) {
         try {
           const response = await fetch(config.webhookUrl, {
             method: 'POST',
-            headers: {
-              'Content-Type': 'application/json',
-              ...(config.apiKey ? { 'x-api-key': config.apiKey } : {}),
-            },
-            body: JSON.stringify(payload),
+            headers: config.apiKey
+              ? { 'Content-Type': 'application/json', 'x-api-key': config.apiKey }
+              : { 'Content-Type': 'text/plain;charset=UTF-8' },
+            body,
+            keepalive: true,
             signal: AbortSignal.timeout(10000),
           });
           if (response.ok) {

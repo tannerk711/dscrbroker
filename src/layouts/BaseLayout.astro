@@ -85,6 +85,15 @@ const fullOgImage = ogImage.startsWith('http') ? ogImage : `${siteUrl}${ogImage}
     <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
   )}
 
+  <!-- Google tag (gtag.js) — Google Ads AW-11297975154 -->
+  <script is:inline async src="https://www.googletagmanager.com/gtag/js?id=AW-11297975154"></script>
+  <script is:inline set:html={`
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'AW-11297975154');
+  `} />
+
   <!-- Google Tag Manager -->
   {import.meta.env.PUBLIC_GTM_ID && (
     <script set:html={`
