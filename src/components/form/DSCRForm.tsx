@@ -7,7 +7,7 @@ import {
   $currentStep, $direction, $consent, $honeypot, $isSubmitting, $submitError,
   $submittedData, $matchedBroker, captureUTMParams, clearFormData, processURLParams,
 } from '../../stores/formStore';
-import { getBrokerForState, getBrokerConfig, formatPhoneE164, getDeviceType } from '../../utils/brokerRouting';
+import { getBrokerForState, formatPhoneE164, getDeviceType } from '../../utils/brokerRouting';
 import { getDealVerdict, getRecommendedProgram } from '../../utils/rateEstimation';
 import ProgressBar from './ProgressBar';
 import StepLoanGoal from './StepLoanGoal';
@@ -268,41 +268,31 @@ export default function DSCRForm() {
       submittedAt: new Date().toISOString(),
     };
 
-    const config = getBrokerConfig(brokerKey);
     let success = false;
 
-    if (config.webhookUrl) {
-      // Browser -> Zapier CORS note: sending Content-Type: application/json (or any
-      // custom header like x-api-key) triggers a CORS preflight that Zapier catch
-      // hooks do not answer, so the POST silently drops. text/plain is a "simple"
-      // request that skips preflight; Zapier still parses the JSON body fine. Only
-      // send the x-api-key header when an apiKey is actually configured (a real
-      // broker endpoint that needs it), since that header forces preflight.
-      const body = JSON.stringify(payload);
-      for (let attempt = 0; attempt < 2; attempt++) {
-        try {
-          const response = await fetch(config.webhookUrl, {
-            method: 'POST',
-            headers: config.apiKey
-              ? { 'Content-Type': 'application/json', 'x-api-key': config.apiKey }
-              : { 'Content-Type': 'text/plain;charset=UTF-8' },
-            body,
-            keepalive: true,
-            signal: AbortSignal.timeout(10000),
-          });
-          if (response.ok) {
-            success = true;
-            break;
-          }
-        } catch {
-          if (attempt === 0) {
-            await new Promise((r) => setTimeout(r, 2000));
-          }
+    // POST to our own server route, which forwards to the broker's Zapier hook.
+    // The webhook URL is a non-PUBLIC env var, so it is NOT available in the
+    // browser bundle (Vite strips it) — it must be read server-side. This is also
+    // a same-origin request, so there is no CORS/preflight concern.
+    const body = JSON.stringify(payload);
+    for (let attempt = 0; attempt < 2; attempt++) {
+      try {
+        const response = await fetch('/api/lead', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body,
+          keepalive: true,
+          signal: AbortSignal.timeout(12000),
+        });
+        if (response.ok) {
+          success = true;
+          break;
+        }
+      } catch {
+        if (attempt === 0) {
+          await new Promise((r) => setTimeout(r, 2000));
         }
       }
-    } else {
-      // No webhook configured. Treat as success for development.
-      success = true;
     }
 
     $isSubmitting.set(false);
