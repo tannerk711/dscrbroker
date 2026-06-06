@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 
 const navLinks = [
   { label: 'Loan Programs', href: '/programs/' },
-  { label: 'Deal Analyzer', href: '/analyze/' },
+  // Deal Analyzer hidden until fully functional. Re-add when ready.
   { label: 'States', href: '/states/' },
 ];
 
