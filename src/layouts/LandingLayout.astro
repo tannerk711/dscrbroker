@@ -49,6 +49,15 @@ const canonicalUrl = canonical || new URL(Astro.url.pathname, siteUrl).href;
       <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
     )}
 
+    <!-- Google tag (gtag.js) -->
+    <script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-W92EXVZW3P"></script>
+    <script is:inline set:html={`
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-W92EXVZW3P');
+    `} />
+
     <!-- Google Tag Manager -->
     {import.meta.env.PUBLIC_GTM_ID && (
       <script set:html={`
