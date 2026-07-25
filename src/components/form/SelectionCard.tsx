@@ -59,7 +59,7 @@ export default function SelectionCard({ value, label, selected, onSelect, icon, 
             {label}
           </span>
           {subtitle && (
-            <span className={`text-xs mt-0.5 block transition-colors duration-200 ${selected ? 'text-white/50' : 'text-white/30'}`}>
+            <span className={`text-xs mt-0.5 block transition-colors duration-200 ${selected ? 'text-white/70' : 'text-white/60'}`}>
               {subtitle}
             </span>
           )}

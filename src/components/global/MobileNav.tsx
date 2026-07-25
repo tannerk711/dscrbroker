@@ -25,7 +25,7 @@ export default function MobileNav() {
       {/* Hamburger button */}
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="relative z-50 flex h-10 w-10 items-center justify-center rounded-lg text-white"
+        className="relative z-50 flex h-11 w-11 items-center justify-center rounded-lg text-white"
         aria-label={isOpen ? 'Close menu' : 'Open menu'}
         aria-expanded={isOpen}
       >

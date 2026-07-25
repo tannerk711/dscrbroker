@@ -8,9 +8,12 @@ interface StepLocationProps {
 
 export default function StepLocation({ value, onSelect }: StepLocationProps) {
   const [showConfirmation, setShowConfirmation] = useState(false);
+  const isCovered = (v: string) => STATES_LIST.some((s) => s.value === v);
 
   useEffect(() => {
-    if (value) {
+    // Only confirm coverage for states the network actually serves. A prefilled
+    // excluded state (e.g. from the analyzer handoff) must not claim a specialist.
+    if (value && isCovered(value)) {
       setShowConfirmation(true);
     }
   }, [value]);

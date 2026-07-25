@@ -12,6 +12,7 @@ import {
   type DSCRResult,
 } from '../lib/dscr-calculator';
 import {
+  $loanGoal,
   $propertyType,
   $state,
   $propertyValue,
@@ -298,14 +299,30 @@ export default function DealAnalyzer() {
   function handleGetStructured() {
     if (!result) return;
 
-    // Map property value to form bracket
-    const bracket = VALUE_BRACKETS.find(
-      (b) => result.propertyValue >= b.min && result.propertyValue < b.max
-    );
-    if (bracket) $propertyValue.set(bracket.formValue);
+    // The analyzer only models purchase-style deals, so lock the path to purchase.
+    // PATHS in DSCRForm is keyed on loanGoal; leaving it unset broke path resolution.
+    $loanGoal.set('purchase');
 
-    // Set other form fields
-    if (result.propertyType) $propertyType.set(result.propertyType);
+    // $propertyValue holds a RAW NUMERIC STRING for the slider (see formStore).
+    // Writing a bracket token like '200k_500k' made StepPropertyValue's Number()
+    // parse to NaN and render "$NaN". Write the real number instead.
+    if (result.propertyValue) $propertyValue.set(String(result.propertyValue));
+
+    // Map analyzer property types to the form's canonical card values. The form
+    // has no 'condo' / 'str' / 'mixed_use' cards, so an unmapped value silently drops.
+    const PROPERTY_TYPE_MAP: Record<string, string> = {
+      single_family: 'single_family',
+      condo: 'warrantable_condo',
+      warrantable_condo: 'warrantable_condo',
+      non_warrantable_condo: 'non_warrantable_condo',
+      multi_family: 'multi_family_small',
+      str: 'single_family',
+      mixed_use: 'single_family',
+    };
+    if (result.propertyType) {
+      const mapped = PROPERTY_TYPE_MAP[result.propertyType];
+      if (mapped) $propertyType.set(mapped);
+    }
     if (result.state) $state.set(result.state);
 
     const downStr = String(result.downPaymentPercent);
@@ -315,9 +332,10 @@ export default function DealAnalyzer() {
       $downPayment.set('35_plus');
     }
 
-    // Skip to first unfilled step (at least step 3 since we pre-filled type/state/value)
+    // Start at loan goal so the user confirms the path; prefilled answers persist,
+    // so they simply tap through the steps we already have data for.
     $direction.set('forward');
-    $currentStep.set(3);
+    $currentStep.set(1);
 
     // Smooth scroll to form if on homepage, otherwise navigate to /qualify/
     const formEl = document.getElementById('lead-form');
@@ -382,7 +400,7 @@ export default function DealAnalyzer() {
         />
 
         {/* Input row */}
-        <div className="relative flex items-center gap-3 px-5 py-4">
+        <div className="relative flex flex-wrap items-center gap-3 px-5 py-4">
           <SparkleIcon
             className={`flex-shrink-0 transition-colors duration-200 ${
               inputValue || mode === 'loading' ? 'text-blue' : 'text-amber'
@@ -404,14 +422,14 @@ export default function DealAnalyzer() {
             onKeyDown={(e) => {
               if (e.key === 'Enter') handleSubmit();
             }}
-            className="flex-1 bg-transparent text-white text-base outline-none font-sans"
+            className="flex-1 min-w-0 bg-transparent text-white text-base outline-none font-sans"
             aria-label="Analyze a property deal"
           />
 
           {/* Placeholder overlay (custom cycling) */}
           {!inputValue && mode === 'idle' && (
             <span
-              className={`absolute left-[52px] text-slate-500 text-base pointer-events-none transition-opacity duration-300 font-sans ${
+              className={`absolute left-[52px] right-5 truncate whitespace-nowrap text-slate-500 text-base pointer-events-none transition-opacity duration-300 font-sans ${
                 placeholderFade ? 'opacity-100' : 'opacity-0'
               }`}
             >
@@ -445,7 +463,7 @@ export default function DealAnalyzer() {
           {(mode === 'results' || mode === 'quick-analyze') && (
             <button
               onClick={handleReset}
-              className="flex-shrink-0 text-slate-500 hover:text-white transition-colors duration-150 text-sm"
+              className="flex-shrink-0 w-full text-left sm:w-auto text-slate-500 hover:text-white transition-colors duration-150 text-sm"
               aria-label="New analysis"
             >
               New search
