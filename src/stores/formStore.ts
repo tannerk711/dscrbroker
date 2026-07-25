@@ -92,8 +92,12 @@ export function processURLParams() {
   if (typeof window === 'undefined') return;
   const params = new URLSearchParams(window.location.search);
 
+  // NOTE: `state` is intentionally NOT pre-filled from the URL param. Pre-selecting
+  // the state left the location step showing a state + green confirmation but never
+  // auto-advancing (auto-advance only fires on a real user onChange), stalling the
+  // lead. We want the lead to actively select their own state, so the location step
+  // always starts empty. See StepLocation.tsx. (2026-07-24)
   const mappings: Record<string, typeof $state> = {
-    state: $state,
     type: $propertyType,
     value: $propertyValue,
     down: $downPayment,
