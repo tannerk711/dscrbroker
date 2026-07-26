@@ -1,0 +1,563 @@
+---
+// City-level DSCR SEO page: /states/{state}/{city}/
+// Data-driven from src/data/cities/*.json (one file per state). Adding a state or city
+// is a DATA task: drop the JSON in src/data/cities/ and this template picks it up.
+// Schema + math conventions + compliance rules: src/data/cities/README.md
+// Validate data with: node scripts/verify-city-data.mjs --fix
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import FAQAccordion from '../../../components/FAQAccordion';
+import statesData from '../../../data/states.json';
+
+export function getStaticPaths() {
+  const modules = import.meta.glob('../../../data/cities/*.json', { eager: true });
+  const paths: any[] = [];
+  for (const mod of Object.values(modules)) {
+    const stateFile = (mod as any).default;
+    for (const cityData of stateFile.cities) {
+      paths.push({
+        params: { state: stateFile.stateSlug, city: cityData.slug },
+        props: { cityData, stateFile },
+      });
+    }
+  }
+  return paths;
+}
+
+const { cityData, stateFile } = Astro.props;
+const c = cityData;
+const m = c.market;
+const d = c.dealExample;
+const stateName = stateFile.state;
+const stateSlug = stateFile.stateSlug;
+
+// Parent state entry from states.json (licensing disclaimer + state-page links)
+const stateEntry = statesData.find((s: any) => s.slug === stateSlug);
+const licensingNote = stateEntry?.licensingNote || '';
+
+// Sibling cities for internal linking (data-file order = investor-demand order)
+const nearbyCities = stateFile.cities
+  .filter((x: any) => x.slug !== c.slug)
+  .slice(0, 5)
+  .map((x: any) => ({
+    city: x.city,
+    slug: x.slug,
+    medianPrice: x.market.medianPrice,
+    medianRent: x.market.medianRent,
+    estDSCR: x.market.estDSCR,
+  }));
+
+// SEO
+const title = `DSCR Loans in ${c.city}, ${stateFile.abbreviation} | DSCRBroker.com`;
+const canonical = `https://dscrbroker.com/states/${stateSlug}/${c.slug}/`;
+
+const jsonLd = [
+  {
+    "@context": "https://schema.org",
+    "@type": "FinancialService",
+    "name": `DSCR Loans in ${c.city}, ${stateName} | DSCRBroker.com`,
+    "url": canonical,
+    "description": `DSCR loans in ${c.city}, ${stateName} structured by licensed DSCR specialists. Access to 70+ lenders. No income documentation required.`,
+    "serviceType": "DSCR Loan Broker Matching",
+    "areaServed": {
+      "@type": "City",
+      "name": c.city,
+      "containedInPlace": {
+        "@type": "State",
+        "name": stateName,
+        "containedInPlace": { "@type": "Country", "name": "United States" }
+      }
+    },
+    "provider": {
+      "@type": "Organization",
+      "name": "DSCRBroker.com",
+      "url": "https://dscrbroker.com"
+    },
+    "offers": {
+      "@type": "AggregateOffer",
+      "priceCurrency": "USD",
+      "lowPrice": "75000",
+      "highPrice": "3000000",
+      "offerCount": "8"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": c.faqItems.map((item: any) => ({
+      "@type": "Question",
+      "name": item.question,
+      "acceptedAnswer": { "@type": "Answer", "text": item.answer }
+    }))
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://dscrbroker.com/" },
+      { "@type": "ListItem", "position": 2, "name": "States", "item": "https://dscrbroker.com/states/" },
+      { "@type": "ListItem", "position": 3, "name": `DSCR Loans in ${stateName}`, "item": `https://dscrbroker.com/states/${stateSlug}/` },
+      { "@type": "ListItem", "position": 4, "name": `DSCR Loans in ${c.city}`, "item": canonical }
+    ]
+  }
+];
+
+// Formatting helpers (same conventions as StateLayout)
+function formatCurrency(n: number): string {
+  return n.toLocaleString('en-US', { style: 'currency', currency: 'USD', maximumFractionDigits: 0 });
+}
+function formatCurrencyShort(n: number): string {
+  if (n >= 1000000) return `$${(n / 1000000).toFixed(2)}M`;
+  if (n >= 1000) return `$${(n / 1000).toFixed(0)}K`;
+  return `$${n}`;
+}
+function formatPct(n: number): string {
+  return `${n >= 0 ? '+' : ''}${n.toFixed(1)}%`;
+}
+
+const dscrColor = m.estDSCR >= 1.25
+  ? 'text-emerald-400'
+  : m.estDSCR >= 1.0
+    ? 'text-blue-400'
+    : m.estDSCR >= 0.75
+      ? 'text-amber-400'
+      : 'text-red-400';
+
+const dealDscrColor = d.dscr >= 1.25
+  ? 'text-emerald-500'
+  : d.dscr >= 1.0
+    ? 'text-blue-500'
+    : d.dscr >= 0.75
+      ? 'text-amber-500'
+      : 'text-red-500';
+
+const regulationBadge = c.regulationBadge === 'friendly'
+  ? { text: 'LANDLORD-FRIENDLY MARKET', color: 'bg-emerald-100 text-emerald-700' }
+  : c.regulationBadge === 'tenant'
+    ? { text: 'TENANT-FRIENDLY MARKET', color: 'bg-amber-100 text-amber-700' }
+    : { text: 'MODERATE REGULATIONS', color: 'bg-blue-100 text-blue-700' };
+
+// Master program map (slugs match /programs/ routes; stats match StateLayout, never a rate)
+const ALL_PROGRAMS: Record<string, { name: string; desc: string; stat: string; href: string }> = {
+  'standard-dscr': { name: 'Standard DSCR', desc: 'The most popular option. 20% down, 660+ credit.', stat: '80% Max LTV', href: '/programs/standard-dscr/' },
+  'no-ratio-dscr': { name: 'No-Ratio DSCR', desc: 'No minimum DSCR required. 30% down.', stat: '70% Max LTV', href: '/programs/no-ratio-dscr/' },
+  'interest-only-dscr': { name: 'Interest-Only DSCR', desc: 'Lower monthly payments for better cash flow.', stat: 'IO Period: 5-10yr', href: '/programs/interest-only-dscr/' },
+  'str-dscr': { name: 'STR DSCR', desc: 'Use projected Airbnb/VRBO income to qualify.', stat: 'AirDNA Accepted', href: '/programs/str-dscr/' },
+  'foreign-national-dscr': { name: 'Foreign National DSCR', desc: 'No SSN or US credit history required.', stat: '30% Min Down', href: '/programs/foreign-national-dscr/' },
+  'bank-statement-dscr': { name: 'Bank Statement DSCR', desc: 'Hybrid qualification for self-employed investors.', stat: '12-24mo Statements', href: '/programs/bank-statement-dscr/' },
+  'portfolio-dscr': { name: 'Portfolio DSCR', desc: 'Finance multiple properties under one loan.', stat: '$500K+ Min', href: '/programs/portfolio-dscr/' },
+  'bridge-to-dscr': { name: 'Bridge-to-DSCR', desc: 'Purchase, rehab, then refinance into DSCR.', stat: 'BRRRR Strategy', href: '/programs/bridge-to-dscr/' },
+};
+const fitPrograms = (c.programFit || [])
+  .map((slug: string) => ALL_PROGRAMS[slug])
+  .filter(Boolean);
+
+const overviewParagraphs = c.overview.split('\n\n').filter((p: string) => p.trim());
+const angleParagraphs = c.localAngle.body.split('\n\n').filter((p: string) => p.trim());
+
+const isPurchase = d.label.includes('Purchase');
+const annualCashFlow = d.monthlyCashFlow * 12;
+const monthlyTaxAtMedian = Math.round(m.medianPrice * m.propertyTaxRate / 100 / 12);
+---
+
+<BaseLayout
+  title={title}
+  description={c.metaDescription}
+  canonical={canonical}
+  jsonLd={jsonLd}
+>
+
+  <!-- Section 1: Hero (Dark) -->
+  <section class="relative bg-[#0B1120] pt-16 pb-20 overflow-hidden">
+    <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(59,130,246,0.08),transparent_70%)]" />
+    <div class="relative mx-auto max-w-6xl px-4 sm:px-6">
+      <!-- Breadcrumb -->
+      <nav aria-label="Breadcrumb" class="text-sm text-slate-400">
+        <ol class="flex items-center gap-1.5 flex-wrap">
+          <li><a href="/" class="hover:text-white transition-colors">Home</a></li>
+          <li class="text-slate-500">/</li>
+          <li><a href="/states/" class="hover:text-white transition-colors">States</a></li>
+          <li class="text-slate-500">/</li>
+          <li><a href={`/states/${stateSlug}/`} class="hover:text-white transition-colors">{stateName}</a></li>
+          <li class="text-slate-500">/</li>
+          <li class="text-white">{c.city}</li>
+        </ol>
+      </nav>
+
+      <!-- H1 -->
+      <h1 class="text-4xl md:text-5xl font-extrabold text-white leading-tight mt-6">
+        DSCR Loans in {c.city}, {stateName}
+      </h1>
+
+      <!-- Subhead -->
+      <p class="text-lg text-slate-300 max-w-3xl mt-4 leading-relaxed">
+        {c.hook}
+      </p>
+
+      <!-- Stat Row -->
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6 mt-8 md:mt-10">
+        <div class="bg-white/[0.04] border border-white/[0.08] rounded-lg px-5 py-4 text-center">
+          <div class="text-2xl font-extrabold text-white">{formatCurrencyShort(m.medianPrice)}</div>
+          <div class="text-xs text-slate-400 uppercase tracking-wider mt-1 font-medium">Median Home Price</div>
+        </div>
+        <div class="bg-white/[0.04] border border-white/[0.08] rounded-lg px-5 py-4 text-center">
+          <div class="text-2xl font-extrabold text-white">{formatCurrency(m.medianRent)}/mo</div>
+          <div class="text-xs text-slate-400 uppercase tracking-wider mt-1 font-medium">Median Monthly Rent</div>
+        </div>
+        <div class="bg-white/[0.04] border border-white/[0.08] rounded-lg px-5 py-4 text-center">
+          <div class={`text-2xl font-extrabold ${dscrColor}`}>{m.estDSCR.toFixed(2)}x</div>
+          <div class="text-xs text-slate-400 uppercase tracking-wider mt-1 font-medium">Est. DSCR at Median</div>
+        </div>
+        <div class="bg-white/[0.04] border border-white/[0.08] rounded-lg px-5 py-4 text-center">
+          <div class="text-2xl font-extrabold text-white">70+</div>
+          <div class="text-xs text-slate-400 uppercase tracking-wider mt-1 font-medium">Lenders in Network</div>
+        </div>
+      </div>
+
+      <!-- CTA -->
+      <a
+        href="/qualify/"
+        class="inline-block mt-8 bg-blue-500 hover:bg-blue-600 text-white font-semibold text-sm uppercase tracking-wider px-8 py-4 rounded-lg transition-colors"
+      >
+        Match Me With a {stateName} Specialist
+      </a>
+    </div>
+  </section>
+
+  <!-- Section 2: Market Overview + Market Pulse (Light) -->
+  <section class="bg-[#F8F6F1] py-16 md:py-24">
+    <div class="mx-auto max-w-6xl px-4 sm:px-6">
+      <div class="grid md:grid-cols-5 gap-10">
+        <!-- Left: Overview (3/5) -->
+        <div class="md:col-span-3">
+          <p class="text-xs font-semibold uppercase tracking-widest text-blue-500 mb-3">MARKET OVERVIEW</p>
+          <h2 class="text-3xl font-bold text-[#0B1120] mb-6">The {c.city} Rental Market for DSCR Investors</h2>
+          <div class="text-base text-slate-600 leading-relaxed space-y-4">
+            {overviewParagraphs.map((p: string) => (
+              <p>{p}</p>
+            ))}
+          </div>
+
+          <!-- Regulation Badge + Note -->
+          <div class="mt-6">
+            <span class={`inline-block text-xs font-semibold uppercase tracking-wider px-3 py-1.5 rounded-full ${regulationBadge.color}`}>
+              {regulationBadge.text}
+            </span>
+            <p class="text-sm text-slate-500 mt-3">{c.regulationNote}</p>
+          </div>
+        </div>
+
+        <!-- Right: Market Pulse (2/5) -->
+        <div class="md:col-span-2">
+          <div class="bg-white border border-[#E8E4DD] rounded-xl overflow-hidden">
+            <div class="px-5 py-4 border-b border-[#E8E4DD]">
+              <h3 class="text-sm font-bold text-[#0B1120]">{c.city} Market Pulse</h3>
+            </div>
+            <div class="grid grid-cols-2">
+              <div class="px-5 py-4 border-b border-r border-[#F0EDE8]">
+                <div class="text-xl font-extrabold text-[#0B1120]">{m.priceToRent.toFixed(1)}</div>
+                <div class="text-[11px] text-slate-500 uppercase tracking-wider mt-0.5 font-medium">Price-to-Rent Ratio</div>
+              </div>
+              <div class="px-5 py-4 border-b border-[#F0EDE8]">
+                <div class="text-xl font-extrabold text-[#0B1120]">{m.vacancyRate.toFixed(1)}%</div>
+                <div class="text-[11px] text-slate-500 uppercase tracking-wider mt-0.5 font-medium">Rental Vacancy</div>
+              </div>
+              <div class="px-5 py-4 border-r border-[#F0EDE8]">
+                <div class="text-xl font-extrabold text-[#0B1120]">{formatPct(m.yoyPrice)}</div>
+                <div class="text-[11px] text-slate-500 uppercase tracking-wider mt-0.5 font-medium">Prices, Year Over Year</div>
+              </div>
+              <div class="px-5 py-4">
+                <div class="text-xl font-extrabold text-[#0B1120]">{formatPct(m.yoyRent)}</div>
+                <div class="text-[11px] text-slate-500 uppercase tracking-wider mt-0.5 font-medium">Rents, Year Over Year</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Property Tax Callout -->
+          <div class="bg-white border border-[#E8E4DD] rounded-xl p-5 mt-4">
+            <div class="text-xs font-semibold uppercase tracking-wider text-slate-500 mb-1">Effective Property Tax, {c.county}</div>
+            <div class="text-2xl font-extrabold text-[#0B1120]">{m.propertyTaxRate.toFixed(2)}%</div>
+            <p class="text-xs text-slate-500 mt-1">
+              Monthly tax on a {formatCurrency(m.medianPrice)} purchase: <span class="font-semibold text-[#0B1120]">{formatCurrency(monthlyTaxAtMedian)}/mo</span>. Investor-owned, not homestead.
+            </p>
+          </div>
+
+          <!-- Insurance Callout -->
+          <div class="bg-white border border-[#E8E4DD] rounded-xl p-5 mt-4">
+            <div class="text-xs font-semibold uppercase tracking-wider text-slate-500 mb-1">Est. Landlord Insurance at Median</div>
+            <div class="text-2xl font-extrabold text-[#0B1120]">{formatCurrency(m.insuranceMonthly)}/mo</div>
+            <p class="text-xs text-slate-500 mt-1">
+              Market-level estimate. Premiums are property-specific and count against your DSCR, so quote early.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 3: Neighborhoods (Light Alt) -->
+  <section class="bg-white py-16 md:py-24">
+    <div class="mx-auto max-w-6xl px-4 sm:px-6">
+      <p class="text-xs font-semibold uppercase tracking-widest text-blue-500 mb-3">WHERE DEALS PENCIL</p>
+      <h2 class="text-3xl font-bold text-[#0B1120] mb-8">{c.city} Submarkets Investors Target</h2>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        {c.neighborhoods.map((n: any) => (
+          <div class="bg-[#F8F6F1] border border-[#E8E4DD] rounded-xl p-5">
+            <h3 class="text-sm font-bold text-[#0B1120]">{n.name}</h3>
+            <div class="flex gap-5 mt-2.5">
+              <div>
+                <div class="text-base font-extrabold text-[#0B1120]">{formatCurrencyShort(n.medianPrice)}</div>
+                <div class="text-[11px] text-slate-500 uppercase tracking-wider font-medium">Median Price</div>
+              </div>
+              <div>
+                <div class="text-base font-extrabold text-[#0B1120]">{formatCurrency(n.medianRent)}</div>
+                <div class="text-[11px] text-slate-500 uppercase tracking-wider font-medium">Median Rent</div>
+              </div>
+            </div>
+            <p class="text-xs text-slate-600 leading-relaxed mt-3">{n.note}</p>
+          </div>
+        ))}
+      </div>
+      <p class="text-xs text-slate-400 mt-6">
+        Submarket figures are researched estimates for orientation, not appraisals. Your matched specialist runs property-level numbers on any address you bring.
+      </p>
+    </div>
+  </section>
+
+  <!-- Section 4: Local Angle (Light) -->
+  <section class="bg-[#F8F6F1] py-16 md:py-24">
+    <div class="mx-auto max-w-6xl px-4 sm:px-6">
+      <p class="text-xs font-semibold uppercase tracking-widest text-amber-600 mb-3">{c.localAngle.tag.toUpperCase()}</p>
+      <h2 class="text-3xl font-bold text-[#0B1120] mb-8">{c.localAngle.title}</h2>
+      <div class="bg-white border border-[#E8E4DD] border-l-4 border-l-amber-500 rounded-xl p-6 md:p-8 max-w-4xl">
+        <div class="text-base text-slate-600 leading-relaxed space-y-4">
+          {angleParagraphs.map((p: string) => (
+            <p>{p}</p>
+          ))}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 5: Deal Example (Light Alt) -->
+  <section class="bg-white py-16 md:py-24">
+    <div class="mx-auto max-w-6xl px-4 sm:px-6">
+      <p class="text-xs font-semibold uppercase tracking-widest text-blue-500 mb-3">DEAL EXAMPLE</p>
+      <h2 class="text-3xl font-bold text-[#0B1120] mb-8">Sample {d.label} Deal in {c.city}</h2>
+
+      <div class="grid md:grid-cols-2 gap-8">
+        <!-- Left: Property Details -->
+        <div class="bg-[#F8F6F1] border border-[#E8E4DD] rounded-xl p-6">
+          <div class="flex items-center justify-between mb-4">
+            <div>
+              <p class="text-sm font-bold text-[#0B1120]">{d.propertyType}</p>
+              <p class="text-xs text-slate-500 mt-0.5">{d.neighborhood}, {c.city}, {stateFile.abbreviation}</p>
+            </div>
+            <span class="bg-blue-50 text-blue-600 text-xs font-semibold uppercase tracking-wider px-3 py-1 rounded">
+              {d.label}
+            </span>
+          </div>
+          <div class="space-y-0">
+            <div class="flex justify-between py-2.5 border-b border-[#E8E4DD]">
+              <span class="text-sm text-slate-500">{isPurchase ? 'Purchase Price' : 'Appraised Value'}</span>
+              <span class="text-sm font-semibold text-[#0B1120]">{formatCurrency(d.purchasePrice)}</span>
+            </div>
+            <div class="flex justify-between py-2.5 border-b border-[#E8E4DD]">
+              <span class="text-sm text-slate-500">{isPurchase ? 'Down Payment' : 'Equity Retained'}</span>
+              <span class="text-sm font-semibold text-[#0B1120]">{d.downPaymentPct}% ({formatCurrency(d.downPayment)})</span>
+            </div>
+            <div class="flex justify-between py-2.5 border-b border-[#E8E4DD]">
+              <span class="text-sm text-slate-500">Loan Amount</span>
+              <span class="text-sm font-semibold text-[#0B1120]">{formatCurrency(d.loanAmount)}</span>
+            </div>
+            <div class="flex justify-between py-2.5">
+              <span class="text-sm text-slate-500">Loan Type</span>
+              <span class="text-sm font-semibold text-[#0B1120]">{d.loanType}</span>
+            </div>
+          </div>
+
+          <!-- What the Specialist Structured -->
+          <div class="mt-5 pt-4 border-t border-[#E8E4DD]">
+            <h4 class="text-xs font-semibold uppercase tracking-wider text-slate-500 mb-2.5">What the Specialist Structured</h4>
+            <ul class="space-y-1.5">
+              {d.specialistFocus.map((item: string) => (
+                <li class="flex items-start gap-2 text-sm text-slate-600">
+                  <svg class="w-3.5 h-3.5 text-emerald-500 flex-shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" /></svg>
+                  {item}
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+
+        <!-- Right: Financial Breakdown -->
+        <div class="bg-[#F8F6F1] border border-[#E8E4DD] rounded-xl p-6">
+          <h3 class="text-sm font-bold text-[#0B1120] mb-4">Monthly Breakdown</h3>
+          <div class="space-y-0">
+            <div class="flex justify-between py-2.5 border-b border-[#E8E4DD]">
+              <span class="text-sm text-slate-500">{d.interestOnly ? 'Interest-Only Payment' : 'Principal & Interest'}</span>
+              <span class="text-sm font-semibold text-[#0B1120]">{formatCurrency(d.monthlyPI)}</span>
+            </div>
+            <div class="flex justify-between py-2.5 border-b border-[#E8E4DD]">
+              <span class="text-sm text-slate-500">Property Tax</span>
+              <span class="text-sm font-semibold text-[#0B1120]">{formatCurrency(d.monthlyTax)}</span>
+            </div>
+            <div class="flex justify-between py-2.5 border-b border-[#E8E4DD]">
+              <span class="text-sm text-slate-500">Insurance</span>
+              <span class="text-sm font-semibold text-[#0B1120]">{formatCurrency(d.monthlyInsurance)}</span>
+            </div>
+            {d.monthlyHOA > 0 && (
+              <div class="flex justify-between py-2.5 border-b border-[#E8E4DD]">
+                <span class="text-sm text-slate-500">HOA</span>
+                <span class="text-sm font-semibold text-[#0B1120]">{formatCurrency(d.monthlyHOA)}</span>
+              </div>
+            )}
+            <div class="flex justify-between py-2.5 border-b border-[#E8E4DD] font-semibold">
+              <span class="text-sm text-[#0B1120]">Total PITIA</span>
+              <span class="text-sm text-[#0B1120]">{formatCurrency(d.monthlyPITIA)}</span>
+            </div>
+            <div class="flex justify-between py-2.5 border-b border-[#E8E4DD]">
+              <span class="text-sm text-slate-500">{`${d.label} ${d.loanType} ${d.propertyType}`.includes('STR') || `${d.label} ${d.loanType} ${d.propertyType}`.toLowerCase().includes('short-term') ? 'Projected STR Income' : 'Monthly Rent'}</span>
+              <span class="text-sm font-semibold text-emerald-600">{formatCurrency(d.monthlyRent)}</span>
+            </div>
+          </div>
+
+          <!-- DSCR + Cash Flow -->
+          <div class="mt-6 pt-4 border-t border-[#E8E4DD]">
+            <div class="text-center">
+              <div class="text-xs text-slate-500 uppercase tracking-wider mb-1">DSCR Ratio</div>
+              <div class={`text-3xl font-extrabold ${dealDscrColor}`}>{d.dscr.toFixed(2)}x</div>
+            </div>
+            <div class="flex justify-between mt-4">
+              <div>
+                <div class="text-xs text-slate-500">Monthly Cash Flow</div>
+                <div class={`text-sm font-semibold ${d.monthlyCashFlow >= 0 ? 'text-emerald-600' : 'text-amber-600'}`}>
+                  {d.monthlyCashFlow >= 0 ? '+' : ''}{formatCurrency(d.monthlyCashFlow)}
+                </div>
+              </div>
+              <div class="text-right">
+                <div class="text-xs text-slate-500">Annual Cash Flow</div>
+                <div class={`text-sm font-semibold ${annualCashFlow >= 0 ? 'text-emerald-600' : 'text-amber-600'}`}>
+                  {annualCashFlow >= 0 ? '+' : ''}{formatCurrency(annualCashFlow)}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Math Line -->
+      <div class="bg-[#F8F6F1] border border-[#E8E4DD] rounded-xl px-6 py-4 mt-6 text-center text-sm text-slate-600 font-mono">
+        DSCR = {formatCurrency(d.monthlyRent)} ÷ {formatCurrency(d.monthlyPITIA)} = {d.dscr.toFixed(2)}x
+      </div>
+
+      <p class="text-xs text-slate-400 mt-4 italic">
+        This deal qualified on the property's income alone. No tax returns, no W-2s, no employment verification.
+      </p>
+      <p class="text-[10px] text-slate-400 mt-1">Results may vary. This is a representative example, not a guarantee of future performance.</p>
+
+      <!-- Educational Disclaimer -->
+      <p class="text-xs text-slate-400 mt-4 max-w-3xl">
+        This deal example is for illustrative purposes only and is based on representative scenarios across our broker network. Actual loan terms, approval, and closing depend on your full credit profile, property details, appraisal, and the matched lender's specific guidelines. This is not a loan offer or commitment to lend.
+      </p>
+    </div>
+  </section>
+
+  <!-- Section 6: FAQ (Light) -->
+  <section class="bg-[#F8F6F1] py-16 md:py-24">
+    <div class="mx-auto max-w-3xl px-4 sm:px-6">
+      <p class="text-xs font-semibold uppercase tracking-widest text-blue-500 mb-3">FREQUENTLY ASKED</p>
+      <h2 class="text-3xl font-bold text-[#0B1120] mb-8">DSCR Loan Questions for {c.city} Investors</h2>
+      <FAQAccordion items={c.faqItems} client:visible />
+    </div>
+  </section>
+
+  <!-- Section 7: Programs + More Cities (Light Alt) -->
+  <section class="bg-white py-16 md:py-24">
+    <div class="mx-auto max-w-6xl px-4 sm:px-6">
+      <!-- Programs that fit -->
+      <p class="text-xs font-semibold uppercase tracking-widest text-blue-500 mb-3">LOAN PROGRAMS</p>
+      <h2 class="text-3xl font-bold text-[#0B1120] mb-8">Programs That Fit {c.city} Deals</h2>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+        {fitPrograms.map((prog: any) => (
+          <a href={prog.href} class="group bg-[#F8F6F1] border border-[#E8E4DD] rounded-xl p-5 hover:border-blue-300 hover:shadow-md transition-all">
+            <h3 class="text-sm font-bold text-[#0B1120] group-hover:text-blue-600 transition-colors">{prog.name}</h3>
+            <p class="text-xs text-slate-500 mt-1 leading-relaxed">{prog.desc}</p>
+            <div class="text-xs font-semibold text-blue-500 mt-3">{prog.stat}</div>
+          </a>
+        ))}
+      </div>
+      <a href={`/states/${stateSlug}/`} class="inline-block text-sm text-blue-500 font-medium mt-5 hover:underline">
+        See all 8 DSCR programs for {stateName} investors &rarr;
+      </a>
+
+      <!-- More cities in this state -->
+      {nearbyCities.length > 0 && (
+        <div class="mt-16 pt-12 border-t border-[#F0EDE8]">
+          <h3 class="text-xl font-bold text-[#0B1120] mb-6">More {stateName} Investor Markets</h3>
+          <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
+            {nearbyCities.map((nc: any) => (
+              <a href={`/states/${stateSlug}/${nc.slug}/`} class="group bg-[#F8F6F1] border border-[#E8E4DD] rounded-xl p-4 hover:border-blue-300 hover:shadow-md transition-all">
+                <h4 class="text-sm font-bold text-[#0B1120] group-hover:text-blue-600 transition-colors">{nc.city}</h4>
+                <div class="mt-2 space-y-0.5 text-xs text-slate-500">
+                  <div>Median: <span class="font-semibold text-[#0B1120]">{formatCurrencyShort(nc.medianPrice)}</span></div>
+                  <div>Rent: <span class="font-semibold text-[#0B1120]">{formatCurrency(nc.medianRent)}/mo</span></div>
+                </div>
+                <div class="text-xs text-blue-500 mt-2 font-medium group-hover:underline">View {nc.city} &rarr;</div>
+              </a>
+            ))}
+            <a href={`/states/${stateSlug}/`} class="group bg-[#0B1120] border border-[#0B1120] rounded-xl p-4 hover:bg-[#131C31] transition-all flex flex-col justify-between">
+              <h4 class="text-sm font-bold text-white">All {stateName} DSCR Loans</h4>
+              <div class="text-xs text-blue-400 mt-2 font-medium group-hover:underline">State overview &rarr;</div>
+            </a>
+          </div>
+        </div>
+      )}
+    </div>
+  </section>
+
+  <!-- Section 8: CTA (Dark) -->
+  <section class="relative bg-[#0B1120] py-16 md:py-24 overflow-hidden">
+    <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(59,130,246,0.08),transparent_70%)]" />
+    <div class="relative mx-auto max-w-2xl px-4 sm:px-6 text-center">
+      <p class="text-xs font-semibold uppercase tracking-widest text-amber-400 mb-3">GET STARTED</p>
+      <h2 class="text-3xl font-bold text-white mb-4">Ready to Invest in {c.city}?</h2>
+      <p class="text-slate-300 text-base leading-relaxed mb-8">
+        Get matched with a licensed {stateName} DSCR specialist in under 2 minutes. No credit pull. No commitment.
+      </p>
+      <a
+        href="/qualify/"
+        class="inline-block bg-amber-500 hover:bg-amber-600 text-[#0B1120] font-semibold text-sm uppercase tracking-wider px-8 py-4 rounded-lg transition-colors"
+      >
+        Match Me With a Specialist
+      </a>
+      <div class="flex flex-wrap justify-center gap-6 mt-8 text-xs text-slate-400">
+        <span class="flex items-center gap-1.5">
+          <svg class="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" /></svg>
+          70+ DSCR Lenders
+        </span>
+        <span class="flex items-center gap-1.5">
+          <svg class="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" /></svg>
+          All 50 States
+        </span>
+        <span class="flex items-center gap-1.5">
+          <svg class="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" /></svg>
+          No Credit Pull
+        </span>
+        <span class="flex items-center gap-1.5">
+          <svg class="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" /></svg>
+          $0 Upfront Fees
+        </span>
+      </div>
+    </div>
+  </section>
+
+  <!-- State-Specific Licensing Disclaimer -->
+  <div class="bg-[#0B1120] border-t border-slate-800">
+    <div class="mx-auto max-w-6xl px-4 sm:px-6 py-4">
+      <p class="text-xs text-slate-400">
+        {licensingNote} The matched broker is not affiliated with DSCRBroker.com except as a participating broker in our matching network. All lending decisions and terms are determined solely by the matched broker and their wholesale lending partners. Market data on this page is drawn from public sources and refreshed periodically; figures are estimates for orientation, not appraisals or guarantees.
+      </p>
+    </div>
+  </div>
+
+</BaseLayout>

@@ -41,6 +41,14 @@ interface RelatedState {
   medianRent: number;
 }
 
+interface CityPageLink {
+  city: string;
+  slug: string;
+  medianPrice: number;
+  medianRent: number;
+  estDSCR: number;
+}
+
 interface Props {
   /* SEO */
   title: string;
@@ -68,6 +76,9 @@ interface Props {
   faqItems: FAQItem[];
   /* Related States */
   relatedStates: RelatedState[];
+  /* City pages (optional: renders "DSCR Loans by City" only when the state has a
+     city data file in src/data/cities/; see src/data/cities/README.md) */
+  cityPages?: CityPageLink[];
   /* JSON-LD */
   jsonLd: object;
 }
@@ -91,6 +102,7 @@ const {
   dealExample,
   faqItems,
   relatedStates,
+  cityPages = [],
   jsonLd,
 } = Astro.props;
 
@@ -467,6 +479,34 @@ const overviewParagraphs = marketOverview.split('\n\n').filter(p => p.trim());
       <FAQAccordion items={faqItems} client:visible />
     </div>
   </section>
+
+  <!-- Section 6.5: City Guides (gated: only states with a city data file) -->
+  {cityPages.length > 0 && (
+    <section class="bg-white py-16 md:py-24 border-b border-[#F0EDE8]">
+      <div class="mx-auto max-w-6xl px-4 sm:px-6">
+        <p class="text-xs font-semibold uppercase tracking-widest text-blue-500 mb-3">CITY GUIDES</p>
+        <h2 class="text-3xl font-bold text-[#0B1120] mb-3">DSCR Loans by City in {state}</h2>
+        <p class="text-base text-slate-600 leading-relaxed max-w-3xl mb-8">
+          City-level market data, submarkets investors target, worked deal examples, and local rules for {state}'s top rental markets.
+        </p>
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+          {cityPages.map((cp) => (
+            <a href={`/states/${slug}/${cp.slug}/`} class="group bg-[#F8F6F1] border border-[#E8E4DD] rounded-xl p-4 hover:border-blue-300 hover:shadow-md transition-all">
+              <div class="flex items-start justify-between gap-2">
+                <h3 class="text-sm font-bold text-[#0B1120] group-hover:text-blue-600 transition-colors">{cp.city}</h3>
+                <span class={`text-xs font-semibold ${cp.estDSCR >= 1.0 ? 'text-emerald-600' : 'text-amber-600'}`}>{cp.estDSCR.toFixed(2)}x</span>
+              </div>
+              <div class="mt-2 space-y-0.5 text-xs text-slate-500">
+                <div>Median: <span class="font-semibold text-[#0B1120]">{formatCurrencyShort(cp.medianPrice)}</span></div>
+                <div>Rent: <span class="font-semibold text-[#0B1120]">{formatCurrency(cp.medianRent)}/mo</span></div>
+              </div>
+              <div class="text-xs text-blue-500 mt-2 font-medium group-hover:underline">DSCR loans in {cp.city} &rarr;</div>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
 
   <!-- Section 7: Related States (Light Alt) -->
   {relatedStates.length > 0 && (

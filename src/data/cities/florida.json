@@ -1,0 +1,1401 @@
+{
+  "state": "Florida",
+  "abbreviation": "FL",
+  "stateSlug": "florida",
+  "dataUpdated": "2026-07",
+  "cities": [
+    {
+      "city": "Jacksonville",
+      "slug": "jacksonville",
+      "county": "Duval County",
+      "metro": "Jacksonville",
+      "hook": "Jacksonville's typical home runs about $296K against roughly $1,650 median rent, and insurance that undercuts coastal Florida by hundreds a month. It is the volume market for Florida rental portfolios.",
+      "metaDescription": "DSCR loans in Jacksonville: $296K typical home, insurance below coastal Florida, deep 3/2 rental stock on the Westside. Match with a specialist.",
+      "market": {
+        "medianPrice": 296000,
+        "medianRent": 1650,
+        "priceToRent": 14.9,
+        "vacancyRate": 8.8,
+        "yoyPrice": -2.3,
+        "yoyRent": -2,
+        "estDSCR": 0.77,
+        "propertyTaxRate": 0.95,
+        "insuranceMonthly": 250
+      },
+      "overview": "Jacksonville is the biggest city by land area in the lower 48, and for rental investors that sprawl is the point. The typical home sits near $296,000 per Zillow, down about 2.3% over the past year, while median rent holds around $1,650. Prices corrected, rents barely moved. That spread is why buy-and-hold investors keep feeding here. Employment is diversified in a way most Florida metros are not: NAS Jacksonville and Naval Station Mayport anchor a huge military tenant pool, and Baptist Health, Mayo Clinic, CSX, JAXPORT, and back-office finance fill in the rest.\n\nThe insurance story is the quiet edge. Northeast Florida premiums commonly run $2,200 to $4,000 a year on a median-priced house, hundreds of dollars a month less than Tampa Bay, Southwest Florida, or Miami. On thin cash-flow deals, that difference alone can carry the DSCR over 1.0. Vacancy is the tradeoff to watch. The metro posted about 8.8% rental vacancy in the 2024 Census data as new build-to-rent supply gets absorbed, so realistic rent schedules matter more than optimistic ones.\n\nDeals pencil in the value pockets: Westside and Arlington 3/2 block homes in the low-to-mid $200s, Springfield's rehabbed historic stock, and Northside new builds near the port. DSCR lenders see heavy Jacksonville volume, and files here are straightforward: standard SFR, market rent schedules, no flood drama on most inland lots.",
+      "regulationBadge": "friendly",
+      "regulationNote": "Florida is a statewide landlord-friendly market with no rent control and an efficient eviction process, and Jacksonville adds no meaningful local overlay on long-term rentals.",
+      "neighborhoods": [
+        {
+          "name": "Westside (Cedar Hills / Normandy)",
+          "medianPrice": 230000,
+          "medianRent": 1495,
+          "note": "Entry-point block 3/2s in the low $200s with steady blue-collar and military demand. The lowest price-to-rent math inside the city."
+        },
+        {
+          "name": "Arlington",
+          "medianPrice": 245000,
+          "medianRent": 1550,
+          "note": "1960s block homes near the St. Johns River that rent fast to Mayport-adjacent tenants. Classic first DSCR deal territory."
+        },
+        {
+          "name": "Springfield",
+          "medianPrice": 285000,
+          "medianRent": 1650,
+          "note": "Historic district north of downtown with rehab-and-rent economics. BRRRR-to-DSCR refinances are common here."
+        },
+        {
+          "name": "Northside / Oceanway",
+          "medianPrice": 290000,
+          "medianRent": 1795,
+          "note": "New construction near JAXPORT and the Amazon corridor. Newer roofs mean cleaner insurance quotes and easier files."
+        },
+        {
+          "name": "Murray Hill",
+          "medianPrice": 300000,
+          "medianRent": 1695,
+          "note": "Small bungalows with strong tenant demand from young professionals. Appreciation play with acceptable ratios."
+        }
+      ],
+      "localAngle": {
+        "tag": "Insurance",
+        "title": "The cheapest wind in Florida",
+        "body": "Jacksonville sits in the corner of Florida hurricanes historically miss most, and carriers price it that way. A median-priced inland house commonly insures for $2,200 to $4,000 a year, versus $5,000 to $8,000 for comparable coastal metros. On a DSCR file, insurance is one of the four numbers in the payment, so a $200 monthly premium difference moves the ratio by roughly a tenth of a point on a typical loan. DSCR lenders quote the actual policy, not a state average. Your matched specialist will typically push for a wind mitigation inspection on pre-2002 roofs, because the credits routinely cut the wind portion of the premium enough to matter on marginal files."
+      },
+      "programFit": [
+        "standard-dscr",
+        "portfolio-dscr",
+        "bridge-to-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 2-bath SFR",
+        "neighborhood": "Westside (Cedar Hills)",
+        "purchasePrice": 225000,
+        "downPaymentPct": 25,
+        "downPayment": 56250,
+        "loanAmount": 168750,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 1180,
+        "monthlyTax": 178,
+        "monthlyInsurance": 230,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 1588,
+        "monthlyRent": 1625,
+        "dscr": 1.02,
+        "monthlyCashFlow": 37,
+        "specialistFocus": [
+          "Budgeted the tax line off the non-homestead reset at purchase price, not the seller's homesteaded bill",
+          "Ordered a wind mitigation inspection on the 2005 roof, and the credits cut the wind premium on the quote",
+          "Supported the rent schedule at market with three recent Westside 3/2 lease comps"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "How does insurance hit DSCR math in Jacksonville compared to the rest of Florida?",
+          "answer": "It helps you instead of hurting you. Northeast Florida premiums on a median-priced inland house commonly run $2,200 to $4,000 a year, while Tampa Bay and Southwest Florida files often carry $4,000 to $6,000 or more. Since DSCR divides rent by the full payment including insurance, a $150 to $250 monthly premium difference is often the gap between a 0.95 file and a 1.05 file. DSCR lenders underwrite the actual bound quote, so getting a wind mitigation inspection and shopping the policy before appraisal is standard practice here."
+        },
+        {
+          "question": "I'm buying in Jacksonville from out of state. What should I expect?",
+          "answer": "Jacksonville is one of the most out-of-state-friendly markets in Florida because the deal flow is standard: block 3/2s, long-term tenants, no flood zones on most inland lots. DSCR loans qualify on the property's rent, not your personal income, so the file works the same from Ohio or California. You will want a local property manager lined up before closing, and your matched specialist will typically ask for the management agreement or a rent schedule to support the income number. Plan around the metro's 8.8% vacancy by underwriting realistic rents, not listing prices."
+        },
+        {
+          "question": "Which Jacksonville submarkets do DSCR lenders like most?",
+          "answer": "The ratio works best where price-to-rent is lowest: Westside, Arlington, and parts of the Northside, where low-$200s block homes rent for $1,450 to $1,700. Springfield works for BRRRR-style files where you refinance after a rehab at the new value. Lenders have no issue with Murray Hill or San Marco, but at those prices the ratio thins out and you may need a bigger down payment. Condos near the beaches bring warrantability questions, so most Jacksonville DSCR volume stays in plain single-family and small multifamily."
+        },
+        {
+          "question": "What happens to my property taxes after I buy a rental in Duval County?",
+          "answer": "The assessed value resets to your purchase price when the deed records. Florida investors do not get the homestead exemption or the 3% Save Our Homes cap, so the seller's old tax bill is usually lower than yours will be. Non-homestead property gets a 10% annual assessment cap going forward, but year one starts from what you paid. Budget roughly 0.9% to 1.0% of purchase price annually in Duval. DSCR lenders underwrite the reset number, and a good file prices it in up front rather than getting surprised at renewal."
+        },
+        {
+          "question": "Does Jacksonville's high vacancy rate kill rental demand?",
+          "answer": "No, but it disciplines your rent assumptions. The metro posted about 8.8% rental vacancy in 2024 Census data, mostly because new apartment and build-to-rent supply delivered faster than absorption. Single-family rentals in established neighborhoods lease materially faster than the metro number suggests, especially near the Navy bases where transfers create constant tenant turnover with reliable replacements. The practical move: underwrite rent at or slightly below comps, expect two to four weeks of lease-up, and let the military and healthcare tenant base do its job."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Jacksonville typical home value $295,910, down 2.3% YoY, June 2026",
+        "Zumper Rent Report, Jacksonville average rent $1,575, down 2% YoY, July 2026",
+        "Zillow Rental Manager, Jacksonville median rent $1,690, July 2026",
+        "US Census Housing Vacancy Survey via iPropertyManagement, Jacksonville metro rental vacancy 8.8%, 2024 annual",
+        "GreatFlorida Insurance regional guide, Northeast Florida premiums $2,185 to $4,005 per year, 2026",
+        "Duval County effective property tax data, flpropertycheck.com, 2026; adjusted upward for non-homestead purchase reset"
+      ]
+    },
+    {
+      "city": "Tampa",
+      "slug": "tampa",
+      "county": "Hillsborough County",
+      "metro": "Tampa-St. Petersburg-Clearwater",
+      "hook": "Tampa home values slid about 4.2% over the past year to roughly $376K while rents held near $1,950. Corrections are when Tampa portfolios actually get built.",
+      "metaDescription": "DSCR loans in Tampa: values near $376K after a 4.2% correction, rents holding at $1,950, tightest vacancy of Florida's big metros. Match with a specialist.",
+      "market": {
+        "medianPrice": 376000,
+        "medianRent": 1950,
+        "priceToRent": 16.1,
+        "vacancyRate": 6.8,
+        "yoyPrice": -4.2,
+        "yoyRent": -1,
+        "estDSCR": 0.71,
+        "propertyTaxRate": 1,
+        "insuranceMonthly": 340
+      },
+      "overview": "Tampa is in a real correction: Zillow puts the typical home near $376,000, down about 4.2% year over year, one of the sharper declines among major Florida metros. Rents barely flinched, easing about 1% to roughly $1,950. That combination, falling basis and sticky rents, is what a buy window looks like on paper. The metro also carries the tightest rental vacancy of Florida's big markets at 6.8% in 2024 Census data, so leased units stay leased.\n\nThe economy is the deepest on the Gulf coast: MacDill Air Force Base, Tampa General and the USF medical corridor, finance and insurance back offices, and the port. Tenant demand is broad, from military families in Town 'N' Country to travel nurses near the hospitals to young professionals pushing into Seminole Heights bungalows.\n\nThe catch is carry cost. Hillsborough insurance on a median house commonly runs $3,300 to $5,100 a year, and 2024's storm season reminded everyone that flood zone selection is underwriting, not paperwork. At median price and median rent, the ratio does not clear 1.0 with 20% down, which is why Tampa DSCR files get structured: value submarkets like the University area and Temple Terrace, duplexes, bigger down payments, or interest-only payments. Investors who bought Tampa in the last soft window, 2011 to 2013, are the ones sitting on the equity now.",
+      "regulationBadge": "friendly",
+      "regulationNote": "Hillsborough County adds no rent control and no meaningful long-term rental restrictions on top of Florida's landlord-friendly statutes, so operations here are about market selection, not compliance.",
+      "neighborhoods": [
+        {
+          "name": "Town 'N' Country",
+          "medianPrice": 350000,
+          "medianRent": 2095,
+          "note": "Block 3/2s minutes from the airport and MacDill commuters. The workhorse Tampa rental submarket with realistic ratios."
+        },
+        {
+          "name": "Seminole Heights",
+          "medianPrice": 425000,
+          "medianRent": 2195,
+          "note": "Bungalow belt where cash-out refinances harvest a decade of appreciation. Buy the worst house on a good block and season it."
+        },
+        {
+          "name": "Temple Terrace",
+          "medianPrice": 330000,
+          "medianRent": 1995,
+          "note": "1970s block homes near USF with hospital and university tenant flow. One of the few city submarkets where 25% down can still pencil."
+        },
+        {
+          "name": "University Area (USF)",
+          "medianPrice": 265000,
+          "medianRent": 1750,
+          "note": "Lowest basis in the city. Rougher blocks, strong rent-to-price, and steady demand from students, staff, and medical workers."
+        },
+        {
+          "name": "West Tampa",
+          "medianPrice": 340000,
+          "medianRent": 1895,
+          "note": "Infill corridor between downtown and the airport catching spillover appreciation. More of a basis play than a cash-flow play."
+        }
+      ],
+      "localAngle": {
+        "tag": "Insurance",
+        "title": "Wind, flood, and the four-point gauntlet",
+        "body": "Tampa Bay files carry two separate insurance questions: wind, which every carrier prices, and flood, which depends entirely on the FEMA zone of the specific lot. The 2024 storm season pushed carriers to scrutinize roof age and older electrical and plumbing on four-point inspections, and pre-2002 roofs can add thousands to the annual premium or kill a binding altogether. This is DSCR-relevant because insurance sits inside the payment the ratio divides against. DSCR lenders want the bound quote before closing, and your matched specialist will typically sequence it early: confirm X zone or budget flood, pull the roof permit date, order wind mitigation, then let carriers compete on a clean package."
+      },
+      "programFit": [
+        "standard-dscr",
+        "interest-only-dscr",
+        "portfolio-dscr"
+      ],
+      "dealExample": {
+        "label": "Cash-Out Refinance",
+        "propertyType": "3-bed / 1-bath bungalow",
+        "neighborhood": "Seminole Heights",
+        "purchasePrice": 400000,
+        "downPaymentPct": 40,
+        "downPayment": 160000,
+        "loanAmount": 240000,
+        "loanType": "30-Year, 10-Year Interest-Only",
+        "interestOnly": true,
+        "monthlyPI": 1500,
+        "monthlyTax": 333,
+        "monthlyInsurance": 320,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 2153,
+        "monthlyRent": 2250,
+        "dscr": 1.05,
+        "monthlyCashFlow": 97,
+        "specialistFocus": [
+          "Structured the cash-out at 60% LTV where the file cleared 1.0 on the interest-only payment, freeing equity for the next purchase",
+          "Re-shopped the premium after a new four-point and wind mitigation report on the 1920s bungalow's updated roof",
+          "Anchored the appraiser's rent schedule to Seminole Heights single-family comps instead of nearby apartment rents"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Tampa insurance is expensive. How much does it actually move a DSCR file?",
+          "answer": "More than most investors model. A median Tampa house commonly insures for $3,300 to $5,100 a year, so call it $275 to $425 a month sitting inside your PITIA. On a $280,000 loan, every $100 of monthly premium moves the DSCR by roughly 0.04. That is why two identical houses on the same street can produce a passing and a failing file if one has a 2022 roof with wind mitigation credits and the other has a 2004 roof. Bind the quote early, in an X flood zone where possible, and make carriers compete."
+        },
+        {
+          "question": "Can I still find Tampa deals that clear 1.0 DSCR in this market?",
+          "answer": "At median price with 20% down, no. The math works when you change an input: buy in the University area or Temple Terrace where basis is $265,000 to $330,000, put 30% down, use an interest-only payment, or buy a duplex where two rents divide against one payment. The correction is doing some of the work, since values are down about 4.2% while rents only eased 1%. Plenty of lenders also offer DSCR programs below 1.0 with pricing adjustments, and your matched specialist can tell you where that tradeoff makes sense."
+        },
+        {
+          "question": "What about short-term rentals inside the city of Tampa?",
+          "answer": "Florida law preempts cities from banning vacation rentals unless their ordinance predates June 2011, and Tampa has no grandfathered ban, so STRs operate legally with a state DBPR license and local tax registration. That said, Tampa is not a resort market. Most STR demand clusters near downtown, the Riverwalk, and hospitals rather than beaches, which sit in separate cities like Clearwater and St. Pete Beach. Most Tampa DSCR volume is long-term rental. If you do run an STR angle, DSCR lenders will want either a 12-month rental history or an appraiser's market rent as the fallback."
+        },
+        {
+          "question": "How do out-of-state investors typically enter Tampa?",
+          "answer": "Usually through the value corridors first: Town 'N' Country, Temple Terrace, and the University area, where block construction, established tenant bases, and sub-$350,000 basis keep files clean. DSCR loans fit the remote model because qualification rides on the property's rent schedule, not your W-2. The Tampa-specific advice: never go under contract without knowing the flood zone and the roof permit year, because those two facts set your insurance quote, and the insurance quote can move your ratio a tenth of a point. A local manager and an early bound quote solve most of it."
+        },
+        {
+          "question": "Will my Hillsborough property taxes jump after closing?",
+          "answer": "Plan on it. Florida resets assessed value to market when ownership changes, and investment property gets no homestead exemption and no Save Our Homes cap. A longtime owner's $2,800 bill can become your $3,800 bill on the same house at the same millage. Non-homestead assessments are capped at 10% annual growth after year one, which protects you later but not at purchase. Budget roughly 1.0% of purchase price in Hillsborough, and expect DSCR lenders to underwrite the tax line off your price, not the seller's history."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Tampa typical home value $376,278, down 4.2% YoY, May 2026",
+        "Zumper Rent Report, Tampa average rent $1,950, down 1% YoY, July 2026",
+        "US Census Housing Vacancy Survey via iPropertyManagement, Tampa-St. Petersburg metro rental vacancy 6.8%, 2024 annual",
+        "GreatFlorida Insurance regional guide, Tampa Bay premiums $3,285 to $5,100 per year, 2026",
+        "Hillsborough County effective property tax data, flpropertycheck.com, 2026; adjusted upward for non-homestead purchase reset"
+      ]
+    },
+    {
+      "city": "St. Petersburg",
+      "slug": "st-petersburg",
+      "county": "Pinellas County",
+      "metro": "Tampa-St. Petersburg-Clearwater",
+      "hook": "St. Pete values are down about 3.9% to roughly $356K while metro vacancy sits at 6.8%, the tightest of Florida's big markets. The flood map decides which side of the math you're on.",
+      "metaDescription": "DSCR loans in St. Petersburg: $356K typical value, 6.8% metro vacancy, and flood-zone math that makes or breaks files. Match with a DSCR specialist.",
+      "market": {
+        "medianPrice": 356000,
+        "medianRent": 2000,
+        "priceToRent": 14.8,
+        "vacancyRate": 6.8,
+        "yoyPrice": -3.9,
+        "yoyRent": -2,
+        "estDSCR": 0.75,
+        "propertyTaxRate": 0.9,
+        "insuranceMonthly": 400
+      },
+      "overview": "St. Petersburg is two markets wearing one zip code prefix. Inland, on the high ground through Kenwood, Central Oak Park, and Lealman, sits some of the best block-construction rental stock in Tampa Bay. Near the water, in Shore Acres and the coastal fingers, sit homes that flooded in Helene and Milton in 2024, many for the first time ever. Zillow has the citywide typical value near $356,000, down about 3.9% year over year, with the flood-exposed streets driving most of the softness while high-ground blocks hold firm.\n\nRents eased about 2% to roughly $2,000 as a wave of new downtown apartments got absorbed, but metro vacancy at 6.8% is still the tightest among Florida's large metros. Demand drivers are real: downtown St. Pete's job and lifestyle growth, the Gulf beaches' service economy, and a healthcare base anchored by Bayfront and Johns Hopkins All Children's.\n\nFor DSCR purposes, the flood map is the underwriting. An X-zone block home carries wind-only insurance, call it $3,900 to $5,500 a year in Pinellas, while an AE-zone home adds $1,200 to $3,000 of flood premium on top, and that delta alone can swing a ratio past the pass-fail line. Investors are getting paid to know elevation right now: post-storm sellers, corrected prices, and a tenant base that is not going anywhere. Duplexes in Lealman and Pinellas Park remain the quiet cash-flow play.",
+      "regulationBadge": "friendly",
+      "regulationNote": "Long-term rentals face no local restrictions beyond Florida's landlord-friendly baseline, though St. Pete's grandfathered ordinance limits rentals under 30 days in most residential zones to three times a year, so underwrite this city as a long-term market.",
+      "neighborhoods": [
+        {
+          "name": "Central Oak Park",
+          "medianPrice": 330000,
+          "medianRent": 1895,
+          "note": "High-ground 1950s block homes west of downtown. X flood zones are common, which keeps insurance and DSCR math workable."
+        },
+        {
+          "name": "Kenwood",
+          "medianPrice": 390000,
+          "medianRent": 2095,
+          "note": "Craftsman bungalows a bike ride from downtown. Appreciation-forward, with rents that keep files respectable at 30% down."
+        },
+        {
+          "name": "Lealman",
+          "medianPrice": 285000,
+          "medianRent": 1795,
+          "note": "The county pocket where duplexes and small multifamily still trade under $450K. Two rents against one payment fixes St. Pete math."
+        },
+        {
+          "name": "Pinellas Park",
+          "medianPrice": 320000,
+          "medianRent": 1950,
+          "note": "Adjacent city with inland lots, workshop garages, and steady trade-worker tenancy. Boring in the way DSCR lenders like."
+        },
+        {
+          "name": "Shore Acres",
+          "medianPrice": 425000,
+          "medianRent": 2295,
+          "note": "Waterfront-adjacent value after 2024's floods, for investors who price elevation, flood premiums, and FEMA 50% rules honestly."
+        }
+      ],
+      "localAngle": {
+        "tag": "Flood Zones",
+        "title": "Buy the elevation, not the address",
+        "body": "Helene and Milton flooded thousands of Pinellas homes in 2024, including many outside mapped high-risk zones, and the insurance market repriced accordingly. A typical Pinellas single-family wind policy runs $3,900 to $5,500 a year, and an AE-zone lot adds $1,200 to $3,000 of flood premium on top. On a DSCR file that flood line is pure ratio drag, and on gut-renovated flood homes FEMA's 50% improvement rule can cap what you can rehab without elevating. DSCR lenders underwrite the full insurance stack, so your matched specialist will typically confirm the flood zone and elevation certificate before the appraisal is ordered, and structure X-zone files to keep flood coverage optional rather than mandatory."
+      },
+      "programFit": [
+        "standard-dscr",
+        "interest-only-dscr",
+        "portfolio-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "Duplex (two 2-bed / 1-bath units)",
+        "neighborhood": "Lealman",
+        "purchasePrice": 430000,
+        "downPaymentPct": 30,
+        "downPayment": 129000,
+        "loanAmount": 301000,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 2104,
+        "monthlyTax": 323,
+        "monthlyInsurance": 420,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 2847,
+        "monthlyRent": 2990,
+        "dscr": 1.05,
+        "monthlyCashFlow": 143,
+        "specialistFocus": [
+          "Selected an X-zone lot so flood coverage stayed optional and off the required PITIA",
+          "Priced the two-unit wind policy with mitigation credits off the re-roofed 2021 permit",
+          "Ran both units on the appraiser's rent schedule as long-term leases, keeping the file clear of St. Pete's grandfathered short-stay limits"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "How much does flood insurance change DSCR math in St. Petersburg?",
+          "answer": "It is often the whole ballgame. Wind coverage on a Pinellas single-family commonly runs $3,900 to $5,500 a year no matter what. An AE flood zone adds a mandatory flood policy, commonly $1,200 to $3,000 more, which is $100 to $250 a month of additional PITIA. On a $300,000 loan that can drag the ratio by up to a tenth of a point, exactly the margin most St. Pete files live inside. X-zone properties keep flood optional. Confirm the zone and elevation certificate before you write the offer, not after."
+        },
+        {
+          "question": "Can I run an Airbnb in St. Petersburg?",
+          "answer": "Mostly no, and the city's rule survives Florida's preemption because it predates June 2011. In most residential zones, St. Pete limits rentals of under 30 days to three times per year, and enforcement is real. Monthly-plus furnished rentals, travel nurse and snowbird stays, are legal and actually a strong niche near the hospitals and downtown. If short-stay income is the strategy, look at the beach towns with different rules or at Kissimmee's resort zones. DSCR lenders will underwrite St. Pete files on long-term market rent, which is the honest basis here anyway."
+        },
+        {
+          "question": "Where do DSCR files actually pencil in St. Pete right now?",
+          "answer": "Lealman and Pinellas Park duplexes are the cleanest math in the market: $400,000 to $450,000 buys two 2/1 units grossing $2,900 to $3,100, and two rents against one payment is how you clear 1.0 in Pinellas. On the single-family side, high-ground block homes in Central Oak Park and Disston Heights work at 30% down or with interest-only payments. Downtown condos mostly do not work: HOA fees stack on top of insurance, and post-Surfside reserve rules have pushed some buildings onto agency ineligible lists, which forces the conversation to lenders who do their own condo review."
+        },
+        {
+          "question": "Is buying St. Pete from out of state a bad idea after the 2024 storms?",
+          "answer": "It is a research problem, not a dealbreaker. The storms created motivated sellers and a citywide price dip of about 3.9%, but the damage was street-by-street. Remote investors need three facts per property: FEMA flood zone, ground elevation, and whether the home took water in 2024, which local agents and permit records will confirm. High-ground block homes that never flooded are renting to the same 6.8%-vacancy tenant pool as before. DSCR qualification itself is location-blind, since the loan rides on the rent schedule, and your matched specialist coordinates appraisal, insurance, and title remotely."
+        },
+        {
+          "question": "What should I budget for property taxes on a Pinellas rental?",
+          "answer": "Assume the assessed value resets to your purchase price at closing. Investors get no homestead exemption and no 3% Save Our Homes cap, so a longtime owner's bill tells you almost nothing about yours. Pinellas effective costs for a fresh non-homestead purchase generally land near 0.9% of price per year, with the 10% non-homestead cap limiting increases only after year one. On a $356,000 typical buy that is roughly $3,200 a year inside your PITIA. DSCR lenders model the reset number up front, which is the correct way to underwrite it."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Saint Petersburg typical home value $355,759, down 3.9% YoY, June 2026",
+        "Zumper Rent Research, St. Petersburg median rent $2,077, April 2026",
+        "RentCafe, St. Petersburg average apartment rent $2,018, down 4.1% YoY, mid-2026",
+        "US Census Housing Vacancy Survey via iPropertyManagement, Tampa-St. Petersburg metro rental vacancy 6.8%, 2024 annual",
+        "Latent Insurance Pinellas County guide, wind coverage $3,900 to $5,500 and flood adders $1,200 to $3,000, 2026",
+        "Pinellas County effective property tax data, flpropertycheck.com, 2026; adjusted upward for non-homestead purchase reset"
+      ]
+    },
+    {
+      "city": "Orlando",
+      "slug": "orlando",
+      "county": "Orange County",
+      "metro": "Orlando-Kissimmee-Sanford",
+      "hook": "Orlando's typical home eased about 2.8% to roughly $376K while 1,500 people a week keep moving into the metro. The long-term rental math lives in the value grid west and east of downtown.",
+      "metaDescription": "DSCR loans in Orlando: $376K typical value, $1,900 median rent, and value pockets like Pine Hills where files still clear. Match with a DSCR specialist.",
+      "market": {
+        "medianPrice": 376000,
+        "medianRent": 1900,
+        "priceToRent": 16.5,
+        "vacancyRate": 9.4,
+        "yoyPrice": -2.8,
+        "yoyRent": -1,
+        "estDSCR": 0.71,
+        "propertyTaxRate": 0.95,
+        "insuranceMonthly": 290
+      },
+      "overview": "Orlando runs on more than the parks. Zillow has the typical city home near $376,000, down about 2.8% on the year, while median rent holds around $1,900. Behind the tourism headline sits a diversified employment engine: 80-million-plus annual visitors feeding a quarter-million hospitality jobs, yes, but also Lockheed Martin's missile and simulation campuses, the Lake Nona Medical City buildout, UCF's 68,000 students, and a convention economy second only to Vegas. People follow those jobs, roughly 1,500 net new residents a week metro-wide, and they rent first.\n\nThe supply side is the current story. Metro rental vacancy jumped to 9.4% in the 2024 Census data as a record apartment pipeline delivered, which is why rents went flat despite the population firehose. New complexes with two months free are real competition for landlords near the tourist corridor. Single-family rentals in established neighborhoods feel it far less, and that is where the DSCR math points anyway.\n\nInland location keeps insurance civilized by Florida standards, commonly $2,800 to $4,000 a year on a median house with no coastal wind zone and flood optional on most lots. Deals pencil in the value grid: Pine Hills and Azalea Park 4/2s in the high $200s renting over $2,000, Conway's block homes, and UCF-adjacent stock with permanent student demand. Note that whole-home short stays are restricted inside city limits, so Orlando proper is a long-term rental market; the vacation-rental play lives next door in Kissimmee.",
+      "regulationBadge": "friendly",
+      "regulationNote": "Florida's landlord-friendly baseline applies with no rent control, though the city of Orlando's home-share rules effectively push whole-home short-term rentals outside city limits, making this a long-term rental market by design.",
+      "neighborhoods": [
+        {
+          "name": "Pine Hills",
+          "medianPrice": 285000,
+          "medianRent": 1795,
+          "note": "The metro's classic cash-flow grid: 4/2 block homes in the high $200s renting $1,900 to $2,150. Best rent-to-price inside the city."
+        },
+        {
+          "name": "Azalea Park",
+          "medianPrice": 310000,
+          "medianRent": 1895,
+          "note": "1960s block stock near the 408 with steady working-family tenancy. Boring, rentable, and DSCR-friendly at 25% down."
+        },
+        {
+          "name": "Conway",
+          "medianPrice": 380000,
+          "medianRent": 2095,
+          "note": "Well-kept block homes near the airport corridor. Slightly thinner ratios, stronger tenant quality and appreciation."
+        },
+        {
+          "name": "Union Park / UCF corridor",
+          "medianPrice": 340000,
+          "medianRent": 1995,
+          "note": "68,000 students plus hospital staff keep this side of town leased. Room-by-room operators push gross rents well past the schedule."
+        },
+        {
+          "name": "MetroWest",
+          "medianPrice": 250000,
+          "medianRent": 1750,
+          "note": "Condo-heavy value near Universal. Cheap doors, but check warrantability and HOA health before assuming agency-style financing."
+        }
+      ],
+      "localAngle": {
+        "tag": "STR Rules",
+        "title": "The tourism capital where Airbnb lives next door",
+        "body": "Orlando city code allows home sharing only while the owner lives on site, and half-home rules cap what can be rented, so the whole-home vacation rental business that feeds on 80 million visitors operates almost entirely outside city limits, concentrated in Osceola County's resort zones. For investors this is a feature, not a bug: it sorts the metro cleanly. Buy inside Orlando for long-term tenants on 12-month leases, or buy in Kissimmee's short-term overlay for nightly income, and structure the loan to match. DSCR lenders underwrite Orlando files on the appraiser's long-term rent schedule, and your matched specialist will flag any file where projected nightly income is doing work the zoning cannot legally support."
+      },
+      "programFit": [
+        "standard-dscr",
+        "portfolio-dscr",
+        "bridge-to-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "4-bed / 2-bath SFR",
+        "neighborhood": "Pine Hills",
+        "purchasePrice": 290000,
+        "downPaymentPct": 25,
+        "downPayment": 72500,
+        "loanAmount": 217500,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 1520,
+        "monthlyTax": 230,
+        "monthlyInsurance": 280,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 2030,
+        "monthlyRent": 2050,
+        "dscr": 1.01,
+        "monthlyCashFlow": 20,
+        "specialistFocus": [
+          "Priced the tax line off the non-homestead reset at purchase, not the seller's capped bill",
+          "Documented the 2021 roof permit before carrier quotes, keeping the inland premium near the bottom of the Florida range",
+          "Supported the 4-bed rent schedule with lease comps instead of letting 3-bed averages set the income line"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Orlando vacancy jumped to 9.4%. Should that scare me off?",
+          "answer": "It should shape what you buy, not whether you buy. The vacancy spike is concentrated in new apartment complexes delivered during the 2023 to 2025 pipeline, which compete on concessions in the urban core and tourist corridor. A 4/2 block house in Pine Hills or Azalea Park rents to families who are not touring lease-up specials, and single-family lease-up times there remain measured in weeks. Underwrite rent at the comp line, assume a realistic vacancy month, and the 9.4% metro number becomes background noise to a well-located SFR file."
+        },
+        {
+          "question": "Can I buy an Orlando Airbnb with a DSCR loan?",
+          "answer": "Inside city limits, generally no, because Orlando only permits home sharing with the owner living on site, which is incompatible with an investment property. The whole-home vacation rental market operates in Osceola County's short-term overlay zones around Kissimmee, where DSCR lenders finance STRs on projected nightly income. If your plan is nightly rental economics, buy where the zoning supports it. If you buy in Orlando proper, underwrite 12-month leases. Your matched specialist will structure the file on whichever income basis the location legally supports, which protects the appraisal and the closing."
+        },
+        {
+          "question": "What insurance number should I model for an Orlando rental?",
+          "answer": "Inland Orange County is one of Florida's friendlier insurance markets: a median-priced block home with a newer roof commonly quotes $2,800 to $4,000 a year, with no mandatory flood on most lots. Roof age is still the pricing lever carriers care about most, and a pre-2005 roof can push quotes past $5,000 or block binding entirely. Since the premium sits inside PITIA, that swing moves your DSCR meaningfully. Model $280 to $330 a month at the median, verify the roof permit date before going under contract, and get the wind mitigation inspection."
+        },
+        {
+          "question": "How do property taxes work when I buy a rental in Orange County?",
+          "answer": "Florida resets the assessed value to roughly your purchase price when the deed transfers, and investors get neither the homestead exemption nor the 3% Save Our Homes cap. The 10% non-homestead cap only slows growth after your first bill. Practical budgeting: about 0.95% of purchase price per year in Orange County, so near $3,600 on a $376,000 typical buy. The seller's tax history will look lower because it was capped; DSCR lenders underwrite your reset number instead, which is exactly what your own pro forma should do."
+        },
+        {
+          "question": "I'm out of state. Which Orlando submarkets and property types travel best?",
+          "answer": "Stick to the block-construction grid: Pine Hills, Azalea Park, and Union Park 3/2s and 4/2s between $270,000 and $340,000, where tenant demand is structural and management companies know the streets. These files are DSCR-clean: standard appraisals, long-term rent schedules, inland insurance. What travels worst remotely is condo product, where warrantability and HOA finances add diligence layers, and anything marketed on short-stay income inside city limits, which the zoning undercuts. Line up property management before closing and have your matched specialist run the rent schedule against real lease comps, not listing asks."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Orlando typical home value $376,216, down 2.8% YoY, May 2026",
+        "Zumper Rent Report, Orlando average rent $1,900, July 2026",
+        "US Census Housing Vacancy Survey via iPropertyManagement, Orlando-Kissimmee-Sanford metro rental vacancy 9.4%, 2024 annual",
+        "MoneyGeek and Orange County insurance guides, Orlando premiums $3,200 to $4,500 per year, 2026",
+        "Orange County effective property tax data, flpropertycheck.com, 2026; adjusted upward for non-homestead purchase reset"
+      ]
+    },
+    {
+      "city": "Kissimmee",
+      "slug": "kissimmee",
+      "county": "Osceola County",
+      "metro": "Orlando-Kissimmee-Sanford",
+      "hook": "The US-192 corridor holds 18,000-plus vacation rentals minutes from Disney, and Osceola's short-term overlay zones make nightly income legal by design. This is Florida's vacation-home lending capital.",
+      "metaDescription": "DSCR loans in Kissimmee: 18,000+ vacation rentals in legal STR zones near Disney, financed on projected nightly income. Match with a DSCR specialist.",
+      "market": {
+        "medianPrice": 365000,
+        "medianRent": 2150,
+        "priceToRent": 14.1,
+        "vacancyRate": 9.4,
+        "yoyPrice": -4,
+        "yoyRent": -1,
+        "estDSCR": 0.81,
+        "propertyTaxRate": 1,
+        "insuranceMonthly": 300
+      },
+      "overview": "Kissimmee is where Florida deliberately zoned the Airbnb business. While most cities tolerate short-term rentals, Osceola County built overlay districts for them: the West 192 corridor running toward Disney's gates and the eastern district near the Turnpike, holding 40-plus resort communities and more than 18,000 vacation rental properties. Storey Lake, Windsor Hills, Reunion, and the ChampionsGate edge exist specifically to be rented by the night, with HOAs, management infrastructure, and county licensing built around it.\n\nThe numbers run on two tracks. Long-term: typical values near $365,000, down roughly 4% in the correction, with median rents around $2,150 held up by Poinciana and BVL family stock. Short-term: a well-run 4-bedroom townhome near the parks can gross $45,000 to $55,000 a year, which is why DSCR lenders with STR programs qualify these files on the appraiser's projected nightly income rather than long-term rent. That projection is the entire deal, and so are the carry costs stacked against it: resort HOA fees commonly $400 to $600 a month, CDD assessments in many communities, and 6% state plus 6% Osceola tourist development tax on gross nightly revenue.\n\nThe honest read: supply is heavy, ADRs softened as the post-2021 wave delivered, and thin operators are selling. That is exactly when disciplined buyers with real revenue underwriting, not listing-agent projections, pick up furnished, cash-flowing assets at corrected prices.",
+      "regulationBadge": "friendly",
+      "regulationNote": "Osceola County affirmatively zones for short-term rentals through its overlay districts with straightforward licensing, making Kissimmee one of the few US markets where nightly-rental income is a planned land use rather than a loophole.",
+      "neighborhoods": [
+        {
+          "name": "West 192 / Four Corners corridor",
+          "medianPrice": 340000,
+          "medianRent": 1995,
+          "note": "The original vacation-home strip minutes from Disney. Older STR condos and townhomes at entry pricing, with revenue tied tightly to management quality."
+        },
+        {
+          "name": "Storey Lake",
+          "medianPrice": 430000,
+          "medianRent": 2295,
+          "note": "Newer resort townhomes with strong nightly demand from the Disney corridor. The standard STR-DSCR file: projected income, resort HOA, tourist tax."
+        },
+        {
+          "name": "Reunion / ChampionsGate edge",
+          "medianPrice": 520000,
+          "medianRent": 2695,
+          "note": "Larger villas with pools grossing at the top of the market. Higher HOA and CDD loads mean the revenue projection has to carry more."
+        },
+        {
+          "name": "Buenaventura Lakes (BVL)",
+          "medianPrice": 320000,
+          "medianRent": 1950,
+          "note": "Long-term rental grid, not STR product. Solid family tenancy for investors who want Osceola exposure without nightly operations."
+        },
+        {
+          "name": "Poinciana",
+          "medianPrice": 285000,
+          "medianRent": 1850,
+          "note": "The metro's affordability release valve. Long-term 3/2s at the lowest basis in the county, with commuter tenants and workable ratios."
+        }
+      ],
+      "localAngle": {
+        "tag": "STR Zones",
+        "title": "Underwriting the nightly number",
+        "body": "In Osceola's short-term overlay, the loan lives or dies on the income projection. DSCR lenders with STR programs typically qualify off the appraiser's projected short-term rent or a documented 12-month revenue history, then divide it against a PITIA that includes resort HOA dues and, in many communities, CDD assessments. The traps are predictable: listing-agent revenue claims that assume 85% occupancy, HOA and tourist-tax lines left out of the math, and communities whose rental programs restrict owner flexibility. Your matched specialist will typically pressure-test the projection against comparable actuals, confirm the property sits inside the overlay with a current county license path, and structure interest-only where seasonal cash flow needs headroom."
+      },
+      "programFit": [
+        "str-dscr",
+        "standard-dscr",
+        "interest-only-dscr",
+        "portfolio-dscr"
+      ],
+      "dealExample": {
+        "label": "STR Purchase",
+        "propertyType": "4-bed / 3-bath furnished resort townhome",
+        "neighborhood": "Storey Lake",
+        "purchasePrice": 420000,
+        "downPaymentPct": 25,
+        "downPayment": 105000,
+        "loanAmount": 315000,
+        "loanType": "30-Year, 10-Year Interest-Only",
+        "interestOnly": true,
+        "monthlyPI": 1969,
+        "monthlyTax": 350,
+        "monthlyInsurance": 300,
+        "monthlyHOA": 480,
+        "monthlyPITIA": 3099,
+        "monthlyRent": 4100,
+        "dscr": 1.32,
+        "monthlyCashFlow": 1001,
+        "specialistFocus": [
+          "Qualified the file on the appraiser's projected short-term rental income rather than the long-term rent schedule",
+          "Verified the community sits inside Osceola's short-term overlay with license and tourist-tax registration mapped before appraisal",
+          "Built resort HOA dues and the CDD line into PITIA up front, then used interest-only payments to hold headroom through seasonal months"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "How do DSCR lenders count Airbnb income on a Kissimmee vacation home?",
+          "answer": "Two accepted paths. On a purchase, most STR-capable DSCR lenders use the appraiser's projected short-term rent, often supported by market data like comparable nightly revenue. On a refinance, twelve months of documented revenue through a platform or manager statement usually wins. Either way the income gets divided against full PITIA including resort HOA dues, and seasoned operators know Osceola revenue is seasonal, so many files use interest-only payments for headroom. What does not work: a listing agent's gross projection at fantasy occupancy. Your matched specialist will sanity-check the number before the appraisal locks it in."
+        },
+        {
+          "question": "Where exactly are short-term rentals legal in Kissimmee?",
+          "answer": "Inside the designated zones. Osceola County runs short-term rental overlay districts, the western district along the US-192 Disney corridor and an eastern district near the Turnpike, covering 40-plus resort communities, and the city of Kissimmee permits STRs where zoning allows with a business tax receipt and, in some cases, a conditional use permit. Buy inside communities purpose-built for it, Storey Lake, Windsor Hills, Reunion, and licensing is routine. Buy a random house outside the overlay and you may have bought a long-term rental. Confirm the parcel's overlay status before contract, not after."
+        },
+        {
+          "question": "What carry costs blindside first-time vacation-home buyers here?",
+          "answer": "Four lines, in order of pain. Resort HOA dues, commonly $400 to $600 a month, which sit inside your PITIA on a DSCR file. CDD assessments in many newer communities, billed with the tax bill. Tourist development taxes, 6% state sales tax plus Osceola's 6% TDT on gross nightly revenue, which come off the top before your mortgage sees a dollar. And furnishing plus management, typically 15% to 25% of revenue for full-service STR operators. A projection that clears these honestly is a real deal; one that ignores them is a listing pitch."
+        },
+        {
+          "question": "Is the Kissimmee STR market oversupplied in 2026?",
+          "answer": "Supply is heavy and it shows: values corrected roughly 4% over the past year and average nightly revenue softened as thousands of post-2021 units came online. That cuts both ways. Weak operators who bought at 2022 prices on optimistic projections are selling, sometimes furnished and below replacement cost. Disney-corridor demand itself remains enormous, and well-managed properties with pools, themed rooms, and professional listings still gross at the top of the comp set. Underwrite off comparable actuals at conservative occupancy, buy the correction, and let the projection be the floor, not the ceiling."
+        },
+        {
+          "question": "Do my Osceola property taxes reset when I buy an investment property?",
+          "answer": "Yes. Assessed value resets to roughly your purchase price at transfer, and as an investor you get no homestead exemption and no 3% cap, only the 10% non-homestead cap starting after your first year. Budget about 1.0% of purchase price annually, and check whether the community carries a CDD assessment on top, because many resort developments do. One more Osceola-specific line: register for and remit tourist development tax from day one on nightly stays. DSCR lenders underwrite the reset tax number, and clean files price every one of these lines before closing."
+        }
+      ],
+      "dataSources": [
+        "Zillow, Kissimmee typical home value $368,842, mid-2026; Houzeo median $359,900, down 4.0% YoY, June 2026",
+        "Zumper Rent Research, Kissimmee median rent $2,195, May 2026, down 1% YoY July 2026",
+        "US Census Housing Vacancy Survey via iPropertyManagement, Orlando-Kissimmee-Sanford metro rental vacancy 9.4%, 2024 annual",
+        "Osceola County STR overlay district documentation and Kissimmee vacation rental licensing guides, 2026; US-192 corridor 18,000+ vacation rentals",
+        "Osceola County effective property tax data, flpropertycheck.com, 2026; adjusted for non-homestead reset, CDD noted separately"
+      ]
+    },
+    {
+      "city": "Miami",
+      "slug": "miami",
+      "county": "Miami-Dade County",
+      "metro": "Miami-Fort Lauderdale-West Palm Beach",
+      "hook": "Miami rents average $3,150 and still rising while the condo segment corrects hard, with Miami-Dade condo medians down nearly 10%. The buyers winning here are the ones whose financing can touch what agencies will not.",
+      "metaDescription": "DSCR loans in Miami: $3,150 average rents, condos down near 10%, non-warrantable buildings and foreign nationals financed. Match with a specialist.",
+      "market": {
+        "medianPrice": 582000,
+        "medianRent": 3150,
+        "priceToRent": 15.4,
+        "vacancyRate": 9.5,
+        "yoyPrice": -1.2,
+        "yoyRent": 2,
+        "estDSCR": 0.73,
+        "propertyTaxRate": 1.05,
+        "insuranceMonthly": 550
+      },
+      "overview": "Miami is running a two-speed market. Single-family values hold near $582,000 citywide with rents at a $3,150 average, still inching up 2% while the rest of Florida flattens. Condos are the other speed: Miami-Dade's condo median fell almost 10% over the past year as post-Surfside structural laws bite. Buildings 30 years and older now face milestone inspections and structural integrity reserve studies, reserve waivers are gone, and the resulting special assessments and HOA fee spikes have pushed hundreds of buildings onto the agency ineligible list, 482 in Miami-Dade alone, more than any county in America.\n\nThat dislocation is the opportunity, and it is exactly the corner of the market DSCR lending serves. When Fannie and Freddie will not touch a building, units trade at discounts to buyers whose lenders do their own condo review. Global capital never stopped flowing here either, and foreign-national DSCR programs, qualifying on the property's rent with no US credit score, remain the standard financing path for international buyers in Brickell, Edgewater, and the beach-adjacent corridors.\n\nCash-flow math is honest-hard: at the citywide median, ratios run well below 1.0, and insurance at $6,000-plus a year on single-family does not help. Files that work are structural: 30% to 40% down, no-ratio programs, rent-strong pockets like Little Havana small multifamily, Westchester single-family with ADU income, or discounted condo units where the assessment risk got priced correctly at purchase.",
+      "regulationBadge": "friendly",
+      "regulationNote": "Florida preempts rent control and local tenant-protection overlays, so even in Miami the landlord-tenant framework stays state-standard and owner-friendly, with the real regulatory friction sitting in condo governance and zoning rather than leasing law.",
+      "neighborhoods": [
+        {
+          "name": "Little Havana",
+          "medianPrice": 480000,
+          "medianRent": 2595,
+          "note": "Small multifamily and older condos walkable to Brickell wages. Duplexes and fourplexes here are Miami's classic rent-stacking play."
+        },
+        {
+          "name": "Westchester",
+          "medianPrice": 585000,
+          "medianRent": 3195,
+          "note": "Deep single-family rental demand, and Miami-Dade's ADU allowances let investors add a legal second income stream on many lots."
+        },
+        {
+          "name": "North Miami",
+          "medianPrice": 470000,
+          "medianRent": 2695,
+          "note": "Value entry near the Biscayne corridor with heavy 1970s-1980s condo stock. Warrantability diligence is the whole game on these buildings."
+        },
+        {
+          "name": "Allapattah",
+          "medianPrice": 520000,
+          "medianRent": 2795,
+          "note": "Industrial-adjacent gentrification path west of Wynwood. Small multifamily basis still below replacement cost."
+        },
+        {
+          "name": "West Kendall",
+          "medianPrice": 560000,
+          "medianRent": 3095,
+          "note": "Suburban family rentals with long tenancies. Thin ratios at full price, workable on seller-motivated deals with bigger down payments."
+        }
+      ],
+      "localAngle": {
+        "tag": "Condo Financing",
+        "title": "The ineligible-list discount",
+        "body": "Post-Surfside laws rewired Miami condo economics: milestone inspections at 30 years, mandatory structural reserve studies, and no more waiving reserve funding. Buildings that cannot show compliant budgets land on the agency ineligible list, which now covers roughly 482 Miami-Dade condo projects, and units in those buildings cannot get conventional financing at all. Prices adjust accordingly, sometimes 15% to 30% below comparable warrantable buildings. DSCR lenders that do their own project review will finance select non-warrantable buildings case by case, looking at the actual engineering reports, reserve funding path, and assessment schedule. Your matched specialist's job on these files is separating buildings with a funded plan from buildings with an open-ended liability, before the discount becomes your problem."
+      },
+      "programFit": [
+        "foreign-national-dscr",
+        "no-ratio-dscr",
+        "standard-dscr",
+        "interest-only-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "2-bed / 2-bath condo, non-warrantable building",
+        "neighborhood": "North Miami",
+        "purchasePrice": 400000,
+        "downPaymentPct": 35,
+        "downPayment": 140000,
+        "loanAmount": 260000,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 1817,
+        "monthlyTax": 350,
+        "monthlyInsurance": 140,
+        "monthlyHOA": 550,
+        "monthlyPITIA": 2857,
+        "monthlyRent": 2950,
+        "dscr": 1.03,
+        "monthlyCashFlow": 93,
+        "specialistFocus": [
+          "Placed the file with a DSCR lender running full case-by-case condo review after the building appeared on the agency ineligible list",
+          "Documented the foreign national borrower with passport, visa, and foreign credit references, no US credit score required",
+          "Reviewed the association's milestone inspection and reserve study so the special-assessment exposure was priced into the offer, not found after closing"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "What does 'non-warrantable' mean for Miami condos and why does it matter?",
+          "answer": "It means Fannie Mae and Freddie Mac will not back loans in that building, usually because of underfunded reserves, pending structural repairs, litigation, or missing inspection paperwork under Florida's post-Surfside laws. Miami-Dade has 482 projects on the agency ineligible list, the most in the country. Units there cannot close with conventional financing, so the buyer pool shrinks and prices discount. DSCR lenders that perform their own project review can finance select buildings anyway, which is how investors buy the discount. The diligence burden shifts to the building's engineering and budget documents, where it belongs."
+        },
+        {
+          "question": "I'm not a US citizen. Can I finance a Miami rental property?",
+          "answer": "Yes, this is one of the most established foreign-national lending markets in the country. Foreign-national DSCR programs qualify the loan on the property's rental income rather than your personal income, with no US credit score required; lenders document identity with a passport and visa, and support the file with foreign credit references or bank letters. Expect 25% to 35% down, US entity vesting if you want it, and standard title and insurance. Your matched specialist handles the structure end to end, and the match itself involves no credit pull."
+        },
+        {
+          "question": "How bad is insurance on Miami investment property really?",
+          "answer": "On single-family, plan for the highest tier in America: often $5,000 to $8,000-plus a year at the citywide median value, driven by wind exposure. That line alone is why many Miami single-family files need 35% to 40% down to clear ratio. Condos work differently: the association's master policy covers the structure, and your HO-6 walls-in policy commonly runs $1,200 to $2,500 a year. The catch is the master policy's cost lives inside your HOA dues, and underfunded or repriced master policies are a leading cause of the fee spikes hitting older buildings."
+        },
+        {
+          "question": "Where does the DSCR math actually work in Miami?",
+          "answer": "Where rent stacks or basis breaks. Little Havana and Allapattah duplexes and fourplexes put two to four rents against one payment. Westchester lots with legal ADUs create second income streams under one roof. Ineligible-list condo units bought at 15% to 30% discounts can pencil when the HOA math is verified and the down payment is 35%. At full retail single-family prices, ratios run below 1.0, and buyers either size down payments up, use no-ratio programs designed for exactly this, or treat Miami as an appreciation and dollar-haven market rather than a cash-flow one. All four are legitimate; mixing up which game you are playing is the error."
+        },
+        {
+          "question": "Can I run short-term rentals in the city of Miami?",
+          "answer": "Only where the zoning code allows it. Miami 21 permits short-term rentals in higher-intensity transect zones, T4 through T6 and CI-HD, which covers much of Brickell, downtown, and Edgewater, while T3 single-family neighborhoods are effectively off-limits. You also need a state DBPR license, county certificate of use, and city business tax receipt, and many condo buildings prohibit or restrict short stays regardless of zoning. Miami Beach is a separate city with a famously strict grandfathered ordinance; do not confuse the two markets. For STR-based files, DSCR lenders will want the zoning and building rules verified before underwriting projected nightly income."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Miami typical home value $581,864, down 1.2% YoY, mid-2026",
+        "MIAMI Realtors, Miami-Dade condo median down nearly 10% YoY, early 2026",
+        "Zumper Rent Report, Miami average rent $3,150, up 2% YoY, July 2026",
+        "US Census Housing Vacancy Survey via iPropertyManagement, Miami-Fort Lauderdale metro rental vacancy 9.5%, 2024 annual",
+        "Fannie Mae ineligible project list coverage (MPA, condoblacklist.com), 482 Miami-Dade projects, 2026",
+        "South Florida insurance guides (livecovered, insuranceopedia), Miami-Dade premiums $4,375 to $7,290+ per year, 2026"
+      ]
+    },
+    {
+      "city": "Cape Coral",
+      "slug": "cape-coral",
+      "county": "Lee County",
+      "metro": "Cape Coral-Fort Myers",
+      "hook": "Cape Coral is Florida's sharpest correction: values down about 6% to roughly $337K, sellers outnumbering buyers, and insurance doing the sorting. Basis hunters are getting paid to be patient here.",
+      "metaDescription": "DSCR loans in Cape Coral: values down 6% to $337K, canal-city insurance math, and BRRRR refinances at reset prices. Match with a DSCR specialist.",
+      "market": {
+        "medianPrice": 337000,
+        "medianRent": 1900,
+        "priceToRent": 14.8,
+        "vacancyRate": 10.1,
+        "yoyPrice": -6,
+        "yoyRent": -5,
+        "estDSCR": 0.73,
+        "propertyTaxRate": 1.05,
+        "insuranceMonthly": 430
+      },
+      "overview": "Cape Coral is the deepest correction among Florida's major markets, and everyone selling knows it. Zillow has the typical home near $337,000, down about 6% year over year and roughly 20% off the 2022 peak. Rents followed: the median sits near $1,900 with apartment asking rents down double digits as post-Ian rebuild supply and investor exits stack inventory. Metro rental vacancy printed 10.1% in 2024 Census data. None of that is a reason to avoid the market; it is the reason the market is finally worth working.\n\nThe city itself is a 400-mile canal grid built for growth: pre-platted lots, new construction everywhere, and steady in-migration of retirees and remote workers who rent before buying. Hurricane Ian in 2022 reset the insurance and elevation conversation permanently. Wind premiums commonly run $3,500 to $5,000-plus on older homes, flood is mandatory in the AE zones covering much of the gulf-access south and west, and Lee County flood policies average around $1,120 a year with elevation certificates swinging quotes by thousands.\n\nThe DSCR playbook here is basis-first. Buy the correction in the northeast and central Cape where X zones keep flood optional, prioritize post-2002 construction with wind mitigation baked in, and let distressed and rebuilt inventory set your price. Ratios at median price and rent run thin, so the files that clear use 30% down, interest-only structures, or BRRRR refinances off a discounted purchase. Gulf-access seasonal rentals remain a real second lane for operators who underwrite furnished-rental income honestly.",
+      "regulationBadge": "friendly",
+      "regulationNote": "Cape Coral registers rentals and permits short-term stays citywide under Florida's landlord-friendly framework, so the binding constraints here are insurance and flood economics, not rental law.",
+      "neighborhoods": [
+        {
+          "name": "Northeast Cape",
+          "medianPrice": 300000,
+          "medianRent": 1850,
+          "note": "Off-water lots, newer builds, and X flood zones that keep insurance survivable. The cash-flow side of Cape Coral."
+        },
+        {
+          "name": "Southeast Cape",
+          "medianPrice": 385000,
+          "medianRent": 2095,
+          "note": "Established mid-Cape living near the bridges to Fort Myers. Balanced files: decent rents, moderate insurance, commuter tenants."
+        },
+        {
+          "name": "Northwest Cape",
+          "medianPrice": 340000,
+          "medianRent": 1950,
+          "note": "The growth frontier as utilities expand. New construction with 2023-code wind engineering quotes materially better with carriers."
+        },
+        {
+          "name": "Southwest Cape (gulf access)",
+          "medianPrice": 450000,
+          "medianRent": 2295,
+          "note": "Canal-front homes running as seasonal and furnished rentals. Higher gross income against mandatory flood and bigger premiums; underwrite both sides."
+        }
+      ],
+      "localAngle": {
+        "tag": "Insurance",
+        "title": "Ian rewrote the underwriting",
+        "body": "Hurricane Ian made Cape Coral the national case study in coastal carry cost, and the file structure followed. Wind coverage on an older home commonly quotes $3,500 to $5,000-plus, AE-zone lots add mandatory flood averaging around $1,120 a year in Lee County, and the pre-2016 assignment-of-benefits era still shadows how carriers treat older roofs and claim histories here. The response is mechanical, not emotional: X-zone lots keep flood optional, post-2002 and especially post-Ian construction carries wind mitigation credits that cut premiums sharply, and elevation certificates turn guesswork into pricing. DSCR lenders bind the real quote into PITIA, so your matched specialist will typically sequence flood zone, roof permit, and mitigation documentation before the appraisal, because in this city the insurance stack is the deal."
+      },
+      "programFit": [
+        "standard-dscr",
+        "bridge-to-dscr",
+        "interest-only-dscr",
+        "str-dscr"
+      ],
+      "dealExample": {
+        "label": "BRRRR Refinance",
+        "propertyType": "3-bed / 2-bath pool SFR",
+        "neighborhood": "Northeast Cape",
+        "purchasePrice": 330000,
+        "downPaymentPct": 30,
+        "downPayment": 99000,
+        "loanAmount": 231000,
+        "loanType": "30-Year, 10-Year Interest-Only",
+        "interestOnly": true,
+        "monthlyPI": 1444,
+        "monthlyTax": 289,
+        "monthlyInsurance": 330,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 2063,
+        "monthlyRent": 2100,
+        "dscr": 1.02,
+        "monthlyCashFlow": 37,
+        "specialistFocus": [
+          "Structured the refinance off the post-rehab appraised value after a discounted cash purchase from a motivated seller",
+          "Kept the file on an X-zone lot so flood coverage stayed optional and out of required PITIA",
+          "Documented the new 2025 roof and wind mitigation features, cutting the wind premium before the carrier bound"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Insurance is the Cape Coral objection. What does it actually do to DSCR files?",
+          "answer": "It decides them. A pre-2002 home in an AE flood zone can carry $5,000 to $7,000 of combined wind and flood premium, which is $400 to $580 a month of PITIA before principal and interest exist, and at $1,900 median rents that math rarely survives. Flip the inputs and the same city works: X-zone lot, post-Ian or post-2002 construction, wind mitigation credits, elevation certificate on file. That combination commonly lands $2,800 to $4,000 all-in. DSCR lenders underwrite the bound quote, so the insurance work happens before the offer, not after the appraisal."
+        },
+        {
+          "question": "Is buying into a 6% price decline catching a falling knife?",
+          "answer": "It is buying where sellers finally negotiate. Cape Coral leads Florida's correction because it led Florida's speculation, and the 2022-peak buyers exiting now are providing the discounts. The rental demand base, retirees, trades workers, remote workers renting before buying, did not leave. The discipline is entry basis: deals are getting done 5% to 10% under ask on aged listings, post-rebuild homes are trading near replacement cost, and BRRRR investors are refinancing off honest appraisals at reset values. Buy the street-level discount, underwrite rents at today's soft comps, and the correction becomes your margin."
+        },
+        {
+          "question": "Can I run a seasonal or short-term rental in Cape Coral?",
+          "answer": "Yes. Cape Coral permits short-term rentals citywide with a straightforward city registration, and Florida law prevents any new local ban. The real market is seasonal: snowbird tenants paying premium furnished rents January through April, boaters on gulf-access canals, and vacationing families in pool homes. DSCR lenders with STR options can qualify on projected furnished income or documented history, though many Cape files still pencil conservatively on long-term rent with seasonal upside kept as margin. If the deal only works at peak-season projections, it does not work. Underwrite the twelve-month blend."
+        },
+        {
+          "question": "What should out-of-state investors know before buying in Cape Coral?",
+          "answer": "Three Cape-specific facts. First, flood zone is parcel-by-parcel: two streets apart can mean mandatory flood or none, so pull the FEMA panel and demand the elevation certificate early. Second, construction year is an insurance variable, not trivia; post-2002 code and post-Ian builds quote dramatically better. Third, some inherited assessments exist: utility expansion assessments in newer quadrants ride the tax bill. None of this is hard remotely, it is just sequence: zone, roof, quote, then offer. DSCR qualification itself travels fine since the loan rides the property's rent schedule, and local property management is abundant."
+        },
+        {
+          "question": "How do Lee County taxes treat an investor purchase?",
+          "answer": "Same reset rules as the rest of Florida, with a Cape twist. Assessed value resets to roughly your purchase price, no homestead exemption, no 3% cap, only the 10% non-homestead cap after year one, so budget near 1.0% of purchase price at Cape Coral's combined city and county millage. The twist: check the parcel for utility expansion assessments, which in parts of the north Cape add a fixed annual line for water and sewer buildout. DSCR lenders count tax and assessment lines inside PITIA, so verified numbers up front keep the ratio honest."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Cape Coral typical home value $337,346, down 6.0% YoY, June 2026",
+        "Zumper Rent Research, Cape Coral median rent $1,915, March 2026; RentCafe apartment rents down 11% YoY, mid-2026",
+        "US Census Housing Vacancy Survey via iPropertyManagement, Cape Coral-Fort Myers metro rental vacancy 10.1%, 2024 annual",
+        "LocalLifeHomes and Lee County flood guides, AE-zone flood policies $1,500 to $4,500 and Lee County average flood premium $1,120, 2026",
+        "Cape Coral insurance market guides (cigflorida, LP Insurance), typical premiums $3,500 to $8,000, 2026",
+        "Lee County effective property tax data, flpropertycheck.com, 2026; adjusted upward for non-homestead purchase reset"
+      ]
+    },
+    {
+      "city": "Port St. Lucie",
+      "slug": "port-st-lucie",
+      "county": "St. Lucie County",
+      "metro": "Port St. Lucie",
+      "hook": "America's fastest-growing large city five years running: 25% more residents since 2020 and an Amazon-anchored jobs corridor filling with tenants. The catch is Florida's heaviest property-tax load, and files get built around it.",
+      "metaDescription": "DSCR loans in Port St. Lucie: fastest-growing US city, $391K typical value, $2,400 SFR rents, high St. Lucie taxes priced in. Match with a specialist.",
+      "market": {
+        "medianPrice": 391000,
+        "medianRent": 2400,
+        "priceToRent": 13.6,
+        "vacancyRate": 9,
+        "yoyPrice": -2.4,
+        "yoyRent": -1.6,
+        "estDSCR": 0.83,
+        "propertyTaxRate": 1.2,
+        "insuranceMonthly": 330
+      },
+      "overview": "Port St. Lucie has led the nation in population growth among large cities for five straight years: 204,851 residents in 2020, 260,194 by 2025, a 25% surge that shows up directly in rental demand. This was a commuter bedroom city; it is becoming a jobs market. The Southern Grove and Tradition corridor has pulled in Amazon, Cleveland Clinic's hospital campus, and a county pipeline of 60-plus projects claiming 5,000 jobs, while FPL and the trades economy keep hiring underneath it.\n\nThe housing math reads like a growth market that just exhaled. Typical values sit near $391,000, off about 2.4% from a year ago as heavy new construction gave buyers choices, and single-family rents hold near $2,400, among the strongest rent levels of any affordable Florida metro because the stock is overwhelmingly houses, not apartments. Newer-build inventory means cleaner insurance files than older coastal Florida, commonly $3,500 to $4,500 a year at the median with hurricane-code construction earning real credits.\n\nThe number investors miss is the tax line. St. Lucie County carries one of Florida's heaviest millage loads, and on an investor purchase with full non-homestead reset the effective cost commonly lands near 1.2% of purchase price, hundreds a month more than a comparable Polk or Brevard deal. Files here get structured around that reality: newer 4/2s in Torino and Southbend bought at the correction, 25% to 30% down, interest-only where the ratio needs headroom, and rent schedules that respect what a growth market with rising supply actually pays.",
+      "regulationBadge": "friendly",
+      "regulationNote": "Port St. Lucie layers nothing restrictive onto Florida's landlord-friendly baseline for long-term rentals, keeping the investor friction financial, taxes and insurance, rather than regulatory.",
+      "neighborhoods": [
+        {
+          "name": "Tradition / Southern Grove",
+          "medianPrice": 425000,
+          "medianRent": 2550,
+          "note": "Master-planned core beside the jobs corridor. Newer builds, HOA order, and the tenant demand that 5,000 incoming jobs creates."
+        },
+        {
+          "name": "St. Lucie West",
+          "medianPrice": 400000,
+          "medianRent": 2450,
+          "note": "The established amenity hub with proven rental absorption. Thinner ratios, dependable tenancy and resale depth."
+        },
+        {
+          "name": "Torino",
+          "medianPrice": 370000,
+          "medianRent": 2295,
+          "note": "2000s-build 4/2s on quarter-acre lots, the city's DSCR workhorse: newer roofs, no HOA, family tenants."
+        },
+        {
+          "name": "Southbend / Sandpiper Bay",
+          "medianPrice": 355000,
+          "medianRent": 2250,
+          "note": "Southeast quadrant value near the river with older but solid stock. Entry basis for investors priced out of Tradition."
+        },
+        {
+          "name": "River Park",
+          "medianPrice": 300000,
+          "medianRent": 1995,
+          "note": "The oldest, cheapest pocket in the city. Rougher stock and bigger rehab risk, with the lowest buy-in on the Treasure Coast."
+        }
+      ],
+      "localAngle": {
+        "tag": "Property Taxes",
+        "title": "Florida's heaviest tax county, underwritten honestly",
+        "body": "St. Lucie County routinely tops Florida's property-tax rankings, and investors feel it fully because the homestead shields locals enjoy do not apply. On a non-homestead purchase the assessed value resets to roughly what you paid, and combined city, county, and school millage commonly puts the effective cost near 1.2% of purchase price, roughly $390 a month on a $391,000 typical buy, inside your PITIA. That single line is why a Port St. Lucie file can show a weaker ratio than a cheaper-rent Ocala file. The structural answers are standard: underwrite the reset from day one rather than the seller's bill, favor newer construction whose insurance savings claw back part of the tax load, and use interest-only periods where growth-market rent trajectory justifies carrying for the ratio. Your matched specialist runs the tax line at reset before quoting terms."
+      },
+      "programFit": [
+        "standard-dscr",
+        "interest-only-dscr",
+        "portfolio-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "4-bed / 2-bath SFR",
+        "neighborhood": "Torino",
+        "purchasePrice": 370000,
+        "downPaymentPct": 30,
+        "downPayment": 111000,
+        "loanAmount": 259000,
+        "loanType": "30-Year, 10-Year Interest-Only",
+        "interestOnly": true,
+        "monthlyPI": 1619,
+        "monthlyTax": 370,
+        "monthlyInsurance": 320,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 2309,
+        "monthlyRent": 2425,
+        "dscr": 1.05,
+        "monthlyCashFlow": 116,
+        "specialistFocus": [
+          "Underwrote the tax line at St. Lucie's full non-homestead reset, not the seller's homesteaded bill, before terms were quoted",
+          "Used a 10-year interest-only structure to carry the ratio over 1.0 while the jobs-corridor rent trajectory does its work",
+          "Documented the 2006 hurricane-code construction and wind mitigation features to pull the premium toward the newer-build tier"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Why is my projected tax bill so much higher than the seller's in Port St. Lucie?",
+          "answer": "Two stacked reasons. First, Florida resets assessed value to roughly your purchase price at transfer, and investors get no homestead exemption and no 3% Save Our Homes cap, so a longtime owner's suppressed assessment vanishes the day you close. Second, St. Lucie County's combined millage is among the heaviest in Florida, so the reset lands harder here than almost anywhere in the state. Practical planning number: about 1.2% of purchase price per year, roughly $4,400 on a $370,000 house. DSCR lenders underwrite that reset figure inside PITIA, and so should your offer math."
+        },
+        {
+          "question": "Does the fastest-growing-city story actually show up in rents?",
+          "answer": "It shows up in rent levels and lease-up speed, with one caveat. Because Port St. Lucie's rental stock is overwhelmingly single-family houses, median rents near $2,400 run well above what similarly priced metros like Lakeland or Ocala pay, and family tenants sign longer and renew more. The caveat is new supply: builders chased the growth, so 2025-2026 brought enough fresh inventory that asking rents eased about 2% and concessions appeared on new-build rentals. Underwrite today's comps, not the growth headline, and let 25% five-year population growth be your renewal-demand tailwind rather than your pro forma."
+        },
+        {
+          "question": "How does insurance compare here versus the rest of coastal Florida?",
+          "answer": "Materially friendlier than the headline Florida horror stories, because the housing stock is young. Most investor-grade Port St. Lucie homes were built after 2000 under modern hurricane code, many after 2004's storms tightened it further, and carriers price that engineering: $3,500 to $4,500 a year is common at the median value, with FLOIR's county data showing average wind-included premiums around $3,500. You are inland of the barrier islands, so most PSL grid lots carry optional rather than mandatory flood. The premium still sits inside your DSCR math, but here it is a manageable line, not the dealbreaker it is in Cape Coral or Miami."
+        },
+        {
+          "question": "I invest from out of state. What is the right way to enter this market?",
+          "answer": "Buy the correction in the proven rental quadrants. Torino and Southbend 4/2s at $350,000 to $380,000 renting $2,250 to $2,450 are the standard file, and aged new-build listings in Tradition-adjacent communities are negotiable right now. The DSCR loan qualifies on the property's rent schedule, so your income and state of residence are irrelevant to the file. The PSL-specific diligence is the tax reset math above everything, then HOA and CDD lines in the master-planned communities, which sit inside PITIA. Property management here is deep and cheap relative to rents, and your matched specialist coordinates the rest remotely."
+        },
+        {
+          "question": "Which property types do DSCR lenders prefer in Port St. Lucie?",
+          "answer": "Single-family houses, which is convenient because that is nearly the whole market. The 2000s-era 4/2 on a quarter-acre with no HOA is the cleanest file in the city: modern construction for the insurance quote, family tenancy for the rent schedule, and no association dues inflating PITIA against St. Lucie's heavy tax line. Newer builds in HOA and CDD communities work when the dues are modeled honestly. There is minimal condo or multifamily stock, and the few condo files that appear get normal warrantability scrutiny. Boring single-family is the winning shape here."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Port St. Lucie typical home value $390,896, down 2.4% YoY, mid-2026",
+        "Zumper, Port St. Lucie average rent $2,600 all types, July 2026; RentCafe apartment average $2,133, down 1.6% YoY",
+        "US Census Bureau population estimates via MIAMI Realtors, fastest-growing large US city fifth consecutive year, 260,194 residents, May 2026",
+        "Florida Office of Insurance Regulation county data, St. Lucie average premium $3,522 including wind, January 2026",
+        "St. Lucie County millage and effective tax data, flpropertycheck.com and county sources, 2026; investor reset near 1.2%",
+        "Rental vacancy estimated near Florida statewide 10% (2024 Census HVS); metro not separately published, flagged as estimate"
+      ]
+    },
+    {
+      "city": "Lakeland",
+      "slug": "lakeland",
+      "county": "Polk County",
+      "metro": "Lakeland-Winter Haven",
+      "hook": "Halfway between Tampa and Orlando on I-4, Lakeland holds values near $293K while adding a million square feet of warehouse space a year. Logistics payrolls are the rent check here.",
+      "metaDescription": "DSCR loans in Lakeland: $293K typical value on the I-4 logistics corridor, inland insurance costs, and 3/2s that still pencil. Match with a DSCR specialist.",
+      "market": {
+        "medianPrice": 293000,
+        "medianRent": 1650,
+        "priceToRent": 14.8,
+        "vacancyRate": 9.5,
+        "yoyPrice": -0.2,
+        "yoyRent": -2,
+        "estDSCR": 0.79,
+        "propertyTaxRate": 0.9,
+        "insuranceMonthly": 230
+      },
+      "overview": "Lakeland's pitch is position. It sits at the midpoint of the I-4 corridor between Tampa and Orlando, which made Polk County the distribution heart of Florida: companies here can reach roughly 20 million consumers same-day, Publix runs its headquarters in town, Amazon and Saddle Creek anchor the fulfillment base, and the county adds more than a million square feet of industrial space a year with the Winter Haven CSX intermodal terminal processing containers behind it. Warehouse, logistics, and food-distribution payrolls are the tenant base, and they are steady, shift-working, and rent-paying.\n\nThe housing numbers stayed calmer than coastal Florida through the correction: typical values near $293,000, essentially flat at down 0.2% year over year, while apartment rents eased about 2% to a blended market median near $1,650. Insurance is the quiet advantage, as inland Polk premiums on a median house commonly run $2,400 to $3,200 a year, half of what Tampa Bay files carry, with no coastal wind zone and flood optional on most lots.\n\nDSCR math here is entry-level honest. At the median the ratio runs thin like everywhere in Florida, but the value pockets still clear: North Lakeland and Kathleen-side 3/2s in the $240,000 to $270,000 range renting $1,650 to $1,750, Winter Haven spillover at lower basis, and small BRRRR plays in Dixieland's older grid. Files are plain: block houses, long-term family tenants, cheap insurance, and a tax reset that stays polite by Florida standards.",
+      "regulationBadge": "friendly",
+      "regulationNote": "Polk County operates on Florida's landlord-friendly defaults with no local rental licensing burden, keeping Lakeland files about market math rather than compliance.",
+      "neighborhoods": [
+        {
+          "name": "North Lakeland / Kathleen",
+          "medianPrice": 275000,
+          "medianRent": 1650,
+          "note": "The workhorse quadrant: 1980s-2000s 3/2s under $280K with logistics-worker tenants. Best rent-to-price in the city."
+        },
+        {
+          "name": "South Lakeland",
+          "medianPrice": 340000,
+          "medianRent": 1895,
+          "note": "Better schools and newer stock toward the Polk Parkway. Thinner ratios, stronger tenant quality and appreciation."
+        },
+        {
+          "name": "Dixieland / Lake Hollingsworth",
+          "medianPrice": 310000,
+          "medianRent": 1750,
+          "note": "Historic bungalow grid near downtown and Florida Southern. Rehab-to-rent and BRRRR territory with charm-premium rents."
+        },
+        {
+          "name": "Winter Haven",
+          "medianPrice": 285000,
+          "medianRent": 1695,
+          "note": "The metro's second city, beside the CSX intermodal hub. Lower basis, growing distribution employment, same landlord framework."
+        }
+      ],
+      "localAngle": {
+        "tag": "Employment",
+        "title": "Warehouses pay the rent",
+        "body": "Lakeland's tenant economics run on the I-4 logistics buildout: Publix headquarters, Amazon fulfillment, Saddle Creek, food-distribution cold chains, and the Winter Haven intermodal terminal feeding it all. Distribution wages in the $18 to $26 an hour band translate to exactly the $1,500 to $1,900 rent tier that North Lakeland's 3/2 stock serves, and two-earner logistics households renew leases through cycles because the work does not relocate. For a DSCR file this shows up as dependable rent schedules and short vacancy gaps rather than headline rent growth. DSCR lenders read that as stability, and your matched specialist will typically anchor the appraiser's rent schedule to the working-family comp set these payrolls support rather than chasing the newer build-to-rent asking prices."
+      },
+      "programFit": [
+        "standard-dscr",
+        "portfolio-dscr",
+        "bridge-to-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 2-bath SFR",
+        "neighborhood": "North Lakeland",
+        "purchasePrice": 255000,
+        "downPaymentPct": 30,
+        "downPayment": 76500,
+        "loanAmount": 178500,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 1248,
+        "monthlyTax": 191,
+        "monthlyInsurance": 220,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 1659,
+        "monthlyRent": 1725,
+        "dscr": 1.04,
+        "monthlyCashFlow": 66,
+        "specialistFocus": [
+          "Anchored the rent schedule to the logistics-payroll tenant comps that actually lease in North Lakeland",
+          "Bound an inland premium off the 2019 roof with wind mitigation credits, keeping insurance near the bottom of the Florida range",
+          "Set the tax line at the post-sale reset so year-two DSCR holds instead of slipping"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "How does Lakeland insurance compare for DSCR purposes?",
+          "answer": "It is one of the cheapest lines you will see on a Florida file. Inland Polk County has no coastal wind territory, most lots sit outside mandatory flood zones, and a median-priced block home with a decent roof commonly quotes $2,400 to $3,200 a year, versus $4,000 to $6,000 in Tampa Bay or Southwest Florida. That $150-plus monthly difference adds several hundredths to a DSCR ratio on a typical loan, which is frequently the pass-fail margin. Roof age still rules the quote, so verify the permit year and get the wind mitigation inspection anyway."
+        },
+        {
+          "question": "What is the realistic cash-flow picture on a Lakeland rental right now?",
+          "answer": "Thin at the median, workable in the pockets. A $293,000 median house renting $1,650 will not clear 1.0 with 20% down; nothing on the I-4 corridor does in 2026. The files that clear look like this: $240,000 to $270,000 in North Lakeland or Winter Haven, rents $1,650 to $1,750, 25% to 30% down, insurance near $220 a month, taxes near 0.9% of price. That combination lands a ratio right around 1.0 to 1.05 with genuine monthly cash flow. Lakeland rewards buying the unexciting house on the unexciting street."
+        },
+        {
+          "question": "Is Lakeland a good market for an out-of-state first DSCR deal?",
+          "answer": "It is one of Florida's most forgiving entry points. Prices are low enough that mistakes are survivable, block construction keeps inspections boring, insurance quotes rarely blow up files, tenant demand is anchored to logistics payrolls rather than tourism cycles, and property management is inexpensive relative to rent. The DSCR loan itself qualifies on the property's rent schedule, so distance does not complicate underwriting. The main remote-buyer discipline: Lakeland blocks change character quickly, so lean on your manager's street-level read and recent lease comps rather than citywide averages when you set the rent assumption."
+        },
+        {
+          "question": "What happens to property taxes when I close on a Polk County rental?",
+          "answer": "Florida's standard investor reset applies: assessed value moves to roughly your purchase price, you get no homestead exemption and no 3% cap, and the 10% non-homestead cap only limits growth after your first bill. The good news is Polk's millage keeps the damage modest, with roughly 0.9% of purchase price as the annual planning number, near $2,300 on a $255,000 house. The seller's bill will look lower because it was capped for years. DSCR lenders underwrite your reset figure inside PITIA, which is the number your pro forma should carry too."
+        },
+        {
+          "question": "Should I buy near the new build-to-rent communities or avoid them?",
+          "answer": "Respect them as competition and price around them. Polk's growth attracted several build-to-rent developments, and their concession-heavy lease-ups are part of why metro rents eased about 2% this year. Competing head-on with a brand-new 3/2 at the same rent is losing chess. The counter is basis and product: buy the $250,000 resale that rents $150 under the BTR product with a yard and no amenity fee, serve the tenant tier the corporates skip, and let your lower cost basis produce the ratio their institutional pricing cannot. Underwrite rents off resale comps, not BTR asking prices."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Lakeland typical home value $292,907, down 0.2% YoY, May 2026",
+        "RentCafe, Lakeland average apartment rent $1,520, down 2% YoY, mid-2026; all-listing median near $1,790",
+        "Central Florida Development Council, Polk logistics reach ~20M consumers same-day and 1M+ sq ft industrial added annually, 2026",
+        "Polk County inland insurance ranges from Florida 2026 market guides, $2,400 to $3,200 at median value",
+        "Polk County effective property tax data, flpropertycheck.com, 2026; adjusted for non-homestead purchase reset",
+        "Rental vacancy estimated near Florida statewide 10% (2024 Census HVS); Lakeland metro not separately published, flagged as estimate"
+      ]
+    },
+    {
+      "city": "Ocala",
+      "slug": "ocala",
+      "county": "Marion County",
+      "metro": "Ocala",
+      "hook": "Ocala pairs a $272K typical home with some of the lowest insurance in Florida and 7,000-plus logistics jobs behind it. It is the cheapest clean DSCR math in the state right now.",
+      "metaDescription": "DSCR loans in Ocala: $272K typical home, Florida's lowest-tier insurance, and distribution jobs from Chewy to FedEx feeding rents. Match with a specialist.",
+      "market": {
+        "medianPrice": 272000,
+        "medianRent": 1600,
+        "priceToRent": 14.2,
+        "vacancyRate": 8.5,
+        "yoyPrice": -0.5,
+        "yoyRent": 2.5,
+        "estDSCR": 0.84,
+        "propertyTaxRate": 0.9,
+        "insuranceMonthly": 190
+      },
+      "overview": "Ocala is what cash-flow buyers keep asking Florida for: a $272,000 typical home, rents around $1,600 and still rising while the rest of the state flattens, and carrier-friendly inland insurance that commonly prices under $2,500 a year. Values held nearly flat through the correction, down just 0.5%, because Ocala never ran the speculative spike that Cape Coral and Kissimmee did.\n\nThe economy has quietly outgrown its horse-country postcard. Marion County's logistics sector employs more than 7,000 people across FedEx Ground, Chewy, AutoZone's distribution center, an Amazon fulfillment building, and Dollar Tree's 1.8-million-square-foot facility, with the 1,000-acre Florida Crossroads Commerce Park projected to add roughly 5,000 more jobs at buildout. Layer on the World Equestrian Center, the largest equestrian complex in the country, pulling year-round events, hospitality payrolls, and affluent seasonal demand, plus healthcare serving one of America's fastest-growing retirement corridors, and the tenant base is far more diversified than the price point suggests.\n\nThe DSCR read is simple: this is where Florida files still clear 1.0 without gymnastics. Silver Springs Shores and Marion Oaks 3/2s in the $230,000 to $255,000 range rent $1,550 to $1,700 against $180-a-month insurance and a 0.9% tax reset. Price-to-rent near 14 and positive carry at 25% down is a sentence almost no other Florida market can print in 2026. The tradeoffs are real but manageable: a thinner buyer pool on exit, block-by-block quality swings in the big platted subdivisions, and modest appreciation expectations.",
+      "regulationBadge": "friendly",
+      "regulationNote": "Marion County adds no meaningful local overlay to Florida's landlord-friendly statutes, so Ocala operations come down to tenant screening and product selection, not regulation.",
+      "neighborhoods": [
+        {
+          "name": "Silver Springs Shores",
+          "medianPrice": 240000,
+          "medianRent": 1550,
+          "note": "The volume DSCR pocket: newer-build 3/2s in the low $200s renting mid-$1,500s. Block-by-block selection matters; the math forgives it."
+        },
+        {
+          "name": "Marion Oaks",
+          "medianPrice": 250000,
+          "medianRent": 1595,
+          "note": "Southwest growth grid full of 2020s builder product. New roofs mean bottom-tier insurance quotes and clean four-points."
+        },
+        {
+          "name": "SE Ocala",
+          "medianPrice": 300000,
+          "medianRent": 1750,
+          "note": "Established mid-tier neighborhoods near hospitals and downtown. Better tenants and exits, slightly thinner ratios."
+        },
+        {
+          "name": "West Ocala / NW corridor",
+          "medianPrice": 210000,
+          "medianRent": 1395,
+          "note": "Deep value near the WEC employment engine. Older stock, real rehab budgets, and the lowest entry basis in the metro."
+        }
+      ],
+      "localAngle": {
+        "tag": "Insurance",
+        "title": "The premium Florida forgot to inflate",
+        "body": "Ocala sits about as far from hurricane-driven salt water as Florida allows, and the insurance market treats it accordingly: no coastal wind territory, negligible flood exposure on typical lots, and premiums on newer 3/2s that commonly land between $1,800 and $2,500 a year, numbers coastal investors read twice. In DSCR terms that is $150 to $210 a month inside PITIA instead of the $400-plus that Gulf-coast files carry, which is worth roughly a tenth of a point of ratio on a typical Ocala loan, frequently the entire distance between passing and failing. The discipline still applies, since carriers price roof age everywhere in Florida: your matched specialist will typically want the roof permit year and a wind mitigation inspection documented before binding, letting Marion County's geography finish the job of keeping the premium small."
+      },
+      "programFit": [
+        "standard-dscr",
+        "portfolio-dscr",
+        "bridge-to-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 2-bath SFR",
+        "neighborhood": "Silver Springs Shores",
+        "purchasePrice": 240000,
+        "downPaymentPct": 25,
+        "downPayment": 60000,
+        "loanAmount": 180000,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 1258,
+        "monthlyTax": 180,
+        "monthlyInsurance": 180,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 1618,
+        "monthlyRent": 1675,
+        "dscr": 1.04,
+        "monthlyCashFlow": 57,
+        "specialistFocus": [
+          "Anchored the rent schedule to the distribution-hub tenant pool leasing 3/2s in the Shores, not countywide averages",
+          "Made carriers compete on an already-cheap inland quote, landing the premium at $180 a month off the 2021 roof",
+          "Ordered the appraisal with the rent schedule on day one so the income line never bottlenecked the file"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Why does Ocala DSCR math work when most of Florida doesn't in 2026?",
+          "answer": "Because all four PITIA inputs cooperate at once. Purchase prices in the $230,000 to $255,000 pocket keep the loan small. Marion County taxes reset near 0.9% of price, not St. Lucie's 1.2%. Inland insurance runs $150 to $210 a month instead of $400-plus. And rents kept rising about 2.5% this year while coastal rents fell, because distribution and healthcare hiring keeps absorbing units. Stack those and a 25%-down 3/2 in Silver Springs Shores clears 1.0 with actual monthly cash flow, which is now rare enough in Florida to be Ocala's entire investment thesis."
+        },
+        {
+          "question": "What are the risks of buying in Silver Springs Shores or Marion Oaks?",
+          "answer": "Variance, mostly. These are enormous platted subdivisions where a renovated 2021 build and a rough 1978 original can share a street, so block-level selection and a manager's honest read matter more than in master-planned markets. Exit liquidity is thinner too, since your eventual buyer is usually another investor or a first-time homeowner, not a bidding war. And appreciation is a slow-compounding story, not a spike story. None of that hurts the DSCR file itself, since lenders underwrite the rent schedule and the appraisal, but go in expecting yield first and equity growth as the bonus."
+        },
+        {
+          "question": "Who actually rents houses in Ocala?",
+          "answer": "A four-lane tenant base that surprises coastal investors. Logistics workers from the FedEx, Chewy, AutoZone, Amazon, and Dollar Tree facilities, over 7,000 jobs and growing as Florida Crossroads Commerce Park builds out. Healthcare staff serving the retirement corridor, including nurses on assignment. Equestrian-economy workers and seasonal spillover from World Equestrian Center events. And pre-retirees renting before buying into the 55-plus communities. That mix leases 3/2s in the $1,500 to $1,750 band steadily, keeps effective vacancy modest, and does not evaporate in a tourism downcycle the way theme-park-market tenancy can."
+        },
+        {
+          "question": "How should an out-of-state investor run diligence on an Ocala deal?",
+          "answer": "Focus on three local variables, because the loan travels fine. First, block quality: pull the last six months of lease comps within a half mile and have your property manager drive the street, since the big subdivisions swing house to house. Second, roof and systems age: Ocala's insurance advantage is largest on post-2005 construction, and a 2003 roof gives some of it back. Third, well and septic, common on the county's edges, which need their own inspections. The DSCR file itself needs only the appraisal, rent schedule, and bound insurance, all of which your matched specialist coordinates remotely."
+        },
+        {
+          "question": "Do investor property taxes reset in Marion County too?",
+          "answer": "Yes, the reset is statewide law, and Ocala just makes it cheaper. At closing the assessed value moves to roughly your purchase price, homestead exemptions and the 3% cap stay with owner-occupants only, and your increases are limited by the 10% non-homestead cap only after year one. At Marion County millage the planning number is near 0.9% of purchase price, about $2,150 a year on a $240,000 house, one of the lighter tax loads among Florida metros. DSCR lenders will underwrite that reset number inside PITIA, and here it rarely threatens the ratio."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Ocala typical home value $271,737, down 0.5% YoY, mid-2026",
+        "RentCafe, Ocala average apartment rent $1,549, up 3.5% YoY, mid-2026; house listings median near $1,750",
+        "Ocala CEP and Ocala Gazette, Marion County logistics 7,000+ jobs, Florida Crossroads Commerce Park ~5,000 projected jobs, 2026",
+        "Marion County inland insurance ranges from Florida 2026 market guides, $1,800 to $2,500 typical at median value",
+        "Marion County effective property tax data, flpropertycheck.com, 2026; adjusted for non-homestead purchase reset",
+        "Rental vacancy estimated from Florida statewide 10% (2024 Census HVS) with tight local absorption; Ocala metro not separately published, flagged as estimate"
+      ]
+    },
+    {
+      "city": "Palm Bay",
+      "slug": "palm-bay",
+      "county": "Brevard County",
+      "metro": "Palm Bay-Melbourne-Titusville",
+      "hook": "Palm Bay is the affordable end of the Space Coast: $314K typical homes a commute from L3Harris, Northrop Grumman, and the launch economy's engineering payrolls. Defense salaries rent houses here.",
+      "metaDescription": "DSCR loans in Palm Bay: $314K typical value on the Space Coast, defense-payroll tenants, and inland-grid insurance advantages. Match with a DSCR specialist.",
+      "market": {
+        "medianPrice": 314000,
+        "medianRent": 1800,
+        "priceToRent": 14.5,
+        "vacancyRate": 8.5,
+        "yoyPrice": -0.7,
+        "yoyRent": -1.8,
+        "estDSCR": 0.79,
+        "propertyTaxRate": 0.9,
+        "insuranceMonthly": 280
+      },
+      "overview": "Palm Bay is the bedroom community of the Space Coast's defense boom, and that is precisely its rental thesis. L3Harris runs headquarters operations in neighboring Melbourne plus its own Palm Bay campus, Northrop Grumman's Melbourne complex keeps expanding, including a program buildout that brought roughly a thousand new jobs, and Leonardo DRS, Lockheed, and the Cape's launch cadence stack engineering and technician payrolls on top. Those households want single-family houses 15 to 25 minutes from the plants, which is a description of Palm Bay's entire housing grid.\n\nThe market held steadier than most of Florida: typical values near $314,000, down just 0.7% on the year, with single-family rents in the $1,750 to $1,950 band and apartment rents easing about 2% as new Melbourne-side supply absorbed. Palm Bay itself is overwhelmingly houses on quarter-acre lots across its northeast-to-southwest quadrants, from older 1960s General Development stock in the northeast to 2020s builder product pushing southwest toward Bayside Lakes.\n\nInsurance sits in Brevard's middle tier. The county average runs higher because it includes beachside barrier-island homes, but Palm Bay's inland grid, west of the Indian River lagoon, commonly quotes $3,000 to $3,800 a year at the median on newer roofs, with mandatory flood limited to scattered low pockets. DSCR files here look like the rest of inland Florida with a better tenant story: 3/2s bought in the $260,000 to $300,000 range renting $1,750-plus to two-earner defense households, 25% to 30% down to clear ratio, and rent schedules that lean on payroll stability rather than headline growth.",
+      "regulationBadge": "friendly",
+      "regulationNote": "Palm Bay follows Florida's landlord-friendly statutes with no local rental licensing regime, so the investor calculus is tenant-base quality and insurance selection rather than compliance.",
+      "neighborhoods": [
+        {
+          "name": "NE Palm Bay",
+          "medianPrice": 275000,
+          "medianRent": 1695,
+          "note": "The original 1960s-1980s grid near US-1 and the river side. Lowest basis, quickest commutes to Melbourne plants, older-roof insurance diligence required."
+        },
+        {
+          "name": "SE Palm Bay",
+          "medianPrice": 315000,
+          "medianRent": 1795,
+          "note": "Mid-vintage stock with larger lots on the quieter side of the city. Balanced files with family tenancy."
+        },
+        {
+          "name": "NW Palm Bay",
+          "medianPrice": 320000,
+          "medianRent": 1850,
+          "note": "1990s-2010s homes near the I-95 interchanges that defense commuters favor. Steady lease-up and clean four-points."
+        },
+        {
+          "name": "Bayside Lakes (SW)",
+          "medianPrice": 380000,
+          "medianRent": 2095,
+          "note": "The newer master-planned southwest. Hurricane-code construction earns the best premiums; HOA lines go into the math."
+        }
+      ],
+      "localAngle": {
+        "tag": "Employment",
+        "title": "Engineering payrolls, single-family appetites",
+        "body": "The Space Coast runs one of the densest defense-employment concentrations in the country, L3Harris headquartered in Melbourne with a Palm Bay campus, Northrop Grumman's growing Melbourne operations, Leonardo DRS, Lockheed, and launch-support contractors underneath, and Palm Bay is where those paychecks go to sleep. For a landlord this produces a specific tenant profile: two-earner households with clearances and $90,000-plus combined incomes who want a garage, a yard, and a 20-minute commute, and who renew because the programs they staff run for years. DSCR lenders see it in the file as strong rent-to-income coverage and low turnover risk on the schedule. Your matched specialist will typically document that tenant base in the rent comps rather than blending in beachside seasonal noise from the county at large."
+      },
+      "programFit": [
+        "standard-dscr",
+        "interest-only-dscr",
+        "portfolio-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 2-bath SFR",
+        "neighborhood": "NE Palm Bay",
+        "purchasePrice": 270000,
+        "downPaymentPct": 30,
+        "downPayment": 81000,
+        "loanAmount": 189000,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 1321,
+        "monthlyTax": 203,
+        "monthlyInsurance": 260,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 1784,
+        "monthlyRent": 1825,
+        "dscr": 1.02,
+        "monthlyCashFlow": 41,
+        "specialistFocus": [
+          "Documented the defense-payroll tenant base in the rent schedule with NE Palm Bay lease comps",
+          "Kept the file on the inland grid where wind exposure, and the premium, stay a tier below beachside Brevard",
+          "Modeled the non-homestead tax reset at purchase price so the ratio holds in year two"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "How does insurance work on Palm Bay files versus 'Space Coast' averages?",
+          "answer": "Ignore the county average, it blends in barrier-island beach homes that carry a different risk class entirely. Brevard's published average runs over $4,000, but Palm Bay's inland grid sits west of the lagoon with meaningful wind-exposure distance, and median-priced houses with post-2004 roofs commonly quote $3,000 to $3,800 a year, with scattered low pockets the only mandatory-flood exceptions. On a DSCR file that is roughly $250 to $320 a month inside PITIA, manageable rather than fatal. The lever is roof age: pre-2004 shingles give back the whole inland advantage, so verify the permit before you write the offer."
+        },
+        {
+          "question": "Is the defense-industry tenant base actually durable enough to underwrite?",
+          "answer": "It is among the most durable in Florida. L3Harris, Northrop Grumman, and the contractor web around them staff multi-year, appropriations-backed programs, and expansions like Northrop's thousand-job Melbourne buildout keep hiring through housing cycles. These tenants carry clearances and stable W-2s, prefer houses over apartments, and renew because switching programs does not mean switching cities. The underwriting translation: rent schedules at $1,750 to $1,950 for a 3/2 hold up, turnover is lower than tourist-economy markets, and your vacancy assumption can be honest instead of hopeful. The tradeoff is modest rent growth; this is a stability market, not a spike market."
+        },
+        {
+          "question": "Which parts of Palm Bay do DSCR lenders and appraisers treat most favorably?",
+          "answer": "The file quality tracks construction vintage. NW Palm Bay and Bayside Lakes carry 1990s-2020s homes with hurricane-code engineering, clean four-point inspections, and bottom-tier premiums, so those appraisals and quotes sail. NE Palm Bay offers the best basis and the fastest commutes, but 1960s-1980s stock means roof, panel, and plumbing vintage drive both the inspection and the premium, so the discount has to cover the diligence. There is no meaningful condo inventory to worry about, and no lender aversion to the city itself; Palm Bay is a plain single-family market, which is exactly what DSCR programs price best."
+        },
+        {
+          "question": "What does the property tax reset look like in Brevard County?",
+          "answer": "Standard Florida mechanics at a moderate millage. Your assessed value resets to roughly the purchase price at transfer, the homestead exemption and 3% cap belong to owner-occupants only, and the 10% non-homestead cap starts protecting you after the first year. Plan on about 0.9% of purchase price annually, near $2,400 on a $270,000 house, which sits comfortably below the tax loads in St. Lucie or Miami-Dade. The usual caveat applies: the seller's homesteaded bill is not your bill, and DSCR lenders underwrite the reset number inside PITIA from day one."
+        },
+        {
+          "question": "I'm buying remotely. Any Palm Bay-specific traps?",
+          "answer": "Two, both manageable. First, the city's General Development-era grid means some streets carry older infrastructure, well-and-septic edges, and unpaved sections in the far southwest compound area, so have your manager confirm the specific block leases at your assumed rent before contract. Second, roof age governs everything financially here, since it moves the premium more than any other variable on the inland grid; make the roof permit date a contract contingency, not a surprise. Beyond that, Palm Bay travels well: single-family files, defense-payroll tenants, deep property management, and a rent schedule your matched specialist can support with clean comps."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Palm Bay typical home value $313,692, down 0.7% YoY, mid-2026",
+        "RentCafe, Palm Bay average apartment rent $1,535, mid-2026; 3-bed apartments $1,952; Zumper trend down 1.8% YoY, July 2026",
+        "Space Coast defense employment coverage, L3Harris Melbourne HQ and Palm Bay campus, Northrop Grumman ~1,000-job Melbourne expansion, 2026",
+        "Morgan Financial and Brevard insurance guides, county average $4,280 with inland Palm Bay below beachside tiers, 2026",
+        "Brevard County effective property tax data, flpropertycheck.com, 2026; adjusted for non-homestead purchase reset",
+        "Rental vacancy estimated near Florida statewide 10% (2024 Census HVS); Palm Bay metro not separately published, flagged as estimate"
+      ]
+    },
+    {
+      "city": "Pensacola",
+      "slug": "pensacola",
+      "county": "Escambia County",
+      "metro": "Pensacola-Ferry Pass-Brent",
+      "hook": "A $264K typical home, three Navy installations cycling tenants through, and beach STR income across the bridge. Pensacola runs two rental economies at once, and both finance on the property's income.",
+      "metaDescription": "DSCR loans in Pensacola: $264K typical home, Navy-anchored rental demand, East Hill duplexes, and beach STR condos. Match with a DSCR loan specialist.",
+      "market": {
+        "medianPrice": 264000,
+        "medianRent": 1550,
+        "priceToRent": 14.2,
+        "vacancyRate": 9.5,
+        "yoyPrice": -3.6,
+        "yoyRent": -1.1,
+        "estDSCR": 0.79,
+        "propertyTaxRate": 0.85,
+        "insuranceMonthly": 290
+      },
+      "overview": "Pensacola runs two rental economies off one courthouse. Onshore, the Navy anchors everything: NAS Pensacola trains every naval aviator in the country, Corry Station adds cybersecurity students, Whiting Field flies nearby, and the constant PCS churn of military households, backed by BAH, feeds Warrington, Navy Point, and Ferry Pass landlords a renewable tenant pipeline. Offshore, across the Bob Sikes bridge, Pensacola Beach and Perdido Key run a genuine short-term rental economy on sugar-white sand, with Escambia County licensing, a combined tax bite near 11% on nightly revenue, and gross seasons that dwarf long-term rents.\n\nThe numbers are entry-friendly. Zillow puts the typical home near $264,000, down about 3.6% on the year, among the softer Florida corrections, while blended rents hold near $1,550. East Hill's historic bungalow-and-duplex grid, Warrington's sub-$250,000 stock by the base gates, and Brownsville's deep-value blocks give investors three distinct price rungs inside one submarket.\n\nInsurance demands respect without being Miami. The Panhandle's hurricane history, Ivan in 2004 and Sally in 2020 both hit here directly, prices wind risk into everything: $2,900 to $4,700 a year is the common Escambia band, and carriers reward metal roofs and wind mitigation credits generously because the older housing stock makes them meaningful. DSCR files that work in Pensacola look like the deal flow: duplexes in East Hill putting two rents against one payment, block 3/2s near the bases underwritten at BAH-supported rents, and beach condos financed on projected nightly income for operators who price the 12% tax and management load honestly.",
+      "regulationBadge": "friendly",
+      "regulationNote": "Escambia County permits short-term rentals with registration and tourist-tax compliance rather than zoning bans, and long-term rentals run on Florida's landlord-friendly defaults, so both of Pensacola's rental economies operate legally by design.",
+      "neighborhoods": [
+        {
+          "name": "East Hill",
+          "medianPrice": 350000,
+          "medianRent": 1850,
+          "note": "The historic bungalow and duplex grid. Two-unit properties here are Pensacola's best DSCR math, and metal roofs earn real premium credits."
+        },
+        {
+          "name": "Warrington / Navy Point",
+          "medianPrice": 225000,
+          "medianRent": 1495,
+          "note": "Sub-$250K stock at NAS Pensacola's gates with BAH-backed tenant demand that resets every training cycle."
+        },
+        {
+          "name": "Brownsville / Westside",
+          "medianPrice": 180000,
+          "medianRent": 1295,
+          "note": "The deepest value in the metro. Real rehab budgets and street-level selection, with entry prices Florida barely prints anymore."
+        },
+        {
+          "name": "Ferry Pass / UWF corridor",
+          "medianPrice": 285000,
+          "medianRent": 1650,
+          "note": "North-side stock serving university staff, students, and hospital workers. Steady, unglamorous lease-up."
+        },
+        {
+          "name": "Pensacola Beach / Perdido Key",
+          "medianPrice": 450000,
+          "medianRent": 2295,
+          "note": "Gulf-front STR condos financed on projected nightly income. Wind, flood, and HOA lines all live inside the PITIA here."
+        }
+      ],
+      "localAngle": {
+        "tag": "STR + Military",
+        "title": "Two tenant economies, one loan type",
+        "body": "Pensacola lets an investor run both rental models inside one market, and DSCR financing prices each on its own income. Onshore files underwrite to long-term schedules propped by BAH: a Warrington 3/2 near the gates rents to a renewable pipeline of Navy households whose housing allowance moves with the market. Beach files underwrite to short-term income: Escambia registration, the roughly 11% combined state and county tax on nightly revenue, condo HOA dues, and wind-and-flood insurance all stack inside PITIA before the gross looks impressive. The discipline is not mixing the models, since a beach condo underwritten at long-term rent fails, and a Brownsville block house projected at nightly rates is fiction. Your matched specialist structures each file on the income basis the location actually supports."
+      },
+      "programFit": [
+        "standard-dscr",
+        "str-dscr",
+        "portfolio-dscr",
+        "bridge-to-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "Duplex (two 2-bed / 1-bath units)",
+        "neighborhood": "East Hill",
+        "purchasePrice": 360000,
+        "downPaymentPct": 25,
+        "downPayment": 90000,
+        "loanAmount": 270000,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 1887,
+        "monthlyTax": 255,
+        "monthlyInsurance": 400,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 2542,
+        "monthlyRent": 2900,
+        "dscr": 1.14,
+        "monthlyCashFlow": 358,
+        "specialistFocus": [
+          "Ran both units on the 1007 rent schedule at market, supported by BAH-anchored East Hill lease comps",
+          "Shopped the two-unit policy across carriers with the metal roof and wind mitigation credits documented",
+          "Closed the duplex as one file, one loan, one insurance policy, keeping per-door costs below two SFR closings"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "How does Panhandle insurance shape Pensacola DSCR deals?",
+          "answer": "Wind is priced into everything because Ivan and Sally both made direct hits here, but the market is livable if you buy the right roof. Typical Escambia premiums run $2,900 to $4,700 a year, with metal roofs, common on East Hill's older stock, and wind mitigation credits pulling quotes down meaningfully, while pre-2005 shingle roofs push them up or block binding. Flood is parcel-specific: most of the city grid sits high, while waterfront and beach files carry mandatory policies. Since the premium lives inside PITIA, the roof-and-zone check comes before the offer on any serious file."
+        },
+        {
+          "question": "Can I finance a Pensacola Beach or Perdido Key condo as a short-term rental?",
+          "answer": "Yes, this is standard STR-DSCR territory. Lenders qualify beach condos on the appraiser's projected short-term income or a documented revenue history, then stack the real carry into PITIA: HOA dues that include the building's master wind policy, your own HO-6 coverage, mandatory flood in most beach zones, and Escambia's registration plus roughly 11% in combined state and county taxes on nightly revenue. Gross seasons look spectacular; the file passes or fails on what survives those lines. Older gulf-front buildings also get condo-review scrutiny on reserves and structural items, so building selection is part of the loan, not just the location."
+        },
+        {
+          "question": "What makes military tenancy near NAS Pensacola attractive for a rental file?",
+          "answer": "Predictability with a built-in payment floor. NAS Pensacola cycles thousands of students and staff through flight and cybersecurity training, every arriving household carries a Basic Allowance for Housing that adjusts to local rents, and off-base family demand concentrates in exactly the Warrington, Navy Point, and Myrtle Grove price band where sub-$250,000 houses rent for $1,400 to $1,600. Turnover is higher than civilian markets because orders end, but replacement demand is immediate and rent collection is exceptionally reliable. On the DSCR side it reads as a stable rent schedule at an entry-level basis, which is why base-adjacent 3/2s are a Pensacola staple file."
+        },
+        {
+          "question": "Where does the DSCR math pencil best in Pensacola right now?",
+          "answer": "East Hill duplexes lead: $340,000 to $380,000 buys two 2/1 units grossing $2,800 to $3,000, and two rents against one payment clears the ratio with room at 25% down. Warrington and Brownsville 3/2s at $180,000 to $240,000 run close behind, with BAH demand supporting rents that hold the ratio near or above 1.0. Beach condos pencil only on honest nightly-income underwriting. The citywide caveat is roof age: the premium swing between a 2022 metal roof and a 2003 shingle roof can move a marginal file a full tenth of a point in either direction."
+        },
+        {
+          "question": "As an out-of-state buyer, what should I verify before closing on a Pensacola rental?",
+          "answer": "Four items, in order. The roof: permit year and material, because it is the largest controllable insurance variable in Escambia County. The flood zone: most city-grid lots are fine, but low pockets near bayous carry mandatory policies. The tax reset: Florida moves assessed value to your purchase price with no homestead protections for investors, though Escambia's millage keeps the planning number modest at roughly 0.85% of price. And the tenant model: confirm whether your block leases long-term, BAH-supported, or short-term across the bridge, because the loan gets underwritten on whichever income basis the address truly supports. Your matched specialist coordinates all four remotely."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Pensacola typical home value $264,116, down 3.6% YoY, mid-2026",
+        "Apartment List, Pensacola median rent $1,309, July 2026; RentCafe average $1,457, up 1.1% YoY; house rents ~$1,650",
+        "insure.com and Escambia County guides, Pensacola premiums $3,203 average at $300K dwelling, county band $2,915 to $4,740, 2026",
+        "Escambia County STR registration and tourist development tax requirements, 6% state sales tax plus 4% county TDT plus local surtax, BNBCalc and county sources, 2026",
+        "Escambia County effective property tax data, flpropertycheck.com, 2026; adjusted for non-homestead purchase reset",
+        "Rental vacancy estimated near Florida statewide 10% (2024 Census HVS); Pensacola metro not separately published, flagged as estimate"
+      ]
+    }
+  ]
+}

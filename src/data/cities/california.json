@@ -1,0 +1,1358 @@
+{
+  "state": "California",
+  "abbreviation": "CA",
+  "stateSlug": "california",
+  "dataUpdated": "2026-07",
+  "cities": [
+    {
+      "city": "Los Angeles",
+      "slug": "los-angeles",
+      "county": "Los Angeles County",
+      "metro": "Los Angeles-Long Beach-Anaheim",
+      "hook": "A $950K median and $2,500 typical rents mean the average Los Angeles deal does not pencil at 20% down. LA investors close with No-Ratio and interest-only structures, not wishful math.",
+      "metaDescription": "DSCR loans in Los Angeles: $950K median, RSO capped at 3%, and sub-1.0 ratios at 20% down. See how No-Ratio files close. Match with a specialist.",
+      "market": {
+        "medianPrice": 950000,
+        "medianRent": 2510,
+        "priceToRent": 31.5,
+        "vacancyRate": 4.8,
+        "yoyPrice": -0.7,
+        "yoyRent": -1.9,
+        "estDSCR": 0.39,
+        "propertyTaxRate": 1.16,
+        "insuranceMonthly": 260
+      },
+      "overview": "Los Angeles is the largest rental market in the country, anchored by entertainment, the twin ports, aerospace, and healthcare. The math is brutal on paper: Zillow puts the typical home at $949,479 as of June 2026, down 0.7% on the year, while Zumper pegs average rent at $2,510. That is a 31x price-to-rent ratio, which is why a standard DSCR file at 20% down rarely clears coverage at the median.\n\nDeals still get done, in volume. The stock that works is 2-4 unit buildings in San Pedro, Leimert Park, and the San Fernando Valley, plus SFRs with permitted ADUs in Northeast LA. The structural tools matter more here than anywhere: No-Ratio programs at 30% down, interest-only payments to widen coverage, and lenders that count ADU rent off the appraiser's market rent schedule.\n\nRegulation is the second underwriting layer. Pre-October 1978 buildings sit under the city RSO, capped at 3% through June 2027, and citywide just-cause rules apply on top of AB 1482. On refinances, DSCR lenders qualify off the lower of in-place or market rent, so a building full of long-term RSO tenants supports a smaller loan than the same building vacant. Buy accordingly.",
+      "regulationBadge": "tenant",
+      "regulationNote": "City RSO caps increases at 3% on pre-1978 buildings and just-cause rules apply citywide, so buy-and-raise plans need vacant units, exempt SFRs, or patience.",
+      "neighborhoods": [
+        {
+          "name": "San Pedro",
+          "medianPrice": 760000,
+          "medianRent": 2900,
+          "note": "Port-adjacent duplexes and triplexes at a coastal discount; pre-1978 buildings carry RSO, so units vacant at closing drive the qualifying rent schedule."
+        },
+        {
+          "name": "Highland Park",
+          "medianPrice": 950000,
+          "medianRent": 3100,
+          "note": "Northeast LA blocks full of permitted ADU conversions; lenders that count ADU rent change the coverage math on these lots."
+        },
+        {
+          "name": "Van Nuys",
+          "medianPrice": 780000,
+          "medianRent": 2700,
+          "note": "Valley workhorse rentals with deep tenant demand; small multifamily here trades below citywide per-door averages."
+        },
+        {
+          "name": "Leimert Park",
+          "medianPrice": 800000,
+          "medianRent": 2850,
+          "note": "Historic duplex and fourplex stock; in-place tenants are the norm, so underwrite off actual leases, not pro formas."
+        }
+      ],
+      "localAngle": {
+        "tag": "Rent Control",
+        "title": "RSO Math Decides Your Loan Size",
+        "body": "Two rent regimes run in parallel. Buildings first occupied on or before October 1, 1978 fall under the city RSO, with the annual increase set at 3% for July 2026 through June 2027 and the old utility add-on eliminated. Everything else gets AB 1482, currently 8% in the LA region. The DSCR consequence: on a refinance, lenders qualify off the lower of in-place rent or market rent, so long-tenured RSO tenants cap your loan size. On purchases, units vacant at closing qualify at the appraiser's market rent schedule, and separately owned SFRs and condos are exempt from AB 1482 entirely when the notice is given. Your matched specialist will document which regime each unit sits under before the file goes out."
+      },
+      "programFit": [
+        "no-ratio-dscr",
+        "interest-only-dscr",
+        "portfolio-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "Duplex (2-unit)",
+        "neighborhood": "San Pedro",
+        "purchasePrice": 850000,
+        "downPaymentPct": 30,
+        "downPayment": 255000,
+        "loanAmount": 595000,
+        "loanType": "30-Year Fixed, No-Ratio DSCR",
+        "interestOnly": false,
+        "monthlyPI": 4159,
+        "monthlyTax": 822,
+        "monthlyInsurance": 220,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 5201,
+        "monthlyRent": 4800,
+        "dscr": 0.92,
+        "monthlyCashFlow": -401,
+        "specialistFocus": [
+          "No-Ratio program at 30% down closed the file at 0.92 coverage, no minimum ratio required",
+          "One unit vacant at closing, so the appraiser's market rent schedule set qualifying income for that side",
+          "Pre-1978 building flagged for RSO upfront and documented off the in-place lease on the occupied unit"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "How does LA rent control actually affect DSCR loan sizing?",
+          "answer": "Directly. On a refinance, DSCR lenders qualify off the lower of in-place rent or market rent. A pre-1978 RSO building with tenants paying 30% under market supports a smaller loan than the identical building at market, and the 3% RSO cap means you cannot close that gap quickly. On a purchase, units vacant at closing qualify at the appraiser's market rent schedule. Separately owned SFRs and condos are exempt from AB 1482 when proper notice is given, which is why many LA investors favor houses over units."
+        },
+        {
+          "question": "Can I run a short-term rental on an investment property in Los Angeles?",
+          "answer": "Not in the city of LA. The Home-Sharing Ordinance limits short-term rentals to your primary residence, capped at 120 days per year unless extended home-sharing is approved, with fines that run $500 to $2,000 per day. Dedicated investor STRs are effectively banned inside city limits, and ADUs permitted after 2016 are ineligible too. Underwrite Los Angeles on long-term leases. If nightly income is the strategy, look at Palm Springs or license-tier cities like San Diego instead."
+        },
+        {
+          "question": "Do No-Ratio DSCR loans really close below 1.0 coverage in LA?",
+          "answer": "Yes. No-Ratio programs do not impose a minimum coverage number; the tradeoff is a larger down payment, typically 30%, and pricing that reflects the added risk. At a $950K median and $2,510 average rent, most single-unit LA files land under 1.0, so this is the structure that gets LA bought at all. It is an appreciation and rent-growth position, not a cash-flow position, and your matched specialist will model the negative carry honestly before anything is submitted."
+        },
+        {
+          "question": "I live out of state. Can I still buy Los Angeles rentals?",
+          "answer": "Yes. DSCR loans qualify on the property's income, not your personal income or your zip code, and most DSCR lenders allow vesting in an LLC. What matters in LA specifically: line up property management that knows RSO and just-cause rules before you close, because a compliance mistake is expensive here. The matching step involves no credit check; any credit review happens later with your matched specialist at application, with your consent, from wherever you live."
+        },
+        {
+          "question": "Does Measure ULA hit investor purchases in Los Angeles?",
+          "answer": "Only at the top end. Measure ULA adds a city transfer tax on sales above roughly $5 million, with a higher tier above roughly $10 million, paid at disposition. A typical 1-4 unit rental purchase never touches it. It matters if your exit plan involves assembling or selling larger multifamily inside city limits, where the tax meaningfully changes sale proceeds. Factor it into hold-versus-sell math on bigger assets, and note that neighboring cities like Long Beach have no equivalent."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Los Angeles median $949,479, June 2026",
+        "Zumper Rent Research, Los Angeles average rent $2,510, July 2026",
+        "Realtor.com Rental Report, LA metro asking rent down 1.9% YoY, January 2026",
+        "Census Housing Vacancies and Homeownership, LA metro rental vacancy 4.8%, Q1 2026",
+        "LAHD Allowable Rent Increase Bulletin, RSO 3% for July 2026 to June 2027"
+      ]
+    },
+    {
+      "city": "San Diego",
+      "slug": "san-diego",
+      "county": "San Diego County",
+      "metro": "San Diego-Chula Vista-Carlsbad",
+      "hook": "San Diego pairs a $1.0M median with the deepest ADU pipeline in California. Deals pencil here when the second unit's rent counts, and DSCR lenders exist that count it.",
+      "metaDescription": "DSCR loans in San Diego: $1M median, ADU rent that can count toward qualifying, and licensed STR tiers. See what pencils. Match with a specialist.",
+      "market": {
+        "medianPrice": 1008000,
+        "medianRent": 2750,
+        "priceToRent": 30.5,
+        "vacancyRate": 6.3,
+        "yoyPrice": -0.6,
+        "yoyRent": -2,
+        "estDSCR": 0.4,
+        "propertyTaxRate": 1.14,
+        "insuranceMonthly": 225
+      },
+      "overview": "San Diego runs on the Navy, life science, and a university system that never stops feeding the rental pool. Zillow's city index sits at $1,007,800 as of mid-2026, roughly flat to down depending on the measure, with Redfin's median sale price at $954K, down 3.0% year over year. Rents cooled too: Zumper's median is $2,750, down about 2%, and a wave of new apartment supply pushed metro vacancy to 6.3% in Q1 2026.\n\nAt 30x price-to-rent, a plain 20%-down DSCR file at the median does not reach 1.0. What changes the math here is the ADU. San Diego is the most ADU-forward big city in the state, and several DSCR lenders will count permitted ADU rent off the appraiser's market rent schedule. A City Heights SFR with a detached ADU can run 40 basis points of coverage better than the same house without one. Interest-only and No-Ratio structures carry the rest.\n\nShort-term rentals are licensed, not banned. Whole-home licenses outside Mission Beach are capped near 1% of housing stock, Mission Beach has its own higher cap, and licenses require real usage. AB 1482 is the only rent cap; San Diego has no local rent ordinance on top of it.",
+      "regulationBadge": "moderate",
+      "regulationNote": "AB 1482 is the ceiling here, with no additional city rent program, but STR licensing tiers are strict and enforcement is real.",
+      "neighborhoods": [
+        {
+          "name": "City Heights",
+          "medianPrice": 700000,
+          "medianRent": 2500,
+          "note": "Dense, central, and full of lots with permitted ADUs or room to add one; the strongest rent-per-dollar zone in the urban core."
+        },
+        {
+          "name": "North Park",
+          "medianPrice": 950000,
+          "medianRent": 2850,
+          "note": "Craftsman stock with granny flats and strong tenant demand; ADU rent pushing files toward coverage is the standard play."
+        },
+        {
+          "name": "Encanto",
+          "medianPrice": 660000,
+          "medianRent": 2600,
+          "note": "Southeast San Diego entry point with big lots; the price-to-rent spread runs tighter than the city average."
+        },
+        {
+          "name": "Clairemont",
+          "medianPrice": 900000,
+          "medianRent": 3200,
+          "note": "Mid-city SFR rentals that pull stable long-term tenants; boring in the way lenders like."
+        },
+        {
+          "name": "Mission Beach",
+          "medianPrice": 1550000,
+          "medianRent": 3800,
+          "note": "The one San Diego zone built for whole-home STR licensing, with its own cap tier; long-term rents alone will not carry the price."
+        }
+      ],
+      "localAngle": {
+        "tag": "STR Licenses",
+        "title": "Four Tiers, One Percent, and a Lottery",
+        "body": "San Diego regulates short-term rentals through a four-tier license system. Tier 3 covers whole-home rentals citywide outside Mission Beach and is capped at roughly 1% of the city's housing stock, allocated by lottery when oversubscribed. Tier 4 covers Mission Beach, with a much higher cap tied to that community's housing units, and its application window has been closed. Tier 3 and 4 licenses also require at least 90 days of actual STR use per year. For financing, that license status is underwriting input: DSCR lenders will qualify a licensed property on projected short-term income, but an unlicensed one gets underwritten on long-term market rent. Your matched specialist will structure the file to match the license you actually hold, not the one the listing agent implies."
+      },
+      "programFit": [
+        "no-ratio-dscr",
+        "interest-only-dscr",
+        "str-dscr",
+        "portfolio-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "SFR with permitted ADU",
+        "neighborhood": "City Heights",
+        "purchasePrice": 950000,
+        "downPaymentPct": 25,
+        "downPayment": 237500,
+        "loanAmount": 712500,
+        "loanType": "30-Year, Interest-Only DSCR",
+        "interestOnly": true,
+        "monthlyPI": 4453,
+        "monthlyTax": 903,
+        "monthlyInsurance": 230,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 5586,
+        "monthlyRent": 5300,
+        "dscr": 0.95,
+        "monthlyCashFlow": -286,
+        "specialistFocus": [
+          "Matched to a lender that counts permitted ADU rent, lifting qualifying income from $3,300 to $5,300",
+          "Interest-only payment structure widened coverage from the 0.70s to 0.95 on the same purchase price",
+          "ADU permits and the appraiser's market rent schedule documented upfront so the second unit's income survived underwriting"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Do DSCR lenders count ADU rent in San Diego?",
+          "answer": "Many do, and it is the single most important lender-selection question in this market. Requirements vary: the ADU generally must be permitted, and income is supported by the appraiser's market rent schedule or an executed lease. Some lenders cap how much of the total qualifying income can come from the ADU. With a $1M median, the difference between counting and ignoring a $2,000 ADU rent is often the difference between a dead file and an approval. Your matched specialist routes ADU deals only to lenders that credit that income."
+        },
+        {
+          "question": "Can I buy a short-term rental in San Diego as an investor?",
+          "answer": "Yes, but the license comes first. Whole-home STR licenses outside Mission Beach are capped near 1% of housing stock and have gone to lottery when demand exceeds supply, while Mission Beach runs its own higher cap and its window has been closed. Licenses require a minimum of 90 days of STR use per year. If you hold a license, DSCR lenders can qualify the property on projected nightly income; without one, underwrite on long-term rent and treat any STR upside as a bonus."
+        },
+        {
+          "question": "How does AB 1482 play into a San Diego DSCR refinance?",
+          "answer": "San Diego has no city rent control, so AB 1482 is the whole story: increases capped at 5% plus regional CPI with a 10% ceiling, plus just-cause rules after 12 months. On refinances, lenders qualify off the lower of in-place or market rent, so tenants sitting under market cap your loan size until rents catch up. Separately owned SFRs and condos are exempt when the required notice is in the lease, one more reason the SFR-plus-ADU shape dominates investor files here."
+        },
+        {
+          "question": "Is San Diego workable for an out-of-state investor?",
+          "answer": "Very. The tenant base is unusually stable, anchored by military households with reliable allowances, university staff, and hospital systems, and vacancy stays manageable even with new supply. DSCR loans qualify on property income, so your out-of-state W-2 or self-employment picture is not underwritten. Most files vest in an LLC. Line up local management familiar with military tenancy cycles, and note the matching step involves no credit check; credit review happens with your matched specialist at application, with your consent."
+        },
+        {
+          "question": "What loan structures actually pencil at San Diego prices?",
+          "answer": "Three shapes do the work. Interest-only DSCR widens coverage on the same purchase price and suits investors banking on rent growth. No-Ratio DSCR at 30% down closes files that sit under 1.0 coverage, common on single-unit properties near the median. And SFR-plus-ADU purchases, financed with a lender that counts the second unit's rent, get closest to genuine coverage in the urban core. Straight 20%-down standard DSCR at the median price is the one shape that rarely works."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, San Diego $1,007,800, mid-2026; county trend down 0.6% YoY",
+        "Redfin, San Diego median sale price $954K, down 3.0% YoY, May 2026",
+        "Zumper Rent Research, San Diego median rent $2,750, down 2% YoY, April 2026",
+        "RentCafe/Yardi Matrix, San Diego average apartment rent $2,969, April 2026",
+        "Census Housing Vacancies and Homeownership, San Diego metro rental vacancy 6.3%, Q1 2026",
+        "City of San Diego STRO program, license tiers and caps, accessed July 2026"
+      ]
+    },
+    {
+      "city": "Sacramento",
+      "slug": "sacramento",
+      "county": "Sacramento County",
+      "metro": "Sacramento-Roseville-Folsom",
+      "hook": "Sacramento's $483K median is roughly half of coastal California, and the city runs its own Tenant Protection Program with a rental registry most out-of-town landlords have never heard of. Both facts shape the loan.",
+      "metaDescription": "DSCR loans in Sacramento: $483K median, a city rent registry on pre-1995 units, and duplexes that reach coverage at 30% down. Match with a specialist.",
+      "market": {
+        "medianPrice": 483000,
+        "medianRent": 1800,
+        "priceToRent": 22.4,
+        "vacancyRate": 5,
+        "yoyPrice": -1.9,
+        "yoyRent": -0.9,
+        "estDSCR": 0.55,
+        "propertyTaxRate": 1.12,
+        "insuranceMonthly": 145
+      },
+      "overview": "Sacramento is state government payroll, two expanding hospital systems, and a decade of Bay Area transplants who kept their salaries and halved their housing costs. Zillow puts the typical home at $482,968 as of mid-2026, down 1.9% on the year, and Zumper's average rent is $1,800. Softer prices plus flat rents is a buyer's setup, not a seller's.\n\nThe regulation layer is unusual for an inland market. Sacramento's Tenant Protection Program covers most rentals built before February 1995 inside city limits: a local cap on annual increases, 8.6% for the cycle starting July 2026, plus just-cause rules and a mandatory rental registry with per-unit fees. Separately owned single-family homes sit outside the local cap, which quietly pushes investor demand toward SFRs and toward post-1995 stock. On refinances, DSCR lenders still qualify off the lower of in-place or market rent regardless of which regime applies.\n\nWhere it pencils: Oak Park and Tahoe Park duplexes reach coverage at 30% down, Del Paso Heights is the entry-price value-add zone, and the ADU ordinance is genuinely permissive, so garage conversions that add a second income stream are a common path from 0.9 to 1.1 coverage on the same address.",
+      "regulationBadge": "tenant",
+      "regulationNote": "The city Tenant Protection Program adds a registry, fees, and just-cause rules on pre-1995 units, so exemption status is a diligence item before every offer.",
+      "neighborhoods": [
+        {
+          "name": "Oak Park",
+          "medianPrice": 420000,
+          "medianRent": 1900,
+          "note": "The BRRRR heart of Sacramento: pre-war duplexes, med-center adjacency, and renovated units that re-rent fast."
+        },
+        {
+          "name": "Tahoe Park",
+          "medianPrice": 480000,
+          "medianRent": 1950,
+          "note": "Zumper pegs average rent here at $1,947; small SFRs pull stable tenants from UC Davis Health and the state workforce."
+        },
+        {
+          "name": "Del Paso Heights",
+          "medianPrice": 350000,
+          "medianRent": 1700,
+          "note": "Lowest entry prices in the city with strong voucher demand; underwrite conservatively on condition and turns."
+        },
+        {
+          "name": "Midtown",
+          "medianPrice": 650000,
+          "medianRent": 2300,
+          "note": "Walkable core with premium rents; mostly pre-1995 stock, so the city registry and local cap apply to units here."
+        }
+      ],
+      "localAngle": {
+        "tag": "Local Rent Program",
+        "title": "The TPP Registry Is Not Optional",
+        "body": "Sacramento's Tenant Protection Program is easy to miss from out of town and expensive to ignore. Covered units, generally those built before February 1995, must be registered with the city, carry per-unit program fees, and follow a local increase cap that landed at 8.6% for the year starting July 2026, alongside just-cause eviction rules. Separately owned single-family homes fall outside the local cap, which is a real structuring angle: the same dollars buy an exempt SFR or a covered fourplex, and the rent-growth ceiling differs. On refinances, DSCR lenders qualify off the lower of in-place or market rent, so under-market tenants in covered buildings compound the cap. Your matched specialist will confirm covered-versus-exempt status before sizing the loan."
+      },
+      "programFit": [
+        "standard-dscr",
+        "interest-only-dscr",
+        "portfolio-dscr",
+        "bridge-to-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "Duplex (2-unit)",
+        "neighborhood": "Oak Park",
+        "purchasePrice": 560000,
+        "downPaymentPct": 30,
+        "downPayment": 168000,
+        "loanAmount": 392000,
+        "loanType": "30-Year Fixed DSCR",
+        "interestOnly": false,
+        "monthlyPI": 2740,
+        "monthlyTax": 523,
+        "monthlyInsurance": 160,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 3423,
+        "monthlyRent": 3500,
+        "dscr": 1.02,
+        "monthlyCashFlow": 77,
+        "specialistFocus": [
+          "Sized at 30% down specifically to clear 1.0 coverage, where 25% down left the file short",
+          "One unit delivered vacant, qualified at the appraiser's market rent schedule instead of the old under-market lease",
+          "Pre-1995 building, so TPP registration and the local cap were documented into the landlord's rent-growth plan"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "How is Sacramento's Tenant Protection Program different from AB 1482 for underwriting?",
+          "answer": "AB 1482 is the statewide baseline. Sacramento adds a city program on most units built before February 1995: local registration, per-unit fees, its own annual cap, 8.6% for the cycle starting July 2026, and just-cause rules. For DSCR purposes the lender math is unchanged, refinances still qualify off the lower of in-place or market rent, but the local cap slows how fast you can close a rent gap on covered buildings. Separately owned SFRs sit outside the local cap, which affects which asset you pick."
+        },
+        {
+          "question": "Do duplexes really reach 1.0 coverage in Sacramento?",
+          "answer": "At the right down payment, yes. An Oak Park duplex near $560K renting around $3,500 combined clears coverage at 30% down on a 30-year fixed file. At 25% down the same building usually lands just under 1.0, which either means an interest-only structure or writing a bigger check. That is the honest Sacramento trade: it is the cash-flow-closest major market in Northern California, but at mid-2026 carrying costs the margin is thin, and the down payment does the work."
+        },
+        {
+          "question": "What are Sacramento's short-term rental rules for investors?",
+          "answer": "The city requires an STR permit, and the rules favor owner-occupants. A non-primary-residence property is limited to 90 rental days per year unless you obtain a conditional use permit, and council proposals in 2026 have pushed toward tighter limits on non-owner listings. Practical read: do not underwrite a Sacramento purchase on nightly income. Model long-term rent, and if you later add permitted STR days, treat that revenue as upside rather than qualifying income."
+        },
+        {
+          "question": "I am a Bay Area or out-of-state investor. Why Sacramento?",
+          "answer": "Price-to-rent is the answer: roughly 22x here versus 30x or worse on the coast, with a tenant base anchored by the state, the university hospital, and Bay commuters. DSCR loans qualify on the property's income, so where you live and how you earn is not underwritten, and LLC vesting is standard. Vacancy around 5% gives cushion. The matching step involves no credit check; credit review happens later with your matched specialist at application, with your consent."
+        },
+        {
+          "question": "Which DSCR program shapes fit Sacramento prices?",
+          "answer": "Standard 30-year DSCR works on 2-4 unit buildings at 30% down, which is rare praise in California. Interest-only versions push marginal files over 1.0. Bridge-to-DSCR fits the Oak Park and Del Paso value-add loop: buy tired, renovate, season the new lease, then refinance into a long-term DSCR loan off the improved rent. ADU additions are the sleeper: a permitted garage conversion adds a second income the appraiser can schedule, often the cheapest coverage points in the city."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Sacramento $482,968, down 1.9% YoY, mid-2026",
+        "Zumper Rent Research, Sacramento average rent $1,800, July 2026",
+        "Apartments.com Rent Report, Sacramento down 0.9% YoY, June 2026",
+        "Census Housing Vacancies and Homeownership, Sacramento metro rental vacancy 5.0%, Q1 2026",
+        "City of Sacramento, Tenant Protection Program cap 8.6% effective July 2026"
+      ]
+    },
+    {
+      "city": "Fresno",
+      "slug": "fresno",
+      "county": "Fresno County",
+      "metro": "Fresno",
+      "hook": "Fresno is where California DSCR files still clear 1.0 the honest way: a $393K median, fourplexes near the colleges, and rents that cover the note at 25% down.",
+      "metaDescription": "DSCR loans in Fresno: $393K median, 21x price-to-rent, and 2-4 unit deals that clear 1.0 coverage at 25% down. Run the math. Match with a specialist.",
+      "market": {
+        "medianPrice": 393000,
+        "medianRent": 1500,
+        "priceToRent": 21.8,
+        "vacancyRate": 5,
+        "yoyPrice": 0.3,
+        "yoyRent": -2.5,
+        "estDSCR": 0.56,
+        "propertyTaxRate": 1.12,
+        "insuranceMonthly": 120
+      },
+      "overview": "Fresno anchors the most productive agricultural county in America and adds Fresno State, two regional hospital systems, and a logistics base that serves the whole Central Valley. Zillow has the typical home at $392,929 as of June 2026, up 0.3% while most of California drifted down. Zumper puts one-bedrooms at $1,280 and two-bedrooms at $1,590, and HUD's market analysis pegged apartment vacancy near 5%.\n\nThe investment case is arithmetic. At roughly 21x price-to-rent, Fresno is one of the few California metros where a standard DSCR loan on a 2-4 unit building reaches 1.0 coverage without exotic structuring. A $700K fourplex near Fresno City College renting $5,000 combined carries itself at 25% down with room to spare. Single-family files at the median run tighter, usually needing 30% down or an interest-only structure to clear.\n\nRegulation is the statewide baseline and nothing more: AB 1482 caps and just-cause, no local rent program, no STR permit drama. Separately owned SFRs are exempt from AB 1482 with proper notice. The BRRRR loop works here too, with the Tower District and McLane corridors full of dated stock that renovates into $300-plus rent premiums, then refinances into long-term DSCR debt off the improved lease.",
+      "regulationBadge": "moderate",
+      "regulationNote": "AB 1482 baseline only, with no city rent program on top, which keeps refinance rent schedules and rent-growth plans straightforward.",
+      "neighborhoods": [
+        {
+          "name": "Tower District",
+          "medianPrice": 300000,
+          "medianRent": 1420,
+          "note": "Zumper has average rent at $1,422 here; walkable pre-war stock with duplex conversions and steady demand from young renters."
+        },
+        {
+          "name": "Hoover",
+          "medianPrice": 330000,
+          "medianRent": 1500,
+          "note": "North-central workhorse zone near Fresno State feeder streets; unglamorous SFRs that rent fast and turn cheap."
+        },
+        {
+          "name": "Woodward Park",
+          "medianPrice": 520000,
+          "medianRent": 2100,
+          "note": "North Fresno's premium tier along the Clovis border; lower yield, better tenant longevity and school-driven demand."
+        },
+        {
+          "name": "McLane",
+          "medianPrice": 310000,
+          "medianRent": 1450,
+          "note": "Central value-add corridor where cosmetic rehabs move rents $200 to $300; classic bridge-to-DSCR territory."
+        }
+      ],
+      "localAngle": {
+        "tag": "Cash Flow",
+        "title": "Where Standard DSCR Still Works",
+        "body": "Most California pages on this site explain how to close a file that does not cover. Fresno is the opposite lesson: keep the file boring. Two-to-four unit buildings between Fresno City College and Fresno State routinely produce 1.05 to 1.15 coverage at 25% down on a standard 30-year DSCR loan, no interest-only crutch, no No-Ratio pricing. The structuring work here is sequencing, not salvage. Buy the dated fourplex with a bridge loan, renovate units on turnover, document the new leases, then refinance into fixed DSCR debt off the improved rent schedule. DSCR lenders count the market rent schedule on vacant renovated units, so a half-empty building at closing is a feature, not a bug. Your matched specialist will time the refinance around lease seasoning requirements."
+      },
+      "programFit": [
+        "standard-dscr",
+        "bridge-to-dscr",
+        "portfolio-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "Fourplex (4-unit)",
+        "neighborhood": "Central Fresno near Fresno City College",
+        "purchasePrice": 700000,
+        "downPaymentPct": 25,
+        "downPayment": 175000,
+        "loanAmount": 525000,
+        "loanType": "30-Year Fixed DSCR",
+        "interestOnly": false,
+        "monthlyPI": 3670,
+        "monthlyTax": 653,
+        "monthlyInsurance": 220,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 4543,
+        "monthlyRent": 5000,
+        "dscr": 1.1,
+        "monthlyCashFlow": 457,
+        "specialistFocus": [
+          "Standard DSCR at 25% down cleared 1.10 coverage on in-place rents, no structuring workarounds needed",
+          "Two units on month-to-month under market were documented with the appraiser's rent schedule to support future loan sizing",
+          "File vested in the buyer's LLC with a portfolio lender relationship set up for the next two acquisitions"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Does Fresno actually cash flow on a DSCR loan in 2026?",
+          "answer": "On 2-4 unit buildings, yes. A $700K fourplex renting $5,000 combined runs about 1.10 coverage at 25% down on a standard 30-year file, several hundred dollars positive after taxes and insurance. Single-family homes at the $393K median with $1,900 to $2,100 rents sit closer to 0.90 to 0.95 at 25% down, so SFR buyers either put 30% down or use interest-only structures. The multifamily stock is where Fresno earns its reputation."
+        },
+        {
+          "question": "How does AB 1482 affect a Fresno DSCR refinance?",
+          "answer": "Fresno has no local rent program, so AB 1482 is the whole rulebook: increases capped at 5% plus regional CPI, never more than 10%, with just-cause rules after 12 months. The underwriting consequence shows up on refinances, where DSCR lenders qualify off the lower of in-place or market rent. Long-tenured tenants paying under market cap your loan until increases catch up, and the cap limits the pace. Separately owned SFRs with proper notice are exempt, one reason Fresno SFR portfolios stay popular."
+        },
+        {
+          "question": "What is the BRRRR path in Fresno and how does financing work?",
+          "answer": "Buy dated stock in McLane or the Tower District with a bridge loan, renovate, lease at the improved rent, then refinance into a 30-year DSCR loan, the bridge-to-DSCR sequence. Most DSCR lenders want the new lease in place, and many apply a seasoning period of roughly three to six months before using the higher value. Vacant renovated units can qualify at the appraiser's market rent schedule on a purchase. Your matched specialist will sequence the exit refinance so the appraisal captures the rehab."
+        },
+        {
+          "question": "Is Fresno a good market for out-of-state DSCR investors?",
+          "answer": "It is the most forgiving entry point in California. Price-to-rent near 21x means underwriting mistakes are survivable, the tenant base is broad, and DSCR loans qualify on property income rather than your personal situation, with LLC vesting standard. Property management runs meaningfully cheaper than coastal metros. High-speed rail construction and Fresno State keep long-term demand credible. The matching step involves no credit check; any credit review happens with your matched specialist at application, with your consent."
+        },
+        {
+          "question": "Which neighborhoods fit which DSCR strategy in Fresno?",
+          "answer": "Tower District and McLane are the value-add zones: cheap entry, renovation upside, bridge-to-DSCR exits. Hoover and the central corridors are buy-and-hold rental territory where standard files clear on duplexes and fourplexes. Woodward Park trades yield for tenant quality and suits investors who want appreciation with fewer turns. If the goal is a portfolio, mixing central-Fresno multifamily cash flow with one or two north-Fresno SFRs balances coverage and long-term equity growth in the same portfolio DSCR facility."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Fresno $392,929, up 0.3% YoY, June 2026",
+        "Zumper Rent Research, Fresno 1BR $1,280 and 2BR $1,590, July 2026",
+        "HUD Housing Market Analysis, Fresno rental vacancy 5.0%, Q2 2025",
+        "Redfin, Fresno median sale price $405K, May 2026"
+      ]
+    },
+    {
+      "city": "Bakersfield",
+      "slug": "bakersfield",
+      "county": "Kern County",
+      "metro": "Bakersfield-Delano",
+      "hook": "$392K buys the median Bakersfield house and $1,695 is the average rent, one of the best ratios left in California. That spread is why BRRRR investors keep working the 99 corridor.",
+      "metaDescription": "DSCR loans in Bakersfield: $392K median, 19x price-to-rent, and cash-out refis that hold coverage at 75% LTV. See the math. Match with a specialist.",
+      "market": {
+        "medianPrice": 392000,
+        "medianRent": 1695,
+        "priceToRent": 19.3,
+        "vacancyRate": 5.7,
+        "yoyPrice": -0.4,
+        "yoyRent": 2.1,
+        "estDSCR": 0.63,
+        "propertyTaxRate": 1.19,
+        "insuranceMonthly": 115
+      },
+      "overview": "Bakersfield runs on Kern County oil, the most concentrated ag production in the state, and a growing logistics footprint where Highway 99 meets Interstate 5. Zillow puts the typical home at $392,105 as of mid-2026, essentially flat on the year, while Zumper's average rent of $1,695 rose against the state trend, with two-bedroom rents up 2.1% year over year. Metro rental vacancy sat at 5.7% in Q1 2026.\n\nAt roughly 19x price-to-rent, this is the strongest cash-flow arithmetic of any major California metro. Renovated houses in East Bakersfield and Oildale rent quickly against modest purchase prices, and duplexes still trade at prices where a 75% LTV cash-out refinance holds coverage above 1.0. That combination, cheap entry, real rent growth, and refinance headroom, is exactly what the BRRRR loop needs, and bridge-to-DSCR financing is the standard sequence here.\n\nThe regulation picture is the state baseline. AB 1482 caps increases at 5% plus regional CPI with a 10% ceiling and adds just-cause rules; there is no local rent program in Bakersfield. Separately owned SFRs and condos are exempt with proper notice, which matters in a market where single-family rentals are the dominant investor asset. Property taxes trend slightly higher than the state norm once local bonds are included, so model 1.2% on new purchases.",
+      "regulationBadge": "moderate",
+      "regulationNote": "AB 1482 baseline with no local overlay, and the SFR exemption covers most of what investors actually buy here.",
+      "neighborhoods": [
+        {
+          "name": "Oildale",
+          "medianPrice": 250000,
+          "medianRent": 1300,
+          "note": "The cheapest entry in the metro, north of the river; rough blocks and gems sit side by side, so walk it before you wire."
+        },
+        {
+          "name": "East Bakersfield",
+          "medianPrice": 280000,
+          "medianRent": 1350,
+          "note": "Core BRRRR territory where cosmetic rehab moves rent $200-plus; duplex stock supports cash-out refis that keep coverage."
+        },
+        {
+          "name": "Rosedale (93312)",
+          "medianPrice": 460000,
+          "medianRent": 1950,
+          "note": "Northwest growth corridor with newer tract stock; some subdivisions carry extra district assessments, so read the tax bill."
+        },
+        {
+          "name": "Stockdale",
+          "medianPrice": 450000,
+          "medianRent": 1900,
+          "note": "Southwest family rentals near Cal State Bakersfield; steadier tenants, thinner yield, fewer surprises."
+        }
+      ],
+      "localAngle": {
+        "tag": "BRRRR",
+        "title": "Buy It Broken, Refi It Rented",
+        "body": "Bakersfield is one of the last California metros where the full BRRRR loop closes with margin. Entry stock in East Bakersfield and Oildale trades in the $200Ks, renovation budgets stay sane, and renovated rents have been rising while the rest of the state cools. The financing sequence is bridge-to-DSCR: a short-term loan funds purchase plus rehab, then a 30-year DSCR refinance pays it off once units are leased. DSCR lenders typically qualify the refinance off the lower of the new lease or the appraiser's market rent, and most want roughly three to six months of seasoning before crediting the post-rehab value. At 70 to 75% LTV, a stabilized duplex here still covers. Your matched specialist will line up both loans before you close on the first one."
+      },
+      "programFit": [
+        "standard-dscr",
+        "bridge-to-dscr",
+        "portfolio-dscr"
+      ],
+      "dealExample": {
+        "label": "BRRRR Refinance",
+        "propertyType": "Duplex (2-unit)",
+        "neighborhood": "East Bakersfield",
+        "purchasePrice": 330000,
+        "downPaymentPct": 25,
+        "downPayment": 82500,
+        "loanAmount": 247500,
+        "loanType": "30-Year Fixed DSCR Cash-Out, 75% LTV",
+        "interestOnly": false,
+        "monthlyPI": 1730,
+        "monthlyTax": 327,
+        "monthlyInsurance": 120,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 2177,
+        "monthlyRent": 2400,
+        "dscr": 1.1,
+        "monthlyCashFlow": 223,
+        "specialistFocus": [
+          "Cash-out refinance at 75% LTV on the post-rehab appraised value repaid the bridge loan and returned most of the rehab budget",
+          "Both new leases seasoned past the lender's minimum before submission, so qualifying used the improved rents",
+          "Coverage held at 1.10 after the cash-out, keeping the file inside standard DSCR pricing instead of exception territory"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Is Bakersfield really cash-flow positive on a DSCR loan?",
+          "answer": "Yes, and not just at unrealistic list prices. A $330K duplex renting $2,400 combined holds 1.10 coverage even on a 75% LTV cash-out refinance, and purchases at 25% down run stronger. Rents here moved up while most California metros went flat, with two-bedroom rents up 2.1% year over year per Zumper. The honest caveats: tenant screening matters more in the value zones, and older housing stock means real maintenance budgets, so underwrite repairs, not just PITIA."
+        },
+        {
+          "question": "How does the BRRRR refinance work with DSCR lenders in Bakersfield?",
+          "answer": "The sequence is bridge-to-DSCR. A bridge loan funds the purchase and rehab, then a 30-year DSCR cash-out refinance takes it out once the property is leased. Lenders generally want the new leases in place, roughly three to six months of seasoning before crediting the post-rehab appraised value, and they qualify off the lower of lease or market rent. At Bakersfield prices the numbers survive all of that at 70 to 75% LTV. Your matched specialist will map the exit before the entry."
+        },
+        {
+          "question": "Does AB 1482 limit my rent increases on Bakersfield rentals?",
+          "answer": "On covered properties, yes: 5% plus regional CPI per year, capped at 10%, plus just-cause rules once a tenant passes 12 months. Bakersfield adds no local program on top. The key carve-out is that separately owned single-family homes and condos are exempt when the required notice appears in the lease, and SFRs are most of the investor stock here. On refinances, DSCR lenders use the lower of in-place or market rent, so under-market tenants still cap loan size regardless of exemption."
+        },
+        {
+          "question": "Can I invest in Bakersfield from out of state?",
+          "answer": "It is one of the easiest California markets to run remotely. Management fees are modest, rents collect against a broad employment base of energy, agriculture, healthcare, and logistics, and the price point lets you diversify across multiple houses instead of concentrating in one coastal asset. DSCR loans qualify on property income with LLC vesting standard, so your home state is irrelevant to the file. The matching step involves no credit check; credit review happens later with your matched specialist, with your consent."
+        },
+        {
+          "question": "What should I budget for taxes and insurance on a Bakersfield rental?",
+          "answer": "Prop 13 resets assessed value to your purchase price at closing, so model roughly 1.2% effective annually once local bonds are included, and check newer northwest subdivisions for extra district assessments on the tax bill. Insurance is a relative bargain: Bakersfield sits outside the major wildfire zones, so landlord policies on a median house commonly run near $115 a month in 2026, far below foothill markets. DSCR underwriting uses the reset tax number, not the seller's old bill, and your matched specialist will model PITIA that way."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Bakersfield $392,105, mid-2026",
+        "Zumper Rent Research, Bakersfield average rent $1,695, July 2026",
+        "Zumper National Rent Report, Bakersfield 2BR up 2.1% YoY, mid-2026",
+        "Census Housing Vacancies and Homeownership, Bakersfield metro rental vacancy 5.7%, Q1 2026"
+      ]
+    },
+    {
+      "city": "Riverside",
+      "slug": "riverside",
+      "county": "Riverside County",
+      "metro": "Riverside-San Bernardino-Ontario",
+      "hook": "Riverside sits at a $648K median with the Inland Empire's tightest-in-class vacancy and a 26,000-student university feeding the rental pool. Interest-only is often the difference between 0.94 and 1.03 on the same duplex.",
+      "metaDescription": "DSCR loans in Riverside: $648K median, UCR tenant demand, wildfire insurance zones that move PITIA. See which files pencil. Match with a specialist.",
+      "market": {
+        "medianPrice": 648000,
+        "medianRent": 2250,
+        "priceToRent": 24,
+        "vacancyRate": 4.5,
+        "yoyPrice": -0.5,
+        "yoyRent": -1.4,
+        "estDSCR": 0.51,
+        "propertyTaxRate": 1.18,
+        "insuranceMonthly": 185
+      },
+      "overview": "Riverside is the seat of the Inland Empire: UC Riverside and its roughly 26,000 students, a county government payroll, March Air Reserve Base, and the warehouse-and-logistics corridor that made this metro the freight hub of the West. Zillow puts the typical home at $648,360 as of mid-2026, down 0.5% on the year, with Zumper average rent at $2,250 and metro rental vacancy at 4.5% in Q1 2026, tight for a market this size.\n\nAt 24x price-to-rent, standard files at the median run short of coverage, but the gap is smaller than coastal California and closable with structure. Duplexes in La Sierra and the Eastside clear 1.0 with an interest-only payment at 25% down. Student-oriented houses near UCR carry premium gross rents on per-room demand, though DSCR lenders qualify off a standard lease and the appraiser's schedule, not per-bed pro formas.\n\nTwo local realities move PITIA. Newer tracts in Orangecrest and Mission Grove can carry Mello-Roos style assessments, so effective tax runs above the base in exactly the neighborhoods that look newest. And the wildland edges along the foothills price insurance very differently than the flats, with FAIR Plan placements increasingly common in brush zones. Regulation is the AB 1482 baseline only; Riverside has no local rent program.",
+      "regulationBadge": "moderate",
+      "regulationNote": "AB 1482 baseline with no city overlay, so the binding constraints here are insurance zones and special assessments, not rent boards.",
+      "neighborhoods": [
+        {
+          "name": "Eastside",
+          "medianPrice": 520000,
+          "medianRent": 2200,
+          "note": "Closest affordable stock to UCR; student and workforce demand keeps units full, and 2-4 unit properties surface regularly."
+        },
+        {
+          "name": "La Sierra",
+          "medianPrice": 600000,
+          "medianRent": 2400,
+          "note": "Commuter-friendly west side near the 91; the duplex sweet spot where interest-only files reach coverage."
+        },
+        {
+          "name": "Wood Streets",
+          "medianPrice": 650000,
+          "medianRent": 2500,
+          "note": "Historic craftsman district with pride-of-ownership tenants; lower turnover buys you predictable underwriting."
+        },
+        {
+          "name": "Canyon Crest",
+          "medianPrice": 700000,
+          "medianRent": 2700,
+          "note": "Grad students, faculty, and hospital staff; premium rents with brush-adjacent pockets, so quote insurance before you offer."
+        }
+      ],
+      "localAngle": {
+        "tag": "Insurance",
+        "title": "Foothill Files Price Insurance First",
+        "body": "The Inland Empire's insurance map is now underwriting input. California's FAIR Plan grew to roughly 684,000 policies by March 2026, up 152% in four years, and filed for an average 35.8% increase taking effect in 2026. In Riverside that lands on the brush-adjacent edges: Canyon Crest pockets, Box Springs slopes, and the foothill fringe can quote two to three times the premium of the flats, and sometimes only through FAIR Plan plus a wrap policy. Since DSCR qualification divides rent by full PITIA, a $200 monthly insurance swing can move a file from 1.05 to 0.95 by itself. Get the actual quote before writing the offer. Your matched specialist will run coverage math on the real premium, not a statewide average."
+      },
+      "programFit": [
+        "standard-dscr",
+        "interest-only-dscr",
+        "bridge-to-dscr",
+        "portfolio-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "Duplex (2-unit)",
+        "neighborhood": "La Sierra",
+        "purchasePrice": 620000,
+        "downPaymentPct": 25,
+        "downPayment": 155000,
+        "loanAmount": 465000,
+        "loanType": "30-Year, Interest-Only DSCR",
+        "interestOnly": true,
+        "monthlyPI": 2906,
+        "monthlyTax": 610,
+        "monthlyInsurance": 180,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 3696,
+        "monthlyRent": 3800,
+        "dscr": 1.03,
+        "monthlyCashFlow": 104,
+        "specialistFocus": [
+          "Interest-only structure lifted coverage from 0.94 amortizing to 1.03, keeping the file in standard pricing",
+          "Flatland location confirmed outside the brush zones, so insurance quoted at $180 instead of foothill premiums",
+          "Base tax plus district assessments verified on the actual tax bill before PITIA was locked into the submission"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "How do DSCR lenders treat student rentals near UC Riverside?",
+          "answer": "Conservatively, and plan for it. Per-room leases to five students may gross more than a family lease, but DSCR lenders qualify off a single standard lease or the appraiser's market rent schedule, whichever framework the program uses, and many discount or decline per-bed rent structures. The clean play near UCR is a house or duplex leased as whole units to students on one lease with parental guarantees. Underwrite at the appraiser's schedule and let any per-room premium be margin, not qualifying income."
+        },
+        {
+          "question": "Does wildfire insurance really change Riverside DSCR deals?",
+          "answer": "It can decide them. The flats quote like normal suburban California, while brush-adjacent streets in Canyon Crest or along Box Springs can run double or triple, sometimes only via FAIR Plan placements, which filed for an average 35.8% increase effective 2026. Because coverage is rent divided by full PITIA, a $2,400 annual premium difference moves the ratio several points. The discipline: get a bindable quote during due diligence, and let your matched specialist rerun the coverage math before you remove contingencies."
+        },
+        {
+          "question": "What rent rules apply to Riverside rentals?",
+          "answer": "AB 1482 statewide rules and nothing local: increases capped at 5% plus regional CPI with a 10% maximum, just-cause required after 12 months of tenancy. Separately owned single-family homes and condos are exempt when the lease includes the required notice, which covers a large share of Riverside investor stock. For underwriting, remember that refinances qualify off the lower of in-place or market rent, so inherited under-market tenants shrink the loan even where the property itself is exempt from the cap."
+        },
+        {
+          "question": "Can an out-of-state investor build a portfolio in Riverside?",
+          "answer": "Yes, and the logistics economy is the reason to. Warehouse, healthcare, university, and county payrolls diversify the tenant base, and 4.5% metro vacancy means units re-lease quickly. DSCR loans qualify on property income with LLC vesting standard, so distance is not a file problem. Practical advice: pick management with student-turnover experience if you buy near UCR, and confirm insurance zone before going under contract. The matching step involves no credit check; credit review happens with your matched specialist at application, with your consent."
+        },
+        {
+          "question": "Which loan structures fit Riverside's price point?",
+          "answer": "The workhorse is interest-only DSCR on 2-4 unit properties at 25% down, which is what turns a 0.94 file into a 1.03 file at these rents. Standard 30-year fixed works on duplexes bought under the median or with above-schedule rents. Bridge-to-DSCR fits the older Eastside stock where renovation moves rents. Portfolio DSCR consolidates once you hold three or more properties. Straight SFR purchases at the $648K median usually need 30% down or the interest-only payment to reach coverage."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Riverside $648,360, down 0.5% YoY, mid-2026",
+        "Zumper Rent Research, Riverside average rent $2,250, July 2026",
+        "Zumper National Rent Report, Riverside-San Bernardino metro asking rent down 1.4% YoY, 2026",
+        "Census Housing Vacancies and Homeownership, Riverside-San Bernardino metro rental vacancy 4.5%, Q1 2026",
+        "California FAIR Plan key statistics, 684,388 policies in force, March 2026"
+      ]
+    },
+    {
+      "city": "San Bernardino",
+      "slug": "san-bernardino",
+      "county": "San Bernardino County",
+      "metro": "Riverside-San Bernardino-Ontario",
+      "hook": "San Bernardino is the last sub-$500K city in metro Southern California, and fourplexes near Cal State still clear 1.15 coverage at 25% down. C-class management is the price of admission.",
+      "metaDescription": "DSCR loans in San Bernardino: $496K median, fourplexes near Cal State clearing 1.15 coverage, logistics-driven tenant demand. Match with a specialist.",
+      "market": {
+        "medianPrice": 496000,
+        "medianRent": 1750,
+        "priceToRent": 23.6,
+        "vacancyRate": 4.5,
+        "yoyPrice": 1.2,
+        "yoyRent": -1.4,
+        "estDSCR": 0.51,
+        "propertyTaxRate": 1.15,
+        "insuranceMonthly": 150
+      },
+      "overview": "San Bernardino is a logistics town wearing a college town's jacket: the airport rebuilt itself into a major air-cargo hub, the rail yards and warehouse corridor employ tens of thousands, and Cal State San Bernardino adds nearly 19,000 students on the north side. Zillow puts the typical home at $496,080 as of mid-2026, up 1.2% while most Southern California markets slipped, the cheapest big-city entry in the region. Metro vacancy sat at 4.5% in Q1 2026.\n\nThe investor case is per-door math. Fourplexes near the university trade around $180K to $200K per door with two-bedroom units renting in the $1,500s, and that combination clears standard DSCR coverage at 25% down, something Los Angeles has not offered in a decade. Single-family rentals in Del Rosa and the Verdemont foothills serve workforce families and rent quickly, though the northern foothill streets carry wildfire insurance premiums that need quoting before you offer.\n\nRegulation is the AB 1482 baseline with no local program. The honest tradeoffs: parts of the central city carry real deferred maintenance and require experienced management, tenant screening discipline, and repair reserves that coastal pro formas ignore. Priced correctly, that is exactly why the yields exist. This is the market where Inland Empire cash flow is still real, not nostalgic.",
+      "regulationBadge": "moderate",
+      "regulationNote": "AB 1482 baseline only; the practical constraints are property condition and insurance zones, not local rent boards.",
+      "neighborhoods": [
+        {
+          "name": "University District",
+          "medianPrice": 500000,
+          "medianRent": 2250,
+          "note": "Cal State's 19,000 students anchor demand; SFRs and small multifamily both rent fast, and fourplex per-door pricing clears coverage."
+        },
+        {
+          "name": "Verdemont",
+          "medianPrice": 550000,
+          "medianRent": 2400,
+          "note": "Newer foothill tracts on the north edge; family tenants and better schools, but quote wildfire insurance before writing offers."
+        },
+        {
+          "name": "Del Rosa",
+          "medianPrice": 450000,
+          "medianRent": 2100,
+          "note": "Workforce SFR territory east of the 210 split; unrenovated stock leaves room for the value-add loop."
+        },
+        {
+          "name": "Central San Bernardino",
+          "medianPrice": 380000,
+          "medianRent": 1800,
+          "note": "The deepest discounts and the heaviest management lift in the metro; buy with reserves and a screening process, not hope."
+        }
+      ],
+      "localAngle": {
+        "tag": "Cash Flow",
+        "title": "Fourplex Math Beats SFR Math Here",
+        "body": "San Bernardino rewards buying doors in bundles. A $780K fourplex near the university at $6,000 combined rent produces roughly 1.18 coverage at 25% down, while the same dollars spread across two SFRs typically lands nearer 1.0. The spread is per-door pricing: C-class fourplexes trade under $200K a door against two-bedroom rents in the $1,500s. DSCR lenders underwrite these on the building's rent schedule, with vacant units credited at the appraiser's market rents, and portfolio DSCR facilities bundle them once you own several. The honest cost is operational: older systems, tougher screening, real reserves. Your matched specialist will present the file with realistic expense assumptions so the approval survives the appraisal and the first year of ownership."
+      },
+      "programFit": [
+        "standard-dscr",
+        "bridge-to-dscr",
+        "portfolio-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "Fourplex (4-unit)",
+        "neighborhood": "University District",
+        "purchasePrice": 780000,
+        "downPaymentPct": 25,
+        "downPayment": 195000,
+        "loanAmount": 585000,
+        "loanType": "30-Year Fixed DSCR",
+        "interestOnly": false,
+        "monthlyPI": 4089,
+        "monthlyTax": 747,
+        "monthlyInsurance": 250,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 5086,
+        "monthlyRent": 6000,
+        "dscr": 1.18,
+        "monthlyCashFlow": 914,
+        "specialistFocus": [
+          "Standard DSCR at 25% down cleared 1.18 coverage on the rent schedule, no exceptions requested",
+          "One down unit was credited at the appraiser's market rent, documented as rent-ready with photos and a bid sheet",
+          "Insurance quoted early because the parcel sits below the foothill fire zones, keeping PITIA at the projected number"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Is San Bernardino too rough for out-of-state rental investors?",
+          "answer": "It is rougher than coastal California and more profitable, and both facts are connected. The workable pattern: buy near the university or in Del Rosa rather than sight-unseen central blocks, hire management with C-class experience, fund real repair reserves, and screen hard. Tenant demand itself is not the risk; logistics, healthcare, county, and campus payrolls keep 4.5% metro vacancy. DSCR loans qualify on property income with LLC vesting, so distance affects your operations plan, not your approval."
+        },
+        {
+          "question": "Why do fourplexes underwrite better than houses in San Bernardino?",
+          "answer": "Per-door pricing. Fourplexes near Cal State trade under $200K a door while two-bedroom units rent in the $1,500s, so combined rent against one loan clears coverage with room to spare, roughly 1.18 at 25% down in a typical file. A single house at the $496K median renting near $2,300 lands closer to 0.90 without structure. Lenders underwrite the building's full rent schedule, and vacant units get the appraiser's market rent on purchases, which favors multi-unit files."
+        },
+        {
+          "question": "How does AB 1482 affect my San Bernardino rent increases and refinancing?",
+          "answer": "The statewide cap applies with nothing added locally: 5% plus regional CPI per year, 10% maximum, and just-cause after 12 months. Separately owned SFRs and condos escape the cap entirely when the lease carries the required notice. The refinance rule is the one that bites: DSCR lenders qualify off the lower of in-place or market rent, so a fourplex full of long-term tenants $300 under market refinances smaller than its pro forma. Buy that building anyway; just size the debt honestly."
+        },
+        {
+          "question": "What about wildfire insurance in San Bernardino?",
+          "answer": "It is street-by-street. The flats and the university area quote like normal inland suburbs, near $150 monthly on a median house in 2026. The northern foothills, Verdemont's upper tracts and anything against the mountains, can quote multiples of that, increasingly through FAIR Plan placements after its 35.8% average increase filing for 2026. Since DSCR is rent over full PITIA, insurance is a coverage input, not a closing detail. Quote it during diligence and let your matched specialist rerun the ratio."
+        },
+        {
+          "question": "What DSCR programs fit a San Bernardino strategy?",
+          "answer": "Standard 30-year DSCR does the heavy lifting because the math actually covers here. Bridge-to-DSCR fits the value-add loop in Del Rosa and central blocks, where renovation moves rents enough to refinance at improved schedules. Portfolio DSCR matters once you accumulate three or more buildings, wrapping them into one facility with one payment. Interest-only exists as a cushion but is rarely required at these price-to-rent ratios. If a lender is pushing exotic structure on a San Bernardino fourplex, the price is wrong, not the program."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, San Bernardino $496,080, up 1.2% YoY, mid-2026",
+        "Zumper National Rent Report, Riverside-San Bernardino metro asking rent down 1.4% YoY, 2026",
+        "Steadily market data, San Bernardino 1BR average $1,315, 2026",
+        "Census Housing Vacancies and Homeownership, Riverside-San Bernardino metro rental vacancy 4.5%, Q1 2026"
+      ]
+    },
+    {
+      "city": "Stockton",
+      "slug": "stockton",
+      "county": "San Joaquin County",
+      "metro": "Stockton-Lodi",
+      "hook": "Stockton went from foreclosure headline to Bay Area spillover market: a $431K median down 3.3% on the year, fourplexes that clear 1.2 on a cash-out, and commuters 90 minutes from San Jose paychecks.",
+      "metaDescription": "DSCR loans in Stockton: $431K median down 3.3% YoY, Bay commuter rent demand, fourplex refis holding 1.2 coverage. Match with a DSCR specialist.",
+      "market": {
+        "medianPrice": 431000,
+        "medianRent": 1670,
+        "priceToRent": 21.5,
+        "vacancyRate": 4.6,
+        "yoyPrice": -3.3,
+        "yoyRent": 0.1,
+        "estDSCR": 0.56,
+        "propertyTaxRate": 1.18,
+        "insuranceMonthly": 125
+      },
+      "overview": "Stockton's economy is the Port of Stockton, the 5-and-99 distribution corridor, San Joaquin County government, and a commuter base that rides the ACE train toward Bay Area wages while paying Central Valley housing costs. Zillow has the typical home at $431,217 as of mid-2026, down 3.3% on the year, the steepest slide among major Valley markets, while rents held flat at $1,670 average per RentCafe. Falling prices against stable rents is exactly the setup a coverage-based loan wants.\n\nThe multifamily stock does the work here. Midtown and Magnolia district fourplexes, much of it pre-war stock in the 95204 zip where typical values run in the $380Ks, produce combined rents near $5,000 on buildings that stabilize around $640K, and that holds 1.2 coverage even on a 70% LTV cash-out. Weston Ranch and Lincoln Village serve the commuter-family SFR play, with the caveat that some newer tracts carry Mello-Roos assessments that inflate the effective tax bill.\n\nRegulation is the AB 1482 baseline; Stockton has no local rent program. The underwriting discipline this market demands is on the tax line: Prop 13 resets assessed value to your purchase price at closing, and district assessments vary block by block, so the seller's tax bill tells you nothing about yours. Model the reset number and verify assessments before locking PITIA assumptions.",
+      "regulationBadge": "moderate",
+      "regulationNote": "AB 1482 baseline with no city overlay; the diligence traps here are Mello-Roos assessments and deferred maintenance, not rent boards.",
+      "neighborhoods": [
+        {
+          "name": "Midtown-Magnolia",
+          "medianPrice": 385000,
+          "medianRent": 1700,
+          "note": "Pre-war 2-4 unit stock in the 95204; the fourplex zone where BRRRR refis pencil, with condition inspections earning their fee."
+        },
+        {
+          "name": "Weston Ranch",
+          "medianPrice": 420000,
+          "medianRent": 1900,
+          "note": "Southwest commuter tract near I-5; strong family-tenant demand, but check for Mello-Roos before trusting pro forma taxes."
+        },
+        {
+          "name": "Lincoln Village",
+          "medianPrice": 450000,
+          "medianRent": 1950,
+          "note": "Established north-side rentals with steadier tenants and fewer surprises; thinner yield, cleaner underwriting."
+        },
+        {
+          "name": "Brookside",
+          "medianPrice": 600000,
+          "medianRent": 2400,
+          "note": "West-side premium tier; appreciation-and-tenant-quality play rather than a coverage play at these ratios."
+        }
+      ],
+      "localAngle": {
+        "tag": "Prop 13",
+        "title": "Your Tax Bill Resets at the Price You Pay",
+        "body": "Prop 13 cuts both ways in Stockton. The base levy is 1%, but your assessed value resets to the purchase price the day you close, so a long-held rental advertised with a $2,800 annual tax bill becomes a $5,100 bill at a $431K purchase. Then the district layer: parts of Weston Ranch, Spanos Park, and newer north-side tracts carry Mello-Roos and special assessments that push effective bills toward 1.4% while Midtown's pre-war blocks sit near 1.1%. DSCR lenders underwrite the reset tax, not the seller's, and a $200 monthly tax difference moves coverage several points at Stockton rents. Your matched specialist will pull the actual assessment detail and model PITIA off your future bill before the file is priced."
+      },
+      "programFit": [
+        "standard-dscr",
+        "bridge-to-dscr",
+        "interest-only-dscr"
+      ],
+      "dealExample": {
+        "label": "BRRRR Refinance",
+        "propertyType": "Fourplex (4-unit)",
+        "neighborhood": "Midtown-Magnolia",
+        "purchasePrice": 640000,
+        "downPaymentPct": 30,
+        "downPayment": 192000,
+        "loanAmount": 448000,
+        "loanType": "30-Year Fixed DSCR Cash-Out, 70% LTV",
+        "interestOnly": false,
+        "monthlyPI": 3132,
+        "monthlyTax": 629,
+        "monthlyInsurance": 200,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 3961,
+        "monthlyRent": 4800,
+        "dscr": 1.21,
+        "monthlyCashFlow": 839,
+        "specialistFocus": [
+          "Cash-out at 70% LTV on the stabilized value repaid the bridge loan while coverage held at 1.21",
+          "All four renovated units re-leased and seasoned before submission, so qualifying used the improved rent roll",
+          "Assessment detail pulled on the parcel confirmed no Mello-Roos, keeping the tax line at the base levy plus bonds"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Why are DSCR investors watching Stockton right now?",
+          "answer": "Because the numbers moved in their favor: prices fell 3.3% over the year to a $431K typical value while rents stayed flat, and coverage math improves every month that continues. Add the structural story, Bay Area commuters via ACE rail and I-205 paying Valley rents with metro paychecks, plus port and logistics payrolls, and you get durable tenant demand under softening prices. Buyers in 2026 are underwriting into a discount window rather than chasing a peak."
+        },
+        {
+          "question": "How do Mello-Roos assessments affect DSCR qualification in Stockton?",
+          "answer": "They land directly in PITIA. Coverage is rent divided by principal, interest, taxes, insurance, and association dues, and Mello-Roos rides the tax line. A Weston Ranch house with $180 monthly in special assessments needs $180 more rent to hold the same ratio as a Midtown fourplex without them. The seller's bill will not warn you because Prop 13 resets base value at your purchase anyway. Pull the assessment detail on the parcel, and let your matched specialist model the real post-close tax number."
+        },
+        {
+          "question": "What rent regulations apply to Stockton rentals?",
+          "answer": "AB 1482 and nothing else local: annual increases capped at 5% plus regional CPI, 10% maximum, with just-cause protections after 12 months. Separately owned single-family homes and condos are exempt when the lease includes the required disclosure, which covers much of Stockton's investor stock. On refinances, DSCR lenders qualify off the lower of in-place or market rent, so a building inherited with $1,400 leases in a $1,700 market refinances against the $1,400 until turnover and capped increases close the gap."
+        },
+        {
+          "question": "Is Stockton manageable for an out-of-state or Bay Area investor?",
+          "answer": "Yes, and the drive matters less than the systems. Bay-based investors can physically inspect quarterly; out-of-state owners lean on local management, which is priced reasonably here. The pre-war Midtown stock demands real condition diligence, sewer laterals, knob-and-tube, foundations, so budget inspections and reserves. DSCR loans qualify on property income with LLC vesting standard, so geography stays out of the credit file. The matching step involves no credit check; credit review happens with your matched specialist at application, with your consent."
+        },
+        {
+          "question": "Which program shapes fit Stockton deals in 2026?",
+          "answer": "Standard 30-year DSCR clears on 2-4 unit buildings at 25 to 30% down, and that is the bread and butter. Bridge-to-DSCR runs the renovation loop on Midtown's dated stock, exiting into a cash-out that holds 1.2 coverage at 70% LTV when the rent roll is rebuilt. Interest-only helps marginal SFR files in Lincoln Village reach 1.0. What Stockton does not need is No-Ratio structure; if a file will not cover here, the purchase price is the problem."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Stockton $431,217, down 3.3% YoY, mid-2026",
+        "RentCafe, Stockton average rent $1,672, up 0.1% YoY, July 2026",
+        "Zumper Rent Research, Stockton average rent $1,690, July 2026",
+        "Census Housing Vacancies and Homeownership, California rental vacancy 4.6%, Q1 2026, statewide proxy"
+      ]
+    },
+    {
+      "city": "Modesto",
+      "slug": "modesto",
+      "county": "Stanislaus County",
+      "metro": "Modesto",
+      "hook": "Modesto rents rose 0.5% while prices slipped, and a $450K median still buys duplexes that carry themselves at 65% LTV. Quiet market, workable math.",
+      "metaDescription": "DSCR loans in Modesto: $450K median, rents holding firm, and cash-out refis that keep 1.1 coverage at 65% LTV. Run your deal. Match with a specialist.",
+      "market": {
+        "medianPrice": 450000,
+        "medianRent": 1730,
+        "priceToRent": 21.7,
+        "vacancyRate": 4.6,
+        "yoyPrice": -0.7,
+        "yoyRent": 0.5,
+        "estDSCR": 0.57,
+        "propertyTaxRate": 1.1,
+        "insuranceMonthly": 125
+      },
+      "overview": "Modesto is the working center of Stanislaus County: Gallo, the largest winery on earth, anchors a food-processing cluster that includes canneries, nut processors, and the logistics that move it all up the 99. Add two hospital systems and a commuter share that drives toward Bay Area wages, and the tenant base is broader than the city's low profile suggests. Zillow puts the typical home at $449,607 as of mid-2026, down 0.7%, while RentCafe shows average rent up 0.45% to $1,730. Rents rising while prices drift is the quiet signal coverage lenders like.\n\nAt roughly 22x price-to-rent, the deals that pencil are specific. Older duplexes in La Loma and the College Area produce combined rents near $3,100 against values in the $480Ks, which holds 1.1 coverage even at a 65% LTV cash-out, making Modesto one of the better equity-recycling markets in the state. The Airport District offers the deepest entry prices with the heaviest management lift, and Village One serves the family-SFR strategy at thinner yields.\n\nRegulation is the AB 1482 statewide baseline with no local program, and separately owned SFRs are exempt with proper notice. Insurance stays cheap by California standards, near $125 monthly on a median house, because Modesto sits outside the serious fire zones. The market's whole personality is low drama, and the loan files read the same way.",
+      "regulationBadge": "moderate",
+      "regulationNote": "AB 1482 baseline only, with no city program, cheap insurance, and flat topography, so files here are as simple as California gets.",
+      "neighborhoods": [
+        {
+          "name": "La Loma",
+          "medianPrice": 400000,
+          "medianRent": 1750,
+          "note": "Established east-side blocks with duplexes scattered through the SFR fabric; the cash-out refinance sweet spot."
+        },
+        {
+          "name": "College Area",
+          "medianPrice": 430000,
+          "medianRent": 1800,
+          "note": "Steady demand from MJC students and hospital staff; small multifamily surfaces here more than anywhere else in town."
+        },
+        {
+          "name": "Airport District",
+          "medianPrice": 300000,
+          "medianRent": 1450,
+          "note": "Lowest entry in the city with real management demands; value-add buyers should budget reserves, not optimism."
+        },
+        {
+          "name": "Village One",
+          "medianPrice": 520000,
+          "medianRent": 2100,
+          "note": "Planned east-side community for the family-tenant SFR play; check for special assessments on newer sections."
+        },
+        {
+          "name": "West Modesto",
+          "medianPrice": 350000,
+          "medianRent": 1650,
+          "note": "Zumper pegs average rent here at $1,650; workforce rentals close to the processing plants that employ the tenant base."
+        }
+      ],
+      "localAngle": {
+        "tag": "Equity Recycling",
+        "title": "65% LTV Is the Modesto Number",
+        "body": "Modesto's best trick is what it does for investors who already own here. Because duplex rents around $3,100 stand against values near $480K, a cash-out refinance at 65% LTV still holds roughly 1.1 coverage, meaning you can pull six figures of equity out of a stabilized property without breaking the ratio that got you approved. That is the equity-recycling loop: refinance the seasoned duplex, redeploy the cash as the down payment on the next one, repeat while coverage holds. DSCR lenders qualify the refinance off the lower of in-place or market rent, so keeping leases at market before you apply is the discipline. Your matched specialist will size the LTV to the coverage target rather than the maximum the program allows."
+      },
+      "programFit": [
+        "standard-dscr",
+        "bridge-to-dscr",
+        "portfolio-dscr"
+      ],
+      "dealExample": {
+        "label": "Cash-Out Refinance",
+        "propertyType": "Duplex (2-unit)",
+        "neighborhood": "La Loma",
+        "purchasePrice": 480000,
+        "downPaymentPct": 35,
+        "downPayment": 168000,
+        "loanAmount": 312000,
+        "loanType": "30-Year Fixed DSCR Cash-Out, 65% LTV",
+        "interestOnly": false,
+        "monthlyPI": 2181,
+        "monthlyTax": 440,
+        "monthlyInsurance": 150,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 2771,
+        "monthlyRent": 3100,
+        "dscr": 1.12,
+        "monthlyCashFlow": 329,
+        "specialistFocus": [
+          "LTV sized to 65% instead of the program maximum so coverage held at 1.12 after the cash-out",
+          "Both leases renewed at market before application, since refinances qualify off the lower of in-place or market rent",
+          "Cash-out proceeds earmarked as the down payment on the next acquisition, with the portfolio lender already identified"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Does Modesto cash flow on a DSCR loan in 2026?",
+          "answer": "On the right stock, yes. Duplexes in La Loma and the College Area hold 1.1 coverage even at 65% LTV cash-outs, and purchases at 30% down clear comfortably. Single-family homes at the $450K median renting near $2,200 sit just under 1.0 at 25% down, so SFR buyers stretch the down payment or accept thin coverage. The tailwind is direction: RentCafe shows rents up 0.45% against drifting prices, so the ratio improves as you wait, not the reverse."
+        },
+        {
+          "question": "How do rent rules affect Modesto DSCR refinances?",
+          "answer": "Modesto adds nothing beyond AB 1482: 5% plus regional CPI annually, capped at 10%, just-cause after 12 months, and separately owned SFRs exempt with the lease notice. The refinance mechanics matter more: DSCR lenders qualify off the lower of your in-place leases or the appraiser's market rent. A duplex with a five-year tenant paying $1,350 in a $1,550 market refinances against the smaller number, so renewing to market before applying, within the cap, is worth real loan proceeds."
+        },
+        {
+          "question": "Is Modesto worth it for an investor who lives out of state?",
+          "answer": "It is one of California's simplest remote markets. The tenant base spans food processing, healthcare, schools, and Bay commuters, insurance is cheap because fire risk is low, and there is no local rent bureaucracy to trip over. Management fees run Valley-normal, and the pre-1980 stock needs honest inspection budgets. DSCR qualification rides on property income with LLC vesting standard, so your location never enters underwriting. The matching step involves no credit check; credit review happens later with your matched specialist, with your consent."
+        },
+        {
+          "question": "What is the equity-recycling play Modesto investors talk about?",
+          "answer": "Buy a duplex, stabilize it at market rents, then cash-out refinance at 65% LTV, a level where coverage still holds near 1.1, and use the proceeds as the down payment on the next building. The math only works where rents are high relative to values, which is exactly Modesto's profile at 22x price-to-rent. Lenders want seasoning on the leases and often on the title, commonly a few months, before crediting the new value. Repeat the loop and the portfolio compounds without new outside capital."
+        },
+        {
+          "question": "Which Modesto neighborhoods fit which strategy?",
+          "answer": "La Loma and the College Area are the coverage plays: duplexes and small multifamily that carry debt comfortably. The Airport District is the discount value-add zone where bridge-to-DSCR sequencing fits, renovate, lease up, refinance, if you budget for the management reality. Village One and the newer east side suit family-SFR holds with better tenant longevity at thinner ratios. West Modesto splits the difference with workforce rentals near the plants. Mixing coverage stock with one appreciation hold is the standard portfolio shape here."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Modesto $449,607, down 0.7% YoY, mid-2026",
+        "RentCafe, Modesto average rent $1,730, up 0.45% YoY, July 2026",
+        "Zumper Rent Research, Modesto average rent $1,800, July 2026",
+        "Census Housing Vacancies and Homeownership, California rental vacancy 4.6%, Q1 2026, statewide proxy"
+      ]
+    },
+    {
+      "city": "Long Beach",
+      "slug": "long-beach",
+      "county": "Los Angeles County",
+      "metro": "Los Angeles-Long Beach-Anaheim",
+      "hook": "Long Beach layers its own just-cause ordinance on top of AB 1482, and the port economy keeps vacancy under 5%. Triplexes in Zaferia still reach 1.0 coverage with an interest-only structure.",
+      "metaDescription": "DSCR loans in Long Beach: $863K median, a city just-cause ordinance with relocation pay, triplexes that clear 1.0 interest-only. Match with a specialist.",
+      "market": {
+        "medianPrice": 863000,
+        "medianRent": 2200,
+        "priceToRent": 32.7,
+        "vacancyRate": 4.8,
+        "yoyPrice": 2,
+        "yoyRent": -1.9,
+        "estDSCR": 0.38,
+        "propertyTaxRate": 1.12,
+        "insuranceMonthly": 210
+      },
+      "overview": "Long Beach pairs one of the busiest port complexes in the world with Cal State Long Beach's roughly 38,000 students, an airport business cluster, and a downtown that keeps adding renters. Zillow puts the typical home at $862,989 as of mid-2026, up 2.0% and outperforming Los Angeles proper, while Zumper shows one-bedrooms near $1,880 and two-bedrooms near $2,480 against a metro asking-rent dip of 1.9%.\n\nThe regulatory setup is stricter than most investors expect. Beyond AB 1482's cap, Long Beach runs its own Just Cause for Termination of Tenancies Ordinance, Chapter 8.99, with mandatory relocation payments on no-fault terminations: one month's rent for standard cases and the greater of $4,500 or two months for substantial-remodel removals. That changes value-add math directly, because repositioning an occupied building now carries a per-unit relocation budget. Short-term rentals are permitted but capped, with non-primary-residence registrations limited citywide.\n\nWhere the math lands: at nearly 33x price-to-rent on the blended stock, single units do not cover, and the working files are 2-4 unit buildings in Zaferia, Wrigley, and North Long Beach financed with interest-only or No-Ratio structure at 30% down. On refinances, DSCR lenders qualify off the lower of in-place or market rent, and long-tenured tenants are common here, so the rent roll you inherit is the loan you get.",
+      "regulationBadge": "tenant",
+      "regulationNote": "Chapter 8.99 mandates relocation payments on no-fault terminations, so value-add plans need a per-unit relocation budget on top of AB 1482 compliance.",
+      "neighborhoods": [
+        {
+          "name": "North Long Beach",
+          "medianPrice": 650000,
+          "medianRent": 2500,
+          "note": "The city's entry price point with duplexes and SFRs; rent-to-price runs stronger than the coastal districts."
+        },
+        {
+          "name": "Wrigley",
+          "medianPrice": 720000,
+          "medianRent": 2600,
+          "note": "Craftsman blocks west of the river with steady workforce demand; small multifamily surfaces at workable per-door prices."
+        },
+        {
+          "name": "Zaferia",
+          "medianPrice": 700000,
+          "medianRent": 2400,
+          "note": "East-side corridor dense with 2-4 unit stock; the triplex-with-interest-only play lives here."
+        },
+        {
+          "name": "Bixby Knolls",
+          "medianPrice": 900000,
+          "medianRent": 2900,
+          "note": "Established mid-city district with tenant longevity; buy for durability, not for coverage headroom."
+        },
+        {
+          "name": "Belmont Shore",
+          "medianPrice": 1300000,
+          "medianRent": 2050,
+          "note": "Walkable beach district where Zumper pegs apartment rents near $2,047; an appreciation and lifestyle submarket, not a ratio play."
+        }
+      ],
+      "localAngle": {
+        "tag": "Just Cause",
+        "title": "Chapter 8.99 Changes Your Exit Math",
+        "body": "Long Beach is the rare California city whose local ordinance shows up in a renovation budget. Under Chapter 8.99, no-fault terminations require relocation assistance: one month's rent for standard cases like owner move-in, and the greater of $4,500 or two months' rent when you remove tenants for substantial remodel, paid within 15 days of notice, with penalties that reach $15,000 per violation. For a value-add triplex, that is potentially $13,000-plus in relocation costs before demolition starts, and DSCR refinances still qualify off the in-place rent roll until the new leases exist. The structuring answer is sequencing: buy with units vacant where possible, budget relocation per occupied unit where not, and have your matched specialist model the refinance off realistic post-renovation timing."
+      },
+      "programFit": [
+        "no-ratio-dscr",
+        "interest-only-dscr",
+        "portfolio-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "Triplex (3-unit)",
+        "neighborhood": "Zaferia",
+        "purchasePrice": 1000000,
+        "downPaymentPct": 30,
+        "downPayment": 300000,
+        "loanAmount": 700000,
+        "loanType": "30-Year, Interest-Only DSCR",
+        "interestOnly": true,
+        "monthlyPI": 4375,
+        "monthlyTax": 933,
+        "monthlyInsurance": 260,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 5568,
+        "monthlyRent": 5900,
+        "dscr": 1.06,
+        "monthlyCashFlow": 332,
+        "specialistFocus": [
+          "Interest-only structure carried the file to 1.06 coverage where the amortizing version sat at 0.97",
+          "One unit vacant at closing qualified at the appraiser's market rent schedule, lifting the qualifying rent roll",
+          "Occupied units documented off in-place leases with Chapter 8.99 relocation exposure noted in the buyer's renovation budget, not hidden from it"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "How does Long Beach's just-cause ordinance affect DSCR investing?",
+          "answer": "Two ways. Operationally, Chapter 8.99 requires relocation payments on no-fault terminations, one month's rent standard, the greater of $4,500 or two months for substantial-remodel removals, so repositioning an occupied building carries a real per-unit cost. On financing, DSCR refinances qualify off the lower of in-place or market rent, and Long Beach's long-tenured tenants often sit under market. Together they reward buying buildings with vacancy or near-market rents, and pricing relocation into any value-add offer from day one."
+        },
+        {
+          "question": "Can I operate a short-term rental in Long Beach?",
+          "answer": "Within limits. Long Beach registers STRs and allows them, but non-primary-residence registrations are capped citywide at 800, un-hosted activity on a primary residence is limited to 90 days per year, and buildings face per-property caps, with some census tracts having opted out of un-hosted rentals entirely. If you hold a valid registration, some DSCR lenders will consider short-term income; without one, underwrite on long-term leases. Treat STR here as constrained upside, not the base case, and verify registration availability before you write offers."
+        },
+        {
+          "question": "What does it take to reach 1.0 coverage at Long Beach prices?",
+          "answer": "Units, then structure. Blended price-to-rent near 33x means a single condo or SFR at the median will not cover on a standard file. The working shape is a 2-4 unit building in Zaferia, Wrigley, or North Long Beach at 30% down with an interest-only payment, which routinely moves files from the mid-0.9s over 1.0. No-Ratio programs close the ones that still fall short, at the cost of heavier down payments. Portfolio DSCR wraps multiple buildings once you scale."
+        },
+        {
+          "question": "Is Long Beach practical for an out-of-state DSCR borrower?",
+          "answer": "Yes, with one condition: management that knows Chapter 8.99 cold. The port, university, healthcare, and airport payrolls keep vacancy under 5% and tenant demand deep, and DSCR loans qualify on property income with LLC vesting, so distance is not an underwriting issue. But local compliance, relocation notices, registration rules, and AB 1482 notices, is unforgiving of amateur management. Hire specialists, not generalists. The matching step involves no credit check; credit review happens later with your matched specialist, with your consent."
+        },
+        {
+          "question": "How do refinances get sized on Long Beach rent rolls?",
+          "answer": "Off the lower of in-place or market rent, unit by unit. A Zaferia fourplex with three tenants a decade in and paying 25% under market refinances against those actual leases, not the appraiser's hypothetical, and AB 1482 caps how fast the gap closes, 8% in the LA region for the current cycle. Purchases treat vacant units better, crediting the market rent schedule. That asymmetry is why seasoned Long Beach investors buy vacancy and refinance stabilized, rather than the reverse."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Long Beach $862,989, up 2.0% YoY, mid-2026",
+        "Zumper Rent Research, Long Beach 1BR $1,880 and 2BR $2,480, July 2026",
+        "Realtor.com Rental Report, LA metro asking rent down 1.9% YoY, January 2026",
+        "City of Long Beach, STR program caps and Just Cause Ordinance Chapter 8.99, accessed July 2026",
+        "Census Housing Vacancies and Homeownership, LA metro rental vacancy 4.8%, Q1 2026"
+      ]
+    },
+    {
+      "city": "Palm Springs",
+      "slug": "palm-springs",
+      "county": "Riverside County",
+      "metro": "Riverside-San Bernardino-Ontario",
+      "hook": "Palm Springs is California's one true STR-DSCR market: vacation rental certificates, 20% neighborhood caps, and lenders that qualify off projected nightly income instead of a lease.",
+      "metaDescription": "DSCR loans in Palm Springs: $620K median, STR permits capped at 20% per neighborhood, files sized on projected nightly income. Match with a specialist.",
+      "market": {
+        "medianPrice": 620000,
+        "medianRent": 2650,
+        "priceToRent": 19.5,
+        "vacancyRate": 4.5,
+        "yoyPrice": -1.7,
+        "yoyRent": -1.4,
+        "estDSCR": 0.62,
+        "propertyTaxRate": 1.25,
+        "insuranceMonthly": 175
+      },
+      "overview": "Palm Springs runs on tourism and design pilgrimage: festival season, midcentury architecture tours, and a Coachella Valley visitor economy measured in millions of trips a year. Zillow puts the typical home at $619,612 as of mid-2026, down 1.7% and well off the 2022 peak, a number blended across a condo-heavy stock; detached pool homes in the STR-favored neighborhoods trade meaningfully higher. Long-term rents average around $2,650 on Zumper's listing mix, with apartment-focused surveys closer to $2,100.\n\nThe asset here is really a small hospitality business with a deed. The city regulates it accordingly: Ordinance 2075 caps vacation rental certificates at 20% of homes per organized neighborhood, newer certificates carry a 26-contract annual limit while older permits keep 36, and several famous STR neighborhoods sit at or above their caps with waitlists. STR-DSCR programs exist for exactly this market, qualifying off projected nightly income from market data rather than a long-term lease, typically at 25 to 30% down.\n\nTwo diligence items are non-negotiable. First, certificate availability in the specific neighborhood, because a house that cannot be permitted underwrites as a long-term rental at roughly half the income. Second, land tenure: parts of Palm Springs sit on Indian lease land rather than fee simple, and many DSCR lenders decline leaseholds or require lease terms running well past the loan. Property taxes also trend higher here, near 1.25% effective with local assessments.",
+      "regulationBadge": "moderate",
+      "regulationNote": "Rent rules are the AB 1482 baseline, but the STR certificate regime, 20% neighborhood caps with contract limits, is the regulation that actually prices deals here.",
+      "neighborhoods": [
+        {
+          "name": "Desert Park Estates",
+          "medianPrice": 675000,
+          "medianRent": 2800,
+          "note": "Classic STR territory with Zillow values near $675K; certificate availability against the 20% cap decides whether a deal underwrites as nightly or monthly."
+        },
+        {
+          "name": "Racquet Club Estates",
+          "medianPrice": 700000,
+          "medianRent": 2750,
+          "note": "Alexander-built midcentury stock that historically ran far above the cap; expect waitlists, so model long-term income as the base case."
+        },
+        {
+          "name": "Sunrise Park",
+          "medianPrice": 620000,
+          "medianRent": 2600,
+          "note": "Central location near the hospital with a mix of fee-simple and lease-land parcels; verify tenure before anything else."
+        },
+        {
+          "name": "Demuth Park",
+          "medianPrice": 500000,
+          "medianRent": 2300,
+          "note": "The attainable quadrant with a genuine year-round tenant base; the strongest long-term-rental fallback math in the city."
+        }
+      ],
+      "localAngle": {
+        "tag": "STR Permits",
+        "title": "The Certificate Is the Collateral",
+        "body": "In Palm Springs the vacation rental certificate is worth almost as much as the pool. Ordinance 2075 caps certificates at 20% of homes in each organized neighborhood, and the legacy STR zones exceeded that number before the ink dried, so they run waitlists while quieter neighborhoods still have room. Newer certificates are limited to 26 rental contracts a year, which pushes operators toward longer average stays, while pre-ordinance permits keep 36. For financing, STR-DSCR lenders qualify off projected nightly income supported by market data and an appraiser's schedule, but only when the certificate path is real. A house that cannot be certificated underwrites as a long-term rental at roughly half the revenue. Your matched specialist will confirm certificate availability and land tenure before structuring anything."
+      },
+      "programFit": [
+        "str-dscr",
+        "interest-only-dscr",
+        "no-ratio-dscr",
+        "foreign-national-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "SFR, 3BR pool home (short-term rental)",
+        "neighborhood": "Desert Park Estates",
+        "purchasePrice": 675000,
+        "downPaymentPct": 30,
+        "downPayment": 202500,
+        "loanAmount": 472500,
+        "loanType": "30-Year Fixed, STR DSCR on projected nightly income",
+        "interestOnly": false,
+        "monthlyPI": 3303,
+        "monthlyTax": 703,
+        "monthlyInsurance": 190,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 4196,
+        "monthlyRent": 5200,
+        "dscr": 1.24,
+        "monthlyCashFlow": 1004,
+        "specialistFocus": [
+          "Qualified on a seasonality-adjusted projection of nightly income rather than a long-term lease, using market data the lender accepts",
+          "Vacation rental certificate availability confirmed against the neighborhood's 20% cap before the offer was written",
+          "Fee-simple parcel verified, avoiding the lease-land complications that shrink the lender pool in parts of the city"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "How does an STR-DSCR loan work in Palm Springs?",
+          "answer": "Instead of a long-term lease, the lender qualifies the property on projected short-term income, supported by market data services and the appraiser's rent analysis, then applies the same coverage math against PITIA. Expect 25 to 30% down and documentation of the vacation rental certificate or a credible path to one. Seasonality is handled by annualizing: big festival months average against summer lows. If projected income cannot be documented to the lender's standard, the file falls back to long-term market rent."
+        },
+        {
+          "question": "What should I verify about the 20% neighborhood cap before buying?",
+          "answer": "Whether a new vacation rental certificate is actually available at that address. Ordinance 2075 caps certificates at 20% of homes per organized neighborhood, and the historic STR zones like Racquet Club Estates ran well above the cap when it passed, so they operate waitlists. A seller's existing permit generally does not transfer, and newer certificates carry a 26-contract annual limit. Confirm with the city directly during diligence, and have your matched specialist underwrite the long-term-rental fallback so the deal survives a no."
+        },
+        {
+          "question": "What is the lease land issue in Palm Springs?",
+          "answer": "Large sections of the city sit on land leased from the Agua Caliente Band and individual allottees rather than owned fee simple. The house is yours; the dirt is rented, with lease payments and expiration dates that matter. Many DSCR lenders decline leasehold entirely, and those that lend usually require the lease to run decades past the loan term. Lease-land homes price cheaper for this reason. Verify tenure on the title report first, and expect the lender pool to narrow if it is leasehold."
+        },
+        {
+          "question": "Is Palm Springs viable for out-of-state and foreign investors?",
+          "answer": "It is built for them. A large share of owners live elsewhere, professional STR management is a mature local industry, and DSCR qualification runs on property income rather than personal income, with LLC vesting standard. Foreign-national DSCR programs serve the Canadian buyers who have always been part of this market, using passport-based files without US credit history. The matching step involves no credit check; any credit review happens later with your matched specialist at application, with your consent."
+        },
+        {
+          "question": "What happens to my loan if the STR rules tighten later?",
+          "answer": "The loan itself does not change; DSCR notes do not reprice because a city ordinance does. The risk sits in refinancing and resale: a future cap reduction or contract-limit change could shrink the income a lender will credit next time. That is why disciplined Palm Springs files get stress-tested at long-term market rent, roughly $2,300 to $2,800 for typical SFRs, before closing. If the deal only survives at peak nightly projections, it is a hospitality bet, not a rental investment, and your matched specialist will say so."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Palm Springs $619,612, down 1.7% YoY, mid-2026",
+        "Zumper listing data, Palm Springs average rent $2,652, June 2026",
+        "RentCafe, Palm Springs apartment average rent $2,108, 2026",
+        "City of Palm Springs, Ordinance 2075 vacation rental caps and contract limits, accessed July 2026",
+        "Census Housing Vacancies and Homeownership, Riverside-San Bernardino metro rental vacancy 4.5%, Q1 2026"
+      ]
+    },
+    {
+      "city": "Anaheim",
+      "slug": "anaheim",
+      "county": "Orange County",
+      "metro": "Los Angeles-Long Beach-Anaheim",
+      "hook": "Anaheim stopped issuing new short-term rental permits back in 2016, so the play is long-term: a $955K median, Disneyland-anchored tenant demand, and No-Ratio structures that close sub-1.0 files honestly.",
+      "metaDescription": "DSCR loans in Anaheim: $955K median, no new STR permits since 2016, No-Ratio and interest-only files at 30% down. See the math. Match with a specialist.",
+      "market": {
+        "medianPrice": 955000,
+        "medianRent": 2550,
+        "priceToRent": 31.2,
+        "vacancyRate": 4.8,
+        "yoyPrice": 1.5,
+        "yoyRent": 0.9,
+        "estDSCR": 0.4,
+        "propertyTaxRate": 1.08,
+        "insuranceMonthly": 200
+      },
+      "overview": "Anaheim's economy is the resort district, and the resort district does not have downturns so much as slow quarters: Disneyland's expansion spending, the convention center, and Angel Stadium's Platinum Triangle development anchor tens of thousands of hospitality and trades jobs. Zillow puts the typical home at $954,662 as of mid-2026, up 1.5% while coastal markets drifted, with Zumper's average rent at $2,550 and one-bedrooms up 2.5% year over year. Metro vacancy held at 4.8%.\n\nThe short-term rental question gets answered fast: Anaheim prohibited new STR permits in 2016, and only a shrinking pool of legacy permits operates. Any listing marketing STR potential near the parks deserves skepticism, because the permit is the potential and you almost certainly cannot get one. Underwrite Anaheim on long-term leases, where demand is deep and Orange County's employment base keeps tenants paying.\n\nAt 31x price-to-rent, coverage at the median requires structure. The Colony's early-1900s bungalow blocks carry duplexes and ADU-ready lots, West Anaheim SFRs rent in the low $3,000s against mid-$800K prices, and Platinum Triangle condos add HOA dues that eat coverage. The working files are No-Ratio at 30% down, often paired with interest-only payments, positioned for OC's rent growth and Prop 13's fixed tax base rather than day-one cash flow. Effective property tax runs near 1.08%, among the gentler tax rates in the state.",
+      "regulationBadge": "moderate",
+      "regulationNote": "AB 1482 baseline with no local rent program, but the 2016 STR permit ban is absolute for practical purposes, so underwrite long-term income only.",
+      "neighborhoods": [
+        {
+          "name": "West Anaheim",
+          "medianPrice": 850000,
+          "medianRent": 3300,
+          "note": "The city's SFR rental workhorse along Beach Boulevard; hospitality and trades households keep turnover low."
+        },
+        {
+          "name": "The Colony",
+          "medianPrice": 900000,
+          "medianRent": 2600,
+          "note": "Historic core with duplexes and ADU-ready lots; the closest thing Anaheim has to a coverage play."
+        },
+        {
+          "name": "Platinum Triangle",
+          "medianPrice": 700000,
+          "medianRent": 2800,
+          "note": "Stadium-district condos with real HOA dues; run coverage math on PITIA including association fees before falling for the price tag."
+        },
+        {
+          "name": "Anaheim Hills",
+          "medianPrice": 1250000,
+          "medianRent": 4200,
+          "note": "Executive SFR territory at $1.25M typical values; an appreciation and tenant-quality hold, not a ratio play."
+        }
+      ],
+      "localAngle": {
+        "tag": "STR Ban",
+        "title": "No New STR Permits Since 2016",
+        "body": "Anaheim looks like an obvious short-term rental market, two theme parks and a convention center, and that is exactly why the city shut the door. New STR permits stopped in 2016; only legacy permits survive, with strict operating rules. For a DSCR file this simplifies things: lenders underwrite Anaheim on long-term leases or the appraiser's market rent schedule, full stop, and any pro forma built on nightly income near the parks should be discarded. The honest Anaheim structure is a No-Ratio or interest-only file at 30% down on a duplex or SFR, qualified off in-place or market rent, carried for Orange County rent growth on a Prop 13 tax base that resets only at your purchase price. Your matched specialist will model the negative carry and say whether the thesis is worth it."
+      },
+      "programFit": [
+        "no-ratio-dscr",
+        "interest-only-dscr",
+        "portfolio-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "Duplex (2-unit)",
+        "neighborhood": "The Colony",
+        "purchasePrice": 1050000,
+        "downPaymentPct": 30,
+        "downPayment": 315000,
+        "loanAmount": 735000,
+        "loanType": "30-Year, Interest-Only No-Ratio DSCR",
+        "interestOnly": true,
+        "monthlyPI": 4594,
+        "monthlyTax": 945,
+        "monthlyInsurance": 240,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 5779,
+        "monthlyRent": 5200,
+        "dscr": 0.9,
+        "monthlyCashFlow": -579,
+        "specialistFocus": [
+          "No-Ratio program accepted 0.90 coverage at 30% down, with the interest-only payment trimming the monthly carry",
+          "Both units qualified at the appraiser's market rent schedule since the building was delivered vacant",
+          "ADU feasibility on the deep Colony lot documented as the path from 0.90 to above 1.0 within the hold period"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Can I buy an Airbnb near Disneyland with a DSCR loan?",
+          "answer": "Almost certainly not in Anaheim city limits. The city stopped issuing new short-term rental permits in 2016, legacy permits are scarce and heavily regulated, and operating unpermitted is an enforcement problem, not a gray area. DSCR lenders underwrite Anaheim on long-term income accordingly. If a listing touts STR potential near the parks, verify the actual permit with the city before assigning it any value. Investors set on nightly income should look at licensed markets like Palm Springs instead."
+        },
+        {
+          "question": "How does a No-Ratio DSCR loan make sense at Anaheim prices?",
+          "answer": "It is the honest tool for a 31x price-to-rent market. No-Ratio programs impose no minimum coverage, so a $1M duplex renting $5,200 can close at 0.90 with 30% down and an interest-only payment. What you are buying is position: Orange County rent growth, resort-district employment, and a tax base Prop 13 froze at your purchase price. The negative carry is real and should be modeled as an ongoing capital contribution. If that math offends you, Anaheim is the wrong city, not the wrong loan."
+        },
+        {
+          "question": "Do AB 1482 rules change how my Anaheim rental refinances?",
+          "answer": "The state baseline applies, 5% plus regional CPI capped at 10%, just-cause after 12 months, with no Anaheim-specific overlay. Refinances qualify off the lower of in-place or market rent, so a long-tenured tenant paying under market caps loan proceeds until increases, limited to 8% in the LA region this cycle, catch up. Separately owned SFRs and condos escape the cap with the required lease notice. The Colony duplexes with one vacant unit at closing get the appraiser's market schedule on that side."
+        },
+        {
+          "question": "Is Anaheim a good market for out-of-state DSCR investors?",
+          "answer": "It is a good market for patient ones. The tenant base is as durable as Southern California offers, resort, convention, healthcare, and trades payrolls, with 4.8% metro vacancy and rents that grew through 2026 while neighbors flattened. But files at these prices usually run negative early, so out-of-state buyers need reserves and a rent-growth thesis, not a cash-flow spreadsheet. LLC vesting is standard and qualification rides on property income. The matching step involves no credit check; credit review happens with your matched specialist at application, with your consent."
+        },
+        {
+          "question": "What should I know about Platinum Triangle condos and DSCR coverage?",
+          "answer": "HOA dues are the silent coverage killer. DSCR divides rent by full PITIA including association fees, so a $700K condo renting $2,800 with $450 monthly dues carries materially worse coverage than the same price SFR, and special assessment risk rides on top. Lenders also scrutinize condo projects themselves: owner-occupancy mix, litigation, budget reserves. If you want the stadium district, price the dues into the ratio from the first offer. Your matched specialist will run condo files only through lenders comfortable with the project profile."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Anaheim $954,662, up 1.5% YoY, mid-2026",
+        "Zumper Rent Research, Anaheim average rent $2,550, July 2026",
+        "Zumper National Rent Report, Anaheim 1BR up 2.5% and 2BR down 0.7% YoY, mid-2026",
+        "City of Anaheim Short-Term Rental Program, no new permits since 2016, accessed July 2026",
+        "Census Housing Vacancies and Homeownership, LA metro rental vacancy 4.8%, Q1 2026"
+      ]
+    }
+  ]
+}

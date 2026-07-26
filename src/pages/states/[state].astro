@@ -11,6 +11,20 @@ export function getStaticPaths() {
 
 const { stateData } = Astro.props;
 
+// City pages (gated: only states with a data file in src/data/cities/ render the
+// "DSCR Loans by City" section; see src/data/cities/README.md)
+const cityModules = import.meta.glob('../../data/cities/*.json', { eager: true });
+const cityFile: any = Object.values(cityModules)
+  .map((mod: any) => (mod as any).default)
+  .find((f: any) => f.stateSlug === stateData.slug);
+const cityPages = (cityFile?.cities || []).map((ct: any) => ({
+  city: ct.city,
+  slug: ct.slug,
+  medianPrice: ct.market.medianPrice,
+  medianRent: ct.market.medianRent,
+  estDSCR: ct.market.estDSCR,
+}));
+
 // Build related states data from slugs
 const relatedStates = (stateData.relatedStates || [])
   .map((slug: string) => statesData.find((s: any) => s.slug === slug))
@@ -134,5 +148,6 @@ const jsonLd = [
   dealExample={stateData.dealExample}
   faqItems={stateData.faqItems}
   relatedStates={relatedStates}
+  cityPages={cityPages}
   jsonLd={jsonLd}
 />

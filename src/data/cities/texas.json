@@ -1,0 +1,1357 @@
+{
+  "state": "Texas",
+  "abbreviation": "TX",
+  "stateSlug": "texas",
+  "dataUpdated": "2026-07",
+  "cities": [
+    {
+      "city": "Dallas",
+      "slug": "dallas",
+      "county": "Dallas County",
+      "metro": "Dallas-Fort Worth-Arlington",
+      "hook": "Dallas home values sit at $311K, down 2.7% in a year, while 3-bed houses still rent near $2,300. Softer prices plus firm rents is exactly when DSCR buyers get aggressive.",
+      "metaDescription": "Dallas home values are down 2.7% while 3-bed rents hold near $2,300. See where DSCR deals pencil in Oak Cliff and east Dallas. Match with a specialist.",
+      "market": {
+        "medianPrice": 311000,
+        "medianRent": 2300,
+        "priceToRent": 11.3,
+        "vacancyRate": 9,
+        "yoyPrice": -2.7,
+        "yoyRent": -2,
+        "estDSCR": 0.88,
+        "propertyTaxRate": 2.22,
+        "insuranceMonthly": 290
+      },
+      "overview": "Dallas is the deepest rental market in Texas. The typical home value is about $311,000 as of mid 2026, down 2.7% year over year, the steepest correction among the big Texas metros. Rents have held up far better than prices: a 3-bed single-family house still rents around $2,300 to $2,800 depending on the pocket. That spread is why buyers who sat out 2024 are back writing offers, and why sellers are giving real concessions on price and repairs.\n\nThe economy under those rentals is broad. AT&T, Bank of America, Texas Instruments, Southwestern Medical District, and the DFW logistics machine keep filling houses with W-2 tenants. Metro rental vacancy runs about 9% right now because of a wave of new apartment supply, but that pressure lands mostly on Class A multifamily. Workforce single-family rentals south and east of downtown lease fast at full asking.\n\nWhere deals pencil: at the citywide median with 20% down, the math is tight. DSCR buyers make Dallas work by buying below the median in Oak Cliff, Pleasant Grove, and east Dallas, where a $230K to $270K house pulls $2,100 to $2,400 in rent. Investors also underwrite Dallas County's roughly 2.2% combined property tax honestly from day one. The ones who get in trouble are the ones who used last year's assessed value.",
+      "regulationBadge": "friendly",
+      "regulationNote": "Texas has no statewide rent control and Dallas eviction courts move fast by national standards, so long-term landlords operate with few constraints; the fight here is over short-term rentals, not leases.",
+      "neighborhoods": [
+        {
+          "name": "Oak Cliff",
+          "medianPrice": 255000,
+          "medianRent": 2250,
+          "note": "Renovated 3/2s near Bishop Arts and Kiest still buy at a discount to the citywide median while renting at or above it. The classic Dallas DSCR play."
+        },
+        {
+          "name": "Pleasant Grove",
+          "medianPrice": 215000,
+          "medianRent": 1995,
+          "note": "One of the cheapest entry points inside the loop. Rent-to-price ratios here clear 0.9%, which is what makes the DSCR math close at 20 to 25% down."
+        },
+        {
+          "name": "East Dallas / Casa View",
+          "medianPrice": 295000,
+          "medianRent": 2350,
+          "note": "Mid-century 3-beds near White Rock Lake lease to long-tenure tenants. Slightly thinner cash flow, much stronger appreciation profile."
+        },
+        {
+          "name": "Red Bird / Southwest Dallas",
+          "medianPrice": 235000,
+          "medianRent": 2100,
+          "note": "UNT Dallas and the Red Bird redevelopment are pulling jobs south. Sub-$250K stock with $2,000+ rents keeps DSCRs above 1.0."
+        }
+      ],
+      "localAngle": {
+        "tag": "STR Rules",
+        "title": "Dallas STRs are in legal limbo. Underwrite the lease, not the nightly rate.",
+        "body": "In 2023 Dallas passed ordinances banning short-term rentals in single-family zoning and requiring registration. STR owners sued, a court blocked enforcement in December 2023, and the Fifth District Court of Appeals upheld that injunction in July 2025. As of mid 2026 the fight sits with the Texas Supreme Court, so STRs keep operating, but nobody can promise that lasts. Practical takeaway: DSCR lenders in Dallas overwhelmingly qualify single-family files on long-term market rent from the appraisal rent schedule, not Airbnb projections. Your matched specialist can structure a file that pencils on the lease so any STR upside stays exactly that, upside instead of a refinance problem."
+      },
+      "programFit": [
+        "standard-dscr",
+        "interest-only-dscr",
+        "portfolio-dscr",
+        "bridge-to-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 2-bath SFR",
+        "neighborhood": "Oak Cliff",
+        "purchasePrice": 255000,
+        "downPaymentPct": 25,
+        "downPayment": 63750,
+        "loanAmount": 191250,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 1337,
+        "monthlyTax": 472,
+        "monthlyInsurance": 240,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 2049,
+        "monthlyRent": 2250,
+        "dscr": 1.1,
+        "monthlyCashFlow": 201,
+        "specialistFocus": [
+          "Qualified on the appraiser's market rent schedule at $2,250 instead of the seller's inherited $1,900 lease",
+          "Underwrote taxes at full post-sale assessed value with Dallas County's combined rate, not the prior owner's homestead bill",
+          "Shopped the landlord policy to three Texas carriers to hold insurance near $240 a month despite hail-driven premium hikes"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "How do Dallas property taxes change the DSCR math?",
+          "answer": "Dallas County's combined city, county, and school rate runs near 2.2%, and investors get no homestead exemption. On a $255,000 rental that is roughly $470 a month before principal, interest, or insurance. DSCR lenders divide rent by the full PITIA payment, so a tax line that heavy moves the ratio by a tenth of a point or more. Two habits protect the file: underwrite at the price you are paying, because the appraisal district will reassess after the sale, and protest the assessment every year. Your matched specialist will run the ratio using the real post-sale tax number before you commit earnest money."
+        },
+        {
+          "question": "Can I still buy a short-term rental in Dallas with a DSCR loan?",
+          "answer": "You can buy the house, but the STR rules are unsettled. Dallas banned short-term rentals in single-family zoning in 2023, courts blocked enforcement, an appeals court upheld the block in July 2025, and the case is now at the Texas Supreme Court. Because the outcome is unknown, most DSCR lenders qualify Dallas single-family files on long-term market rent rather than nightly-rate projections. If the deal only works as an Airbnb, that is a fragile deal here. Your matched specialist can structure the loan so the property carries itself as a standard rental either way."
+        },
+        {
+          "question": "I am investing in Dallas from out of state. What should I expect?",
+          "answer": "Dallas is one of the most out-of-state-friendly markets in the country. DSCR loans close in an LLC, qualification runs on the property's rent rather than your personal tax returns, and Texas allows remote online notarization, so most investors never fly in. Build the local bench first: a property manager who knows southern Dallas leasing, an insurance agent quoting multiple Texas carriers, and an inspector who flags 1950s cast-iron plumbing. Expect faster leasing than coastal investors are used to, and budget honestly for the 2.2% tax rate. Your matched specialist coordinates with your title company so signing happens wherever you live."
+        },
+        {
+          "question": "Which Dallas submarkets do DSCR lenders like most right now?",
+          "answer": "Lenders care about one thing: does the rent cover the payment with room to spare. In 2026 that points to Oak Cliff, Pleasant Grove, Red Bird, and the Casa View side of east Dallas, where purchase prices of $215,000 to $295,000 line up against rents of $2,000 to $2,400. Uptown condos and far-north luxury rentals usually fail the ratio because prices outrun rents. Property type matters too: standard 3/2 single-family houses appraise cleanly and lease fast, while condos with high HOA dues eat the cash flow the ratio depends on."
+        },
+        {
+          "question": "Prices in Dallas fell 2.7% this year. Is that a problem for a DSCR loan?",
+          "answer": "It is mostly an opportunity with one caveat. Softer prices mean better entry basis, more seller concessions, and appraisals that come in without drama. Rents in the workforce submarkets barely moved, so the rent-to-price ratio that drives DSCR qualification actually improved. The caveat is appraisal timing on thin-margin flips: if you are running a BRRRR, build a cushion into your after-repair value instead of assuming 2021-style appreciation. DSCR lenders lend on today's value and today's rent. Buy where those two numbers already work and the market's direction takes care of itself."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Dallas typical home value and YoY change, June 2026",
+        "Apartments.com/CoStar, Dallas 3-bed house and apartment rents, July 2026",
+        "Zumper Rent Report, Dallas median rent, July 2026",
+        "CoStar metro data, Dallas-Fort Worth rental vacancy, 2026",
+        "Ballard Property Tax, Dallas County combined 2025 rate",
+        "Rent Responsibly / Fifth District Court of Appeals, Dallas STR injunction status, July 2025"
+      ]
+    },
+    {
+      "city": "Fort Worth",
+      "slug": "fort-worth",
+      "county": "Tarrant County",
+      "metro": "Dallas-Fort Worth-Arlington",
+      "hook": "Fort Worth's typical home runs $300K against 3-bed house rents around $2,200, and homes go pending in 26 days. It is the value half of the DFW metroplex, and DSCR lenders treat it that way.",
+      "metaDescription": "Fort Worth homes average $300K and 3-bed houses rent near $2,200. See the submarkets where DSCR files clear 1.0 and match with a DSCR loan specialist.",
+      "market": {
+        "medianPrice": 300000,
+        "medianRent": 2100,
+        "priceToRent": 11.9,
+        "vacancyRate": 9,
+        "yoyPrice": -2.2,
+        "yoyRent": -0.5,
+        "estDSCR": 0.83,
+        "propertyTaxRate": 2.24,
+        "insuranceMonthly": 300
+      },
+      "overview": "Fort Worth is what Dallas investors buy when they want the same metro economy at a lower basis. The typical home value is about $300,000, down 2.2% year over year, while a 3-bed house rents for roughly $2,200. Rents slipped only half a percent over the same stretch, so the price-to-rent spread moved in the buyer's favor. Homes go pending in about 26 days, quick for a correcting market, which tells you demand never left.\n\nThe tenant base is anchored by Lockheed Martin's F-35 line, Alliance Airport's logistics corridor, JPS Health, and Bell. Fort Worth grew past 1,000,000 residents and keeps adding people faster than nearly any big city in the country. New apartment supply pushed metro vacancy to about 9%, but single-family rentals in established neighborhoods are a different market, leasing in weeks to tenants who want Fort Worth ISD alternatives and a yard.\n\nWhere the DSCR math works: south and east of downtown. Polytechnic Heights, Stop Six, and Como offer sub-$220K entries with $1,700 to $1,900 rents. Small multifamily near the Near Southside medical district is the quiet winner, where a duplex around $320,000 can bring $2,800 in combined rent. Tarrant County's combined tax rate near 2.2% is the number to respect; underwrite it at your purchase price and the rest of the file tends to fall in line.",
+      "regulationBadge": "friendly",
+      "regulationNote": "Fort Worth is a landlord-friendly, fast-growth city with no rent control; the one hard line is zoning that keeps short-term rentals out of nearly all residential districts.",
+      "neighborhoods": [
+        {
+          "name": "Polytechnic Heights",
+          "medianPrice": 191000,
+          "medianRent": 1750,
+          "note": "The 76104/76105 corridor prices around $190K with rents near $1,750. Highest rent-to-price ratios in the city, and Texas Wesleyan anchors steady tenant demand."
+        },
+        {
+          "name": "Near Southside / Fairmount",
+          "medianPrice": 340000,
+          "medianRent": 2400,
+          "note": "The medical district's 40,000 workers rent everything in walking distance. Duplexes and bungalow conversions here trade cash flow for the strongest tenant pool in Fort Worth."
+        },
+        {
+          "name": "Como / West Fort Worth",
+          "medianPrice": 225000,
+          "medianRent": 1900,
+          "note": "Small houses minutes from the Chisholm Trail Parkway lease quickly. A sub-$230K basis keeps DSCRs above 1.0 at 25% down."
+        },
+        {
+          "name": "North Side / Diamond Hill",
+          "medianPrice": 230000,
+          "medianRent": 1950,
+          "note": "Stockyards tourism spillover and Alliance-corridor jobs feed rental demand. Older stock, so budget the inspection findings into your offer."
+        }
+      ],
+      "localAngle": {
+        "tag": "STR Rules",
+        "title": "In Fort Worth, STRs live in commercial zones. Buy residential for the lease.",
+        "body": "Fort Worth's 2023 ordinance draws a clean line: short-term rentals are allowed in mixed-use, commercial, industrial, and most form-based districts, and effectively prohibited in nearly all residential zoning. Registration and a 9% city hotel occupancy tax apply where they are legal. City estimates at adoption found only a small fraction of operating STRs were in allowed zones, and enforcement has teeth. For a DSCR file that means the nightly-rate story is off the table for a normal residential house. DSCR lenders here underwrite long-term market rent, and that is how the neighborhoods above still pencil. Your matched specialist can flag whether a specific address sits in an STR-eligible district before you write the offer."
+      },
+      "programFit": [
+        "standard-dscr",
+        "portfolio-dscr",
+        "bridge-to-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "Duplex (2x 2-bed)",
+        "neighborhood": "Near Southside",
+        "purchasePrice": 320000,
+        "downPaymentPct": 25,
+        "downPayment": 80000,
+        "loanAmount": 240000,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 1678,
+        "monthlyTax": 597,
+        "monthlyInsurance": 280,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 2555,
+        "monthlyRent": 2800,
+        "dscr": 1.1,
+        "monthlyCashFlow": 245,
+        "specialistFocus": [
+          "Used both units' appraiser-verified market rents, $1,400 a side, instead of the one occupied unit's below-market lease",
+          "Priced the file as a 2-4 unit DSCR loan so the second unit's income counted without commercial underwriting",
+          "Set taxes at Tarrant County's full combined rate on the purchase price, heading off a payment shock at first reassessment"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "What does Tarrant County's tax rate do to a Fort Worth DSCR deal?",
+          "answer": "Tarrant County's combined rate is about 2.24%, among the highest of the big Texas counties. On a $320,000 duplex that is nearly $600 a month of the PITIA payment before you touch principal and interest. The mistake that sinks files is underwriting off the seller's current tax bill, which often carries a homestead exemption you will not inherit. Assume reassessment at your purchase price, protest annually, and let the rent-to-price ratio do the heavy lifting by buying in the sub-$250K pockets. Your matched specialist runs the ratio both ways, current bill and post-sale bill, so you see the real number before closing."
+        },
+        {
+          "question": "Can I run a short-term rental in Fort Worth on a DSCR loan?",
+          "answer": "Only if the property sits in a zone where the city allows it, which means mixed-use, commercial, industrial, or certain form-based districts. Residential neighborhoods are off-limits for STRs, registration is mandatory where they are allowed, and a 9% city hotel tax applies. The practical answer for most investors: buy Fort Worth for the long-term lease, because the zoning map removes the Airbnb exit in the neighborhoods where houses actually cash flow. If you do target an eligible address near the Stockyards or downtown, DSCR lenders that accept short-term rental income will want the zoning verified and revenue documented. Your matched specialist structures it either way."
+        },
+        {
+          "question": "Is a duplex or small multifamily a better DSCR play than a house in Fort Worth?",
+          "answer": "Near the Southside medical district, usually yes. Fort Worth still has a real stock of duplexes and fourplexes priced at $150,000 to $175,000 a door, and DSCR lenders finance 2-4 unit properties on the same residential terms as a house. Two $1,400 rents against one $320,000 basis clears the ratio more comfortably than one $2,200 rent against $300,000. The trade is management intensity and older mechanicals. Single-family in Como or Poly leases faster with less turnover cost. Run both through the same DSCR lens and let the numbers pick; your matched specialist can price the two structures side by side."
+        },
+        {
+          "question": "How does investing in Fort Worth from out of state actually work?",
+          "answer": "Smoothly, and it is common: a large share of DFW single-family rentals are owned by non-Texans. A DSCR loan qualifies on the property's rent, closes in your LLC, and Texas permits remote notarization, so the whole transaction happens from your desk. What you cannot outsource is team selection. Get a manager who actually operates east and south Fort Worth rather than a Dallas-first shop, an insurance agent who quotes hail exposure honestly, and a foundation inspector, because Tarrant County clay soil is a known issue. Your matched specialist works your time zone and coordinates the mobile or remote closing."
+        },
+        {
+          "question": "With prices down 2.2%, should I wait for a lower entry in Fort Worth?",
+          "answer": "The ratio matters more than the direction. DSCR qualification is rent divided by payment, and right now rents are nearly flat while prices drift down, so the ratio improves every month you shop, and sellers are paying closing costs and repair credits they refused in 2022. Waiting for a hypothetical bottom means competing with everyone else when it turns. The stronger play is negotiating hard on today's inventory, buying in the sub-median pockets where DSCR already clears 1.0, and refinancing later if pricing improves. Your matched specialist can structure the first loan so a future refinance is cheap to execute."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Fort Worth typical home value and YoY change, June 2026",
+        "Apartments.com/CoStar, Fort Worth house rents and YoY rent change, June 2026",
+        "CoStar metro data, Dallas-Fort Worth rental vacancy, 2026",
+        "Ballard Property Tax, Tarrant County combined 2025 rate",
+        "City of Fort Worth, short-term rental zoning and registration rules, 2026",
+        "Zillow zip-level data, 76104 typical home value, June 2026"
+      ]
+    },
+    {
+      "city": "Houston",
+      "slug": "houston",
+      "county": "Harris County",
+      "metro": "Houston-The Woodlands-Sugar Land",
+      "hook": "Houston's typical home costs about $265K while overall asking rents average $1,900 and single-family rents are still climbing. No zoning, huge inventory, and rent growth. That is the pitch.",
+      "metaDescription": "Houston homes average $265K and asking rents near $1,900 are still rising. See where DSCR rentals cash flow across Harris County. Match with a specialist.",
+      "market": {
+        "medianPrice": 265000,
+        "medianRent": 1950,
+        "priceToRent": 11.3,
+        "vacancyRate": 8.8,
+        "yoyPrice": -2.7,
+        "yoyRent": 2.7,
+        "estDSCR": 0.87,
+        "propertyTaxRate": 2,
+        "insuranceMonthly": 330
+      },
+      "overview": "Houston is the rare big-city market where prices fell while rents rose. The typical home value is about $265,000, down 2.7% year over year, while average asking rent across all property types climbed to roughly $1,900, up close to 3%. For a DSCR borrower, that divergence is the whole game: your denominator shrank and your numerator grew.\n\nThe demand engine is the broadest in Texas. Energy, the Texas Medical Center's 120,000 jobs, the Port of Houston, and a metro adding roughly a hundred thousand people a year keep absorbing rentals. Metro vacancy sits near 8.8%, concentrated in Class A apartments, while workforce single-family houses inside Beltway 8 lease fast. Houston famously has no zoning, so supply responds quickly, which caps appreciation but keeps entry prices low and rent yields among the best of any major US metro.\n\nWhere deals pencil: Acres Homes, Independence Heights, the East End, and Greenspoint-adjacent pockets, where $200,000 to $250,000 buys a house renting for $1,900 to $2,200. Two line items deserve respect. Insurance runs high, roughly $300 to $400 a month on a median house, because of wind and flood exposure, and flood-zone diligence is not optional here. Taxes are the softer surprise: Harris County's combined rate near 2.0% is actually lighter than Dallas or Tarrant. Underwrite both honestly and Houston is the most forgiving DSCR market of the Texas majors.",
+      "regulationBadge": "friendly",
+      "regulationNote": "No zoning, no rent control, and fast evictions keep Houston structurally landlord-friendly; the new 2026 STR registration is a paperwork layer, not a ban, and deed restrictions do the neighborhood-level policing.",
+      "neighborhoods": [
+        {
+          "name": "Acres Homes",
+          "medianPrice": 220000,
+          "medianRent": 2000,
+          "note": "Inside-Beltway land with new-build infill everywhere. Sub-$230K entries against $2,000 rents make it Houston's most reliable DSCR cash-flow pocket."
+        },
+        {
+          "name": "Independence Heights",
+          "medianPrice": 255000,
+          "medianRent": 2150,
+          "note": "One freeway exit from the Heights at a fraction of the basis. New construction rentals here lease to medical and downtown commuters fast."
+        },
+        {
+          "name": "East End / Magnolia Park",
+          "medianPrice": 240000,
+          "medianRent": 2050,
+          "note": "Port jobs plus rail access to downtown. Older bungalows need capex, but rent-to-price ratios hold above 0.85% after renovation."
+        },
+        {
+          "name": "Alief / Westchase edge",
+          "medianPrice": 235000,
+          "medianRent": 2000,
+          "note": "Deep tenant pool off the energy corridor. Fee-simple townhomes with no HOA are the sleeper buy; the ratio clears without dues drag."
+        }
+      ],
+      "localAngle": {
+        "tag": "New 2026 Rule",
+        "title": "Houston finally regulates STRs: registration, not prohibition.",
+        "body": "Houston adopted its first short-term rental ordinance in April 2025, and it took effect January 1, 2026. Every STR inside city limits now needs a $275 annual registration certificate, platforms must list registered units only, and the city can revoke certificates over repeat nuisance issues. There is still no zoning and no cap on how many STRs you can own, which keeps Houston the most permissive big-city STR market in Texas; the real restrictions live in private deed covenants, so read them before you buy. For financing, DSCR lenders will treat a registered Houston STR with a revenue history as documentable income, while unregistered operations are now a compliance red flag. Your matched specialist can structure the file on long-term rent with STR income as upside, or on documented STR revenue where the numbers support it."
+      },
+      "programFit": [
+        "standard-dscr",
+        "str-dscr",
+        "portfolio-dscr",
+        "foreign-national-dscr"
+      ],
+      "dealExample": {
+        "label": "Cash-Out Refinance",
+        "propertyType": "3-bed / 2-bath SFR",
+        "neighborhood": "Acres Homes",
+        "purchasePrice": 240000,
+        "downPaymentPct": 25,
+        "downPayment": 60000,
+        "loanAmount": 180000,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 1258,
+        "monthlyTax": 400,
+        "monthlyInsurance": 300,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 1958,
+        "monthlyRent": 2100,
+        "dscr": 1.07,
+        "monthlyCashFlow": 142,
+        "specialistFocus": [
+          "Structured a 75% LTV cash-out on the appraised value, returning about $60K of trapped equity for the next purchase",
+          "Documented the in-place $2,100 lease plus the appraiser's rent schedule so the ratio cleared with margin",
+          "Pulled the flood determination early and shopped wind coverage to keep insurance near $300 despite Gulf-coast pricing"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "How bad is Houston insurance for a DSCR rental, really?",
+          "answer": "It is the biggest line item surprise for out-of-state buyers. Landlord policies on a median Houston house commonly run $3,500 to $4,500 a year, and more if wind coverage prices badly or the parcel touches a flood zone, versus a national norm closer to $2,000. Since DSCR is rent divided by the full payment including insurance, a $150 monthly premium miss can drop the ratio a full tenth. Protect the file three ways: pull the flood map before you offer, quote at least three Texas carriers, and consider higher wind deductibles priced against the rent. Your matched specialist will want the real quote, not an estimate, before locking the structure."
+        },
+        {
+          "question": "Does Houston's new STR ordinance change how my loan gets underwritten?",
+          "answer": "It changes the paperwork more than the strategy. Since January 1, 2026, every Houston STR needs a $275 annual registration certificate, and platforms can only list registered properties. There is still no zoning and no unit cap, so Houston remains the easiest Texas major for short-term rentals; deed restrictions are the thing that actually bans them street by street. For financing, DSCR lenders that use short-term rental income will now expect the registration plus twelve months of revenue or a credible projection. An unregistered operation reads as compliance risk. Your matched specialist can qualify the property on long-term market rent instead, which keeps the loan durable no matter how you operate it."
+        },
+        {
+          "question": "Where do DSCR lenders see the strongest Houston files in 2026?",
+          "answer": "Inside Beltway 8, in the workforce corridors: Acres Homes, Independence Heights, the East End, Sunnyside's renovated stock, and Alief. Those areas pair $200,000 to $260,000 purchase prices with $1,900 to $2,200 rents, so files routinely clear a 1.0 ratio at 25% down even with Houston insurance. New-build infill is a Houston specialty; lenders like it because appraisals are clean and the first ten years of capex are minimal. What struggles: high-HOA townhome complexes, anything with unresolved flood claims, and luxury rentals west of the Galleria where price outruns rent. Your matched specialist can sanity-check a specific zip's rent comps before you commit."
+        },
+        {
+          "question": "I live abroad. Can I buy a Houston rental without US income documents?",
+          "answer": "Houston is one of the most active foreign-investor rental markets in the country, and the DSCR structure is built for exactly this. Foreign national DSCR programs qualify the loan on the property's rent, not your visa status or US tax returns, typically at 25 to 35% down with an ITIN or passport documentation and closing into a US LLC. Expect reserve requirements of several months' payments and a US bank account for rent collection. Houston's combination of low basis, strong rents, and an international business base makes the math and the logistics work. Your matched specialist can line up lenders who run these files every week."
+        },
+        {
+          "question": "With no zoning, what actually protects my Houston rental's value?",
+          "answer": "Deed restrictions do the work zoning does elsewhere, and they are the first document to read in Houston diligence. Many neighborhoods enforce single-family use, minimum setbacks, even architectural rules through private covenants, and violating them gets you sued by the HOA or neighbors, not just fined. For investors this cuts both ways: restrictions can block an STR or a lot split, but they also protect your street from a scrapyard next door. Title companies pull the restrictions during escrow; read them before your option period ends. On the loan side nothing changes, DSCR lenders underwrite the rent and the payment the same either way."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Houston typical home value and YoY change, June 2026",
+        "Zillow Rental Market Trends, Houston average asking rent and YoY change, July 2026",
+        "Apartments.com/CoStar, Houston house rents, July 2026",
+        "CoStar metro data, Houston rental vacancy, 2026",
+        "City of Houston ARA, STR registration ordinance effective January 1 2026",
+        "Ballard Property Tax, Harris County combined 2025 rate"
+      ]
+    },
+    {
+      "city": "San Antonio",
+      "slug": "san-antonio",
+      "county": "Bexar County",
+      "metro": "San Antonio-New Braunfels",
+      "hook": "San Antonio pairs a $251K typical home with $1,750 house rents and the highest combined tax rate of the big Texas counties. Cheap basis, real rents, one line item to respect.",
+      "metaDescription": "San Antonio homes average $251K with 3-bed rents near $1,750. See how DSCR investors handle Bexar County's 2.27% tax rate. Match with a specialist.",
+      "market": {
+        "medianPrice": 251000,
+        "medianRent": 1750,
+        "priceToRent": 12,
+        "vacancyRate": 9.5,
+        "yoyPrice": -2.1,
+        "yoyRent": -2.1,
+        "estDSCR": 0.83,
+        "propertyTaxRate": 2.27,
+        "insuranceMonthly": 240
+      },
+      "overview": "San Antonio is the cheapest entry among Texas's four big metros. The typical home value sits near $251,000, down 2.1% year over year, and a 3-bed house rents for about $1,750 to $1,800. Median asking rents slipped about 2% as a wave of new apartments hit lease-up, which pushed metro vacancy to roughly 9.5%. That softness is concentrated in Class A towers on the north side; the workforce single-family market that DSCR investors actually buy keeps leasing on schedule.\n\nDemand here is steady rather than spiky: four military installations under Joint Base San Antonio, a top-tier medical complex around the South Texas Medical Center, Toyota's manufacturing plant, USAA, and H-E-B headquarters. Military families arriving on orders rent immediately and pay on time, which is why the pockets near Lackland and Fort Sam Houston carry some of the most dependable occupancy in the state.\n\nThe number to respect is Bexar County's combined property tax rate, about 2.27%, the highest of the major Texas counties. On paper it eats the advantage of the low entry price, which is why the deals that work sit below the median: the East Side, Highland Hills, and the corridors near Lackland, where $180,000 to $220,000 buys $1,600 to $1,800 in rent. Buy the ratio, protest the assessment annually, and San Antonio produces boring, durable cash flow.",
+      "regulationBadge": "friendly",
+      "regulationNote": "San Antonio regulates STRs with a permit system but leaves long-term landlords alone; no rent control, standard Texas eviction timelines, and a city that still approves new construction quickly.",
+      "neighborhoods": [
+        {
+          "name": "East Side / Denver Heights",
+          "medianPrice": 190000,
+          "medianRent": 1650,
+          "note": "Blocks from downtown employment with sub-$200K entries. Renovated stock rents near $1,650, the strongest rent-to-price ratio inside Loop 410."
+        },
+        {
+          "name": "Highland Hills / South Side",
+          "medianPrice": 185000,
+          "medianRent": 1600,
+          "note": "Texas A&M-San Antonio and the Toyota plant anchor south-side demand. Low basis keeps DSCRs above 1.0 at 25% down."
+        },
+        {
+          "name": "Near Lackland / West Side",
+          "medianPrice": 200000,
+          "medianRent": 1700,
+          "note": "BMT graduations and permanent-party families feed year-round rental demand. Managers who know military clauses keep vacancy minimal."
+        },
+        {
+          "name": "Northwest / Medical Center edge",
+          "medianPrice": 258000,
+          "medianRent": 1850,
+          "note": "Nurses and residents rent everything within 15 minutes of the Medical Center. Thinner cash flow, strongest tenant quality and retention."
+        }
+      ],
+      "localAngle": {
+        "tag": "STR Rules",
+        "title": "Type 1 or Type 2: San Antonio's permit system decides your STR plan.",
+        "body": "San Antonio splits short-term rentals into Type 1, owner-occupied, and Type 2, investor-owned, with permits currently priced at $300 and $450 for three-year terms. The catch for investors is density: Type 2 permits in residential districts are capped at a share of units per block face, roughly one in eight, and popular blocks near the Pearl and downtown can be tapped out. Hotel occupancy tax registration is mandatory either way. For DSCR structuring, that means a Type 2 permit in hand is an asset lenders can underwrite around, while a plan to get one someday is not. Your matched specialist will typically qualify the file on long-term market rent unless the permit and revenue history are already documented."
+      },
+      "programFit": [
+        "standard-dscr",
+        "str-dscr",
+        "interest-only-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 2-bath SFR",
+        "neighborhood": "East Side",
+        "purchasePrice": 215000,
+        "downPaymentPct": 25,
+        "downPayment": 53750,
+        "loanAmount": 161250,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 1127,
+        "monthlyTax": 407,
+        "monthlyInsurance": 210,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 1744,
+        "monthlyRent": 1895,
+        "dscr": 1.09,
+        "monthlyCashFlow": 151,
+        "specialistFocus": [
+          "Set the rent schedule at the appraiser's $1,895 market figure, above the seller's stale $1,600 lease from 2023",
+          "Modeled Bexar County taxes at the full 2.27% combined rate on the new assessed value instead of the exemption-lowered bill",
+          "Added a small payment reserve requirement so the file cleared even if first-year taxes reassessed high"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Bexar County taxes are the highest of the big Texas counties. How do deals still work?",
+          "answer": "By buying below the median and never trusting the seller's tax bill. At 2.27% combined, a $215,000 East Side house carries roughly $400 a month in property tax, which is manageable when rent is $1,895 and brutal when you overpaid at $280,000 for the same rent. The working formula in San Antonio is basis under $230,000, rent above 0.85% of price monthly, and an annual protest, because Bexar appraisals move aggressively after sales. DSCR lenders underwrite the post-sale tax number, so your matched specialist will run the ratio on the reassessed figure up front rather than let it surprise the file at closing."
+        },
+        {
+          "question": "Is military tenant demand in San Antonio actually a financing advantage?",
+          "answer": "Yes, in a way lenders can see. Joint Base San Antonio moves tens of thousands of service members and families through Lackland, Fort Sam Houston, and Randolph, and those households rent immediately on arrival with BAH covering the payment. For your DSCR file that shows up as strong appraisal rent comps, short days-on-market for leasing, and low economic vacancy in the west and northeast corridors. Two practicalities: use a manager fluent in the Servicemembers Civil Relief Act, since PCS orders allow early lease termination, and price at BAH bands. The demand is durable; structure the lease terms for it and the cash flow is some of the steadiest in Texas."
+        },
+        {
+          "question": "Can I get a DSCR loan for a San Antonio Airbnb near downtown or the Pearl?",
+          "answer": "You can, but the permit comes first. San Antonio requires an STR permit, Type 2 for non-owner-occupied, and residential blocks are subject to a density cap of roughly one in eight units per block face, so the exact address determines feasibility. If the block is at its cap, no amount of projected nightly revenue fixes it. Where the permit exists with a revenue history, some DSCR lenders will underwrite documented short-term income; without it, files qualify on long-term market rent, which near downtown often still pencils. Your matched specialist will check permit status early so you are not underwriting income the city will not allow."
+        },
+        {
+          "question": "Which San Antonio property types clear DSCR ratios most easily right now?",
+          "answer": "Plain 3-bed, 2-bath single-family houses between roughly $180,000 and $240,000, especially East Side, South Side, and near-Lackland stock, where rents of $1,600 to $1,900 clear the payment at 25% down. Small multifamily on the near-East Side also works when both units are at market. What struggles: new-build far-north suburbs where $320,000 prices meet $2,000 rents, and condos with dues that eat 15% of gross. San Antonio's new-supply wave means Class A landlords are offering concessions, so keep your rental's rent expectations honest. The appraisal rent schedule, not the listing's hopeful number, is what your matched specialist can pre-check with local comps."
+        },
+        {
+          "question": "I am buying in San Antonio from California. What is different here?",
+          "answer": "The direction of every number. Your entry price divides by three, the tenant pool is military and medical rather than tech, and the closing process is title-company driven with remote notarization, so you never need to fly in. Two Texas-specific adjustments: property tax replaces income tax as the state's revenue engine, so the 2.27% Bexar rate is real and permanent, and insurance quotes vary widely between carriers, so shop three. DSCR loans close in an LLC with qualification on the property's rent, not your W-2. Build a local bench of manager, insurance agent, and inspector, and your matched specialist coordinates the rest around your time zone."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, San Antonio typical home value and YoY change, June 2026",
+        "Zumper Rent Report, San Antonio median rent and YoY change, July 2026",
+        "Apartments.com/CoStar, San Antonio house rents, July 2026",
+        "CoStar metro data, San Antonio rental vacancy, 2026",
+        "Ballard Property Tax, Bexar County combined 2025 rate",
+        "City of San Antonio DSD, STR Type 1/Type 2 permit fees and rules, 2026"
+      ]
+    },
+    {
+      "city": "Austin",
+      "slug": "austin",
+      "county": "Travis County",
+      "metro": "Austin-Round Rock-San Marcos",
+      "hook": "Austin home values are down 5% on the year to about $508K, the deepest reset of any big Texas market, and rents fell with them. This is a basis game now, not a cash-flow game.",
+      "metaDescription": "Austin values fell 5% to about $508K and rents are still resetting. See how DSCR buyers structure deals that pencil anyway. Match with a specialist.",
+      "market": {
+        "medianPrice": 508000,
+        "medianRent": 2500,
+        "priceToRent": 16.9,
+        "vacancyRate": 9.7,
+        "yoyPrice": -5,
+        "yoyRent": -5.9,
+        "estDSCR": 0.62,
+        "propertyTaxRate": 2,
+        "insuranceMonthly": 340
+      },
+      "overview": "Austin is the correction story of American housing. The typical city home value is about $508,000, down 5% in a year and roughly a quarter below the 2022 peak, while a historic apartment construction boom drove metro rents down close to 6% and vacancy to about 9.7%, the highest of the Texas majors. A 3-bed house still rents for roughly $2,500 to $2,800, but at the citywide median the DSCR math simply does not clear on a standard 20%-down file. Pretending otherwise is how investors got hurt here in 2023.\n\nWhat still works is structure and selection. The employment base never left: Samsung's $17B fab in nearby Taylor, Tesla's gigafactory, Apple's second-largest campus, Oracle, and the University of Texas's 53,000 students. Population growth continues; it is supply that overshot demand, and new deliveries fall off a cliff into 2027.\n\nWhere deals pencil: southeast Austin's Dove Springs and Riverside corridors, Rundberg in the north, and Manor-adjacent pockets, where $350,000 to $400,000 buys rents of $2,400 to $2,700. Buyers pair those with 30% down or interest-only structures to clear the ratio, or accept a sub-1.0 file through a no-ratio program priced for it. Travis County's roughly 2% combined tax rate is milder than Dallas or Bexar, a quiet advantage. Austin in 2026 is where patient investors buy the dip with financing built for it.",
+      "regulationBadge": "friendly",
+      "regulationNote": "Austin is the most regulated of the Texas majors, mostly on the STR side after its 2025 licensing overhaul, but Texas law still blocks rent control and long-term landlords face standard state rules.",
+      "neighborhoods": [
+        {
+          "name": "Dove Springs / Southeast Austin",
+          "medianPrice": 365000,
+          "medianRent": 2450,
+          "note": "The last sub-$400K corridor inside the city with Tesla commuters as tenants. This is where Austin DSCR files come closest to 1.0."
+        },
+        {
+          "name": "Riverside / Montopolis",
+          "medianPrice": 390000,
+          "medianRent": 2550,
+          "note": "Ten minutes to downtown and the airport, heavy student and service-industry demand. Older duplex stock rewards buyers who can renovate."
+        },
+        {
+          "name": "Rundberg / North Lamar",
+          "medianPrice": 364000,
+          "medianRent": 2400,
+          "note": "North Austin values fell 7% on the year, the steepest discount in the city. Buy the reset, rent to the Domain's workforce."
+        },
+        {
+          "name": "Manor / far East MSA edge",
+          "medianPrice": 330000,
+          "medianRent": 2250,
+          "note": "New-build rentals with Samsung's Taylor fab up the road. Softer rents now, but the lowest basis in the metro for a 2020s-built house."
+        }
+      ],
+      "localAngle": {
+        "tag": "STR Rules",
+        "title": "Austin rewired its STR rules. Licensed operators just got a moat.",
+        "body": "Austin overhauled short-term rental licensing across 2024-2025: licenses now run two years, an operator can hold up to two STR units on a single-family site with additional properties spaced 1,000 feet apart, multifamily buildings cap STRs around 10% of units, and platform enforcement began July 1, 2026, meaning Airbnb and Vrbo must delist anyone without a valid license number. New licenses cost about $836 with roughly $385 renewals, and unlicensed operation risks fines up to $2,000 a day plus removal from every platform. For investors this professionalized the market: casual operators are exiting, licensed inventory got scarcer, and documented STR revenue became more defensible in underwriting. Your matched specialist can structure the file on long-term rent or, with license and revenue history in hand, on short-term income where a lender's program allows it."
+      },
+      "programFit": [
+        "interest-only-dscr",
+        "standard-dscr",
+        "no-ratio-dscr",
+        "str-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 2-bath SFR",
+        "neighborhood": "Dove Springs",
+        "purchasePrice": 385000,
+        "downPaymentPct": 30,
+        "downPayment": 115500,
+        "loanAmount": 269500,
+        "loanType": "30-Year Fixed (10-Year Interest-Only)",
+        "interestOnly": true,
+        "monthlyPI": 1684,
+        "monthlyTax": 642,
+        "monthlyInsurance": 300,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 2626,
+        "monthlyRent": 2650,
+        "dscr": 1.01,
+        "monthlyCashFlow": 24,
+        "specialistFocus": [
+          "Structured a 10-year interest-only period so the ratio cleared 1.0 on a market where amortizing payments do not",
+          "Sized the down payment at 30% after modeling three rent scenarios against the payment, not one hopeful number",
+          "Negotiated a seller credit toward closing costs and finalized the structure only after the appraisal rent schedule confirmed $2,650"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Can a DSCR deal really pencil in Austin at today's prices?",
+          "answer": "At the citywide median with 20% down and a standard amortizing payment, usually not, and an honest specialist will say so. Austin deals clear in 2026 through some combination of below-median basis in the southeast and north corridors, 30% or more down, an interest-only period that cuts the qualifying payment, or a no-ratio program priced for sub-1.0 files. The reward for that structure is buying a supply-constrained-by-2027 market at a 25% discount to peak. Your matched specialist's job here is exactly this: running the structures side by side until one produces a durable payment, instead of forcing a thin file through."
+        },
+        {
+          "question": "How do Austin's new STR license rules affect an investor purchase?",
+          "answer": "They raise the bar and the payoff together. Since the 2025 overhaul, non-owner-occupied STRs need a city license, additional properties must sit 1,000 feet apart, multifamily caps STRs near 10% of units, and as of July 1, 2026 platforms must delist unlicensed homes. That pushed casual hosts out and made a licensed, revenue-documented STR a scarcer asset. If you are buying an existing licensed operation, the license status and hotel tax history become part of diligence, and some DSCR lenders will underwrite the documented revenue. If you are buying unlicensed, model the property on long-term rent and treat any future license as upside. Your matched specialist structures for whichever income the file can prove."
+        },
+        {
+          "question": "Rents fell almost 6% in Austin. Why would I buy a rental here now?",
+          "answer": "Because the cause is temporary and priced in. Austin permitted more apartments per capita than any large US metro, deliveries peaked, and rents absorbed the hit while the metro kept adding jobs and people, Samsung, Tesla, and UT are not leaving. New construction starts collapsed, which means the supply wave ends and 2027-forward rent growth gets projected by most research shops. Buying now means acquiring at a 25% discount to peak values with rents near their floor, then refinancing if conditions improve. The discipline: underwrite today's actual rent comps, not recovery hopes, and let any rent growth be margin. That is the posture DSCR lenders reward with better structures."
+        },
+        {
+          "question": "Is Travis County's property tax as painful as the rest of Texas?",
+          "answer": "Slightly less, which surprises people. The combined Travis County rate lands near 2%, below Dallas County's 2.22% and Bexar's 2.27%, though the dollar amounts are larger because Austin prices are. On a $385,000 rental that is still roughly $640 a month, so the tax line remains the second-biggest number in the payment. Standard Texas rules apply: no homestead exemption for investors, reassessment follows the sale, and annual protests are worth the effort, especially now, since falling values give you comps to argue with. Your matched specialist underwrites the post-sale figure so the DSCR you qualify at is the DSCR you actually live with."
+        },
+        {
+          "question": "What should an out-of-state investor know about buying in Austin specifically?",
+          "answer": "Austin punishes tourists and pays professionals. The gap between submarkets is wider than in any other Texas city: a Dove Springs 3/2 and a Tarrytown bungalow are different asset classes, and paying north-central prices for southeast rents is the classic out-of-state error. Work rent comps to the street level, use a manager who leases in the exact corridor, and remember tenants here comparison-shop hard against new apartments offering two months free. Logistics are easy, LLC closings and remote notarization are routine. The structural work, interest-only periods, larger down payments, seller credits, is where your matched specialist earns their role in this market."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Austin typical home value and YoY change, June 2026",
+        "Apartments.com/CoStar, Austin house rents, July 2026",
+        "CoStar metro data, Austin rental vacancy and rent change, 2026",
+        "City of Austin Development Services, STR licensing rules and July 2026 platform enforcement",
+        "Ballard Property Tax, Travis County combined 2025 rate",
+        "Zillow neighborhood data, North Austin typical home value, June 2026"
+      ]
+    },
+    {
+      "city": "El Paso",
+      "slug": "el-paso",
+      "county": "El Paso County",
+      "metro": "El Paso",
+      "hook": "El Paso is the only big Texas city where prices rose this year, up 1.7% to about $238K, and rents climbed with them. Fort Bliss plus border trade equals the steadiest demand in the state.",
+      "metaDescription": "El Paso home values rose 1.7% to about $238K while rents keep climbing. See why DSCR investors like this Fort Bliss market. Match with a specialist.",
+      "market": {
+        "medianPrice": 238000,
+        "medianRent": 1650,
+        "priceToRent": 12,
+        "vacancyRate": 7.1,
+        "yoyPrice": 1.7,
+        "yoyRent": 2.2,
+        "estDSCR": 0.83,
+        "propertyTaxRate": 2.5,
+        "insuranceMonthly": 170
+      },
+      "overview": "While the rest of urban Texas corrected, El Paso went up. The typical home value is about $238,000, up 1.7% year over year, and rents rose around 2% on top of it, with a 3-bed house leasing near $1,650. Rental vacancy runs about 7%, the tightest of the twelve markets on this site, because El Paso never overbuilt during the boom. It is the most counter-cyclical major market in Texas.\n\nDemand is anchored by Fort Bliss, one of the Army's largest installations, whose soldiers and families arrive on orders with housing allowances and rent immediately. Layer on UTEP's 24,000 students, the medical corridor, and the Santa Teresa and border-trade logistics build-out, and you get a tenant pool that does not swing with tech cycles. Insurance is the quiet gift: no hurricanes and less hail than the I-35 corridor means landlord premiums often run half of what Houston or Dallas investors pay.\n\nThe catch is the tax line. El Paso carries one of the highest combined property tax rates in Texas, roughly 2.5% once city, county, EPISD, and the hospital district stack up. On a $238,000 house that is nearly $500 a month, which is why the working deals sit in the $170,000 to $215,000 band on the East Side, Northeast near the base, and the Lower Valley, where rents of $1,500 to $1,800 carry the payment. Cheap entry, rising rents, disciplined tax underwriting: that is the El Paso playbook.",
+      "regulationBadge": "friendly",
+      "regulationNote": "El Paso has no STR permit regime yet, just hotel occupancy tax collection, and long-term landlords operate under plain Texas law; it is one of the lightest regulatory footprints of any big US border city.",
+      "neighborhoods": [
+        {
+          "name": "East Side / Pebble Hills",
+          "medianPrice": 210000,
+          "medianRent": 1650,
+          "note": "The volume submarket: 1980s-2000s 3/2s that lease fast to Fort Bliss and medical families. The default El Paso DSCR buy."
+        },
+        {
+          "name": "Northeast El Paso",
+          "medianPrice": 185000,
+          "medianRent": 1550,
+          "note": "Closest gate to Fort Bliss. Sub-$190K entries with BAH-backed tenant demand keep ratios comfortably above 1.0."
+        },
+        {
+          "name": "Lower Valley / Mission Valley",
+          "medianPrice": 175000,
+          "medianRent": 1450,
+          "note": "The cheapest basis in the city with border-trade workers as the tenant base. Older stock, so budget mechanical updates."
+        },
+        {
+          "name": "West Side / Upper Valley edge",
+          "medianPrice": 290000,
+          "medianRent": 1950,
+          "note": "UTEP and professional tenants, strongest appreciation profile. Thinner cash flow; buyers here are playing equity, not yield."
+        }
+      ],
+      "localAngle": {
+        "tag": "Tax Math",
+        "title": "A 2.5% tax rate on a cheap house still pencils. Here is the catch.",
+        "body": "El Paso's stacked levies, city, county, school district, hospital district, and community college, push the combined property tax rate near 2.5%, among the highest in Texas even after the state's recent compression. The saving grace is the base it applies to: 2.5% of a $190,000 Northeast rental is about $396 a month, very coverable by a $1,550 BAH-backed rent, while the same rate on a $400,000 house would wreck the file. That is why El Paso DSCR deals cluster hard in the $170,000 to $215,000 band and why the annual protest is not optional here. DSCR lenders underwrite the post-sale reassessed number, so your matched specialist will model the tax line at your actual purchase price and pick the structure, standard or interest-only, that keeps the ratio above 1.0 after it."
+      },
+      "programFit": [
+        "standard-dscr",
+        "portfolio-dscr",
+        "foreign-national-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 2-bath SFR",
+        "neighborhood": "East Side",
+        "purchasePrice": 205000,
+        "downPaymentPct": 25,
+        "downPayment": 51250,
+        "loanAmount": 153750,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 1075,
+        "monthlyTax": 427,
+        "monthlyInsurance": 145,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 1647,
+        "monthlyRent": 1750,
+        "dscr": 1.06,
+        "monthlyCashFlow": 103,
+        "specialistFocus": [
+          "Priced the file against the appraiser's $1,750 rent schedule, matching current East Side BAH bands",
+          "Modeled El Paso's full 2.5% combined tax rate on the purchase price rather than the seller's exempted bill",
+          "Used the low desert insurance quote, $145 a month, as ratio margin instead of spending it on a thinner deal"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "How does Fort Bliss actually show up in an El Paso DSCR file?",
+          "answer": "As rent stability a lender can see in the comps. Fort Bliss cycles tens of thousands of soldiers and families through El Paso, they arrive with orders and a housing allowance, and they lease existing homes near the base within days. For your file that means the appraiser's rent schedule in the Northeast and East Side comes back strong and consistent, days-on-market for leasing is short, and economic vacancy stays low. Operationally, use a manager fluent in military clauses, since PCS orders allow early termination under federal law, and price at the local BAH bands. The demand is as close to programmatic as residential rentals get."
+        },
+        {
+          "question": "El Paso's tax rate is near 2.5%. Does that kill the cash flow?",
+          "answer": "It compresses it, and the market has already priced that in, which is why entry prices stay low. At 2.5%, a $205,000 East Side rental carries roughly $427 a month in property tax, about a quarter of a $1,750 rent. The math survives because the other lines are small: insurance often runs under $150 a month in the desert, there is no flood zone drama, and HOAs are rare in the core submarkets. Underwrite the reassessed value, protest annually, and avoid stretching into $300,000+ stock where the same rate consumes the ratio. Your matched specialist runs the full PITIA honestly before you write the offer."
+        },
+        {
+          "question": "Is El Paso a good market for a first out-of-state rental?",
+          "answer": "It is one of the most forgiving. Entry prices under $220,000 keep the absolute check size small, the tenant base is military and healthcare rather than boom-industry, vacancy near 7% is the tightest of the big Texas markets, and the city never overbuilt, so you are not competing with lease-up concessions. The trade-offs are honest ones: appreciation historically runs modest, and the tax rate demands discipline. Closings work remotely through Texas title companies, DSCR loans qualify on the property's rent and close in an LLC, and your matched specialist can coordinate the whole file without you leaving home."
+        },
+        {
+          "question": "Can I run a short-term rental in El Paso, and will lenders count the income?",
+          "answer": "Operationally yes: El Paso has no STR permit or zoning regime today, the city simply collects hotel occupancy tax on short-term stays, making it one of the lightest-touch big cities in Texas. The financing answer is more conservative. El Paso's STR market is thinner than tourist coastlines, so most DSCR lenders qualify files here on long-term market rent, and nightly-rate income needs a documented track record before certain programs will use it. The practical structure: buy where the long-term lease already covers the payment, run mid-term furnished rentals to traveling nurses or contractors if you want the premium, and let your matched specialist match the documentation to the right program."
+        },
+        {
+          "question": "Which El Paso submarkets and property types fit DSCR lending best?",
+          "answer": "The 3-bed, 2-bath single-family house between $170,000 and $215,000 is the core asset. East Side stock from the 1980s onward appraises cleanly and leases to Fort Bliss and medical tenants at $1,550 to $1,800; Northeast El Paso trades cheaper with the same tenant engine; the Lower Valley is the yield play with older bones. Files there routinely clear 1.05 or better at 25% down. What to avoid: stretching to the West Side at $290,000+ where rents do not keep pace, and rare HOA-heavy communities that drag the ratio. Portfolio DSCR loans work well here since many investors accumulate three or four cheap doors quickly."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, El Paso typical home value and YoY change, June 2026",
+        "Realtor.com, El Paso single-family median rental price, July 2026",
+        "RentCafe/Apartments.com, El Paso apartment rent YoY change, 2026",
+        "HUD Housing Market Analysis, El Paso rental vacancy, 2025",
+        "SmartAsset/El Paso County levies, combined property tax rate, 2025",
+        "City of El Paso, hotel occupancy tax collection on STRs"
+      ]
+    },
+    {
+      "city": "Corpus Christi",
+      "slug": "corpus-christi",
+      "county": "Nueces County",
+      "metro": "Corpus Christi",
+      "hook": "Corpus Christi holds a $227K typical home against $1,850 house rents, with billions in port and LNG construction feeding tenant demand. The insurance line is the whole underwriting battle here.",
+      "metaDescription": "Corpus Christi homes average $227K with house rents near $1,850 and port jobs booming. See how DSCR files handle coastal insurance. Match with a specialist.",
+      "market": {
+        "medianPrice": 227000,
+        "medianRent": 1850,
+        "priceToRent": 10.2,
+        "vacancyRate": 13,
+        "yoyPrice": -0.3,
+        "yoyRent": 0.3,
+        "estDSCR": 0.88,
+        "propertyTaxRate": 2.3,
+        "insuranceMonthly": 400
+      },
+      "overview": "Corpus Christi is an industrial cash-flow market wearing a beach town's clothes. The typical home value is about $227,000, essentially flat on the year, and a 3-bed house rents near $1,850. What is not flat is the economy underneath: the Port of Corpus Christi is the nation's largest crude export gateway, and tens of billions of dollars of LNG, hydrogen, and desalination construction along the ship channel keep filling rentals with well-paid project workers and permanent operators.\n\nThe two numbers that decide every file here are insurance and vacancy. Windstorm exposure means a landlord policy plus TWIA wind coverage commonly runs $4,000 to $5,500 a year on a median house, several times an inland premium, and DSCR lenders count every dollar of it in the payment. Apartment vacancy has also run high, around 13% after a supply wave, though single-family rentals in commuter neighborhoods lease much tighter than that headline.\n\nWhere deals pencil: Calallen and Annaville school-district stock in the $230,000s renting near $2,000, central-city workforce houses in the $180,000s renting in the high $1,700s, and Flour Bluff's proximity to NAS Corpus Christi and the island. Nueces County's combined tax rate near 2.3% stacks on top of the insurance, so the winning formula is simple and strict: buy below $250,000, verify the wind quote before the option period ends, and let the port economy carry the lease.",
+      "regulationBadge": "friendly",
+      "regulationNote": "Corpus Christi registers STRs citywide but allows them in most zoning, including single-family districts outside North Padre Island; long-term landlords face nothing beyond standard Texas rules.",
+      "neighborhoods": [
+        {
+          "name": "Calallen / Annaville",
+          "medianPrice": 250000,
+          "medianRent": 2050,
+          "note": "The school-district submarket where refinery and port families settle. Reliable $2,000+ rents make it the cleanest DSCR file in the city."
+        },
+        {
+          "name": "Central City / Lindale",
+          "medianPrice": 185000,
+          "medianRent": 1795,
+          "note": "The yield pocket: sub-$190K houses renting near $1,800 to hospital and port workers. Older roofs, so get the wind quote early."
+        },
+        {
+          "name": "South Side",
+          "medianPrice": 267000,
+          "medianRent": 2100,
+          "note": "Newer stock near the medical corridor and Del Mar's south campus. Thinner ratio, easier ownership, strong tenant quality."
+        },
+        {
+          "name": "Flour Bluff",
+          "medianPrice": 230000,
+          "medianRent": 1950,
+          "note": "Between the naval air station and the island bridge. Long-term rentals lease to base personnel; STR permits here are limited to multifamily and commercial zones."
+        }
+      ],
+      "localAngle": {
+        "tag": "Insurance Math",
+        "title": "TWIA wind coverage is the real gatekeeper on Coastal Bend deals.",
+        "body": "Corpus Christi sits in TWIA's first tier, so most rentals carry a standard landlord policy plus separate windstorm coverage through the Texas Windstorm Insurance Association or a surplus-lines carrier. Budget $4,000 to $5,500 a year all-in on a median house, more near the water or on older roofs, and know that TWIA requires a WPI-8 certificate for renovations to stay eligible. This is not a reason to skip the market; it is the reason entry prices stay low while port-driven rents stay firm. It does mean the insurance quote belongs at the front of diligence, not the end: a $150-a-month premium surprise moves a DSCR ratio by a tenth. Your matched specialist will want the bound quote in hand before structuring, and DSCR lenders will verify wind coverage at closing."
+      },
+      "programFit": [
+        "standard-dscr",
+        "str-dscr",
+        "interest-only-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 2-bath SFR",
+        "neighborhood": "Central City",
+        "purchasePrice": 185000,
+        "downPaymentPct": 25,
+        "downPayment": 46250,
+        "loanAmount": 138750,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 970,
+        "monthlyTax": 355,
+        "monthlyInsurance": 350,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 1675,
+        "monthlyRent": 1795,
+        "dscr": 1.07,
+        "monthlyCashFlow": 120,
+        "specialistFocus": [
+          "Ordered the TWIA windstorm quote during the option period and negotiated a roof credit off the inspection to hold coverage at $350 a month",
+          "Qualified on the appraiser's $1,795 rent schedule supported by port-worker lease comps",
+          "Kept the basis under $190K so Nueces County's 2.3% tax rate plus wind coverage still cleared the ratio at 25% down"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "How much should I really budget for insurance on a Corpus Christi rental?",
+          "answer": "Plan on $4,000 to $5,500 a year for a median-priced house, split between a landlord policy and windstorm coverage through TWIA or a surplus carrier, and more if the roof is older or the address sits close to the bay. That is three times what an inland Texas investor pays, and DSCR lenders count all of it in the qualifying payment. Three moves protect the file: get the wind quote during your option period, use roof age as a negotiating lever, and keep certificates current after any renovation so TWIA eligibility holds. Your matched specialist will structure around the bound quote, not a guess."
+        },
+        {
+          "question": "Can I get a DSCR loan for a short-term rental near the beach in Corpus Christi?",
+          "answer": "Yes, with geography doing the deciding. Corpus Christi requires STR registration citywide, and short-term rentals are allowed in most zoning, including single-family neighborhoods, except on North Padre Island, where single-family zones are closed to them and permits run through multifamily and commercial districts. Flour Bluff and island-adjacent condos are where the STR files concentrate, and lenders that use short-term income will want the registration, hotel tax filings, and a revenue history or credible projection. Wind and flood insurance on coastal STR product is the ratio-killer to model first. Where the numbers get thin, your matched specialist can qualify the property on long-term rent instead."
+        },
+        {
+          "question": "Apartment vacancy in Corpus Christi is around 13%. Should that scare me off houses?",
+          "answer": "It should inform pricing, not veto the market. The 13% figure is the apartment market absorbing a supply wave, concentrated in new complexes competing on concessions. Single-family rentals in Calallen, Annaville, and the central city run materially tighter because families working port, refinery, and hospital jobs want yards and school districts, not lease-up specials. What the headline number does mean: set asking rents at the comps, expect two to three weeks of marketing time, and do not underwrite aggressive annual rent bumps. DSCR lenders use the appraiser's market rent, which already reflects the competitive set, so a realistic rent number keeps the file durable."
+        },
+        {
+          "question": "What does the port build-out actually mean for rental demand?",
+          "answer": "It is the difference between a beach town and a jobs market. The Port of Corpus Christi leads the nation in crude exports, and the ship channel corridor is carrying multi-billion-dollar LNG, hydrogen, and desalination projects through the late 2020s. Construction phases bring thousands of traveling workers who rent furnished mid-term housing at premiums; operations phases convert to permanent, well-paid staff who lease family houses long term. For an investor that supports two strategies from the same asset: standard leases in commuter neighborhoods, or furnished 3-6 month rentals aimed at project crews. Your matched specialist can structure the loan on the long-term rent so the mid-term premium stays pure upside."
+        },
+        {
+          "question": "How do Nueces County taxes interact with the DSCR ratio here?",
+          "answer": "They stack on top of the insurance, which is why basis discipline matters more in Corpus Christi than almost anywhere in Texas. The combined levy runs near 2.3% once city, county, school district, and the college district add up, roughly $355 a month on a $185,000 rental. Add $350 of wind-inclusive insurance and you have $700 of monthly carry before principal and interest, against a $1,795 rent. The file still clears at 25% down because the purchase price is low; the identical structure at $280,000 would fail. Underwrite the reassessed value, protest annually, and your matched specialist will pressure-test the ratio with both coastal line items at full weight."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Corpus Christi typical home value and YoY change, June 2026",
+        "Homes.com, Corpus Christi 3-bed house median rent, July 2026",
+        "Apartments.com/CoStar, Corpus Christi rents and YoY change, July 2026",
+        "CoStar, Corpus Christi apartment vacancy, 2026",
+        "City of Corpus Christi, STR registration and North Padre Island zoning rules",
+        "SmartAsset/Nueces County levies, combined property tax rate, 2025"
+      ]
+    },
+    {
+      "city": "Lubbock",
+      "slug": "lubbock",
+      "county": "Lubbock County",
+      "metro": "Lubbock",
+      "hook": "Lubbock's typical home costs about $213K, values rose 1.7% while big-metro Texas fell, and Texas Tech just crossed 42,000 students. Cheap doors, captive tenants, boring math that works.",
+      "metaDescription": "Lubbock homes average $213K, up 1.7%, with Texas Tech's 42,000 students anchoring rents. See where DSCR rentals pencil. Match with a specialist.",
+      "market": {
+        "medianPrice": 213000,
+        "medianRent": 1450,
+        "priceToRent": 12.2,
+        "vacancyRate": 9.5,
+        "yoyPrice": 1.7,
+        "yoyRent": 1.5,
+        "estDSCR": 0.8,
+        "propertyTaxRate": 2,
+        "insuranceMonthly": 260
+      },
+      "overview": "Lubbock is the definition of a yield market. The typical home value is about $213,000, up 1.7% over the past year while every big Texas metro fell, and homes go pending in around 23 days, faster than Dallas or Austin. A 3-bed house rents for roughly $1,450 to $1,550, and the tenant base is about as recession-resistant as Texas offers: Texas Tech University crossed 42,000 students in fall 2025, its fourth straight record, alongside a major medical hub, Covenant and UMC health systems, and the agricultural economy of the South Plains.\n\nStudent demand shapes the playbook. Houses within two miles of campus, the Tech Terrace fringe, Maxey Park, and the North of 34th corridors, rent by the bedroom to student groups at premiums to family leases, with parent guarantees standard. Pre-leasing runs January through April for August move-ins, so vacancy is a calendar problem, not a demand problem: miss the cycle and you wait a semester, hit it and you run at effectively full occupancy.\n\nThe numbers underneath are friendly. Lubbock County's combined tax rate lands near 2%, softer than the big metros, and while hail drives insurance to roughly $250 to $280 a month on a median house, there is no wind-pool or flood-zone drama. Deals pencil across the city: $150,000 to $190,000 near-campus stock renting at $1,400 to $1,700, and newer southwest builds in the low $200,000s for investors who prefer family tenants and less turnover.",
+      "regulationBadge": "friendly",
+      "regulationNote": "Lubbock has no STR permit regime and no rental licensing at all; between plain Texas landlord law and a growth-friendly city hall, it is about as light-touch as US mid-size cities get.",
+      "neighborhoods": [
+        {
+          "name": "Near Tech / North of 34th",
+          "medianPrice": 165000,
+          "medianRent": 1550,
+          "note": "The by-the-bedroom student belt. Three students at $525 a room beats the family-lease comp, and parent guarantees cover the credit risk."
+        },
+        {
+          "name": "Maxey Park / Medical District",
+          "medianPrice": 180000,
+          "medianRent": 1500,
+          "note": "Nurses, residents, and grad students within minutes of both hospital systems. Steadier turnover profile than the pure student blocks."
+        },
+        {
+          "name": "South Lubbock (79423 corridor)",
+          "medianPrice": 237000,
+          "medianRent": 1700,
+          "note": "Newer family stock in Lubbock-Cooper ISD, up 2.2% on the year. Lower yield, lowest headache; leases renew for years."
+        },
+        {
+          "name": "Southwest / Frenship edge",
+          "medianPrice": 215000,
+          "medianRent": 1600,
+          "note": "The growth quadrant where new builds still price near $200K. Buy here for tenant quality and appreciation with an acceptable ratio."
+        }
+      ],
+      "localAngle": {
+        "tag": "Student Rentals",
+        "title": "42,000 Red Raiders set the rent floor. Structure for the pre-lease calendar.",
+        "body": "Texas Tech's enrollment hit 42,272 in fall 2025, the fourth consecutive record, and on-campus housing cannot absorb it, which guarantees an annual scramble for houses within biking distance. Near-campus operators rent by the bedroom, commonly $475 to $600 per room, with 12-month leases signed in spring and parent guarantees attached, pushing a $165,000 house to $1,500 or more in collected rent. DSCR underwriting note: lenders qualify on the appraiser's whole-house market rent, not the summed room rates, so the by-the-bedroom premium becomes margin above the qualifying number rather than the number itself. That conservatism is your friend. Your matched specialist will structure the file on the lease-comp figure and time the closing so you catch, rather than miss, the August move-in cycle."
+      },
+      "programFit": [
+        "standard-dscr",
+        "portfolio-dscr",
+        "bridge-to-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 2-bath SFR",
+        "neighborhood": "Near Tech",
+        "purchasePrice": 185000,
+        "downPaymentPct": 20,
+        "downPayment": 37000,
+        "loanAmount": 148000,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 1035,
+        "monthlyTax": 308,
+        "monthlyInsurance": 240,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 1583,
+        "monthlyRent": 1650,
+        "dscr": 1.04,
+        "monthlyCashFlow": 67,
+        "specialistFocus": [
+          "Qualified on the appraiser's $1,650 whole-house rent while the operator's by-the-bedroom plan collects closer to $1,725",
+          "Timed closing for late spring so the property caught the August pre-lease cycle instead of sitting a semester",
+          "Shopped hail-belt insurance and took a percentage wind-hail deductible to hold the premium near $240"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "How do DSCR lenders treat by-the-bedroom student rents in Lubbock?",
+          "answer": "Conservatively, and it works in your favor. The appraiser completes a market rent schedule for the whole house, say $1,650 for a 3/2 near campus, and that is the number the ratio is built on. If your operating plan collects $1,725 by renting three bedrooms at $575 with parent guarantees, the extra income is cushion above the qualifying rent, not a number you must defend. The house should pencil on the boring family-lease figure first; the student premium then raises your real-world DSCR above the underwritten one. Your matched specialist will also confirm the lender has no occupancy-type overlays before structuring the file."
+        },
+        {
+          "question": "What happens to my rental if I miss the Texas Tech leasing cycle?",
+          "answer": "You learn the most expensive lesson in Lubbock investing: the calendar is the vacancy risk. Student houses pre-lease January through April for August possession, and a near-campus property that is not signed by May often sits until the spring semester or takes a discounted 6-month lease. Protect yourself three ways: close in late winter or spring so you market into the cycle, write leases that end in July, never December, and keep the property attractive to the fallback tenant pool, medical workers and young professionals, who rent year-round. The demand itself is not in question with enrollment at record highs; timing is the whole game."
+        },
+        {
+          "question": "Is Lubbock's property tax situation better than the big Texas metros?",
+          "answer": "Meaningfully. The combined rate in Lubbock runs near 2%, versus roughly 2.2% in Dallas and Tarrant and 2.27% in Bexar, and it applies to a much smaller base: about $308 a month on a $185,000 near-campus rental. Standard investor rules still apply, no homestead exemption, reassessment after purchase, and an annual protest that is worth the hour it takes. The lighter tax line is a real reason files here clear 1.0 at just 20% down while big-metro deals need 25% or structure. Your matched specialist will underwrite the reassessed number so the qualifying DSCR matches the one you will actually live with."
+        },
+        {
+          "question": "Does out-of-state ownership work in a hands-on market like student rentals?",
+          "answer": "Yes, if you buy the manager before the house. Lubbock has several property managers who specialize in Tech student rentals, run the pre-lease marketing calendar, collect parent guarantees, and handle August turn weeks with crews. With one of them at 8 to 10% of collections, remote ownership is routine; without one, the turn cycle will eat you from a thousand miles away. The transaction itself is easy, LLC closing, remote notarization, DSCR qualification on the property's rent rather than your income. Interview managers first, verify their summer turn process, and your matched specialist coordinates the loan around the team you pick."
+        },
+        {
+          "question": "Which Lubbock submarkets fit which investor profile?",
+          "answer": "Pick your tenant, then your zip. Yield hunters buy the student belt, roughly $150,000 to $190,000 north of 34th and around Maxey Park, where by-the-bedroom collections push gross yields past 10% in exchange for annual turns. Stability buyers go south: the 79423 corridor and southwest new-builds in Lubbock-Cooper and Frenship school zones rent to families near $1,700 with multi-year renewals and minimal management. Medical-district stock splits the difference with hospital-system tenants. DSCR lenders like all of it because prices are low and appraisals are clean; portfolio loans work well once you hold three or four doors. Your matched specialist can price single-asset and portfolio structures side by side."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Lubbock typical home value and YoY change, June 2026",
+        "Zillow Rental Market Trends, Lubbock house rents, July 2026",
+        "Texas Tech University, fall 2025 enrollment of 42,272, September 2025",
+        "SmartAsset, Lubbock County property tax data, 2025",
+        "Rentable/Zillow, Lubbock 3-bed rent averages, 2026",
+        "Vacancy figure is an estimate from regional CoStar and Census ranges, 2026"
+      ]
+    },
+    {
+      "city": "Killeen",
+      "slug": "killeen",
+      "county": "Bell County",
+      "metro": "Killeen-Temple",
+      "hook": "Killeen's typical home runs about $221K next to one of the Army's largest posts, and 3-bed rents near $1,350 arrive with housing allowances behind them. This market runs on orders, not cycles.",
+      "metaDescription": "Killeen homes average $221K beside Fort Hood's massive tenant pipeline, with 3-bed rents near $1,350. See where DSCR files clear. Match with a specialist.",
+      "market": {
+        "medianPrice": 221000,
+        "medianRent": 1350,
+        "priceToRent": 13.6,
+        "vacancyRate": 9,
+        "yoyPrice": -1,
+        "yoyRent": -1.7,
+        "estDSCR": 0.75,
+        "propertyTaxRate": 2.1,
+        "insuranceMonthly": 175
+      },
+      "overview": "Killeen exists because of Fort Hood, renamed back from Fort Cavazos in 2025, and the rental market reflects it: one of the Army's largest installations, roughly 36,000 soldiers plus families and a civilian workforce, cycling through on permanent-change-of-station orders that create constant, involuntary housing demand. The typical home value is about $221,000, down a modest 1% on the year, and a 3-bed house rents around $1,350, with 4-beds in the newer southern subdivisions reaching $1,650 to $1,800.\n\nThe economics are pure yield. Entry prices in the $170,000 to $230,000 band against BAH-backed rents produce some of the highest rent-to-price ratios of any Texas market with a six-figure anchor employer. Metro vacancy runs near 9%, pushed up by apartment supply in Temple and new subdivisions leasing up, but well-kept houses inside the commute shed lease in weeks because arriving families need housing on a deadline. The trade-off is appreciation: Killeen compounds slowly, and the exit buyer is usually another investor or a VA-loan household.\n\nWhere deals pencil: the 76542 corridor south toward Chaparral Road for newer 4/2s, the 76549 belt west of the post for value entries near $195,000, and Harker Heights for the officer and contractor tenant tier. Bell County's combined tax rate near 2.1% is midpack for Texas, and insurance around $150 to $190 a month is mercifully inland. Buy the ratio, hire a military-fluent manager, and Killeen produces steady checks.",
+      "regulationBadge": "friendly",
+      "regulationNote": "Killeen layers nothing on top of Texas's landlord-friendly baseline, no rental licensing, no STR permit regime, and a city government accustomed to a majority-renter, military population.",
+      "neighborhoods": [
+        {
+          "name": "South Killeen (76542)",
+          "medianPrice": 258000,
+          "medianRent": 1650,
+          "note": "The newer-build corridor where E-6s and officers rent 4/2s. Typical values near $258K with the strongest rent absolutes in the city."
+        },
+        {
+          "name": "West Killeen (76549)",
+          "medianPrice": 228000,
+          "medianRent": 1450,
+          "note": "Workhorse 1990s-2000s stock minutes from the gates. The default DSCR entry point at 20 to 25% down."
+        },
+        {
+          "name": "Central / North Killeen (76541-76543)",
+          "medianPrice": 176000,
+          "medianRent": 1250,
+          "note": "The deep-value pocket: sub-$180K houses renting mid-$1,200s. Highest ratios, oldest roofs; inspect accordingly."
+        },
+        {
+          "name": "Harker Heights",
+          "medianPrice": 285000,
+          "medianRent": 1850,
+          "note": "The premium suburb where senior NCOs, officers, and contractors lease. Lower yield, longest tenancies and cleanest turns."
+        }
+      ],
+      "localAngle": {
+        "tag": "Military Demand",
+        "title": "PCS season is the calendar. BAH is the rent floor.",
+        "body": "Fort Hood's rotation machine defines Killeen underwriting. Families arrive on orders, mostly May through August, with Basic Allowance for Housing rates that function as the market's pricing bands, and they sign leases fast because report dates do not wait. That gives investors unusually visible demand, but it comes with federal mechanics: the Servicemembers Civil Relief Act lets tenants terminate early with PCS or deployment orders, so model one turn every 18 to 24 months instead of multi-year tenancies. Price at the local BAH bands, market during PCS season, and use a manager who handles military clauses daily. DSCR lenders underwrite the appraiser's market rent here without drama; your matched specialist will make sure the rent schedule reflects the current BAH-supported comps rather than a stale lease."
+      },
+      "programFit": [
+        "standard-dscr",
+        "portfolio-dscr",
+        "no-ratio-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "4-bed / 2-bath SFR",
+        "neighborhood": "West Killeen",
+        "purchasePrice": 195000,
+        "downPaymentPct": 20,
+        "downPayment": 39000,
+        "loanAmount": 156000,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 1090,
+        "monthlyTax": 341,
+        "monthlyInsurance": 170,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 1601,
+        "monthlyRent": 1675,
+        "dscr": 1.05,
+        "monthlyCashFlow": 74,
+        "specialistFocus": [
+          "Matched the rent schedule to current BAH bands for E-5 with dependents, supporting $1,675 on a 4-bed",
+          "Cleared the ratio at 20% down, keeping capital free for a second Killeen door within the year",
+          "Underwrote Bell County taxes at the post-sale assessed value and added the SCRA turn assumption to the cash-flow model"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Does Fort Hood's renaming or troop movement change the investment case in Killeen?",
+          "answer": "The name changed back to Fort Hood in 2025; the mission did not. It remains one of the Army's largest posts, home to III Armored Corps and the 1st Cavalry Division, with tens of thousands of soldiers plus families cycling through on orders. That rotation is the entire rental thesis: constant arrivals with housing allowances and hard deadlines. The real risk to watch is not nomenclature but force-structure decisions, and armored corps posts are among the least likely candidates for drawdown. Underwrite at today's BAH bands, keep the property inside a 20-minute gate commute, and the demand mechanism takes care of itself."
+        },
+        {
+          "question": "How does the SCRA early-termination rule affect my Killeen cash flow?",
+          "answer": "It converts vacancy from a surprise into a scheduled cost. Under the Servicemembers Civil Relief Act, a tenant with PCS or deployment orders can end the lease with 30 days' notice after the next rent date, no penalty. In practice that means modeling a tenant change every 18 to 24 months rather than counting on 4-year tenancies, budgeting a make-ready and two to four weeks of marketing per turn, and always leasing into PCS season when the replacement tenant pool is deepest. A military-specialist manager keeps that gap short. DSCR lenders do not penalize the market for it; the appraisal rent comps already reflect how these leases work."
+        },
+        {
+          "question": "Killeen is cheap. Why not just buy the lowest-priced house I can find?",
+          "answer": "Because the bottom of this market rents to the thinnest tenant pool and eats the spread in maintenance. Sub-$150K central Killeen stock often carries 1970s systems, and the rent gap between a tired $1,150 house and a clean $1,450 one is wider than the price gap that separates them. The ratio sweet spot in 2026 is the $190,000 to $260,000 band, 76549 for value and 76542 for newer product, where BAH-backed families compete for well-kept 4-beds. DSCR lenders also appraise and price cleaner in that band. Buy the house the E-5 family wants, not the one nobody else bid on."
+        },
+        {
+          "question": "What do Bell County taxes and insurance do to a DSCR file here?",
+          "answer": "Less damage than almost anywhere else in this directory, which is part of Killeen's quiet appeal. The combined property tax rate runs near 2.1%, about $341 a month on a $195,000 purchase, and inland insurance without wind-pool or flood exposure typically lands between $150 and $190 a month. Stack those against a $1,675 rent and files clear 1.0 at just 20% down, a structure that needs 25 to 30% in the coastal and big-metro markets. Standard Texas discipline still applies: underwrite the post-sale reassessment, protest annually. Your matched specialist will run the ratio on real numbers so the qualifying DSCR holds after closing."
+        },
+        {
+          "question": "Can I build a multi-property Killeen portfolio with DSCR loans from out of state?",
+          "answer": "Killeen is one of the best markets in Texas for exactly that. Low absolute prices mean each door needs modest capital, 20% down files clear, and once you hold several properties a portfolio DSCR loan can wrap them into one note with one payment. Remote logistics are routine, LLC vesting, remote notarization, rent-based qualification, and the manager ecosystem here is built for absentee owners because so many landlords are former soldiers who PCS'd away. Sequence matters: buy the first door, season it, let the lease history strengthen the next file. Your matched specialist can map a two-year acquisition plan against your capital instead of one-off transactions."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Killeen typical home value and YoY change, June 2026",
+        "Zillow Rental Market Trends, Killeen 3-bed rents, July 2026",
+        "Zillow zip-level data, 76542/76549/76543 typical home values, June 2026",
+        "CoStar metro data, Killeen-Temple rental vacancy and rent change, 2026",
+        "Ballard Property Tax, Bell County combined 2025 rate",
+        "US Army, Fort Hood designation restored, 2025"
+      ]
+    },
+    {
+      "city": "Waco",
+      "slug": "waco",
+      "county": "McLennan County",
+      "metro": "Waco",
+      "hook": "Waco's typical home costs about $200K, the cheapest entry on this page, while Baylor, the I-35 corridor, and 2.5 million Magnolia-driven visitors a year hold rents near $1,500. BRRRR country.",
+      "metaDescription": "Waco homes average $200K with rents near $1,500, plus Baylor and Magnolia tourism demand. See how BRRRR and DSCR files work here. Match with a specialist.",
+      "market": {
+        "medianPrice": 200000,
+        "medianRent": 1500,
+        "priceToRent": 11.1,
+        "vacancyRate": 8.5,
+        "yoyPrice": -2.1,
+        "yoyRent": 0.5,
+        "estDSCR": 0.88,
+        "propertyTaxRate": 2.1,
+        "insuranceMonthly": 230
+      },
+      "overview": "Waco made itself famous as television's fixer-upper capital, and the underlying math still supports the brand. The typical home value is about $200,000, down 2.1% on the year and the lowest entry point of any city in this directory, while a 3-bed house rents near $1,500 to $1,650. That combination, cheap distressed stock, a renovation trades ecosystem built by a decade of flipping, and rents that cover the payment, is why Waco remains one of the most active BRRRR markets in Texas.\n\nDemand comes from three engines that do not move together. Baylor University's 20,000 students anchor the blocks east and south of campus. The I-35 industrial corridor, Amazon, SpaceX's McGregor test site, Mars, and L3Harris, fills workforce rentals citywide. And Magnolia's silos still pull roughly 2.5 million visitors a year, feeding a short-term rental market that punches far above the city's size, with the city licensing operators rather than banning them.\n\nWhere deals pencil: North Waco's sub-$150K renovation stock, the Sanger Heights and Dean Highland belt where rehabbed houses rent at $1,600 to $1,800, and the 76706 corridor near Baylor for student and young-professional leases. McLennan County's combined rate near 2.1% and inland insurance keep carrying costs moderate. The discipline is on the buy: Waco appraisals reward genuinely renovated product, and the spread between as-is and after-repair value is the whole business model here.",
+      "regulationBadge": "friendly",
+      "regulationNote": "Waco licenses short-term rentals instead of banning them and asks nothing special of long-term landlords; it is a growth-hungry city that treats investors as part of the housing supply.",
+      "neighborhoods": [
+        {
+          "name": "North Waco",
+          "medianPrice": 134000,
+          "medianRent": 1300,
+          "note": "The BRRRR belt: sub-$150K entries, deep renovation inventory, and rehabbed comps renting near $1,300 to $1,500. Values here are the arbitrage."
+        },
+        {
+          "name": "Sanger Heights / Dean Highland",
+          "medianPrice": 175000,
+          "medianRent": 1550,
+          "note": "The gentrifying middle where finished product rents to young professionals. Renovated 3/2s clear DSCR at 25% down."
+        },
+        {
+          "name": "Baylor corridor (76706)",
+          "medianPrice": 256000,
+          "medianRent": 1750,
+          "note": "Student and staff demand within walking distance of campus. By-the-room premiums exist, but lenders underwrite the whole-house rent."
+        },
+        {
+          "name": "Woodway / Hewitt edge",
+          "medianPrice": 295000,
+          "medianRent": 1950,
+          "note": "Midway ISD family rentals with multi-year tenancies. Thinner ratio, lowest management load; the hold-forever tier."
+        }
+      ],
+      "localAngle": {
+        "tag": "STR Rules",
+        "title": "Magnolia tourism built a real STR market, and Waco licenses it.",
+        "body": "Waco runs a license-first STR system: every short-term rental needs a city license, some categories need a special permit with distance, density, and parking requirements, hotel occupancy tax registration is mandatory, and the license number must appear on every listing. Roughly 2.5 million annual Magnolia-driven visitors, Baylor event weekends, and I-35 traffic keep occupancy meaningful for well-located properties near downtown, the silos, and campus. For financing, that licensing paper trail helps: a licensed Waco STR with hotel-tax filings gives DSCR lenders documentable revenue where their programs allow short-term income, while unlicensed operation is now a diligence flag. Your matched specialist can structure on long-term rent for durability or on documented STR performance where the file supports it, and will check whether a specific address needs the special permit before you count nightly income."
+      },
+      "programFit": [
+        "bridge-to-dscr",
+        "standard-dscr",
+        "str-dscr"
+      ],
+      "dealExample": {
+        "label": "BRRRR Refinance",
+        "propertyType": "3-bed / 2-bath SFR",
+        "neighborhood": "North Waco",
+        "purchasePrice": 210000,
+        "downPaymentPct": 25,
+        "downPayment": 52500,
+        "loanAmount": 157500,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 1101,
+        "monthlyTax": 368,
+        "monthlyInsurance": 190,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 1659,
+        "monthlyRent": 1795,
+        "dscr": 1.08,
+        "monthlyCashFlow": 136,
+        "specialistFocus": [
+          "Refinanced at 75% of the $210K after-repair appraisal, returning most of the investor's $62K purchase-plus-rehab basis",
+          "Used the signed $1,795 lease plus renovated comps so the appraiser's rent schedule matched reality",
+          "Sequenced the file from a short-term acquisition loan into the long-term DSCR note with one title touch"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "How does a BRRRR actually get financed in Waco?",
+          "answer": "In two stages that your matched specialist lines up front to back. Stage one: a short-term acquisition or bridge loan buys the distressed house, often North Waco stock in the $80,000 to $130,000 range, and funds the renovation. Stage two: once the property is rented, a DSCR refinance pays off the bridge at up to roughly 75% of the after-repair value, returning most of your cash for the next project. The Waco-specific edge is comp depth, a decade of renovations means appraisers have real rehabbed sales to anchor value. The discipline: buy deep enough that the refinance appraisal does not need to be generous, and have the lease signed before the appraisal is ordered."
+        },
+        {
+          "question": "Is the Magnolia short-term rental wave still real, or did it peak?",
+          "answer": "It matured, which is better for serious operators. Visitor volume to the silos district still runs around 2.5 million a year, Baylor football and graduation weekends spike rates, and the city's licensing system, license, hotel tax registration, in some zones a special permit, culled the casual hosts who never filed paperwork. Occupancy now concentrates in walkable-to-downtown and near-campus properties with professional photos and management; a random suburban 3/2 will not print Airbnb money. Underwrite any Waco STR on its long-term rent first, treat documented nightly revenue as the upside case, and your matched specialist can match the file to lenders who accept licensed short-term income."
+        },
+        {
+          "question": "What do McLennan County taxes look like on an investor file?",
+          "answer": "Moderate for Texas, around 2.1% combined once city, county, and Waco ISD stack, which is roughly $368 a month on a $210,000 after-repair value. Two Waco-specific wrinkles matter. First, a successful BRRRR triggers reassessment toward your new value, so model the tax line at ARV, not your distressed purchase price, or the refinance DSCR will look better than year-two reality. Second, protest season is productive here because assessment quality on older renovated stock is uneven. Suburban Woodway and Hewitt carry different rates than the city. Your matched specialist underwrites the post-renovation figure so the qualifying ratio survives the county's catch-up."
+        },
+        {
+          "question": "Can an out-of-state investor run a Waco renovation project remotely?",
+          "answer": "Yes, and people do it every month, but the order of operations is different from buying a turnkey rental. The contractor relationship is the asset: Waco's renovation trades are deep by mid-size-city standards, and the working model is a fixed-scope bid, draw inspections tied to milestones, and a local agent or manager walking the site weekly on video. Buy through an LLC, close remotely, and keep a 15% contingency because 1920s-1950s stock hides galvanized plumbing and knob-and-tube wiring. If that sounds heavy, the alternative is buying already-renovated product in Sanger Heights at a smaller discount. Your matched specialist can finance either path, bridge-to-DSCR for the project, standard DSCR for the finished house."
+        },
+        {
+          "question": "Which Waco tenants should I actually build the deal around?",
+          "answer": "Match the block to the tenant and the numbers follow. Baylor's 20,000 students dominate 76706, where houses lease by the room at premiums but turn every year. The I-35 industrial workforce, Amazon, SpaceX McGregor, Mars, rents finished 3/2s across North Waco and Sanger Heights at $1,500 to $1,800 and stays longer. Midway ISD families in Woodway and Hewitt sign multi-year leases on the $290,000+ stock. DSCR lenders are agnostic, they underwrite the appraiser's market rent, but your operating costs are not: student turns cost more, family tenancies run leaner. Pick the management load you want before you pick the street."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Waco typical home value and YoY change, June 2026",
+        "Homes.com/Zillow Rental Trends, Waco house rents, July 2026",
+        "Zillow neighborhood data, North Waco and 76706 values, June 2026",
+        "City of Waco, STR license and special permit requirements, 2026",
+        "SmartAsset/McLennan County levies, combined property tax rate, 2025",
+        "Vacancy figure is an estimate from regional CoStar and Census ranges, 2026"
+      ]
+    },
+    {
+      "city": "Galveston",
+      "slug": "galveston",
+      "county": "Galveston County",
+      "metro": "Houston-The Woodlands-Sugar Land",
+      "hook": "Galveston runs 6,400+ active short-term rentals averaging $29K a year in revenue, with island home values near $323K after a 6.5% reset. This is the STR-DSCR market of the Texas coast.",
+      "metaDescription": "Galveston hosts 6,400+ STRs earning $29K average revenue while values reset to $323K. See how STR-DSCR files get built. Match with a specialist.",
+      "market": {
+        "medianPrice": 323000,
+        "medianRent": 1950,
+        "priceToRent": 13.8,
+        "vacancyRate": 9,
+        "yoyPrice": -6.5,
+        "yoyRent": -1.5,
+        "estDSCR": 0.67,
+        "propertyTaxRate": 2,
+        "insuranceMonthly": 550
+      },
+      "overview": "Galveston is a different asset class from the rest of Texas: an island resort economy 50 minutes from Houston's seven million people, where the rental market is measured in nightly rates as much as leases. The typical home value is about $323,000, down 6.5% on the year, the sharpest reset in this directory, as higher insurance costs and a cooling STR gold rush shook out undercapitalized owners. For buyers with real underwriting, that is the entry window.\n\nThe short-term rental scale is the story. Roughly 6,400 active STRs operate on the island, averaging about $29,000 a year in revenue at a $332 average daily rate and 43% occupancy, with strong beachfront 3-beds clearing $40,000 to $45,000. The city licenses rather than restricts: a $250 annual registration with the Park Board, hotel occupancy tax remittance, and no zoning caps. Long-term demand exists too, UTMB's medical campus, the port and cruise terminals, A&M-Galveston, with 3-bed leases near $1,950 to $2,400.\n\nThe gatekeepers are insurance and storms. TWIA windstorm plus flood coverage commonly runs $6,000 to $8,000 a year on a median island house, and elevation certificates, roof age, and WPI-8 compliance decide whether a deal survives diligence. Values concentrate by geography: Midtown and near-Seawall cottages in the low $300,000s, the East End historic district above $400,000, and the west-end beach subdivisions where STR revenue, not lease comps, carries the file.",
+      "regulationBadge": "friendly",
+      "regulationNote": "Galveston registers and taxes STRs rather than capping them, and updated its ordinance in 2026 without adding zoning limits; for a beach market, it is unusually permissive toward investor operators.",
+      "neighborhoods": [
+        {
+          "name": "Midtown / near Seawall",
+          "medianPrice": 310000,
+          "medianRent": 1900,
+          "note": "Cottages blocks from the beach that work as either lease rentals to UTMB staff or entry-level STRs. The island's most flexible underwriting."
+        },
+        {
+          "name": "East End Historic District",
+          "medianPrice": 425000,
+          "medianRent": 2300,
+          "note": "Victorian stock near the Strand and cruise terminal with the island's strongest nightly rates. Insurance and upkeep demand real reserves."
+        },
+        {
+          "name": "West End (Pirates Beach to Jamaica Beach)",
+          "medianPrice": 495000,
+          "medianRent": 2200,
+          "note": "Pure STR territory: piling-raised beach houses where projected nightly revenue, not lease comps, is the income story lenders evaluate."
+        },
+        {
+          "name": "Old Central / Lasker Park",
+          "medianPrice": 220000,
+          "medianRent": 1650,
+          "note": "The value pocket, down almost 10% on the year. Workforce leases to port and hospital staff; buy the reset, not the projection."
+        }
+      ],
+      "localAngle": {
+        "tag": "STR + Insurance",
+        "title": "The island pays you nightly and charges you for wind. Net the two honestly.",
+        "body": "Galveston's STR regime is refreshingly simple, register with the Park Board at $250 a year, remit hotel occupancy tax, follow the updated 2026 ordinance's operating rules, and platforms handle most state tax collection. The hard part of the file is the other line: TWIA windstorm certification, flood insurance rated by elevation, and roof documentation routinely add $500 to $700 a month on island product. DSCR lenders that finance short-term rentals will project income from market data, commonly a percentage of gross nightly revenue, then subtract that full insurance load, which is why a $29,000-revenue median performer with $7,000 of premiums needs a strong purchase basis to clear. Your matched specialist will pull the AirDNA-style comp set, verify the registration transfers, and structure interest-only where seasonality makes level payments tight."
+      },
+      "programFit": [
+        "str-dscr",
+        "interest-only-dscr",
+        "standard-dscr",
+        "no-ratio-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 2-bath STR cottage",
+        "neighborhood": "Midtown / near Seawall",
+        "purchasePrice": 330000,
+        "downPaymentPct": 25,
+        "downPayment": 82500,
+        "loanAmount": 247500,
+        "loanType": "30-Year Fixed (10-Year Interest-Only)",
+        "interestOnly": true,
+        "monthlyPI": 1547,
+        "monthlyTax": 550,
+        "monthlyInsurance": 600,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 2697,
+        "monthlyRent": 3600,
+        "dscr": 1.33,
+        "monthlyCashFlow": 903,
+        "specialistFocus": [
+          "Qualified on projected STR income of $3,600 a month from island comp data, a mid-band performer versus the $29K citywide average",
+          "Structured 10-year interest-only so summer-heavy cash flow services a level payment with margin",
+          "Cleared TWIA windstorm certification, elevation-rated flood coverage, and the $250 Park Board registration before closing"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "How do DSCR lenders underwrite Galveston short-term rental income?",
+          "answer": "Through data, not hope. Lenders that accept STR income typically use one of two paths: a trailing twelve months of documented revenue for an operating rental, or a market projection built from comp data like AirDNA for a purchase, often haircut to a percentage of projected gross. Galveston's citywide averages, roughly $29,000 annual revenue, 43% occupancy, $332 daily rate, set the baseline, and your specific property's bedroom count, distance to sand, and review history move it. The projection then has to carry the full payment including the island's heavy insurance. Your matched specialist assembles the comp package and picks the lender whose STR methodology fits your property's profile."
+        },
+        {
+          "question": "What does insurance really cost on a Galveston rental, and how do I keep it survivable?",
+          "answer": "Budget $6,000 to $8,000 a year on a median island house once you stack a landlord policy, TWIA windstorm coverage, and flood insurance, and more for west-end beachfront. Three variables move the number most: roof age and its WPI-8 windstorm certificate, elevation, which sets flood rating, and deductible structure, where percentage wind deductibles trade premium for storm-event exposure. Get quotes bound during your option period, not after, because a $200-a-month surprise moves a DSCR file from clearing to failing. The buyers who thrive here treat the insurance package as part of the purchase negotiation, pricing roof replacements into offers. Your matched specialist will not structure the loan around an unverified premium."
+        },
+        {
+          "question": "Values fell 6.5% in a year. Is Galveston a falling knife or an entry point?",
+          "answer": "It is a shakeout, and shakeouts are when basis gets bought. The decline concentrated among 2021-2022 buyers who underwrote peak nightly rates and pre-hike insurance, then hit 2025-2026 with both moving against them. Revenue per listing is down only about 3%, the demand engine, seven million Houstonians within an hour, did not go anywhere, and the city added no hostile regulation. What changed is that the market now prices insurance honestly, which is exactly what a disciplined buyer wants: less competition and sellers who accept real numbers. Underwrite today's occupancy, today's premiums, and a purchase price that clears with margin, and the reset is your friend."
+        },
+        {
+          "question": "Do I have to run an STR, or does long-term rental work on the island too?",
+          "answer": "Long-term works, and it is the quieter half of the market. UTMB's medical campus employs over 13,000, the port and cruise terminals staff year-round, and Texas A&M-Galveston adds students, together supporting 3-bed leases around $1,950 to $2,400 in Midtown and the central neighborhoods. The math is honest rather than exciting: at Old Central's $220,000 entry points the lease covers the payment; at $400,000 east-end prices it usually does not, which is why those files run as STRs. A useful structure is buying where both strategies clear, so you can pivot between lease and nightly operation as seasons or rules shift. Your matched specialist can underwrite the file on the lease and leave the STR upside unpriced."
+        },
+        {
+          "question": "What is actually required to operate a short-term rental legally in Galveston?",
+          "answer": "Less than almost any comparable beach market, which is why the island carries 6,400 listings. You register the property with the Galveston Park Board at $250 a year per unit, remit hotel occupancy tax, platforms collect the state portion in most cases, and comply with the operating standards in the city's updated 2026 ordinance covering occupancy limits, parking, and local contact requirements. There are no zoning districts that ban STRs and no citywide cap. Diligence points when buying an operating rental: confirm the registration is current, get the hotel tax filing history, and have bookings and reviews convey. Your matched specialist will fold those documents into the income file lenders evaluate."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Galveston typical home value and YoY change, June 2026",
+        "AirDNA, Galveston active listings, revenue, occupancy, and ADR, June 2026",
+        "Zillow Rental Market Trends, Galveston 3-bed lease rents, July 2026",
+        "City of Galveston / Park Board, STR registration fee and 2026 ordinance",
+        "Ballard Property Tax, Galveston County rates, 2025",
+        "Zillow neighborhood data, Old Central typical home value, May 2026"
+      ]
+    },
+    {
+      "city": "Arlington",
+      "slug": "arlington",
+      "county": "Tarrant County",
+      "metro": "Dallas-Fort Worth-Arlington",
+      "hook": "Arlington's typical home runs $314K between two downtowns, with 3-bed rents near $2,100 and the stadium district hosting World Cup matches in 2026. Mid-cities demand, no transit, everyone rents near work.",
+      "metaDescription": "Arlington TX homes average $314K with 3-bed rents near $2,100 in the stadium corridor's shadow. See where DSCR deals pencil. Match with a specialist.",
+      "market": {
+        "medianPrice": 314000,
+        "medianRent": 2100,
+        "priceToRent": 12.5,
+        "vacancyRate": 9,
+        "yoyPrice": -1.5,
+        "yoyRent": -2,
+        "estDSCR": 0.8,
+        "propertyTaxRate": 2.24,
+        "insuranceMonthly": 290
+      },
+      "overview": "Arlington is the metroplex's middle: 400,000 residents wedged between Dallas and Fort Worth, home to AT&T Stadium, Globe Life Field, Six Flags, a General Motors assembly plant with 5,000+ workers, and UT-Arlington's 40,000 students. The typical home value is about $314,000, down a mild 1.5% on the year, and 3-bed houses rent near $2,100 to $2,300. Homes go pending in around 21 days, the fastest of the DFW cities, because Arlington famously has almost no public transit, so proximity to work is worth rent.\n\nThat is the investment logic in one line: GM shift workers, stadium and entertainment-district staff, UTA students, and hospital employees all need housing minutes from their jobs. East Arlington delivers sub-$280K entries renting near $2,000; the UTA blocks lease by the room to students; north Arlington's newer stock feeds entertainment-district demand, including the 2026 World Cup summer, when the city hosts nine matches and furnished rentals price like hotel rooms.\n\nThe file mechanics mirror Fort Worth: Tarrant County's combined tax rate near 2.24% is the biggest line after principal and interest, hail-belt insurance runs around $280 to $300 a month on a median house, and metro vacancy near 9% concentrates in Class A apartments rather than the workforce houses investors buy. At the citywide median the ratio is tight, so the working deals sit east and southeast of the entertainment district, where basis drops faster than rents do.",
+      "regulationBadge": "friendly",
+      "regulationNote": "Arlington permits STRs only in a mapped zone around the entertainment district and bans them in most residential areas, but long-term landlords face nothing beyond baseline Texas law.",
+      "neighborhoods": [
+        {
+          "name": "East Arlington",
+          "medianPrice": 265000,
+          "medianRent": 2050,
+          "note": "The workforce core: GM and entertainment-district employees rent 1970s-80s 3/2s at ratios the west side cannot match."
+        },
+        {
+          "name": "UTA / Central Arlington",
+          "medianPrice": 285000,
+          "medianRent": 2150,
+          "note": "40,000 students plus hospital staff within a mile. By-the-room premiums exist; lenders underwrite the whole-house rent."
+        },
+        {
+          "name": "North Arlington / Entertainment District edge",
+          "medianPrice": 412000,
+          "medianRent": 2600,
+          "note": "The only part of the city where STR permits are attainable. Values near $412K mean nightly income, not leases, drives these files."
+        },
+        {
+          "name": "Southeast Arlington / Mansfield ISD edge",
+          "medianPrice": 348000,
+          "medianRent": 2400,
+          "note": "Family rentals in the 76016-76018 school corridors. Thinner ratio, multi-year tenancies, the lowest-turnover tier in the city."
+        }
+      ],
+      "localAngle": {
+        "tag": "STR Rules",
+        "title": "STRs live inside the stadium zone. Everywhere else, Arlington is a lease market.",
+        "body": "Arlington drew its line in 2019: short-term rentals are lawful with a permit inside a mapped zone roughly a mile around the entertainment district, AT&T Stadium, Globe Life Field, Six Flags, and prohibited in most residential neighborhoods, with courts having backed the city's enforcement. Hotel occupancy tax applies to permitted operators. The 2026 World Cup, nine matches at AT&T Stadium, spotlighted the rule: homeowners outside the zone largely cannot list legally, while permitted properties inside it captured event pricing. For underwriting, that means nightly-rate income is only real on a permitted address inside the zone, and every other Arlington file should be structured on long-term market rent. Your matched specialist can verify a specific address against the STR map before any short-term income enters the conversation."
+      },
+      "programFit": [
+        "standard-dscr",
+        "interest-only-dscr",
+        "portfolio-dscr",
+        "str-dscr"
+      ],
+      "dealExample": {
+        "label": "Cash-Out Refinance",
+        "propertyType": "3-bed / 2-bath SFR",
+        "neighborhood": "East Arlington",
+        "purchasePrice": 290000,
+        "downPaymentPct": 30,
+        "downPayment": 87000,
+        "loanAmount": 203000,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 1419,
+        "monthlyTax": 541,
+        "monthlyInsurance": 260,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 2220,
+        "monthlyRent": 2295,
+        "dscr": 1.03,
+        "monthlyCashFlow": 75,
+        "specialistFocus": [
+          "Structured the cash-out at 70% of appraised value, freeing roughly $87K of equity while keeping the ratio above 1.0",
+          "Documented the renewed $2,295 lease plus the appraiser's rent schedule from east-side comps",
+          "Re-shopped the hail-belt insurance at refinance, cutting the premium $40 a month and adding it straight to DSCR margin"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Does hosting World Cup matches change what Arlington rentals are worth?",
+          "answer": "It changes a summer, not a thesis. The nine 2026 matches at AT&T Stadium created a spike in furnished and event-rental pricing, but only permitted STRs inside the entertainment-district zone could legally capture it, and DSCR lenders do not underwrite one-time events into income. What the World Cup does signal is the durable version of the same demand: Arlington's stadium corridor generates year-round hospitality employment, concerts, Cowboys and Rangers seasons, and those workers rent houses in east and central Arlington every ordinary month. Buy the boring lease demand; treat event income on a permitted property as a bonus your matched specialist leaves out of the qualifying math."
+        },
+        {
+          "question": "How tight is the DSCR math at Arlington's median price?",
+          "answer": "Tight enough that entry point decides the file. At the $314,000 citywide median with 25% down, Tarrant County's 2.24% tax rate and $290 in hail-belt insurance push the payment to a level that $2,100 rent barely covers. Move to east Arlington at $265,000 with $2,050 rent and the same structure clears with room; move to a $412,000 north-side house renting at $2,600 and it fails without interest-only or a bigger down payment. This is a submarket-selection city, not a set-and-forget one. Your matched specialist will run the ratio street by street rather than quoting the citywide averages this page starts from."
+        },
+        {
+          "question": "Is buying near UT-Arlington a student-rental play like Lubbock or Waco?",
+          "answer": "A milder version of it. UTA's 40,000 students include a large commuter and online share, so the by-the-room frenzy is thinner than a flagship college town, but the blocks within a mile of campus still lease reliably to student groups and, increasingly, to hospital staff from Texas Health Arlington Memorial and young professionals priced out of Dallas. Rents near $2,150 against $285,000 entries put files in workable range at 25% down. Lenders underwrite the whole-house market rent, so room-by-room premiums are cushion, not qualification. The operational note: sync leases to the academic calendar and keep the fallback professional tenant pool in mind when finishes are chosen."
+        },
+        {
+          "question": "What should out-of-state investors know about Tarrant County taxes on an Arlington file?",
+          "answer": "That the rate is real and the seller's bill is fiction for your purposes. Tarrant County's combined levy runs about 2.24%, roughly $541 a month on a $290,000 house, and the appraisal district reassesses toward your purchase price after closing, so a seller's homestead-lowered bill tells you nothing about your year-two payment. Underwrite the full rate on day one, protest every spring, Tarrant protests succeed often enough to be worth the hour, and remember Texas trades this tax burden for zero state income tax on your rental profits. Your matched specialist builds the qualifying PITIA on the post-sale number so the DSCR you close at is the one you keep."
+        },
+        {
+          "question": "Which Arlington property types clear DSCR ratios most reliably in 2026?",
+          "answer": "The unglamorous middle: 1970s-1990s 3-bed, 2-bath houses in east and central Arlington between roughly $250,000 and $300,000, renting at $2,000 to $2,300 to GM, hospital, entertainment-district, and UTA-adjacent tenants. Those files clear 1.0 at 25% down without structural help. Southeast Arlington's Mansfield ISD stock trades ratio for tenant longevity, workable with interest-only. What fails: $400,000+ north-side houses on lease income, and condos near the stadiums whose HOA dues consume the spread, unless the address sits inside the STR permit zone and runs on documented nightly revenue. Portfolio DSCR wraps work well here for investors accumulating along the I-30 corridor."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Arlington typical home value and YoY change, June 2026",
+        "Apartments.com/Zillow Rental Trends, Arlington house and 3-bed rents, July 2026",
+        "CoStar metro data, Dallas-Fort Worth rental vacancy and rent change, 2026",
+        "Ballard Property Tax, Tarrant County combined 2025 rate",
+        "City of Arlington, STR ordinance and entertainment-district permit zone; Fort Worth Report, World Cup rental rules, March 2026",
+        "Zillow neighborhood data, North Arlington and 76016 values, June 2026"
+      ]
+    }
+  ]
+}
