@@ -1,5 +1,6 @@
 ---
 import '../styles/global.css';
+import Hotjar from '../components/global/Hotjar.astro';
 
 interface Props {
   title: string;
@@ -71,6 +72,9 @@ const canonicalUrl = canonical || new URL(Astro.url.pathname, siteUrl).href;
         })(window,document,'script','dataLayer','${import.meta.env.PUBLIC_GTM_ID}');
       `} />
     )}
+
+    <!-- Hotjar: session recordings + heatmaps -->
+    <Hotjar />
 
     <slot name="head" />
   </head>

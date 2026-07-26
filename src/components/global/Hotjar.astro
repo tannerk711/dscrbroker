@@ -1,0 +1,25 @@
+---
+/**
+ * Hotjar session recording + heatmaps for dscrbroker.com.
+ *
+ * Site ID 6753255. Loaded on every page via BaseLayout and LandingLayout so
+ * recordings cover the full journey (LP -> state page -> program page -> qualify -> thank-you).
+ *
+ * Skipped in dev so local browsing never pollutes the recording set.
+ */
+const HOTJAR_ID = 6753255;
+const enabled = import.meta.env.PROD;
+---
+
+{enabled && (
+  <script is:inline set:html={`
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:${HOTJAR_ID},hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+  `} />
+)}
