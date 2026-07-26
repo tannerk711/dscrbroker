@@ -57,7 +57,7 @@ const DEFAULT_SPECIALIST: SpecialistProfile = {
   nmls: '239185',
   company: 'Barrett Financial Group',
   companyLogo: '/images/BFGLogo-WhiteNegative.png',
-  headshot: '/images/JP Headshot Final.jpg',
+  headshot: '/images/jp-headshot-final.jpg',
   message:
     "I've spent my career structuring DSCR and non-QM deals for real estate investors, including the ones other lenders walk away from. The questionnaire you just filled out gives me a real starting point, but every deal has nuance that doesn't fit in a form. I'll personally review your file, call you within the hour, and walk you through exactly what we can do. No call center, no runaround.",
   videoEmbedUrl: null,
