@@ -1,0 +1,1346 @@
+{
+  "state": "Georgia",
+  "abbreviation": "GA",
+  "stateSlug": "georgia",
+  "dataUpdated": "2026-07",
+  "cities": [
+    {
+      "city": "Atlanta",
+      "slug": "atlanta",
+      "county": "Fulton County",
+      "metro": "Atlanta-Sandy Springs-Roswell",
+      "hook": "Atlanta's typical home sits at $387K, down 2.9% in a year, while 3-bed houses still rent near $2,300. The correction is the entry point, but the citywide math still takes structuring.",
+      "metaDescription": "Atlanta homes average $387K and 3-bed houses rent near $2,300. See where DSCR deals pencil on the Westside and Southside. Match with a DSCR specialist.",
+      "market": {
+        "medianPrice": 387000,
+        "medianRent": 2300,
+        "priceToRent": 14,
+        "vacancyRate": 9.3,
+        "yoyPrice": -2.9,
+        "yoyRent": 1.5,
+        "estDSCR": 0.8,
+        "propertyTaxRate": 1.54,
+        "insuranceMonthly": 230
+      },
+      "overview": "Atlanta is the biggest rental market in the Southeast and the most institutional single-family market in America. The typical home value is about $387,000 as of mid 2026, down 2.9% year over year, while 3-bed houses still rent near $2,300 and citywide rents ticked up about 1.5%. Prices soft, rents firm: that spread is why buyers who waited out 2024 and 2025 are writing offers again, and why sellers are conceding on price and repairs.\n\nYou are not the only investor who noticed. John Burns data from July 2025 put institutional ownership of Atlanta's single-family rental stock at 27.9%, the highest share in the country, roughly 72,000 houses held by large landlords. That cuts both ways: rent comps are deep and exit liquidity is real, but the cleanest 3/2s in the $250K to $320K band get cash offers fast. Metro rental vacancy runs about 9.3% on the back of a huge apartment supply wave, and that pressure lands mostly on Class A towers, not workforce houses.\n\nWhere deals pencil: at the citywide median with 20% down, the DSCR math lands around 0.8, so Atlanta is a structuring market, not a plug-and-play one. Investors make it work west and south of downtown, in Grove Park, West End, Adair Park, and the Lakewood side of the Southside, where $265K to $330K buys a renovated bungalow renting $1,950 to $2,300, and where BeltLine trail segments keep pulling both rents and values uphill.",
+      "regulationBadge": "friendly",
+      "regulationNote": "Georgia has no rent control and Fulton County dispossessory cases move quickly by national standards, so long-term landlords operate with few constraints; the regulated corner of this market is short-term rentals, not leases.",
+      "neighborhoods": [
+        {
+          "name": "Grove Park",
+          "medianPrice": 275000,
+          "medianRent": 1950,
+          "note": "Westside Park and the Microsoft-owned Quarry Yards land sit next door. Sub-$280K entry with $1,900+ rents, the classic Atlanta path-of-progress buy."
+        },
+        {
+          "name": "West End / Adair Park",
+          "medianPrice": 330000,
+          "medianRent": 2300,
+          "note": "BeltLine Westside Trail bungalows. You pay up versus Grove Park but rent above the citywide median and hold the strongest appreciation story on the Southwest side."
+        },
+        {
+          "name": "Lakewood / South Atlanta",
+          "medianPrice": 275000,
+          "medianRent": 1950,
+          "note": "Southside workhorse rentals near the Lakewood Amphitheatre and the airport commute. Rent-to-price ratios here are what keep Atlanta DSCR files above water."
+        },
+        {
+          "name": "Old Fourth Ward",
+          "medianPrice": 372000,
+          "medianRent": 2200,
+          "note": "Eastside BeltLine premium. Thin cash flow at 20% down, so buyers here are underwriting appreciation and using interest-only structures, not chasing ratio."
+        }
+      ],
+      "localAngle": {
+        "tag": "STR Rules",
+        "title": "Atlanta caps STRs at your primary residence plus one. Underwrite the lease.",
+        "body": "Atlanta's short-term rental ordinance, adopted in 2021 with enforcement live since March 2023, requires an STR license and ties it to occupancy: a host can license their primary residence plus one additional dwelling unit, and the city is explicit that nobody has two primary residences. That structure effectively blocks non-resident investors from building an STR portfolio inside city limits, and enforcement attention ramped up around the 2026 World Cup matches hosted in Atlanta. The practical read for DSCR buyers: treat any Atlanta single-family purchase as a long-term rental first. DSCR lenders here qualify files on the appraiser's market rent schedule, and your matched specialist can structure the loan so it pencils on the lease, leaving any licensed STR income as upside rather than the thing holding the approval together."
+      },
+      "programFit": [
+        "standard-dscr",
+        "interest-only-dscr",
+        "portfolio-dscr",
+        "bridge-to-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 2-bath SFR",
+        "neighborhood": "Grove Park",
+        "purchasePrice": 265000,
+        "downPaymentPct": 25,
+        "downPayment": 66250,
+        "loanAmount": 198750,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 1389,
+        "monthlyTax": 340,
+        "monthlyInsurance": 210,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 1939,
+        "monthlyRent": 2050,
+        "dscr": 1.06,
+        "monthlyCashFlow": 111,
+        "specialistFocus": [
+          "Qualified on the appraiser's market rent schedule at $2,050 for a renovated 3/2, not the tired $1,700 lease the seller had in place",
+          "Underwrote taxes at the full post-sale assessed value using the combined city, county, and school levies instead of the prior owner's homestead bill",
+          "Structured 25% down instead of 20% specifically to clear the lender's ratio threshold with margin"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "How do Atlanta property taxes hit an investor's DSCR math?",
+          "answer": "Harder than most people expect. An investor purchase in the city of Atlanta carries the combined Fulton County, city, and Atlanta Public Schools levies with no homestead exemption, roughly 1.5% of value per year in effective terms. On a $265,000 house that is about $340 a month before principal, interest, or insurance. Fulton also reassesses, so underwrite at your purchase price, not the seller's old assessed value, and protest the assessment annually. Your matched specialist will run the ratio on the real post-sale tax number before you go under contract."
+        },
+        {
+          "question": "Can I run an Airbnb in Atlanta with a DSCR loan?",
+          "answer": "Only in a narrow lane. Atlanta's ordinance ties STR licenses to a host's primary residence plus one additional unit, so a pure investor cannot stack licensed short-term rentals inside the city, and enforcement has been active since 2023 with extra attention around the 2026 World Cup. Most DSCR lenders qualify Atlanta single-family files on long-term market rent from the appraisal, not nightly-rate projections. If a deal only works as an Airbnb, that is a fragile Atlanta deal. Your matched specialist can structure the file so the property carries itself on a lease."
+        },
+        {
+          "question": "Am I competing with Wall Street for Atlanta rentals?",
+          "answer": "In certain boxes, yes. Institutional landlords owned about 27.9% of Atlanta's single-family rental stock as of July 2025, the highest share in the country, concentrated in clean 3/2s in suburban school districts. Two practical responses: move faster with financing that behaves like cash, which is what DSCR pre-approvals through your matched specialist are built for, or buy what the algorithms skip, intown bungalows, small multifamily, and light-rehab houses in Grove Park, West End, and the Southside. The institutional presence also means deep rent comps and real exit liquidity when you sell."
+        },
+        {
+          "question": "Prices fell 2.9% this year. Should I wait?",
+          "answer": "The correction is the reason 2026 buyers are getting terms 2021 buyers dreamed about: seller concessions, inspection repairs, and appraisals that come in clean. Rents on workforce houses barely moved, so the rent-to-price ratio that DSCR qualification lives on has quietly improved. The caveat is thin-margin BRRRR projects, where you should build cushion into your after-repair value rather than betting on a fast rebound. DSCR lenders underwrite today's value and today's rent. If those two numbers work at your entry, the direction of the next 12 months matters a lot less."
+        },
+        {
+          "question": "Which Atlanta submarkets clear the DSCR ratio right now?",
+          "answer": "The ones west and south of downtown. Grove Park, West End, Adair Park, and the Lakewood side of the Southside pair $265,000 to $330,000 purchase prices with $1,950 to $2,300 rents, which is where files clear 1.0 with 25% down. Buckhead condos and north-side luxury rentals usually fail the ratio because prices outrun rents, and high HOA dues make it worse. BeltLine-adjacent streets carry the strongest tenant demand on the Westside, and appraisers there have current, strong rent comps, which matters because the appraisal rent schedule is the number your file lives on."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Atlanta typical home value and YoY change, June 2026",
+        "Zumper Rent Research, Atlanta 3-bed and single-family house rents, July 2026",
+        "Apartments.com, Atlanta rent trend YoY, July 2026",
+        "US Census Housing Vacancies and Homeownership via industry reporting, Atlanta metro rental vacancy, 2024",
+        "Fulton County, City of Atlanta, and Atlanta Public Schools adopted 2025 millage rates at 40% assessment; insurance from Georgia carrier averages, 2026 (est.)",
+        "John Burns Research via Georgia Public Policy Foundation, institutional SFR ownership share, July 2025"
+      ]
+    },
+    {
+      "city": "Savannah",
+      "slug": "savannah",
+      "county": "Chatham County",
+      "metro": "Savannah",
+      "hook": "Savannah homes average $327K and 3-bed houses rent around $2,100, but the real money question is short-term rental permits: 8 of 10 capped downtown wards are full, and the map decides who gets to play.",
+      "metaDescription": "Savannah homes average $327K with 3-bed rents near $2,100. STR permits are capped downtown; see where DSCR deals still work. Match with a specialist.",
+      "market": {
+        "medianPrice": 327000,
+        "medianRent": 2100,
+        "priceToRent": 13,
+        "vacancyRate": 11,
+        "yoyPrice": -2.9,
+        "yoyRent": 0,
+        "estDSCR": 0.82,
+        "propertyTaxRate": 1.62,
+        "insuranceMonthly": 290
+      },
+      "overview": "Savannah runs two rental markets at once. The tourism machine fills short-term rentals in the Historic and Victorian districts, where a 3-bed near the squares can gross more in a strong month than a suburban house grosses in a quarter. The long-term market houses the port economy: Georgia Ports Authority traffic, Gulfstream Aerospace, and the Hyundai Metaplant workforce west of town. The typical home value is about $327,000 as of mid 2026, down 2.9% year over year, with 3-bed houses renting around $2,100 and flat year over year.\n\nTwo honest warnings. First, apartment vacancy runs around 11% because a supply wave hit the metro in 2024 and 2025; that pain concentrates in new Class A complexes, while historic-district housing and single-family rentals lease on a different clock. Second, carrying costs are the highest of any Georgia market on this site: Savannah city property carries roughly 40.5 combined mills, about 1.62% effective for an investor, and coastal wind exposure pushes landlord insurance meaningfully above interior Georgia. Both numbers go in the underwriting or the underwriting is fiction.\n\nAt the citywide median with 20% down the DSCR math lands near 0.82, so long-term Savannah files need submarket selection or structure. What actually clears: Eastside workforce houses bought under $200K, Southside brick ranches with steady tenants, and legally permitted STRs underwritten on projected short-term income where the zoning allows them.",
+      "regulationBadge": "moderate",
+      "regulationNote": "Georgia landlord-tenant law is friendly, but Savannah tightly regulates short-term rentals with ward-level caps downtown, and Chatham County paused new unincorporated STVR licenses in July 2026, so verify the parcel's STVR status before you underwrite nightly income.",
+      "neighborhoods": [
+        {
+          "name": "Starland / Thomas Square",
+          "medianPrice": 400000,
+          "medianRent": 2400,
+          "note": "The arts-district blocks south of Forsyth Park. Strong long-term tenant demand from young professionals, and the Victorian-district STR cap map starts right here, so check the parcel."
+        },
+        {
+          "name": "Streetcar District (MLK corridor)",
+          "medianPrice": 430000,
+          "medianRent": 2300,
+          "note": "TN-2 zoning west of the Historic District where non-owner-occupied STVRs remain permitted without the 20% ward cap. The last clean entry lane for a legal Savannah STR."
+        },
+        {
+          "name": "Eastside / East Savannah",
+          "medianPrice": 180000,
+          "medianRent": 1550,
+          "note": "Sub-$200K entry minutes from downtown, up 3.9% in a year. Workforce long-term rentals where the DSCR math actually clears 1.0 without STR income."
+        },
+        {
+          "name": "Southside (Windsor Forest / Largo)",
+          "medianPrice": 285000,
+          "medianRent": 1995,
+          "note": "1960s brick ranches near the hospitals and Georgia Southern's Armstrong campus. Unglamorous, fully leased, and the roofs and wind mitigation matter more than the finishes."
+        }
+      ],
+      "localAngle": {
+        "tag": "STR Rules",
+        "title": "Savannah's STR map is mostly full. The permit decides the deal.",
+        "body": "Savannah caps non-owner-occupied short-term vacation rentals at 20% of residential parcels per ward in the Downtown and Victorian districts, and as of early 2026 eight of the ten capped wards are full, with waitlists that can run two years or more. Permits do not transfer on sale, owner-occupied units are exempt from the cap, and 2025 updates added a $1,000,000 liability insurance minimum and a 45-minute response requirement for rental agents. Chatham County added a moratorium on new unincorporated-county licenses in July 2026. Where investors still get in: the Streetcar District's TN-2 zoning west of the Historic District permits non-owner-occupied STVRs without the ward cap, and that is where STR-DSCR files belong. DSCR lenders will underwrite projected short-term income there, and your matched specialist can structure the file on nightly income or fall back to the lease if the parcel's status is anything less than certain."
+      },
+      "programFit": [
+        "str-dscr",
+        "standard-dscr",
+        "no-ratio-dscr",
+        "interest-only-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 2-bath rowhouse (STR)",
+        "neighborhood": "Streetcar District (MLK corridor)",
+        "purchasePrice": 425000,
+        "downPaymentPct": 25,
+        "downPayment": 106250,
+        "loanAmount": 318750,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 2228,
+        "monthlyTax": 574,
+        "monthlyInsurance": 425,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 3227,
+        "monthlyRent": 4200,
+        "dscr": 1.3,
+        "monthlyCashFlow": 973,
+        "specialistFocus": [
+          "Placed the file with a lender that underwrites projected short-term rental income, using a market nightly-revenue report instead of the long-term lease schedule",
+          "Confirmed the parcel's TN-2 Streetcar District zoning permits a non-owner-occupied STVR before ordering the appraisal, so the income story survived underwriting",
+          "Sourced a coastal landlord policy meeting the city's $1,000,000 liability minimum and priced wind coverage into the ratio from day one"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Can I still buy a Savannah Airbnb with a DSCR loan in 2026?",
+          "answer": "Yes, but the parcel picks you. Eight of the ten capped wards in the Downtown and Victorian districts are full for non-owner-occupied permits, waitlists run years, and permits die at closing rather than transferring. The clean lane is the Streetcar District, where TN-2 zoning permits investor STVRs without the ward cap. DSCR lenders that offer STR programs will qualify those files on projected nightly income. Buy a capped-ward house hoping for a permit and you own an expensive long-term rental. Your matched specialist will structure the file so it survives either outcome."
+        },
+        {
+          "question": "How bad is coastal insurance for the DSCR ratio here?",
+          "answer": "It is the line item that kills more Savannah files than price. Wind exposure puts landlord premiums meaningfully above interior Georgia, figure roughly $290 a month at the citywide median and more for historic wood-frame construction, and the city now requires $1,000,000 in liability coverage on short-term rentals. Because DSCR divides rent by the full PITIA payment, every $100 of monthly premium moves the ratio by a few hundredths of a point on a typical file. Get a bindable wind-inclusive quote before you write the offer. Your matched specialist will run the ratio on the real premium, not a mainland guess."
+        },
+        {
+          "question": "Savannah apartment vacancy is around 11%. Does that sink a rental house?",
+          "answer": "Mostly no, and it helps buyers. The vacancy spike came from a wave of new Class A apartment complexes delivered in 2024 and 2025, which compete with each other on concessions out by the highways. Single-family houses on the Eastside and Southside, and anything walkable to the squares, rent to a different tenant who is not cross-shopping a lease-up tower. Rents for 3-bed houses held flat year over year through the supply wave, which tells you the segment's demand is intact. Underwrite honestly with a vacancy allowance, but do not price a bungalow like a B-minus apartment."
+        },
+        {
+          "question": "What does the port economy mean for long-term rentals?",
+          "answer": "It is the quiet half of the Savannah story. Georgia Ports Authority container traffic, Gulfstream Aerospace, the hospitals, and the Hyundai Metaplant ramping west of the city fill long-term rentals with W-2 tenants who never appear in the tourism statistics. That demand lands on the Eastside, the Southside, and out toward Pooler and Port Wentworth, exactly the sub-$300K stock where DSCR math clears 1.0 without nightly income. A portfolio built on port-economy leases with one legally permitted STR on top is the structure local investors keep converging on, and it is a file your matched specialist can present cleanly to 70+ lenders."
+        },
+        {
+          "question": "How do Savannah property taxes compare for an investor?",
+          "answer": "They are the heaviest in Georgia on this site. A city of Savannah investor property stacks county, school, city, and transit levies to roughly 40.5 mills, about 1.62% of market value per year at Georgia's 40% assessment ratio with no homestead exemption. On a $327,000 house that is around $440 a month inside your PITIA before insurance. The number is fully knowable before you offer, so there is no excuse for finding it at closing. Your matched specialist will underwrite the full post-sale tax load up front, because a Savannah file that only pencils on the seller's old bill does not pencil."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Savannah typical home value and YoY change, June 2026",
+        "Zumper, Savannah 3-bed house rents and YoY change, July 2026",
+        "Chatham County Tax Commissioner, 2025 millage rates for county, school, city, and transit, 2025",
+        "Tacticares multifamily reporting via McClatchy, Savannah apartment vacancy, 2026",
+        "City of Savannah STVR ordinance plus Surge and Team912 permit guides, ward-cap and zoning status, 2026",
+        "Insurance estimate from Savannah coastal carrier averages, 2026 (est.)"
+      ]
+    },
+    {
+      "city": "Augusta",
+      "slug": "augusta",
+      "county": "Richmond County",
+      "metro": "Augusta-Richmond County",
+      "hook": "Augusta's typical home costs $189K and 3-bed houses rent near $1,500, so the citywide DSCR math clears 1.0 at 20% down, which almost nowhere in 2026 can say. Fort Eisenhower's cyber buildout is the demand engine.",
+      "metaDescription": "Augusta homes average $189K and 3-beds rent near $1,500, so DSCR math clears 1.0 at the median. See Fort Eisenhower's cyber impact. Match with a specialist.",
+      "market": {
+        "medianPrice": 189000,
+        "medianRent": 1500,
+        "priceToRent": 10.5,
+        "vacancyRate": 7,
+        "yoyPrice": 1.9,
+        "yoyRent": -1.9,
+        "estDSCR": 1.09,
+        "propertyTaxRate": 1.16,
+        "insuranceMonthly": 135
+      },
+      "overview": "Augusta is what a cash-flow market looks like in 2026. The typical home value is about $189,000, up 1.9% year over year, while 3-bed houses rent around $1,450 to $1,650 depending on the pocket. Run the standard formula at 20% down and the citywide median produces a DSCR around 1.09, above 1.0 at the median, which Atlanta, Savannah, and Athens cannot claim. Property taxes help: Augusta-Richmond County's urban district levies about 28.9 mills, roughly 1.16% effective for an investor, modest by Georgia standards.\n\nThe demand story is federal. Fort Eisenhower, home of US Army Cyber Command and the Cyber Center of Excellence, anchors an estimated $7.5 billion in annual regional economic impact with over $1.6 billion in infrastructure investment planned through 2028. Cyber soldiers, contractors, and clearance-holding civilians rent houses in West Augusta, Martinez, and Evans, and they pay on time. Add the Medical District, the Savannah River Site workforce, and Augusta University, and you have a tenant base far stickier than the city's size suggests.\n\nAnd yes, the Masters. For one week each April, houses near Washington Road rent for five figures and owners clear tax-free income under the 14-day rule. It is a genuine bonus and a terrible underwriting basis: DSCR files here qualify on long-term market rent, and any tournament-week windfall stays what it is, a windfall. The investors who win Augusta buy the boring lease and treat April as gravy.",
+      "regulationBadge": "friendly",
+      "regulationNote": "Georgia's landlord-friendly framework applies fully in Augusta-Richmond County, evictions move through magistrate court quickly, there is no rent control, and short-term rentals face no citywide cap, so the operating risk here is tenant quality and property condition, not regulation.",
+      "neighborhoods": [
+        {
+          "name": "Summerville",
+          "medianPrice": 320000,
+          "medianRent": 1650,
+          "note": "The historic hill district near Augusta University and the prestige address in town. Thin ratio at full price, but the Masters-week rental demand here is the strongest in the city."
+        },
+        {
+          "name": "West Augusta",
+          "medianPrice": 290000,
+          "medianRent": 1465,
+          "note": "The commuter belt toward Fort Eisenhower's gates and the I-20 retail spine. Cyber-workforce tenants, longer tenancies, and the market's most predictable leasing."
+        },
+        {
+          "name": "South Augusta",
+          "medianPrice": 185000,
+          "medianRent": 1250,
+          "note": "The volume cash-flow zone. Renovated 3/2s buy under $190K and rent to workforce tenants; rent-to-price ratios here are why Augusta portfolios stack fast."
+        },
+        {
+          "name": "Harrisburg",
+          "medianPrice": 150000,
+          "medianRent": 1100,
+          "note": "Mill-village stock next to the Medical District, the local BRRRR lane. Buy distressed, renovate, refinance on the new appraisal, but budget the rehab honestly, this is 1900s housing."
+        }
+      ],
+      "localAngle": {
+        "tag": "Base Growth",
+        "title": "Fort Eisenhower's cyber buildout pays the rent. The Masters is a bonus week.",
+        "body": "Augusta's demand engine is Fort Eisenhower, renamed from Fort Gordon in 2023 and now the home of US Army Cyber Command, the Cyber Center of Excellence, and NSA Georgia. The regional alliance estimates the installation's annual economic impact above $7.5 billion, with more than $1.6 billion in infrastructure investment planned through 2028, and the cyber mission imports exactly the tenant a landlord wants: cleared, salaried, and on multi-year assignments. Then there is Masters week, when ordinary houses near the course rent for more in seven days than some tenants pay in a quarter, tax-free under the 14-day rule. Treat those as two different businesses. DSCR lenders qualify Augusta files on long-term market rent from the appraisal, not on one April. Your matched specialist will structure the loan so the lease carries the payment all twelve months, which keeps tournament income as pure upside instead of a load-bearing assumption."
+      },
+      "programFit": [
+        "standard-dscr",
+        "bridge-to-dscr",
+        "portfolio-dscr"
+      ],
+      "dealExample": {
+        "label": "BRRRR Refinance",
+        "propertyType": "3-bed / 2-bath SFR (renovated)",
+        "neighborhood": "South Augusta",
+        "purchasePrice": 175000,
+        "downPaymentPct": 25,
+        "downPayment": 43750,
+        "loanAmount": 131250,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 917,
+        "monthlyTax": 169,
+        "monthlyInsurance": 130,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 1216,
+        "monthlyRent": 1395,
+        "dscr": 1.15,
+        "monthlyCashFlow": 179,
+        "specialistFocus": [
+          "Structured the refinance on the post-renovation appraised value of $175K, recovering most of the investor's $118K all-in basis from the distressed purchase and rehab",
+          "Qualified on the appraiser's $1,395 market rent for the renovated 3/2 rather than the pre-rehab $1,050 the street's tired comps suggested",
+          "Matched the file to a lender with no seasoning objection to the recent cash purchase, presenting the rehab scope to support the new value"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Can Masters week income help me qualify for a DSCR loan?",
+          "answer": "No, and you should not want it to. DSCR lenders qualify Augusta files on long-term market rent from the appraisal rent schedule, and a one-week income spike, however spectacular, is not a rent schedule. What Masters week actually offers is a legal bonus: rent your property for 14 or fewer days per year and federal law makes that income tax-free. Some owners clear five figures near Washington Road in a single week. Underwrite the boring 12-month lease, let the loan stand on that, and treat April as found money. Your matched specialist structures the file exactly that way."
+        },
+        {
+          "question": "What does Fort Eisenhower's growth actually do for landlords?",
+          "answer": "It manufactures tenants. The cyber mission at Fort Eisenhower, Army Cyber Command, the Cyber Center of Excellence, and NSA Georgia, supports an estimated $7.5 billion in annual regional impact with $1.6 billion in infrastructure investment planned through 2028. Soldiers arrive with housing allowances, contractors arrive with clearances and salaries, and both need rentals in West Augusta, Martinez, and Evans, often on two-to-three-year assignments. That is longer average tenancy and lower collection risk than typical for a market this cheap. The play is buying the ordinary 3/2 in the commuter corridors those tenants already use."
+        },
+        {
+          "question": "Augusta houses are cheap. Is there a minimum DSCR loan size I should know about?",
+          "answer": "Yes, and in this market it is the real constraint. Many DSCR lenders set minimum loan amounts around $75,000 to $100,000, so a $90,000 South Augusta house at 80% financing produces a $72,000 loan that plenty of lenders will not write. Your options: buy slightly better stock so the loan clears the floor, put less down to keep the loan size up, or bundle several cheap houses into one portfolio DSCR loan. Your matched specialist knows which of the 70+ lenders in the network go low and which want the portfolio structure instead."
+        },
+        {
+          "question": "Where does the DSCR math work best in Augusta right now?",
+          "answer": "South Augusta and the Harrisburg-to-Medical-District corridor for pure ratio, West Augusta for tenant quality. A renovated 3/2 in South Augusta at $175,000 renting $1,395 clears a 1.15 ratio with 25% down at today's costs, which is why BRRRR investors keep recycling capital there. West Augusta costs more and the ratio lands closer to 1.0, but cyber-workforce tenants stay longer and the houses need less. Summerville is the appreciation and Masters-demand play, not the cash-flow play. Most Augusta portfolios end up holding a mix, and lenders have no problem with that."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Augusta typical home value and YoY change, June 2026",
+        "Realtor.com, Augusta median rent, rent YoY, and neighborhood price and rent table, July 2026",
+        "Zillow Rental Manager and Apartments.com, Augusta 3-bed rents, July 2026",
+        "Augusta-Richmond County Tax Commissioner, 2025 urban tax district millage 28.921, 2025",
+        "Fort Gordon Cyber District Alliance, Fort Eisenhower economic impact and infrastructure investment, 2025",
+        "Vacancy and insurance estimates from regional market averages, 2026 (est.)"
+      ]
+    },
+    {
+      "city": "Columbus",
+      "slug": "columbus",
+      "county": "Muscogee County",
+      "metro": "Columbus GA-AL",
+      "hook": "Columbus homes average $177K against 3-bed rents near $1,350, and homes go pending in around 16 days. Fort Benning keeps the tenant pipeline full, and the DSCR math clears 1.0 at the citywide median.",
+      "metaDescription": "Columbus GA homes average $177K with 3-bed rents near $1,350 and Fort Benning tenant demand. See where DSCR files pencil. Match with a DSCR specialist.",
+      "market": {
+        "medianPrice": 177000,
+        "medianRent": 1350,
+        "priceToRent": 10.9,
+        "vacancyRate": 8,
+        "yoyPrice": 2.3,
+        "yoyRent": -3.5,
+        "estDSCR": 1.03,
+        "propertyTaxRate": 1.23,
+        "insuranceMonthly": 135
+      },
+      "overview": "Columbus is a military rental market with a river town attached. The typical home value is about $177,000 as of mid 2026, up 2.3% year over year, and homes go pending in around 16 days, the fastest of any Georgia market on this site. Citywide rents softened about 3.5% over the past year as new supply leased up, but 3-bed houses still pull around $1,350, and the citywide DSCR math at 20% down lands right at 1.03, above water at the median.\n\nThe demand anchor is Fort Benning, which got its name back in March 2025 after two years as Fort Moore, now honoring World War I hero Cpl. Fred Benning. As the Army's Maneuver Center of Excellence it cycles tens of thousands of soldiers, instructors, and families through the area, and the ones who live off-post arrive with a housing allowance and a report date. That produces fast leasing near the gates and along the Macon Road and Buena Vista Road corridors, with the tradeoff every military landlord knows: PCS season turnover, roughly every two to three years.\n\nBeyond the base, TSYS and the Synovus banking cluster employ downtown, Piedmont and St. Francis run the hospitals, and the whitewater course keeps pulling Atlanta weekenders to a riverfront that looked very different fifteen years ago. Investors here win by buying renovated 3/2s in East Columbus and Midtown in the $150K to $200K band, renting to BAH-backed tenants, and underwriting the turnover honestly instead of pretending it away.",
+      "regulationBadge": "friendly",
+      "regulationNote": "Georgia's landlord-friendly rules apply and Columbus adds no rent control or STR caps; the local quirk is a homestead assessment freeze that benefits owner-occupants, so investor tax bills run higher than a neighbor's frozen bill suggests, and you should underwrite accordingly.",
+      "neighborhoods": [
+        {
+          "name": "East Columbus",
+          "medianPrice": 185000,
+          "medianRent": 1350,
+          "note": "The volume rental zone along the Macon Road corridor toward the Benning gates. Renovated 3/2s rent fast to military and hospital tenants; this is where Columbus DSCR files live."
+        },
+        {
+          "name": "Midtown",
+          "medianPrice": 190000,
+          "medianRent": 1400,
+          "note": "1940s-60s bungalows between downtown and the mall corridor. Slightly better tenants and appreciation than East Columbus at nearly the same entry price."
+        },
+        {
+          "name": "North Columbus",
+          "medianPrice": 340000,
+          "medianRent": 1600,
+          "note": "The suburban school-district belt. Ratios thin out fast above $300K here, so this is a families-and-appreciation hold, not a cash-flow buy."
+        },
+        {
+          "name": "South Columbus / Benning Hills",
+          "medianPrice": 90000,
+          "medianRent": 950,
+          "note": "Gate-adjacent and very cheap, but condition risk is real and sub-$90K purchases fall below many DSCR lender loan floors. Know what you are buying."
+        }
+      ],
+      "localAngle": {
+        "tag": "Military Demand",
+        "title": "Fort Benning is Fort Benning again. Underwrite the BAH tenant and the turnover.",
+        "body": "The Army base that anchors this market was renamed Fort Moore in 2023 and then restored to Fort Benning in March 2025, this time honoring Cpl. Fred Benning, a World War I Distinguished Service Cross recipient. Whatever the sign says, the economics have not moved: as the Maneuver Center of Excellence, the post trains infantry and armor forces and keeps a constant population of soldiers, instructors, and contractors needing off-post housing with Basic Allowance for Housing to spend. For landlords that means reliable rent and fast leasing near the gates, paired with predictable turnover as tenants PCS every two to three years. DSCR lenders treat military-heavy markets like any other on paper, the file qualifies on the appraisal's market rent, but smart underwriting adds a vacancy and re-lease allowance for PCS season. Your matched specialist can structure the ratio with enough cushion that a summer turnover does not turn a 1.05 file into a personal cash call."
+      },
+      "programFit": [
+        "standard-dscr",
+        "portfolio-dscr",
+        "bridge-to-dscr"
+      ],
+      "dealExample": {
+        "label": "Cash-Out Refinance",
+        "propertyType": "3-bed / 2-bath SFR",
+        "neighborhood": "East Columbus",
+        "purchasePrice": 190000,
+        "downPaymentPct": 25,
+        "downPayment": 47500,
+        "loanAmount": 142500,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 996,
+        "monthlyTax": 195,
+        "monthlyInsurance": 140,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 1331,
+        "monthlyRent": 1450,
+        "dscr": 1.09,
+        "monthlyCashFlow": 119,
+        "specialistFocus": [
+          "Structured a cash-out refinance at 75% of the $190K appraised value on a house the investor owned free and clear, releasing roughly $140K for the next two purchases",
+          "Qualified on the in-place $1,450 lease to a Fort Benning instructor family, supported by the appraiser's rent schedule",
+          "Underwrote taxes at the full investor rate instead of the prior homestead-frozen bill, so the ratio was honest before closing"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Are military tenants good or bad for a DSCR file?",
+          "answer": "Good for the loan, demanding on operations. DSCR qualification runs on the property's market rent, and appraisers in Columbus have deep comps because the rental pool is huge. Operationally, BAH-backed tenants pay reliably and lease quickly, but they leave on orders roughly every two to three years, so your real-world numbers need a re-lease allowance every couple of summers. The mistake is underwriting a 1.02 ratio with zero vacancy cushion. Your matched specialist can structure the down payment so the file clears with margin, which is what turns PCS season from a crisis into a calendar event."
+        },
+        {
+          "question": "Does the Fort Moore / Fort Benning renaming change anything for investors?",
+          "answer": "Nothing economic. The post was renamed Fort Moore in 2023 and restored to Fort Benning in March 2025 honoring a different Benning, Cpl. Fred Benning of World War I. The mission that matters to landlords, the Maneuver Center of Excellence and its constant rotation of trainees, instructors, and support staff, never moved. If anything, the episode is a reminder to underwrite the mission rather than the headlines: as long as infantry and armor training lives here, off-post rental demand in East Columbus and along the gate corridors is structural, not cyclical."
+        },
+        {
+          "question": "Can I finance the really cheap houses in South Columbus with a DSCR loan?",
+          "answer": "Often not, and the reason is loan floors, not the neighborhood. An $80,000 to $90,000 purchase at 80% financing produces a loan in the $64,000 to $72,000 range, below the $75,000 to $100,000 minimums many DSCR lenders enforce. Options that work: buy the better-condition $130K+ stock where the loan clears the floor, bundle several cheap houses into a single portfolio DSCR loan, or use a no-ratio structure where the numbers demand it. Your matched specialist knows which of the 70+ lenders accept small-balance files and which want the bundle."
+        },
+        {
+          "question": "Rents in Columbus fell 3.5% this year. Is the market weakening?",
+          "answer": "It is normalizing, not breaking. The dip is concentrated in apartment complexes that delivered into 2024-2025 demand, while 3-bed houses near the base still lease in days at $1,300 to $1,500. Meanwhile prices rose 2.3% and homes go pending in about 16 days, which is not what a weakening market looks like. For a DSCR buyer the honest read is: underwrite today's rent, not 2022's, and favor single-family over anything competing directly with a lease-up special. At a $177,000 median with rents at these levels, the ratio math still clears 1.0 citywide, softness and all."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Columbus GA typical home value, YoY change, and days to pending, June 2026",
+        "Zillow Rental Manager and Apartments.com, Columbus 3-bed rents, July 2026",
+        "Realtor.com, Columbus median rent YoY and neighborhood price and rent table, July 2026",
+        "Columbus Consolidated Government and Muscogee County School District, 2025 millage rates, 2025",
+        "US Army announcement, Fort Benning name restoration, March 2025",
+        "Vacancy and insurance estimates from regional market averages, 2026 (est.)"
+      ]
+    },
+    {
+      "city": "Macon",
+      "slug": "macon",
+      "county": "Bibb County",
+      "metro": "Macon-Bibb County",
+      "hook": "Macon's typical home value is $176K, one of the cheapest metro entries in the Southeast, and 3-bed houses rent near $1,250. The constraint here is not the market, it is DSCR lender loan floors, and knowing which lenders go low.",
+      "metaDescription": "Macon homes average $176K, among the cheapest DSCR entries in the Southeast. See how lender loan floors shape sub-$200K deals. Match with a specialist.",
+      "market": {
+        "medianPrice": 176000,
+        "medianRent": 1250,
+        "priceToRent": 11.7,
+        "vacancyRate": 8,
+        "yoyPrice": 2.3,
+        "yoyRent": 1.6,
+        "estDSCR": 0.99,
+        "propertyTaxRate": 0.97,
+        "insuranceMonthly": 135
+      },
+      "overview": "Macon is the cheapest ticket into a real Southeast metro. The typical home value is about $176,000 as of mid 2026, up 2.3% year over year, homes go pending in around 24 days, and huge swaths of the city trade under $200,000. Rents are proportionate, a 3-bed house pulls roughly $1,200 to $1,350, and the citywide DSCR math at 20% down lands at about 0.99, a rounding error from 1.0 before you even pick a submarket. Taxes are the quiet advantage: Macon-Bibb has cut its millage five consecutive years, and the combined county-plus-school levy of about 24.25 mills works out near 0.97% effective for an investor, the lowest of any Georgia market on this site.\n\nThe economy is steadier than the price tag implies. Atrium Health Navicent's medical center is the region's anchor employer, GEICO runs a major regional office, Mercer University adds students and staff, and the I-75 and I-16 interchange keeps warehouse and logistics payrolls growing. An hour and a half down I-75 from Atlanta, Macon also catches investors priced out of that market, which partly explains the 71-mile-radius license plates at every courthouse auction.\n\nThe catch is financing mechanics, not fundamentals. Much of Macon's stock is cheap enough that an 80% loan falls below the $75,000 to $100,000 minimum loan amounts many DSCR lenders enforce. The investors who scale here either buy the $140K-plus renovated stock, or bundle houses into portfolio loans. Structure, not luck.",
+      "regulationBadge": "friendly",
+      "regulationNote": "Macon-Bibb is about as landlord-friendly as American markets get, no rent control, quick magistrate-court dispossessory process, no STR caps, and a government that has cut the property tax levy five years running; your real risks are property condition and tenant screening, not rules.",
+      "neighborhoods": [
+        {
+          "name": "North Macon (Rivoli / Wesleyan)",
+          "medianPrice": 250000,
+          "medianRent": 1650,
+          "note": "The premium school-zone belt off Forsyth Road. Thinner ratio but the strongest tenants and resale in the county, this is where Macon's doctors and GEICO managers rent."
+        },
+        {
+          "name": "Ingleside / Midtown",
+          "medianPrice": 185000,
+          "medianRent": 1350,
+          "note": "Walkable 1930s-50s cottage stock near the hospital corridor. The best balance of tenant quality and entry price in the city, and the sweet spot for clean DSCR files."
+        },
+        {
+          "name": "Vineville",
+          "medianPrice": 160000,
+          "medianRent": 1200,
+          "note": "Historic avenue stock between downtown and Ingleside. Buy renovated or budget real rehab, but rents hold up and the loan size still clears most lender floors."
+        },
+        {
+          "name": "East Macon",
+          "medianPrice": 95000,
+          "medianRent": 950,
+          "note": "Deep value near the Ocmulgee Mounds side of the river. Gross yields look spectacular on paper; loan floors, condition, and collections decide whether they materialize."
+        }
+      ],
+      "localAngle": {
+        "tag": "Loan Floors",
+        "title": "Sub-$200K houses everywhere. The question is the lender's minimum loan amount.",
+        "body": "Macon's superpower and its financing problem are the same fact: the houses are cheap. A $176,000 citywide median means an enormous share of investable stock prices between $80,000 and $150,000, and with 80% loans the bottom half of that range produces balances of $64,000 to $100,000. Many DSCR lenders will not write below $75,000, and plenty draw the line at $100,000 or $150,000, so the deal that pencils beautifully on rent-to-price can still die in program guidelines. Three structures solve it. Buy the $140,000-plus renovated stock in Ingleside or Vineville so the loan clears common floors. Put less down on small purchases so the loan amount stays above the minimum. Or bundle three to five cheap houses into a single portfolio DSCR loan with one payment and one closing. Your matched specialist knows which of the 70+ lenders in the network go low on loan size and which want the portfolio wrapper, which is exactly the kind of matching problem this site exists to solve."
+      },
+      "programFit": [
+        "standard-dscr",
+        "portfolio-dscr",
+        "bridge-to-dscr",
+        "no-ratio-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 2-bath SFR",
+        "neighborhood": "Ingleside / Midtown",
+        "purchasePrice": 155000,
+        "downPaymentPct": 20,
+        "downPayment": 31000,
+        "loanAmount": 124000,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 867,
+        "monthlyTax": 125,
+        "monthlyInsurance": 130,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 1122,
+        "monthlyRent": 1295,
+        "dscr": 1.15,
+        "monthlyCashFlow": 173,
+        "specialistFocus": [
+          "Kept the down payment at 20% deliberately so the $124K loan cleared the lender's $100K minimum with room to spare, while the ratio still hit 1.15",
+          "Qualified on the appraiser's $1,295 market rent for the renovated cottage, in line with hospital-corridor comps",
+          "Underwrote Macon-Bibb's combined levy at the full investor assessment, roughly $125 a month, one of the lightest tax loads in Georgia"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Why do DSCR lenders reject cheap Macon houses that cash flow great?",
+          "answer": "Minimum loan amounts. A $90,000 house with 80% financing needs a $72,000 loan, and many DSCR lenders set floors at $75,000 or $100,000 regardless of how well the deal pencils. It is a program guideline, not a judgment on your deal. The workarounds are mechanical: buy slightly better stock so the loan clears the floor, reduce the down payment so the loan amount rises, or bundle several houses into one portfolio loan. Your matched specialist knows which of the 70+ lenders write small-balance files and which need the bundle, and matching that correctly is the whole game in Macon."
+        },
+        {
+          "question": "Is Macon's low property tax real, and will it last?",
+          "answer": "It is real today: Macon-Bibb has reduced its millage five consecutive years, landing at 9.575 mills for 2025, and with the Bibb school levy at 14.674 the combined load is about 24.25 mills, roughly 0.97% of market value for an investor at Georgia's 40% assessment ratio. That is the lightest tax drag of any Georgia market on this site and it is worth a meaningful chunk of DSCR ratio on every file. No one can promise future budgets, so underwrite the current number and enjoy it, but do not build a thesis that requires taxes to keep falling."
+        },
+        {
+          "question": "Who actually rents houses in Macon?",
+          "answer": "Hospital staff, insurance and logistics payrolls, and Mercer-affiliated tenants. Atrium Health Navicent anchors the medical corridor that Ingleside and Vineville feed, GEICO's regional office employs thousands, and the I-75/I-16 interchange keeps adding warehouse jobs. That mix rents $1,100 to $1,400 houses all day and is far less cyclical than a single-employer town. Screening matters more here than in pricier metros because the tenant pool is wide: the difference between a 1.15 file performing and disappointing is usually collections discipline, not the market. Buy the corridor, screen hard, and Macon behaves."
+        },
+        {
+          "question": "Should I expect appreciation in Macon or just cash flow?",
+          "answer": "Underwrite for cash flow and let appreciation surprise you. Values rose 2.3% over the past year, which is healthy but modest, and Macon has never been a boom market. What it offers instead is entry math that works at the median, near-1.0 DSCR citywide at 20% down before submarket selection, and a tax structure that keeps operating costs low while you hold. Investors chasing equity growth put their money 85 miles north and accept negative carry to get it. Investors who want the payment covered from month one keep choosing Macon. Know which trade you are making."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Macon typical home value, YoY change, and days to pending, June 2026",
+        "Zillow Rental Manager and Realtor.com, Macon 3-bed and single-family rents, July 2026",
+        "Apartments.com, Macon-Bibb rent trend YoY, July 2026",
+        "Macon-Bibb County and Bibb County School District, 2025 millage rates of 9.575 and 14.674, 2025",
+        "Vacancy and insurance estimates from regional market averages, 2026 (est.)"
+      ]
+    },
+    {
+      "city": "Athens",
+      "slug": "athens",
+      "county": "Clarke County",
+      "metro": "Athens-Clarke County",
+      "hook": "Athens homes average $344K on the back of 43,888 UGA students, and 3-bed houses rent near $1,900. Occupancy is bulletproof, entry is expensive, and the DSCR math takes real structuring.",
+      "metaDescription": "Athens homes average $344K with UGA driving 3-bed rents near $1,900. See how DSCR lenders treat student rentals. Match with a DSCR loan specialist.",
+      "market": {
+        "medianPrice": 344000,
+        "medianRent": 1900,
+        "priceToRent": 15.1,
+        "vacancyRate": 5,
+        "yoyPrice": 1.9,
+        "yoyRent": 1.7,
+        "estDSCR": 0.77,
+        "propertyTaxRate": 1.25,
+        "insuranceMonthly": 180
+      },
+      "overview": "Athens is a university town with university-town math. The University of Georgia enrolled a record 43,888 students in fall 2025, and that engine keeps the typical home value at about $344,000, up 1.9% year over year, while 3-bed houses rent near $1,900 and vacancy runs tight. Rents rose about 1.7% over the past year. Demand is not the problem here; price is. At the citywide median with 20% down, the DSCR formula produces roughly 0.77, the weakest headline ratio of any Georgia market on this site, which is exactly why Athens files get structured instead of rubber-stamped.\n\nThe student-rental economy is its own discipline. Close to campus, houses lease by the bed at $600 to $800 per room on 12-month leases signed the previous fall, so a 4-bed near Milledge Avenue can gross $2,600 to $3,000 while the same house six miles out rents whole for $1,800. Competition is real: purpose-built student housing towers keep delivering downtown, and UGA opens a 566-bed first-year residence hall in fall 2026. New towers compete on amenities; older houses compete on price and porch. Both keep filling.\n\nBeyond campus, Piedmont Athens Regional and St. Mary's anchor healthcare employment, Boehringer Ingelheim and the poultry-science complex add industry, and Atlanta commuters push demand on the west side. The non-student play, Eastside 3/2s renting to families and hospital staff, is quieter, cheaper, and often the cleaner DSCR file.",
+      "regulationBadge": "moderate",
+      "regulationNote": "Georgia's landlord-friendly baseline applies, but Athens-Clarke zoning restricts how many unrelated tenants can share a house in single-family districts, which caps the by-the-bed model outside multifamily zones, so verify the parcel's zoning before underwriting a per-room pro forma.",
+      "neighborhoods": [
+        {
+          "name": "Five Points",
+          "medianPrice": 460000,
+          "medianRent": 2600,
+          "note": "The blue-chip student address south of campus. Per-bed leasing at premium rents, pre-leased a year ahead, but entry prices mean the ratio needs interest-only or a heavy down payment."
+        },
+        {
+          "name": "Baxter / Milledge corridor",
+          "medianPrice": 380000,
+          "medianRent": 2600,
+          "note": "Walk-to-campus 4-beds that lease by the room every fall. The strongest gross rents per dollar of any student pocket, and the natural home for structured DSCR files."
+        },
+        {
+          "name": "Normaltown / Boulevard",
+          "medianPrice": 420000,
+          "medianRent": 2300,
+          "note": "Historic bungalows near the medical campus renting to residents, professors, and grad students. Lower turnover than undergrad blocks, better appreciation than the Eastside."
+        },
+        {
+          "name": "Eastside (Gaines School / Cedar Creek)",
+          "medianPrice": 285000,
+          "medianRent": 1750,
+          "note": "The non-student play: 1970s-90s 3/2s renting to families and hospital staff. Cheapest entry in the county and the cleanest whole-house DSCR math in Athens."
+        }
+      ],
+      "localAngle": {
+        "tag": "Student Rentals",
+        "title": "43,888 Bulldogs need housing. DSCR lenders fund it, on their terms.",
+        "body": "UGA's fall 2025 enrollment hit a record 43,888, and the university's own beds cover only a fraction of it, so private landlords house the rest on a rhythm every Athens investor learns fast: 12-month leases signed the previous fall, by-the-bed pricing near campus, and one brutal truth, miss the August cycle and the house can sit until January. DSCR lenders finance student rentals, but on their terms. The file qualifies on the appraiser's whole-house market rent, not your per-room pro forma, some lenders cap bedroom counts or sour on leases with four separate signers, and Athens-Clarke zoning limits unrelated occupants in single-family districts, which can quietly invalidate a per-bed plan. Competition is also arriving: purpose-built student towers keep delivering downtown and UGA opens a 566-bed residence hall in fall 2026, pressure that lands hardest on mediocre product at premium prices. Your matched specialist knows which of the 70+ lenders are comfortable with student files and structures the ratio on numbers an appraiser will actually support."
+      },
+      "programFit": [
+        "standard-dscr",
+        "interest-only-dscr",
+        "portfolio-dscr",
+        "no-ratio-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "4-bed / 2-bath SFR (student rental)",
+        "neighborhood": "Baxter / Milledge corridor",
+        "purchasePrice": 380000,
+        "downPaymentPct": 25,
+        "downPayment": 95000,
+        "loanAmount": 285000,
+        "loanType": "30-Year Fixed, 10-Year Interest-Only",
+        "interestOnly": true,
+        "monthlyPI": 1781,
+        "monthlyTax": 396,
+        "monthlyInsurance": 185,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 2362,
+        "monthlyRent": 2600,
+        "dscr": 1.1,
+        "monthlyCashFlow": 238,
+        "specialistFocus": [
+          "Structured a 10-year interest-only period to move the ratio from below 1.0 amortizing to 1.1, matching the payment to the house's strongest cash-flow years",
+          "Qualified on the appraiser's $2,600 whole-house market rent, defensible from walk-to-campus comps, rather than the investor's higher per-bed projection",
+          "Matched the file to a lender comfortable with a four-signer student lease and verified the parcel's zoning supported the occupancy before ordering the appraisal"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Do DSCR lenders actually finance student rentals in Athens?",
+          "answer": "Yes, with three caveats that decide the outcome. First, qualification runs on the appraiser's whole-house market rent, so a per-bed pro forma that grosses $3,000 does not help if the 1007 form says $2,600. Second, some lenders cap bedroom counts, dislike four-signer leases, or decline student-heavy files outright, so lender selection matters more here than in most markets. Third, Athens-Clarke zoning limits unrelated occupants in single-family districts, which can make a per-room plan illegal on the wrong parcel. Your matched specialist screens for all three before you spend appraisal money."
+        },
+        {
+          "question": "What is the August lease-cycle risk everyone mentions?",
+          "answer": "Athens student rentals lease on one calendar. Students sign 12-month leases in the preceding fall and move in August; a house that misses that window can sit half-empty until the spring semester, sometimes longer. That risk does not appear in the DSCR calculation, which uses market rent, but it absolutely appears in your bank account. Practical defenses: buy pre-leased when possible, list renewal season aggressively early, and hold reserves for one missed cycle. If the payment only works with twelve perfect months, the structure is too tight, and your matched specialist can build in more cushion."
+        },
+        {
+          "question": "Will the new student housing towers crush older rental houses?",
+          "answer": "They compete, but not head-on. Purpose-built student housing keeps delivering downtown and UGA adds a 566-bed first-year hall in fall 2026, which pressures rents on dated mid-tier apartments most directly. Houses in Five Points and along Milledge sell something a tower cannot: a porch, a yard, five friends under one roof, and proximity to game day. That product has stayed pre-leased through every construction cycle. The vulnerable asset is the mediocre house at a premium price. Buy either the irreplaceable location or the Eastside value play, and the towers become background noise."
+        },
+        {
+          "question": "Is there a non-student way to invest in Athens?",
+          "answer": "The Eastside, and it is often the better DSCR file. Gaines School and Cedar Creek 3/2s run around $285,000 and rent near $1,750 to families, hospital staff from Piedmont Athens Regional, and university employees who want nothing to do with undergrad blocks. Turnover is lower, August means nothing, and the whole-house lease is exactly what a DSCR appraisal wants to see. The ratio still needs a healthy down payment at Athens prices, but the file is simpler and the operations are quieter. Plenty of Athens portfolios pair one campus-adjacent student house with two Eastside workhorses."
+        },
+        {
+          "question": "How do Athens property taxes treat an investor?",
+          "answer": "Moderately, by Georgia standards. The Athens-Clarke unified government levied 12.45 mills for 2025 and the Clarke County School District 18.8, about 31.25 combined, which works out near 1.25% of market value for an investor at the state's 40% assessment ratio, with no homestead exemption softening it. On a $380,000 student house that is roughly $396 a month inside the payment. It sits between Macon's light load and Savannah's heavy one, and it is fully predictable, so the only mistake available is underwriting the seller's exempted bill instead of your own. Your matched specialist runs the investor number from the start."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Athens typical home value and YoY change, June 2026",
+        "Zumper, Athens 3-bed rents, July 2026",
+        "Apartments.com, Athens rent trend YoY, July 2026",
+        "Athens-Clarke County Unified Government and Clarke County School District, 2025 millage rates of 12.45 and 18.8, 2025",
+        "University of Georgia, fall 2025 enrollment of 43,888 and 566-bed residence hall opening fall 2026, 2025",
+        "Vacancy and insurance estimates from local market averages, 2026 (est.)"
+      ]
+    },
+    {
+      "city": "Marietta",
+      "slug": "marietta",
+      "county": "Cobb County",
+      "metro": "Atlanta-Sandy Springs-Roswell",
+      "hook": "Marietta's typical home runs $481K, but the DSCR action is south of the Square, where $300K to $330K houses rent for $2,000 plus. Lockheed just announced 1,200 new Marietta jobs next door to Dobbins.",
+      "metaDescription": "Marietta averages $481K but Fair Oaks and south Cobb buy near $315K with rents over $2,000. See where the DSCR math works and match with a specialist.",
+      "market": {
+        "medianPrice": 481000,
+        "medianRent": 2300,
+        "priceToRent": 17.4,
+        "vacancyRate": 8.2,
+        "yoyPrice": -1.6,
+        "yoyRent": -1.5,
+        "estDSCR": 0.68,
+        "propertyTaxRate": 1.25,
+        "insuranceMonthly": 185
+      },
+      "overview": "Marietta is Cobb County's employment anchor wearing a suburb's clothes. The typical home value sits near $481,000 as of mid 2026, down 1.6% year over year, while 3-bed houses rent around $2,300. That citywide math is rough, but Marietta is really three markets: the expensive east Cobb pocket that carries a Walton and Pope school premium, the mid-priced core around the Square, and the workforce south side where the numbers actually pencil.\n\nThe tenant base is unusually durable for a suburb. Lockheed Martin's 8-million-square-foot plant supports more than 5,600 local jobs and announced 1,200 more Marietta-based positions in June 2026. Dobbins Air Reserve Base sits on the same runway, WellStar Kennestone is one of the busiest hospitals in Georgia, and Life University keeps a steady stream of graduate students renting close to campus. Metro Atlanta rental vacancy runs about 8.2%, but most of that pressure is new Class A apartments, not the 3-bed houses these tenants actually want.\n\nWhere deals pencil: Fair Oaks and the Franklin Gateway corridor, where $300,000 to $330,000 buys a rentable 3/2 pulling $2,000 to $2,100. One structural note: city-limits properties pay the Marietta City Schools stack at about 31.2 mills, roughly 1.25% effective for an investor, while unincorporated Marietta addresses are taxed on the Cobb schedule. Confirm which side of the line your address sits on before you underwrite.",
+      "regulationBadge": "friendly",
+      "regulationNote": "Georgia bans rent control statewide and Cobb evictions move quickly, so long-term landlords face few constraints; short-term rentals are the exception, with Cobb County and Marietta both regulating STRs tightly in single-family areas.",
+      "neighborhoods": [
+        {
+          "name": "Fair Oaks",
+          "medianPrice": 315000,
+          "medianRent": 2050,
+          "note": "Unincorporated pocket between Dobbins and the Square. Sub-$330K 3/2s renting over $2,000 make this the cleanest DSCR entry in Marietta."
+        },
+        {
+          "name": "Franklin Gateway corridor",
+          "medianPrice": 300000,
+          "medianRent": 1995,
+          "note": "The city has poured redevelopment money into this stretch. Older stock at the lowest price points in Marietta proper, with steady workforce tenant demand."
+        },
+        {
+          "name": "Marietta Square / Church Street",
+          "medianPrice": 380000,
+          "medianRent": 2250,
+          "note": "Walkable-to-the-Square bungalows lease fast to hospital and Lockheed staff. Thinner cash flow than the south side, stronger tenant quality and appreciation."
+        },
+        {
+          "name": "East Cobb (Marietta addresses)",
+          "medianPrice": 565000,
+          "medianRent": 2850,
+          "note": "Walton and Pope school districts push prices far past what rents support. Appreciation and school-demand play, not a cash-flow play, at 20% down."
+        }
+      ],
+      "localAngle": {
+        "tag": "Employment Base",
+        "title": "Lockheed, Dobbins, and Life University keep Marietta's 3-bed rentals full.",
+        "body": "Marietta's rental demand is anchored by institutions that do not follow the housing cycle. Lockheed Martin supports more than 5,600 jobs at its Marietta facility and announced 1,200 additional local positions in June 2026. Dobbins Air Reserve Base shares the flight line and adds reservists, contractors, and visiting crews who rent rather than buy. Life University students and WellStar Kennestone hospital staff fill in the rest. The practical read for a DSCR file: appraisal rent schedules in south and central Marietta come back strong because tenant demand is deep at the $1,900 to $2,300 level, exactly where Fair Oaks and Franklin Gateway houses rent. The school-driven east side is the opposite, prices outrun rents and ratios fail. Your matched specialist can structure around that split, keeping the file in the submarkets where the appraisal rent actually covers the payment."
+      },
+      "programFit": [
+        "standard-dscr",
+        "interest-only-dscr",
+        "portfolio-dscr",
+        "bridge-to-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 2-bath SFR",
+        "neighborhood": "Fair Oaks",
+        "purchasePrice": 315000,
+        "downPaymentPct": 30,
+        "downPayment": 94500,
+        "loanAmount": 220500,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 1541,
+        "monthlyTax": 328,
+        "monthlyInsurance": 160,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 2029,
+        "monthlyRent": 2100,
+        "dscr": 1.03,
+        "monthlyCashFlow": 71,
+        "specialistFocus": [
+          "Structured the file at 30% down after the 20% down version came in below a 1.0 ratio",
+          "Qualified on the appraiser's market rent schedule at $2,100, supported by Lockheed and Kennestone tenant comps",
+          "Underwrote taxes at the full post-sale assessed value instead of the seller's homestead-exempted bill"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Why is the DSCR math so different across Marietta?",
+          "answer": "Because Marietta is three markets sharing one name. East Cobb addresses carry a school premium that pushes typical values past $565,000 while rents top out near $2,850, so ratios fail badly. The core around the Square is middle ground. The south side, Fair Oaks and Franklin Gateway, is where $300,000 to $330,000 houses rent for $2,000 or more and files clear 1.0 with a bigger down payment. DSCR lenders do not care about the school district, they care about rent over payment. Your matched specialist will run the ratio by pocket, not by the citywide average, before you write an offer."
+        },
+        {
+          "question": "How do Marietta property taxes work for an investor?",
+          "answer": "Inside the city limits you pay the City of Marietta stack, about 31.2 mills across county, city, and Marietta City Schools, which works out to roughly 1.25% of market value for an investor with no homestead exemption. Unincorporated Cobb addresses with Marietta mailing addresses are taxed on the county schedule instead, which lands a bit lower. The trap is underwriting off the seller's exempted tax bill: Cobb reassesses and an investor gets no homestead break. Your matched specialist will build the tax line from the purchase price and the correct millage before locking the ratio."
+        },
+        {
+          "question": "Can I run a short-term rental in Marietta with a DSCR loan?",
+          "answer": "Plan on long-term rent, not nightly income. Cobb County adopted short-term rental rules in 2022 with occupancy and parking limits, and Marietta is restrictive about STRs in single-family zoning, so the regulatory footing is narrow. Most DSCR lenders in this market qualify single-family files on the appraisal's long-term market rent anyway. If a Marietta deal only pencils on Airbnb projections, it is fragile twice over, once at the city and once at the lender. Structure it to carry itself on a lease, and treat any STR income as upside rather than the basis of qualification."
+        },
+        {
+          "question": "Is Lockheed concentration a risk for Marietta rentals?",
+          "answer": "It is worth understanding but it cuts the other way right now. Lockheed's Marietta plant supports more than 5,600 jobs and announced 1,200 additional positions in June 2026, on top of 75 years of continuous production. Dobbins Air Reserve Base, WellStar Kennestone, and Life University diversify the base further, and none of them behave like a single private employer. For underwriting, the concentration shows up as strength: appraisers can document deep tenant demand at workforce rent levels, which keeps market rent schedules firm. A portfolio spread across south Marietta pockets is not living on one paycheck."
+        },
+        {
+          "question": "Prices in Marietta slipped 1.6% this year. Should I wait?",
+          "answer": "The slip is what makes the math close. Values are down 1.6% year over year while 3-bed rents hold near $2,300 citywide, so the rent-to-price ratio a DSCR lender divides is improving. Sellers on the south side are negotiating on price and repairs in a way they were not in 2022. DSCR loans qualify on today's rent against today's payment, and today's spread in Fair Oaks and Franklin Gateway clears 1.0 at 30% down. Waiting for a lower price risks giving back more in rate environment and competition than the discount is worth. Buy where the ratio already works."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Marietta typical home value and YoY change, June 2026",
+        "Zumper Rent Research and Zillow Rental Manager, Marietta 3-bed rents, July 2026",
+        "US Census Housing Vacancy Survey via Innago, Atlanta metro rental vacancy, 2025",
+        "City of Marietta, total 31.247 mills 2025 millage, converted to investor effective, 2025",
+        "Georgia Department of Economic Development, Lockheed Martin Marietta jobs announcement, June 2026",
+        "Obie Insurance state averages, Georgia landlord insurance at median price, 2026 (est.)"
+      ]
+    },
+    {
+      "city": "Decatur",
+      "slug": "decatur",
+      "county": "DeKalb County",
+      "metro": "Atlanta-Sandy Springs-Roswell",
+      "hook": "The typical City of Decatur listing tops $600K against $3,100 house rents, math that fails every DSCR floor at 20% down. Investors here either buy the school premium on a No-Ratio file or buy the other Decatur, the unincorporated side.",
+      "metaDescription": "City of Decatur medians top $600K and DSCR math runs weak at 20% down. See the No-Ratio play and the cheaper DeKalb side. Match with a DSCR specialist.",
+      "market": {
+        "medianPrice": 620000,
+        "medianRent": 3100,
+        "priceToRent": 16.7,
+        "vacancyRate": 8.2,
+        "yoyPrice": -4.6,
+        "yoyRent": -4.1,
+        "estDSCR": 0.66,
+        "propertyTaxRate": 1.95,
+        "insuranceMonthly": 210
+      },
+      "overview": "Decatur is the most misunderstood address in metro Atlanta investing, because \"Decatur\" is two different markets wearing the same zip-code family. The City of Decatur proper, roughly the 30030 core, is a 4-square-mile school-premium market where the median listing runs about $620,000 and 3-bed houses rent near $3,100 to $3,200. Unincorporated DeKalb County with Decatur mailing addresses, most of 30032, 30034, and 30035, is a workforce market where the same money buys two houses. Zillow's blended value for all Decatur addresses is about $283,000, which tells you how wide the gap is.\n\nCity-proper math at 20% down does not work, and pretending otherwise is how investors get hurt here. The City Schools of Decatur premium is real, homes near Decatur High command some of the strongest demand in the metro, but the city assesses at 50% of value with a 20.30 mill school levy plus about 11.2 city mills and the DeKalb county layer on top. Call it roughly 1.95% effective for an investor. Rent does not scale with the premium.\n\nSo Decatur splits into two honest plays. Inside the city: an appreciation and tenant-quality hold financed as a No-Ratio file, where no DSCR floor applies and the negative carry is a deliberate cost of owning the school premium. Outside the city: Belvedere Park and Candler-McAfee, where $260,000 to $310,000 houses rent for $1,650 to $1,750 and standard files get close on ratio. Know which Decatur your contract is in before you underwrite anything.",
+      "regulationBadge": "friendly",
+      "regulationNote": "Georgia law preempts rent control everywhere including the City of Decatur, and DeKalb evictions follow standard state process, so the real investor cost here is the city-proper tax stack, not landlord regulation.",
+      "neighborhoods": [
+        {
+          "name": "Oakhurst",
+          "medianPrice": 725000,
+          "medianRent": 3300,
+          "note": "City-proper bungalow district near Decatur High. The definitive school-premium hold: weak ratio, elite tenant demand, long appreciation track record. No-Ratio territory."
+        },
+        {
+          "name": "Winnona Park",
+          "medianPrice": 750000,
+          "medianRent": 3200,
+          "note": "Quiet city-proper streets with the same City Schools of Decatur pull as Oakhurst at slightly larger lot sizes. Same math: buy it for the asset, not the cash flow."
+        },
+        {
+          "name": "Belvedere Park",
+          "medianPrice": 310000,
+          "medianRent": 1750,
+          "note": "Unincorporated DeKalb with a Decatur mailing address. Half the price basis of the city, DeKalb-schedule taxes, and brick ranches that rent all day at $1,700 plus."
+        },
+        {
+          "name": "Candler-McAfee",
+          "medianPrice": 260000,
+          "medianRent": 1650,
+          "note": "The cheapest Decatur-address entry. Rent-to-price is the best in the area, condition varies widely, so budget the inspection and rehab line honestly."
+        }
+      ],
+      "localAngle": {
+        "tag": "Address Trap",
+        "title": "The Decatur address trap: city limits or mailing address changes your whole file.",
+        "body": "Every street in this area says Decatur on the envelope, but only the 4-square-mile City of Decatur pays City of Decatur taxes and prices in the City Schools of Decatur premium. The city assesses property at 50% of value for its own levies, DeKalb uses 40%, and the combined city, school, and county stack lands near 1.95% effective for an investor, among the heaviest in the metro. Cross the city line into unincorporated DeKalb and the same mailing address drops to a DeKalb-schedule tax bill and a price basis that is often $300,000 lighter. That single boundary decides your tax line, your purchase price, and whether the file qualifies on ratio at all. Before you underwrite, pull the parcel in DeKalb's GIS and confirm jurisdiction, do not trust the listing. Your matched specialist will build the tax line from the actual taxing authority, then pick the program to match: standard DSCR outside the line, No-Ratio inside it."
+      },
+      "programFit": [
+        "no-ratio-dscr",
+        "standard-dscr",
+        "interest-only-dscr",
+        "bridge-to-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 2-bath bungalow",
+        "neighborhood": "Oakhurst",
+        "purchasePrice": 675000,
+        "downPaymentPct": 30,
+        "downPayment": 202500,
+        "loanAmount": 472500,
+        "loanType": "No-Ratio DSCR, 30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 3303,
+        "monthlyTax": 1097,
+        "monthlyInsurance": 225,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 4625,
+        "monthlyRent": 3400,
+        "dscr": 0.74,
+        "monthlyCashFlow": -1225,
+        "specialistFocus": [
+          "Structured the file as No-Ratio so the 0.74 coverage never hit a DSCR floor, qualifying on credit, assets, and 70% LTV instead",
+          "Underwrote the full City of Decatur tax stack at the 50% assessment ratio rather than the DeKalb-only figure on the listing",
+          "Documented reserves to carry the planned negative cash flow as a deliberate school-premium appreciation hold"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "How do I know if a property is in the City of Decatur or just has a Decatur address?",
+          "answer": "Pull the parcel in DeKalb County's GIS or check the tax bill for a City of Decatur line item, and do it before you write the offer. The city is only about 4 square miles, while Decatur mailing addresses sprawl across a much larger slice of unincorporated DeKalb. The difference is not cosmetic: city parcels are assessed at 50% of value for city and school levies with a combined investor load near 1.95%, and they price in the City Schools of Decatur premium. Unincorporated parcels tax on DeKalb's 40% schedule at a lower total. Same envelope, completely different underwriting."
+        },
+        {
+          "question": "Does a DSCR loan even work when the ratio is 0.74?",
+          "answer": "Not as a standard file, and nobody honest will pretend otherwise. This is what No-Ratio DSCR exists for: the lender qualifies the deal on credit, reserves, and a lower maximum LTV, commonly around 70%, without applying a coverage floor. Investors use it in city-proper Decatur because the asset case is appreciation and tenant quality, not monthly spread. You are consciously paying a carry cost to own a scarce asset near Decatur High. If the negative cash flow is a surprise rather than a plan, this is the wrong submarket; buy in Belvedere Park instead. Your matched specialist prices both paths so you can compare them."
+        },
+        {
+          "question": "Where does the DSCR math actually work near Decatur?",
+          "answer": "On the unincorporated side. Belvedere Park runs about $310,000 with rents near $1,750, and Candler-McAfee sits near $260,000 with rents around $1,650. Those rent-to-price ratios are close to double what the city proper offers, and the DeKalb tax schedule is meaningfully lighter than the city stack. Files there get to workable coverage with 25% to 30% down, and brick ranch stock keeps insurance and maintenance predictable. The trade-off is appreciation profile and tenant screening effort. Plenty of investors run both: cash-flowing DeKalb rentals funding a No-Ratio city-proper hold."
+        },
+        {
+          "question": "Decatur prices fell 4.6% this year. What does that mean for my file?",
+          "answer": "The blended Zillow figure for all Decatur addresses fell 4.6%, and most of that softness lives on the unincorporated side, where it improves your entry basis against rents that barely moved. City-proper values held up better, which is exactly the school-premium behavior long-term holders are buying. For a DSCR file the direction matters less than the spread: lenders divide today's appraisal rent by today's payment. A softer purchase price on a Belvedere Park ranch moves the ratio more than any market forecast. Appraisals have also been landing without drama because comps are plentiful in both submarkets."
+        },
+        {
+          "question": "What should out-of-state investors know about DeKalb taxes and reassessment?",
+          "answer": "Two things. First, DeKalb reassesses and an investor gets no homestead exemption, so the seller's tax bill is fiction for your underwriting; build the line from your purchase price and the correct jurisdiction schedule. Second, the city-versus-unincorporated boundary can shift your effective load from roughly the mid-1s to nearly 2% of value, which on a $600,000 asset is hundreds of dollars a month of PITIA. That is often the entire difference between a passing and failing ratio. Your matched specialist runs the post-sale tax number for the actual taxing authority before the file goes to a lender, not after."
+        }
+      ],
+      "dataSources": [
+        "Realtor.com, City of Decatur 30030 median listing price, July 2026",
+        "Trulia and Zillow, 30030 3-bed house rents, July 2026",
+        "Zillow Home Value Index, all-Decatur-addresses blended value and YoY change, June 2026",
+        "City of Decatur and City Schools of Decatur adopted millage plus 50% assessment ratio, DeKalb county layer estimated, 2025 (est.)",
+        "Realtor.com, Decatur median rent YoY change, July 2026",
+        "US Census Housing Vacancy Survey via Innago, Atlanta metro rental vacancy, 2025"
+      ]
+    },
+    {
+      "city": "Smyrna",
+      "slug": "smyrna",
+      "county": "Cobb County",
+      "metro": "Atlanta-Sandy Springs-Roswell",
+      "hook": "Smyrna sits at a $450K typical value with 3-bed rents near $2,250, a townhome-heavy housing stock, and The Battery's payroll next door. The DSCR here lives or dies on the HOA line.",
+      "metaDescription": "Smyrna homes run $450K with 3-bed rents near $2,250, and HOA dues often decide the DSCR. See how Battery-area townhome deals pencil. Match with a specialist.",
+      "market": {
+        "medianPrice": 450000,
+        "medianRent": 2250,
+        "priceToRent": 16.7,
+        "vacancyRate": 8.2,
+        "yoyPrice": -2.9,
+        "yoyRent": -3.3,
+        "estDSCR": 0.7,
+        "propertyTaxRate": 1.45,
+        "insuranceMonthly": 175
+      },
+      "overview": "Smyrna is the landlord's side of the Cumberland office corridor. The typical home value runs about $450,000 as of mid 2026, down 2.9% year over year, while 3-bed rentals lease near $2,250. What makes the market unusual is the stock: Smyrna built townhomes for decades, so a large share of what trades under $400,000 comes with an HOA, and that monthly line item quietly decides more DSCR files here than the purchase price does.\n\nThe tenant base is the draw. Truist Park and The Battery Atlanta sit on Smyrna's doorstep, with TK Elevator's North American headquarters and Comcast offices in the development itself and the broader Cumberland corridor stacking office workers a short drive from every Smyrna zip code. Home Depot's corporate campus is minutes away in the Vinings direction. These are exactly the renters who pay $2,100 to $2,500 for a townhome near the ballpark instead of buying, and metro vacancy pressure from new apartments has not changed that behavior much.\n\nWhere deals pencil: the Ventura and South Cobb Drive corridor, where older fee-simple townhomes trade near $320,000 to $340,000 and rent around $2,150 to $2,250. At Smyrna's roughly 1.45% investor tax load, an amortizing file at the median struggles, so buyers here lean on interest-only structures and 30% down to get coverage over 1.0. Underwrite the HOA dues from the association's actual budget, not the listing agent's guess, because a $50 difference moves the ratio.",
+      "regulationBadge": "friendly",
+      "regulationNote": "Long-term rentals in Smyrna carry no special licensing and Georgia bans rent control, but short-term rentals require a city STR license and occupational tax certificate, so DSCR buyers here underwrite on the lease.",
+      "neighborhoods": [
+        {
+          "name": "Ventura / South Cobb Drive corridor",
+          "medianPrice": 330000,
+          "medianRent": 2150,
+          "note": "Older fee-simple townhome communities at Smyrna's lowest price points. The HOA dues are modest and the rents are not, which is why DSCR files start here."
+        },
+        {
+          "name": "Smyrna Heights",
+          "medianPrice": 397000,
+          "medianRent": 2300,
+          "note": "Renovated ranches and infill near the Market Village. Strong tenant pull from Cumberland office workers, mid-pack ratios that need 30% down."
+        },
+        {
+          "name": "Cumberland / Battery edge",
+          "medianPrice": 415000,
+          "medianRent": 2400,
+          "note": "Closest addresses to Truist Park and the corridor's office towers. Premium rents, premium prices, and the strongest lease-up speed in the submarket."
+        },
+        {
+          "name": "Williams Park",
+          "medianPrice": 460000,
+          "medianRent": 2550,
+          "note": "Established single-family streets popular with families and senior office tenants. Buy it for tenant quality and hold length, not for the spread."
+        }
+      ],
+      "localAngle": {
+        "tag": "HOA Math",
+        "title": "Townhome-heavy Smyrna: the HOA line is the DSCR swing vote.",
+        "body": "DSCR lenders divide rent by the full PITIA, and in Smyrna that A, association dues, is doing real work. A huge share of the investable stock under $400,000 is townhomes, and dues here commonly run $150 to $350 a month depending on what the association carries. On a $2,200 rent, moving the HOA line from $150 to $300 drags the ratio by roughly seven points, often the entire margin between qualifying and not. Two practical habits: first, pull the association's actual budget and dues schedule during diligence, because listings routinely understate them. Second, note what the dues buy. Associations that carry exterior maintenance and the master insurance shell can lower your own landlord policy cost, clawing back part of the hit. The tenant demand is worth the work: The Battery, TK Elevator's headquarters, and the Cumberland office towers keep well-paid renters leasing Smyrna townhomes year-round. Your matched specialist will structure around the dues, larger down payment or interest-only, so the association line does not sink an otherwise sound file."
+      },
+      "programFit": [
+        "standard-dscr",
+        "interest-only-dscr",
+        "portfolio-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 2.5-bath townhome",
+        "neighborhood": "Ventura / South Cobb Drive corridor",
+        "purchasePrice": 320000,
+        "downPaymentPct": 30,
+        "downPayment": 96000,
+        "loanAmount": 224000,
+        "loanType": "30-Year Fixed, 10-Year Interest-Only Period",
+        "interestOnly": true,
+        "monthlyPI": 1400,
+        "monthlyTax": 387,
+        "monthlyInsurance": 130,
+        "monthlyHOA": 210,
+        "monthlyPITIA": 2127,
+        "monthlyRent": 2200,
+        "dscr": 1.03,
+        "monthlyCashFlow": 73,
+        "specialistFocus": [
+          "Structured a 10-year interest-only period so the file cleared 1.0 with the $210 HOA line included in PITIA",
+          "Verified dues against the association's budget and confirmed the master policy covers the exterior shell, trimming the landlord premium to $130",
+          "Qualified on the appraisal rent schedule at $2,200, supported by Battery-corridor townhome comps"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "How much do HOA dues really change a Smyrna DSCR file?",
+          "answer": "More than most buyers expect. The lender divides rent by full PITIA including association dues, so on a typical $2,200 Smyrna townhome rent, $210 of monthly dues consumes almost ten points of ratio. A file that would sit at 1.13 as a fee-simple house lands near 1.03 as a townhome with those dues, and heavier associations push files under the floor entirely. That is not a reason to avoid Smyrna, it is a reason to underwrite the real dues schedule from the association budget during diligence and to let your matched specialist structure the down payment or an interest-only period around it."
+        },
+        {
+          "question": "Who actually rents in Smyrna, and what do they pay?",
+          "answer": "Office workers from the Cumberland corridor and The Battery ecosystem, which includes TK Elevator's North American headquarters and Comcast offices, plus Home Depot corporate staff from the Vinings side. These tenants pay $2,100 to $2,500 for townhomes and small single-family homes within a short drive of the ballpark, and they lease quickly because buying the same product costs meaningfully more per month. For underwriting, that demand shows up as firm appraisal rent schedules in Ventura, Smyrna Heights, and the Battery edge. It is a workforce-professional market, not a student or seasonal one, so turnover is orderly and lease terms run standard twelve months."
+        },
+        {
+          "question": "Can I buy a Smyrna property near Truist Park and run it as a game-night STR?",
+          "answer": "The city makes that harder than the ballpark proximity suggests. Smyrna requires a short-term rental license and an occupational tax certificate for any STR inside city limits, and enforcement exists because neighbors notice game-night traffic. More importantly for financing, DSCR lenders in this market qualify townhome and single-family files on long-term appraisal rent, not projected nightly income. If the deal only works on Braves home dates, it does not work. The durable Smyrna play is the twelve-month lease to a Cumberland office tenant, with event-driven upside treated as exactly that, upside."
+        },
+        {
+          "question": "Smyrna prices are down 2.9% and rents dipped too. Is the market weakening?",
+          "answer": "It is normalizing, and the two lines matter differently. Values slipped 2.9% year over year, which improves entry basis on the townhome stock that was bid up hardest in 2021 and 2022. Rents eased about 3.3% citywide, but most of that softness is new Class A apartments in the Cumberland pipeline competing on concessions, not the townhome and house segment DSCR buyers underwrite. Appraisal rent schedules for 3-bed product have stayed close to $2,200. Softer prices against basically flat house rents is a better ratio than Smyrna offered two years ago, which is the only trend a DSCR file cares about."
+        },
+        {
+          "question": "What do investor taxes and insurance look like in Smyrna?",
+          "answer": "Budget honestly for both. Smyrna's combined county, school, and city millage lands near 1.45% of market value for an investor with no homestead exemption, noticeably heavier than unincorporated Cobb, and the county reassesses after every sale, so underwrite from your purchase price rather than the seller's bill. Insurance runs moderate for inland Georgia, and townhomes often catch a break because the association's master policy carries the exterior shell, leaving you to insure interior and liability. Your matched specialist builds both lines from the actual association documents and millage schedule before the ratio is locked."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Smyrna typical home value and YoY change, June 2026",
+        "Apartments.com and Zillow Rental Manager, Smyrna 3-bed and townhome rents, July 2026",
+        "Realtor.com, Smyrna median rent YoY change, July 2026",
+        "Cobb County Tax Commissioner 2025 millage table, Smyrna combined mills converted to investor effective, 2025",
+        "US Census Housing Vacancy Survey via Innago, Atlanta metro rental vacancy, 2025",
+        "Obie Insurance state averages, Georgia landlord insurance at median price, 2026 (est.)"
+      ]
+    },
+    {
+      "city": "Lawrenceville",
+      "slug": "lawrenceville",
+      "county": "Gwinnett County",
+      "metro": "Atlanta-Sandy Springs-Roswell",
+      "hook": "Lawrenceville's typical home is $384K, down 3% in a year, while 3-bed houses rent near $2,100 in a county that grew to a million people. Softer entry against Gwinnett's tenant depth is a workable DSCR setup.",
+      "metaDescription": "Lawrenceville averages $384K with 3-bed houses renting near $2,100. See which Gwinnett submarkets get DSCR files to 1.0 and match with a specialist.",
+      "market": {
+        "medianPrice": 384000,
+        "medianRent": 2100,
+        "priceToRent": 15.2,
+        "vacancyRate": 8.2,
+        "yoyPrice": -3,
+        "yoyRent": -1,
+        "estDSCR": 0.77,
+        "propertyTaxRate": 1.35,
+        "insuranceMonthly": 165
+      },
+      "overview": "Lawrenceville is the county seat of the Gwinnett growth machine, a county that has grown into one of the South's great demographic engines, past a million residents with one of the most diverse tenant pools in the country. The typical Lawrenceville home runs about $384,000 as of mid 2026, down 3% year over year, while 3-bed houses rent near $2,100. That correction matters: Lawrenceville was priced for 2022 momentum, and today's softer entry against firm rents is what pulls DSCR buyers back in.\n\nDemand comes from more directions than a typical suburb. Georgia Gwinnett College enrolls roughly 12,000 students a short drive from downtown, Northside Hospital Gwinnett anchors medical employment, and the county's warehouse, healthcare, and small-business economy fills 3-bed houses with working families across every price band. Downtown Lawrenceville's restaurant-and-square revival keeps the close-in streets desirable. Metro vacancy near 8.2% is concentrated in new apartments, not the single-family product investors underwrite here.\n\nWhere deals pencil: the older ranches and split-levels around downtown and the 30046 core, which trade near $320,000 to $350,000 and rent at $1,950 to $2,150, and the Sugarloaf-side 30044 streets a notch above that. Lawrenceville city parcels total about 33.8 mills including the city levy, roughly 1.35% effective for an investor, lighter than unincorporated Gwinnett's police and fire stack. BRRRR activity is real here because the 1980s and 1990s stock takes renovation well and appraisal comps are plentiful.",
+      "regulationBadge": "friendly",
+      "regulationNote": "Gwinnett County has no rental licensing program and Georgia bans rent control, so landlord obligations are standard state fare; code enforcement focuses on property maintenance, which well-run rentals clear easily.",
+      "neighborhoods": [
+        {
+          "name": "Downtown Lawrenceville / 30046 core",
+          "medianPrice": 346000,
+          "medianRent": 1950,
+          "note": "Older ranches walkable to the revived square. The renovation-to-rent play works here, and city-parcel taxes run lighter than unincorporated Gwinnett."
+        },
+        {
+          "name": "Sugarloaf side / 30044",
+          "medianPrice": 363000,
+          "medianRent": 2050,
+          "note": "Established 1990s subdivisions with deep family-tenant demand. Mid-pack ratios that get to 1.0 with 30% down or a renovation basis."
+        },
+        {
+          "name": "Collins Hill / GGC corridor",
+          "medianPrice": 350000,
+          "medianRent": 2100,
+          "note": "Georgia Gwinnett College keeps a floor under demand, faculty, staff, and upper-class students who want houses. Standard leases, not per-bed student chaos."
+        },
+        {
+          "name": "East Lawrenceville / 30045",
+          "medianPrice": 390000,
+          "medianRent": 2200,
+          "note": "Newer builds toward Grayson. Cleaner condition and stronger appreciation profile, but the price premium thins the ratio at 20% down."
+        }
+      ],
+      "localAngle": {
+        "tag": "Growth Engine",
+        "title": "A million-person county with no rental licensing: Gwinnett is built for landlords.",
+        "body": "Gwinnett County crossed the million-resident mark and kept growing, driven by one of the most internationally diverse populations in the Southeast. For a rental owner that diversity is a durability feature: tenant demand in Lawrenceville does not depend on one employer, one industry, or one demographic wave. Georgia Gwinnett College adds roughly 12,000 students plus faculty and staff to the pool, Northside Hospital Gwinnett anchors healthcare payrolls, and the I-85 logistics corridor employs at every wage level. The regulatory side stays light: Gwinnett runs no rental licensing or registration program, Georgia preempts rent control statewide, and eviction process follows standard state timelines. What deserves attention instead is the tax geography. Lawrenceville city parcels skip the county police and fire levies in exchange for a modest city millage, landing near 1.35% effective for an investor, while unincorporated Gwinnett runs heavier. Your matched specialist will underwrite the correct schedule for the parcel and keep the ratio honest from day one."
+      },
+      "programFit": [
+        "standard-dscr",
+        "bridge-to-dscr",
+        "portfolio-dscr",
+        "interest-only-dscr"
+      ],
+      "dealExample": {
+        "label": "BRRRR Refinance",
+        "propertyType": "3-bed / 2-bath renovated ranch",
+        "neighborhood": "Downtown Lawrenceville / 30046 core",
+        "purchasePrice": 320000,
+        "downPaymentPct": 30,
+        "downPayment": 96000,
+        "loanAmount": 224000,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 1566,
+        "monthlyTax": 360,
+        "monthlyInsurance": 150,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 2076,
+        "monthlyRent": 2100,
+        "dscr": 1.01,
+        "monthlyCashFlow": 24,
+        "specialistFocus": [
+          "Structured the refinance off the post-renovation appraised value of $320,000, hunting lenders with the shortest seasoning requirements on BRRRR files",
+          "Qualified on the appraiser's post-renovation market rent of $2,100 instead of the pre-rehab inherited lease",
+          "Sized the loan at 70% of value so the ratio cleared 1.0 with margin for Gwinnett's reassessed tax bill"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Why do BRRRR investors like Lawrenceville specifically?",
+          "answer": "The raw material and the comps. Lawrenceville's core is full of structurally sound 1970s to 1990s ranches and split-levels that take a $40,000 to $60,000 renovation well, and because thousands of similar houses have already been updated, appraisers have no trouble supporting post-renovation value and market rent. That second part is what makes or breaks a DSCR refinance: the lender lends on the appraisal, and thin-comp markets produce scary appraisals. Lawrenceville produces boring ones, which is what you want. Your matched specialist can also target lenders with shorter seasoning requirements so the refinance timeline matches your capital plan."
+        },
+        {
+          "question": "How does Georgia Gwinnett College affect the rental market?",
+          "answer": "It adds a steady tenant layer without turning Lawrenceville into a student market. GGC enrolls roughly 12,000 students, largely commuters, plus faculty and staff, and the spillover shows up as demand for normal 3-bed houses on standard twelve-month leases in the Collins Hill corridor. You are not underwriting per-bed leases or August-only move-ins the way you would beside a flagship campus. For a DSCR file that is the good version of college exposure: it deepens the applicant pool and supports the appraisal rent schedule while the file itself stays a plain single-family lease that every lender understands."
+        },
+        {
+          "question": "What taxes should an investor actually underwrite in Lawrenceville?",
+          "answer": "Roughly 1.35% of market value if the parcel is inside the city, a bit more in unincorporated Gwinnett. The mechanics: Georgia assesses at 40% of fair market value, Gwinnett's county and school levies come to about 31.6 mills on city parcels because Lawrenceville skips the county police and fire lines, and the city adds its own modest millage. Two cautions: Gwinnett reassesses on sale and investors get no homestead exemption, so build the line from your price, not the seller's bill; and confirm city versus unincorporated status, because the schedules differ. Your matched specialist runs the correct stack before locking the ratio."
+        },
+        {
+          "question": "Prices fell 3% in Lawrenceville this year. Buy now or wait?",
+          "answer": "The correction is the entry point, not the warning. Values are down 3% year over year while 3-bed rents held near $2,100, so the rent-to-price spread a DSCR lender divides has been improving each quarter. Sellers of dated stock are taking price cuts and repair credits, which is exactly the acquisition side of a BRRRR working in your favor. A DSCR loan qualifies on today's appraisal rent against today's payment, and today's numbers in the 30046 core clear 1.0 with a renovation basis or 30% down. Timing the absolute bottom adds risk without moving the ratio much."
+        },
+        {
+          "question": "How competitive is the buying side in Gwinnett right now?",
+          "answer": "Busier than the price trend suggests. Gwinnett's growth story is well known, so clean renovated product still draws multiple offers from owner-occupants, and investors win mostly on the dated houses owner-occupants skip. That is fine, because dated stock is where the BRRRR margin lives. Practical edge: a DSCR pre-qualification through your matched specialist lets you write offers without financing conditions tied to personal income documentation, which sellers of estate and tired-landlord properties value. Pair that with an inspector who knows 1980s Gwinnett construction, polybutylene plumbing and aging HVAC are the recurring finds, and you can move decisively."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Lawrenceville typical home value and YoY change, June 2026",
+        "Zillow Rental Manager and Realtor.com, Lawrenceville 3-bed house rents, July 2026",
+        "Gwinnett County Tax Commissioner 2025 millage table plus city levy, converted to investor effective, 2025",
+        "US Census Housing Vacancy Survey via Innago, Atlanta metro rental vacancy, 2025",
+        "Georgia Gwinnett College enrollment, approximate, 2025 (est.)",
+        "Rent YoY estimate from metro Atlanta rent trend reporting, 2026 (est.)"
+      ]
+    },
+    {
+      "city": "Warner Robins",
+      "slug": "warner-robins",
+      "county": "Houston County",
+      "metro": "Warner Robins",
+      "hook": "Warner Robins pairs a $216K typical home with $1,500 rents backed by Robins AFB's 21,500 paychecks. At a 12.0 price-to-rent ratio, it is one of the strongest DSCR markets in Georgia.",
+      "metaDescription": "Warner Robins runs $216K with rents near $1,500 backed by Robins AFB payrolls. One of Georgia's best DSCR ratios. Match with a DSCR loan specialist.",
+      "market": {
+        "medianPrice": 216000,
+        "medianRent": 1500,
+        "priceToRent": 12,
+        "vacancyRate": 6.6,
+        "yoyPrice": 3.2,
+        "yoyRent": -1.5,
+        "estDSCR": 0.96,
+        "propertyTaxRate": 1.16,
+        "insuranceMonthly": 140
+      },
+      "overview": "Warner Robins is a one-employer town where the employer is the federal government, and that changes every line of the underwriting. Robins Air Force Base is the largest single-site industrial complex in Georgia, with about 21,500 military and civilian workers and a $4.48 billion economic impact reported for 2025. The typical home runs about $216,000, up 3.2% year over year while metro Atlanta corrects, and 3-bed houses rent near $1,500. A 12.0 price-to-rent ratio is the kind of math Atlanta investors drive two hours south to find.\n\nThe rent floor is structural. Military tenants rent with Basic Allowance for Housing, and the 2026 tables pay an E-5 with dependents $1,800 a month and an E-6 $1,878 for the Robins area. Because BAH is publicly posted, landlords and appraisers alike anchor to it, and rents at the $1,400 to $1,700 level stay reliably funded regardless of the broader economy. Most base civilians are career federal employees, which steadies the non-military half of the tenant pool too.\n\nWhere deals pencil: Shirley Hills and the established streets near the base gates, where $210,000 to $240,000 buys a brick 3/2 renting $1,500 to $1,650, and the 31088 Houston Lake corridor a step up from that. Houston County's combined investor tax load lands near 1.16%, light for Georgia, and insurance is inland-moderate. At the median with 20% down the ratio sits just under 1.0, so a modest down-payment bump or below-median entry gets files across the line without gymnastics.",
+      "regulationBadge": "friendly",
+      "regulationNote": "Houston County and Warner Robins add no rental licensing on top of Georgia's landlord-friendly baseline, and the practical landlord consideration here is the military clause, which lets PCS-orders tenants break leases early under federal law.",
+      "neighborhoods": [
+        {
+          "name": "Shirley Hills",
+          "medianPrice": 230000,
+          "medianRent": 1550,
+          "note": "Established brick ranches minutes from the base gates. The default Warner Robins DSCR play: durable stock, BAH-anchored rents, quick leasing in PCS season."
+        },
+        {
+          "name": "Houston Lake corridor / 31088",
+          "medianPrice": 255000,
+          "medianRent": 1600,
+          "note": "The middle of the market, popular with E-6s, officers, and base civilians. Slightly thinner ratio than Shirley Hills, stronger tenant retention."
+        },
+        {
+          "name": "North Warner Robins / 31093",
+          "medianPrice": 185000,
+          "medianRent": 1300,
+          "note": "The cheapest entry in the metro. Rent-to-price is excellent on paper; underwrite condition and management honestly, and mind lender minimum loan amounts."
+        },
+        {
+          "name": "Bonaire / Kathleen edge",
+          "medianPrice": 350000,
+          "medianRent": 1700,
+          "note": "Newer builds and the school-choice premium. Appreciation and tenant-quality play; the ratio at these prices needs 30% down to work."
+        }
+      ],
+      "localAngle": {
+        "tag": "Military Rents",
+        "title": "BAH-backed rents and the PCS calendar: underwriting a Robins AFB rental.",
+        "body": "Robins AFB does two unusual things to this rental market. First, it publishes the rent floor: 2026 Basic Allowance for Housing pays an E-5 with dependents $1,800 and an E-6 $1,878 per month in the Robins area, and since BAH arrives with the paycheck, rents priced inside those bands collect with almost no economic sensitivity. Appraisers know the tables as well as landlords do, which keeps market rent schedules firm right where DSCR files need them. Second, it sets the calendar. PCS season concentrates move-ins and move-outs into late spring and summer, so vacancies in Warner Robins are short but clustered, and the federal military clause lets orders-holding tenants end leases early. The honest underwrite budgets one turnover month every couple of years rather than pretending turnover never happens, and prices the rent inside the relevant BAH band rather than $100 above it. Your matched specialist structures the file on the appraisal's market rent and can point lenders comfortable with military-market vacancy patterns at the deal."
+      },
+      "programFit": [
+        "standard-dscr",
+        "portfolio-dscr",
+        "bridge-to-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 2-bath brick SFR",
+        "neighborhood": "Shirley Hills",
+        "purchasePrice": 225000,
+        "downPaymentPct": 25,
+        "downPayment": 56250,
+        "loanAmount": 168750,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 1180,
+        "monthlyTax": 217,
+        "monthlyInsurance": 135,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 1532,
+        "monthlyRent": 1600,
+        "dscr": 1.04,
+        "monthlyCashFlow": 68,
+        "specialistFocus": [
+          "Qualified on the appraiser's market rent of $1,600, sitting comfortably inside the E-5 with-dependents BAH band of $1,800",
+          "Underwrote taxes at Houston County's full combined millage on the post-sale assessed value, no homestead assumption",
+          "Presented the file to lenders familiar with PCS-cycle leasing so the military-market tenancy pattern read as a strength"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "What happens to my Warner Robins rental when a military tenant gets PCS orders?",
+          "answer": "Federal law, the Servicemembers Civil Relief Act, lets a tenant with permanent change of station or deployment orders terminate the lease with proper notice, typically effective 30 days after the next rent due date. You cannot contract around it, so underwrite with it. In practice PCS turnover is orderly: tenants give notice, the base's housing office ecosystem refers incoming families, and summer arrival season refills vacancies quickly. Budget a turnover month every couple of years, keep the property listed with managers who work the incoming-PCS pipeline, and the military clause becomes a manageable cost instead of a surprise."
+        },
+        {
+          "question": "How do BAH tables help me set and defend rent?",
+          "answer": "Basic Allowance for Housing is a published, rank-based housing stipend, and for 2026 the Robins area pays an E-5 with dependents $1,800 and an E-6 $1,878 monthly. That gives you three things most markets never offer: a visible ceiling for your segment, a tenant pool whose housing budget arrives with the paycheck, and appraisers who anchor market rent schedules to the same public tables your lender will see. The discipline is pricing inside the band your target rank actually receives. A $1,600 rent under the E-5 band leases fast and collects reliably; a $1,950 rent chasing the E-6 band overshoots most of the pool."
+        },
+        {
+          "question": "Is buying in a one-employer town too risky for a rental portfolio?",
+          "answer": "Concentration risk is real and worth naming, but Robins is the strong version of the bet. The base employs about 21,500 people, generated $4.48 billion in reported economic impact in 2025, and its workforce is mostly career civilian employees in depot maintenance and logistics roles that have grown, not shrunk, through recent budget cycles. Base realignment decisions move slowly and publicly, nothing like a private employer's sudden exit. If you want a hedge inside the metro, the 31088 corridor leans more civilian and Bonaire leans more family-buyer, so a small portfolio here can spread across tenant types while keeping the same management footprint."
+        },
+        {
+          "question": "Warner Robins prices rose 3.2% while Atlanta fell. Did I miss the entry?",
+          "answer": "No, the spread is still the widest in Georgia. Even after a 3.2% gain, the typical home costs about $216,000 against $1,500 rents, a 12.0 price-to-rent ratio that metro Atlanta has not seen in a decade. The market-level ratio at 20% down sits near 0.96, so a below-median purchase or a 25% down payment moves a normal file over 1.0, which is exactly what the deal example shows. Appreciation here is steady rather than dramatic, driven by base hiring and Middle Georgia's cost advantage. You are buying cash flow with a stable floor, not a momentum trade."
+        },
+        {
+          "question": "What do taxes and insurance look like for an investor in Houston County?",
+          "answer": "Both lines run light. The combined county, school, and City of Warner Robins millage comes to about 29.1 mills, roughly 1.16% of market value for an investor with no homestead exemption, cheaper than metro Atlanta's stacks. On a $225,000 house that is around $218 a month. Insurance for inland Middle Georgia brick construction typically prices near $130 to $150 monthly at these values; there is no coastal wind load here, though hail riders are worth quoting. Houston County reassesses on sale, so build the tax line from your purchase price. Your matched specialist will run both numbers before the ratio is locked."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Warner Robins typical home value and YoY change, June 2026",
+        "Zumper Rent Research and Apartments.com, Warner Robins 3-bed and house rents, July 2026",
+        "Robins AFB fiscal 2025 Economic Impact Statement, workforce and impact figures, 2025",
+        "Defense Travel Management Office via mybaseguide, Robins AFB 2026 BAH tables, January 2026",
+        "Houston County, Houston County Schools, and City of Warner Robins 2025 millage, converted to investor effective, 2025",
+        "US Census Bureau via FRED, Georgia rental vacancy, 2025"
+      ]
+    },
+    {
+      "city": "Valdosta",
+      "slug": "valdosta",
+      "county": "Lowndes County",
+      "metro": "Valdosta",
+      "hook": "Valdosta's $215K typical home and $1,450 3-bed rents put entry-level DSCR math within reach, but many lenders will not write small loans. The skill here is matching the lender floor, not finding the deal.",
+      "metaDescription": "Valdosta homes average $215K with 3-bed rents near $1,450, but lender loan minimums matter here. See deals that clear 1.0 and match with a specialist.",
+      "market": {
+        "medianPrice": 215000,
+        "medianRent": 1450,
+        "priceToRent": 12.4,
+        "vacancyRate": 6.6,
+        "yoyPrice": 3.5,
+        "yoyRent": 1,
+        "estDSCR": 0.93,
+        "propertyTaxRate": 1.19,
+        "insuranceMonthly": 140
+      },
+      "overview": "Valdosta is one of the cheapest DSCR entries in Georgia that still has real institutional demand behind it. The typical home runs about $215,000, up 3.5% year over year while the Atlanta metro corrects, and 3-bed houses rent near $1,450. A 12.4 price-to-rent ratio with two anchor institutions is why small-balance investors keep showing up here.\n\nThose anchors are Moody Air Force Base and Valdosta State University, the two largest drivers of the local economy. Moody's flying wings keep thousands of military and civilian personnel housed in the area, with BAH-funded rents and the same predictable PCS rhythm as any base town. VSU enrolls roughly 12,000 students and reports an economic impact above $385 million, feeding a second tenant lane of students, faculty, and staff. South Georgia Medical Center and the I-75 logistics spine fill in the rest.\n\nThe catch in Valdosta is not the deal, it is the financing floor. Plenty of rentable houses here trade between $80,000 and $150,000, and many of the 70+ lenders in the network set minimum loan amounts between $75,000 and $100,000, some higher. At 20% to 25% down, a $110,000 house produces a loan too small for much of the lender pool. That is a matching problem, not a dead end: your matched specialist knows which lenders go low, and structures like portfolio loans that bundle several small houses into one facility exist precisely for markets like this. Deals in the $170,000 to $240,000 band clear the floors cleanly and still carry strong ratios.",
+      "regulationBadge": "friendly",
+      "regulationNote": "Valdosta and Lowndes County add no rental licensing beyond Georgia's landlord-friendly statewide baseline, so the operational watch-items are student-lease timing near VSU and the military clause for Moody tenants, not regulation.",
+      "neighborhoods": [
+        {
+          "name": "Northside / 31602",
+          "medianPrice": 235000,
+          "medianRent": 1500,
+          "note": "The established quadrant near the mall and hospital corridor. Faculty, medical, and officer tenants; the cleanest stock and steadiest leasing in the city."
+        },
+        {
+          "name": "Bemiss Road / Moody corridor",
+          "medianPrice": 190000,
+          "medianRent": 1450,
+          "note": "The commuter path to Moody's gates. BAH-funded tenant demand at price points that keep loans above most lender minimums. The core Valdosta DSCR play."
+        },
+        {
+          "name": "VSU / Sustella corridor",
+          "medianPrice": 180000,
+          "medianRent": 1400,
+          "note": "Student and staff demand within walking or biking distance of campus. Standard whole-house leases work; sync lease dates to the academic calendar."
+        },
+        {
+          "name": "South Valdosta / 31601",
+          "medianPrice": 125000,
+          "medianRent": 1100,
+          "note": "The deepest discounts in the market, with rent-to-price ratios near 0.9%. Many resulting loans fall below lender minimums, so this is portfolio-loan or high-down territory."
+        }
+      ],
+      "localAngle": {
+        "tag": "Loan Floors",
+        "title": "Cheap houses, real floors: minimum loan amounts decide Valdosta files.",
+        "body": "Valdosta's price points are the attraction and the constraint. When a rentable house costs $110,000, a 25% down purchase produces an $82,500 loan, and that number quietly disqualifies a large share of the DSCR lender universe. Many of the 70+ lenders in the network hold minimum loan amounts between $75,000 and $100,000, and a meaningful group will not go below $125,000 or $150,000 regardless of how strong the ratio looks. Investors who do not know this waste weeks applying to lenders who were never going to say yes. The workarounds are well established. Buy in the $170,000 to $240,000 band, Bemiss corridor and Northside, where loans clear almost every floor and ratios stay strong. Or go the other direction deliberately: bundle several sub-$125,000 houses into a single portfolio loan, one facility, one payment, one qualifying ratio across the pool. Your matched specialist knows which lenders actually lend small in Georgia and which structures fit a scattered-site South Valdosta package, which is exactly the matching problem this market demands."
+      },
+      "programFit": [
+        "standard-dscr",
+        "portfolio-dscr",
+        "bridge-to-dscr"
+      ],
+      "dealExample": {
+        "label": "Cash-Out Refinance",
+        "propertyType": "3-bed / 2-bath SFR",
+        "neighborhood": "Bemiss Road / Moody corridor",
+        "purchasePrice": 185000,
+        "downPaymentPct": 25,
+        "downPayment": 46250,
+        "loanAmount": 138750,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 970,
+        "monthlyTax": 183,
+        "monthlyInsurance": 130,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 1283,
+        "monthlyRent": 1450,
+        "dscr": 1.13,
+        "monthlyCashFlow": 167,
+        "specialistFocus": [
+          "Matched the file to lenders whose minimum loan amounts sit below the $138,750 loan, skipping the ones with $150K floors",
+          "Qualified on the appraiser's market rent of $1,450, supported by Moody-corridor BAH-funded comps",
+          "Structured the cash-out at 75% of appraised value so the proceeds fund the next acquisition while the ratio holds at 1.13"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Why would a lender reject a strong Valdosta deal over the loan size?",
+          "answer": "Because small loans cost a lender nearly as much to originate and service as large ones, many DSCR lenders set minimum loan amounts, commonly $75,000 to $100,000 and sometimes $125,000 or more. A $100,000 Valdosta house at 25% down produces a $75,000 loan that sits at or below most floors, so the rejection has nothing to do with your ratio or the property. The fix is matching, not persistence: a minority of the 70+ lenders in the network genuinely lend small, and your matched specialist knows which ones, or can restructure the purchase into a band the floors do not touch."
+        },
+        {
+          "question": "How does Moody AFB shape rents and tenancy in Valdosta?",
+          "answer": "Moody functions like a rent anchor northeast of the city. Its military and civilian personnel rent heavily along the Bemiss Road corridor, their housing allowance arrives with the paycheck, and the published BAH tables give landlords and appraisers a shared reference for what the market bears. The operational rhythm is the PCS cycle: move-ins and move-outs cluster in late spring and summer, and the federal military clause lets orders-holding tenants exit leases early with notice. Budget an occasional turnover month, list with managers who work the incoming-personnel pipeline, and the base becomes the most reliable demand source in the market."
+        },
+        {
+          "question": "Is buying near Valdosta State a student-housing play?",
+          "answer": "Only if you choose it to be. VSU enrolls roughly 12,000 students, and the blocks around campus support per-bed student rentals with their higher gross and higher management load. But most DSCR-financed investors here run standard whole-house leases to grad students, staff, young faculty, and hospital workers, which underwrite like any single-family file: one lease, appraisal market rent, no specialty management. The one adjustment worth making is calendar discipline, setting lease end dates in early summer so vacancies land when the academic market is moving. Your matched specialist can structure either version; the whole-house file is the simpler approval."
+        },
+        {
+          "question": "What do taxes and insurance cost a Valdosta investor?",
+          "answer": "Among the lightest carrying costs in the state. The 2025 stack combines the City of Valdosta at 6.254 mills, Valdosta City Schools at 13.304, and the Lowndes County layer, landing near 1.19% of market value for an investor with no homestead exemption, about $183 a month on a $185,000 house. Insurance for inland South Georgia frame and brick stock runs moderate, typically near $120 to $150 monthly at these price points, with no coastal wind surcharge this far from the Gulf. Underwrite from your purchase price rather than the seller's exempted bill, because Lowndes reassesses on sale."
+        },
+        {
+          "question": "Valdosta prices are up 3.5% while Atlanta falls. What is driving it, and does it hold?",
+          "answer": "The drivers are structural rather than speculative: Moody's steady personnel base, VSU's $385 million-plus economic footprint, hospital and logistics hiring, and a price level low enough that local wages still buy houses. Investor demand from out-of-market buyers chasing ratios adds a second bid under the $250,000 line. Nothing about a 3.5% gain on a $215,000 base looks frothy, and rents moved up alongside prices, so the ratio held. For underwriting purposes it barely matters: the file qualifies on today's appraisal rent against today's payment, and Bemiss-corridor deals clear 1.1 at 25% down right now."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Valdosta typical home value and YoY change, June 2026",
+        "Zumper Rent Research and Zillow Rental Manager, Valdosta 3-bed rents, July 2026",
+        "City of Valdosta adopted 2025 millage for city and schools, Lowndes County layer estimated, 2025 (est.)",
+        "Moody AFB Economic Impact Statement and Georgia Trend, base economic role, 2025",
+        "Valdosta State University, enrollment and economic impact, 2025",
+        "US Census Bureau via FRED, Georgia rental vacancy, 2025"
+      ]
+    }
+  ]
+}
