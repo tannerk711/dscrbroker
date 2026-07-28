@@ -1,0 +1,1342 @@
+{
+  "state": "Tennessee",
+  "abbreviation": "TN",
+  "stateSlug": "tennessee",
+  "dataUpdated": "2026-07",
+  "cities": [
+    {
+      "city": "Nashville",
+      "slug": "nashville",
+      "county": "Davidson County",
+      "metro": "Nashville-Davidson-Murfreesboro-Franklin",
+      "hook": "Nashville's typical home value is $437K, down 3.3% in a year, while single-family rents rose 2.1%. Prices soft and house rents firm is the spread, but the short-term rental door is closed to investors.",
+      "metaDescription": "Nashville homes average $437K while single-family rents rose 2.1%. See why investor STR permits are closed and where DSCR deals pencil. Get matched today.",
+      "market": {
+        "medianPrice": 436603,
+        "medianRent": 2370,
+        "priceToRent": 15.4,
+        "vacancyRate": 11.1,
+        "yoyPrice": -3.3,
+        "yoyRent": 2.1,
+        "estDSCR": 0.79,
+        "propertyTaxRate": 0.7035,
+        "insuranceMonthly": 299
+      },
+      "overview": "Nashville is two rental markets wearing one name, and 2026 is the year they split apart. The typical home value sits near $436,600 as of June 2026, down 3.3% year over year, while single-family rents across the metro rose about 2.1% to roughly $2,370. Blended rent including apartments is only $1,810 and barely moved. That gap is the whole story: houses are holding while apartments are not, so the multifamily headlines you keep reading do not describe the asset most investors here actually buy.\n\nThe apartment softness is real and it has a cause. Builders delivered about 35,900 units since 2023, peaking at 14,723 in 2024, running 8.2% of inventory that year against 3.8% nationally. Concessions turned non-seasonal in the Gulch, North Nashville, and Wedgewood-Houston. But starts are down 36% and only about 6,200 units are forecast for 2026, so the wave crested and the market is digesting it now.\n\nThe hard part is carrying cost, not demand. The 2025 reappraisal raised the county-wide median value 45%, and Metro Council adopted rates above the revenue-neutral certified rate, so some owners opened bills 80% higher. At the citywide median with 20% down the ratio lands near 0.79, which is why Nashville files get structured rather than rubber-stamped. Where they clear: Madison, Antioch, Donelson, and Hermitage, where $330,000 to $407,000 buys a brick ranch that rents like a house instead of an apartment.",
+      "regulationBadge": "moderate",
+      "regulationNote": "Tennessee preempts local rent control entirely and eviction moves quickly, but Metro Nashville has closed new non-owner-occupied short-term rental permits across every residential zoning district, so an investor buying a house here is buying a long-term or mid-term rental.",
+      "neighborhoods": [
+        {
+          "name": "Madison",
+          "medianPrice": 330251,
+          "medianRent": 2000,
+          "note": "The cheapest detached stock in Davidson County, 1950s and 1960s brick ranches on flat lots along Gallatin Pike. Values slipped 4.5% over the year, which is the entry point, and single-family holds up far better here than the local apartment stock."
+        },
+        {
+          "name": "Antioch",
+          "medianPrice": 359532,
+          "medianRent": 2100,
+          "note": "The densest rental submarket in the county and its most diverse, anchored by I-24 logistics and airport work. Lowest entry price in Davidson, but it absorbs the most Class B apartment competition, so underwrite the lease conservatively."
+        },
+        {
+          "name": "Donelson",
+          "medianPrice": 368706,
+          "medianRent": 2100,
+          "note": "1960s brick ranches with airport and Music City Star commuter access, renting to airline and healthcare workers. Steady mid-tier where the house competes with new apartment supply on amenities but wins on space."
+        },
+        {
+          "name": "Hermitage",
+          "medianPrice": 407029,
+          "medianRent": 1925,
+          "note": "Suburban 1970s through 1990s ranches and two-story homes near Old Hickory Lake and I-40. Family and blue-collar tenants, the priciest of the genuine cash-flow tier, so the ratio needs a larger down payment."
+        }
+      ],
+      "localAngle": {
+        "tag": "STR Rules",
+        "title": "Nashville stopped issuing investor STR permits. The permit does not convey either.",
+        "body": "Metro Nashville no longer issues new not-owner-occupied short-term rental permits in AR2A, R, RS, or RM zoning, and RM multifamily was closed on January 1, 2022, a detail many listing sites still get wrong. The owner-occupied path does not rescue an investor: Metro requires a natural person permanently residing in the unit, and explicitly bars an LLC, corporation, partnership, or trust from holding that permit. Buying a house that already has one does not work either, because Metro code states a permit cannot be transferred or assigned to another person, entity, or address, and Tennessee's own grandfathering statute extinguishes legacy status on sale or transfer. Two independent locks, and both of them fail. Treat any listing marketed as short-term-rental-permit-conveys as a red flag. What does work: buying in the mixed-use and commercial districts where new permits still issue, or running a 30-day-plus furnished mid-term rental, which falls outside the permit regime entirely. Your matched specialist will structure the file on the lease the property can actually sign, which is what an appraiser and an underwriter will both support."
+      },
+      "programFit": [
+        "standard-dscr",
+        "interest-only-dscr",
+        "portfolio-dscr",
+        "bridge-to-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 2-bath SFR",
+        "neighborhood": "Madison",
+        "purchasePrice": 330000,
+        "downPaymentPct": 30,
+        "downPayment": 99000,
+        "loanAmount": 231000,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 1615,
+        "monthlyTax": 193,
+        "monthlyInsurance": 240,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 2048,
+        "monthlyRent": 2200,
+        "dscr": 1.07,
+        "monthlyCashFlow": 152,
+        "specialistFocus": [
+          "Structured 30% down instead of 20% because the citywide ratio at 20% lands near 0.79, and the extra equity is what carried this file past 1.0",
+          "Qualified on the appraiser's single-family market rent rather than a blended figure that would have dragged in apartment comps renting hundreds less",
+          "Underwrote the post-reappraisal tax bill at the full Urban Services District rate instead of the prior owner's assessment, so the ratio held up after closing"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Can I buy a Nashville house and run it as an Airbnb?",
+          "answer": "Not in a residential neighborhood, and not as an investor. Metro stopped issuing new not-owner-occupied short-term rental permits in AR2A, R, RS, and RM zoning, and the owner-occupied alternative requires a natural person living in the home, which rules out an LLC or a trust. Buying a permitted house does not transfer the permit either, under both Metro code and Tennessee's grandfathering statute. The workable paths are mixed-use and commercial zoning where permits still issue, or a 30-day-plus furnished rental that sits outside the permit rules. Your matched specialist will structure the loan around the income the property can legally produce."
+        },
+        {
+          "question": "Why does the DSCR look weak when everyone says Nashville rents are strong?",
+          "answer": "Because most published rent figures blend apartments with houses. Metro single-family rent runs about $2,370 and rose 2.1% over the year, while the all-homes figure is $1,810 and essentially flat. Apartments absorbed a supply wave of roughly 35,900 units since 2023 and are discounting; single-family houses are not competing in that fight. At the citywide median with 20% down the ratio still lands near 0.79 because the price is high, not because the rent is weak. Submarket selection and a larger down payment are what move a Nashville file over the line."
+        },
+        {
+          "question": "How much did the 2025 reappraisal change my carrying cost?",
+          "answer": "Substantially, and it is the most common underwriting miss here. The county-wide median value rose 45% in the 2025 reappraisal, and Metro Council adopted rates above the revenue-neutral certified rate, so the reassessment was not offset. Some owners saw bills climb 80%. The Urban Services District rate is $2.814 per $100 of assessed value, and Tennessee assesses homes at 25% of appraised value, which works out to about 0.70% of market value per year. Underwrite the post-sale number, not the seller's old bill. Rates were held flat for the 2027 fiscal year and the next reappraisal is 2029."
+        },
+        {
+          "question": "Does buying a duplex change my property taxes in Tennessee?",
+          "answer": "Yes, and it is a trap worth knowing before you write the offer. Tennessee assesses single-family residential property at 25% of appraised value, and that holds even when the house is a rental. But the state constitution classifies residential property containing two or more rental units as commercial, assessed at 40%. A fully rented duplex can therefore carry a materially higher tax bill than two comparable houses. A 2025 Tennessee Attorney General opinion also cautions there is no absolute bright line for larger rental enterprises. Your matched specialist will price the correct assessment ratio into the ratio before you go under contract."
+        },
+        {
+          "question": "Which Nashville submarkets actually clear the DSCR ratio?",
+          "answer": "The ones outside the core. Madison, Antioch, Donelson, and Hermitage pair $330,000 to $407,000 entry prices with house rents near $1,900 to $2,100, which is where files clear 1.0 with 25% to 30% down. Inglewood and the east-side blocks closer to downtown carry the strongest rent growth in the county but the weakest yield, so buyers there are underwriting appreciation and often using interest-only structures. Anything priced above roughly $500,000 needs either a very large down payment or a different program. Your matched specialist can tell you which of the 70+ lenders will look at each structure."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Nashville typical home value and YoY change, June 2026",
+        "Zillow Observed Rent Index, single-family and all-homes rent for the Nashville metro, June 2026",
+        "US Census Bureau Housing Vacancy Survey Table 6, Nashville metro rental vacancy, 2025",
+        "Metro Nashville Trustee and Davidson County Assessor, Urban Services District rate of $2.814 per $100 assessed, 2026",
+        "Metro Nashville Codes Department, not-owner-occupied short term rental permit zoning restrictions, July 2026",
+        "Yardi Matrix via Multi-Housing News, Nashville multifamily deliveries and occupancy, 2026"
+      ]
+    },
+    {
+      "city": "Memphis",
+      "slug": "memphis",
+      "county": "Shelby County",
+      "metro": "Memphis TN-MS-AR",
+      "hook": "Memphis is one of the few American metros where the median still clears the ratio, with a typical value near $147K against single-family rents of $1,655. The catch is everything downstream of the ratio.",
+      "metaDescription": "Memphis homes average $147K against $1,655 single-family rents, so the ratio clears at the median. See the tax and eviction math first. Get matched today.",
+      "market": {
+        "medianPrice": 146746,
+        "medianRent": 1655,
+        "priceToRent": 7.4,
+        "vacancyRate": 10.6,
+        "yoyPrice": -3,
+        "yoyRent": 2.2,
+        "estDSCR": 1.37,
+        "propertyTaxRate": 1.3208,
+        "insuranceMonthly": 225
+      },
+      "overview": "Memphis is the rare 2026 market where the arithmetic works before you do anything clever. The typical home value is about $146,700, down 3% year over year, while single-family rents across the metro run near $1,655 and rose 2.2%. Run the standard formula at 20% down and the median produces a ratio around 1.37, comfortably above 1.0 when almost every metro on this site lands below it. That is real, and it is why out-of-state capital keeps arriving.\n\nNow the part the turnkey pitch leaves out. A property inside Memphis city limits pays both the Shelby County rate and the city rate, about $5.28 per $100 of assessed value combined, which works out near 1.32% of market value per year. That is roughly 1.9 times the effective burden a Nashville owner carries. Insurance runs about 41% above Nashville at identical coverage on the back of tornado, hail, and wind exposure. Shelby County recorded 27,658 eviction filings in 2025, and Eviction Lab places Memphis among only four tracked markets with filing rates at least double the national average. City population has drifted from 633,104 in 2020 to roughly 610,900 in 2024.\n\nSo the honest framing is yield with disclosed operational risk, never appreciation. The investors who do well here buy Berclair, Raleigh, and the Midtown edges rather than chasing the highest headline yield in Frayser, and they price management, turnover, and insurance into the file from day one.",
+      "regulationBadge": "friendly",
+      "regulationNote": "Tennessee preempts rent control statewide and Shelby County sits under the state landlord-tenant act with a fast detainer process, so the operating risk in Memphis is collections, turnover, and property condition rather than regulation.",
+      "neighborhoods": [
+        {
+          "name": "Berclair",
+          "medianPrice": 126235,
+          "medianRent": 1300,
+          "note": "About 86% of the stock was built between 1940 and 1969, mostly brick ranch. A large Hispanic tenant base with unusually long tenancies makes this the best risk-adjusted cash-flow pocket in the city, and rents rose while values only eased 3.5%."
+        },
+        {
+          "name": "Raleigh",
+          "medianPrice": 148486,
+          "medianRent": 1450,
+          "note": "Newer 1970s through 1990s stock and the most price-stable of the affordable tier, down only 1% over the year with rents up 1.4%. The solid middle ground for investors who want yield without the deepest condition risk."
+        },
+        {
+          "name": "Frayser",
+          "medianPrice": 90129,
+          "medianRent": 1200,
+          "note": "The highest headline yield in the city and the reason turnkey sellers push it hardest. Values fell 7.2% over the year, and many purchases at this price fall below common lender loan minimums, so treat the yield as a risk premium."
+        },
+        {
+          "name": "Midtown / Cooper-Young",
+          "medianPrice": 135605,
+          "medianRent": 1400,
+          "note": "Pre-1939 historic stock with a professional tenant base and the most stable value trend in the affordable tier. This is the quality-and-appreciation contrast to the deep C-class pockets, with correspondingly thinner yield."
+        }
+      ],
+      "localAngle": {
+        "tag": "Real Costs",
+        "title": "The ratio clears at the median. Taxes, insurance, and turnover are what decide the deal.",
+        "body": "Memphis is the only market on this site where the citywide median clears 1.0 at 20% down, and that number is genuine. It is also the number most likely to mislead you, because three line items sit downstream of it. First, taxes: a property inside city limits stacks the Shelby County rate and the City of Memphis rate to about $5.28 per $100 of assessed value, roughly 1.32% of market value annually and about 1.9 times what a Nashville owner pays. Both bodies adopted at the certified revenue-neutral rate after the 2025 reappraisal, so this is the settled number rather than a spike. Second, insurance: Memphis runs about 41% above Nashville at identical coverage, and earthquake coverage near the New Madrid seismic zone is a separate rider most out-of-state pro formas omit entirely. Third, turnover: Shelby County saw 27,658 eviction filings in 2025, and management here runs 8% to 12% of collected rent plus a leasing fee that is commonly half a month or more. None of that makes Memphis a bad market. It makes the gap between gross yield and net return wider than anywhere else on this site, and your matched specialist will build all three into the file before an underwriter does it for you."
+      },
+      "programFit": [
+        "standard-dscr",
+        "portfolio-dscr",
+        "bridge-to-dscr",
+        "no-ratio-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 2-bath SFR",
+        "neighborhood": "Berclair",
+        "purchasePrice": 126000,
+        "downPaymentPct": 25,
+        "downPayment": 31500,
+        "loanAmount": 94500,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 661,
+        "monthlyTax": 139,
+        "monthlyInsurance": 200,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 1000,
+        "monthlyRent": 1450,
+        "dscr": 1.45,
+        "monthlyCashFlow": 450,
+        "specialistFocus": [
+          "Matched the file to a lender whose minimum loan amount accepts a $94,500 balance, which is where a large share of Memphis deals die before underwriting ever sees them",
+          "Underwrote the full combined Shelby County and City of Memphis tax load rather than the county-only figure that out-of-state pro formas usually carry",
+          "Priced a realistic landlord premium for a tornado and hail exposed market instead of a national average, and flagged that earthquake coverage is a separate rider"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Memphis yields look too good. What is the catch?",
+          "answer": "The ratio is real, the net is narrower than it looks. Three line items sit between gross yield and your actual return. Taxes inside city limits run about 1.32% of market value per year, roughly 1.9 times Nashville. Insurance runs about 41% above Nashville at identical coverage because of tornado, hail, and wind exposure, and earthquake coverage is a separate rider. Turnover is elevated: Shelby County recorded 27,658 eviction filings in 2025, and management runs 8% to 12% of rent plus a leasing fee. A file underwritten with all three still works in the right submarkets. One underwritten on gross yield does not."
+        },
+        {
+          "question": "Why do lenders decline the cheapest Memphis houses?",
+          "answer": "Minimum loan amounts, not the neighborhood. A $90,000 house with 80% financing needs a $72,000 loan, and many DSCR lenders set floors at $75,000 or $100,000 no matter how well the deal pencils. It is a program guideline rather than a judgment on your property. The workarounds are mechanical: buy slightly better stock so the balance clears the floor, put less down so the loan amount rises, or bundle several houses into one portfolio loan. Your matched specialist knows which of the 70+ lenders in the network write small-balance files and which want the bundle instead."
+        },
+        {
+          "question": "Is the Ford plant going to lift Memphis rents?",
+          "answer": "Not on the original timeline, and you should underwrite without it. Ford cancelled the electric pickup planned for the Stanton site, renamed the facility, and moved to gas-powered trucks with production now targeted for 2029, taking $19.5 billion in restructuring charges along the way. The site also sits about 40 miles from Memphis. Treat any pitch built on thousands of imminent Ford jobs as out of date. The active employment story is the logistics and healthcare base, plus the xAI data center buildout, which is real and expanding but carries its own environmental litigation."
+        },
+        {
+          "question": "Memphis is losing population. Does that break the thesis?",
+          "answer": "It reframes it. The city went from 633,104 residents in 2020 to roughly 610,900 in 2024, and apartment vacancy hit 15.1% in the second quarter of 2026, second highest in the country. That is a real headwind for rent growth, and it is why the honest Memphis pitch is yield rather than appreciation. What holds up is single-family rent, which rose 2.2% over the year while values fell, because the houses investors buy are not competing with lease-up apartment towers. Buy for the ratio, underwrite zero appreciation, and screen tenants hard."
+        },
+        {
+          "question": "Which Memphis submarkets should I actually target?",
+          "answer": "Berclair and Raleigh for risk-adjusted yield, Midtown for stability. Berclair is roughly 86% pre-1970 brick ranch with a tenant base known for long tenancies, and rents rose while values eased only 3.5%. Raleigh is newer 1970s to 1990s stock and the most price-stable of the affordable tier. Frayser posts the highest headline yield in the city, but values fell 7.2% over the year and many purchases there fall below lender loan minimums. Whitehaven looks cheap but rents low enough that its yield is actually below Frayser's. Run every one of them on the real tax and insurance numbers."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Memphis typical home value and YoY change, June 2026",
+        "Zillow Observed Rent Index, single-family rent for the Memphis metro, June 2026",
+        "US Census Bureau Housing Vacancy Survey Table 6, Memphis metro rental vacancy, 2025",
+        "Shelby County Assessor and City of Memphis, combined 2026 rate of $5.283192 per $100 assessed, 2026",
+        "Eviction Lab and MLK50, Shelby County eviction filings in 2025, June 2026",
+        "Insurify, Memphis and Nashville homeowners insurance at $300,000 dwelling, July 2026 (landlord figure derived, est.)"
+      ]
+    },
+    {
+      "city": "Knoxville",
+      "slug": "knoxville",
+      "county": "Knox County",
+      "metro": "Knoxville",
+      "hook": "Knoxville's typical home value is $377K against 3-bed rents near $2,049, and a city parcel pays roughly 2.4 times the tax of an identical house just outside the line in unincorporated Knox County.",
+      "metaDescription": "Knoxville homes average $377K with 3-bed rents near $2,049, and city taxes run 2.4x the county rate. See where deals pencil. Get matched today.",
+      "market": {
+        "medianPrice": 376648,
+        "medianRent": 2049,
+        "priceToRent": 15.3,
+        "vacancyRate": 5.5,
+        "yoyPrice": 1,
+        "yoyRent": 0,
+        "estDSCR": 0.76,
+        "propertyTaxRate": 0.9274,
+        "insuranceMonthly": 285
+      },
+      "overview": "Knoxville is the steadiest large market in Tennessee, and the reason is structural. Oak Ridge National Laboratory employs more than 7,000 staff next door, the Y-12 National Security Complex adds roughly 8,600 including subcontractors, Covenant Health is the area's largest employer at over 11,000, and the University of Tennessee crossed 40,000 students in fall 2025 for its sixth consecutive record year. That mix is why Knoxville held value while Nashville and Memphis corrected.\n\nThe typical home value runs about $376,600, up 1% over the year, and homes go pending in roughly 16 days, the fastest absorption of any Tennessee market on this site. Three-bedroom rents sit near $2,049 and were flat over the year, though blended all-unit rents eased about 4% as apartment supply leased up. Knox County added 30,981 residents since 2020, a 6.4% gain, and unemployment sits near 2.7%.\n\nCarrying cost is the moderating factor and it has a workaround. A property inside city limits stacks the Knox County rate of $1.554 with the city rate of $2.1556 for a combined $3.7096 per $100 of assessed value, roughly 0.93% of market value per year, about $3,493 on the typical home. An identical house in unincorporated Knox County pays county only, about 0.39%, which is roughly 2.4 times cheaper. At the citywide median with 20% down the ratio lands near 0.76, so Knoxville files clear on submarket selection, jurisdiction, and structure rather than on the median.",
+      "regulationBadge": "friendly",
+      "regulationNote": "Knox County falls under Tennessee's Uniform Residential Landlord and Tenant Act, which preempts the entire field of local landlord-tenant regulation, so there is no local rent control, no just-cause eviction rule, and no municipal licensing overlay to navigate.",
+      "neighborhoods": [
+        {
+          "name": "Old North Knoxville (37917)",
+          "medianPrice": 261869,
+          "medianRent": 2150,
+          "note": "The cheapest entry and the best rent-to-price in the city. Pre-1940 Victorian and Craftsman stock renting to young professionals priced out of downtown, so budget real capital expense and check historic overlay rules before offering."
+        },
+        {
+          "name": "South Knoxville",
+          "medianPrice": 271631,
+          "medianRent": 2100,
+          "note": "Mid-century ranches and infill near the Urban Wilderness trail system, drawing lifestyle-driven tenants. The one submarket with a negative value trend, so underwrite on rent rather than appreciation."
+        },
+        {
+          "name": "Powell (37849)",
+          "medianPrice": 366398,
+          "medianRent": 2300,
+          "note": "The best combination of growth and yield in the metro, with newer suburban stock along Emory Road and I-75 that carries a lower near-term maintenance drag than the historic districts."
+        },
+        {
+          "name": "Fountain City (37918)",
+          "medianPrice": 337796,
+          "medianRent": 2000,
+          "note": "Boring in the useful sense: 1950s and 1960s brick ranches, stable working families, low turnover, and a ten-minute drive to downtown. Predictable rather than spectacular."
+        },
+        {
+          "name": "Bearden / Farragut",
+          "medianPrice": 562222,
+          "medianRent": 2400,
+          "note": "The premium west-side corridor with the strongest tenant profile and the weakest ratio in the county. These do not cash flow at conventional leverage, so they are appreciation and quality-of-asset holds."
+        }
+      ],
+      "localAngle": {
+        "tag": "City Line",
+        "title": "A Knoxville city address costs about 2.4 times the tax of the same house in the county.",
+        "body": "Knox County levies $1.554 per $100 of assessed value and the City of Knoxville adds $2.1556, a combined $3.7096. At Tennessee's 25% residential assessment ratio that is roughly 0.93% of market value per year, about $3,493 on a $376,600 home. Step outside city limits into unincorporated Knox County and the county rate stands alone at about 0.39%, roughly $1,463 on the same house. That gap of about $2,030 a year is larger than most negotiating wins and it moves a DSCR ratio by a meaningful margin, which is why experienced Knoxville investors check the taxing jurisdiction before they check the schools. Two things to get right. Knox County runs a two-year reappraisal cycle rather than the four-year cycle common elsewhere in Tennessee, with reappraisals in 2017 and 2022 and the current fiscal year falling in a reappraisal cycle, so underwrite the post-sale assessment rather than the seller's bill. And a Knoxville mailing address does not reliably mean inside city limits, so confirm with the assessor against the parcel number. The demand side supports either choice: the University of Tennessee passed 40,000 students in fall 2025, Oak Ridge National Laboratory employs more than 7,000, Y-12 adds roughly 8,600, and Covenant Health over 11,000. Your matched specialist will price the correct jurisdiction into the ratio before the appraisal is ordered."
+      },
+      "programFit": [
+        "standard-dscr",
+        "interest-only-dscr",
+        "portfolio-dscr",
+        "bridge-to-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 2-bath SFR",
+        "neighborhood": "Old North Knoxville (37917)",
+        "purchasePrice": 262000,
+        "downPaymentPct": 25,
+        "downPayment": 65500,
+        "loanAmount": 196500,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 1374,
+        "monthlyTax": 202,
+        "monthlyInsurance": 260,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 1836,
+        "monthlyRent": 2150,
+        "dscr": 1.17,
+        "monthlyCashFlow": 314,
+        "specialistFocus": [
+          "Qualified on the appraiser's market rent schedule for a renovated 3-bed in the 37917 corridor rather than the below-market lease the seller had in place",
+          "Underwrote the full combined Knox County and City of Knoxville levy at 0.93% effective, and confirmed the parcel's jurisdiction rather than assuming from the mailing address",
+          "Structured 25% down to clear the lender's threshold with margin, since the citywide median at 20% down sits near 0.76"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "How much do I save buying outside Knoxville city limits?",
+          "answer": "Roughly 2.4 times on the tax line, which is the largest jurisdiction gap in East Tennessee. A city parcel pays the Knox County rate of $1.554 plus the City of Knoxville rate of $2.1556, a combined $3.7096 per $100 of assessed value, about 0.93% of market value or $3,493 a year on a $376,600 home. The same house in unincorporated Knox County pays county only, about 0.39%, roughly $1,463. That difference of about $2,030 annually moves a DSCR ratio meaningfully. A Knoxville mailing address does not reliably mean inside city limits, so confirm the taxing jurisdiction with the assessor against the parcel number before you write the offer."
+        },
+        {
+          "question": "Why is Knoxville steadier than Nashville or Memphis?",
+          "answer": "A deep and unusually varied employment base. Oak Ridge National Laboratory employs more than 7,000 staff in the adjacent city, the Y-12 National Security Complex adds roughly 8,600 including subcontractors, Covenant Health is the area's largest employer at over 11,000 across ten hospitals, and the Tennessee Valley Authority is headquartered downtown. The University of Tennessee crossed 40,000 students in fall 2025, a sixth straight record. Knox County added 30,981 residents since 2020 and unemployment runs near 2.7%. That mix meant Knoxville held value at up 1% while Nashville fell 3.3% and Memphis fell 3%."
+        },
+        {
+          "question": "How often does Knox County reappraise?",
+          "answer": "Every two years, which is more frequent than most of Tennessee and changes how you should model the tax line. Knox County moved off the four-year cycle common elsewhere in the state, with reappraisals running through 2017 and 2022 and continuing on that shorter cadence. Because Tennessee uses a certified tax rate system, a reappraisal that lifts values forces the rate down so the reassessment alone is not a windfall, which is what produced the city's rollback after the 2022 cycle. The practical instruction is the same either way: underwrite the post-sale assessed value at the current combined rate rather than carrying forward the seller's bill."
+        },
+        {
+          "question": "Where does the DSCR math work best in Knoxville?",
+          "answer": "Old North Knoxville and South Knoxville for ratio, Powell for the balance of both. A renovated 3-bed in the 37917 corridor around $262,000 renting near $2,150 clears roughly 1.17 with 25% down at current carrying costs, and it is the cheapest entry in the city. South Knoxville offers similar math with Urban Wilderness lifestyle demand, though it carries the one negative value trend in the metro. Powell pairs newer suburban stock with both appreciation and yield. Bearden and Farragut will not cash flow at conventional leverage, so those are appreciation holds. Fort Sanders near campus is priced on per-bed student economics rather than whole-house rent, so do not underwrite it like a normal single-family rental."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Knoxville typical home value, YoY change, and days to pending, June 2026",
+        "Zumper Rent Research, Knoxville 3-bedroom rents and YoY change, July 2026",
+        "Knox County FY2026-27 Adopted Budget and City of Knoxville FY2026-27 Budget, combined $3.7096 per $100 assessed, 2026",
+        "US Census American Community Survey 2024, Knoxville metro rental vacancy, 2024",
+        "University of Tennessee System, fall 2025 enrollment above 40,000, September 2025",
+        "Oak Ridge National Laboratory, Y-12 National Security Complex, and Covenant Health published employment figures, 2026"
+      ]
+    },
+    {
+      "city": "Chattanooga",
+      "slug": "chattanooga",
+      "county": "Hamilton County",
+      "metro": "Chattanooga TN-GA",
+      "hook": "An identical $300K house pays $2,584 a year in Chattanooga, $1,736 in East Ridge, and $1,137 in unincorporated Hamilton County. That 56% spread is the biggest lever in this metro.",
+      "metaDescription": "Chattanooga taxes swing 56% across jurisdiction lines on the same house. See where DSCR deals pencil in East Ridge and Hixson. Get matched today.",
+      "market": {
+        "medianPrice": 324364,
+        "medianRent": 1950,
+        "priceToRent": 13.9,
+        "vacancyRate": 5.7,
+        "yoyPrice": -1.1,
+        "yoyRent": -3,
+        "estDSCR": 0.84,
+        "propertyTaxRate": 0.8614,
+        "insuranceMonthly": 280
+      },
+      "overview": "Chattanooga is the softest of Tennessee's four large metros right now, and that is worth saying plainly. The typical home value sits near $324,400, easing about 1.1% over the year, while 3-bedroom rents run near $1,950 and softened about 3%. Homes take roughly 25 days to go pending against 16 in Knoxville. Builders delivered 2,125 apartment units against 880 absorbed, pushing apartment vacancy including lease-up to about 12%, against 8.5% a year earlier.\n\nWhat makes the market work is jurisdiction. Hamilton County reappraised effective January 2025, values rose 56% to 60%, and the certified revenue-neutral rate rolled back to $1.5157 per $100 of assessed value, the lowest county rate since 1941. The City of Chattanooga sits at $1.93. Combined, a city parcel carries about 0.86% of market value. But an identical $300,000 house pays $2,584 a year in Chattanooga, $1,736 in East Ridge, and $1,137 in unincorporated Hamilton County. That is a 56% swing on the same asset.\n\nThe employment base is genuinely diversified: BlueCross BlueShield of Tennessee at 6,303, Erlanger Health at 5,681, Hamilton County Schools at 5,605, Volkswagen at 3,937, TVA at 3,748, CHI Memorial at 3,645, and Unum at 3,219. Volkswagen ended ID.4 electric production in April 2026 and shifted to the second-generation Atlas with no layoffs, workers reassigned by seniority. That preserved the plant but removed the electric-vehicle growth story investors quoted two years ago.",
+      "regulationBadge": "friendly",
+      "regulationNote": "Hamilton County operates under Tennessee's Uniform Residential Landlord and Tenant Act with no rent control, no local licensing overlay, and a detainer process that moves in weeks rather than months for a clean nonpayment case.",
+      "neighborhoods": [
+        {
+          "name": "Hixson (unincorporated)",
+          "medianPrice": 370044,
+          "medianRent": 2050,
+          "note": "Unincorporated, so it pays county-only tax of about $1,137 a year on a $300,000 house versus $2,584 inside the city. The only submarket here with positive value growth, and the best tax-adjusted return in the metro."
+        },
+        {
+          "name": "East Ridge",
+          "medianPrice": 261515,
+          "medianRent": 1900,
+          "note": "The lowest combined rate of any incorporated city in the county, so roughly $850 a year of tax savings versus Chattanooga drops straight into cash flow. Postwar brick ranches on flat lots with an I-75 and I-24 workforce tenant base."
+        },
+        {
+          "name": "Highland Park",
+          "medianPrice": 262731,
+          "medianRent": 1950,
+          "note": "Gentrifying Victorians and bungalows near downtown, with positive value growth and the strongest rent growth in the metro. Note that 3-bedroom houses here price well above the all-homes figure."
+        },
+        {
+          "name": "Brainerd",
+          "medianPrice": 237342,
+          "medianRent": 1850,
+          "note": "The lowest entry in the metro with a high headline yield, but the weakest value trend in the county and full city tax. A pure cash-flow play, not an appreciation hold."
+        },
+        {
+          "name": "East Brainerd",
+          "medianPrice": 366504,
+          "medianRent": 1925,
+          "note": "Newer subdivisions with better schools and family renters, so turnover runs low. Buy-and-hold tenant stability rather than a yield play, at full city rates."
+        }
+      ],
+      "localAngle": {
+        "tag": "Jurisdiction Arbitrage",
+        "title": "The same house costs 56% less in tax three miles outside the city line.",
+        "body": "Chattanooga has the widest jurisdiction spread of any Tennessee market on this site, and it is the single biggest lever an investor here controls. Hamilton County levies $1.5157 per $100 of assessed value after the January 2025 reappraisal rolled the certified rate back from $2.23, the lowest county rate since 1941. On top of that, the City of Chattanooga adds $1.93, East Ridge adds $0.7993, and Red Bank adds $0.98, while unincorporated areas such as Hixson add nothing. Run an identical $300,000 house through each and the annual tax is $2,584 in Chattanooga, $1,872 in Red Bank, $1,736 in East Ridge, and $1,137 in unincorporated Hamilton County. That last figure is 56% below the city, and on a DSCR file it is worth more than a quarter point of ratio. Hixson is the clearest illustration: unincorporated, county-only taxes, and the only submarket in the metro currently posting positive value growth alongside a strong rent-to-price ratio. Two cautions. Tennessee's certified tax rate law forces rates down when reappraisal lifts values, so the 1941-low headline does not mean bills fell; underwrite the post-sale assessment at the current rate. And a Chattanooga mailing address does not establish which jurisdiction a parcel actually sits in. Your matched specialist will confirm the taxing jurisdiction with the assessor before the ratio is finalized, because in this metro that single fact can decide the approval."
+      },
+      "programFit": [
+        "standard-dscr",
+        "bridge-to-dscr",
+        "portfolio-dscr",
+        "interest-only-dscr"
+      ],
+      "dealExample": {
+        "label": "BRRRR Refinance",
+        "propertyType": "3-bed / 2-bath SFR (renovated)",
+        "neighborhood": "East Ridge",
+        "purchasePrice": 261000,
+        "downPaymentPct": 25,
+        "downPayment": 65250,
+        "loanAmount": 195750,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 1368,
+        "monthlyTax": 187,
+        "monthlyInsurance": 255,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 1810,
+        "monthlyRent": 1900,
+        "dscr": 1.05,
+        "monthlyCashFlow": 90,
+        "specialistFocus": [
+          "Structured the refinance on the post-renovation appraised value rather than the distressed purchase price, recovering most of the investor's rehab capital",
+          "Placed the deal in East Ridge rather than inside Chattanooga, where the same house would carry roughly $850 more in annual tax and drop the ratio below 1.05",
+          "Underwrote the post-reappraisal assessed value at the current combined rate rather than the seller's prior bill, since the January 2025 reappraisal lifted values 56% to 60%"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Hamilton County cut its tax rate to a 1941 low. Did my bill actually fall?",
+          "answer": "Not necessarily, and this trips up a lot of buyers. Tennessee runs a certified tax rate system, sometimes called truth in taxation. When a countywide reappraisal raises property values, the certified rate is recalculated downward so the reappraisal alone does not generate a windfall. Hamilton County's rate fell from $2.23 to $1.51 per $100 of assessed value because values rose, not because the county cut taxes. About two-thirds of owners paid the same or less than the prior year. The number that matters for your file is the post-sale assessed value multiplied by the current combined rate, which lands near 0.86% of market value."
+        },
+        {
+          "question": "How soft is the Chattanooga rental market right now?",
+          "answer": "Softer than its reputation, and you should underwrite accordingly. Builders delivered 2,125 apartment units against 880 absorbed, pushing apartment vacancy including lease-up to about 12%, against 8.5% a year earlier, with stabilized product nearer 7.5%. Rents eased about 3% and values about 1.1%, and homes take roughly 25 days to go pending versus 16 in Knoxville. Census data puts all-rental vacancy, which includes single-family, closer to 5.7%. The practical response is to underwrite today's rent rather than a 2023 comp, favor single-family over anything competing with a lease-up building, and hold a real vacancy allowance."
+        },
+        {
+          "question": "Is Chattanooga a one-employer town?",
+          "answer": "No, and that is one of its genuine strengths. The largest employers span insurance, healthcare, utilities, and manufacturing: BlueCross BlueShield of Tennessee at 6,303, Erlanger Health at 5,681, Hamilton County Schools at 5,605, Volkswagen at 3,937, the Tennessee Valley Authority at 3,748, CHI Memorial at 3,645, and Unum at 3,219. Volkswagen ended ID.4 electric production in April 2026 and shifted to the second-generation Atlas, reassigning workers by seniority with no layoffs. That preserved the payroll but removed the electric-vehicle expansion story, so underwrite the current employment base rather than a growth projection."
+        },
+        {
+          "question": "Which Chattanooga submarkets clear the DSCR ratio?",
+          "answer": "East Ridge and Hixson, and the reason is tax rather than rent. A renovated 3-bed in East Ridge around $261,000 renting $1,900 clears roughly 1.09 with 25% down, helped by a combined rate about $850 a year cheaper than the same house inside Chattanooga. Hixson is unincorporated, pays county-only tax, and is the only submarket in the metro with positive value growth. Highland Park offers strong rent growth and gentrification but full city rates. Brainerd has the lowest entry and highest headline yield paired with the weakest value trend in the county. Run every candidate on its actual jurisdiction, not the mailing address."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Chattanooga typical home value, YoY change, and days to pending, June 2026",
+        "Zumper Rent Research, Chattanooga 3-bedroom rents and YoY change, July 2026",
+        "Hamilton County Trustee, 2025 Hamilton County and Municipal Tax Rates schedule, 2025",
+        "HUD Housing Market Analysis, Chattanooga TN-GA apartment vacancy and absorption, April 2025",
+        "Chattanooga Chamber of Commerce, Major Employers List as of December 2025, 2026",
+        "Chattanooga Times Free Press and Automotive World, Volkswagen ID.4 production end and Atlas pivot, April 2026"
+      ]
+    },
+    {
+      "city": "Murfreesboro",
+      "slug": "murfreesboro",
+      "county": "Rutherford County",
+      "metro": "Nashville-Davidson-Murfreesboro-Franklin",
+      "hook": "Murfreesboro's 2026 reappraisal reset the certified county rate down to $1.4885, giving investors the lowest effective tax rate of any major Tennessee metro at about 0.56%.",
+      "metaDescription": "Murfreesboro carries the lowest effective property tax of any major TN metro at 0.56% after the 2026 reappraisal. See where deals pencil. Get matched today.",
+      "market": {
+        "medianPrice": 405000,
+        "medianRent": 2055,
+        "priceToRent": 16.4,
+        "vacancyRate": 8.6,
+        "yoyPrice": -3.8,
+        "yoyRent": -2,
+        "estDSCR": 0.77,
+        "propertyTaxRate": 0.5604,
+        "insuranceMonthly": 205
+      },
+      "overview": "Murfreesboro is the clearest price correction in Middle Tennessee, and that is the opportunity. The typical home value runs about $405,000, down roughly 3.8% over the year, while 3-bedroom rents sit near $2,055 and eased about 2%. Prices falling faster than rents means the rent-to-price ratio investors actually underwrite has quietly improved, even though neither number is moving in a direction that supports appreciation copy. Homes still go pending in about 18 days, so this is a correcting market, not a stalled one.\n\nThe tax story is the standout. Rutherford County completed its 2026 reappraisal, with total appraised value climbing from $52.5 billion in 2022 to $81.7 billion, of which about $18.6 billion was appreciation and $10.5 billion new construction. The certified revenue-neutral county rate reset down to $1.4885 from $1.8762, and the City of Murfreesboro sits at $0.7529. Combined that is $2.2414 per $100 of assessed value, roughly 0.56% of market value, the lightest effective load of any major Tennessee metro on this site. One caution: these are certified rates, and Tennessee law permits the commission and council to adopt above certified after public hearings, which Rutherford did in 2023 with a 16% increase.\n\nDemand comes from Middle Tennessee State University at 20,930 students, Nissan's Smyrna plant next door, and roughly 25,000 manufacturing jobs across Rutherford County. School capacity is the visible strain: the district is projected to pass 56,000 students by 2030.",
+      "regulationBadge": "friendly",
+      "regulationNote": "Rutherford County operates under Tennessee's landlord-tenant act with no rent control and no local licensing overlay, though the county and city both levy development impact fees that are among the highest in Tennessee and land on new construction.",
+      "neighborhoods": [
+        {
+          "name": "Downtown / MTSU (37130)",
+          "medianPrice": 385000,
+          "medianRent": 1950,
+          "note": "The most affordable ZIP in the city and the best rent-to-price ratio in Murfreesboro. Older established stock closest to the university and downtown employment, and the only realistic by-the-bed student play."
+        },
+        {
+          "name": "Blackman / Rockvale (37128)",
+          "medianPrice": 445070,
+          "medianRent": 2250,
+          "note": "The highest new-construction volume in the city and the top school cluster, so families pay a rent premium to zone in. The flip side is the heaviest builder supply, which means the most concession pressure."
+        },
+        {
+          "name": "South Murfreesboro (37127)",
+          "medianPrice": 426800,
+          "medianRent": 2100,
+          "note": "Larger lots and more rural character with the lowest sales volume in the city. Active national-builder entry-level product makes this a workable basis for newer single-family rentals."
+        },
+        {
+          "name": "La Vergne",
+          "medianPrice": 340000,
+          "medianRent": 1900,
+          "note": "The affordability play in Rutherford County, roughly $90,000 below Murfreesboro and closest to Nashville, next to the Nissan workforce. The city rate of $0.4359 is also well below Murfreesboro's $0.7529."
+        }
+      ],
+      "localAngle": {
+        "tag": "Tax Reset",
+        "title": "The 2026 reappraisal reset the rate. Murfreesboro now carries Tennessee's lightest metro tax load.",
+        "body": "Rutherford County reappraised in 2026 and the arithmetic moved meaningfully in an investor's favor. Total appraised value across the county went from $52.5 billion in 2022 to $81.7 billion, about $18.6 billion of that appreciation and $10.5 billion new construction. Under Tennessee's certified tax rate law the county rate had to reset downward to stay revenue neutral, landing at $1.4885 per $100 of assessed value, down from $1.8762. The City of Murfreesboro's certified rate is $0.7529. Combined at Tennessee's 25% residential assessment ratio, an investor inside city limits carries roughly 0.56% of market value per year, the lightest effective load of any major Tennessee metro on this site, and about $200 a month on a $405,000 house. Two honest caveats belong in your model. First, certified is not adopted: Tennessee law lets the county commission and city council adopt above the certified rate after public hearings, and Rutherford commissioners were forced into a 16% property tax increase as recently as 2023. Second, the county and city both levy development impact fees among the highest in Tennessee, roughly $4,840 in county fees alone on a 2,200 square foot home, which matters if you are buying new construction. Your matched specialist will underwrite the adopted rate rather than the certified one."
+      },
+      "programFit": [
+        "standard-dscr",
+        "interest-only-dscr",
+        "portfolio-dscr",
+        "no-ratio-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 2-bath SFR",
+        "neighborhood": "Downtown / MTSU (37130)",
+        "purchasePrice": 360000,
+        "downPaymentPct": 25,
+        "downPayment": 90000,
+        "loanAmount": 270000,
+        "loanType": "30-Year Fixed, 10-Year Interest-Only",
+        "interestOnly": true,
+        "monthlyPI": 1688,
+        "monthlyTax": 168,
+        "monthlyInsurance": 195,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 2051,
+        "monthlyRent": 2250,
+        "dscr": 1.1,
+        "monthlyCashFlow": 199,
+        "specialistFocus": [
+          "Structured a 10-year interest-only period to move the ratio from below 1.0 amortizing to 1.10, matching the payment to the property's strongest cash-flow years",
+          "Used the 37130 ZIP, the most affordable in the city, where the rent-to-price ratio is the strongest in Murfreesboro rather than the higher-priced Blackman school cluster",
+          "Underwrote the 2026 certified rate at 0.56% effective while flagging that Rutherford has adopted above certified before, so the borrower carried a cushion"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Is Murfreesboro's low property tax rate going to last?",
+          "answer": "The current number is real, the durability is not guaranteed. The 2026 reappraisal lifted total county appraised value from $52.5 billion to $81.7 billion, so Tennessee's certified tax rate law forced the county rate down to $1.4885 from $1.8762 to stay revenue neutral. Combined with the city's $0.7529, an investor carries about 0.56% of market value, the lightest of any major Tennessee metro here. But certified is not adopted. State law lets the commission and council adopt above the certified rate after public hearings, and Rutherford commissioners approved a 16% increase in 2023. Underwrite with a cushion rather than assuming the floor holds."
+        },
+        {
+          "question": "Prices fell almost 4%. Is that a reason to wait?",
+          "answer": "It is the reason the math is improving. Values eased about 3.8% while 3-bedroom rents eased only about 2%, so the rent-to-price ratio that DSCR qualification actually depends on moved in your favor. Homes still go pending in roughly 18 days, which is not a stalled market. The honest caution is that this does not support appreciation copy, so underwrite today's value and today's rent and let a recovery be upside rather than the thesis. If a file clears on current numbers, the direction of the next twelve months matters much less than the entry."
+        },
+        {
+          "question": "Does MTSU make this a student rental market?",
+          "answer": "Partially, and only in one ZIP. Middle Tennessee State enrolled 20,930 students in fall 2025, up about 2.4%, though enrollment remains below its 2020 and 2021 level. The realistic by-the-bed play sits in the 37130 core near campus and downtown, which is also the most affordable ZIP and carries the best rent-to-price ratio in the city. Everywhere else in Murfreesboro rents to families and commuters, with the Blackman school cluster driving the strongest whole-house demand. Most DSCR lenders qualify on the appraiser's whole-house market rent rather than a per-room projection, so build the file on the lease an appraiser can support."
+        },
+        {
+          "question": "How does Murfreesboro compare to Clarksville for an investor?",
+          "answer": "It is a genuinely counterintuitive comparison. Clarksville homes are roughly 20% cheaper, yet Clarksville's effective tax rate is about 0.78% against Murfreesboro's 0.56%, nearly 40% higher. In absolute dollars the annual tax bills land close to each other even though the Murfreesboro house costs substantially more. Most investors assume the cheaper market carries the lighter tax burden, and in Tennessee that is frequently wrong because county and city rates vary far more than prices do. Run both on effective rate rather than price, and let your matched specialist confirm the adopted rate for the specific parcel."
+        }
+      ],
+      "dataSources": [
+        "Redfin and Zillow Home Value Index, Murfreesboro median price and YoY change, mid-2026",
+        "Zumper Rent Research, Murfreesboro 3-bedroom and house rents, July 2026",
+        "Rutherford County Assessor 2026 certified rates of $1.4885 county and $0.7529 city per $100 assessed, 2026",
+        "US Census Bureau Housing Vacancy Survey, Nashville metro rental vacancy, 2025",
+        "MTSU Board of Trustees enrollment report, fall 2025",
+        "Realtracs MLS via local market analysis, Murfreesboro ZIP-level median close prices, July 2026"
+      ]
+    },
+    {
+      "city": "Clarksville",
+      "slug": "clarksville",
+      "county": "Montgomery County",
+      "metro": "Clarksville TN-KY",
+      "hook": "Fort Campbell puts about 30,000 soldiers next door and 66% of them live off post, but 2026 housing allowances here rose only 1.6% against a 4.2% national average. That gap is the whole underwriting story.",
+      "metaDescription": "Clarksville sits next to Fort Campbell where 66% of soldiers live off post. See how 2026 BAH math shapes DSCR deals here. Get matched with a specialist.",
+      "market": {
+        "medianPrice": 322202,
+        "medianRent": 1595,
+        "priceToRent": 16.8,
+        "vacancyRate": 4.8,
+        "yoyPrice": -0.2,
+        "yoyRent": -3,
+        "estDSCR": 0.73,
+        "propertyTaxRate": 0.7775,
+        "insuranceMonthly": 165
+      },
+      "overview": "Clarksville is a military rental market, and Fort Campbell is the reason anyone underwrites it. About 30,000 soldiers are assigned to the post, with roughly 50,000 family members, and the garrison reports that 66% of assigned soldiers and their families live off post across Montgomery and Stewart counties in Tennessee and Christian and Trigg counties in Kentucky. On-post supply is not growing: 680 units were built and 680 demolished, a net of zero.\n\nThe market itself is correcting. The typical home value sits near $322,200, essentially flat at down 0.2% over the year, while 3-bedroom rents run about $1,595 and fell roughly 3%. Montgomery County's median sale price is down 4.2% with 4.3 months of supply, days on market at 71, and 18% of active listings taking a price reduction. Local reporting calls it firmly a buyer's market while national prices grew 2.2%.\n\nThe housing allowance data corroborates that softness rather than contradicting it. Fort Campbell's 2026 rates rose only about 1.6% against a 4.2% national average, and the E-1 through E-4 with-dependents rate actually fell from $1,773 to $1,743. The Defense Department sets these rates using local rental market surveys, so a local rate lagging the national average by more than two and a half points is the government's own data reporting that Clarksville softened while the rest of the country tightened. Beyond the post, Hankook Tire is the largest private employer with a $1.6 billion expansion, Austin Peay State University hit a record 11,185 students, and a December 2025 announcement added 928 jobs aimed explicitly at transitioning military members.",
+      "regulationBadge": "friendly",
+      "regulationNote": "Montgomery County falls under Tennessee's landlord-tenant act with no rent control, but every military lease is terminable without penalty under the Servicemembers Civil Relief Act on permanent-change-of-station or deployment orders, so no lease term here is genuinely firm.",
+      "neighborhoods": [
+        {
+          "name": "Fort Campbell corridor (37042)",
+          "medianPrice": 295113,
+          "medianRent": 1600,
+          "note": "The volume rental ZIP, closest to the gates, dominated by 2000s through 2020s tract single-family and the heaviest build-to-rent activity. Highest turnover on permanent-change-of-station cycles but the deepest and most reliably re-let tenant pool."
+        },
+        {
+          "name": "Sango / Rossview (37043)",
+          "medianPrice": 402190,
+          "medianRent": 2050,
+          "note": "The highest-value ZIP with larger lots and newer subdivisions, renting to officers and senior noncommissioned officers. Better appreciation defense, but the weakest rent-to-price ratio in the city."
+        },
+        {
+          "name": "New Providence",
+          "medianPrice": 239000,
+          "medianRent": 1350,
+          "note": "Older, lower-basis workforce stock near downtown and the river, up 19.5% over the year and the only Clarksville submarket showing strong appreciation. Best cash-on-cash entry, with tenant screening and rehab scope as the tradeoff."
+        },
+        {
+          "name": "Woodlawn",
+          "medianPrice": 221298,
+          "medianRent": 1400,
+          "note": "Rural-edge stock with the lowest basis in the metro and larger lots. Longer commute to the gates and thinner tenant demand, and values fell 2.8% over the year, so this is the highest-risk pocket here."
+        }
+      ],
+      "localAngle": {
+        "tag": "BAH Math",
+        "title": "The housing allowance is not a rent budget. About 18% of it is utilities.",
+        "body": "Most Clarksville pro formas price a house against gross Basic Allowance for Housing and stop there. That overstates the tenant budget, because the Defense Department computes the allowance from rent plus utilities, and for the Fort Campbell housing area the split runs roughly 82% rent and 18% utilities. Applied to the 2026 rates for a servicemember with dependents, the E-5 allowance of $1,815 implies a rent budget near $1,488, and E-6 at $2,100 implies about $1,722. Clarksville's median 3-bedroom rent is roughly $1,650, which means the median house exceeds what an E-5 can actually spend on rent and E-6 is the first grade that clears it comfortably. That matters because single soldiers at E-6 and above are required to live off post, which makes that cohort the real product-market fit rather than junior enlisted. Two more facts belong in the model. Local allowances rose only about 1.6% for 2026 against a 4.2% national average, and the E-1 through E-4 with-dependents rate actually fell, which is the Defense Department's own rent survey confirming local softness. And rate protection means a sitting tenant never takes the cut, so budget compression arrives through turnover rather than existing leases, on the same two to three year cycle as permanent-change-of-station moves. Your matched specialist will structure the ratio with enough cushion that a summer turnover is a calendar event rather than a cash call."
+      },
+      "programFit": [
+        "standard-dscr",
+        "portfolio-dscr",
+        "interest-only-dscr",
+        "bridge-to-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 2-bath SFR",
+        "neighborhood": "Fort Campbell corridor (37042)",
+        "purchasePrice": 285000,
+        "downPaymentPct": 30,
+        "downPayment": 85500,
+        "loanAmount": 199500,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 1395,
+        "monthlyTax": 185,
+        "monthlyInsurance": 165,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 1745,
+        "monthlyRent": 1850,
+        "dscr": 1.06,
+        "monthlyCashFlow": 105,
+        "specialistFocus": [
+          "Priced the rent against the E-6 with-dependents rent-equivalent rather than gross housing allowance, because about 18% of the allowance is utilities and the median house exceeds the E-5 rent budget",
+          "Structured 30% down to build cushion for permanent-change-of-station turnover, since Servicemembers Civil Relief Act terminations mean no lease term is firm",
+          "Underwrote the full Montgomery County and City of Clarksville levy at 0.78% effective, which is nearly 40% heavier than Murfreesboro despite the lower purchase price"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "How should I price rent against military housing allowance?",
+          "answer": "Against the rent portion, not the gross figure. The Defense Department builds the allowance from rent plus utilities, and for the Fort Campbell housing area roughly 82% is rent and 18% is utilities. For 2026 with dependents, E-5 receives $1,815, implying about $1,488 of rent budget, and E-6 receives $2,100, implying about $1,722. Clarksville's median 3-bedroom rent near $1,650 therefore exceeds what an E-5 can spend and is comfortably inside E-6. Since single soldiers at E-6 and above must live off post, that grade is the realistic target tenant. Pricing to gross allowance overstates your tenant pool."
+        },
+        {
+          "question": "Why did Clarksville housing allowances barely move in 2026?",
+          "answer": "Because the local rental market softened, and the allowance is measuring that. Fort Campbell rates rose about 1.6% for 2026 while the national average rose 4.2%, and the E-1 through E-4 with-dependents rate actually declined from $1,773 to $1,743. The Defense Department sets these rates using local rental market surveys, so this is a government-audited read on Clarksville rents rather than an arbitrary budget decision. It corroborates the other local signals: median sale prices down 4.2%, 4.3 months of supply, and 18% of listings taking price reductions. An investor underwriting on the national 4.2% headline would overstate the local trajectory by roughly two and a half times."
+        },
+        {
+          "question": "What is the real risk with military tenants?",
+          "answer": "Lease termination, and it is statutory rather than negotiable. Under the Servicemembers Civil Relief Act, a servicemember can terminate a lease without penalty on permanent-change-of-station orders or a deployment of 90 days or more, effective 30 days after the next rent due date. No lease term is genuinely firm, and terminations cluster in the May through August moving window. The offsetting strengths are real: allowances are paid regardless of actual rent, they function as a published and predictable budget, and 66% of Fort Campbell soldiers live off post against zero net new on-post supply. Structure the down payment so a mid-lease break is survivable."
+        },
+        {
+          "question": "Is Clarksville cheaper to own than Murfreesboro?",
+          "answer": "Cheaper to buy, not cheaper to carry, and the gap surprises people. Clarksville's combined Montgomery County and city rate is $3.11 per $100 of assessed value, about 0.78% of market value, while Murfreesboro sits near 0.56% after its 2026 reappraisal. That is nearly 40% heavier in Clarksville even though homes cost roughly 20% less. In absolute dollars the annual bills land close together. If you are comparing Tennessee markets, compare effective rates rather than prices, because county and city rates vary far more here than home values do."
+        },
+        {
+          "question": "Which Clarksville submarkets work best for DSCR?",
+          "answer": "The 37042 corridor near the gates for volume and reliability, New Providence for entry price. The Fort Campbell corridor is the deepest rental pool in the market with the fastest re-leasing, though turnover follows the permanent-change-of-station cycle. New Providence offers the lowest basis around $239,000 and was the only submarket up strongly over the year, with tenant screening and rehab scope as the tradeoff. Sango and Rossview command the highest prices and the best tenants but the weakest ratio. Woodlawn is cheapest on the rural edge and carries the thinnest demand, with values down 2.8%."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Clarksville typical home value and YoY change, June 2026",
+        "Zumper Rent Research, Clarksville 3-bedroom rents and YoY change, July 2026",
+        "Fort Campbell Housing Office, 2026 BAH rates for military housing area KY106 and share living off post, 2026",
+        "US Department of War, 2026 BAH press release and rent-to-utilities component breakdown, December 2025",
+        "Montgomery County Assessor and City of Clarksville, combined rate of $3.11 per $100 assessed, 2026",
+        "Redfin market data via local reporting, Montgomery County months of supply and price reductions, June 2026"
+      ]
+    },
+    {
+      "city": "Sevierville",
+      "slug": "sevierville",
+      "county": "Sevier County",
+      "metro": "Sevierville",
+      "hook": "A 3-bedroom cabin here grosses about $61,000 a year in short-term rental revenue against a typical home value near $422K, while Sevier County's effective property tax runs about 0.48%, roughly a third of Memphis.",
+      "metaDescription": "Sevierville cabins gross near $61K a year on homes averaging $422K, with taxes near 0.48%. See how STR DSCR files clear here. Get matched today.",
+      "market": {
+        "medianPrice": 421598,
+        "medianRent": 2100,
+        "priceToRent": 16.7,
+        "vacancyRate": 5,
+        "yoyPrice": -0.7,
+        "yoyRent": 1,
+        "estDSCR": 0.73,
+        "propertyTaxRate": 0.476,
+        "insuranceMonthly": 340
+      },
+      "overview": "Sevierville is the gateway to the strongest short-term rental lending market in the country, and the numbers explain why. The typical home value runs about $421,600, easing 0.7% over the year. Run that against long-term rent and the ratio lands near 0.73, which fails. Run the same house as a cabin and the arithmetic inverts: a 3-bedroom in Sevierville grosses roughly $61,000 a year in short-term revenue with occupancy in the 50% to 58% range, the highest of the three Smokies markets.\n\nThat is a gross yield above 15% against roughly 5% on a long-term lease, and it is the entire reason DSCR files clear here when the long-term math cannot. Lenders that write short-term rental programs will qualify on projected income, typically applying a 70% to 80% haircut to an AirDNA or market revenue report, and the appraisal governs: if the report says $7,000 a month and the appraiser's comps support $6,000, underwriting uses $6,000. Even at a punitive 30% haircut a Sevierville cabin still clears 1.20.\n\nTwo honest caveats belong in every model. Great Smoky Mountains National Park recorded 11,527,939 visits in 2025, still the most-visited park in the country but down 5.4% from 2024 and the lowest since 2018. And every Smokies market is easing on price. The cash-flow case here is strong; the appreciation case is not, so underwrite for zero appreciation and let the revenue carry the file.",
+      "regulationBadge": "friendly",
+      "regulationNote": "Unincorporated Sevier County requires a short-term rental unit permit at $250 per year with an annual fire and life-safety inspection, but imposes no caps, no limits, and no zoning restrictions, which is why more than 6,500 units operate there.",
+      "neighborhoods": [
+        {
+          "name": "Wears Valley",
+          "medianPrice": 465000,
+          "medianRent": 2400,
+          "note": "Unincorporated county, so the short-term rental permit is a safety process rather than a land-use gate. View-driven cabins command premium nightly rates, and this is where the strongest revenue reports come from."
+        },
+        {
+          "name": "Walden's Creek",
+          "medianPrice": 430000,
+          "medianRent": 2200,
+          "note": "Unincorporated with modern cabin builds and notably better access roads than the ridge properties, which matters for winter bookings and guest reviews. A practical middle ground on price and revenue."
+        },
+        {
+          "name": "Sky Harbor",
+          "medianPrice": 410000,
+          "medianRent": 2150,
+          "note": "Unincorporated and centrally located between Pigeon Forge and Gatlinburg, which produces the most predictable occupancy of the cabin areas. Less view premium, steadier bookings."
+        },
+        {
+          "name": "Sevierville city limits",
+          "medianPrice": 375000,
+          "medianRent": 2000,
+          "note": "Inside the city a short-term rental needs an operational permit and an annual fire-department life-safety inspection. More conventional housing stock, and the workable option for a long-term or mid-term rental strategy."
+        }
+      ],
+      "localAngle": {
+        "tag": "STR Lending",
+        "title": "The same house grosses three times more as a cabin. That is why the ratio clears.",
+        "body": "Sevier County is the strongest short-term rental lending market in the country, and the case is arithmetic rather than atmosphere. A 3-bedroom in Sevierville grosses roughly $61,000 a year in short-term revenue against long-term rent that would produce closer to $25,000, and the county's effective property tax runs about 0.48% of market value, roughly a third of what a Memphis owner pays, because tourism taxes carry the local budget instead of residential property. Unincorporated Sevier County requires a permit at $250 a year with an annual fire and life-safety inspection but imposes no caps, no limits, and no zoning restrictions, which is why more than 6,500 units operate there and why the best cabin pockets sit outside city limits. Lenders that write short-term rental programs qualify these files on projected income, generally applying a 70% to 80% haircut to a market revenue report, with loan-to-value around 60% to 65% on a purchase. Even after a punitive 30% haircut a Sevierville cabin clears 1.20. Two things to verify before you write an offer. Tennessee's short-term rental statute protects properties already operating when a new local rule arrives, but that legacy status is extinguished on sale or transfer, so a buyer does not inherit it. And homeowner association covenants can still ban short-term rentals outright regardless of what the county permits. Your matched specialist will confirm both before the appraisal is ordered."
+      },
+      "programFit": [
+        "str-dscr",
+        "standard-dscr",
+        "interest-only-dscr",
+        "no-ratio-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 3-bath cabin (STR)",
+        "neighborhood": "Wears Valley",
+        "purchasePrice": 400000,
+        "downPaymentPct": 25,
+        "downPayment": 100000,
+        "loanAmount": 300000,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 2097,
+        "monthlyTax": 159,
+        "monthlyInsurance": 700,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 2956,
+        "monthlyRent": 4067,
+        "dscr": 1.38,
+        "monthlyCashFlow": 1111,
+        "specialistFocus": [
+          "Qualified on a market short-term revenue report with a 80% lender haircut applied, taking roughly $61,000 of gross annual revenue down to a defensible qualifying figure",
+          "Confirmed the parcel sits in unincorporated Sevier County, where the permit is a fire and life-safety process rather than a zoning gate, before ordering the appraisal",
+          "Priced a cabin policy with short-term rental endorsement rather than a standard landlord policy, because that premium difference is what quietly sinks Smokies files"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Why do DSCR lenders like Sevier County so much?",
+          "answer": "Three things line up here that rarely line up together. Revenue: a 3-bedroom cabin grosses roughly $61,000 a year against long-term rent nearer $25,000, so the qualifying income is about triple. Regulation: unincorporated Sevier County charges a $250 annual permit with a fire and life-safety inspection but sets no caps, no limits, and no zoning restrictions, so the income is not one ordinance away from disappearing. Taxes: the effective rate runs about 0.48% of market value, roughly a third of Memphis, because tourism revenue carries the county budget. Put together, the ratio clears even after a lender applies a heavy haircut to projected income."
+        },
+        {
+          "question": "How do lenders underwrite projected short-term rental income?",
+          "answer": "Conservatively, and the appraisal has the final word. Most short-term rental programs accept either a market revenue projection from a service like AirDNA or twelve months of trailing platform revenue on an operating cabin. They then apply a haircut, commonly 70% to 80% of the projected figure. Critically, if the projection says $7,000 a month but the appraiser's comparable revenue analysis supports $6,000, underwriting uses $6,000. Loan-to-value typically runs 60% to 65% on a purchase, tighter than a conventional rental because vacation markets carry more revenue volatility. Your matched specialist knows which of the 70+ lenders in the network write these files."
+        },
+        {
+          "question": "If I buy a cabin that is already permitted, do I inherit the permit?",
+          "answer": "No, and this is the single most misunderstood point in the Smokies. Tennessee's short-term rental statute protects a property that was already operating when a new local restriction took effect, but that legacy protection ends on sale or transfer to new ownership. It also ends if the property sits unused as a short-term rental for 30 continuous months or accumulates three or more violations. Separately, the statute expressly preserves the right of homeowner associations and condominium bylaws to prohibit short-term rentals outright. Verify the parcel's permit status and any covenants in writing before your deposit goes hard."
+        },
+        {
+          "question": "Park visitation fell 5.4%. Does that break the cabin thesis?",
+          "answer": "It tempers the appreciation case, not the cash-flow case. Great Smoky Mountains National Park logged 11,527,939 visits in 2025, down 5.4% from 2024 and the lowest since 2018, though it remains the most-visited national park in the country by a wide margin. Home values across the Smokies markets are also easing, ranging between 0.7% in Sevierville and nearly 7% in Gatlinburg. The honest way to underwrite this is on current revenue with zero appreciation assumed. A cabin clearing 1.38 on today's numbers with a lender haircut already applied does not need the market to grow."
+        },
+        {
+          "question": "How much more does cabin insurance cost?",
+          "answer": "Enough to change the ratio, so quote it before you write the offer. A cabin operating as a short-term rental needs either a commercial policy or a landlord policy with a short-term rental endorsement, and those run meaningfully above a standard landlord policy on a comparable long-term rental. Budget in the range of $600 to $900 a month on a $400,000 to $550,000 cabin rather than the $300 a standard rental might carry, and factor wildfire exposure, which carriers have priced more carefully since the 2016 Gatlinburg fire. Because DSCR divides income by full PITIA, an underestimated premium quietly moves your ratio by a tenth of a point or more."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Sevierville typical home value and YoY change, June 2026",
+        "The Short Term Shop AirDNA-derived by-bedroom revenue table for Sevierville, June 2026",
+        "Sevier County government, short term rental unit permit requirements and count, 2026",
+        "Tennessee Comptroller, Sevier County and Sevierville combined rate of $1.9054 per $100 assessed, 2025",
+        "National Park Service via National Parks Traveler, Great Smoky Mountains 2025 visitation, March 2026",
+        "Insurance estimate from Smokies short-term rental carrier averages, 2026 (est.)"
+      ]
+    },
+    {
+      "city": "Pigeon Forge",
+      "slug": "pigeon-forge",
+      "county": "Sevier County",
+      "metro": "Sevierville",
+      "hook": "A Pigeon Forge 3-bedroom cabin grosses about $62,500 a year against a typical home value near $425K. The same house on a long-term lease would gross about $21,600, and that gap is why the ratio clears.",
+      "metaDescription": "Pigeon Forge cabins gross near $62,500 a year versus $21,600 on a long-term lease. See how STR DSCR structuring works here. Get matched today.",
+      "market": {
+        "medianPrice": 424506,
+        "medianRent": 1800,
+        "priceToRent": 19.7,
+        "vacancyRate": 5,
+        "yoyPrice": -3.3,
+        "yoyRent": 0,
+        "estDSCR": 0.63,
+        "propertyTaxRate": 0.411,
+        "insuranceMonthly": 340
+      },
+      "overview": "Pigeon Forge is the clearest illustration on this site of why the same property can fail one lending test and pass another comfortably. The typical home value runs about $424,500, down 3.3% over the year. As a long-term rental it produces roughly $1,800 a month, about $21,600 a year, and the ratio at 20% down lands near 0.63, a decisive failure. As a cabin, a 3-bedroom grosses roughly $62,500 a year with occupancy in the 44% to 54% range. That is a gross yield near 14.7% against about 5.1% on a lease.\n\nThe cost side supports it. Sevier County plus Pigeon Forge combines to about $1.6452 per $100 of assessed value, which at Tennessee's 25% residential assessment ratio is roughly 0.41% of market value per year, among the lowest effective rates in the country. Tourism taxes carry the municipal budget, which is why residential property is taxed so lightly here.\n\nThe regulatory line is the thing to get right. Pigeon Forge requires registration and permits short-term rentals in R-2 zoning and above plus commercial districts, but prohibits them in R-1, and caps occupancy at 12 people using a formula of two guests per bed and two beds per room. Properties in unincorporated Sevier County outside the city sit under the county's far lighter permit regime instead. Verify which side of the line a parcel falls on before you underwrite nightly income, because the answer changes the entire file.",
+      "regulationBadge": "moderate",
+      "regulationNote": "Pigeon Forge permits short-term rentals in R-2 and higher zoning plus commercial districts but prohibits them in R-1, requires registration and annual fire certification, and caps occupancy at 12, so the parcel's zoning determines whether nightly income is underwritable at all.",
+      "neighborhoods": [
+        {
+          "name": "Wears Valley",
+          "medianPrice": 465000,
+          "medianRent": 2400,
+          "note": "Unincorporated county just west of the city, so the county's lighter permit regime applies rather than Pigeon Forge zoning. View cabins here command the highest nightly rates in the market."
+        },
+        {
+          "name": "Walden's Creek",
+          "medianPrice": 430000,
+          "medianRent": 2200,
+          "note": "Unincorporated, modern cabin construction, and better access roads than ridge-top properties. Access matters more than buyers expect, because winter bookings and guest reviews both hinge on it."
+        },
+        {
+          "name": "Pigeon Forge R-2 and commercial corridors",
+          "medianPrice": 445000,
+          "medianRent": 2100,
+          "note": "Inside city limits where non-owner-occupied short-term rentals are permitted, subject to registration, annual fire certification, and the 12-person occupancy cap. Verify zoning on the specific parcel, not the listing description."
+        },
+        {
+          "name": "Pigeon Forge R-1",
+          "medianPrice": 385000,
+          "medianRent": 1800,
+          "note": "Short-term rentals are prohibited in R-1, so these are long-term or mid-term rental properties only. The ratio here has to work on a conventional lease, which at Pigeon Forge prices is difficult."
+        }
+      ],
+      "localAngle": {
+        "tag": "Zoning Decides",
+        "title": "R-1 kills the nightly income. The parcel's zoning is the whole underwriting question.",
+        "body": "Pigeon Forge is a short-term rental market with a hard internal boundary, and crossing it changes the loan entirely. The city permits non-owner-occupied short-term rentals in R-2 zoning and above plus commercial districts, requires registration and annual fire certification, and caps occupancy at 12 people using two guests per bed and two beds per room. In R-1 it prohibits them outright. A cabin in a permitted district qualifies on projected nightly revenue near $62,500 a year for a 3-bedroom and clears the ratio comfortably. The identical house in R-1 qualifies on a long-term lease worth roughly $21,600 a year, and at a typical Pigeon Forge price near $425,000 that math produces a ratio around 0.63, which no standard program will approve. Properties in unincorporated Sevier County outside the city fall under the county's lighter regime instead, a $250 annual permit with a fire and life-safety inspection and no zoning gate, which is why Wears Valley and Walden's Creek attract so much investor capital. Verify zoning against the parcel with the city or county rather than trusting a listing description, and remember that Tennessee's legacy protection for existing short-term rentals is extinguished on sale, so a permitted history does not transfer to you. Your matched specialist will confirm the parcel's status before ordering an appraisal, because an income story that dies in underwriting costs you the deposit."
+      },
+      "programFit": [
+        "str-dscr",
+        "interest-only-dscr",
+        "no-ratio-dscr",
+        "standard-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 3-bath cabin (STR)",
+        "neighborhood": "Walden's Creek",
+        "purchasePrice": 425000,
+        "downPaymentPct": 25,
+        "downPayment": 106250,
+        "loanAmount": 318750,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 2228,
+        "monthlyTax": 146,
+        "monthlyInsurance": 725,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 3099,
+        "monthlyRent": 4167,
+        "dscr": 1.34,
+        "monthlyCashFlow": 1068,
+        "specialistFocus": [
+          "Applied the lender's 80% haircut to roughly $62,500 of projected annual short-term revenue, so the file qualified on a figure underwriting could defend against the appraiser's revenue comps",
+          "Selected an unincorporated Walden's Creek parcel rather than a city R-1 address, where nightly income is prohibited and the same house would have qualified only on a $21,600 lease",
+          "Built the short-term rental insurance endorsement into PITIA from day one instead of quoting a standard landlord premium that would have overstated the ratio"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Can I run a short-term rental anywhere in Pigeon Forge?",
+          "answer": "No, and the zoning line is decisive. Pigeon Forge permits non-owner-occupied short-term rentals in R-2 zoning and above plus commercial districts, with registration, annual fire certification, and a 12-person occupancy cap calculated as two guests per bed and two beds per room. In R-1 they are prohibited. A permitted parcel qualifies on nightly revenue near $62,500 a year for a 3-bedroom. The same house in R-1 qualifies only on a long-term lease near $21,600, which at local prices produces a ratio around 0.63 and fails. Confirm zoning with the city on the specific parcel before your deposit goes hard."
+        },
+        {
+          "question": "Why does the market DSCR on this page look so weak?",
+          "answer": "Because it is calculated on long-term rent, which is the wrong denominator for this market. At the typical value near $424,500 against roughly $1,800 of monthly lease income, the citywide ratio lands near 0.63. That figure is honest and it is exactly why nobody buys Pigeon Forge for long-term rental. Run the same house as a permitted cabin at roughly $62,500 of annual revenue and the ratio clears comfortably even after a lender applies a 70% to 80% haircut. The market-level number tells you the long-term play fails here. The deal example shows the play that works."
+        },
+        {
+          "question": "How low are property taxes in Sevier County really?",
+          "answer": "Genuinely among the lowest in the country, and it is worth real ratio. Sevier County plus Pigeon Forge combines to about $1.6452 per $100 of assessed value. Tennessee assesses residential property at 25% of appraised value, so the effective rate is roughly 0.41% of market value per year, about $145 a month on a $425,000 cabin. Compare that to roughly 1.32% in Memphis or 0.93% in Knoxville. The reason is structural: tourism taxes carry the municipal and county budgets here, so residential property is not asked to. That difference is worth several hundredths of a point on your ratio."
+        },
+        {
+          "question": "What happens to my nightly income if the rules change?",
+          "answer": "Tennessee's short-term rental statute gives existing operators meaningful protection, with an important limit. State law preempts local ordinances that would ban short-term rentals, and it protects a property already used as a short-term rental when a new local restriction takes effect. But that legacy status ends on sale or transfer, if the property sits unused as a short-term rental for 30 continuous months, or after three or more violations of generally applicable local law. The statute also expressly preserves the ability of homeowner associations and condominium bylaws to prohibit short-term rentals. Buy a permitted parcel and verify covenants; do not buy a permitted history."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Pigeon Forge typical home value and YoY change, June 2026",
+        "The Short Term Shop AirDNA-derived by-bedroom revenue table for Pigeon Forge, June 2026",
+        "homes.com, Pigeon Forge long-term rent, July 2026",
+        "Tennessee Comptroller, Sevier County and Pigeon Forge combined rate of $1.6452 per $100 assessed, 2025",
+        "City of Pigeon Forge short term rental zoning, registration, and occupancy rules, 2026",
+        "Insurance estimate from Smokies short-term rental carrier averages, 2026 (est.)"
+      ]
+    },
+    {
+      "city": "Gatlinburg",
+      "slug": "gatlinburg",
+      "county": "Sevier County",
+      "metro": "Sevierville",
+      "hook": "Gatlinburg 3-bedroom cabins gross roughly $67,500 a year, the highest of the Smokies markets, but home values fell 6.9% over the year and R-1A and R-2A zoning prohibit short-term rentals entirely.",
+      "metaDescription": "Gatlinburg cabins gross about $67,500 a year, the highest in the Smokies, but zoning decides the deal. See the STR DSCR math. Get matched today.",
+      "market": {
+        "medianPrice": 506638,
+        "medianRent": 2000,
+        "priceToRent": 21.1,
+        "vacancyRate": 5,
+        "yoyPrice": -6.9,
+        "yoyRent": 0,
+        "estDSCR": 0.59,
+        "propertyTaxRate": 0.401,
+        "insuranceMonthly": 380
+      },
+      "overview": "Gatlinburg produces the highest short-term rental revenue in the Smokies and carries the sharpest price correction. A 3-bedroom cabin grosses roughly $67,500 a year, a 4-bedroom about $87,500, and 6-bedroom-plus properties have reported figures near $138,600, roughly 3.8 times what a 2-bedroom produces. Occupancy runs in the 45% to 55% range at average daily rates near $347.\n\nThe correction is equally real. The typical home value sits near $506,600, down 6.9% year over year, the steepest decline of any market on this site. Combined with Great Smoky Mountains National Park visitation falling 5.4% in 2025 to 11,527,939, the appreciation case here is weak and should not appear in any underwriting. What holds up is revenue per property, which is why lenders still write these files.\n\nZoning is the gate. Gatlinburg permits short-term rentals as a tourist residency use in R-3, its Tourism Development Zones, and C-1 and C-2 commercial districts, with an annual fire and building inspection. It prohibits them in R-1A and R-2A. The city also sits inside Sevier County's very light tax structure, combining to $1.6057 per $100 of assessed value, about 0.40% of market value, the lowest effective rate on this site. The scale advantage is straightforward: larger cabins earn disproportionately more, so the structuring question is usually whether to buy a bigger property in a permitted district rather than whether to buy at all.",
+      "regulationBadge": "moderate",
+      "regulationNote": "Gatlinburg permits short-term rentals as a tourist residency use in R-3, Tourism Development Zones, and C-1 and C-2 districts with annual fire and building inspection, but prohibits them in R-1A and R-2A, so zoning verification precedes any nightly-income underwriting.",
+      "neighborhoods": [
+        {
+          "name": "Chalet Village",
+          "medianPrice": 525000,
+          "medianRent": 2200,
+          "note": "The established Gatlinburg cabin district, mostly 1-bedroom to 3-bedroom properties with the strongest resale liquidity in the market. Deep rental history on most parcels, which helps a lender underwriting trailing revenue."
+        },
+        {
+          "name": "The Glades / Arts and Crafts Loop",
+          "medianPrice": 495000,
+          "medianRent": 2150,
+          "note": "The community loop east of downtown with unusually high repeat-guest rates, which stabilizes occupancy against the market average. Older cabin stock, so inspect roofs and decks carefully."
+        },
+        {
+          "name": "Ski Mountain",
+          "medianPrice": 575000,
+          "medianRent": 2400,
+          "note": "Elevated properties with views and ski-area proximity that carry premium nightly rates. Access roads are steep, which affects winter bookings and insurance, so budget for both."
+        },
+        {
+          "name": "Gatlinburg R-1A and R-2A",
+          "medianPrice": 430000,
+          "medianRent": 1900,
+          "note": "Short-term rentals are prohibited in these residential districts, so these properties are long-term rentals only. At Gatlinburg prices the conventional lease math rarely clears without substantial equity."
+        }
+      ],
+      "localAngle": {
+        "tag": "Scale Economics",
+        "title": "Bedrooms drive revenue faster than they drive price. That is the Gatlinburg structuring lever.",
+        "body": "Gatlinburg rewards size more sharply than any other market on this site, and it changes how a file gets structured. A 2-bedroom cabin grosses roughly $47,500 a year, a 3-bedroom about $67,500, a 4-bedroom around $87,500, and 6-bedroom-plus properties have reported figures near $138,600, roughly 3.8 times the 2-bedroom. Purchase prices do not scale at that rate, so revenue per dollar invested generally improves as you move up in bedroom count, which is the opposite of most long-term rental markets where the smallest units carry the best ratios. For a DSCR borrower the practical implication is that the larger cabin often qualifies more easily than the entry-level one, even though it needs more capital at closing. Two constraints keep this honest. Zoning first: short-term rentals are a permitted tourist residency use in R-3, the Tourism Development Zones, and C-1 and C-2, with an annual fire and building inspection, and they are prohibited in R-1A and R-2A. Second, this market carries the steepest price correction on this site, down 6.9% over the year, alongside a 5.4% decline in national park visitation, so underwrite current revenue with zero appreciation. Your matched specialist can model the ratio at several bedroom counts before you commit, since the down payment and the revenue both move and the answer is not always the cheaper property."
+      },
+      "programFit": [
+        "str-dscr",
+        "interest-only-dscr",
+        "no-ratio-dscr",
+        "portfolio-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 3-bath cabin (STR)",
+        "neighborhood": "Chalet Village",
+        "purchasePrice": 450000,
+        "downPaymentPct": 30,
+        "downPayment": 135000,
+        "loanAmount": 315000,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 2202,
+        "monthlyTax": 150,
+        "monthlyInsurance": 780,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 3132,
+        "monthlyRent": 4500,
+        "dscr": 1.44,
+        "monthlyCashFlow": 1368,
+        "specialistFocus": [
+          "Underwrote 80% of roughly $67,500 in projected annual revenue for a 3-bedroom Chalet Village cabin, using trailing platform revenue from the existing operator rather than a projection alone",
+          "Confirmed the parcel sits in a district where tourist residency use is permitted rather than R-1A or R-2A, where nightly rental is prohibited outright",
+          "Structured 30% down to absorb the market's 6.9% price decline, so the file carried equity cushion rather than relying on appreciation"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Does a bigger Gatlinburg cabin qualify more easily than a smaller one?",
+          "answer": "Usually yes, which surprises people coming from long-term rental markets. Reported revenue runs roughly $47,500 for a 2-bedroom, $67,500 for a 3-bedroom, $87,500 for a 4-bedroom, and near $138,600 for 6-bedroom-plus properties. Purchase prices do not climb at that rate, so revenue per dollar invested tends to improve with bedroom count. The tradeoff is capital: a larger cabin needs more cash at closing, and short-term rental programs typically cap loan-to-value at 60% to 65% on a purchase. Ask your matched specialist to model the ratio at two or three bedroom counts before you commit to a price point."
+        },
+        {
+          "question": "Values fell 6.9% here. Is Gatlinburg still worth buying?",
+          "answer": "It depends entirely on whether you need appreciation. This is the steepest price decline of any market on this site, and national park visitation fell 5.4% in 2025 to 11,527,939 visits. Neither number supports an appreciation thesis, and you should not build one. What holds up is revenue per property, which is why lenders still write these files and why a well-selected cabin clears the ratio after a heavy haircut. Underwrite current revenue, assume zero appreciation, and structure enough down payment that a further softening does not put you underwater."
+        },
+        {
+          "question": "Which Gatlinburg zoning districts allow short-term rentals?",
+          "answer": "Short-term rentals operate as a tourist residency use, permitted in R-3, the city's Tourism Development Zones, and the C-1 and C-2 commercial districts, each requiring an annual fire and building inspection. They are prohibited in R-1A and R-2A. That distinction decides the loan, because a permitted parcel qualifies on nightly revenue while an R-1A house qualifies only on a long-term lease, and at Gatlinburg's typical value above $500,000 the lease math rarely clears. Verify zoning with the city against the parcel identification number, not the listing copy, before your deposit goes hard."
+        },
+        {
+          "question": "Why is Gatlinburg insurance so much higher than a normal rental?",
+          "answer": "Two reasons stack here. First, a cabin operating nightly needs commercial coverage or a landlord policy with a short-term rental endorsement, which prices above a conventional landlord policy on the same structure. Second, carriers have priced mountain wildfire exposure far more carefully since the 2016 Gatlinburg fire, and steep access roads on properties like the Ski Mountain area add their own loading. Budget in the range of $700 to $900 a month at these price points rather than the $300 a standard rental might carry. Because DSCR divides revenue by full PITIA, an underestimated premium moves your ratio by a tenth of a point or more."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Gatlinburg typical home value and YoY change, 2026",
+        "The Short Term Shop AirDNA-derived by-bedroom revenue table for Gatlinburg, June 2026",
+        "AirROI, Gatlinburg cabin revenue by bedroom count, April 2026",
+        "Tennessee Comptroller, Sevier County and Gatlinburg combined rate of $1.6057 per $100 assessed, 2025",
+        "City of Gatlinburg tourist residency permit zoning requirements, 2026",
+        "National Park Service via National Parks Traveler, Great Smoky Mountains 2025 visitation, March 2026"
+      ]
+    },
+    {
+      "city": "Johnson City",
+      "slug": "johnson-city",
+      "county": "Washington County",
+      "metro": "Johnson City",
+      "hook": "Johnson City homes go pending in about 12 days at a typical value near $300K, but the city raised its property tax rate 28 cents in June 2026, so any comp built before July understates the carry.",
+      "metaDescription": "Johnson City homes average $300K and go pending in 12 days, but a June 2026 tax hike changed the math. See the DSCR numbers. Get matched today.",
+      "market": {
+        "medianPrice": 300337,
+        "medianRent": 1450,
+        "priceToRent": 17.3,
+        "vacancyRate": 6.6,
+        "yoyPrice": 0.6,
+        "yoyRent": 2.88,
+        "estDSCR": 0.7,
+        "propertyTaxRate": 0.843,
+        "insuranceMonthly": 180
+      },
+      "overview": "Johnson City anchors the Tri-Cities and runs on two institutions. East Tennessee State University enrolled a record first-year class of 2,284 in fall 2025 against roughly 14,000 students overall, and filled more than 3,300 on-campus beds, which leaves upward of 10,000 students housed off campus. Ballad Health is headquartered here with about 13,800 employees across 20 hospitals and 29 counties in four states.\n\nThe market data is modest but positive. The typical home value runs about $300,300, up 0.6% over the year, and homes go pending in roughly 12 days. Rents rose about 2.9%. What changed in 2026 is the carry: the city council approved a 28-cent property tax increase on June 25, 2026, lifting the city rate to $1.66 per $100 of assessed value. Combined with Washington County's $1.71, an investor inside city limits pays $3.37 per $100, roughly 0.84% of market value, or about $211 a month on the median home. Any comparable or pro forma built before July 2026 understates that line by roughly $210 a year.\n\nTwo risks deserve honest weight. Apartment vacancy jumped from about 3.5% to 6.6% as new supply landed, and rent growth across the Tri-Cities decelerated sharply. And Ballad operates under a Tennessee Certificate of Public Advantage, a state-sanctioned arrangement the Federal Trade Commission opposed; in April 2026 FTC staff formally warned the legislature against a bill that would let that oversight expire in June 2028. Concentration risk in a single dominant employer is real here.",
+      "regulationBadge": "friendly",
+      "regulationNote": "Washington County falls under Tennessee's Uniform Residential Landlord and Tenant Act, which preempts local landlord-tenant regulation entirely, so there is no rent control and no municipal licensing layer, though the city just raised its property tax rate.",
+      "neighborhoods": [
+        {
+          "name": "Tree Streets",
+          "medianPrice": 315000,
+          "medianRent": 1550,
+          "note": "The historic district near downtown and ETSU with early-1900s stock, walkable and in steady demand from faculty and graduate tenants. Expect older-home capital expense: knob-and-tube wiring, cast iron plumbing, and roofs."
+        },
+        {
+          "name": "Boones Creek",
+          "medianPrice": 340000,
+          "medianRent": 1650,
+          "note": "The suburban growth corridor between Johnson City and Jonesborough with newer subdivision stock and lower maintenance risk. Family tenants and longer tenancies, with correspondingly thinner yield."
+        },
+        {
+          "name": "Gray (37615)",
+          "medianPrice": 325000,
+          "medianRent": 1600,
+          "note": "North-side suburban housing convenient to the I-26 corridor and the Kingsport commute. Newer construction than the city core, which keeps rehab budgets predictable for a first out-of-state file."
+        },
+        {
+          "name": "Near ETSU",
+          "medianPrice": 265000,
+          "medianRent": 1400,
+          "note": "Older housing within a short drive of campus where student demand supports the strongest rent per dollar in the city. Higher turnover on the August cycle, so underwrite a real vacancy allowance."
+        }
+      ],
+      "localAngle": {
+        "tag": "Employer Risk",
+        "title": "Ballad Health is 13,800 jobs and a regulatory cliff in June 2028.",
+        "body": "Johnson City's rental demand rests heavily on one institution, and its legal foundation has an expiration date worth knowing before you buy. Ballad Health is headquartered here with roughly 13,800 employees across 20 hospitals serving 29 counties in Tennessee, Virginia, Kentucky, and North Carolina. It was formed in 2018 by merging Mountain States Health Alliance and Wellmont Health System under a Tennessee Certificate of Public Advantage, an arrangement in which normal antitrust enforcement is replaced by state regulatory supervision of price, quality, and access. The Federal Trade Commission opposed that merger and remains hostile to the structure. In April 2026 FTC staff formally warned the Tennessee legislature against House Bill 2278 and Senate Bill 2414, which would let the certificate expire in June 2028 and end Department of Health oversight. Ballad also posted a $40 million net operating loss in fiscal 2023, its first since the merger, though S&P moved its outlook to positive in December 2025. None of this means Johnson City is a bad market. East Tennessee State's record first-year class and roughly 10,000 students living off campus are a genuine second demand pillar. It means a single employer of that scale, under active legislative and federal scrutiny with a dated regulatory cliff, is concentration risk you should price into your vacancy assumption rather than learn later. Your matched specialist will underwrite the post-increase city tax rate at the same time."
+      },
+      "programFit": [
+        "standard-dscr",
+        "portfolio-dscr",
+        "bridge-to-dscr",
+        "interest-only-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 2-bath SFR",
+        "neighborhood": "Near ETSU",
+        "purchasePrice": 245000,
+        "downPaymentPct": 25,
+        "downPayment": 61250,
+        "loanAmount": 183750,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 1284,
+        "monthlyTax": 172,
+        "monthlyInsurance": 175,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 1631,
+        "monthlyRent": 1650,
+        "dscr": 1.01,
+        "monthlyCashFlow": 19,
+        "specialistFocus": [
+          "Underwrote the June 2026 city rate increase to $1.66 per $100 assessed rather than the prior figure, which is what every comparable sale before July 2026 still reflects",
+          "Qualified on the appraiser's market rent for a near-campus 3-bed rather than a per-room student projection, which most lenders will not accept",
+          "Flagged that the 1.01 ratio leaves no vacancy cushion and modeled a larger down payment option, since Tri-Cities apartment vacancy nearly doubled over the year"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Did Johnson City property taxes just go up?",
+          "answer": "Yes, and it is recent enough that most comparable sales do not reflect it. The city council approved a 28-cent increase on June 25, 2026, taking the City of Johnson City rate to $1.66 per $100 of assessed value. Washington County sits at $1.71 after its own 2024 increase. Combined, an investor inside city limits pays $3.37 per $100, which at Tennessee's 25% residential assessment ratio is about 0.84% of market value, roughly $2,530 a year or $211 a month on a $300,000 home. Any pro forma built before July 2026 understates that line by about $210 annually. Outside city limits the county-only rate produces about 0.43%."
+        },
+        {
+          "question": "Is ETSU enough to support a student rental strategy?",
+          "answer": "It supports the demand, though not a per-room underwriting approach. East Tennessee State serves roughly 14,000 students and set a record first-year class of 2,284 in fall 2025, while on-campus housing filled just over 3,300 beds. That leaves upward of 10,000 students living off campus, which is a genuine structural floor under near-campus rentals. The complication is that much of the new multifamily supply pushing apartment vacancy from about 3.5% to 6.6% targets exactly this renter. Most DSCR lenders qualify on the appraiser's whole-house market rent rather than a per-bed projection, so build the file on the lease an appraiser will support."
+        },
+        {
+          "question": "How concentrated is Johnson City's economy?",
+          "answer": "Heavily, and it is the main risk to underwrite. Ballad Health employs roughly 13,800 people across 20 hospitals and is headquartered here, operating under a Tennessee Certificate of Public Advantage that replaces antitrust enforcement with state supervision. The Federal Trade Commission opposed the merger that created it and in April 2026 formally warned the legislature against letting that oversight expire in June 2028. East Tennessee State is the second pillar. Two institutions carrying most of the demand means a policy change lands harder here than in a diversified metro like Knoxville. Price a more conservative vacancy assumption accordingly."
+        },
+        {
+          "question": "Tri-Cities vacancy is rising. How should that change my numbers?",
+          "answer": "It should make you refuse thin ratios. Johnson City apartment vacancy moved from about 3.5% to 6.6% over the year, the neighboring Kingsport-Bristol market moved 4.4% to 5.8%, and asking-rent growth across the region decelerated from about 3.5% to 1.0%. New multifamily supply is landing faster than absorption. Anyone underwriting on 2023 or 2024 rent-growth assumptions will be wrong. The practical response is to require more cushion than the 1.01 our example produces, either through a larger down payment or a lower purchase price, so a single extended vacancy does not turn into a personal cash call."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Johnson City typical home value and YoY change, June 2026",
+        "RentCafe and Zumper, Johnson City rent levels and YoY change, July 2026",
+        "City of Johnson City council budget approval raising the city rate to $1.66 per $100 assessed, June 2026",
+        "Washington County rate of $1.71 per $100 assessed, held flat in the FY2026 budget, 2026",
+        "ETSU News, record fall 2025 first-year enrollment and on-campus bed count, September 2025",
+        "Federal Trade Commission staff comment on Ballad Health Certificate of Public Advantage legislation, April 2026"
+      ]
+    },
+    {
+      "city": "Franklin",
+      "slug": "franklin",
+      "county": "Williamson County",
+      "metro": "Nashville-Davidson-Murfreesboro-Franklin",
+      "hook": "Franklin's typical home value is $915K against 3-bed rents near $3,100, so even 40% down produces a ratio around 0.67. This market does not clear on a conventional lease at any realistic down payment.",
+      "metaDescription": "Franklin homes average $915K against $3,100 rents, so the ratio fails even at 40% down. See which structures actually work here. Get matched today.",
+      "market": {
+        "medianPrice": 915404,
+        "medianRent": 3100,
+        "priceToRent": 24.6,
+        "vacancyRate": 6,
+        "yoyPrice": 1.4,
+        "yoyRent": 0,
+        "estDSCR": 0.54,
+        "propertyTaxRate": 0.399,
+        "insuranceMonthly": 300
+      },
+      "overview": "Franklin is the wealthiest housing market in Tennessee and the hardest DSCR file in this data set. The typical home value runs about $915,400, up 1.4% over the year, while a 3-bedroom rents near $3,100. Those two numbers produce a price-to-rent ratio around 24.6, and at 20% down the market-level DSCR lands near 0.54. Push the down payment to 40% and the ratio still only reaches roughly 0.67. There is no realistic amount of conventional equity that makes a median Franklin house clear 1.0 on a long-term lease.\n\nThat is not a reason to skip the market, but it does mean Franklin is a structuring market rather than a ratio market. Williamson County's tax rate of $1.30 plus the city's $0.296 combines to $1.596 per $100 of assessed value, about 0.40% of market value, which is genuinely light and one of the few things working in a buyer's favor here. Verify whether the 9th Special School District levy applies to a given parcel, because it can add materially on top.\n\nThe investors who transact here use one of a few approaches: No-Ratio programs at reduced loan-to-value where the ratio is a disclosure rather than a denial, interest-only structures that lower the payment during the hold, mid-term furnished rentals to traveling medical professionals, or buying in adjacent Fairview, Spring Hill, Thompson's Station, and Nolensville where entry prices are dramatically lower. Fairview's typical value near $545,000 against Franklin's $915,000 is the clearest illustration.",
+      "regulationBadge": "friendly",
+      "regulationNote": "Williamson County operates under Tennessee's landlord-tenant act with no rent control and one of the lightest effective property tax rates in the state, so the constraint in Franklin is price relative to rent rather than regulation.",
+      "neighborhoods": [
+        {
+          "name": "Downtown Franklin",
+          "medianPrice": 1150000,
+          "medianRent": 3600,
+          "note": "Historic district housing at the top of the county's price range with the strongest tenant quality and the weakest ratio in this data set. Purely an appreciation and quality-of-asset hold."
+        },
+        {
+          "name": "Cool Springs",
+          "medianPrice": 825000,
+          "medianRent": 3100,
+          "note": "The corporate corridor with newer construction and the deepest professional tenant pool in Williamson County. Relocating executives support mid-term furnished demand, which is often the better structure here."
+        },
+        {
+          "name": "Thompson's Station",
+          "medianPrice": 685000,
+          "medianRent": 2800,
+          "note": "South of Franklin with newer subdivision stock at a materially lower basis, so the ratio improves without leaving the school districts tenants move here for."
+        },
+        {
+          "name": "Fairview",
+          "medianPrice": 545229,
+          "medianRent": 2400,
+          "note": "The affordability outlet in western Williamson County at roughly 60% of Franklin's typical value. This is where investors priced out of Franklin actually get a conventional file to pencil."
+        }
+      ],
+      "localAngle": {
+        "tag": "Ratio Reality",
+        "title": "Even at 40% down the ratio is 0.67. Franklin needs a different program, not a bigger check.",
+        "body": "Most expensive markets can be fixed with equity. Franklin cannot, and it is worth seeing the arithmetic before you spend time on it. At a typical value near $915,400 against a 3-bedroom rent near $3,100, a 25% down file produces a ratio around 0.55. Increase the down payment to 40%, a substantial capital commitment, and the ratio still lands near 0.67. The gap between price and rent is simply too wide for equity alone to close, which is the defining feature of Williamson County as an investment market. What actually works falls into four categories. No-Ratio programs, where the qualifying test is not the ratio at all and the lender prices for reduced loan-to-value instead, which turns a 0.67 from a denial into a disclosure. Interest-only structures that cut the payment during the hold period and improve the ratio meaningfully. Mid-term furnished rentals to traveling medical professionals and relocating executives, which command higher monthly income than a conventional lease in the Cool Springs corridor. Or buying the same thesis at a lower basis in Fairview, Thompson's Station, Spring Hill, or Nolensville, where Fairview's typical value near $545,000 against Franklin's $915,000 tells the whole story. One tax note: Williamson County plus Franklin runs about 0.40% of market value, genuinely light, but confirm whether the 9th Special School District levy applies to your parcel. Your matched specialist can price all four paths before you commit."
+      },
+      "programFit": [
+        "no-ratio-dscr",
+        "interest-only-dscr",
+        "bank-statement-dscr",
+        "portfolio-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "4-bed / 3-bath SFR",
+        "neighborhood": "Fairview",
+        "purchasePrice": 545000,
+        "downPaymentPct": 30,
+        "downPayment": 163500,
+        "loanAmount": 381500,
+        "loanType": "30-Year Fixed, 10-Year Interest-Only",
+        "interestOnly": true,
+        "monthlyPI": 2384,
+        "monthlyTax": 181,
+        "monthlyInsurance": 250,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 2815,
+        "monthlyRent": 2850,
+        "dscr": 1.01,
+        "monthlyCashFlow": 35,
+        "specialistFocus": [
+          "Moved the search from Franklin proper to Fairview, where a typical value near $545,000 against comparable rents is the only way a Williamson County file clears on a conventional lease",
+          "Structured a 10-year interest-only period, which is what carried this file to 1.01 where an amortizing payment would have left it near 0.89",
+          "Confirmed the parcel's applicable school district levy before finalizing the ratio, since a special district assessment can add meaningfully to the Williamson County base rate"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Can any amount of down payment make a Franklin house clear 1.0?",
+          "answer": "Not realistically on a long-term lease. At a typical value near $915,400 against a 3-bedroom rent near $3,100, a 25% down file lands around 0.55, and even 40% down only reaches roughly 0.67. The price-to-rent ratio here is about 24.6, which is nearly double what a cash-flow market looks like. Equity alone cannot close that gap. What works instead is a different program: No-Ratio at reduced loan-to-value, an interest-only structure, mid-term furnished rental income, or buying the same thesis in Fairview or Thompson's Station at a much lower basis."
+        },
+        {
+          "question": "What is a No-Ratio DSCR loan and why does Franklin need one?",
+          "answer": "A No-Ratio program removes the debt-service coverage test from qualification entirely. Instead of requiring the rent to cover the payment at some threshold, the lender prices the risk through a lower loan-to-value, typically around 70%, plus reserve and credit requirements. In a market like Franklin where a strong property honestly produces a 0.67 ratio, that turns the number from a denial into a disclosure. It is the right tool when the asset is sound and the local rent-to-price relationship, not the borrower or the property, is what fails. Your matched specialist can tell you which lenders in the network write these and at what terms."
+        },
+        {
+          "question": "Are Williamson County property taxes really that low?",
+          "answer": "They are, and it is one of the few numbers working in a buyer's favor here. Williamson County levies $1.30 per $100 of assessed value and the City of Franklin adds $0.296, a combined $1.596. At Tennessee's 25% residential assessment ratio that is roughly 0.40% of market value per year, well under Knoxville at 0.93% and Memphis at 1.32%. On a $915,000 home that is about $3,650 annually. One caution before you finalize a model: confirm whether the 9th Special School District levy applies to the specific parcel, because a special district assessment can add materially on top of the county and city rates."
+        },
+        {
+          "question": "Where should I buy if Franklin itself does not pencil?",
+          "answer": "Fairview first, then Thompson's Station, Spring Hill, and Nolensville. Fairview's typical value sits near $545,000 against Franklin's $915,400, roughly 60% of the price while drawing from the same regional tenant pool and school reputation that makes Williamson County desirable. Our deal example uses exactly that substitution, and even then it needs a 10-year interest-only structure to reach 1.01. Thompson's Station near $685,000 is the next step up. If you specifically want Franklin proper, plan on a No-Ratio structure or a mid-term furnished strategy in the Cool Springs corridor rather than a conventional lease."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Franklin typical home value and YoY change, May 2026",
+        "Zillow Rental Manager, Franklin 3-bedroom rent, 2026",
+        "Williamson County and City of Franklin combined rate of $1.596 per $100 assessed, 2026",
+        "Zillow Home Value Index, Fairview and Hendersonville typical home values, June 2026",
+        "Vacancy and insurance estimates from Middle Tennessee market averages, 2026 (est.)"
+      ]
+    },
+    {
+      "city": "Jackson",
+      "slug": "jackson",
+      "county": "Madison County",
+      "metro": "Jackson TN",
+      "hook": "Jackson city carries a 1.014% effective property tax, roughly double the Tennessee median, while unincorporated Madison County runs 0.585%. That line on a map is worth more than most negotiations.",
+      "metaDescription": "Jackson TN taxes run 1.014% inside the city versus 0.585% just outside. See how that decides DSCR deals on $230K homes. Get matched today.",
+      "market": {
+        "medianPrice": 229672,
+        "medianRent": 1555,
+        "priceToRent": 12.3,
+        "vacancyRate": 5.2,
+        "yoyPrice": -0.9,
+        "yoyRent": -2,
+        "estDSCR": 0.92,
+        "propertyTaxRate": 1.014,
+        "insuranceMonthly": 215
+      },
+      "overview": "Jackson sits between Memphis and Nashville on I-40 and offers the cheapest entry of any West Tennessee market on this site outside Memphis itself. The typical home value runs about $229,700, down 0.9% over the year, with 3-bedroom rents near $1,555, off about 2%. At the citywide median with 20% down the ratio lands near 0.92, close enough that submarket selection or a slightly larger down payment carries a file over the line.\n\nThe defining local fact is the tax line. Madison County levies $2.33965 per $100 of assessed value and the City of Jackson adds $1.7175, a combined $4.05715, which works out to roughly 1.014% of market value for an investor. That is approximately double the Tennessee median and higher than every market on this site except Memphis. Step outside city limits into unincorporated Madison County and the county-only rate produces about 0.585%. On a $230,000 house that difference is close to $1,000 a year, which is real ratio.\n\nOne correction worth carrying: Ford cancelled the electric pickup planned for its BlueOval City site in Stanton in December 2025, renamed the facility, and moved to gas-powered trucks with production now targeted for 2029. Any Jackson pitch built on imminent Ford spillover is out of date. The genuine employment base is West Tennessee Healthcare with roughly 7,000 employees, plus Toyota, Delta Faucet, Stanley Black and Decker, Kellanova, Owens Corning, and Union University. Rental vacancy near 5.2% is actually better than the national rate; the local housing problem is blight rather than weak demand, with roughly 2,149 units classified as other vacant.",
+      "regulationBadge": "friendly",
+      "regulationNote": "Madison County operates under Tennessee's landlord-tenant framework with no rent control and a quick detainer process, so the meaningful local variable is which side of the Jackson city line a property sits on and what that does to the tax bill.",
+      "neighborhoods": [
+        {
+          "name": "North Jackson",
+          "medianPrice": 285000,
+          "medianRent": 1750,
+          "note": "The newer suburban corridor with the strongest schools and the most predictable tenants in the metro. Thinner ratio at full price, but the lowest turnover and the easiest properties to re-lease."
+        },
+        {
+          "name": "Midtown / Highland",
+          "medianPrice": 205000,
+          "medianRent": 1450,
+          "note": "Established mid-century stock near the medical corridor and Union University, renting to hospital staff and university-affiliated tenants. The best balance of tenant quality and entry price inside the city."
+        },
+        {
+          "name": "East Jackson",
+          "medianPrice": 145000,
+          "medianRent": 1150,
+          "note": "The deep-value pocket where gross yields look strongest on paper. Condition risk and lender loan minimums are the real constraints, and blight in surrounding blocks affects appraisals."
+        },
+        {
+          "name": "Unincorporated Madison County",
+          "medianPrice": 245000,
+          "medianRent": 1600,
+          "note": "Outside city limits the effective tax rate drops from about 1.014% to roughly 0.585%, worth close to $1,000 a year on a typical house. Larger lots, and the single easiest way to improve a Jackson ratio."
+        }
+      ],
+      "localAngle": {
+        "tag": "City Line",
+        "title": "Crossing the city line cuts the tax rate almost in half.",
+        "body": "Jackson has the widest inside-versus-outside tax gap of any market on this site, and it is worth more to a DSCR file than most negotiating wins. A property inside Jackson city limits pays the Madison County rate of $2.33965 per $100 of assessed value plus the City of Jackson rate of $1.7175, a combined $4.05715. At Tennessee's 25% residential assessment ratio that is roughly 1.014% of market value per year, approximately double the Tennessee median and second only to Memphis among the markets here. A comparable house in unincorporated Madison County pays county only, about 0.585%. On a $230,000 property that difference is close to $1,000 a year, which moves the ratio by several hundredths of a point and can be the difference between a 0.98 and a 1.05 file. The practical instruction is simple: before you make an offer, confirm the parcel's taxing jurisdiction with the assessor rather than assuming from the mailing address, because a Jackson postal address does not reliably mean inside city limits. Two other Jackson realities belong in the underwriting. Rental vacancy around 5.2% is actually better than the national figure, so the market's reputation for weak demand is not supported by the data; the real issue is roughly 2,149 units classified as other vacant, which is blight and affects appraisals in specific blocks rather than the demand for sound housing. And West Tennessee is the state's highest-premium insurance region, with New Madrid earthquake coverage excluded from standard policies and available only by endorsement carrying a percentage deductible. Your matched specialist will price the correct jurisdiction and a realistic premium into the ratio before you go under contract."
+      },
+      "programFit": [
+        "standard-dscr",
+        "portfolio-dscr",
+        "bridge-to-dscr",
+        "no-ratio-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 2-bath SFR",
+        "neighborhood": "Unincorporated Madison County",
+        "purchasePrice": 165000,
+        "downPaymentPct": 25,
+        "downPayment": 41250,
+        "loanAmount": 123750,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 865,
+        "monthlyTax": 139,
+        "monthlyInsurance": 200,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 1204,
+        "monthlyRent": 1450,
+        "dscr": 1.2,
+        "monthlyCashFlow": 246,
+        "specialistFocus": [
+          "Confirmed with the assessor that the parcel sits outside Jackson city limits, cutting the effective tax rate to roughly 0.585% versus about 1.014% inside the city and saving close to $1,000 a year",
+          "Kept the loan at $123,750 so the balance cleared common lender minimums, which is the constraint that kills many sub-$150,000 West Tennessee files",
+          "Priced a West Tennessee landlord premium rather than a statewide average, and flagged that New Madrid earthquake coverage is a separate endorsement with a percentage deductible"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Why are Jackson property taxes so high?",
+          "answer": "Because a city property stacks two substantial rates. Madison County levies $2.33965 per $100 of assessed value and the City of Jackson adds $1.7175, combining to $4.05715. At Tennessee's 25% residential assessment ratio that is about 1.014% of market value per year, roughly double the state median and higher than every market on this site except Memphis. On a $230,000 house that is about $2,330 annually. The important consequence is that unincorporated Madison County pays county only, roughly 0.585%, so verify the parcel's jurisdiction with the assessor before you write the offer rather than assuming from the mailing address."
+        },
+        {
+          "question": "Should I count on the Ford plant driving Jackson rents?",
+          "answer": "No. Ford cancelled the electric pickup planned for the BlueOval City site in Stanton in December 2025, renamed the facility, and shifted to gas-powered trucks with production now targeted for 2029, taking $19.5 billion in restructuring charges. The site also sits well outside Jackson. Any pitch built on imminent Ford spillover is out of date, and a single search will show a prospective partner as much. Underwrite the actual employment base instead: West Tennessee Healthcare at roughly 7,000 employees, plus Toyota, Delta Faucet, Stanley Black and Decker, Kellanova, Owens Corning, and Union University."
+        },
+        {
+          "question": "Is Jackson's rental demand actually weak?",
+          "answer": "The data says no, and this is a place where the market's reputation misleads. Rental vacancy runs around 5.2%, which is better than the roughly 7.3% national figure. What Jackson does have is a blight problem: roughly 2,149 units, about 4.9% of the housing stock, fall into the other vacant category, meaning they are not on the market at all. That affects appraisals and comparable selection in specific blocks rather than reflecting weak demand for sound housing. Buy in the north Jackson corridor or the medical district and you are competing for tenants in a market that is tighter than the headlines suggest."
+        },
+        {
+          "question": "What should I know about insurance in West Tennessee?",
+          "answer": "It is the state's most expensive region, and there is a coverage gap most out-of-state buyers miss. Budget roughly $175 to $260 a month for a landlord policy at Jackson price points, above what Middle or East Tennessee would cost on a comparable house. More importantly, New Madrid seismic zone earthquake coverage is excluded from standard policies here and available only by endorsement, which typically carries a percentage deductible of 10% to 20% of the insured value rather than a flat dollar amount. Decide deliberately whether to carry it, and price the premium into your ratio either way."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Jackson TN typical home value and YoY change, June 2026",
+        "Zumper Rent Research, Jackson TN 3-bedroom rents and YoY change, July 2026",
+        "Tennessee Comptroller certified rates, Madison County $2.33965 and City of Jackson $1.7175 per $100 assessed, 2025",
+        "US Census American Community Survey 2024 5-year estimates, Madison County rental vacancy and other vacant units, 2024",
+        "Tennessee Lookout, Ford BlueOval City electric pickup cancellation and 2029 truck timeline, December 2025"
+      ]
+    }
+  ]
+}

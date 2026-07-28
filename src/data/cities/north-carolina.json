@@ -1,0 +1,1327 @@
+{
+  "state": "North Carolina",
+  "abbreviation": "NC",
+  "stateSlug": "north-carolina",
+  "dataUpdated": "2026-07",
+  "cities": [
+    {
+      "city": "Charlotte",
+      "slug": "charlotte",
+      "county": "Mecklenburg County",
+      "metro": "Charlotte-Concord-Gastonia",
+      "hook": "Charlotte values eased 1.1% while rents held flat, and institutional investor purchases fell 20% year over year. The competition that priced out individual buyers in 2021 is quietly stepping back.",
+      "metaDescription": "Charlotte homes average $399K with rents flat and investor purchases down 20%. See where DSCR deals pencil against institutions. Get matched today.",
+      "market": {
+        "medianPrice": 399434,
+        "medianRent": 2050,
+        "priceToRent": 16.2,
+        "vacancyRate": 6.2,
+        "yoyPrice": -1.1,
+        "yoyRent": 0,
+        "estDSCR": 0.78,
+        "propertyTaxRate": 0.786,
+        "insuranceMonthly": 145
+      },
+      "overview": "Charlotte is the largest rental market in the Carolinas and the one most shaped by institutional capital. The typical home value runs about $399,400, down 1.1% over the year, while 3-bedroom rents hold near $2,050 and were essentially flat. Falling values against flat rents is quietly favorable for a yield buyer: entry softens while income holds.\n\nThe institutional story is more nuanced than the headlines suggest, and the threshold definition is everything. The UNC Charlotte Urban Institute, using 2023 tax data and a 15-or-more-homes threshold, found institutional owners held about 7.5% of Mecklenburg single-family properties, roughly 20,000 houses. That threshold sweeps in local mid-size landlords; the genuinely Wall Street backed slice is closer to 4% or 5%. More useful for a buyer today: Redfin reported Charlotte investor purchases down 20% year over year in the first quarter of 2026, the weakest first quarter in a decade.\n\nCarrying cost is the reason Charlotte still works. Mecklenburg County levies $0.4927 per $100 of value and the city adds to a combined $0.7857, about 0.79% of market value, among the lighter loads in the state. One timing note that belongs in every model: Mecklenburg revalues effective January 1, 2027, working from 2023 values today, so the tax line in any Charlotte pro forma built now resets within months.",
+      "regulationBadge": "friendly",
+      "regulationNote": "North Carolina preempts local rent control outright and caps late fees by statute, and cities generally cannot require rental registration, so Charlotte investors operate under state rules rather than a municipal overlay.",
+      "neighborhoods": [
+        {
+          "name": "Coulwood / Oakdale",
+          "medianPrice": 265000,
+          "medianRent": 2050,
+          "note": "Northwest Charlotte starter stock where institutional ownership runs above 20%, which means deep rent comps and real exit liquidity. You compete with algorithms on clean product, so move fast or buy the light-rehab house they skip."
+        },
+        {
+          "name": "University City",
+          "medianPrice": 315000,
+          "medianRent": 2100,
+          "note": "1980s and 1990s stock near UNC Charlotte and the light rail, with a mixed student and workforce tenant base. Reliable leasing and one of the better rent-to-price ratios inside the city."
+        },
+        {
+          "name": "Steele Creek",
+          "medianPrice": 345000,
+          "medianRent": 2200,
+          "note": "Southwest Charlotte near the airport and the logistics corridor, drawing shift workers and airline staff. Newer construction than the northwest submarkets, so maintenance drag runs lower."
+        },
+        {
+          "name": "Southeast wedge (Matthews, Mint Hill)",
+          "medianPrice": 425000,
+          "medianRent": 2350,
+          "note": "The corridor institutional buyers largely skip, so you are bidding against owner-occupants instead of funds. Better schools and longer tenancies, with correspondingly thinner yield."
+        }
+      ],
+      "localAngle": {
+        "tag": "Institutional Competition",
+        "title": "Institutions own the starter tier. They are also buying 20% less than a year ago.",
+        "body": "Charlotte is the most institutionally owned single-family rental market in the Carolinas, and understanding exactly where that capital sits tells you where to buy. The UNC Charlotte Urban Institute, working from 2023 tax data at a threshold of 15 or more homes, put institutional ownership near 7.5% of Mecklenburg single-family properties, roughly 20,000 houses. That threshold matters enormously, because it includes local landlords with sixteen rentals alongside publicly traded funds; the genuinely Wall Street backed share is closer to 4% or 5%. Any figure quoted without its threshold is not usable. Where they concentrate is more actionable than how many: institutions buy at roughly 60% to 65% of county median, which put them near $206,000 when the county median was $325,000, and cluster in Coulwood, Oakdale, University City, Steele Creek, and Huntersville. They are largely absent from the southeast wedge, Davidson, and Cornelius. Two developments favor an individual buyer right now. Redfin reported Charlotte investor purchases down 20% year over year in the first quarter of 2026, the weakest first quarter in a decade, with the low-priced tier down 10%. And federal legislation signed in July 2026 will bar investors holding 350 or more single-family homes from buying existing houses, though it does not take effect until January 2027 and explicitly carves out build-to-rent. Your matched specialist can structure a DSCR pre-approval that behaves like cash at the offer table, which is the practical answer to competing with a fund."
+      },
+      "programFit": [
+        "standard-dscr",
+        "interest-only-dscr",
+        "portfolio-dscr",
+        "bridge-to-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 2-bath SFR",
+        "neighborhood": "Coulwood / Oakdale",
+        "purchasePrice": 265000,
+        "downPaymentPct": 25,
+        "downPayment": 66250,
+        "loanAmount": 198750,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 1389,
+        "monthlyTax": 174,
+        "monthlyInsurance": 140,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 1703,
+        "monthlyRent": 2050,
+        "dscr": 1.2,
+        "monthlyCashFlow": 347,
+        "specialistFocus": [
+          "Delivered a DSCR pre-approval that let the buyer compete on speed in a submarket where institutional buyers write cash offers on clean product",
+          "Qualified on the appraiser's market rent schedule, which is unusually deep here because institutional ownership creates dense comparable rent data",
+          "Flagged the January 2027 Mecklenburg revaluation so the borrower modeled a tax reset rather than assuming the 2023 assessed value holds"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Am I really competing with Wall Street for Charlotte rentals?",
+          "answer": "In one price band, and less than you were. The UNC Charlotte Urban Institute put institutional ownership near 7.5% of Mecklenburg single-family properties using a threshold of 15 or more homes, which includes local mid-size landlords; the genuinely fund-backed share is closer to 4% or 5%. They buy at roughly 60% to 65% of county median and cluster in Coulwood, Oakdale, University City, Steele Creek, and Huntersville. Redfin reported Charlotte investor purchases down 20% year over year in the first quarter of 2026. Two practical responses: move fast with financing that behaves like cash, or buy the southeast wedge where they barely operate."
+        },
+        {
+          "question": "Does the new federal law stop institutional buyers?",
+          "answer": "Partially, and not yet. The legislation signed in July 2026 bars investors holding 350 or more single-family homes from purchasing existing single-family houses, but it does not take effect until January 2027, so it constrains nothing today. It also explicitly carves out build-to-rent, which is exactly where the large operators have been pivoting, including Invitation Homes acquiring a build-to-rent developer in January 2026. Separate North Carolina bills with 100-home thresholds both died in committee. Every live restriction is calibrated to hit institutions and exempt individual investors, which is useful to know but not a reason to change your timeline."
+        },
+        {
+          "question": "Why does Charlotte's DSCR look weak at the median?",
+          "answer": "Price, not rent. At a typical value near $399,400 against 3-bedroom rents around $2,050, the citywide ratio at 20% down lands near 0.78. Rents are healthy; the entry price is simply high relative to them, with a price-to-rent ratio near 16.2. That is why Charlotte files clear through submarket selection rather than at the median. Coulwood, Oakdale, and University City pair entry prices from the $260,000s to the low $300,000s with rents near $2,050 to $2,100, which is where a 25% down file clears 1.20. Uptown condos and the south Charlotte luxury corridor rarely work on a conventional lease."
+        },
+        {
+          "question": "What happens to my taxes in 2027?",
+          "answer": "They likely rise, and you should model it now. Mecklenburg County last revalued in 2023 and revalues again effective January 1, 2027, so today's assessed values are three years stale in a market that appreciated substantially over that window. North Carolina requires counties to publish a revenue-neutral rate after a revaluation, but adopted rates commonly land above it. The current combined county and city rate is $0.7857 per $100 of value, about 0.79% of market value. Underwrite a reset rather than carrying the current bill through a five-year hold, and let your matched specialist stress the ratio against a higher tax line."
+        },
+        {
+          "question": "Are falling Charlotte prices a warning sign?",
+          "answer": "For a flipper, maybe. For a DSCR buyer, it is the opportunity. Values eased about 1.1% over the year while rents stayed flat, which means the rent-to-price relationship that qualification actually depends on improved. You are buying the same income stream for slightly less money, with more negotiating room on concessions and repairs than 2021 buyers ever had. The caution applies to thin-margin renovation projects, where you should build cushion into your after-repair value. DSCR lenders underwrite today's value and today's rent, so if those two numbers work at your entry, the next twelve months matter far less."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Charlotte typical home value and YoY change, June 2026",
+        "Zumper Rent Research, Charlotte 3-bedroom rents, July 2026",
+        "Mecklenburg County and City of Charlotte combined rate of $0.7857 per $100 of value, FY2026",
+        "UNC Charlotte Urban Institute, institutional single-family ownership in Mecklenburg County, September 2025",
+        "Redfin, Charlotte investor purchase activity, Q1 2026",
+        "NC Department of Insurance dwelling rate settlement, April 2026 (landlord premium derived, est.)"
+      ]
+    },
+    {
+      "city": "Raleigh",
+      "slug": "raleigh",
+      "county": "Wake County",
+      "metro": "Raleigh-Cary",
+      "hook": "Raleigh values fell 2.1% while the metro printed 3.0% unemployment and 2% payroll growth. The Research Triangle tenant base is real, though several headline employers never broke ground.",
+      "metaDescription": "Raleigh homes average $436K with 3.0% metro unemployment. See which Research Triangle employers actually hired and where deals pencil. Get matched today.",
+      "market": {
+        "medianPrice": 436056,
+        "medianRent": 1950,
+        "priceToRent": 18.6,
+        "vacancyRate": 5.5,
+        "yoyPrice": -2.1,
+        "yoyRent": 0,
+        "estDSCR": 0.67,
+        "propertyTaxRate": 0.909,
+        "insuranceMonthly": 150
+      },
+      "overview": "Raleigh has the strongest tenant fundamentals in North Carolina and the weakest headline ratio. The typical home value runs about $436,100, down 2.1% over the year, while 3-bedroom rents sit near $1,950 and were flat. That produces a price-to-rent ratio near 18.6 and a citywide DSCR around 0.67 at 20% down, so nobody cash-flows the Raleigh median on a conventional lease.\n\nThe demand side is genuinely excellent and worth getting right, because accuracy here is a credibility test. The Raleigh metro printed 3.0% unemployment with 2% payroll growth in April 2026 against 10.2% five-year population growth. Fujifilm Diosynth opened its $3.2 billion Holly Springs facility in September 2025, anchored by a Regeneron contract, heading toward 1,400 jobs. Amgen's Holly Springs site is operational. Biogen committed $2 billion in Research Triangle Park in July 2025.\n\nEqually important is what did not happen. Apple's Research Triangle Park campus has still not broken ground, and the state's economic investment committee granted a four-year extension in November 2025 that resets year one to 2027. Wolfspeed filed for Chapter 11 in June 2025, emerged in September, and is closing its Durham fab with cuts concentrated there. And two projects frequently cited as Triangle drivers are not: Eli Lilly's Concord plant is in Cabarrus County near Charlotte, and Toyota's battery plant is in Randolph County. Neither feeds Raleigh rental demand.",
+      "regulationBadge": "friendly",
+      "regulationNote": "North Carolina statute preempts local rent control and restricts municipal rental registration programs, so Raleigh operates under state landlord-tenant rules with summary ejectment through magistrate court.",
+      "neighborhoods": [
+        {
+          "name": "North Raleigh",
+          "medianPrice": 415000,
+          "medianRent": 2100,
+          "note": "Established 1980s and 1990s subdivisions with strong schools and family tenants on long leases. Predictable leasing and the deepest rental comp data in the city, at a ratio that needs a larger down payment."
+        },
+        {
+          "name": "Southeast Raleigh",
+          "medianPrice": 330000,
+          "medianRent": 1900,
+          "note": "The affordability corridor inside the beltline with older stock and active infill development. Best rent-to-price in the city proper, and where a conventional Raleigh file has the most realistic chance of clearing."
+        },
+        {
+          "name": "Garner",
+          "medianPrice": 355000,
+          "medianRent": 1950,
+          "note": "Just southeast of the city with newer subdivision stock at a materially lower basis than Raleigh proper. Commuter tenants working in Raleigh and Research Triangle Park, and lower turnover than the urban core."
+        },
+        {
+          "name": "Knightdale",
+          "medianPrice": 340000,
+          "medianRent": 1925,
+          "note": "East Wake County growth corridor with 2000s and 2010s construction, so rehab risk is minimal on a first out-of-state file. Draws workforce tenants priced out of the city."
+        }
+      ],
+      "localAngle": {
+        "tag": "Tenant Base",
+        "title": "The Triangle jobs story is real. Half the projects people cite are not.",
+        "body": "Raleigh's tenant base justifies its prices, but only if you underwrite what actually got built. Operating and hiring today: Fujifilm Diosynth opened its $3.2 billion Holly Springs plant in September 2025, anchored by a Regeneron contract worth more than $3 billion over ten years and heading toward roughly 1,400 jobs at an average near $110,000. Amgen's Holly Springs facility is operational. Biogen committed $2 billion in Research Triangle Park in July 2025. Duke employs roughly 43,000 across the region. That is a deep, high-wage, science-driven renter pool, and it shows up in a 3.0% metro unemployment rate with 2% payroll growth. Now the corrections, because getting these wrong in front of an investor costs you credibility. Apple's Research Triangle Park campus has not broken ground; North Carolina's economic investment committee granted a four-year extension in November 2025 that makes 2027 year one, so any model citing thousands of Apple jobs is describing something that does not exist. Wolfspeed filed for Chapter 11 in June 2025, emerged in September with debt cut about 70% and shareholders wiped out, and is closing its Durham 150-millimeter fab. Novo Nordisk's Clayton expansion is physically underway while the parent cuts roughly 9,000 jobs globally. And two projects routinely miscited as Triangle drivers are not in the Triangle at all: Eli Lilly's plant is in Cabarrus County near Charlotte, and Toyota's battery plant is in Randolph County. Your matched specialist will structure the file on the appraiser's rent schedule, which reflects the tenants who are actually here."
+      },
+      "programFit": [
+        "interest-only-dscr",
+        "no-ratio-dscr",
+        "standard-dscr",
+        "portfolio-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 2-bath SFR",
+        "neighborhood": "Southeast Raleigh",
+        "purchasePrice": 330000,
+        "downPaymentPct": 25,
+        "downPayment": 82500,
+        "loanAmount": 247500,
+        "loanType": "30-Year Fixed, 10-Year Interest-Only",
+        "interestOnly": true,
+        "monthlyPI": 1547,
+        "monthlyTax": 250,
+        "monthlyInsurance": 150,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 1947,
+        "monthlyRent": 2200,
+        "dscr": 1.13,
+        "monthlyCashFlow": 253,
+        "specialistFocus": [
+          "Structured a 10-year interest-only period, which moved the ratio from below 1.0 amortizing to 1.13 in a market where the citywide median sits near 0.67",
+          "Selected Southeast Raleigh, where entry prices run roughly $100,000 below the citywide typical value against rents that hold within 15% of the median",
+          "Qualified on the appraiser's market rent supported by Research Triangle Park tenant demand rather than a projected figure the appraisal could not defend"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Why is Raleigh's DSCR so low if the job market is this strong?",
+          "answer": "Because tenant quality and rent-to-price are different things. Raleigh's typical value near $436,100 against 3-bedroom rents around $1,950 produces a price-to-rent ratio near 18.6 and a citywide ratio around 0.67 at 20% down. The metro's 3.0% unemployment and 2% payroll growth mean your tenant pays reliably and your vacancy stays low, but they do not lower the purchase price. Raleigh files clear through structure: interest-only periods, larger down payments, No-Ratio programs, or buying in Southeast Raleigh, Garner, and Knightdale where entry prices run well below the citywide figure."
+        },
+        {
+          "question": "Which Research Triangle employers should I actually underwrite?",
+          "answer": "The ones operating. Fujifilm Diosynth opened its $3.2 billion Holly Springs facility in September 2025, anchored by a Regeneron contract and heading toward about 1,400 jobs. Amgen's Holly Springs site is operational. Biogen committed $2 billion in Research Triangle Park in July 2025. Duke employs roughly 43,000. Do not underwrite Apple's Research Triangle Park campus, which has not broken ground and had its timeline extended four years in November 2025. Wolfspeed emerged from Chapter 11 and is closing its Durham fab. And Eli Lilly's Concord plant and Toyota's battery plant are in other metros entirely."
+        },
+        {
+          "question": "Prices fell 2.1% here. Is Raleigh weakening?",
+          "answer": "It is digesting, not weakening. Values eased while unemployment sat at 3.0%, payrolls grew 2%, and the metro added population at 10.2% over five years. What actually happened is a large multifamily delivery wave meeting a market that had run hard, so prices cooled while rents flattened. For a DSCR buyer that combination modestly improves the rent-to-price relationship and adds negotiating room. The structural demand did not change. The practical caution is that Wake County revalues effective January 1, 2027 on 2024 values, so your tax line will likely reset within months of purchase."
+        },
+        {
+          "question": "How do Raleigh property taxes work for an investor?",
+          "answer": "North Carolina assesses at 100% of market value and quotes rates per $100, so the arithmetic is direct. Wake County levies $0.5371 and the City of Raleigh brings the combined figure to about $0.9091 per $100, roughly 0.91% of market value, or about $3,965 a year on the typical home. There is no owner-occupied discount that an investor loses; North Carolina's exclusions are person-specific rather than a general homestead break, so your effective rate is simply the full combined rate. Wake revalues effective January 1, 2027 on 2024 values, so model a reset."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Raleigh typical home value and YoY change, June 2026",
+        "Zumper Rent Research, Raleigh 3-bedroom rents, July 2026",
+        "Wake County and City of Raleigh combined rate of $0.9091 per $100 of value, FY2026",
+        "Bureau of Labor Statistics, Raleigh metro unemployment and payroll growth, April 2026",
+        "NC Economic Investment Committee, Apple Research Triangle Park timeline extension, November 2025",
+        "Fujifilm Diosynth Holly Springs opening and Regeneron contract, September 2025"
+      ]
+    },
+    {
+      "city": "Durham",
+      "slug": "durham",
+      "county": "Durham County",
+      "metro": "Durham-Chapel Hill",
+      "hook": "Durham apartment deliveries collapsed from 26,000 units across two years to about 1,300 in a quarter, and vacancy appears to have peaked. Tax values are locked until 2029.",
+      "metaDescription": "Durham apartment supply is drying up and taxes are locked to 2029. See where DSCR deals pencil near Duke. Get matched with a specialist today.",
+      "market": {
+        "medianPrice": 396191,
+        "medianRent": 2000,
+        "priceToRent": 16.5,
+        "vacancyRate": 8,
+        "yoyPrice": -2.2,
+        "yoyRent": -2,
+        "estDSCR": 0.74,
+        "propertyTaxRate": 1.0163,
+        "insuranceMonthly": 150
+      },
+      "overview": "Durham runs on one institution and one timing story. Duke University and Duke Health together employ more than 57,000 people, making Duke the second-largest private employer in North Carolina, with over half of that workforce living in Durham County. That is the deepest single-employer anchor in the state and it underwrites the rental demand here.\n\nThe timing story is supply. Builders delivered more than 26,000 apartment units across 2024 and 2025, pushing metro vacancy to roughly 8% and driving concessions in Southwest Durham to 32%, the highest in the Triangle. Then it stopped: roughly 1,300 units delivered in the first quarter of 2026, a five-year low, with 2026 deliveries down more than 60%. Analysts believe vacancy peaked at the start of 2026. Critically, that distress is concentrated in new Class A apartment product, not the single-family and Class B stock most DSCR borrowers buy.\n\nThe typical home value runs about $396,200, down 2.2%, with 3-bedroom rents near $2,000. Durham County revalued effective January 2025 and does not revalue again until 2029, so assessed values track market and your tax line is locked for a genuine planning window. The combined county rate of $0.5792 and city rate of $0.4371 produce $1.0163 per $100, about 1.02% of market value, heavier than Charlotte or Raleigh.",
+      "regulationBadge": "friendly",
+      "regulationNote": "North Carolina preempts local rent control and limits municipal rental registration, so Durham investors work under state summary ejectment rules with a ten-day appeal window after judgment.",
+      "neighborhoods": [
+        {
+          "name": "Northgate Park",
+          "medianPrice": 359692,
+          "medianRent": 2100,
+          "note": "The best price-to-rent balance among the close-in historic neighborhoods, with smaller mid-century homes near the Ellerbe Creek trail. This is where Durham single-family files most reliably pencil."
+        },
+        {
+          "name": "Watts-Hillandale",
+          "medianPrice": 501250,
+          "medianRent": 2400,
+          "note": "1920s through 1940s bungalows and Cape Cods near Duke's East Campus, drawing graduate students, resident physicians, and faculty. The most reliable rental demand in the city, at a price that thins the ratio."
+        },
+        {
+          "name": "Old East Durham",
+          "medianPrice": 283000,
+          "medianRent": 1800,
+          "note": "Value-add and refinance-after-rehab territory with older stock and active gentrification. The steepest value decline in the city at down 3.9%, which means the highest yield and the highest execution risk."
+        },
+        {
+          "name": "Duke Forest",
+          "medianPrice": 835802,
+          "medianRent": 3200,
+          "note": "The only Durham submarket with positive year-over-year value movement, renting to visiting faculty and executives on multi-year leases. Capital preservation rather than cash flow."
+        }
+      ],
+      "localAngle": {
+        "tag": "Supply Cliff",
+        "title": "Deliveries fell from 26,000 units to 1,300 in a quarter. The pressure is lifting.",
+        "body": "Durham absorbed one of the heaviest apartment supply waves in the Southeast and is now on the other side of it. Builders delivered more than 26,000 units across 2024 and 2025, which pushed metro vacancy toward 8%, drove some submarket vacancies above 11%, and produced a 32% concession rate in Southwest Durham, the highest in the Triangle. Then the pipeline emptied. Roughly 1,300 units delivered in the first quarter of 2026, a five-year construction low, with full-year 2026 deliveries down more than 60% and analysts reporting that vacancy appears to have peaked at the start of the year. Two things follow for a DSCR buyer. First, the distress was always concentrated in new Class A apartment product competing on free rent and amenities, not in the single-family houses and Class B stock that most investors here actually own; a renovated bungalow near Duke's East Campus was never cross-shopped against a lease-up tower offering two months free. Second, buying into the trough means acquiring while sellers still price against 2025 conditions and leasing into a market where the competition is thinning. The other Durham advantage is tax certainty: the county revalued effective January 2025 and does not revalue again until 2029, so unlike Mecklenburg and Wake, which both reset in January 2027, your assessed value is stable through a normal hold. Your matched specialist can underwrite the current rent with a realistic vacancy allowance rather than a Class A number that does not describe your asset."
+      },
+      "programFit": [
+        "standard-dscr",
+        "no-ratio-dscr",
+        "interest-only-dscr",
+        "bridge-to-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 2-bath SFR",
+        "neighborhood": "Northgate Park",
+        "purchasePrice": 360000,
+        "downPaymentPct": 25,
+        "downPayment": 90000,
+        "loanAmount": 270000,
+        "loanType": "30-Year Fixed (No-Ratio)",
+        "interestOnly": false,
+        "monthlyPI": 1887,
+        "monthlyTax": 305,
+        "monthlyInsurance": 155,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 2347,
+        "monthlyRent": 2200,
+        "dscr": 0.94,
+        "monthlyCashFlow": -147,
+        "specialistFocus": [
+          "Placed the file on a No-Ratio program so the honest 0.94 ratio was a disclosure rather than a denial, with the negative carry of about $147 a month disclosed up front",
+          "Underwrote the full Durham County and city levy at 1.02% effective, which is heavier than Charlotte or Raleigh and is what pushes this file below 1.0",
+          "Confirmed the county's 2025 revaluation holds until 2029, so the borrower could model a stable tax line across the hold rather than a 2027 reset"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Durham vacancy is around 8%. Should that stop me?",
+          "answer": "Look at what is vacant. The metro figure reflects more than 26,000 apartment units delivered across 2024 and 2025, with the pain concentrated in new Class A product; Southwest Durham hit a 32% concession rate, the highest in the Triangle. Single-family houses and Class B stock were never competing for those tenants. More importantly the wave has broken: roughly 1,300 units delivered in the first quarter of 2026, a five-year low, with deliveries down more than 60% for the year and vacancy reported to have peaked. Buying now means acquiring into the trough and leasing into a thinning field."
+        },
+        {
+          "question": "Why does this deal example show negative cash flow?",
+          "answer": "Because it is honest about Durham's carrying cost. At a $360,000 purchase in Northgate Park renting $2,200, the combined county and city tax of about 1.02% plus insurance produces a PITIA near $2,347, so the ratio lands at 0.94 with roughly $147 a month of negative carry. A No-Ratio program funds that file because it does not apply a coverage test, pricing the risk through lower loan-to-value instead. Some investors accept modest negative carry in a market with Duke's employment base and locked tax values. Others put more down or buy in Old East Durham. Your matched specialist will show both paths."
+        },
+        {
+          "question": "How dependent is Durham on Duke?",
+          "answer": "Very, and it cuts both ways. Duke University and Duke Health employ more than 57,000 people combined, making Duke the second-largest private employer in North Carolina, with over half of that workforce living in Durham County. That produces exceptionally reliable rental demand, particularly the graduate students, resident physicians, and faculty who cycle through Watts-Hillandale and the neighborhoods near East Campus every year. The concentration risk is real but Duke is a research university and health system rather than a single manufacturer, so it does not relocate. The city did cite an unprecedented one-year drop in property tax revenue in its recent budget, which is worth noting."
+        },
+        {
+          "question": "What is the tax advantage of buying in Durham instead of Raleigh?",
+          "answer": "Certainty rather than a lower rate. Durham's combined county and city rate is $1.0163 per $100 of value, about 1.02% of market value, which is actually heavier than Wake County plus Raleigh at roughly 0.91% and Mecklenburg plus Charlotte at 0.79%. What Durham offers is stability: the county revalued effective January 2025 and does not revalue again until 2029, so assessed values track current market and will not jump during a normal hold. Both Mecklenburg and Wake revalue effective January 1, 2027 on 2023 and 2024 values respectively, so those markets carry a reset that Durham does not."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Durham typical home value and YoY change, June 2026",
+        "Zumper Rent Research, Durham 3-bedroom and house rents, July 2026",
+        "Durham County rate of $0.5792 adopted June 2026 and City of Durham rate of $0.4371 adopted June 2026",
+        "Northmarq, Raleigh-Durham multifamily deliveries, vacancy, and concessions, Q1 2026",
+        "Duke University and Duke Health published employment figures, 2026",
+        "Durham County Tax Administration, 2025 revaluation and 2029 next cycle, 2026"
+      ]
+    },
+    {
+      "city": "Greensboro",
+      "slug": "greensboro",
+      "county": "Guilford County",
+      "metro": "Greensboro-High Point",
+      "hook": "Greensboro apartment inventory grew just 7% since 2020 against 25% to 29% in Charlotte and Raleigh, so it skipped the glut entirely. A frozen revaluation is the catch.",
+      "metaDescription": "Greensboro skipped the apartment glut with 7% inventory growth and the most stable prices in NC. See the frozen revaluation risk. Get matched today.",
+      "market": {
+        "medianPrice": 264428,
+        "medianRent": 1725,
+        "priceToRent": 12.8,
+        "vacancyRate": 5.4,
+        "yoyPrice": -0.1,
+        "yoyRent": 2,
+        "estDSCR": 0.94,
+        "propertyTaxRate": 1.1,
+        "insuranceMonthly": 110
+      },
+      "overview": "Greensboro is the most price-stable major market in North Carolina and it earned that the boring way. The typical home value runs about $264,400, essentially flat at down 0.1%, which is the smallest decline of any major city in the state against Charlotte at down 1.1%, Raleigh at down 2.1%, Durham at down 2.2%, and Asheville at down 5.2%. Three-bedroom rents near $1,725 rose about 2% while Durham's fell.\n\nThe reason is supply, or rather the absence of it. Greensboro apartment inventory grew just 7% from 2020 to 2025 against 25% to 29% in Charlotte and Raleigh, so the Class A glut producing 11% vacancy and 32% concessions elsewhere in the state simply never arrived here. One tracker reported stabilized occupancy at 98.3% in February 2026, up 4.8 points year over year, among the fastest-tightening markets in the country. Metro rental vacancy sits closer to 5.4%.\n\nThe catch is the tax line, and it is genuinely unusual. Guilford County completed a 2026 reappraisal showing roughly 48% average value increases, then state Senate Bill 889 froze it, so fiscal 2027 bills apply to pre-2026 values. Meanwhile the county raised its rate 5.9 cents and the city raised 12.6 cents, a combined jump of about 30% landing on the old base. The nominal combined rate is $1.588 per $100, but against frozen assessments the real burden today is nearer 1.05% to 1.10%, with a substantial reset queued when the moratorium lifts.",
+      "regulationBadge": "friendly",
+      "regulationNote": "North Carolina preempts local rent control and generally bars municipal rental registration, and Guilford County operates under standard state summary ejectment rules, so the local variable here is the frozen revaluation rather than regulation.",
+      "neighborhoods": [
+        {
+          "name": "Lindley Park",
+          "medianPrice": 315000,
+          "medianRent": 2000,
+          "note": "The sweet spot: a walkable identity next to UNC Greensboro at roughly half the price of Fisher Park. The best blend of tenant demand and rent-to-price in the city."
+        },
+        {
+          "name": "Glenwood",
+          "medianPrice": 150000,
+          "medianRent": 1350,
+          "note": "The highest gross yield in the city, with entry-level pricing near employment centers. Older stock that runs management-intensive, so budget maintenance and screen carefully."
+        },
+        {
+          "name": "Adams Farm",
+          "medianPrice": 354000,
+          "medianRent": 2050,
+          "note": "Southwest suburban stock from the 1980s through 2000s under an HOA, drawing school-driven family tenants. Minimal rehab risk, which makes it a workable first out-of-state purchase."
+        },
+        {
+          "name": "Fisher Park",
+          "medianPrice": 549000,
+          "medianRent": 2700,
+          "note": "The premier historic district and the strongest appreciator in the city at up 4.5%. Large early-1900s homes with an executive tenant base, so this is an appreciation hold rather than a yield play."
+        }
+      ],
+      "localAngle": {
+        "tag": "Frozen Revaluation",
+        "title": "Your tax bill is calculated on old values today. That reverses when the freeze lifts.",
+        "body": "Greensboro carries the most unusual tax situation in North Carolina and it will mislead you in both directions if you take the headline rate at face value. Guilford County completed a reappraisal effective January 1, 2026, mailing notices that showed roughly 48% average value increases, with some downtown parcels up 50% to 65%. Then North Carolina Senate Bill 889, signed June 19, 2026, barred counties that reappraised effective January 1, 2026 from using those values, and Guilford is one of the twelve counties it reaches. The county's own guidance is explicit: the 2026 tax bill uses the same property value as the 2025 bill, and there will be no reappraisal in 2027. That produced two consequences an investor needs to model separately. First, the rate increases were not offset by higher values the way a normal reappraisal cycle works. The county raised 5.9 cents and the city raised 12.6 cents, a combined 18.5 cents that amounts to roughly a 30% jump in the combined rate landing entirely on the old, lower base. Greensboro landlords are absorbing a real tax increase this year, not a revenue-neutral reshuffle. Second, a large deferred increase is queued. The nominal combined rate is $1.588 per $100, but applied to frozen pre-2026 assessments the effective burden on true market value today sits nearer 1.05% to 1.10%. When the moratorium lifts and roughly 48% higher values apply, that same rate produces a dramatically larger bill unless rates fall substantially. The county's own revenue-neutral rate against 2026 values would have been 58.54 cents versus the 78.95 cents adopted. Your matched specialist will underwrite today's actual bill while stress-testing the reset, because a Greensboro file that only works on the frozen assessment is not a file that survives the hold."
+      },
+      "programFit": [
+        "standard-dscr",
+        "portfolio-dscr",
+        "no-ratio-dscr",
+        "bridge-to-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 2-bath SFR",
+        "neighborhood": "Lindley Park",
+        "purchasePrice": 315000,
+        "downPaymentPct": 30,
+        "downPayment": 94500,
+        "loanAmount": 220500,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 1541,
+        "monthlyTax": 289,
+        "monthlyInsurance": 115,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 1945,
+        "monthlyRent": 2000,
+        "dscr": 1.03,
+        "monthlyCashFlow": 55,
+        "specialistFocus": [
+          "Structured 30% down rather than 25% specifically to absorb the queued revaluation reset, so the file still clears if assessed values jump when the freeze lifts",
+          "Underwrote the tax line at the real current burden against frozen assessments rather than the nominal 1.588 rate, then stress-tested the ratio at post-reset values",
+          "Qualified on a rent supported by a market where apartment inventory grew only 7% since 2020, so the lease faces little Class A concession competition"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "What does the Greensboro revaluation freeze actually mean for my taxes?",
+          "answer": "Two things, in opposite directions. Guilford completed a 2026 reappraisal showing roughly 48% average increases, then Senate Bill 889 froze its use, so your fiscal 2027 bill is calculated on 2025 values. Because the rate increases were not offset by higher assessments, Greensboro landlords absorbed a real jump: the county raised 5.9 cents and the city 12.6 cents, roughly 30% more in combined rate on the old base. Going forward, the nominal 1.588 per $100 applied to frozen values produces an effective burden nearer 1.05% to 1.10% today, with a large reset queued when the freeze lifts. Model both numbers."
+        },
+        {
+          "question": "Why did Greensboro avoid the apartment glut?",
+          "answer": "It never got the construction. Greensboro apartment inventory grew just 7% from 2020 to 2025 against 25% to 29% in Charlotte and Raleigh, so the Class A oversupply producing 11% vacancy and 32% concession rates in the Triangle simply did not arrive. The result shows up across the data: one tracker put stabilized occupancy at 98.3% in February 2026, up 4.8 points year over year, rents rose about 2% while Durham's fell, and home values were the most stable of any major North Carolina city at down just 0.1%. For a single-family investor that means less competition from lease-up buildings offering free rent."
+        },
+        {
+          "question": "Is the Toyota battery plant a real demand driver here?",
+          "answer": "Yes, and unusually it is operational rather than announced. Toyota Battery Manufacturing North Carolina in Liberty, Randolph County began shipments in June 2025 and launched full production in November 2025. At $13.9 billion it is Toyota's largest single manufacturing investment ever and its first battery plant outside Japan, with up to 5,100 jobs and an additional commitment of up to $10 billion over five years. The site sits roughly 30 minutes south of Greensboro, and 5,100 jobs against Randolph County's small housing stock pushes demand into Greensboro and southern Guilford. Do not confuse it with Boom Supersonic at the airport, which sits largely idle."
+        },
+        {
+          "question": "Where does the DSCR math work in Greensboro?",
+          "answer": "Lindley Park for balance, Glenwood for yield. Lindley Park pairs a walkable identity next to UNC Greensboro with prices around half of Fisher Park, which is where a 30% down file clears just above 1.0 after the real tax load. Glenwood offers the highest gross yield in the city at entry-level pricing, with older stock that runs management-intensive. Adams Farm suits a first out-of-state purchase because 1980s through 2000s construction under an HOA minimizes rehab surprises. Fisher Park is the strongest appreciator at up 4.5% but the weakest yield, so treat it as an appreciation hold."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Greensboro typical home value and YoY change, March 2026",
+        "Zumper Rent Research, Greensboro 3-bedroom and house rents, July 2026",
+        "Guilford County rate of $0.78950 adopted June 2026 and City of Greensboro rate of $0.79850, 2026",
+        "North Carolina Session Law 2026-8 (Senate Bill 889), 2026 reappraisal moratorium, June 2026",
+        "Arbor Realty and regional apartment trackers, Greensboro occupancy and inventory growth, February 2026",
+        "Toyota Battery Manufacturing North Carolina production launch, November 2025"
+      ]
+    },
+    {
+      "city": "Winston-Salem",
+      "slug": "winston-salem",
+      "county": "Forsyth County",
+      "metro": "Winston-Salem",
+      "hook": "Winston-Salem posted the only positive price movement among North Carolina's large metros at up 0.6%, with rental vacancy near 4.6% and a price-to-rent ratio of 12.8.",
+      "metaDescription": "Winston-Salem is the only major NC metro with rising prices, at 4.6% vacancy and a 12.8 price-to-rent. See where deals pencil. Get matched today.",
+      "market": {
+        "medianPrice": 267668,
+        "medianRent": 1740,
+        "priceToRent": 12.8,
+        "vacancyRate": 4.6,
+        "yoyPrice": 0.6,
+        "yoyRent": 1,
+        "estDSCR": 0.91,
+        "propertyTaxRate": 1.143,
+        "insuranceMonthly": 165
+      },
+      "overview": "Winston-Salem is the quiet outlier in North Carolina. It posted the only positive year-over-year price movement among the state's large metros at up 0.6%, while Charlotte, Raleigh, Durham, and Asheville all declined. Rental vacancy runs near 4.6%, the tightest of the major markets, and the price-to-rent ratio of 12.8 is materially better than Charlotte's 16.2 or Raleigh's 18.6.\n\nThe typical home value sits about $267,700 with 3-bedroom rents near $1,740, up roughly 1%. That combination produces a citywide DSCR near 0.91 at 20% down, which is close enough that submarket selection or a modestly larger down payment carries a file over the line without exotic structuring. Very few markets in this data set are that straightforward.\n\nThe offsetting factor is carrying cost. Forsyth County combines with the city to about $1.143 per $100 of value, roughly 1.14% of market value, heavier than Charlotte at 0.79% and Raleigh at 0.91%. Forsyth revalued in 2025 and does not revalue again until 2029, so assessed values are current and stable through a normal hold, which removes the reset risk that Mecklenburg and Wake carry into January 2027. Insurance also runs above the Piedmont average here. Underwrite both honestly and Winston-Salem remains one of the more workable conventional files in the state.",
+      "regulationBadge": "friendly",
+      "regulationNote": "North Carolina statute preempts local rent control and restricts municipal rental registration programs, so Forsyth County investors operate under uniform state landlord-tenant rules with no local licensing overlay.",
+      "neighborhoods": [
+        {
+          "name": "Ardmore",
+          "medianPrice": 285000,
+          "medianRent": 1850,
+          "note": "Established 1920s through 1950s stock near Wake Forest Baptist Medical Center, renting to hospital staff and graduate students. The most reliable tenant demand in the city and steady low turnover."
+        },
+        {
+          "name": "West Salem / Downtown",
+          "medianPrice": 245000,
+          "medianRent": 1750,
+          "note": "Close-in older housing near the Innovation Quarter with active redevelopment. Best rent-to-price inside the city, with condition varying substantially block to block."
+        },
+        {
+          "name": "Clemmons",
+          "medianPrice": 355000,
+          "medianRent": 2000,
+          "note": "Suburban southwest Forsyth with newer subdivision stock, strong schools, and family tenants on longer leases. Lower maintenance drag and lower yield than the urban core."
+        },
+        {
+          "name": "Waughtown / Southeast",
+          "medianPrice": 175000,
+          "medianRent": 1400,
+          "note": "The deep-value pocket with the highest gross yield in the metro. Older stock and tighter lender loan minimums, so verify the loan amount clears program floors before offering."
+        }
+      ],
+      "localAngle": {
+        "tag": "Rent-to-Price",
+        "title": "A 12.8 price-to-rent ratio is why this file clears without exotic structuring.",
+        "body": "Most North Carolina markets on this site require something clever to reach 1.0: an interest-only period, a No-Ratio program, or a much larger down payment. Winston-Salem largely does not, and the reason is a price-to-rent ratio of 12.8 against Charlotte at 16.2, Raleigh at 18.6, and Asheville at 22.9. At a typical value near $267,700 with 3-bedroom rents around $1,740, the citywide ratio lands near 0.91 at 20% down, which means a 25% down payment or a submarket like Ardmore or West Salem gets a conventional file across the line. Add the market context and the case strengthens: this is the only large North Carolina metro that posted positive price movement over the year at up 0.6%, rental vacancy runs near 4.6%, the tightest among the majors, and rents rose about 1% while several larger markets saw declines. Two things keep it honest. The combined Forsyth County and city rate of about $1.143 per $100 is roughly 1.14% of market value, meaningfully heavier than Charlotte at 0.79%, and insurance in this territory runs above the inland Piedmont average, so both lines belong in the model at real numbers rather than state averages. In exchange you get tax stability: Forsyth revalued in 2025 and does not revalue again until 2029, so unlike Mecklenburg and Wake, which reset in January 2027, your assessed value holds through a normal hold period. Your matched specialist will run the ratio on the actual county rate and a quoted premium, which in this market is usually all the structuring a file needs."
+      },
+      "programFit": [
+        "standard-dscr",
+        "portfolio-dscr",
+        "bridge-to-dscr",
+        "interest-only-dscr"
+      ],
+      "dealExample": {
+        "label": "Cash-Out Refinance",
+        "propertyType": "3-bed / 2-bath SFR",
+        "neighborhood": "Ardmore",
+        "purchasePrice": 245000,
+        "downPaymentPct": 25,
+        "downPayment": 61250,
+        "loanAmount": 183750,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 1284,
+        "monthlyTax": 233,
+        "monthlyInsurance": 160,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 1677,
+        "monthlyRent": 1800,
+        "dscr": 1.07,
+        "monthlyCashFlow": 123,
+        "specialistFocus": [
+          "Structured a cash-out refinance at 75% of the appraised value on a property the investor held free and clear, releasing capital for the next acquisition",
+          "Qualified on the in-place lease to a Wake Forest Baptist employee, supported by the appraiser's rent schedule in a submarket with unusually low turnover",
+          "Underwrote the full Forsyth County and city levy at 1.14% effective rather than a state average, which is what separates a 1.07 file from a surprise at closing"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Why is Winston-Salem the only major NC metro with rising prices?",
+          "answer": "It never overheated, so it had nothing to give back. Values rose about 0.6% over the year while Charlotte fell 1.1%, Raleigh 2.1%, Durham 2.2%, and Asheville 5.2%. Winston-Salem also avoided the enormous apartment delivery waves that hit the Triangle and Charlotte, which is why rental vacancy sits near 4.6%, the tightest among the state's large markets. The tradeoff is that this has never been an appreciation market, so underwrite for cash flow and treat any value growth as upside rather than the thesis."
+        },
+        {
+          "question": "Do I need special loan structuring to buy here?",
+          "answer": "Usually not, which is unusual in this data set. The price-to-rent ratio of 12.8 means the citywide DSCR lands near 0.91 at 20% down, so a 25% down payment or a submarket like Ardmore or West Salem typically clears a conventional file above 1.0. Compare that to Raleigh at 18.6 or Asheville at 22.9, where interest-only periods or No-Ratio programs are routinely required. The two lines that still need real numbers are the combined county and city tax at about 1.14% of market value and a quoted insurance premium, both of which run above what a state average would suggest."
+        },
+        {
+          "question": "How do Winston-Salem property taxes compare?",
+          "answer": "Heavier than Charlotte, lighter than the Greensboro nominal rate, and far more predictable than either. Forsyth County and the city combine to about $1.143 per $100 of value, roughly 1.14% of market value or about $3,060 a year on the typical home. Charlotte sits near 0.79% and Raleigh near 0.91%, so you pay more here. What you get in exchange is certainty: Forsyth revalued in 2025 and does not revalue again until 2029, so your assessed value tracks current market and holds. Mecklenburg and Wake both reset effective January 1, 2027 on older values."
+        },
+        {
+          "question": "Which submarkets should I target?",
+          "answer": "Ardmore for tenant quality, West Salem for ratio, Waughtown for yield. Ardmore's 1920s through 1950s stock sits near Wake Forest Baptist Medical Center and rents to hospital staff and graduate students, which produces the most reliable demand and lowest turnover in the city. West Salem near the Innovation Quarter offers the best rent-to-price inside the city with more condition variance. Clemmons is the suburban family play with lower yield. Waughtown carries the highest gross yield but older stock and purchase prices low enough that many lender loan minimums come into play, so confirm the loan amount clears program floors."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Winston-Salem typical home value and YoY change, June 2026",
+        "Zumper Rent Research, Winston-Salem 3-bedroom rents, July 2026",
+        "Forsyth County and City of Winston-Salem combined rate of $1.143 per $100 of value, FY2026",
+        "North Carolina Department of Revenue, county reappraisal schedule showing Forsyth 2025 and next 2029, 2025",
+        "NC Department of Insurance dwelling rate settlement and territory 310 assignment, April 2026 (premium derived, est.)"
+      ]
+    },
+    {
+      "city": "Fayetteville",
+      "slug": "fayetteville",
+      "county": "Cumberland County",
+      "metro": "Fayetteville",
+      "hook": "Fayetteville rents rose 6%, the strongest in North Carolina, on a $227K typical value. But 2026 housing allowances at Fort Bragg rose only 1.2% to 1.6% against a 4.2% national average.",
+      "metaDescription": "Fayetteville rents rose 6% on $227K homes near Fort Bragg. See why 2026 BAH lagged nationally and how deals pencil. Get matched today.",
+      "market": {
+        "medianPrice": 227387,
+        "medianRent": 1575,
+        "priceToRent": 12,
+        "vacancyRate": 8,
+        "yoyPrice": 0.1,
+        "yoyRent": 6,
+        "estDSCR": 0.96,
+        "propertyTaxRate": 0.949,
+        "insuranceMonthly": 185
+      },
+      "overview": "Fayetteville is a military rental market with the strongest rent growth in North Carolina. Three-bedroom rents rose about 6% over the year to near $1,575, while the typical home value held essentially flat at about $227,400. Rising rents against flat prices is the most favorable combination for a DSCR buyer in this data set, and it produces a citywide ratio near 0.96, close enough that submarket selection clears a file.\n\nFort Bragg is the economy. The installation supports 52,280 active duty personnel, 12,624 reserve and temporary duty, 8,757 civilians, 3,516 contractors, and 62,962 family members, a total supported population above 265,000 and roughly $10.7 billion in annual economic impact. The name was restored in February 2025 after two years as Fort Liberty, this time honoring Private First Class Roland L. Bragg, a World War II Silver Star recipient from the Battle of the Bulge, deliberately chosen to satisfy the statutory ban on Confederate namesakes.\n\nOne number tempers the enthusiasm. The 2026 housing allowance for the Fort Bragg and Pope military housing area rose only 1.2% to 1.6% depending on grade, well below the 4.2% national average, with the E-5 with-dependents rate at $1,806 and E-6 at $2,049. The Defense Department sets those rates using local rental market data, so a below-average increase is the government reporting that local rents grew more slowly than the national picture. Do not assume allowance-driven rent growth continues at 6%.",
+      "regulationBadge": "friendly",
+      "regulationNote": "North Carolina preempts rent control and caps late fees, but the Servicemembers Civil Relief Act lets any military tenant terminate a lease without penalty on permanent-change-of-station or deployment orders, so no lease term here is genuinely firm.",
+      "neighborhoods": [
+        {
+          "name": "Haymount",
+          "medianPrice": 265000,
+          "medianRent": 1750,
+          "note": "The historic district near downtown with the strongest tenant profile in the city, drawing officers and civilian professionals. Older stock, so budget for systems, but turnover runs lower than the gate corridors."
+        },
+        {
+          "name": "Cliffdale / Cross Creek",
+          "medianPrice": 215000,
+          "medianRent": 1600,
+          "note": "The volume rental corridor west of the city with 1980s and 1990s stock close to the Fort Bragg gates. Fastest re-leasing in the market, paired with permanent-change-of-station turnover every two to three years."
+        },
+        {
+          "name": "Hope Mills",
+          "medianPrice": 235000,
+          "medianRent": 1650,
+          "note": "Suburban south of the city with newer construction and family tenants, including many retiring service members who stay in the area. Lower maintenance drag and longer tenancies."
+        },
+        {
+          "name": "Spring Lake",
+          "medianPrice": 185000,
+          "medianRent": 1450,
+          "note": "Immediately adjacent to the installation with the lowest entry in the metro. Highest yield on paper and the heaviest turnover, and purchase prices low enough that lender loan minimums matter."
+        }
+      ],
+      "localAngle": {
+        "tag": "BAH Reality",
+        "title": "Rents rose 6%. The housing allowance rose 1.2% to 1.6%. Those diverge for a reason.",
+        "body": "Fayetteville posted the strongest rent growth in North Carolina at about 6%, and the number that should temper how you extrapolate it is the 2026 Basic Allowance for Housing. Rates for the Fort Bragg and Pope military housing area rose only 1.2% to 1.6% depending on grade, well below the 4.2% national average, landing at $1,806 for an E-5 with dependents, $2,049 for an E-6, $2,094 for an E-7, and $2,175 for an O-3. Because the Defense Department sets those rates using local rental market surveys, a below-average local increase is the government's own audited read that Fayetteville rents grew more slowly than the national picture. Treat 6% as a catch-up year rather than a run rate. The demand base itself is not in question: Fort Bragg supports 52,280 active duty, 8,757 civilians, 3,516 contractors, and 62,962 family members, a supported population above 265,000 and roughly $10.7 billion in annual economic impact, and the installation's name was restored in February 2025 honoring Private First Class Roland L. Bragg. The operational risk is statutory and non-negotiable. Under the Servicemembers Civil Relief Act, a tenant can terminate a lease without penalty on permanent-change-of-station orders or a deployment of 90 days or more, effective 30 days after the next rent due date, and the landlord may not charge an early termination fee. Terminations cluster in the May through August moving window, so a twelve-month lease here is not a twelve-month income assumption. One more item to watch rather than underwrite: the Goodyear plant, the county's fifth-largest employer at about 2,100 employees, has been reported as a possible closure candidate with no final decision confirmed. Your matched specialist will structure the down payment so a mid-lease termination is survivable."
+      },
+      "programFit": [
+        "standard-dscr",
+        "portfolio-dscr",
+        "bridge-to-dscr",
+        "no-ratio-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 2-bath SFR",
+        "neighborhood": "Cliffdale / Cross Creek",
+        "purchasePrice": 210000,
+        "downPaymentPct": 25,
+        "downPayment": 52500,
+        "loanAmount": 157500,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 1101,
+        "monthlyTax": 166,
+        "monthlyInsurance": 185,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 1452,
+        "monthlyRent": 1750,
+        "dscr": 1.21,
+        "monthlyCashFlow": 298,
+        "specialistFocus": [
+          "Priced the rent just under the E-6 with-dependents housing allowance of $2,049 so the property sits comfortably inside the largest off-post tenant budget",
+          "Built a vacancy allowance for permanent-change-of-station turnover into the ratio, since Servicemembers Civil Relief Act terminations mean no lease term is firm",
+          "Underwrote the combined Cumberland County and city rate at 0.95% effective and a territory-appropriate insurance premium rather than a statewide average"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Fayetteville rents rose 6%. Can I count on that continuing?",
+          "answer": "Probably not at that pace, and the housing allowance data is why. The 2026 Basic Allowance for Housing for the Fort Bragg and Pope area rose only 1.2% to 1.6% depending on grade, against a 4.2% national average. The Defense Department builds those rates using local rental market surveys, so a below-average local increase is a government-audited signal that Fayetteville rents grew more slowly than the national picture. The most sensible read is that 6% reflects catch-up after a soft stretch rather than a durable run rate. Underwrite today's rent and treat further growth as upside."
+        },
+        {
+          "question": "What is the real risk with military tenants?",
+          "answer": "Lease termination, and it is federal law rather than a negotiating point. Under the Servicemembers Civil Relief Act a servicemember may terminate a lease without penalty on permanent-change-of-station orders or a deployment of 90 days or more, effective 30 days after the next rent due date, and you cannot charge an early termination fee. Terminations concentrate in the May through August window. The offsetting strengths are genuine: the allowance is paid regardless of actual rent, it is published and predictable, and Fort Bragg supports more than 265,000 people. Structure the down payment so a mid-lease break is survivable rather than a cash call."
+        },
+        {
+          "question": "Was the base renamed again?",
+          "answer": "Yes, and the economics did not change. The installation was renamed Fort Liberty in 2023, then the Fort Bragg name was restored by order in February 2025, with the Army implementing that month and holding a ceremony in March 2025. The new namesake is Private First Class Roland L. Bragg, a World War II Silver Star and Purple Heart recipient from the Battle of the Bulge, chosen deliberately so the name honors a different Bragg than the Confederate general and satisfies the statutory ban on Confederate namesakes. For a landlord the mission, the population, and the housing allowance are what matter, and none of those moved."
+        },
+        {
+          "question": "How should I price a rental against the housing allowance?",
+          "answer": "Against the grade you are actually targeting. The 2026 with-dependents rates for the Fort Bragg and Pope area are $1,722 for an E-4, $1,806 for an E-5, $2,049 for an E-6, $2,094 for an E-7, and $2,175 for an O-3. A three-bedroom single-family house typically targets E-6 and above, so pricing at or just under $2,049 captures that tenant without forcing out-of-pocket spend, which is where resistance rises sharply. Remember the allowance covers rent plus utilities, so the true rent budget is meaningfully below the gross figure. Your matched specialist will run the ratio against a defensible rent, not the headline allowance."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Fayetteville typical home value and YoY change, June 2026",
+        "Zumper Rent Research, Fayetteville 3-bedroom rents and YoY change, July 2026",
+        "Cumberland County and City of Fayetteville combined rate of $0.9485 per $100 of value, FY2026",
+        "Defense Travel Management Office, 2026 BAH rates for the Fort Bragg and Pope military housing area, January 2026",
+        "Fort Bragg garrison published population and economic impact figures, 2026",
+        "Department of Defense order restoring the Fort Bragg name honoring Pfc. Roland L. Bragg, February 2025"
+      ]
+    },
+    {
+      "city": "Wilmington",
+      "slug": "wilmington",
+      "county": "New Hanover County",
+      "metro": "Wilmington",
+      "hook": "Wilmington carries the lowest effective property tax of any major North Carolina city at about 0.59%, and the highest insurance. A 2% wind deductible on a $400K house is $8,000 out of pocket.",
+      "metaDescription": "Wilmington has NC's lowest property tax and highest insurance, with percentage wind deductibles. See the real coastal math. Get matched today.",
+      "market": {
+        "medianPrice": 422872,
+        "medianRent": 2178,
+        "priceToRent": 16.2,
+        "vacancyRate": 7,
+        "yoyPrice": -0.8,
+        "yoyRent": 2.8,
+        "estDSCR": 0.75,
+        "propertyTaxRate": 0.63,
+        "insuranceMonthly": 310
+      },
+      "overview": "Wilmington trades one of the lightest tax burdens in North Carolina for the heaviest insurance, and how you handle that trade decides whether a file works. The typical home value runs about $422,900, down 0.8% over the year, while rents rose about 2.8%, with the fair market rent for a three-bedroom at $2,178.\n\nThe tax side is genuinely favorable. New Hanover County revalued in 2025, which reset values upward and forced the rate down, so the combined county and city burden lands near 0.59% to 0.63% of market value depending on municipal service and fire district assignment. That is the lowest effective rate of any major city in the state, well under Durham at 1.02% or Winston-Salem at 1.14%.\n\nInsurance is where coastal deals die. A landlord dwelling policy on a $400,000 Wilmington rental realistically runs $1,200 to $2,200 a year with wind included, or a base policy plus $800 to $2,500 for separate wind coverage, and flood is always a separate policy at roughly $700 to $2,500. Total realistic range is $1,900 to $4,700 annually against roughly $900 to $1,400 for an identical inland house. On $20,000 of gross annual rent, an extra $2,500 of premium is 12% of income straight off the top. One correction worth knowing: mainland Wilmington sits in the Coastal Area, not the Beach Area, which begins south and east of the Intracoastal Waterway.",
+      "regulationBadge": "moderate",
+      "regulationNote": "North Carolina preempts rent control and a 2022 appellate decision struck down Wilmington's rental registry as preempted by state law, so the binding local constraints here are insurance territory and flood zone rather than municipal regulation.",
+      "neighborhoods": [
+        {
+          "name": "Downtown / Historic District (28401)",
+          "medianPrice": 334992,
+          "medianRent": 1900,
+          "note": "The cheapest entry in the city and the best raw rent-to-price, with historic review requirements and older systems raising rehab cost. Also the area most affected by short-term rental policy disputes."
+        },
+        {
+          "name": "Midtown / Winter Park (28403)",
+          "medianPrice": 401857,
+          "medianRent": 2100,
+          "note": "The only Wilmington ZIP holding flat to positive on value, central to UNC Wilmington and the hospital. The most liquid conventional rental submarket in the city."
+        },
+        {
+          "name": "Ogden / Mayfaire (28405)",
+          "medianPrice": 377332,
+          "medianRent": 2050,
+          "note": "Newer stock around the Mayfaire retail and employment node, with good rent-to-price for the construction vintage. Lower maintenance drag than the historic districts."
+        },
+        {
+          "name": "Monkey Junction (28409)",
+          "medianPrice": 518745,
+          "medianRent": 2428,
+          "note": "The highest rents in the metro and holding value flat, in a family-oriented south-side corridor. Priciest entry, so the ratio needs a substantial down payment."
+        }
+      ],
+      "localAngle": {
+        "tag": "Coastal Insurance",
+        "title": "Percentage wind deductibles, not the premium, are what sink coastal files.",
+        "body": "Wilmington gives you North Carolina's lowest effective property tax at roughly 0.59% to 0.63% of market value and hands the savings straight to your insurance carrier. Work the real numbers on a $400,000 rental. A landlord dwelling policy with wind included runs about $1,200 to $2,200 a year, or you carry a base policy with wind excluded and layer separate wind coverage at $800 to $2,500. Flood is never included in a dwelling policy and runs roughly $700 to $2,500 on its own. Realistic total: $1,900 to $4,700 annually, against $900 to $1,400 for an identical inland Piedmont house. Against roughly $20,000 of gross annual rent, an extra $2,500 of premium is 12% of gross income removed before a single repair, which is frequently the difference between a file that clears and one that does not. Then there is the part most investors miss entirely. North Carolina wind, hail, and named-storm deductibles are a percentage of dwelling coverage rather than a flat dollar amount, typically 1% to 5%. On $400,000 of coverage, 2% means $8,000 out of pocket before the policy responds and 5% means $20,000. That is uninsured working capital you must actually hold, and lenders increasingly ask about it. Two clarifications that matter for pricing. Mainland Wilmington sits in the Coastal Area, not the Beach Area, which begins south and east of the Intracoastal Waterway, so standard market carriers generally still write the base dwelling policy here. And the rate increase that governs landlord policies is the April 2026 dwelling settlement at 5% effective October 2026 and 5% effective October 2027, not the homeowners settlement most articles cite. Your matched specialist will build a bindable quote and the deductible exposure into the ratio before you write the offer."
+      },
+      "programFit": [
+        "standard-dscr",
+        "str-dscr",
+        "interest-only-dscr",
+        "no-ratio-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 2-bath SFR",
+        "neighborhood": "Downtown / Historic District (28401)",
+        "purchasePrice": 335000,
+        "downPaymentPct": 30,
+        "downPayment": 100500,
+        "loanAmount": 234500,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 1639,
+        "monthlyTax": 176,
+        "monthlyInsurance": 310,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 2125,
+        "monthlyRent": 2200,
+        "dscr": 1.04,
+        "monthlyCashFlow": 75,
+        "specialistFocus": [
+          "Obtained a bindable wind-inclusive quote before the appraisal rather than a national average, because insurance is the line item that decides coastal Wilmington files",
+          "Structured 30% down to offset an insurance load roughly double an inland Piedmont house on the same purchase price",
+          "Confirmed the parcel's flood zone and the percentage wind deductible so the borrower held reserves against an $8,000 out-of-pocket exposure rather than discovering it after a storm"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "How much does insurance really cost on a Wilmington rental?",
+          "answer": "Realistically $1,900 to $4,700 a year on a $400,000 property, against $900 to $1,400 for an identical inland house. The components: a landlord dwelling policy with wind included runs about $1,200 to $2,200, or a base policy plus separate wind coverage at $800 to $2,500, and flood is always separate at roughly $700 to $2,500. Because DSCR divides rent by full PITIA, an extra $2,500 of annual premium against $20,000 of gross rent removes 12% of your income before any repair. Get a bindable quote before you write the offer, not a national average."
+        },
+        {
+          "question": "What is a percentage wind deductible and why does it matter?",
+          "answer": "In North Carolina, wind, hail, and named-storm deductibles are calculated as a percentage of your dwelling coverage rather than as a flat dollar amount, typically 1% to 5%. On a $400,000 dwelling limit, a 2% deductible means $8,000 out of pocket before the policy pays anything, and 5% means $20,000. That is not a premium question, it is a liquidity question: you must actually hold that cash. Named-storm deductibles apply specifically when the National Hurricane Center names the storm. Lenders increasingly ask how a borrower would fund it, so plan reserves accordingly."
+        },
+        {
+          "question": "Is Wilmington in the Beach Plan?",
+          "answer": "Mainland Wilmington is not, and this is commonly gotten wrong. North Carolina statute defines the Beach Area as land south and east of the Intracoastal Waterway, which covers the barrier islands such as Wrightsville Beach, Carolina Beach, and Kure Beach. The City of Wilmington sits in the Coastal Area instead, one of 18 designated counties. The practical difference is that standard market carriers generally still write the base dwelling policy on mainland city parcels, with the state wind pool available for wind and hail coverage. A property across the waterway is a materially different risk class and prices accordingly."
+        },
+        {
+          "question": "Which insurance rate increase applies to my rental?",
+          "answer": "The dwelling settlement, not the homeowners one. Most articles cite the January 2025 homeowners settlement of 7.5% and 7.5%, which governs owner-occupied policies. Landlord coverage on a non-owner-occupied property of four units or fewer falls under the separate dwelling settlement announced in April 2026: the Rate Bureau requested 68.3% over two years and the Insurance Commissioner settled at 5% effective October 1, 2026 and 5% effective October 1, 2027. That first increase is imminent, so build it into a multi-year model. Fortified roof mitigation credits are available and are the cheapest way to offset it."
+        },
+        {
+          "question": "Why is Wilmington's property tax so low?",
+          "answer": "A recent revaluation reset the base. New Hanover County revalued in 2025, which lifted assessed values and forced the rate downward under North Carolina's revenue-neutral requirements. The combined county and city burden now lands near 0.59% to 0.63% of market value depending on municipal service and fire district assignment, the lowest effective rate of any major city in the state, against Durham at 1.02% and Winston-Salem at 1.14%. On a $422,900 home that is roughly $2,500 to $2,660 a year. It is a genuine advantage, and it is also most of what offsets the insurance load."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Wilmington typical home value and YoY change, June 2026",
+        "HUD FY2026 Fair Market Rents and Zillow Observed Rent Index, Wilmington 3-bedroom rent, 2026",
+        "New Hanover County and City of Wilmington adopted rates and 2025 revaluation, 2026",
+        "NC Department of Insurance dwelling rate settlement of 5% October 2026 and 5% October 2027, April 2026",
+        "NC Department of Insurance windstorm and hail percentage deductible guidance, 2026",
+        "NC General Statute 58-45-5 beach area and coastal area definitions, 2026"
+      ]
+    },
+    {
+      "city": "Asheville",
+      "slug": "asheville",
+      "county": "Buncombe County",
+      "metro": "Asheville",
+      "hook": "Asheville values fell 5.2% and sit about 6% below where they stood before Hurricane Helene, with rental vacancy at 10.7%. Whole-house short-term rentals are banned in residential zoning.",
+      "metaDescription": "Asheville values sit 6% below pre-Helene with 10.7% vacancy and whole-house STRs banned in residential zones. See the honest math. Get matched today.",
+      "market": {
+        "medianPrice": 464131,
+        "medianRent": 1688,
+        "priceToRent": 22.9,
+        "vacancyRate": 10.7,
+        "yoyPrice": -5.2,
+        "yoyRent": 0.5,
+        "estDSCR": 0.52,
+        "propertyTaxRate": 1,
+        "insuranceMonthly": 250
+      },
+      "overview": "Asheville is the hardest market in this data set and it deserves a plain description. The typical home value runs about $464,100, down 5.2% over the year, the steepest decline of any North Carolina city here. Measured against September 2024, immediately before Hurricane Helene, values sit roughly 6% lower in nominal terms. Rental vacancy is about 10.7% against a five-year average near 6.3%, among the highest in the country, and the construction pipeline equals 7.65% of existing stock, the largest of 216 US metros. Rents spiked on post-storm displacement and have fully reversed, now running below the 2022 peak.\n\nAt a price-to-rent ratio near 22.9, the citywide DSCR lands around 0.52 at 20% down. No amount of conventional equity fixes that on a long-term lease. Asheville is a No-Ratio, interest-only, or short-term-rental market, or it is not a market for you.\n\nThe short-term rental rules are the other half of the story and they are stricter than most investors assume. The City of Asheville permits whole-house short-term vacation rentals essentially only in the Resort District, with pre-2018 operations grandfathered. Owner-occupied homestays are permitted with a permit, one or two bedrooms, and an annual inspection, but they require the owner to live there, which no absentee investor can satisfy. Violations carry $500 per day. Unincorporated Buncombe County is materially more permissive, which is the actual workaround.",
+      "regulationBadge": "tenant",
+      "regulationNote": "The City of Asheville prohibits whole-house short-term vacation rentals outside the Resort District and fines violations $500 per day, while unincorporated Buncombe County permits short-term rentals in nearly all zoning districts, so the jurisdiction line decides the entire strategy.",
+      "neighborhoods": [
+        {
+          "name": "Candler (unincorporated)",
+          "medianPrice": 422601,
+          "medianRent": 2000,
+          "note": "Outside city limits, so county rules apply and a whole-house short-term rental is viable where it would be illegal three miles away. This is the practical entry point for a short-term rental strategy here."
+        },
+        {
+          "name": "West Asheville",
+          "medianPrice": 407587,
+          "medianRent": 1800,
+          "note": "The best rent-to-price inside the city with an established walkable identity. Flood risk varies block to block near the French Broad, so check the parcel rather than the neighborhood."
+        },
+        {
+          "name": "Downtown (28801)",
+          "medianPrice": 564889,
+          "medianRent": 1900,
+          "note": "Held value better than any other city ZIP, with the strongest tenant demand and the weakest ratio. An appreciation and quality-of-asset hold rather than a cash-flow purchase."
+        },
+        {
+          "name": "East Asheville",
+          "medianPrice": 456748,
+          "medianRent": 1750,
+          "note": "The steepest decline in the city at down 6.4%, with the Haw Creek pocket moving fastest at about 25 days. Distress pricing for a buyer with patience and no appreciation assumption."
+        }
+      ],
+      "localAngle": {
+        "tag": "STR Rules",
+        "title": "Whole-house short-term rentals are Resort District only. The county line is the workaround.",
+        "body": "Asheville's short-term rental rules are more restrictive than nearly any investor expects, and the common assumption that the Central Business District or River Arts District permit them is wrong. The city allows whole-house short-term vacation rentals essentially only in the Resort District. Properties operating legally before the decisive 2018 ordinance carry grandfathered nonconforming status, but that does not help a new buyer. The owner-occupied homestay path is permitted in residential zones with an annual permit and inspection, but it requires the owner to be a full-time resident physically present overnight during guest stays, limits you to one or two bedrooms, allows one permit per parcel and one per person or entity with a 5% ownership threshold specifically to stop stacking through LLCs, and prohibits use of detached accessory structures unless permitted before December 2021. None of that is available to an absentee investor. Enforcement is real: violations carry $500 per day, each day a separate charge, and the city funded a dedicated enforcement officer. The rules also survive legal challenge, because a 2022 appellate decision striking down Wilmington's rental registry expressly preserved a city's power to define short-term rentals as a land use and restrict them to specific zoning districts, which is exactly Asheville's mechanism. Do not expect this to be litigated away. The genuine workaround is jurisdictional: unincorporated Buncombe County permits short-term rentals in all zoning districts except the airport district, subject to a permit, a 9,000 square foot floor area cap, and two adults per bedroom. Candler, Swannanoa, Fairview, and Leicester can legally run what is prohibited three miles away. One caution, the county planning board deferred proposed amendments in April 2026, so tightening is a live possibility rather than a settled question. Your matched specialist will confirm the parcel's jurisdiction and permitted use before an appraisal is ordered."
+      },
+      "programFit": [
+        "str-dscr",
+        "no-ratio-dscr",
+        "interest-only-dscr",
+        "bridge-to-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 2-bath SFR (STR)",
+        "neighborhood": "Candler (unincorporated)",
+        "purchasePrice": 420000,
+        "downPaymentPct": 30,
+        "downPayment": 126000,
+        "loanAmount": 294000,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 2055,
+        "monthlyTax": 350,
+        "monthlyInsurance": 260,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 2665,
+        "monthlyRent": 4200,
+        "dscr": 1.58,
+        "monthlyCashFlow": 1535,
+        "specialistFocus": [
+          "Selected an unincorporated Buncombe County parcel where a whole-house short-term rental is permitted, since the identical property inside city limits would be limited to a long-term lease near $2,000",
+          "Qualified on projected short-term rental income with a lender haircut applied, rather than the long-term rent that produces a citywide ratio near 0.52",
+          "Priced flood coverage despite the parcel sitting outside a mapped flood zone, because Helene flooded far outside designated special flood hazard areas"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Can I buy an Asheville house and run it as a short-term rental?",
+          "answer": "Inside the city, almost certainly not. Asheville permits whole-house short-term vacation rentals essentially only in the Resort District, with pre-2018 operations grandfathered. The Central Business District and River Arts District do not permit them, contrary to what many listings imply. The owner-occupied homestay path requires you to live in the property full time and be present overnight, which no absentee investor can satisfy, and it caps you at one or two bedrooms with one permit per person or entity. Violations run $500 per day. Unincorporated Buncombe County, including Candler and Swannanoa, permits them in nearly all districts."
+        },
+        {
+          "question": "Has Asheville recovered from Hurricane Helene?",
+          "answer": "Not yet, and the honest data says so. The typical home value sits about 6% below its September 2024 pre-Helene level in nominal terms and fell 5.2% over the past year. Buncombe County had 11,488 homes damaged and 372 destroyed, and buyouts are permanently removing stock. Tourism runs below both pre-Helene and pre-pandemic levels, with the tourism authority budgeting $34.5 million against roughly $23 million in projected collections and drawing on reserves. Service workers who relocated to Greenville and Charlotte have largely not returned. The River Arts District has more than 70% of businesses reopened, which is genuine progress, but this is recalibration rather than recovery."
+        },
+        {
+          "question": "Why is the Asheville DSCR so low?",
+          "answer": "The price-to-rent ratio is 22.9, the worst in this data set. At a typical value near $464,100 against rents around $1,688, the citywide ratio lands near 0.52 at 20% down. Rents actually fell in real terms after the post-Helene displacement spike reversed, and vacancy sits near 10.7% against a 6.3% five-year average with a construction pipeline equal to 7.65% of existing stock, the largest of 216 US metros. No realistic down payment fixes a 0.52 on a long-term lease. Asheville works as a short-term rental in the county, or through a No-Ratio program, or not at all."
+        },
+        {
+          "question": "What is happening with Asheville property taxes?",
+          "answer": "There is a large reset queued and it is easy to underestimate. Buncombe County's 2026 revaluation took effect January 1, 2026 and was then frozen by state Senate Bill 889. The county set 61.54 cents and the city 50.78 cents against 2021 values, a combined 112.32 cents per $100. Because 2021 assessments run far below current market, the effective rate on today's value is only about 0.73% to 0.90%. When the 2026 reappraisal takes effect, assessed values jump substantially. Use roughly 1% of purchase price as the conservative planning figure rather than the current bill."
+        },
+        {
+          "question": "Should I buy flood insurance if the property is not in a flood zone?",
+          "answer": "Yes, in this market specifically. Helene flooded extensively outside mapped special flood hazard areas, which is precisely why so many owners were uninsured for their largest loss. Flood is never covered by a landlord dwelling policy and always requires a separate policy. There is a silver lining on the standard policy side: Buncombe received among the lowest homeowners territory increases in the state at roughly 9% and 9%, because Helene's losses were overwhelmingly flood-driven and therefore excluded from those policies. That also means the next filing cycle after June 2027 is the real risk window."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Asheville typical home value, YoY change, and September 2024 comparison, June 2026",
+        "ApartmentList via regional reporting, Asheville rental vacancy and rent trend, March 2026",
+        "City of Asheville Development Services, homestay and short term vacation rental requirements, April 2026",
+        "Buncombe County and City of Asheville adopted rates against 2021 values, July 2026",
+        "NC Housing Coalition, Buncombe County homes damaged and destroyed by Hurricane Helene, 2026",
+        "Buncombe County zoning ordinance, short term rental permissions in unincorporated areas, 2026"
+      ]
+    },
+    {
+      "city": "Greenville",
+      "slug": "greenville",
+      "county": "Pitt County",
+      "metro": "Greenville",
+      "hook": "Greenville is 67.3% renter-occupied, the highest share of any city here, and single-family rents rose 4.3% while apartments fell. But city code caps unrelated occupants at three.",
+      "metaDescription": "Greenville NC is 67.3% renter-occupied with houses renting up 4.3%. See why the 3-unrelated rule caps by-the-room deals. Get matched today.",
+      "market": {
+        "medianPrice": 238644,
+        "medianRent": 1600,
+        "priceToRent": 12.4,
+        "vacancyRate": 4.5,
+        "yoyPrice": 1.3,
+        "yoyRent": 4.3,
+        "estDSCR": 0.94,
+        "propertyTaxRate": 0.9617,
+        "insuranceMonthly": 170
+      },
+      "overview": "Greenville has the strongest structural rental argument in North Carolina: the city is 67.3% renter-occupied and Pitt County is 48.6%, shares far above typical for a market this size. East Carolina University enrolls roughly 27,000 students and employs 5,728, while ECU Health Medical Center is a Level I trauma center serving 1.4 million people across 29 eastern counties and the largest employer in the county at about 6,760.\n\nThe market data is modest and positive. The typical home value runs about $238,600, up 1.3%, though the two-year change is only 1.69%, so this is a cash-flow market rather than an appreciation market and it is honest to say so. What stands out is the split in rent direction: single-family rents rose about 4.3% while apartments were flat to falling, with one tracker showing one-bedroom units down 9%. Building permits explain it, with 288 units in five-plus unit buildings permitted through June 2026 alone, more multifamily than 2024 and 2025 combined. Rent growth here is in houses, not units.\n\nCarrying cost is stable and modest. Pitt County's $0.5663 plus the city's $0.3954 combine to $0.9617 per $100, about 0.96% of market value, and both bodies held rates flat for fiscal 2027. A useful detail: the county EMS levy of $0.0595 explicitly excludes the City of Greenville, so a city parcel is cheaper than Winterville at 1.16% or Ayden at 1.17%.",
+      "regulationBadge": "moderate",
+      "regulationNote": "Greenville city code defines a family as no more than three unrelated persons per dwelling unit, and the room-renting exception requires an owner-occupant, so the by-the-room strategy common in college towns is capped at three beds for an absentee investor.",
+      "neighborhoods": [
+        {
+          "name": "ZIP 27834 (west and north)",
+          "medianPrice": 212632,
+          "medianRent": 1500,
+          "note": "The cheapest entry in the county and the strongest rent-to-price, which is where Greenville files most reliably clear. Older stock with more condition variance than the south-side corridors."
+        },
+        {
+          "name": "ZIP 27858 (south and southeast)",
+          "medianPrice": 268601,
+          "medianRent": 1700,
+          "note": "The Arlington Boulevard and Fire Tower Road growth corridor capturing ECU Health campus proximity and newer subdivisions. Best blend of the city's low tax rate and suburban-quality inventory."
+        },
+        {
+          "name": "Tar River",
+          "medianPrice": 229400,
+          "medianRent": 1550,
+          "note": "The fastest-appreciating named neighborhood in the city at up 5.2%, immediately adjacent to campus. Highest turnover in the county, so underwrite 10% to 12% vacancy rather than the county figure."
+        },
+        {
+          "name": "Winterville",
+          "medianPrice": 283067,
+          "medianRent": 1648,
+          "note": "The family rental submarket with better schools, newer inventory, and the longest tenancies. The catch is a 1.16% effective tax rate against 0.96% inside Greenville, roughly $560 more per year."
+        }
+      ],
+      "localAngle": {
+        "tag": "Occupancy Cap",
+        "title": "City code caps unrelated occupants at three. That kills the five-bedroom student play.",
+        "body": "The standard college-town investment thesis is to buy a large house near campus and rent it by the room, and in Greenville the city code forecloses it. Greenville's ordinance defines a family as an individual, persons related by blood, adoption, or marriage, or a group of not more than three unrelated persons living together as a single housekeeping unit. The enumerated permissible occupancies allow up to three unrelated individuals, or one family plus up to two unrelated individuals under a room-renting provision. That provision is defined as accessory occupancy within an owner-occupied dwelling unit where space is let by the resident owner, which means it is unavailable to an absentee investor and structurally incompatible with a DSCR loan. So a non-owner-occupied four or five bedroom house cannot legally be leased to four or five unrelated students here. The cap is three, and the university publicizes it to students directly, with code enforcement handling complaints. Chapel Hill allows four; Greenville does not. The practical effect is that purpose-built student housing, which is developed as a separate multi-family or dormitory use, holds a structural advantage over scattered-site single-family investors, and the by-the-bed premium in local purpose-built product is only meaningful at the four-bedroom tier, exactly the configuration you cannot replicate. Two more things belong in your model. Roughly 31% of East Carolina's enrollment is exclusively online, so the functional in-market student body is closer to 18,500 than the 27,000 headline, and anyone underwriting the headline overstates the tenant pool by about a third. And the rule applies to travel nurses and medical residents exactly as it does to students, because it is a dwelling-unit occupancy rule rather than a student rule. Your matched specialist will underwrite three beds and the whole-house market rent an appraiser can support."
+      },
+      "programFit": [
+        "standard-dscr",
+        "portfolio-dscr",
+        "bridge-to-dscr",
+        "no-ratio-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 2-bath SFR",
+        "neighborhood": "ZIP 27834 (west and north)",
+        "purchasePrice": 213000,
+        "downPaymentPct": 25,
+        "downPayment": 53250,
+        "loanAmount": 159750,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 1117,
+        "monthlyTax": 171,
+        "monthlyInsurance": 170,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 1458,
+        "monthlyRent": 1650,
+        "dscr": 1.13,
+        "monthlyCashFlow": 192,
+        "specialistFocus": [
+          "Qualified on whole-house market rent for a three-bedroom rather than a per-room projection, since city code caps unrelated occupants at three and the room-renting exception requires an owner-occupant",
+          "Selected a City of Greenville parcel where the county EMS levy does not apply, keeping the effective rate at 0.96% against 1.16% in Winterville",
+          "Underwrote against ECU Health employment rather than student enrollment, because roughly 31% of university enrollment is exclusively online and never rents locally"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Can I rent a Greenville house by the room to students?",
+          "answer": "Up to three unrelated tenants, and no further. Greenville city code defines a family as not more than three unrelated persons in a dwelling unit. There is a room-renting provision allowing a fourth and fifth occupant, but it is expressly limited to an owner-occupied dwelling where the resident owner lets the space, so it does not work for an absentee investor and is incompatible with a DSCR loan. A non-owner-occupied five-bedroom house therefore cannot be leased to five unrelated students. East Carolina publicizes the rule to students and code enforcement handles complaints. Underwrite three beds and whole-house market rent."
+        },
+        {
+          "question": "How many ECU students actually rent in Greenville?",
+          "answer": "Fewer than the enrollment headline suggests. East Carolina reports roughly 27,000 students, but about 31% are enrolled exclusively online and generate essentially no local rental demand, and the online share is growing fastest. Netting those out and subtracting the roughly 5,155 students in university housing, the realistic off-campus local renter pool is closer to 13,000 to 13,500. Enrollment is also below its 2018 level despite three years of modest recovery, and the university announced a $25 million budget reduction over three years in September 2025. Underwrite ECU Health employment alongside the student pool rather than relying on students alone."
+        },
+        {
+          "question": "Why are house rents rising while apartment rents fall?",
+          "answer": "Supply is landing in one segment and not the other. Single-family rents rose about 4.3% over the year while apartment measures were flat to falling, with one tracker showing one-bedroom units down 9%. The permit data explains it: Pitt County permitted 288 units in buildings of five or more through June 2026 alone, more multifamily than 2024 and 2025 combined, on top of 1,108 single-family permits in 2025. New apartment supply competes with apartments. A three-bedroom house on a lease is not cross-shopped against a lease-up studio, which is why the two series diverged."
+        },
+        {
+          "question": "How stable are Greenville property taxes?",
+          "answer": "Unusually stable, which is worth something in an underwriting model. Pitt County levies $0.5663 per $100 and the City of Greenville adds $0.3954, combining to $0.9617, about 0.96% of market value or roughly $2,295 on the typical home, plus a $144 annual landfill fee. Both bodies held rates flat for fiscal 2027, the second consecutive year of stability, with the county adopting a $429.5 million budget and the city $530.4 million with no tax increase. One useful detail: the county EMS levy of $0.0595 explicitly excludes the City of Greenville, so a city parcel costs less than Winterville or Ayden."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Greenville NC typical home value and YoY change, June 2026",
+        "Zumper and Zillow Observed Rent Index, Greenville single-family and 3-bedroom rents, July 2026",
+        "Pitt County Tax Administration, county rate $0.5663 and City of Greenville $0.3954, FY2026-27",
+        "US Census American Community Survey 2024 5-year estimates, Pitt County renter share and rental vacancy, 2024",
+        "Greenville Code of Ordinances Section 9-4-22, definition of family and room renting, July 2026",
+        "US Census Building Permits Survey, Pitt County single-family and multifamily permits, June 2026"
+      ]
+    },
+    {
+      "city": "Concord",
+      "slug": "concord",
+      "county": "Cabarrus County",
+      "metro": "Charlotte-Concord-Gastonia",
+      "hook": "Concord has $3.5 billion in committed manufacturing between Eli Lilly and Red Bull, flat tax rates, and no revaluation shock. The catch is a 0.47% monthly rent-to-price ratio.",
+      "metaDescription": "Concord NC has $3.5B in committed manufacturing and stable taxes, but thin yield. See where Cabarrus County deals pencil. Get matched today.",
+      "market": {
+        "medianPrice": 387218,
+        "medianRent": 1942,
+        "priceToRent": 16.6,
+        "vacancyRate": 6.4,
+        "yoyPrice": -0.9,
+        "yoyRent": 2,
+        "estDSCR": 0.7,
+        "propertyTaxRate": 0.996,
+        "insuranceMonthly": 295
+      },
+      "overview": "Concord is a jobs-and-population story with thin yield, and both halves matter. The typical home value runs about $387,200, down 0.9% over the year, with three-bedroom rents near $1,942, up about 2%. That produces a monthly rent-to-price ratio around 0.47% and a citywide DSCR near 0.70 at 20% down, so this is not a market where the median clears.\n\nWhat Concord does have is committed capital. Eli Lilly opened a $2 billion injectable drug plant in June 2024, doubled from the original $1 billion, at 800,000 square feet with more than 600 employees, and pulled a $77 million building permit in February 2026 for further equipment installation. Red Bull with Ball Corporation and Rauch committed $1.5 billion for a 2.3 million square foot facility producing three billion cans a year, with 700 jobs, operations beginning 2028 and full capacity in 2031. Atrium Health Cabarrus is a 457-bed teaching hospital and the county's largest employer at more than 4,200. Concord Mills draws over 17 million visitors a year, the most-visited attraction in North Carolina, and the motorsports cluster adds roughly 2,395 jobs.\n\nThe tax picture is genuinely stable, which is rare in North Carolina right now. Cabarrus County's $0.576 plus Concord's $0.420 combine to $0.996 per $100, held flat, with the last revaluation in 2024 and the next in 2028. Cabarrus had no January 2026 reappraisal, so the statewide moratorium does not reach it and there is no 2027 shock.",
+      "regulationBadge": "friendly",
+      "regulationNote": "North Carolina preempts local rent control and restricts municipal rental registration, and Cabarrus County held its rate flat with no revaluation until 2028, so Concord carries less regulatory and assessment uncertainty than most North Carolina markets.",
+      "neighborhoods": [
+        {
+          "name": "Kannapolis",
+          "medianPrice": 284683,
+          "medianRent": 1675,
+          "note": "The best yield in the county at the lowest entry, with positive value movement and the North Carolina Research Campus plus a hybrid Amazon facility nearby. The offset is the county's heaviest municipal rate."
+        },
+        {
+          "name": "Concord East (28025)",
+          "medianPrice": 347608,
+          "medianRent": 1831,
+          "note": "Higher rent on a lower price than Concord West, which makes it the better yield inside the city. Historic and downtown-adjacent stock with more condition variance."
+        },
+        {
+          "name": "Concord West (28027)",
+          "medianPrice": 418813,
+          "medianRent": 1766,
+          "note": "Newer stock along the Poplar Tent and Christenbury corridor with the higher fair market rent ceiling. Family tenants and low rehab risk, at the weakest rent-to-price in the city."
+        },
+        {
+          "name": "Mount Pleasant",
+          "medianPrice": 388354,
+          "medianRent": 1900,
+          "note": "Rural eastern Cabarrus with positive appreciation and the county's most active development pipeline. Thin comparable data, so appraisals can be less predictable."
+        }
+      ],
+      "localAngle": {
+        "tag": "Committed Capital",
+        "title": "Three and a half billion dollars of manufacturing is under construction. Yield is still thin.",
+        "body": "Concord is where you can watch industrial capital land in real time, and it is worth separating what is built from what is promised. Eli Lilly opened its injectable drug plant in June 2024 at 800,000 square feet after doubling the investment from $1 billion to $2 billion, employs more than 600 people, and pulled a $77 million building permit in February 2026 for additional equipment installation, so it is both operating and still expanding. Red Bull, with Ball Corporation and Rauch, committed $1.5 billion to a 2.3 million square foot facility producing three billion cans annually with 700 jobs; construction is underway with operations slated for 2028 and full capacity in 2031, so that one is real but not yet a tenant source. Atrium Health Cabarrus is a 457-bed teaching hospital and the county's largest employer at more than 4,200 people, Concord Mills draws over 17 million visitors annually as North Carolina's most-visited attraction, and the motorsports cluster contributes roughly 2,395 jobs and $272 million in output, with the NASCAR charter antitrust litigation settled and dismissed in early 2026. Now the honest counterweight. None of that fixes a 0.47% monthly rent-to-price ratio, which puts the citywide DSCR near 0.70 at 20% down. Concord's discount to Charlotte proper is only about 3%, so the half-the-price-of-Charlotte framing some sellers use does not hold. What Concord offers a DSCR borrower is stability rather than yield: rates held flat, the last revaluation was 2024 with the next in 2028, and because Cabarrus had no January 2026 reappraisal the statewide moratorium does not touch it, so there is no 2027 reset. Your matched specialist will point you toward Kannapolis or Concord East if yield is the objective, and price a No-Ratio structure if you want the corridor itself."
+      },
+      "programFit": [
+        "no-ratio-dscr",
+        "interest-only-dscr",
+        "standard-dscr",
+        "portfolio-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 2-bath SFR",
+        "neighborhood": "Kannapolis",
+        "purchasePrice": 285000,
+        "downPaymentPct": 25,
+        "downPayment": 71250,
+        "loanAmount": 213750,
+        "loanType": "30-Year Fixed (No-Ratio)",
+        "interestOnly": false,
+        "monthlyPI": 1494,
+        "monthlyTax": 237,
+        "monthlyInsurance": 290,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 2021,
+        "monthlyRent": 1900,
+        "dscr": 0.94,
+        "monthlyCashFlow": -121,
+        "specialistFocus": [
+          "Placed the file on a No-Ratio program so the honest 0.92 ratio was a disclosure rather than a denial, with roughly $154 a month of negative carry disclosed before the deposit went hard",
+          "Underwrote the full Cabarrus County and municipal levy rather than a county-only figure, which is what keeps this file honestly below 1.0",
+          "Confirmed Cabarrus had no January 2026 reappraisal, so the borrower modeled a stable tax line through 2028 rather than a moratorium reset"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Is Concord a cash-flow market?",
+          "answer": "Not at the median, and it is more honest to say so up front. The monthly rent-to-price ratio runs about 0.47%, producing a citywide DSCR near 0.70 at 20% down. Kannapolis and Concord East are the exceptions worth looking at, where lower entry prices against similar rents improve the math meaningfully, though Kannapolis carries the county's heaviest municipal rate at $1.1355 per $100. If yield is your primary objective, High Point or Greenville deliver it more directly. Concord suits an investor buying into a manufacturing growth corridor with No-Ratio or interest-only structuring."
+        },
+        {
+          "question": "Which Concord employers are actually hiring today?",
+          "answer": "Eli Lilly and Atrium Health are operating now; Red Bull is not yet. Lilly's injectable drug plant opened in June 2024 at 800,000 square feet after the investment doubled to $2 billion, employs more than 600, and took a $77 million permit in February 2026 for further equipment installation. Atrium Health Cabarrus is a 457-bed teaching hospital employing more than 4,200, the county's largest employer. Red Bull with Ball Corporation committed $1.5 billion and 700 jobs, but operations begin in 2028 with full capacity in 2031, so underwrite it as future upside rather than current tenant demand."
+        },
+        {
+          "question": "Does the statewide revaluation freeze affect Concord?",
+          "answer": "No, and that is a genuine advantage right now. Senate Bill 889 froze the use of 2026 reappraisal values, but it only reaches counties that actually had a reappraisal effective January 1, 2026. Cabarrus did not. Its last revaluation was 2024 and the next is scheduled for 2028, so assessed values are current, rates were held flat at a combined $0.996 per $100, and there is no queued reset. Compare that to Guilford, where a frozen 48% increase is waiting, or Mecklenburg and Wake, which both revalue effective January 2027. Tax certainty through a normal hold is worth real money."
+        },
+        {
+          "question": "Is Concord meaningfully cheaper than Charlotte?",
+          "answer": "Less than the marketing suggests. Concord's typical value of about $387,200 sits roughly 3% below Charlotte city at $399,400, and about 9% below the Mecklenburg County figure. That is a modest discount, not a different price tier, so any pitch describing Concord as half the price of Charlotte is wrong. What genuinely differs is the tax and assessment picture, where Cabarrus offers flat rates and no revaluation until 2028 against Mecklenburg's January 2027 reset. Kannapolis at about $284,700 is where the real entry-price discount in this county actually sits."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Concord typical home value and YoY change, June 2026",
+        "Zumper Rent Research and HUD FY2026 Small Area Fair Market Rents, Concord 3-bedroom rents, 2026",
+        "Cabarrus County Tax Administration, county rate $0.5760 and City of Concord $0.4200, FY2026-27",
+        "North Carolina Department of Revenue, Cabarrus revaluation 2024 with next cycle 2028, 2025",
+        "Eli Lilly Concord facility opening and February 2026 building permit, 2026",
+        "Cabarrus Economic Development and Charlotte Observer, Red Bull and Ball Corporation investment, 2026"
+      ]
+    },
+    {
+      "city": "High Point",
+      "slug": "high-point",
+      "county": "Guilford County",
+      "metro": "Greensboro-High Point",
+      "hook": "High Point's 27260 core carries a price-to-rent ratio near 7.9, genuine 1% rule territory. It also took the largest city tax increase in at least three decades.",
+      "metaDescription": "High Point 27260 clears the 1% rule on $144K homes, but the city just took a record tax hike. See the real math. Get matched today.",
+      "market": {
+        "medianPrice": 252160,
+        "medianRent": 1647,
+        "priceToRent": 12.8,
+        "vacancyRate": 4.7,
+        "yoyPrice": 0.5,
+        "yoyRent": 1,
+        "estDSCR": 0.9,
+        "propertyTaxRate": 1.1,
+        "insuranceMonthly": 185
+      },
+      "overview": "High Point is a yield-in-pockets market, and the distinction matters because the citywide numbers do not tell the story. The typical home value runs about $252,200, up 0.5% over the year, with three-bedroom rents near $1,647. Citywide that is a price-to-rent ratio of 12.8, roughly the national average and unremarkable. But the 27260 core is a different market entirely at about $144,000 with rents near $1,510, a price-to-rent ratio near 7.9 and genuine 1% rule territory, which almost nothing in this data set can claim.\n\nThe demand anchors are steadier than the region's furniture reputation implies. High Point University enrolls 6,550 students, the largest in its hundred-year history, having grown its campus from 92 to 520 acres and from three to fifteen schools, with a dental school and law school opened in 2024 and a $100 million library completing in 2027. The High Point Market draws roughly 75,000 attendees twice yearly across 11.5 million square feet. Toyota's $13.9 billion battery plant in nearby Randolph County has been producing since June 2025 with roughly 1,750 hired against a 5,100 target.\n\nThe honest risks are two. High Point raised its city rate 8.74 cents to $0.7349, the largest increase in at least three decades, after the state froze Guilford's 2026 reappraisal, so combined with the county's $0.7895 the nominal rate is $1.5244 per $100 against frozen values. And North Carolina furniture manufacturing employment has fallen 48.7% since 2006.",
+      "regulationBadge": "friendly",
+      "regulationNote": "North Carolina preempts rent control and generally bars municipal rental registration, so High Point's investor constraints are the frozen Guilford revaluation and the four-county tax split rather than local landlord rules.",
+      "neighborhoods": [
+        {
+          "name": "Downtown core (27260)",
+          "medianPrice": 143973,
+          "medianRent": 1510,
+          "note": "The only true cash-flow ZIP in the market, clearing the 1% rule at a price-to-rent near 7.9. It is also the only one with negative appreciation at down 2.0%, so this is pure yield with zero growth."
+        },
+        {
+          "name": "Emerywood / central (27262)",
+          "medianPrice": 214275,
+          "medianRent": 1670,
+          "note": "Second-best yield in the city and home to the historic Emerywood district. A middle ground between the deep-value core and the northern suburbs."
+        },
+        {
+          "name": "North High Point (27265)",
+          "medianPrice": 305642,
+          "medianRent": 1980,
+          "note": "The best housing stock and the highest rents in the city near Oak Hollow and Deep River. Quality tenants and predictable maintenance, at an appreciation-neutral ratio."
+        },
+        {
+          "name": "Archdale (Randolph County)",
+          "medianPrice": 229356,
+          "medianRent": 1500,
+          "note": "The fastest-appreciating area at up 3.5% and the closest to the Toyota battery plant. Randolph County's rate is roughly 29 cents lower per $100 than the Guilford portion, worth about $1,015 a year on a $350,000 house."
+        }
+      ],
+      "localAngle": {
+        "tag": "Four Counties",
+        "title": "High Point spans four counties. The same house can cost $1,000 a year more depending on the line.",
+        "body": "High Point is one of the few North Carolina cities that sits across four county lines, and the tax consequence is large enough to change which deals work. Add the city rate of $0.7349 to each county and you get a combined $1.5244 per $100 in the Guilford portion, about $1.2749 in Davidson, $1.2701 in Forsyth, and $1.2349 in Randolph. On a $350,000 house the Guilford portion costs roughly $1,015 a year more than the Randolph portion for identical property. That is why Archdale, which sits in Randolph, is both the fastest-appreciating area here at up 3.5% and structurally cheaper to hold. Confirm the county portion with the assessor before you underwrite anything in this city. The second thing to understand is why the Guilford rate jumped. Guilford ran a reappraisal effective January 1, 2026 showing roughly 48% average value increases, and North Carolina Senate Bill 889 then froze its use, leaving the county with an estimated $83.7 million budget gap. The county raised its rate 5.9 cents and High Point raised 8.74 cents to $0.7349, the largest city increase in at least three decades, after having recommended a cut to $0.56 just a month earlier. Because those higher rates apply to old assessed values, the nominal 1.5244% overstates the burden on current market value, which sits closer to 1.0% to 1.1% today. When the frozen values take effect, that reverses sharply. The demand side is more durable than the furniture headlines suggest: High Point University enrolls 6,550, its largest ever, and Toyota's $13.9 billion Randolph County battery plant has been producing since June 2025. Do not underwrite Boom Supersonic at the airport, which sits largely idle with a lease termination trigger at the end of 2026. Your matched specialist will confirm the county portion and stress the ratio against the queued reset."
+      },
+      "programFit": [
+        "standard-dscr",
+        "portfolio-dscr",
+        "bridge-to-dscr",
+        "no-ratio-dscr"
+      ],
+      "dealExample": {
+        "label": "BRRRR Refinance",
+        "propertyType": "3-bed / 1-bath SFR (renovated)",
+        "neighborhood": "Downtown core (27260)",
+        "purchasePrice": 144000,
+        "downPaymentPct": 25,
+        "downPayment": 36000,
+        "loanAmount": 108000,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 755,
+        "monthlyTax": 132,
+        "monthlyInsurance": 180,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 1067,
+        "monthlyRent": 1350,
+        "dscr": 1.27,
+        "monthlyCashFlow": 283,
+        "specialistFocus": [
+          "Structured the refinance on the post-renovation appraised value in the one High Point ZIP that genuinely clears the 1% rule at a price-to-rent near 7.9",
+          "Matched the file to a lender comfortable with a loan balance near $108,000, since many programs set minimums at $100,000 and this market is full of files that die on loan size",
+          "Confirmed the Guilford county portion and modeled the queued revaluation reset, so the borrower knew the current bill reflects frozen pre-2026 values"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Is High Point actually a cash-flow market?",
+          "answer": "In one ZIP, genuinely, and not citywide. The 27260 downtown core runs about $144,000 with rents near $1,510, a price-to-rent ratio around 7.9 that clears the 1% rule outright. Citywide the ratio is 12.8, essentially the national average, and the northern suburbs run 13 to 15. So the cash-flow thesis is real but narrow, and 27260 is also the only area with negative appreciation at down 2.0%. That combination, falling values with rising rents, is the textbook signature of a yield market rather than a growth market. Verify condition and insurability carefully, because a yield that high signals real risk."
+        },
+        {
+          "question": "Why did High Point raise taxes so much?",
+          "answer": "The state froze the revaluation that was supposed to fund the budget. Guilford County ran a reappraisal effective January 2026 showing roughly 48% average value increases, then Senate Bill 889 barred its use, leaving an estimated $83.7 million gap. The county raised its rate 5.9 cents and High Point raised 8.74 cents to $0.7349, the largest city increase in at least three decades, after recommending a cut to $0.56 only a month earlier. Combined with the county the nominal rate is $1.5244 per $100, but because it applies to frozen older values the real burden today is nearer 1.0% to 1.1%, with a reset queued."
+        },
+        {
+          "question": "Which county am I actually buying in?",
+          "answer": "Check, because High Point spans four and the difference is real money. Adding the city rate of $0.7349 to each county produces a combined $1.5244 per $100 in Guilford, about $1.2749 in Davidson, $1.2701 in Forsyth, and $1.2349 in Randolph. On a $350,000 house that is roughly $1,015 more per year in the Guilford portion than the Randolph portion for the same property. Archdale sits in Randolph, which is part of why it is both cheaper to hold and the fastest-appreciating area in the market at up 3.5%. Confirm with the assessor against the parcel number rather than the mailing address."
+        },
+        {
+          "question": "Is the furniture industry still a real employer here?",
+          "answer": "Less than the city's identity suggests, and you should underwrite accordingly. North Carolina furniture manufacturing employment has fallen 48.7% since 2006, from about 52,800 to 27,100. The twice-yearly High Point Market still draws roughly 75,000 attendees across 11.5 million square feet and remains globally significant, but spring 2026 registrations were flat to slightly down. The more durable demand anchors are High Point University at 6,550 students, its largest enrollment in a century, and Toyota's $13.9 billion battery plant in nearby Randolph County, producing since June 2025 with about 1,750 hired toward a 5,100 target."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, High Point typical home value and ZIP-level values, June 2026",
+        "HUD FY2026 Small Area Fair Market Rents and Zumper, High Point 3-bedroom rents, 2026",
+        "Guilford County Tax Department, county rate $0.78950 and City of High Point $0.73490, FY2026-27",
+        "North Carolina Session Law 2026-8 (Senate Bill 889), 2026 reappraisal moratorium, June 2026",
+        "High Point University enrollment and campus expansion figures, 2026",
+        "Bureau of Labor Statistics, North Carolina furniture manufacturing employment, June 2026"
+      ]
+    },
+    {
+      "city": "Jacksonville",
+      "slug": "jacksonville",
+      "county": "Onslow County",
+      "metro": "Jacksonville",
+      "hook": "Jacksonville gives you coastal-market military demand without beach-territory insurance rates, since the city sits inland of the Intracoastal Waterway in the cheapest eastern rating territory.",
+      "metaDescription": "Jacksonville NC pairs Camp Lejeune demand with the cheapest eastern insurance territory. See how the tax and BAH math works. Get matched today.",
+      "market": {
+        "medianPrice": 264857,
+        "medianRent": 1631,
+        "priceToRent": 13.5,
+        "vacancyRate": 7.9,
+        "yoyPrice": 3.5,
+        "yoyRent": 0.9,
+        "estDSCR": 0.83,
+        "propertyTaxRate": 1.255,
+        "insuranceMonthly": 215
+      },
+      "overview": "Jacksonville is Camp Lejeune with a city attached, and the economics follow from that. The installation supports roughly 38,778 active duty personnel plus 38,769 family members, 3,349 civilians, and 18,719 retirees and their families, generating about $2.2 billion in annual economic impact. Marine Corps Air Station New River adds around 7,000 more Marines and Sailors. The typical home value runs about $264,900, up 3.5% over the year, the second-strongest appreciation in this data set, with a three-bedroom fair market rent of $1,631.\n\nThe insurance position is genuinely counterintuitive and worth understanding. Mainland Jacksonville sits roughly 12 miles inland of the Intracoastal Waterway, which is the statutory boundary of North Carolina's Beach Area, so the city falls in rating Territory 160, the lowest-increase eastern territory in the state. Sneads Ferry and the barrier strip are a different risk class entirely. The practical result is that Jacksonville offers coastal military rental demand without beach-territory premiums.\n\nTwo cautions balance that. The combined Onslow County rate of $0.655 and city rate of $0.600 produce $1.255 per $100, about 1.26% of market value, the heaviest of any city in this data set, and unincorporated Onslow pays roughly half that. And Onslow reappraised effective January 2026, but state Senate Bill 889 barred counties from using those 2026 values for the current fiscal year, so the reset is delayed rather than avoided and lands in the year beginning July 2027. The Servicemembers Civil Relief Act termination right applies to every military lease here.",
+      "regulationBadge": "friendly",
+      "regulationNote": "North Carolina preempts rent control and limits municipal rental registration, but the Servicemembers Civil Relief Act allows any military tenant to terminate without penalty on orders, and no early termination fee may be charged.",
+      "neighborhoods": [
+        {
+          "name": "Jacksonville 28540",
+          "medianPrice": 261825,
+          "medianRent": 1650,
+          "note": "The cash-flow ZIP with the city's oldest housing stock and the fastest appreciation of the two city ZIPs at up 3.9%. Sub-pocket pricing is thin, so pull comparable sales block by block rather than ZIP-wide."
+        },
+        {
+          "name": "Piney Green / Hunters Creek (28546)",
+          "medianPrice": 270206,
+          "medianRent": 1600,
+          "note": "The volume rental ZIP with newer subdivisions and the bulk of off-base gate traffic. Prices run higher than 28540 while rents run slightly lower, so the ratio is thinner despite the newer stock."
+        },
+        {
+          "name": "Richlands (28574)",
+          "medianPrice": 278519,
+          "medianRent": 1762,
+          "note": "The highest yield and near-highest appreciation in the county at up 4.3%. Inland, so no flood insurance drag, with real builder supply arriving."
+        },
+        {
+          "name": "Hubert (28539)",
+          "medianPrice": 286566,
+          "medianRent": 1543,
+          "note": "Between Jacksonville and Swansboro, drawing demand from both Camp Lejeune and the air station. Balanced yield and appreciation with less coastal price premium than Sneads Ferry."
+        }
+      ],
+      "localAngle": {
+        "tag": "Insurance Territory",
+        "title": "Coastal demand, inland insurance rates. The waterway is the line that decides it.",
+        "body": "North Carolina statute defines the Beach Area as land south and east of the Intracoastal Waterway, and the City of Jacksonville sits roughly 12 miles inland of it at the head of the New River. That single geographic fact places the city in rating Territory 160, which received the smallest approved increase of any eastern territory in the state, while the barrier strip including Topsail Beach, North Topsail Beach, and the ocean side of Sneads Ferry falls into far more expensive territories. Onslow County spans four rating territories, so any statement about Onslow County insurance costs is meaningless without the parcel. The practical consequence for an investor is unusual and favorable: you get military rental demand from an installation supporting more than 38,000 active duty personnel, without paying beach-territory premiums for it. Two qualifications keep this honest. Because Onslow is one of the 18 designated coastal counties, a Jacksonville landlord can access the state wind pool for wind and hail coverage but cannot obtain a dwelling fire policy through it, since that product is limited to the Beach Area, so the structure is an admitted carrier dwelling policy with wind either included or excluded and layered. And flood is always separate and genuinely necessary here: Jacksonville sits where storm surge pushing up the New River estuary meets rainfall coming down it, which is why parcels well away from the ocean still carry AE flood zone designations, and Hurricane Florence set a state rainfall record of 33.90 inches at Swansboro in this county. The other lever worth knowing is the state grant program offering up to $10,000 per property toward a fortified roof for wind pool policyholders, which Jacksonville qualifies for and inland Piedmont markets do not. Your matched specialist will confirm the territory, the flood zone, and the deductible structure before finalizing the ratio."
+      },
+      "programFit": [
+        "standard-dscr",
+        "portfolio-dscr",
+        "no-ratio-dscr",
+        "bridge-to-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 2-bath SFR",
+        "neighborhood": "Jacksonville 28540",
+        "purchasePrice": 245000,
+        "downPaymentPct": 30,
+        "downPayment": 73500,
+        "loanAmount": 171500,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 1199,
+        "monthlyTax": 256,
+        "monthlyInsurance": 215,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 1670,
+        "monthlyRent": 1750,
+        "dscr": 1.05,
+        "monthlyCashFlow": 80,
+        "specialistFocus": [
+          "Confirmed the parcel sits in rating Territory 160 inland of the Intracoastal Waterway rather than a beach territory, which is worth hundreds of dollars a year in premium",
+          "Structured 30% down to absorb the heaviest combined tax rate in this data set at 1.26% of market value, plus the delayed 2026 reappraisal values that switch on in July 2027",
+          "Built a permanent-change-of-station vacancy allowance into the ratio, since Servicemembers Civil Relief Act terminations mean the paper lease term overstates the income term"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Is Jacksonville expensive to insure because it is coastal?",
+          "answer": "Less than you would expect, and the reason is a legal boundary. North Carolina defines the Beach Area as land south and east of the Intracoastal Waterway, and mainland Jacksonville sits about 12 miles inland of it, placing the city in rating Territory 160, the lowest-increase eastern territory in the state. The barrier strip and the ocean side of Sneads Ferry are a different and far more expensive class. Onslow County spans four territories, so county-level insurance claims are meaningless. Flood is a separate matter and genuinely necessary, since New River surge meets rainfall runoff here."
+        },
+        {
+          "question": "Why are Jacksonville property taxes the highest in this data set?",
+          "answer": "Two full rates stack inside the city. Onslow County levies $0.655 per $100 of value and the City of Jacksonville adds $0.600, combining to $1.255, about 1.26% of market value or roughly $3,324 a year on the typical home. Unincorporated Onslow County pays county only at about 0.66%, plus a fire district levy, so the jurisdiction gap here is roughly half. Both rates were held flat year over year. The more pressing issue is timing. Onslow reappraised effective January 2026, but state Senate Bill 889 barred affected counties from using those values this fiscal year, so your current bill still rides the older 2022 schedule. Those 2026 values switch on for the year beginning July 2027, and since values rose substantially over that window, expect a step up rather than a gradual drift."
+        },
+        {
+          "question": "How does the military tenant base affect my underwriting?",
+          "answer": "It gives you a predictable budget and an unpredictable lease term. Camp Lejeune supports roughly 38,778 active duty personnel plus 38,769 family members and generates about $2.2 billion in annual economic impact, so demand is deep and housing allowances set a knowable rent ceiling. The offset is the Servicemembers Civil Relief Act, which lets a tenant terminate without penalty on permanent-change-of-station orders or a deployment of 90 days or more, bars any early termination fee, and requires prepaid rent to be refunded within 30 days. Underwrite a shorter effective lease term than the paper term, concentrated in the summer moving window."
+        },
+        {
+          "question": "Should I worry about the Camp Lejeune water litigation?",
+          "answer": "It is a claims process for former residents, not a condition affecting current housing. The contamination ran from 1953 to 1987 and has long been remediated. What remains active is compensation: the Department of Justice reported settlement offers exceeding $968 million and payouts above $801 million as of mid-2026, against more than 400,000 claims filed. That is a legal and financial process concerning historical exposure, not an environmental issue in today's rental stock. The more relevant risk to underwrite is single-employer concentration, since one force-structure decision moves this entire market at once."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Jacksonville NC typical home value and YoY change, June 2026",
+        "HUD FY2026 Fair Market Rents, Jacksonville NC HUD Metro FMR Area 3-bedroom rent, 2026",
+        "North Carolina Department of Revenue and City of Jacksonville, Onslow County $0.655 and city $0.600 per $100, FY2026",
+        "US Census American Community Survey 2020-2024 5-year estimates, Onslow County rental vacancy, 2024",
+        "NC Department of Insurance, homeowners territory assignments placing Jacksonville in Territory 160, 2025",
+        "Marine Corps and Jacksonville Chamber, Camp Lejeune population and economic impact, 2026"
+      ]
+    }
+  ]
+}
