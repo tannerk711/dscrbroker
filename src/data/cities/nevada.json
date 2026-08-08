@@ -1,0 +1,1262 @@
+{
+  "state": "Nevada",
+  "abbreviation": "NV",
+  "stateSlug": "nevada",
+  "dataUpdated": "2026-08",
+  "cities": [
+    {
+      "city": "Las Vegas",
+      "slug": "las-vegas",
+      "county": "Clark County",
+      "metro": "Las Vegas-Henderson-North Las Vegas",
+      "hook": "Las Vegas homes average $425K, down 3.1% in a year, while the tourism economy that pays your tenants shed 7.5% of its visitors in 2025. The number that actually decides your deal is the tax cap you inherit, and investors inherit the wrong one.",
+      "metaDescription": "Las Vegas homes average $425K, down 3.1%, with 3-bed rents near $2,100. See how the 8% tax cap hits investors and where DSCR pencils. Get matched today.",
+      "market": {
+        "medianPrice": 425535,
+        "medianRent": 1950,
+        "priceToRent": 18.2,
+        "vacancyRate": 6,
+        "yoyPrice": -3.1,
+        "yoyRent": -2.3,
+        "estDSCR": 0.72,
+        "propertyTaxRate": 0.6,
+        "insuranceMonthly": 130
+      },
+      "overview": "Las Vegas is running two economies at once, and your underwriting needs both. The visitor economy is soft: 38.5 million visitors in 2025, down 7.5% and the steepest drop since 2020, with Strip gaming win down 11% in January 2026. The construction economy is booming: the Athletics' $1.75 billion ballpark broke ground in June 2025 with roughly 3,000 trade workers on it through a 2028 opening, convention attendance rose 6.9% in January, and Brightline West keeps grading along I-15 even after its completion date slipped to late 2029. Prices split the difference. The typical home sits at $425,535 as of June 2026, down 3.1%, and homes go pending in about 31 days.\n\nRents held up better than prices. The citywide asking median is $1,950, down about 2.3% over the year, while a three-bedroom house asks near $2,100. At the citywide median with 20% down the ratio lands near 0.72, so Las Vegas files clear on submarket selection and structure, not on the headline. The 1970s and 1980s ranch stock in Pioneer Park and Angel Park Lindell, at $329,000 to $359,000 with house rents near $1,900 to $2,000, is where the arithmetic gets close.\n\nTwo rules save buyers here: underwrite the year-one tax bill with no abatement, because the cap resets when your deed records, and underwrite long-term rent, because the city only licenses owner-occupied short-term rentals and the county's investor licensing is frozen in litigation.",
+      "regulationBadge": "moderate",
+      "regulationNote": "Nevada landlord law is friendly, with no rent control and a summary eviction process that is among the fastest in the country, but short-term rentals are effectively closed to investors inside the city of Las Vegas and frozen by litigation in unincorporated Clark County.",
+      "neighborhoods": [
+        {
+          "name": "Pioneer Park",
+          "medianPrice": 329288,
+          "medianRent": 1895,
+          "note": "The cheapest detached entry in the city, 1970s and 1980s single-story ranches in the northwest around Jones and Vegas Drive. Older roofs and original plumbing are the tradeoff, but this is where citywide files come closest to clearing without extra down payment."
+        },
+        {
+          "name": "Angel Park Lindell",
+          "medianPrice": 359352,
+          "medianRent": 1950,
+          "note": "West-side 1980s and 1990s stock near the Angel Park golf corridor with quick access to Summerlin employment. Rents run a step above the Pioneer Park tier while entry prices stay in the mid-300s, and HOA-free streets exist if you hunt."
+        },
+        {
+          "name": "Centennial Hills",
+          "medianPrice": 449995,
+          "medianRent": 2300,
+          "note": "Northwest 2000s-build suburbia at the 95 and 215 interchange. Newer roofs and mechanicals cut your capital-expense risk, but note that newer construction carries less depreciation in Nevada's taxable-value formula, so the tax bill per dollar of price runs higher."
+        },
+        {
+          "name": "Summerlin North",
+          "medianPrice": 636768,
+          "medianRent": 2895,
+          "note": "The premium master plan. Tenant quality and school demand are the best in the valley, and the ratio is the worst: at these prices files only pencil with large down payments or interest-only structures, so buyers here are underwriting appreciation."
+        }
+      ],
+      "localAngle": {
+        "tag": "Tax Math",
+        "title": "The seller's tax bill dies the day your deed records. Yours starts over, capped at 8%, not 3%.",
+        "body": "Nevada looks like a cheap-tax state, and it is, but the mechanics punish buyers who underwrite the seller's bill. Under NRS 361.4723, an owner-occupied home's bill can only grow 3% a year, while a rental's cap is whatever the county sets up to 8%, and Clark County has run the high cap at 8% for years. The part almost everyone misses: the Clark County Assessor treats any recorded ownership document as removing the existing abatement, and a property that changes hands does not qualify for any cap at all for that fiscal year. It is billed straight off assessed value, which is 35% of taxable value, at the Las Vegas district rate of $3.2782 per $100. In practice that lands a new investor purchase near 0.6% of market value in year one, often hundreds of dollars a month more than the long-held seller was paying on the same house, and it compounds from there at up to 8% a year instead of 3%. One legitimate escape hatch exists: NRS 361.4724 extends the low cap to rentals priced at or below HUD fair market rent, claimed through the county's annual Rental Affidavit. Your matched specialist will underwrite the year-one unabated bill, not the seller's, so the ratio you close on is the ratio you actually live with."
+      },
+      "programFit": [
+        "standard-dscr",
+        "interest-only-dscr",
+        "portfolio-dscr",
+        "foreign-national-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 2-bath SFR",
+        "neighborhood": "Pioneer Park",
+        "purchasePrice": 330000,
+        "downPaymentPct": 30,
+        "downPayment": 99000,
+        "loanAmount": 231000,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 1615,
+        "monthlyTax": 165,
+        "monthlyInsurance": 110,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 1890,
+        "monthlyRent": 1995,
+        "dscr": 1.06,
+        "monthlyCashFlow": 105,
+        "specialistFocus": [
+          "Structured 30% down instead of 20% because the citywide ratio at 20% lands near 0.72, and the extra equity is what carried this file past 1.0",
+          "Underwrote the year-one unabated tax bill at the full Las Vegas district rate of $3.2782 per $100 assessed, not the seller's 3%-capped figure",
+          "Qualified on the appraiser's single-family market rent near $2,000 rather than the citywide blend that averages in apartment concessions"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Can I buy a Las Vegas house and run it as an Airbnb?",
+          "answer": "Inside the city of Las Vegas, not as an investor. The city licenses only owner-occupied short-term rentals: the owner must live on site during every stay, the home is capped at three bedrooms, and the property must sit 660 feet from any other licensed rental and 2,500 feet from a resort hotel. Unincorporated Clark County, which includes the Strip corridor, Paradise, and Spring Valley, is worse: the county issued only 174 licenses from its 2023 lottery, closed the application portal in August 2023, and a December 2025 federal injunction and the county's January 2026 appeal have the whole regime in limbo. Underwrite every Las Vegas purchase as a long-term rental."
+        },
+        {
+          "question": "Why is my property tax estimate higher than what the seller pays?",
+          "answer": "Because Nevada's tax cap resets at sale. The seller's bill has been growing at most 3% a year if they lived there, or up to 8% if they rented it, under NRS 361.4723. When your deed records, the county removes that abatement, and for the rest of that fiscal year the property is billed with no cap at all, straight off 35% of taxable value at the district rate. After that, as a rental, your bill grows at the high cap, which Clark County has set at 8%. Budget roughly 0.6% of your purchase price in year one and treat the seller's tax history as trivia, not a forecast."
+        },
+        {
+          "question": "Tourism is down. Does that break the Las Vegas rental thesis?",
+          "answer": "It bruises it, and it is why prices are down 3.3 million visitors from the peak and the typical value fell 3.1% in a year. But two offsets matter. Construction employment is absorbing hospitality softness: the $1.75 billion Athletics ballpark alone carries roughly 3,000 trade workers into 2028, and Brightline West continues heavy civil work along I-15. And house rents barely moved, down about 2.3% on the asking board, because the supply wave hit apartments, not detached homes. Falling prices against sticky house rents improve the entry math. Buy the correction, underwrite zero appreciation, and screen for employment diversity in your tenant base."
+        },
+        {
+          "question": "Which Las Vegas neighborhoods actually pencil for DSCR?",
+          "answer": "The unglamorous ranch belts. Pioneer Park at a $329,000 median and Angel Park Lindell at $359,000 pair 1970s to 1990s houses with rents near $1,900 to $2,000, which clears 1.0 with 30% down. Centennial Hills works for buyers who want 2000s construction and will accept a thinner ratio for lower repair risk. Summerlin North at $637,000 is an appreciation bet that needs interest-only or a very large down payment. Your matched specialist can tell you which of the 70+ lenders will price each structure, because minimum ratios and adjustments differ more than most investors expect."
+        },
+        {
+          "question": "Do foreign buyers use DSCR loans in Las Vegas?",
+          "answer": "Constantly. Las Vegas has one of the deepest foreign-national buyer pools in the country, and DSCR programs fit because they qualify the property's rent, not a US tax return the buyer does not have. Expect larger down payments, typically 25% to 30%, an ITIN or passport-based file, and reserves seasoned in a US account. Nevada helps the after-tax picture: no state income tax on the rental income and no state-level entity tax on a simple holding LLC. Your matched specialist will line up the handful of lenders in the network that run true foreign-national DSCR programs and structure the entity before you open escrow."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Las Vegas typical value and YoY change, June 2026",
+        "Zillow Rental Manager, Las Vegas median asking rent and YoY change, August 2026",
+        "Nevada Department of Taxation, FY 2025-26 Las Vegas district rate $3.2782 per $100 assessed, July 2025",
+        "Clark County Assessor, tax cap abatement removal on ownership transfer and 8% non-owner cap, 2026",
+        "LVCVA visitor statistics, 2025 annual visitation down 7.5%, January 2026",
+        "Las Vegas Valley multifamily market reports, mid-2026 occupancy 93 to 95 percent, Q2 2026 (vacancy est. midpoint)"
+      ]
+    },
+    {
+      "city": "Henderson",
+      "slug": "henderson",
+      "county": "Clark County",
+      "metro": "Las Vegas-Henderson-North Las Vegas",
+      "hook": "Henderson's typical home is $487K, down 2.6% in a year, against house rents near $2,200. That is a 0.71 ratio at 20% down, which is why the valley's premium suburb is where no-ratio files get written.",
+      "metaDescription": "Henderson homes average $487K against $2,200 rents, a 0.71 DSCR at 20% down. See how investors structure the valley's premium suburb. Get matched today.",
+      "market": {
+        "medianPrice": 486533,
+        "medianRent": 2200,
+        "priceToRent": 18.4,
+        "vacancyRate": 6,
+        "yoyPrice": -2.6,
+        "yoyRent": -1.8,
+        "estDSCR": 0.71,
+        "propertyTaxRate": 0.6,
+        "insuranceMonthly": 140
+      },
+      "overview": "Henderson is the valley's quality play, and quality has a price: the typical home runs $486,533 as of June 2026, down 2.6% over the year, about $61,000 above Las Vegas proper. Median sale price sits near $480,000 and homes go pending in 33 days. Asking rents average $2,200 and eased about 1.8%, so the citywide ratio at 20% down lands near 0.71. Nobody buys Henderson for the cash flow. They buy the tenant: master-planned communities, the best-rated schools in southern Nevada, and employers like the Raiders headquarters, Haas Automation's build-out in West Henderson, and a Google data center campus.\n\nThe math still works in the old town. Townsite, the original 1940s Basic Magnesium housing grid, carries a $337,442 median with no HOA and rents near $1,800, and Gibson Springs at $433,576 splits the difference. Green Valley South at $457,589 and Green Valley Ranch at $568,787 are where files stop clearing 1.0 and start getting structured: bigger down payments, interest-only, or a no-ratio program priced for the negative carry.\n\nOne more Henderson-specific wrinkle: short-term rentals are licensed here, but 2025 distance-requirement changes shrank the map of addresses that can still qualify, a 15% per-neighborhood density cap applies, and nearly every master-planned community bans them by CC&R anyway. Underwrite Henderson as a long-term rental market with a premium tenant pool, and let the equity thesis do the rest.",
+      "regulationBadge": "moderate",
+      "regulationNote": "Long-term landlords operate under Nevada's fast summary eviction and no rent control, but Henderson's short-term rental permits are choked by separation distances tightened in 2025, a 15% density cap, and CC&R bans across most master-planned communities.",
+      "neighborhoods": [
+        {
+          "name": "Townsite",
+          "medianPrice": 337442,
+          "medianRent": 1795,
+          "note": "The original 1940s war-worker grid near Water Street. Small square footage and old systems, but the cheapest Henderson entry, no HOA, and a city pouring redevelopment money into the district around it. The best ratio in the city lives here."
+        },
+        {
+          "name": "Gibson Springs",
+          "medianPrice": 433576,
+          "medianRent": 2195,
+          "note": "Mid-1990s stock off Gibson and Warm Springs with quick 215 access to the airport and the West Henderson job corridor. The practical middle: newer than Townsite, cheaper than Green Valley, and rents that keep the ratio within reach at 25% to 30% down."
+        },
+        {
+          "name": "Green Valley South",
+          "medianPrice": 457589,
+          "medianRent": 2350,
+          "note": "Established 1980s and 1990s Green Valley streets with mature trees and a deep professional tenant pool. Files here typically price as no-ratio or interest-only at standard down payments, which is the honest cost of the address."
+        },
+        {
+          "name": "Green Valley Ranch",
+          "medianPrice": 568787,
+          "medianRent": 2750,
+          "note": "The premium tier around The District. Vacancy risk is the lowest in the trade area and appreciation has historically led the valley, but at these prices the ratio sits deep below 1.0. This is an equity position that happens to collect rent."
+        }
+      ],
+      "localAngle": {
+        "tag": "Structuring",
+        "title": "Henderson is where the no-ratio DSCR file earns its keep.",
+        "body": "Run the numbers honestly: $486,533 typical value, $2,200 rent, and the standard formula at 20% down produces roughly 0.71. A conventional DSCR program that wants 1.0 or better either declines that file or forces 40% down, and most Henderson buyers do not want to park that much equity in one address. The no-ratio DSCR structure exists for exactly this market. The lender qualifies the deal on credit, equity, and reserves, prices the risk instead of denying it, and lets the buyer carry a documented negative gap while the thesis plays out. What makes the negative carry rational in Henderson specifically: the tenant pool is the strongest in southern Nevada, the school-district pull keeps houses leased through soft cycles, and West Henderson keeps adding payrolls, from the Raiders complex to Haas Automation's manufacturing campus. The discipline is sizing. A file that runs $400 negative needs reserves measured in years, not months, an entity that survives a vacancy, and a buyer who is honest that the return is equity, not income. Your matched specialist will model the carry against your reserves before you write the offer, and will tell you plainly when Townsite at $337,000 is the better version of the same bet."
+      },
+      "programFit": [
+        "no-ratio-dscr",
+        "standard-dscr",
+        "interest-only-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 2-bath SFR",
+        "neighborhood": "Green Valley South",
+        "purchasePrice": 455000,
+        "downPaymentPct": 25,
+        "downPayment": 113750,
+        "loanAmount": 341250,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 2385,
+        "monthlyTax": 228,
+        "monthlyInsurance": 135,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 2748,
+        "monthlyRent": 2350,
+        "dscr": 0.86,
+        "monthlyCashFlow": -398,
+        "specialistFocus": [
+          "Placed the file with a no-ratio DSCR lender that prices sub-1.0 deals on equity and reserves instead of declining them, because 25% down in Green Valley South honestly runs 0.86",
+          "Documented twelve months of PITIA reserves so the $398 monthly gap is a planned equity position, not a hope",
+          "Underwrote the year-one unabated Clark County tax bill at the Henderson district rate of $2.9611 per $100 assessed rather than the seller's capped figure"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Why won't my Henderson deal hit a 1.0 DSCR?",
+          "answer": "Because the city trades at a premium the rent does not fully follow. The typical Henderson home costs about 14% more than Las Vegas proper, but rents run only about 12% higher, and at $486,533 against $2,200 the standard 20%-down formula produces roughly 0.71. That is not a broken deal, it is a mispriced expectation. Files here clear three ways: buy the Townsite and Gibson Springs tier where entry prices are $337,000 to $434,000, put 30% or more down, or use a no-ratio program that prices the gap. Your matched specialist will show you all three side by side."
+        },
+        {
+          "question": "Can I run a short-term rental in Henderson?",
+          "answer": "Legally possible, practically narrow. Henderson licenses short-term rentals with an annual fee around $820, but the city tightened separation distances in 2025, which shrank the map of qualifying addresses, and a density cap holds licensed units to 15% of a neighborhood. The bigger wall is private: Green Valley, Anthem, Inspirada, and Cadence ban short-term rentals through CC&Rs, and the HOA wins regardless of your city permit. If the short-term model is the point, buy in a jurisdiction built for it, like Mesquite. If you are buying Henderson, underwrite the long-term lease and treat any future permit as a bonus."
+        },
+        {
+          "question": "Is Henderson worth the premium over Las Vegas for a rental?",
+          "answer": "It depends which return you are buying. On cash flow, no: the same dollars buy a better ratio in northwest Las Vegas or North Las Vegas. On total return, Henderson has a real case: school demand keeps vacancy short, the tenant pool skews to two-income professionals, and West Henderson keeps stacking employers, from the Raiders headquarters to Haas Automation and a Google data center. Henderson is the market where you accept a thinner year-one ratio in exchange for fewer bad surprises and a stronger exit. Decide which venture you are running before you offer, because the loan structure follows that decision."
+        },
+        {
+          "question": "What does a no-ratio DSCR lender actually look at?",
+          "answer": "Equity, credit, and staying power. With the rent-to-payment ratio out of the equation, the lender leans on down payment, typically 25% to 30% minimum, a credit profile in the good-to-strong range, and liquid reserves, commonly six to twelve months of the full payment. Expect pricing a step above a standard DSCR loan, because the lender is absorbing ratio risk. What they are really underwriting is whether you can carry a planned negative gap without stress. DSCR lenders in this space vary widely on reserve seasoning and entity requirements, which is exactly the matching problem your specialist solves across the 70+ lender network."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Henderson typical value and YoY change, June 2026",
+        "Zillow Rental Manager, Henderson median asking rent and YoY change, August 2026",
+        "Nevada Department of Taxation, FY 2025-26 Henderson district rate $2.9611 per $100 assessed, July 2025",
+        "City of Henderson short-term rental program, 2025 distance-requirement changes and density cap, 2026",
+        "Las Vegas Valley multifamily market reports, mid-2026 occupancy 93 to 95 percent, Q2 2026 (vacancy est. midpoint)"
+      ]
+    },
+    {
+      "city": "North Las Vegas",
+      "slug": "north-las-vegas",
+      "county": "Clark County",
+      "metro": "Las Vegas-Henderson-North Las Vegas",
+      "hook": "North Las Vegas pairs a $408K typical home with the valley's biggest jobs bet: $8 billion committed at Apex and 8,000 permanent positions already running. The 89030 grid still trades near $272K, the last true entry tier in the metro.",
+      "metaDescription": "North Las Vegas homes average $408K while Apex carries $8B in committed investment. See where DSCR files clear in the valley's job corridor. Get matched today.",
+      "market": {
+        "medianPrice": 408280,
+        "medianRent": 2066,
+        "priceToRent": 16.5,
+        "vacancyRate": 6,
+        "yoyPrice": -1.8,
+        "yoyRent": -1.4,
+        "estDSCR": 0.78,
+        "propertyTaxRate": 0.68,
+        "insuranceMonthly": 120
+      },
+      "overview": "North Las Vegas held up better than the rest of the valley in the correction, down 1.8% to $408,280 while Las Vegas fell 3.1% and Henderson 2.6%, and the reason is payroll. Apex Industrial Park has 30 million square feet under construction or permitted, more than $8 billion in committed investment, roughly 8,000 permanent positions already operating, and a projection of 15,000 to 20,000 jobs by 2029. Kroger, Crocs, and Air Liquide are in, Switch paid $85.5 million for 176 more acres, and a 2025 federal law streamlined utility permitting across the 18,000-acre site. Add the VA Medical Center and Nellis-adjacent demand and you get the tightest days-to-pending in the valley at 26.\n\nRents average $2,066, off 1.4%, and the market splits into two products. The 89030 grid, the oldest stock in the valley at a $272,193 average, is the last place in the metro a rehabbed house trades under $300,000, which makes it the natural BRRRR lane: buy distressed, force the value, refinance into a DSCR loan at the new appraisal. Aliante at $424,294 and The Shadows at $477,277 rent to the new-payroll tenant at $2,250 to $2,350.\n\nThe underwriting catch is the tax line. North Las Vegas carries the highest district rate of the valley's three cities at $3.3544 per $100 assessed, and with the abatement reset on purchase, year one runs near 0.68% of price. Cheap house, expensive district. Model it that way.",
+      "regulationBadge": "friendly",
+      "regulationNote": "North Las Vegas licenses investor short-term rentals through a conditional use permit with 660-foot separation and noise monitoring, and long-term landlords get Nevada's standard fast-eviction, no-rent-control framework.",
+      "neighborhoods": [
+        {
+          "name": "Old North Las Vegas (89030)",
+          "medianPrice": 272193,
+          "medianRent": 1650,
+          "note": "The valley's cheapest detached stock, 1950s to 1970s houses on the original grid. Condition risk is real and some purchases fall below lender loan minimums, but this is the metro's last sub-$300K lane and the natural home of the BRRRR-to-DSCR play."
+        },
+        {
+          "name": "Tesoro",
+          "medianPrice": 392388,
+          "medianRent": 2050,
+          "note": "Newer tract stock on the city's north edge near the Apex commute shed. Builder-grade houses with modern systems, thin yards, and tenants tied to logistics and distribution payrolls. Watch new-build competition two streets over when you set rent."
+        },
+        {
+          "name": "Aliante",
+          "medianPrice": 424294,
+          "medianRent": 2250,
+          "note": "The polished master plan around the golf course and the 215. Strongest school and retail pull in the city, HOA rules are strict, and the ratio needs 30% down, but vacancy here is measured in days."
+        },
+        {
+          "name": "The Shadows",
+          "medianPrice": 477277,
+          "medianRent": 2350,
+          "note": "Upper-tier newer construction near Craig Ranch Regional Park. Rents to the two-income household that could almost buy, which means long tenancies but real exposure if the new-build market discounts to compete."
+        }
+      ],
+      "localAngle": {
+        "tag": "Growth Corridor",
+        "title": "Apex is the valley's payroll engine, and 89030 is its landlord.",
+        "body": "The Apex numbers are worth taking literally: 30 million square feet under construction or permitted, $8 billion-plus committed, about 8,000 permanent jobs already on site, 15,000 to 20,000 projected by 2029, and a long-run buildout estimate above 70,000 positions. The Apex Area Technical Corrections Act, signed in 2025, cleared the utility-permitting bottleneck that had throttled the site for years, which is why Kroger, Crocs, Air Liquide, and Switch are physically there now rather than on renderings. Warehouse and data-center wages do not rent $477,000 houses. They rent the $1,650 to $2,100 tier, which is exactly what the 89030 grid and the Tesoro tracts supply. That is the investable spread: buy the oldest stock in the valley at $272,000 average, force value with a disciplined rehab, and refinance into a DSCR loan against a tenant base that is growing on a federal timeline, not a casino cycle. The two failure modes are equally specific: buying so cheap the loan falls under lender minimums, and underwriting Aliante rents onto 89030 houses. Your matched specialist will structure the file against the appraiser's rent schedule for the actual street, and will flag when a purchase price needs to rise just to clear a lender's loan floor."
+      },
+      "programFit": [
+        "standard-dscr",
+        "bridge-to-dscr",
+        "portfolio-dscr"
+      ],
+      "dealExample": {
+        "label": "BRRRR Refinance",
+        "propertyType": "4-bed / 2-bath SFR (rehabbed)",
+        "neighborhood": "Old North Las Vegas (89030)",
+        "purchasePrice": 305000,
+        "downPaymentPct": 25,
+        "downPayment": 76250,
+        "loanAmount": 228750,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 1599,
+        "monthlyTax": 173,
+        "monthlyInsurance": 100,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 1872,
+        "monthlyRent": 1995,
+        "dscr": 1.07,
+        "monthlyCashFlow": 123,
+        "specialistFocus": [
+          "Sized the refinance at 75% of the post-rehab appraisal of $305,000, returning most of the investor's cash while keeping the ratio above 1.0",
+          "Matched the file to a lender whose seasoning rules accept a recent rehab, because seasoning requirements are where most BRRRR refis die",
+          "Underwrote the North Las Vegas district rate of $3.3544 per $100 assessed with the post-sale cap reset, the highest tax load of the valley's three cities"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Is 89030 too rough to invest in?",
+          "answer": "It is a condition-and-management market, not a no-go market. The grid holds the valley's oldest houses, and the discount is honest: original 1950s to 1970s systems, deferred maintenance, and a tenant pool that needs real screening. What changed is the demand side. Apex payrolls and the VA Medical Center sit within a short commute, and a rehabbed four-bedroom leases near $2,000 fast. The investors who lose here skip the sewer scope and the panel inspection, then meet the repair bill mid-lease. Budget the rehab like a professional, use local management, and the numbers are among the best in the metro."
+        },
+        {
+          "question": "Does Apex actually matter yet, or is it a pitch deck?",
+          "answer": "It is physical. Roughly 8,000 permanent positions already operate at the site, Kroger and Crocs run active facilities, Air Liquide is on site, and Switch bought 176 acres for $85.5 million. The 2025 Apex Area Technical Corrections Act fixed the utility-permitting problem that stalled the park for two decades, and 30 million square feet is under construction or permitted against more than $8 billion in committed investment. The honest caveat: projections of 15,000 to 20,000 jobs by 2029 are projections. Underwrite the rent the street commands today and treat the growth as margin of safety, not as the thesis."
+        },
+        {
+          "question": "Why are North Las Vegas property taxes the highest in the valley?",
+          "answer": "The district rate. North Las Vegas levies $3.3544 per $100 of assessed value for FY 2025-26, above Las Vegas at $3.2782 and well above Henderson at $2.9611, a legacy of the city's fiscal crisis years. Combine that with Nevada's cap reset, where a sold property loses its abatement and bills uncapped for the remainder of the fiscal year, and a new investor purchase runs near 0.68% of market value in year one. On a $400,000 house that is roughly $2,700, growing at up to 8% a year as a rental. The rate is the price of the growth corridor. Put it in the model."
+        },
+        {
+          "question": "Can I do a short-term rental in North Las Vegas?",
+          "answer": "Yes, and it is one of the few valley jurisdictions where an investor actually can. The city requires a conditional use permit, then a business license that runs about $900 a year, with 660-foot separation from other short-term rentals, 2,500 feet from resort hotels, outdoor noise monitoring, and notice to neighbors within 200 feet. The separation rule is the binding constraint: check the map before you buy, because one licensed rental down the block ends the plan. Demand skews to family groups and Nellis-related stays rather than Strip tourism, so model mid-market nightly rates, not Strip-corridor fantasy numbers."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, North Las Vegas typical value and YoY change, June 2026",
+        "Zillow Rental Manager, North Las Vegas median asking rent and YoY change, August 2026",
+        "Nevada Department of Taxation, FY 2025-26 North Las Vegas district rate $3.3544 per $100 assessed, July 2025",
+        "City of North Las Vegas and press reports, Apex Industrial Park investment, square footage, and job counts, April 2026",
+        "Las Vegas Valley multifamily market reports, mid-2026 occupancy 93 to 95 percent, Q2 2026 (vacancy est. midpoint)"
+      ]
+    },
+    {
+      "city": "Reno",
+      "slug": "reno",
+      "county": "Washoe County",
+      "metro": "Reno-Sparks",
+      "hook": "Reno's typical home is $577K against $2,041 asking rents, a 0.55 ratio at 20% down, the thinnest big-market math in Nevada. Tesla, the data centers, and a 10-day pending market explain why the price refuses to correct anyway.",
+      "metaDescription": "Reno homes average $577K against $2,041 rents, a 0.55 DSCR at 20% down. See why prices hold and where North Valleys files pencil. Get matched today.",
+      "market": {
+        "medianPrice": 576913,
+        "medianRent": 2041,
+        "priceToRent": 23.6,
+        "vacancyRate": 2.1,
+        "yoyPrice": 0.3,
+        "yoyRent": 6.2,
+        "estDSCR": 0.55,
+        "propertyTaxRate": 0.68,
+        "insuranceMonthly": 150
+      },
+      "overview": "Reno is the market where Nevada's growth story and Nevada's cash-flow story stop being the same story. The typical home costs $576,913, up 0.3% over a year in which Las Vegas fell 3.1%, and homes go pending in 10 days. Asking rents average $2,041, up about 6% on Zillow's board, while the Johnson Perkins Griffin survey of nearly 32,000 apartment units puts average rent at $1,798 with vacancy just above 2%, below 3% for five straight quarters. Demand is structural: the Tahoe Reno Industrial Center east of town is larger than the city of Denver, Tesla's Gigafactory employs a five-figure headcount range there, and Google, Switch, Novva, EdgeCore, Tract, and Vantage are all operating or building data-center campuses, Vantage alone at 224 megawatts.\n\nNow the investor math. At the citywide median with 20% down the ratio lands near 0.55, the weakest of any Nevada market on this site, and Washoe County compounds it: Reno's combined tax rate sits at the statutory ceiling of $3.66 per $100 assessed, and wildfire exposure pushes insurance above southern Nevada levels.\n\nFiles that clear live in the North Valleys. Stead at $442,300 and the North Virginia corridor at $374,926 rent to Tesla and logistics shifts at $1,800 to $2,300, and interest-only structures at 30% down get those addresses to roughly 1.0. Midtown at $588,043 and anything south is an appreciation position. Be honest about which one you are buying.",
+      "regulationBadge": "friendly",
+      "regulationNote": "Reno licenses short-term rentals in all tiers including non-owner-occupied, Nevada preempts rent control statewide, and eviction remains summary-fast, but STR permits die at sale and every buyer re-applies from zero.",
+      "neighborhoods": [
+        {
+          "name": "Stead",
+          "medianPrice": 442300,
+          "medianRent": 2295,
+          "note": "The North Valleys workhorse: 1990s to 2010s tract homes fifteen minutes from the TRIC commute and next to the Air Race airport. The best rent-to-price spread inside city limits, with wind, snow load, and HOA-free streets as the local texture."
+        },
+        {
+          "name": "North Virginia (US 395 corridor)",
+          "medianPrice": 374926,
+          "medianRent": 1795,
+          "note": "Reno's cheapest entry, a mix of older site-built homes and manufactured stock toward Panther Valley. Check the foundation type before you offer, because DSCR lenders treat permanently affixed manufactured homes very differently from site-built."
+        },
+        {
+          "name": "Northeast Reno",
+          "medianPrice": 471219,
+          "medianRent": 2195,
+          "note": "The 1970s and 1980s belt around Wedekind and Sutro, renting to university staff and logistics workers. Unfashionable, steady, and one of the few mid-tier pockets where a 30% down file gets within sight of 1.0."
+        },
+        {
+          "name": "Midtown",
+          "medianPrice": 588043,
+          "medianRent": 2400,
+          "note": "The walkable core with the strongest tenant demand and the weakest yield in the city. Pre-1950 bungalows carry charm and capital expense in equal measure. Buyers here are underwriting appreciation and should say so out loud."
+        }
+      ],
+      "localAngle": {
+        "tag": "Growth vs Ratio",
+        "title": "TRIC is real, the 0.55 ratio is also real. Structure decides who wins.",
+        "body": "Both halves of the Reno argument are true. The demand half: the Tahoe Reno Industrial Center hosts Tesla's Gigafactory plus data-center campuses from Google, Switch, Novva, EdgeCore, Tract, and Vantage, apartment vacancy has held under 3% for five consecutive quarters per Johnson Perkins Griffin, and houses go pending in 10 days. The math half: $576,913 against $2,041 is a 0.55 ratio at 20% down, Reno's combined property tax rate sits at Nevada's statutory ceiling of $3.66 per $100 assessed, and Washoe's abatement reset works exactly like Clark's, so year one bills near 0.68% of your price with no cap. A standard 30-year DSCR file at the median does not clear here and no amount of optimism changes that. What changes it is structure: interest-only payments cut the qualifying payment by roughly 11% at the same loan size, 30% down does the rest in Stead and Northeast Reno, and buyers holding for the TRIC decade treat the thin early ratio as the cost of the position. One more local rule: Reno short-term rental permits are non-transferable, so never pay for STR income a seller cannot hand you. Your matched specialist will structure the file on the long-term lease and let any future permit be upside."
+      },
+      "programFit": [
+        "interest-only-dscr",
+        "standard-dscr",
+        "portfolio-dscr",
+        "bridge-to-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 2-bath SFR",
+        "neighborhood": "Stead",
+        "purchasePrice": 440000,
+        "downPaymentPct": 30,
+        "downPayment": 132000,
+        "loanAmount": 308000,
+        "loanType": "30-Year Fixed, Interest-Only",
+        "interestOnly": true,
+        "monthlyPI": 1925,
+        "monthlyTax": 249,
+        "monthlyInsurance": 130,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 2304,
+        "monthlyRent": 2300,
+        "dscr": 1,
+        "monthlyCashFlow": -4,
+        "specialistFocus": [
+          "Structured interest-only because the amortizing version of this exact file runs 0.87, and the IO payment is what brings Stead to the 1.0 line",
+          "Went to 30% down after modeling the citywide ratio at 20% near 0.55, the honest cost of buying Reno in 2026",
+          "Underwrote Washoe's year-one uncapped bill at the full $3.66 per $100 ceiling rate instead of the seller's abated figure, and priced wildfire-zone insurance rather than a state average"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Why is Reno's DSCR so much worse than Las Vegas?",
+          "answer": "Price, not rent. Reno rents are healthy, up roughly 6% on the asking board with vacancy near 2%, but the typical home costs $576,913 versus $425,535 in Las Vegas, a 36% premium the rent does not match. Add the highest allowed tax rate in Nevada at $3.66 per $100 assessed and wildfire-loaded insurance, and the citywide ratio at 20% down lands near 0.55 against 0.72 in Las Vegas. Reno files clear through the North Valleys price tier, interest-only structures, and larger down payments, or they do not clear. The market is priced for the TRIC decade, and you should underwrite like it."
+        },
+        {
+          "question": "Does the Tesla and data-center build-out justify buying at a 0.55 ratio?",
+          "answer": "Only if you are honest that you are buying equity, not income. The employment base is genuinely structural: Tesla's Gigafactory headcount sits in the thousands, and Google, Switch, Novva, EdgeCore, Tract, and Vantage are all committed to campuses at or around TRIC, with Vantage at 224 megawatts. That demand shows up as 10-day pending times and five straight quarters under 3% apartment vacancy. But a thesis is not a payment. The disciplined version buys Stead or Northeast Reno where structure gets the file to 1.0, holds through the buildout, and never depends on year-one cash flow to survive."
+        },
+        {
+          "question": "Can I run a short-term rental in Reno?",
+          "answer": "Yes. Reno runs a tiered permit system that includes non-owner-occupied rentals, Sparks and unincorporated Washoe County operate their own separate programs, and Tahoe-adjacent demand is real. The two catches investors miss: permits are jurisdiction-specific, so a Reno permit means nothing across a city line, and no permit transfers at sale, so every buyer starts the application over after closing. That second rule has a pricing consequence: never capitalize a seller's STR revenue into your offer, because you are buying the house, not the permit. Underwrite the long-term lease first and treat approved STR income as the second act."
+        },
+        {
+          "question": "Where in Reno do rental files actually pencil?",
+          "answer": "North of the river and north of fashion. Stead at a $442,300 median rents near $2,300 to Tesla, logistics, and airport shifts, and an interest-only file at 30% down sits at the 1.0 line. The North Virginia corridor at $374,926 is the cheapest entry, with the caveat that manufactured homes need lender-specific handling. Northeast Reno at $471,219 gets close with 30% down. Midtown and Southwest Reno carry the best tenants and the worst math, sub-0.6 at standard structures. Your matched specialist can tell you which of the 70+ lenders price interest-only and manufactured-home files competitively, because both vary widely."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Reno typical value and YoY change, June 2026",
+        "Zillow Rental Manager, Reno median asking rent and YoY change, August 2026",
+        "Johnson Perkins Griffin Apartment Survey, Reno-Sparks average rent $1,798 and vacancy just above 2%, Q1 2026",
+        "Nevada Department of Taxation, FY 2025-26 Reno combined rate $3.6600 per $100 assessed, July 2025",
+        "Storey County top-employer filings and press reports, Tesla Gigafactory headcount and TRIC data-center build-out, 2026"
+      ]
+    },
+    {
+      "city": "Sparks",
+      "slug": "sparks",
+      "county": "Washoe County",
+      "metro": "Reno-Sparks",
+      "hook": "Sparks houses ask $2,419 in rent, up $124 in a year, against a $537K typical value, and the apartment market has run under 3% vacancy for five straight quarters. This is the tighter, cheaper half of the Truckee Meadows.",
+      "metaDescription": "Sparks homes average $537K with house rents near $2,419 and sub-3% vacancy five straight quarters. See where DSCR files clear near TRIC. Get matched today.",
+      "market": {
+        "medianPrice": 537388,
+        "medianRent": 2419,
+        "priceToRent": 18.5,
+        "vacancyRate": 2.1,
+        "yoyPrice": 0.7,
+        "yoyRent": 5.4,
+        "estDSCR": 0.7,
+        "propertyTaxRate": 0.7,
+        "insuranceMonthly": 140
+      },
+      "overview": "Sparks is the closest bedroom to the Tahoe Reno Industrial Center, and the rent board shows it: houses ask an average of $2,419, up $124 over the year, the strongest house-rent number in northern Nevada. The typical home runs $537,388, up 0.7%, with a median sale price near $528,000 and pending in 12 days. Johnson Perkins Griffin's survey has Reno-Sparks apartment vacancy just above 2%, under 3% for five consecutive quarters, so a well-kept Sparks house does not sit.\n\nThe city splits cleanly at Interstate 80. South of it, old Sparks around Victorian Avenue trades near $376,789 in the 89431 zip, 1940s to 1970s stock with alley access, casita potential, and the best ratio in the Truckee Meadows. North of it, Spanish Springs runs $539,848 in 89436, 1990s-forward family houses renting $2,500 and up to Tesla, Panasonic, and warehouse payrolls that want the school zone. Wingfield Springs and Kiley Ranch sit between on price and below on yield.\n\nThe tax mechanics match Reno: Sparks levies the same $3.66 per $100 ceiling rate, the abatement resets when you buy, and year one runs near 0.7% of price uncapped. At the citywide numbers the 20%-down ratio lands near 0.7, which beats Reno's 0.55 but still means structure: old-Sparks entry prices, 30% down, or interest-only. The TRIC payroll keeps growing either way, and Sparks is where those paychecks sleep.",
+      "regulationBadge": "friendly",
+      "regulationNote": "Sparks runs its own short-term rental licensing separate from Reno and Washoe County, no rent control exists anywhere in Nevada, and summary eviction keeps nonpayment cases fast, so the practical constraints here are price and tax rate, not regulation.",
+      "neighborhoods": [
+        {
+          "name": "Old Sparks (89431)",
+          "medianPrice": 376789,
+          "medianRent": 1995,
+          "note": "The pre-1980 grid around Victorian Avenue, the cheapest entry in the Truckee Meadows. Alley lots, detached garages with ADU potential, and rail-yard noise on the south edge. This is where Sparks files clear 1.0 with 30% down."
+        },
+        {
+          "name": "Spanish Springs (89436)",
+          "medianPrice": 539848,
+          "medianRent": 2595,
+          "note": "The family tier north of town: 1990s-to-new tract homes, the school pull, and the TRIC commute over Pyramid Highway. Rents are the strongest in the metro, but at these prices the ratio needs interest-only or heavy equity."
+        },
+        {
+          "name": "Wingfield Springs",
+          "medianPrice": 600000,
+          "medianRent": 2795,
+          "note": "Golf-course master plan with newer executive stock and long tenancies. HOA rules are strict and the yield is thin, so treat it as an equity hold that rents well rather than a cash-flow asset. Values here are estimated from current listing mixes."
+        }
+      ],
+      "localAngle": {
+        "tag": "Supply Squeeze",
+        "title": "Five quarters under 3% vacancy is the whole Sparks pitch.",
+        "body": "Northern Nevada added Tesla, Panasonic, and a wall of data centers, then approved nowhere near enough housing to hold the workers. The result reads directly off the surveys: Johnson Perkins Griffin's first-quarter 2026 report, covering 122 properties and nearly 32,000 units, shows Reno-Sparks apartment vacancy just above 2%, the fifth consecutive quarter under 3%, with average apartment rent at $1,798 and asking rents for Sparks houses averaging $2,419, up $124 year over year. Multifamily developers have mostly stopped starting projects because construction costs outrun rents, which means the squeeze feeds itself: no new supply wave is coming before the next TRIC expansion lands. For a landlord this is the rare market where the risk is not vacancy, it is buying the wrong tier. Old Sparks at $376,789 rents near $2,000 and clears with equity. Spanish Springs at $539,848 rents near $2,600 and needs interest-only to breathe. Both work; they are different trades. The tax line is identical either way: $3.66 per $100 at the state ceiling, abatement reset at closing, roughly 0.7% of price in year one. Your matched specialist will price both tiers against the same rent survey and show you which one your reserves actually support."
+      },
+      "programFit": [
+        "standard-dscr",
+        "interest-only-dscr",
+        "portfolio-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 2-bath SFR",
+        "neighborhood": "Old Sparks (89431)",
+        "purchasePrice": 375000,
+        "downPaymentPct": 30,
+        "downPayment": 112500,
+        "loanAmount": 262500,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 1835,
+        "monthlyTax": 219,
+        "monthlyInsurance": 120,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 2174,
+        "monthlyRent": 2195,
+        "dscr": 1.01,
+        "monthlyCashFlow": 21,
+        "specialistFocus": [
+          "Kept the purchase in the 89431 grid because the same 30% down in Spanish Springs runs the ratio near 0.85, and old Sparks is where the file clears amortizing",
+          "Qualified on the appraiser's house rent near $2,200, supported by a survey market running under 3% vacancy for five straight quarters",
+          "Underwrote the year-one uncapped bill at the Sparks ceiling rate of $3.66 per $100 assessed, not the seller's long-held abated figure"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Sparks or Reno for a rental house?",
+          "answer": "Same metro, better arithmetic in Sparks. The typical Sparks home costs $537,388 versus Reno's $576,913, about 7% less, while Sparks house rents average $2,419 against Reno's blended $2,041. That pushes the citywide 20%-down ratio to roughly 0.7 in Sparks versus 0.55 in Reno. The commute logic runs the same direction: TRIC workers reach Sparks first coming over I-80 or Pyramid Highway. Reno wins on walkable-core appreciation and university demand. If the goal is a file that clears and a tenant pool tied to industrial payroll, Sparks is the cleaner buy, specifically the 89431 grid."
+        },
+        {
+          "question": "What does the Tesla and TRIC commute actually mean for my tenant pool?",
+          "answer": "It means shift workers with industrial wages and long tenancies. The Tahoe Reno Industrial Center sits about 15 to 20 minutes east of Sparks on I-80, hosting Tesla's Gigafactory plus data-center campuses from Google, Switch, EdgeCore, Novva, and others. Those payrolls rent the $1,900 to $2,600 house tier, which is exactly Sparks inventory. Practical implications: three-bedroom houses with garages outperform, proximity to the I-80 and Pyramid corridors matters more than school ratings for a chunk of applicants, and rent collections track industrial employment rather than tourism, which is the stability Las Vegas landlords wish they had."
+        },
+        {
+          "question": "Why did my Sparks tax estimate come in higher than the seller's bill?",
+          "answer": "Nevada resets the abatement at sale. The seller's bill grew at most 3% a year if owner-occupied, or up to 8% as a rental, under NRS 361.4723. Once your deed records, that history is gone: the property bills without any cap for the remainder of the fiscal year, computed as 35% of taxable value times the Sparks district rate of $3.66 per $100, the statutory ceiling. Expect roughly 0.7% of your purchase price in year one, then growth at the high cap while it is a rental. The only discount path is NRS 361.4724's low-income rental cap, which requires keeping rent at or below HUD fair market rent."
+        },
+        {
+          "question": "Is there any short-term rental play in Sparks?",
+          "answer": "A modest one. Sparks licenses short-term rentals under its own municipal program, separate from Reno's tiers and Washoe County's permit system, and demand exists from Tahoe spillover, special events, and traveling industrial contractors rather than classic tourism. The honest read: nightly rates in Sparks do not carry Tahoe economics, and the long-term market is strong enough that most Sparks houses earn nearly as much on a lease with none of the operational load. Where the STR math genuinely works in this metro is closer to the lake or in Reno's core. Run both models before you commit the furniture budget."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Sparks typical value and YoY change, June 2026",
+        "Zillow Rental Manager, Sparks average house asking rent and YoY change, August 2026",
+        "Johnson Perkins Griffin Apartment Survey, Reno-Sparks vacancy just above 2% for a fifth straight quarter, Q1 2026",
+        "Nevada Department of Taxation, FY 2025-26 Sparks combined rate $3.6600 per $100 assessed, July 2025",
+        "Zillow neighborhood and zip data, 89431 and 89436 typical values, June 2026 (Wingfield Springs est.)"
+      ]
+    },
+    {
+      "city": "Carson City",
+      "slug": "carson-city",
+      "county": "Carson City (independent city)",
+      "metro": "Carson City",
+      "hook": "Carson City homes average $502K and go pending in 10 days, because the state capital's payroll never gets laid off. The rental board is thin, the tenant base is permanent, and the math needs structure to clear.",
+      "metaDescription": "Carson City homes average $502K and go pending in 10 days on state-payroll demand. See how DSCR investors structure the capital's math. Get matched today.",
+      "market": {
+        "medianPrice": 501950,
+        "medianRent": 1750,
+        "priceToRent": 23.9,
+        "vacancyRate": 3.5,
+        "yoyPrice": 0.4,
+        "yoyRent": 2.3,
+        "estDSCR": 0.55,
+        "propertyTaxRate": 0.64,
+        "insuranceMonthly": 135
+      },
+      "overview": "Carson City is Nevada's smallest big market: an independent city of about 60,000 that happens to employ the state government. The typical home runs $501,950 as of June 2026, up 0.4% while most of Nevada corrected, median sale price near $485,000, and pending in 10 days. Supply is the story behind that speed. Carson sits in a bowl between the Sierra and the Pine Nuts with little developable land, a slow entitlement culture, and almost no multifamily pipeline, so the existing stock is the market.\n\nThe rental side is thin and steady. The asking board averages $1,750 blended, three-bedroom houses ask near $2,500, and RentCafe puts apartment rents up 2.3% on the year. Tenants are state workers, Carson Tahoe Health staff, and Tesla commuters willing to drive 35 minutes for cheaper-than-Reno housing. Turnover is low because the employer never relocates and never has layoffs in the private-sector sense.\n\nAt the citywide median with 20% down the ratio lands near 0.55, Reno-grade math with a rate of $3.57 per $100 assessed, just under the state ceiling. Files here clear the same three ways: buy the east-side and north-side tier in 89701 and 89706 where entry runs $425,000 to $460,000, put 30% down, or use the equity you already have, because Carson is one of the better cash-out markets in the state. Long-held owners are sitting on a decade of appreciation against rents that finally support pulling capital.",
+      "regulationBadge": "friendly",
+      "regulationNote": "Carson City is where Nevada's landlord-friendly framework gets written and defended, most recently through the 2025 vetoes of the eviction-reform and rent-cap bills, and the capital imposes no local licensing burden on long-term rentals.",
+      "neighborhoods": [
+        {
+          "name": "East Carson (89701)",
+          "medianPrice": 460000,
+          "medianRent": 2200,
+          "note": "The workhorse grid east of downtown: 1970s to 1990s ranches renting to state and hospital staff. The most liquid tier in the city for both leasing and resale. Values are estimated from zip-level listing mixes."
+        },
+        {
+          "name": "North Carson (89706)",
+          "medianPrice": 425000,
+          "medianRent": 2050,
+          "note": "The affordable end, mixing older site-built homes with light-industrial adjacency along Highway 50 East. Best entry price in the capital, and the tier where a cash-out refinance on a long-held property makes the most sense. Values estimated."
+        },
+        {
+          "name": "West Carson (89703)",
+          "medianPrice": 585000,
+          "medianRent": 2600,
+          "note": "Tree streets and Sierra-foothill custom homes near the historic district. Premium tenants, long tenancies, thin ratios. This is the equity-hold end of town, and wildfire-zone insurance pricing applies on the western edge. Values estimated."
+        }
+      ],
+      "localAngle": {
+        "tag": "Landlord Law",
+        "title": "The landlord law that makes Nevada work is defended in this town.",
+        "body": "Carson City is where Nevada's rental framework lives, and 2025 showed how durable it is. The Legislature passed a package of tenant bills: AB 283 would have flipped Nevada's summary eviction process, the only one in the country where the tenant must file first in a nonpayment case, AB 280 would have capped rent increases for seniors, SB 78 targeted fees, and SB 335 would have paused evictions for pending rental-assistance applications. Governor Lombardo vetoed all of them in June 2025, as he had vetoed the 2023 versions. The practical result for an investor: no rent control anywhere in the state by statutory preemption, a nonpayment eviction path measured in weeks rather than months, and no just-cause requirement on non-renewals. That framework is not a permanent fact of nature, it is one election from changing, but as of mid-2026 Nevada remains one of the most operationally landlord-friendly states in the country, and the capital's own rental market benefits from the stability of the government payroll that administers it. Your matched specialist will structure the file on the numbers, but it is worth knowing the legal ground you are standing on, because it is a real part of why national DSCR lenders price Nevada aggressively."
+      },
+      "programFit": [
+        "standard-dscr",
+        "no-ratio-dscr",
+        "portfolio-dscr"
+      ],
+      "dealExample": {
+        "label": "Cash-Out Refinance",
+        "propertyType": "3-bed / 2-bath SFR",
+        "neighborhood": "North Carson (89706)",
+        "purchasePrice": 500000,
+        "downPaymentPct": 30,
+        "downPayment": 150000,
+        "loanAmount": 350000,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 2447,
+        "monthlyTax": 267,
+        "monthlyInsurance": 135,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 2849,
+        "monthlyRent": 2450,
+        "dscr": 0.86,
+        "monthlyCashFlow": -399,
+        "specialistFocus": [
+          "Held the cash-out at 70% of the $500,000 appraisal because the pulled capital funds two Pahrump purchases, and the owner chose leverage across three doors over cash flow on one",
+          "Placed the file with a lender whose cash-out program tolerates a sub-1.0 ratio on heavy equity, documented reserves, and a decade of on-time rental history",
+          "Underwrote the post-refi tax bill at Carson City's $3.57 per $100 rate with the rental-class cap, since a refinance alone does not reset the abatement the way a sale does"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Is Carson City too small a market to invest in?",
+          "answer": "Small, yes. Fragile, no. The city holds about 60,000 people, but the anchor tenant is the State of Nevada itself, plus Carson Tahoe Health and the court and lobbying economy around the capitol. That payroll does not relocate, does not offshore, and does not cycle with conventions or gold prices, which is why homes went pending in 10 days and values rose 0.4% in a year when Las Vegas fell 3.1%. The tradeoffs are liquidity and selection: inventory is thin, the rental board is shallow, and a mispriced house sits. Buy the boring 89701 ranch, keep it a decade, and let scarcity work."
+        },
+        {
+          "question": "How fast is eviction in Nevada really?",
+          "answer": "For nonpayment, among the fastest in the country. Nevada's summary eviction under NRS 40.253 starts with a seven-day pay-or-quit notice, and uniquely, the tenant must file an affidavit with the court to contest it; if they do not, the landlord can obtain a lockout order without a full lawsuit. Contested cases still resolve in weeks, not months. The 2025 Legislature passed AB 283 to flip that structure and require landlords to file first, and Governor Lombardo vetoed it in June 2025, preserving the current process. Screen well anyway: the speed limits your downside, it does not create good tenancies."
+        },
+        {
+          "question": "Why would anyone do a cash-out refinance at a ratio below 1.0?",
+          "answer": "Because the equity is the asset. A Carson house bought in the mid-2010s carries several hundred thousand dollars of appreciation, and rents near $2,450 support a 70% loan even though the resulting ratio runs about 0.86. Owners do it to redeploy: the pulled capital becomes down payments on two or three higher-ratio doors in Pahrump, Fernley, or Elko, trading one market's equity for another market's cash flow. The requirements are heavier equity, real reserves, and a lender whose program prices sub-1.0 cash-outs rather than refusing them. Your matched specialist knows which of the 70+ lenders write that file."
+        },
+        {
+          "question": "Do Tesla and TRIC workers really rent in Carson City?",
+          "answer": "A meaningful slice do. The Gigafactory sits about 35 minutes northeast via I-580 and USA Parkway, and Carson's price point undercuts Reno by roughly $75,000 at the median, so industrial workers who want a house instead of a Reno apartment land here, alongside the state and hospital base. The commuter share of your applicant pool grows every time TRIC adds a shift. It is a secondary driver, not the anchor, and that is the right way to underwrite it: qualify the file on capital-city demand, and treat industrial spillover as the reason your vacancy week is short."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Carson City typical value, YoY change, and days to pending, June 2026",
+        "Zillow Rental Manager, Carson City asking rents, August 2026",
+        "RentCafe, Carson City apartment rent up 2.3% year over year, 2026",
+        "Nevada Department of Taxation, FY 2025-26 Carson City combined rate $3.5700 per $100 assessed, July 2025",
+        "Nevada Legislature 2025 session records and press coverage, AB 283, AB 280, SB 78, SB 335 vetoes, June 2025",
+        "Neighborhood values derived from zip-level listing data, 2026 (est.)"
+      ]
+    },
+    {
+      "city": "Mesquite",
+      "slug": "mesquite",
+      "county": "Clark County",
+      "metro": "Las Vegas-Henderson-North Las Vegas",
+      "hook": "Mesquite's typical home is $373K, down 5.4% in a year, while its 134 licensed-market short-term rentals post a $249 average nightly rate. This is the one Vegas-metro city where the investor STR door is open and written into code.",
+      "metaDescription": "Mesquite homes average $373K, down 5.4%, and licensed STRs post a $249 nightly rate at 47% occupancy. DSCR loans work both plays. Get matched today.",
+      "market": {
+        "medianPrice": 372795,
+        "medianRent": 1595,
+        "priceToRent": 19.5,
+        "vacancyRate": 5.5,
+        "yoyPrice": -5.4,
+        "yoyRent": -7.8,
+        "estDSCR": 0.67,
+        "propertyTaxRate": 0.62,
+        "insuranceMonthly": 115
+      },
+      "overview": "Mesquite is a golf-and-retirement town of about 25,000 on the Arizona border, 80 minutes northeast of the Strip, and it is correcting harder than the big valley: the typical home fell 5.4% to $372,795, and Sun City Mesquite's median sale dropped from roughly $485,000 in mid-2025 to $435,000 by July 2026. For a buyer that is the setup, not the warning. The blended rent board reads $1,595 because it averages in golf casitas and 55+ product; a three-bedroom house asks closer to $2,000.\n\nThe reason Mesquite earns its place on this page is the short-term rental regime. Unlike the city of Las Vegas, which licenses only owner-occupied rentals, and unincorporated Clark County, where licensing is frozen in federal litigation, Mesquite has run a licensed vacation-rental system for years under Title 2, Chapter 13 of its municipal code: any rental of 27 consecutive days or less requires a city license, one license per unit. The city tightened the program on June 9, 2026 with Bill B26-005, adding a conditional use permit step through planning before a business license issues, quarterly room-tax compliance audits, and tougher parking and enforcement rules, and the city attorney noted AB 363's spacing mandates do not bind Mesquite until the 2030 census. Tight rules, open door.\n\nThe honest caveats: STR supply more than doubled in a year to 134 active listings, occupancy averages 47%, and the leisure demand is golf groups and Utah traffic, not conventions. Underwrite the nightly math conservatively and make sure the long-term lease still catches you.",
+      "regulationBadge": "friendly",
+      "regulationNote": "Mesquite licenses investor short-term rentals citywide under Title 2 Chapter 13, tightened in June 2026 to require a conditional use permit first, and long-term landlords get Nevada's standard no-rent-control, fast-eviction framework.",
+      "neighborhoods": [
+        {
+          "name": "Sun City Mesquite",
+          "medianPrice": 435000,
+          "medianRent": 2200,
+          "note": "Del Webb's 55+ flagship, average build year 2018, single-story on small lots. Median sale fell from about $485K to $435K in a year, a real entry discount. Age-qualified tenancy rules and CC&Rs bar short-term rentals, so this is a long-term play for an age-eligible tenant pool."
+        },
+        {
+          "name": "Canyon Crest",
+          "medianPrice": 400000,
+          "medianRent": 2050,
+          "note": "Newer mesa-view streets popular with the vacation-rental crowd, no age restriction. The practical STR submarket: check the CC&Rs street by street, then run the conditional-use-permit path the city added in June 2026. Values estimated from current listing mixes."
+        },
+        {
+          "name": "Falcon Ridge",
+          "medianPrice": 385000,
+          "medianRent": 2100,
+          "note": "Established view neighborhood with homes from the mid-$300s up. Family and pre-retiree tenants on long leases, and one of the steadier resale tiers in town. Values estimated from listing ranges."
+        },
+        {
+          "name": "Old Town / Hafen Park area",
+          "medianPrice": 298000,
+          "medianRent": 1700,
+          "note": "The original walkable grid near the casinos. Cheapest entry in the city and the tier where casino and service payrolls rent. Older systems, so budget capital expense like you mean it. Values estimated."
+        }
+      ],
+      "localAngle": {
+        "tag": "STR Rules",
+        "title": "Mesquite wrote the STR rulebook instead of banning the book.",
+        "body": "The Vegas-metro short-term rental map in mid-2026 is mostly closed doors: owner-occupied-only inside the city of Las Vegas, a licensing freeze and federal litigation in unincorporated Clark County, prohibition in Boulder City, and CC&R walls across Henderson's master plans. Mesquite is the exception with a working, legal, investor-accessible system. The code is Title 2, Chapter 13: renting a dwelling for 27 consecutive days or less requires a vacation home rental license, each unit licensed separately. On June 9, 2026 the council passed Bill B26-005 unanimously, and the changes tell you what the city cares about: a conditional use permit through the planning department now comes before the business license, room-tax compliance gets audited quarterly, trailers count as vehicles under the parking limits, and fines got teeth. Notably absent: a cap, a lottery, or an owner-occupancy requirement, and the city attorney stated on the record that AB 363's spacing rules do not bind Mesquite until the 2030 census. The market behind the license: 134 active listings averaging a $249 nightly rate at 47% occupancy, demand driven by golf packages, Sand Hollow and Zion traffic, and snowbirds. Supply doubled in a year, so underwrite rate compression. Your matched specialist will structure the file so it survives on the long-term lease if the nightly market softens."
+      },
+      "programFit": [
+        "str-dscr",
+        "standard-dscr",
+        "interest-only-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 2-bath SFR (licensed vacation rental)",
+        "neighborhood": "Canyon Crest",
+        "purchasePrice": 410000,
+        "downPaymentPct": 25,
+        "downPayment": 102500,
+        "loanAmount": 307500,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 2149,
+        "monthlyTax": 212,
+        "monthlyInsurance": 115,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 2476,
+        "monthlyRent": 3000,
+        "dscr": 1.21,
+        "monthlyCashFlow": 524,
+        "specialistFocus": [
+          "Qualified on projected short-term income near $3,000 a month, derived from Mesquite's $249 average nightly rate at conservative occupancy, through an STR-DSCR program that accepts market projections",
+          "Sequenced the city's June 2026 requirements correctly: CC&R check, conditional use permit through planning, then the Title 2 Chapter 13 vacation rental license, before the first booking",
+          "Confirmed the file also works as a long-term rental near $2,050 so a soft nightly market bends the return instead of breaking the loan"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Can an investor legally run an Airbnb in Mesquite?",
+          "answer": "Yes, and that makes Mesquite nearly unique in the Vegas metro. The city licenses vacation home rentals under Title 2, Chapter 13 of its municipal code, defined as stays of 27 consecutive days or less, with no owner-occupancy requirement, no cap, and no lottery. Since Bill B26-005 passed on June 9, 2026, the sequence is: confirm the neighborhood's CC&Rs allow it, obtain a conditional use permit through the planning department, then the business license, then register for room tax, which the city now audits quarterly. Budget real time for the permit step and do not take bookings before the license issues, because enforcement got sharper in the same ordinance."
+        },
+        {
+          "question": "What do Mesquite short-term rentals actually earn?",
+          "answer": "The 2026 market data shows about 134 active listings averaging a $249 nightly rate at roughly 47% occupancy, which works out to annual revenue in the mid-$30,000s for a typical listing, or around $2,900 to $3,500 a month for a well-run three-bedroom near the golf corridors. Demand comes from golf groups, Sand Hollow and Zion traffic, and winter snowbirds. The caution flag: supply more than doubled over the past year, so the average is being diluted by new, mediocre listings. Underwrite below the average, keep the long-term lease as your floor near $2,000, and let a strong operation beat the model."
+        },
+        {
+          "question": "Why are Mesquite prices falling harder than Las Vegas?",
+          "answer": "A thin, retiree-driven market swings harder in both directions. The typical Mesquite home fell 5.4% over the year to $372,795, and Sun City Mesquite's median sale went from about $485,000 in mid-2025 to $435,000 by July 2026, with days on market stretching to 44. Rate-sensitive retirees pausing relocations, plus a wave of resale listings from the community's 2010s build-out, did the damage. For a buyer that is a 10% discount on the same golf-course house one year later. The discipline is the exit: buy at today's comps, not 2025's, and never underwrite appreciation in a market this narrow."
+        },
+        {
+          "question": "Is Sun City Mesquite a good rental buy at the new lower prices?",
+          "answer": "Only for the long-term, age-qualified play. The community's CC&Rs bar short-term rentals outright, and its 55+ status means at least one occupant must meet the age requirement, which narrows your applicant pool to a demographic that tends to rent long and pay reliably. At a $435,000 median sale and realistic rents near $2,200, the ratio at 25% down runs below 1.0, so these files usually need 30% down or interest-only structure. What you are buying is tenant quality and a 2018-average build year with minimal capital expense. What you are not buying is nightly-rate upside. Price accordingly."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Mesquite typical value and YoY change, 2026",
+        "Zillow Rental Manager, Mesquite blended asking rent and three-bedroom rent, August 2026",
+        "AirROI and AirDNA-style market data, Mesquite 134 active listings, $249 ADR, 47% occupancy, 2026",
+        "City of Mesquite, Bill B26-005 amending Title 2 Chapter 13 vacation home rentals, June 9 2026",
+        "Sun City Mesquite sales data via local brokerage reporting, July 2026 median $435,000",
+        "Nevada Department of Taxation, FY 2025-26 Mesquite district rate $2.7737 per $100 assessed, July 2025"
+      ]
+    },
+    {
+      "city": "Pahrump",
+      "slug": "pahrump",
+      "county": "Nye County",
+      "metro": "Las Vegas-Henderson-North Las Vegas (commuter shed)",
+      "hook": "Pahrump's typical home is $373K, up 2% while the big valley corrected, and the Calvada grid still trades under $250K. An hour from the west side of Vegas, with licensed STRs and no HOA in sight.",
+      "metaDescription": "Pahrump homes average $373K with Calvada Valley still under $250K, an hour from Vegas. Licensed STRs, acre lots, DSCR-ready math. Get matched today.",
+      "market": {
+        "medianPrice": 372865,
+        "medianRent": 1441,
+        "priceToRent": 21.6,
+        "vacancyRate": 4.5,
+        "yoyPrice": 2,
+        "yoyRent": 2.9,
+        "estDSCR": 0.6,
+        "propertyTaxRate": 0.62,
+        "insuranceMonthly": 105
+      },
+      "overview": "Pahrump is the pressure valve for Las Vegas housing: an unincorporated Nye County town of roughly 45,000, one mountain pass and about 60 minutes from the west valley over Highway 160. While Las Vegas fell 3.1% over the year, Pahrump rose 2% to $372,865, because every increment of Vegas unaffordability pushes another wave of retirees, remote workers, and commuters over the hump. Homes take longer to move here, around 83 days to pending, which is the small-market tax on that stability.\n\nThe investable structure is the Calvada grid: 2,675-plus platted lots that anchor the valley and produce most of its sub-$250,000 resale inventory, with Calvada Valley Unit 3 alone topping 100 active listings in mid-2026. That is the tier where the math works: a $245,000 site-built three-bedroom rents near $1,595, and the blended board at $1,441 rose 2.9% on the year. Mountain Falls, the golf master plan in zip 89061, runs $320,000 to $400,000 with the town's rare HOA at $110 to $119 a month, and the 89061 zip averages $388,156.\n\nTwo Pahrump-specific underwriting rules. First, utilities: most of the valley runs on private wells and septic, which lenders accept but appraisers must address, and inspection scope matters. Second, construction type: the valley mixes site-built and manufactured homes, and DSCR lenders treat them very differently. Since August 2025, short-term rentals are licensed too, under Pahrump Town Ordinance 74. The frontier got rules, and the rules are workable.",
+      "regulationBadge": "friendly",
+      "regulationNote": "Nye County licenses Pahrump short-term rentals under Town Ordinance 74, capped at five registrations per owner, and long-term rentals face no local licensing at all on top of Nevada's landlord-friendly statewide framework.",
+      "neighborhoods": [
+        {
+          "name": "Calvada Valley",
+          "medianPrice": 245000,
+          "medianRent": 1550,
+          "note": "The 2,675-plus lot grid that anchors the valley, and the bulk of Nevada's cheapest site-built inventory: Unit 3 alone carried 100+ active listings in mid-2026. Well and septic standard, acre-plus lots common, and the best entry ratio in this half of the state. Values estimated from listing mixes."
+        },
+        {
+          "name": "Mountain Falls",
+          "medianPrice": 375000,
+          "medianRent": 1850,
+          "note": "The golf master plan on the south side, zip 89061, with newer builds and the town's rare HOA at $110 to $119 a month. Rents to relocating retirees and remote workers who want the amenity package. The HOA line belongs in your PITIA math."
+        },
+        {
+          "name": "North Pahrump (89060)",
+          "medianPrice": 380000,
+          "medianRent": 1800,
+          "note": "Larger parcels and newer custom builds toward the Highway 95 end of the valley. Horse-property demand is real and tenants stay for years, but comps are thin, so lean on the appraiser rather than list prices. Values estimated."
+        }
+      ],
+      "localAngle": {
+        "tag": "County Rules",
+        "title": "Wells, septic, manufactured homes, and Ordinance 74: Pahrump underwriting is its own trade.",
+        "body": "Pahrump deals die in due diligence more than in underwriting, and almost always for one of four local reasons. One: water. Most of the valley runs private wells, and Nye County's groundwater basin is chronically over-appropriated on paper, so a well inspection with flow and quality testing is not optional. Two: septic, same logic, plus a pump-and-inspect before close. Three: construction type. The valley mixes site-built houses with a deep stock of manufactured homes, and the DSCR world splits hard on them: plenty of lenders decline manufactured entirely, others want permanent foundation certification, HUD tags, and land ownership documented. A site-built Calvada three-bedroom at $245,000 has a dramatically wider lender menu than a nicer manufactured home at the same price. Four: the new short-term rental regime. Pahrump Town Ordinance 74, adopted July 15, 2025 and effective August 4, 2025, requires registration, licensing, and inspection for stays under 30 days, limits an owner to five registrations, and mandates room-tax collection through the Nye County Treasurer. It grandfathered nothing, so any listing you buy must re-qualify under your name. None of this is hostile, it is just specific. Your matched specialist will order the file so the well test, foundation certification, and license path are settled before the appraisal fee is spent."
+      },
+      "programFit": [
+        "standard-dscr",
+        "portfolio-dscr",
+        "str-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 2-bath site-built SFR on 1 acre",
+        "neighborhood": "Calvada Valley",
+        "purchasePrice": 245000,
+        "downPaymentPct": 25,
+        "downPayment": 61250,
+        "loanAmount": 183750,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 1284,
+        "monthlyTax": 127,
+        "monthlyInsurance": 95,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 1506,
+        "monthlyRent": 1595,
+        "dscr": 1.06,
+        "monthlyCashFlow": 89,
+        "specialistFocus": [
+          "Selected site-built construction specifically, because the manufactured-home version of this deal loses most of the 70+ lender menu before pricing even starts",
+          "Matched the file to a lender whose loan floor accepts a $183,750 balance, the quiet dealbreaker on Pahrump's cheapest tier",
+          "Conditioned the file on well flow and quality testing plus a septic inspection up front, so the appraisal was ordered against a property that could actually close"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Why is Pahrump so much cheaper than Las Vegas?",
+          "answer": "Land without infrastructure limits. The Calvada grid platted tens of thousands of lots decades ago across a valley with no municipal water or sewer for most parcels, so supply never chokes the way it does inside Clark County's disposal-boundary squeeze. The result is Nevada's deepest sub-$250,000 site-built inventory, 60 minutes from the west valley. The tradeoffs are real: well and septic responsibility, 83-day marketing times, thin comps, and a services base that lags the population. But cheap-with-reasons beats cheap-with-mysteries. The reasons are inspectable, and the rent-to-price spread is the best within commuting distance of Las Vegas."
+        },
+        {
+          "question": "Will DSCR lenders finance a manufactured home in Pahrump?",
+          "answer": "Some will, most on conditions, many not at all, and the difference decides your deal. The valley's stock is heavily manufactured, and lender treatment splits three ways: outright exclusion, acceptance with permanent-foundation engineering certification plus HUD data plates and owned land, or near-normal treatment at a pricing bump. Double-wides on permanent foundations with 433 certifications have a workable menu; single-wides and anything on leased dirt effectively do not. If you have a choice, buy site-built: the Calvada grid has enough of it at the same price point, and the lender menu is several times wider. Your matched specialist will sort eligibility before you write."
+        },
+        {
+          "question": "Are short-term rentals legal in Pahrump?",
+          "answer": "Legal and freshly licensed. Pahrump Town Ordinance 74, adopted July 15, 2025 and effective August 4, 2025, created Chapter 8.115: any stay under 30 consecutive days requires registration, a town business license, a state business license, an inspection, and room-tax collection through the Nye County Treasurer, with license numbers displayed in every advertisement. Registrations issue only to the property owner, and one owner may hold at most five. Demand is niche but real: Death Valley traffic, wineries, shooting-sports visitors, and Vegas overflow on event weekends. Model modest nightly rates, and confirm the long-term lease floor first, because that is what the loan should survive on."
+        },
+        {
+          "question": "What does the well and septic setup mean for a landlord?",
+          "answer": "You own the utilities, so you own their failures. A private well means the pump, pressure tank, and water quality are your capital items; a septic system means pumping every three to five years and a replacement risk measured in five figures. Underwriting-wise, lenders finance well-and-septic properties routinely, but the appraisal must note functioning systems, and smart buyers condition on a well flow test, water quality lab work, and a septic pump-and-inspect. Operationally, put utility response into the lease and budget a real reserve line. Priced correctly, the systems are a discount you were paid to manage, not a defect."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Pahrump typical value, YoY change, and days to pending, 2026",
+        "Zillow Rental Manager, Pahrump asking rent and YoY change, August 2026",
+        "Nye County and Town of Pahrump, Ordinance 74 short-term rental licensing effective August 4 2025, 2025",
+        "Nevada Department of Taxation, FY 2025-26 Pahrump town rate $3.4092 per $100 assessed, July 2025",
+        "Zillow zip data 89061 average $388,156 and local brokerage reporting on Calvada listing volumes, mid-2026 (neighborhood figures est.)"
+      ]
+    },
+    {
+      "city": "Fernley",
+      "slug": "fernley",
+      "county": "Lyon County",
+      "metro": "Reno-Sparks (commuter shed)",
+      "hook": "Fernley's typical home is $370K, down 5.3%, while Microsoft bought 300 acres in its industrial district and Redwood Materials leased 815,000 square feet. The catch nobody prices: a $3.6579 tax rate on new-build taxable values.",
+      "metaDescription": "Fernley homes average $370K, down 5.3%, as Microsoft and Redwood Materials land nearby. Watch the tax math on new builds. Get matched today.",
+      "market": {
+        "medianPrice": 369793,
+        "medianRent": 1500,
+        "priceToRent": 20.5,
+        "vacancyRate": 4,
+        "yoyPrice": -5.3,
+        "yoyRent": 3,
+        "estDSCR": 0.63,
+        "propertyTaxRate": 0.72,
+        "insuranceMonthly": 110
+      },
+      "overview": "Fernley is the cheapest new-construction market in northern Nevada, 30 miles east of Reno on I-80 and 15 minutes from the Tahoe Reno Industrial Center's east gate. The typical home fell 5.3% over the year to $369,793, a correction driven by builder competition: national builders kept delivering while resale sellers chased them down. That discount sits directly against an industrial pipeline that keeps compounding. The Victory Logistics District, Mark IV Capital's 4,300-acre project inside city limits, has roughly 2 million square feet of Class A industrial built, $120 million committed to grading 600 more acres toward 1,600 development-ready, Redwood Materials leased 815,000 square feet there, and Microsoft bought 300 acres in April 2025. Tesla's Gigafactory is 20 minutes west.\n\nRents tell the two-board story: the blended asking board reads $1,500, dragged by older and smaller stock, while three-bedroom houses ask near $2,150, and third-party trackers put rent growth around 3% for the year. The tenant is an industrial commuter household that wants a garage and a yard.\n\nThe number that surprises buyers is the tax line. Fernley's combined rate is $3.6579 per $100 assessed, a fraction under the statutory ceiling, and on new construction the depreciation discount in Nevada's taxable-value formula has not accumulated yet, so a new-build purchase bills near 0.72% of price in year one after the abatement reset, the heaviest effective load on this page. The house is cheap, the district is not. Model both.",
+      "regulationBadge": "friendly",
+      "regulationNote": "Fernley and Lyon County add no local landlord licensing on top of Nevada's no-rent-control, summary-eviction framework, so the practical constraints here are the near-ceiling tax rate and builder competition, not regulation.",
+      "neighborhoods": [
+        {
+          "name": "New-build subdivisions (Hwy 95A corridor)",
+          "medianPrice": 385000,
+          "medianRent": 2100,
+          "note": "The national-builder tracts delivering three-bedroom product to industrial commuters. Modern systems and warranty coverage cut repair risk, but you compete with the builder's incentives when leasing, and new-build taxable values carry the heaviest tax bills in town. Values estimated from active phases."
+        },
+        {
+          "name": "Desert Lakes / golf corridor",
+          "medianPrice": 400000,
+          "medianRent": 2150,
+          "note": "The established move-up pocket around the golf course. Larger lots and longer tenancies from senior industrial and rail households. The steadier resale tier when builders discount elsewhere. Values estimated."
+        },
+        {
+          "name": "Old Fernley grid",
+          "medianPrice": 320000,
+          "medianRent": 1750,
+          "note": "Pre-2000 stock near Main Street with the town's lowest entries and its most accumulated tax depreciation, which quietly means lower bills than the new tracts. Condition varies street by street; inspect like it is 1985, because parts of it are. Values estimated."
+        }
+      ],
+      "localAngle": {
+        "tag": "Tax Math",
+        "title": "Nevada's cheapest new houses carry its heaviest effective tax bills.",
+        "body": "Every Nevada county computes taxable value the same way: land at full cash value plus improvements at replacement cost new, less 1.5% depreciation for each year of age, up to 50 years. That depreciation clause is why a 1980s Las Vegas ranch bills around half a percent of its market value. It is also why Fernley, the newest housing stock in northern Nevada, gets no such discount: a 2024-built house has essentially zero accumulated depreciation, so its taxable value sits close to its market value, and Fernley's combined district rate of $3.6579 per $100 assessed is within a fraction of the statutory $3.66 ceiling. Stack the third Nevada mechanic on top, the abatement reset at sale under NRS 361.4723, and a new investor purchase here bills near 0.72% of price in year one, roughly $220 a month on a $369,793 typical home, then grows at the rental-class cap of up to 8% a year. On this page only Reno and Sparks come close, and they are at lower effective loads because their stock is older. None of this kills the Fernley trade; the entry price and the industrial tenant base are real. It just moves roughly one-tenth of a DSCR point out of the ratio, and files priced without it get repriced in underwriting. Your matched specialist will run the year-one bill off the assessor's actual formula, not the seller's history and not a state-average guess."
+      },
+      "programFit": [
+        "standard-dscr",
+        "bridge-to-dscr",
+        "portfolio-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 2-bath SFR (2020s build)",
+        "neighborhood": "New-build subdivisions (Hwy 95A corridor)",
+        "purchasePrice": 365000,
+        "downPaymentPct": 30,
+        "downPayment": 109500,
+        "loanAmount": 255500,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 1786,
+        "monthlyTax": 219,
+        "monthlyInsurance": 105,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 2110,
+        "monthlyRent": 2150,
+        "dscr": 1.02,
+        "monthlyCashFlow": 40,
+        "specialistFocus": [
+          "Underwrote the tax line at Fernley's near-ceiling rate on an undepreciated new-build taxable value, which is exactly where out-of-area pro formas break",
+          "Structured 30% down because the same file at 25% runs about 0.95, and the seller-paid closing credit was negotiated into the price correction instead",
+          "Qualified on the appraiser's three-bedroom market rent near $2,150 rather than the $1,500 blended board that averages in old-grid stock"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Why are Fernley prices down 5.3% if the job pipeline is so strong?",
+          "answer": "Builder competition, not demand failure. National builders kept delivering finished three-bedroom product through 2025 and 2026, and every incentive package they offered forced resale sellers to cut. The typical value fell to $369,793 while rents rose about 3%, which is the spread an investor wants: falling entry, firming income. The pipeline argument is about the next decade, not next quarter: 2 million square feet built at Victory Logistics District, 1,600 acres being made development-ready, Redwood Materials in 815,000 square feet, Microsoft holding 300 acres, and Tesla 20 minutes west. Buy the builder-war discount; underwrite today's rent."
+        },
+        {
+          "question": "Does the Microsoft land purchase actually mean anything yet?",
+          "answer": "It means land banking by the most disciplined data-center developer in the country, not paychecks this year. Microsoft closed on 300 acres at Victory Logistics District in April 2025 and has not announced construction timing, so no jobs, no power draw, no rent demand flows from it today. The honest way to price it: as confirmation that hyperscale operators consider Fernley's power, fiber, and land position viable, alongside the operating proof of Redwood Materials' 815,000 square feet and the district's existing tenants. Underwrite the rental on the industrial base that exists, and let any Microsoft build be the surprise on the upside."
+        },
+        {
+          "question": "Why is my Fernley tax estimate higher than a similar house in Reno?",
+          "answer": "Two mechanics stack against new stock. Fernley's combined rate, $3.6579 per $100 assessed, is effectively at Nevada's ceiling, matching Reno and Sparks. But Nevada also depreciates improvements 1.5% per year of age inside the taxable-value formula, and Fernley's housing is the newest in the region, so there is no accumulated depreciation to discount the bill. A 2024 build bills off nearly full replacement cost while a 1985 Reno ranch enjoys decades of the discount. Add the abatement reset when you buy, and year one runs near 0.72% of price here versus roughly 0.68% on older Reno stock. Small percentage, real dollars, every month."
+        },
+        {
+          "question": "Old Fernley grid or new-build tract for a first rental here?",
+          "answer": "New-build for most out-of-area investors, old grid for hands-on operators. The tract house costs about $65,000 more but carries warranty coverage, modern systems, and the floor plan industrial commuter families actually want, at rents near $2,100 to $2,150; its penalty is the heaviest tax bill in town. The old grid enters near $320,000 with materially lower taxable values and honest cash flow near $1,750, but you inherit 1980s systems and street-by-street condition risk that punishes remote management. Your matched specialist can price both files side by side; the ratios land closer than the sticker prices suggest."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Fernley typical value and YoY change, 2026",
+        "Zillow Rental Manager, Fernley blended and three-bedroom asking rents, August 2026 (YoY from apartments.com trend, February 2026)",
+        "Nevada Department of Taxation, FY 2025-26 Fernley combined rate $3.6579 per $100 assessed, July 2025",
+        "NNBW and Nevada Appeal reporting, Victory Logistics District build-out, Redwood Materials lease, Microsoft 300-acre purchase, April 2025",
+        "Neighborhood values derived from active listing mixes, 2026 (est.)"
+      ]
+    },
+    {
+      "city": "Elko",
+      "slug": "elko",
+      "county": "Elko County",
+      "metro": "Elko micropolitan",
+      "hook": "Elko homes average $329K, up 2.7% while the rest of Nevada corrected, because the mines around it drive roughly 19,000 jobs and produce most of the state's gold. The best rent-to-price spread in Nevada lives here, priced in one commodity.",
+      "metaDescription": "Elko homes average $329K with mining payrolls holding rents near $2,000 for 3-beds. Nevada's strongest DSCR spread, one commodity deep. Get matched today.",
+      "market": {
+        "medianPrice": 328788,
+        "medianRent": 1585,
+        "priceToRent": 17.3,
+        "vacancyRate": 2,
+        "yoyPrice": 2.7,
+        "yoyRent": 1,
+        "estDSCR": 0.75,
+        "propertyTaxRate": 0.66,
+        "insuranceMonthly": 105
+      },
+      "overview": "Elko is the company town where the company is gold. The mines of the Carlin Trend and the operations around Nevada Gold Mines, the Barrick-Newmont joint venture, drive roughly 19,000 direct and secondary jobs in the area in 2026, and the region produces the large majority of Nevada's gold, which is most of America's. With gold trading at record levels, the payroll side of this market has never been stronger, and housing never caught up: Elko has run a structural shortage for a decade, homes go pending in about 11 days out in Spring Creek, and the typical Elko home rose 2.7% to $328,788 in a year when Las Vegas fell 3.1%.\n\nRents show the shortage. The blended board reads $1,585, three-bedroom houses ask near $2,015, two-bedroom houses start around $1,300, and a four-bedroom fetches $2,450. Mining households are two-income, long-tenure, and used to paying for scarce housing, which is why Elko posts the strongest rent-to-price spread in Nevada: the citywide ratio at 20% down runs about 0.75, and in-town three-bedrooms at 30% down clear 1.0 with room to spare.\n\nThe honest risk is concentration. This market is one commodity deep, and a multi-year gold bear market would hit employment, rents, and resale liquidity at the same time. The offsetting facts: all-in sustaining costs at the big Nevada operations sit far below current prices, mine plans run decades, and Elko's shortage means even a softer market starts near 2% vacancy. Size the bet like a single-industry town, because it is one.",
+      "regulationBadge": "friendly",
+      "regulationNote": "Elko layers no local rental licensing on Nevada's landlord-friendly statewide framework, and the practical market risks are commodity concentration and winter capital expense, not regulation.",
+      "neighborhoods": [
+        {
+          "name": "Downtown Elko grid (89801 core)",
+          "medianPrice": 298000,
+          "medianRent": 1750,
+          "note": "The pre-1980 core near the casinos and the hospital. Cheapest entries in town and walking-distance demand from service and rail workers. Systems are old and winters are real, so budget furnace and roof reserves seriously. Values estimated from listing mixes."
+        },
+        {
+          "name": "Northside Elko",
+          "medianPrice": 365000,
+          "medianRent": 1950,
+          "note": "The 1990s-forward subdivisions toward the golf course and new schools, the default landing zone for relocating mine staff. The most liquid rental tier in the city, with three-bedroom garages leasing in days. Values estimated."
+        },
+        {
+          "name": "Spring Creek",
+          "medianPrice": 359743,
+          "medianRent": 2000,
+          "note": "The unincorporated bedroom community 15 minutes southeast, median $359,743 and pending in 11 days. Acre-plus lots, well and septic on much of the stock, horse setups, and mining families who stay for a full rotation. The DSCR sweet spot out here."
+        }
+      ],
+      "localAngle": {
+        "tag": "One-Industry Math",
+        "title": "The strongest spread in Nevada is a bet on one metal. Underwrite it that way.",
+        "body": "Elko's numbers look like a different state. A $328,788 typical home against three-bedroom rents near $2,015 produces entry ratios the Vegas and Reno pages cannot touch, vacancy runs near 2%, and values rose through a statewide correction. All of it traces to one line item: gold. Nevada Gold Mines and the surrounding operations support roughly 19,000 direct and secondary positions, the area produces over 70% of Nevada's gold, and record metal prices have the operators running full shifts and recruiting against a housing shortage they cannot build their way out of fast enough. The discipline is remembering what you own if the metal turns. A prolonged bear market compresses contractor employment first, then rents, then resale liquidity, and an Elko house is not a liquid asset in that scenario. Three structural protections matter: the big Nevada operations carry all-in sustaining costs far below current prices, so production survives long before it stops; mine plans on the Carlin Trend run in decades, not years; and the market starts from genuine scarcity, so softness shows up as flat rents rather than empty houses. Buy in-town or Spring Creek three-bedrooms, keep loans conservative enough to survive a flat decade, and treat the fat spread as the risk premium it is. Your matched specialist will structure the file so the ratio holds even if you mark rents down 10% for stress."
+      },
+      "programFit": [
+        "standard-dscr",
+        "portfolio-dscr",
+        "bridge-to-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 2-bath SFR",
+        "neighborhood": "Northside Elko",
+        "purchasePrice": 310000,
+        "downPaymentPct": 30,
+        "downPayment": 93000,
+        "loanAmount": 217000,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 1517,
+        "monthlyTax": 171,
+        "monthlyInsurance": 100,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 1788,
+        "monthlyRent": 1850,
+        "dscr": 1.03,
+        "monthlyCashFlow": 62,
+        "specialistFocus": [
+          "Stress-tested the ratio at rents 10% below market so a gold-cycle downturn bends the return instead of breaking the payment",
+          "Kept the purchase in the northside tier where mining-household demand is deepest, rather than chasing the higher headline yield of older downtown stock with winter-grade capital expense",
+          "Underwrote Elko's ceiling-rate tax district at $3.66 per $100 assessed with the post-sale cap reset, which out-of-state pro formas built on Nevada's average routinely miss"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Is Elko too dependent on gold to be a safe rental market?",
+          "answer": "It is exactly as dependent as it looks, and the price compensates you for it. Roughly 19,000 direct and secondary jobs trace to the mines, so a multi-year gold bear market would hit rents and liquidity together. The mitigations are specific: all-in sustaining costs at the major Nevada operations sit far below current record prices, meaning production continues deep into any downturn; Carlin Trend mine plans run decades; and the town starts from about 2% vacancy, so softness arrives as flat rents, not vacancies. Treat Elko as a high-yield allocation you size deliberately, not a core holding you max out on."
+        },
+        {
+          "question": "Why are Elko rents so strong for a town this size?",
+          "answer": "Chronic shortage meeting industrial wages. Mining households earn well above Nevada's median, the operators recruit continuously, and homebuilding has trailed demand for a decade because land development, labor, and materials all run expensive this far from a metro. The result: three-bedroom houses ask near $2,015, four-bedrooms reach $2,450, and well-priced units lease in days. Third-party trackers put overall rent growth near 1% for the year, which understates the house segment where relocating mine staff compete. For an investor the practical point is depth: your applicant pool is employed, two-income, and used to Elko pricing."
+        },
+        {
+          "question": "Spring Creek or in-town Elko for a first rental?",
+          "answer": "Spring Creek for the tenant, in-town for the simplicity. Spring Creek's $359,743 median buys acre-plus lots and the family setups mining households prefer, pending in 11 days, with tenancies that run a full work rotation. The costs are rural: well and septic on much of the stock, longer service calls, and an HOA-like association fee on some units. In-town northside product at $365,000 or the downtown grid near $298,000 skips the well-and-septic questions and leases nearly as fast. Ratios land within a few points of each other at 30% down. Pick based on how much property you want to manage from wherever you live."
+        },
+        {
+          "question": "Do lenders have problems with small-market Elko files?",
+          "answer": "Two predictable ones, both solvable. First, loan minimums: the downtown grid's cheapest houses can produce loan amounts under $150,000, and a slice of the 70+ lender universe floors out there, though far more accept it than the internet claims. Second, rural comparables: appraisers need enough recent sales, which is rarely an issue in town or Spring Creek but can bite on outlying acreage and unique properties. Manufactured homes carry their own eligibility rules here as everywhere. Your matched specialist will screen for lenders comfortable with micropolitan collateral before the appraisal is ordered, which is the step that keeps Elko files boring."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Elko typical value and YoY change, 2026",
+        "Zillow Rental Manager, Elko blended and bedroom-level asking rents, August 2026 (YoY from apartments.com trend, February 2026)",
+        "Zillow Home Value Index, Spring Creek typical value and days to pending, 2026",
+        "Industry and press reporting, Nevada Gold Mines area employment near 19,000 and share of Nevada gold output, 2026",
+        "Nevada Department of Taxation, FY 2025-26 City of Elko combined rate $3.6600 per $100 assessed, July 2025",
+        "Neighborhood values derived from listing mixes, 2026 (est.)"
+      ]
+    },
+    {
+      "city": "Boulder City",
+      "slug": "boulder-city",
+      "county": "Clark County",
+      "metro": "Las Vegas-Henderson-North Las Vegas",
+      "hook": "Boulder City has capped growth at 120 new homes a year since 1979 and has not even used a third of that in a decade. Scarcity is the product: $471K typical value, 30 minutes from the Strip, and no short-term rentals allowed.",
+      "metaDescription": "Boulder City caps building permits near 120 a year and bans STRs, so supply never floods. See how DSCR investors buy scarcity. Get matched today.",
+      "market": {
+        "medianPrice": 471425,
+        "medianRent": 1565,
+        "priceToRent": 25.1,
+        "vacancyRate": 4,
+        "yoyPrice": -1.2,
+        "yoyRent": 7.9,
+        "estDSCR": 0.53,
+        "propertyTaxRate": 0.48,
+        "insuranceMonthly": 120
+      },
+      "overview": "Boulder City is the town the growth machine skipped on purpose. Its 1979 controlled-growth ordinance, tightened in the 1990s, caps new residential allotments near 120 units a year, and in the past decade actual permits have never reached a third of that. Population has held around 15,000 since 2000 while the valley next door added a million people. The result is a market that behaves like nowhere else in Clark County: the typical home runs $471,425, down just 1.2% through the correction, the housing stock skews to 1940s dam-era cottages and mid-century ranches, and hardly anything new ever competes with your rental.\n\nThe income side is thinner than the asset side. The blended asking board reads $1,565, dragged by small older units, while three-bedroom houses ask near $2,300, up sharply on a thin board over the year. At the citywide numbers the 20%-down ratio lands near 0.53, the softest on this page, and that is the honest price of scarcity. Two things partially rescue the math: Boulder City's tax district is the cheapest in the region at $2.6097 per $100 assessed, roughly 0.48% of market value on this old stock in year one, and interest-only structures pull mid-tier files to the 1.0 line.\n\nKnow the rules before you model: the city defined and prohibited short-term rentals outright in March 2024, with fines up to $500 a day. This is a long-term rental market for tenants who chose a small town on purpose: dam and utility workers, Henderson commuters, and retirees who never leave.",
+      "regulationBadge": "moderate",
+      "regulationNote": "Boulder City prohibits short-term rentals entirely, with fines up to $500 a day under its March 2024 ordinance, and its 120-permit growth cap constrains supply, while long-term landlords still get Nevada's statewide no-rent-control framework.",
+      "neighborhoods": [
+        {
+          "name": "Historic District",
+          "medianPrice": 500000,
+          "medianRent": 2450,
+          "note": "The 1930s dam-era bungalows near the downtown core, mostly HOA-free, trading roughly $400K to $650K. Charm rents at a premium and maintains itself at a cost; budget for old-house capital expense and check the historic-review rules before exterior work. Values estimated from listing ranges."
+        },
+        {
+          "name": "Villa Del Prado / central ranches",
+          "medianPrice": 430000,
+          "medianRent": 2250,
+          "note": "The mid-century single-story belt in the town's center, roughly $300K to $560K. The practical rental tier: three-bedroom ranches leasing to commuters and utility workers, and the stock where interest-only structures reach the ratio line. Values estimated."
+        },
+        {
+          "name": "Lake Mead View Estates / hillside",
+          "medianPrice": 700000,
+          "medianRent": 2900,
+          "note": "The view pockets above town, from $600K into seven figures. Trophy scarcity with the thinnest yields in southern Nevada; these are equity holdings with tenants in them, and resale liquidity depends on a narrow buyer pool. Values estimated."
+        }
+      ],
+      "localAngle": {
+        "tag": "Supply Cap",
+        "title": "A 120-permit ceiling since 1979, and the town never gets close to it.",
+        "body": "Every other Nevada market on this page manages a supply wave: Vegas absorbs apartment deliveries, Fernley fights builder incentives, Reno waits on the next tract map. Boulder City legislated the problem away in 1979. The controlled-growth ordinance, passed after the town's population nearly doubled in a decade, limits residential building permits to roughly 120 allotments a year, amended in the 1990s and enforced ever since, and the striking part is the slack: over the past decade, actual allotments have never exceeded about a third of the ceiling. Add the city's ownership of the vast Eldorado Valley, leased to solar farms that fund the budget instead of being sold to subdivisions, and you get a Clark County town of 15,000 that structurally cannot flood its own housing market. For a landlord the consequences are mechanical: your 1960s ranch never competes with a lease-up special, values held within 1.2% through a correction that took Vegas down 3.1%, and the tax district, with decades of accumulated depreciation on old stock and a $2.6097 rate, is the cheapest carrying cost in the region. The other side of the ledger is just as mechanical: thin rents against scarce prices produce the weakest entry ratio on this page, and the 2024 short-term rental prohibition removed the nightly-rate workaround entirely. Your matched specialist will structure around that honestly, usually with interest-only payments and real equity, because scarcity pays here in appreciation and zero-vacancy operation, not in monthly spread."
+      },
+      "programFit": [
+        "interest-only-dscr",
+        "standard-dscr",
+        "no-ratio-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 2-bath mid-century ranch",
+        "neighborhood": "Villa Del Prado / central ranches",
+        "purchasePrice": 455000,
+        "downPaymentPct": 30,
+        "downPayment": 136500,
+        "loanAmount": 318500,
+        "loanType": "30-Year Fixed, Interest-Only",
+        "interestOnly": true,
+        "monthlyPI": 1991,
+        "monthlyTax": 182,
+        "monthlyInsurance": 125,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 2298,
+        "monthlyRent": 2450,
+        "dscr": 1.07,
+        "monthlyCashFlow": 152,
+        "specialistFocus": [
+          "Structured interest-only because the amortizing version of this file runs about 0.94, and the IO payment is what turns scarcity into positive carry",
+          "Underwrote the region's cheapest tax district honestly, near 0.48% of price in year one, which is the one line where Boulder City beats every neighbor",
+          "Documented the long-term lease exclusively, because the city's March 2024 ordinance prohibits rentals under 30 days with fines up to $500 per day"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Can I run an Airbnb in Boulder City?",
+          "answer": "No. Boulder City defined short-term rentals as stays under 30 consecutive days and prohibited them outright, with the council formalizing the ban in March 2024 and setting fines up to $500 per day. There is no permit, no license, no lottery, and no grandfather path; the city's position is that residential housing exists for residents. This is unusual even in Nevada, where most jurisdictions license the activity, and it is enforced off listing sites, not just complaints. Buy Boulder City for the long-term lease and the supply cap. If nightly income is the strategy, Mesquite runs the licensed version of that market."
+        },
+        {
+          "question": "Does the growth cap really show up in returns?",
+          "answer": "It shows up as absence of pain. Boulder City permits have not exceeded roughly a third of the 120-unit ceiling in a decade, so no lease-up specials, no builder incentive war, and no sudden comp resets hit your street. Through the 2025-2026 correction the typical value slipped 1.2% while Las Vegas fell 3.1% and Mesquite 5.4%. Vacancy behaves the same way: with three-bedroom asking rents near $2,300 on a chronically thin board, well-kept houses lease fast and re-lease faster. What the cap does not do is make the entry math generous. You are paying for stability up front; the ratio says so."
+        },
+        {
+          "question": "Why is the DSCR so weak if taxes are the cheapest in the region?",
+          "answer": "Because the price embeds the scarcity. Boulder City's tax district runs $2.6097 per $100 assessed, and decades of depreciation on the old stock hold year-one bills near 0.48% of price, genuinely the best carrying cost on this page. But the typical home costs $471,425 while the blended rent board reads $1,565, a price-to-rent ratio above 25. Even using realistic house rents near $2,300 to $2,450, the standard formula at 20% down sits deep below 1.0. The fix is structural: 30% down plus interest-only reaches the line, and the return thesis is appreciation plus zero-vacancy operation, not monthly spread."
+        },
+        {
+          "question": "Who actually rents in Boulder City?",
+          "answer": "People who chose the town, which is the best tenant profile there is. The base: Hoover Dam and Bureau of Reclamation staff, utility and solar-field workers from the Eldorado Valley leases, hospital and city employees, Henderson commuters who want small-town schools, and retirees transitioning between owned homes. Turnover is low because the alternative to renting in Boulder City is leaving Boulder City; the supply cap means there is rarely a similar house open down the street. Screen normally, price at the market, and expect tenancies to run long. The operational work here is maintenance on older homes, not leasing."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Boulder City typical value and YoY change, May 2026",
+        "Zillow Rental Manager, Boulder City blended and three-bedroom asking rents, August 2026",
+        "Boulder City ordinance and Boulder City Review reporting, short-term rental prohibition and $500 daily fines, March 2024",
+        "Boulder City Review and city records, 1979 controlled-growth ordinance and 120-unit annual allotment cap, 2026",
+        "Nevada Department of Taxation, FY 2025-26 Boulder City combined rate $2.6097 per $100 assessed, July 2025",
+        "Neighborhood values derived from listing ranges, 2026 (est.)"
+      ]
+    },
+    {
+      "city": "Laughlin",
+      "slug": "laughlin",
+      "county": "Clark County",
+      "metro": "Las Vegas-Henderson-North Las Vegas",
+      "hook": "Laughlin condos trade from under $200K against a casino corridor that employs most of the town, the cheapest buy-in in Clark County. The deal lives or dies on one word lenders care about more than price: warrantability.",
+      "metaDescription": "Laughlin condos start under $200K with casino-payroll tenants on the river. The catch is condo financing, and DSCR lenders solve it. Get matched today.",
+      "market": {
+        "medianPrice": 259906,
+        "medianRent": 1205,
+        "priceToRent": 18,
+        "vacancyRate": 7,
+        "yoyPrice": -3.1,
+        "yoyRent": -7.3,
+        "estDSCR": 0.72,
+        "propertyTaxRate": 0.64,
+        "insuranceMonthly": 90
+      },
+      "overview": "Laughlin is Clark County's forgotten submarket: an unincorporated casino town of roughly 8,000 people on the Colorado River, 90 minutes south of Las Vegas, across the water from Bullhead City, Arizona. The blended typical value sits at $259,906, down 3.1%, because the stock is condo-heavy: riverfront-adjacent condos trade from under $200,000 while the small single-family mesa above the casino corridor carries a median list near $394,000. Rents follow the same split, a $1,205 blended board with two-bedroom condos near $1,250 to $1,450 and mesa houses near $1,900.\n\nThe tenant base is the casino corridor, which is both the pitch and the risk. Golden Entertainment and the other river operators staff the town, hourly casino pay averages about $16.68, and 2026 has been a decent river year, with operators running promotions that filled dining rooms and added hospitality shifts. But one industry, one street, one river: underwrite vacancy honestly at 7% or worse, because when the corridor slows, everything slows together. Snowbird demand adds a seasonal floor under the condo tier.\n\nThe real gatekeeper in Laughlin is not the market, it is the condo file. Buildings with heavy investor concentration, HOA litigation, thin reserves, or hotel-style operations fail agency warrantability tests, which is precisely why the DSCR world matters here: portfolio DSCR lenders underwrite the building on its actual financials and price accordingly. Same story as everywhere on this page, in miniature: the discount is real, and it exists for reasons you can inspect. Inspect the HOA hardest.",
+      "regulationBadge": "moderate",
+      "regulationNote": "Laughlin sits in unincorporated Clark County, so the county's frozen, litigation-tangled short-term rental licensing applies here too, while long-term rentals face only Nevada's landlord-friendly statewide rules.",
+      "neighborhoods": [
+        {
+          "name": "Casino Drive condo corridor",
+          "medianPrice": 185000,
+          "medianRent": 1250,
+          "note": "The towers and garden condos serving the resort strip, trading from under $150K to the low $200Ks. Cheapest income real estate in Clark County, and the tier where HOA health and warrantability decide everything. Read the budget, reserves, and litigation history before falling for the price. Values estimated."
+        },
+        {
+          "name": "Mesa single-family core",
+          "medianPrice": 394000,
+          "medianRent": 1900,
+          "note": "The small stock of houses on the bluff above the corridor, median list near $394K in June 2026. Rents to casino management, river-industry, and utility households on standard leases with none of the condo-financing friction. Thin inventory cuts both ways at resale."
+        },
+        {
+          "name": "Needles Highway townhomes",
+          "medianPrice": 260000,
+          "medianRent": 1500,
+          "note": "The attached product between the corridor and the state line: two-bed units renting to hospitality staff and snowbirds. Some associations here pass warrantability tests that the resort-adjacent towers fail, which quietly makes this the easier loan. Values estimated."
+        }
+      ],
+      "localAngle": {
+        "tag": "Condo Financing",
+        "title": "In Laughlin the building gets underwritten before you do.",
+        "body": "Every cheap Laughlin listing hides the same question: can this condo be financed at all? Agency-style warrantability tests look at the association, not the borrower, and Laughlin's stock trips the classic wires: investor concentration far above owner-occupant thresholds in buildings that have rented out for decades, HOA budgets with reserve lines under 10%, single-entity owners holding blocks of units, past or pending litigation, and resort-adjacent operations that smell like condotels to an underwriter. When a building fails those tests, the conventional buyer pool for every unit in it shrinks to cash, which is simultaneously why prices sit under $200,000 and why the exit needs planning. DSCR portfolio lenders are the working answer: they order the same HOA questionnaire, then underwrite the building's actual financials, occupancy mix, and litigation posture, and price the loan for the risk instead of auto-declining it. Expect the tradeoffs to be explicit: larger down payments, often 30%, HOA dues underwritten inside the payment, and building-level conditions like insurance certificates naming the association. Two Laughlin-specific lines belong in every model: the town's district tax rate is a stout $3.3483 per $100 assessed, and special assessments are how thin-reserve associations fix roofs, so the HOA's reserve study is your capital-expense forecast. Your matched specialist will pull the condo questionnaire before the offer, not after, because in Laughlin the questionnaire is the deal."
+      },
+      "programFit": [
+        "standard-dscr",
+        "portfolio-dscr",
+        "no-ratio-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "2-bed / 2-bath condo",
+        "neighborhood": "Casino Drive condo corridor",
+        "purchasePrice": 215000,
+        "downPaymentPct": 30,
+        "downPayment": 64500,
+        "loanAmount": 150500,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 1052,
+        "monthlyTax": 115,
+        "monthlyInsurance": 55,
+        "monthlyHOA": 250,
+        "monthlyPITIA": 1472,
+        "monthlyRent": 1450,
+        "dscr": 0.99,
+        "monthlyCashFlow": -22,
+        "specialistFocus": [
+          "Pulled the HOA questionnaire before the offer and placed the file with a portfolio DSCR lender that accepts this building's investor concentration, which agency-style programs decline outright",
+          "Underwrote the $250 HOA dues inside the payment and read the reserve study as the real capital-expense forecast, since thin-reserve associations repair roofs through special assessments",
+          "Structured 30% down to hold the ratio at the 0.99 line and verified the loan amount cleared the lender's floor, the two quiet constraints on sub-$220K condo files"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Why are Laughlin condos so cheap?",
+          "answer": "Because most buyers cannot finance them. Many associations along the corridor fail agency-style warrantability tests: investor concentration above thresholds, reserves under 10% of the budget, single entities owning unit blocks, or resort-style operations. That shrinks the buyer pool toward cash, and prices under $200,000 are the equilibrium that clears. The rent side never got the memo: two-bedroom units lease near $1,250 to $1,450 to casino staff and snowbirds. The play only works if you solve the financing both directions, buying through a portfolio DSCR lender and knowing the next buyer will need one too. Price your exit for that reality."
+        },
+        {
+          "question": "Is a one-casino-economy town too risky for a rental?",
+          "answer": "It is concentrated, and the numbers should say so out loud. The river corridor employs most of the town at hourly wages averaging about $16.68, so your tenant pool's income rises and falls with visitation. 2026 has been decent, with operators running promotions that added shifts, but a soft river year hits every landlord at once, which is why this page carries Laughlin at 7% vacancy instead of the valley's 6%. The offsets: snowbird demand floors the winter, Bullhead City's hospital and river industry add cross-river tenants, and the buy-in is a third of a Vegas house. Size it as a yield satellite, not a core position."
+        },
+        {
+          "question": "Should I buy on the Nevada side or in Bullhead City across the river?",
+          "answer": "The river is a tax line. Nevada has no state income tax on your rental income and Laughlin sits in Clark County's legal framework, including Nevada's summary eviction, among the fastest nonpayment processes in the country. Arizona taxes the income but offers cheaper entry points in Bullhead City and a bigger single-family stock. Property taxes roughly rhyme once Laughlin's $3.3483 district rate meets Nevada's depreciation-heavy taxable values. The practical rule: condo yield plays and eviction-speed priorities favor Laughlin; buy-and-hold single-family selection favors Bullhead. Your matched specialist can run both files, since DSCR lenders in the network write in both states."
+        },
+        {
+          "question": "Can I short-term rent a Laughlin condo to river tourists?",
+          "answer": "Treat the answer as no for underwriting purposes. Laughlin is unincorporated Clark County, so the county's short-term rental regime applies: a licensing program that issued only 174 licenses from its 2023 lottery, an application portal closed since August 2023, and a December 2025 federal injunction, now under county appeal, that froze enforcement questions mid-air. Operating unlicensed in that environment is a legal-exposure bet, and most Laughlin HOAs prohibit sub-30-day rentals anyway, which ends the question regardless of the county. The workable models are the 30-day-plus snowbird lease, which fits the winter demand perfectly, and the standard annual lease to corridor staff."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Laughlin typical value and YoY change, May 2026",
+        "Zillow Rental Manager, Laughlin blended asking rent and YoY change, August 2026",
+        "Local brokerage reporting, Laughlin median list price $394,000 and condo entry points, June 2026",
+        "ZipRecruiter and river-market reporting, Laughlin casino hourly pay near $16.68 and 2026 corridor activity, April 2026",
+        "Nevada Department of Taxation, FY 2025-26 Laughlin town rate $3.3483 per $100 assessed, July 2025",
+        "Clark County STR licensing status and federal injunction coverage, January 2026 (neighborhood values est.)"
+      ]
+    }
+  ]
+}
