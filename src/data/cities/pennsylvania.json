@@ -1,0 +1,1352 @@
+{
+  "state": "Pennsylvania",
+  "abbreviation": "PA",
+  "stateSlug": "pennsylvania",
+  "dataUpdated": "2026-08",
+  "cities": [
+    {
+      "city": "Philadelphia",
+      "slug": "philadelphia",
+      "county": "Philadelphia County",
+      "metro": "Philadelphia-Camden-Wilmington",
+      "hook": "Philadelphia's typical home value is $237K against average rents of $1,814, one of the few major East Coast markets where the median still clears 1.0. The catch is the country's steepest acquisition tax and a licensing stack most out-of-state buyers first meet at the closing table.",
+      "metaDescription": "Philadelphia DSCR deals clear 1.0 at the median, $237K values against $1,814 rents. Price the 4.578% transfer tax first. Get matched today.",
+      "market": {
+        "medianPrice": 237459,
+        "medianRent": 1814,
+        "priceToRent": 10.9,
+        "vacancyRate": 6.3,
+        "yoyPrice": 0.4,
+        "yoyRent": 3.4,
+        "estDSCR": 1.04,
+        "propertyTaxRate": 1.3998,
+        "insuranceMonthly": 140
+      },
+      "overview": "Philadelphia is the rare big city where the arithmetic still works at the median. The typical home value sits at $237,459 as of June 2026, essentially flat over the year at 0.4%, while average rents rose 3.4% to $1,814. Run the standard formula at 20% down and the median produces a ratio around 1.04, above the line while nearly every comparable metro sits below it. Property tax helps: the combined city and school rate is 1.3998% of assessed value, moderate by Pennsylvania standards.\n\nNow the part the yield spreadsheets skip. Philadelphia charges 4.578% in realty transfer tax on every purchase, 3.578% to the city since July 1, 2025 plus 1% to the state. On a $237,459 rowhome that is roughly $10,870 in acquisition cost before a dollar of rent arrives, and it recurs on every future sale. Then the operating stack: a rental license for every unit, a Certificate of Rental Suitability delivered to each new tenant, and a lead-safe or lead-free certification for pre-1978 stock, which is most of the city.\n\nEviction is slower here by design. Landlords must complete the city's Eviction Diversion Program before filing a nonpayment case, and the Safe Healthy Home Act, effective November 1, 2026, blocks eviction filings unless the property holds a Certificate of Rental Suitability issued within the prior 30 days. Investors who build the compliance calendar into the file do well here. Investors who copy a Texas pro forma do not.",
+      "regulationBadge": "tenant",
+      "regulationNote": "Pennsylvania has no rent control anywhere, but Philadelphia layers a rental license, a Certificate of Rental Suitability, lead certification, and a mandatory Eviction Diversion Program on top of state law, so compliance is a real line item even though pricing stays free.",
+      "neighborhoods": [
+        {
+          "name": "Frankford",
+          "medianPrice": 143517,
+          "medianRent": 1350,
+          "note": "Lower Northeast rowhome stock at $143,517, up 0.5% while pricier zip codes stalled. The entry point for cash-flow buyers who want city rents without Center City prices, with condition and turnover risk to match."
+        },
+        {
+          "name": "Olney",
+          "medianPrice": 167588,
+          "medianRent": 1450,
+          "note": "Dense North Philadelphia rowhome and duplex territory near $167,588. A deep tenant base and some of the strongest rent-to-price spreads in the city, which is why local operators quietly concentrate here."
+        },
+        {
+          "name": "Mayfair",
+          "medianPrice": 239063,
+          "medianRent": 1600,
+          "note": "The classic Northeast Philly landlord neighborhood, brick rows on tidy blocks at $239,063. Values eased 2.5% over the year, which is the first real entry window this stock has offered since 2020."
+        },
+        {
+          "name": "Point Breeze",
+          "medianPrice": 294633,
+          "medianRent": 1900,
+          "note": "South Philly's flipped-and-stabilized zone at $294,633, flat on the year. Newer renovations and stronger tenants, but the ratio thins out fast at this price, so buyers here are underwriting appreciation."
+        }
+      ],
+      "localAngle": {
+        "tag": "Real Costs",
+        "title": "The ratio clears at the median. The 4.578% transfer tax and the license stack decide the deal.",
+        "body": "Philadelphia's transfer tax is among the highest acquisition costs in American real estate. Since July 1, 2025, the city's Realty Transfer Tax runs 3.578%, and the Commonwealth adds 1%, for 4.578% of the sale price on every deed. Sellers and buyers can split it by contract, but market practice in investor deals usually lands most of it on the buyer. On a typical $237,459 purchase that is about $10,870, which quietly adds nearly a full point of cost basis versus buying the same yield in almost any other state. Then comes the operating stack, and it is enforced: every rental unit needs a rental license from Licenses and Inspections, every new tenancy needs a Certificate of Rental Suitability issued within 60 days before move-in, and pre-1978 properties need a lead-safe or lead-free certification, with the lead-safe version expiring every four years. Nonpayment evictions must route through the Eviction Diversion Program before the court will take the filing, and starting November 1, 2026 the Safe Healthy Home Act requires a suitability certificate issued within 30 days before any eviction filing. None of this kills the math, because the rent-to-price spread absorbs it. It just has to be in the file from day one, and your matched specialist will structure the loan on the numbers that survive all of it."
+      },
+      "programFit": [
+        "standard-dscr",
+        "portfolio-dscr",
+        "bridge-to-dscr",
+        "interest-only-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "Duplex (2-unit)",
+        "neighborhood": "Olney",
+        "purchasePrice": 260000,
+        "downPaymentPct": 25,
+        "downPayment": 65000,
+        "loanAmount": 195000,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 1363,
+        "monthlyTax": 303,
+        "monthlyInsurance": 175,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 1841,
+        "monthlyRent": 2600,
+        "dscr": 1.41,
+        "monthlyCashFlow": 759,
+        "specialistFocus": [
+          "Budgeted the full 4.578% transfer tax into cash-to-close so the file did not come up short at the table, a miss that sinks a surprising number of first Philadelphia deals",
+          "Qualified on the appraiser's unit-by-unit market rents for the duplex rather than the single blended figure the listing carried",
+          "Confirmed the rental licenses and lead-safe certification were transferable-ready before the appraisal was ordered, keeping the collateral legally rentable on day one"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Is Philadelphia good for rental property investing in 2026?",
+          "answer": "The math is better than almost any comparable East Coast city: a $237,459 typical value against $1,814 average rents puts the citywide ratio near 1.04 at 20% down, and rents rose 3.4% while prices stayed flat. What separates winners from losers here is not the spread, it is compliance and acquisition cost. Budget 4.578% transfer tax on the way in, hold a rental license and lead certification, and expect nonpayment evictions to route through mandatory diversion. Investors who price all of that still find Frankford, Olney, and Mayfair produce genuine cash flow."
+        },
+        {
+          "question": "Who pays Philadelphia's 4.578% transfer tax?",
+          "answer": "Legally the city does not care, it attaches to the transaction, and the parties split it however the contract says. Custom in owner-occupant deals is a 50-50 split. In investor purchases, especially competitive ones, buyers frequently absorb most or all of it to win the deal. Either way it is real money: about $10,870 on a median purchase, and it applies again every time the property trades. Smart buyers treat it as part of cost basis and let the rent-to-price spread amortize it, and lenders will want to see it in your cash-to-close before clearing the file."
+        },
+        {
+          "question": "What licenses do I need to rent out a Philadelphia property?",
+          "answer": "Three things, and enforcement is real. First, a rental license from the Department of Licenses and Inspections for every unit, which requires the property be violation-free. Second, a Certificate of Rental Suitability issued within 60 days before each new tenancy, delivered to the tenant with the city's Partners in Good Housing handbook. Third, for pre-1978 buildings, a lead-safe or lead-free certification, with lead-safe versions expiring every four years. Miss any of them and you can lose the right to collect rent or file an eviction. Your matched specialist will want the license status documented before closing."
+        },
+        {
+          "question": "How does Philadelphia's eviction diversion program affect underwriting?",
+          "answer": "It stretches the timeline, and DSCR lenders know it. Before filing a nonpayment eviction, a landlord must apply to the Eviction Diversion Program and attempt mediation, which adds weeks to any delinquency. From November 1, 2026, the Safe Healthy Home Act also requires a Certificate of Rental Suitability issued within 30 days before any eviction filing. Neither rule caps your rent or blocks a legitimate case, but both reward operators who keep paperwork current and screen carefully. Underwrite an extra month of carry into your reserves and the program becomes a process, not a crisis."
+        },
+        {
+          "question": "Which Philadelphia neighborhoods actually cash flow?",
+          "answer": "The rowhome belt, not the renovated core. Frankford at $143,517 and Olney at $167,588 pair five-figure-per-year rent totals with the cheapest structurally sound brick stock in the city, and duplexes there routinely clear 1.3 on the ratio. Mayfair at $239,063 is the stability play, and its 2.5% dip over the past year is the first genuine entry window in that stock since 2020. Point Breeze and anything closer to Center City trades on appreciation, not yield, and usually needs interest-only structuring or a larger down payment to clear 1.0."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Philadelphia typical home value and YoY change, June 2026",
+        "Zillow Observed Rent Index, Philadelphia average rent and YoY change, June 2026",
+        "US Census Bureau Housing Vacancy Survey, Philadelphia metro rental vacancy, 2024",
+        "City of Philadelphia Department of Revenue, Realty Transfer Tax of 4.578% total effective July 1 2025, July 2026",
+        "City of Philadelphia, Real Estate Tax rate of 1.3998% (city 0.6159% plus school 0.7839%), 2026",
+        "Zillow neighborhood ZHVI for Frankford, Olney, Mayfair, Point Breeze, June 2026; neighborhood rents estimated from citywide ZORI (est.)"
+      ]
+    },
+    {
+      "city": "Pittsburgh",
+      "slug": "pittsburgh",
+      "county": "Allegheny County",
+      "metro": "Pittsburgh",
+      "hook": "Pittsburgh's typical home value is $246K, down 0.7% while rents rose 3.7%, and the county's assessment ratio for appeals fell to 50.14% for 2026. Values drifting and the tax math moving in the buyer's favor is a combination most markets never offer.",
+      "metaDescription": "Pittsburgh homes average $246K with rents up 3.7%, and the 2026 assessment ratio fell to 50.14%. See where DSCR files clear. Get matched today.",
+      "market": {
+        "medianPrice": 246117,
+        "medianRent": 1593,
+        "priceToRent": 12.9,
+        "vacancyRate": 8.9,
+        "yoyPrice": -0.7,
+        "yoyRent": 3.7,
+        "estDSCR": 0.91,
+        "propertyTaxRate": 1.24,
+        "insuranceMonthly": 120
+      },
+      "overview": "Pittsburgh's typical home value is $246,117 as of June 2026, down 0.7% over the year, while average rents rose 3.7% to $1,593. That spread, soft prices against firm rents, is what a cash-flow buyer wants to see, and it is why the citywide ratio at 20% down lands around 0.91, close enough that submarket selection and structure carry a file over the line. Rental vacancy across the metro runs high at 8.9%, so the lease you underwrite matters more than the lease you imagine.\n\nThe tax situation is genuinely unusual. Allegheny County still runs on 2012 base-year assessments, and the state-calculated common level ratio used in appeals fell to 50.14% for 2026, after 54.5% in 2025 and 87.5% a few years before. In practice a buyer at today's prices can often appeal to an assessment near half of the purchase price, while school districts run the same appeal in reverse on recent sales. The combined stack, 6.43 county mills after the 2025 increase, 8.06 city mills, and Pittsburgh Public Schools millage that rose 2% for 2026, works out to roughly 1.2% to 1.3% of market value for a recent purchase once the ratio applies.\n\nThe city's rental registration program adds paperwork but little bite for now: Commonwealth Court blocked the original inspection scheme in March 2023, and the relaunched registry that opened in December 2024 remains voluntary until the city gives formal notice. Underwrite the tax appeal, not the registry.",
+      "regulationBadge": "moderate",
+      "regulationNote": "Pennsylvania has no rent control and Pittsburgh's rental registration program remains voluntary after a 2023 Commonwealth Court ruling, so the operating risk here is assessment appeals and older housing stock rather than tenant law.",
+      "neighborhoods": [
+        {
+          "name": "Middle Hill",
+          "medianPrice": 116385,
+          "medianRent": 1200,
+          "note": "The cheapest sourced entry in the city at $116,385, between Downtown and Oakland's hospital and university employment. Deep value with real renovation budgets required, and small loan balances that limit which lenders will look."
+        },
+        {
+          "name": "Polish Hill",
+          "medianPrice": 209155,
+          "medianRent": 1500,
+          "note": "Compact rowhome stock at $209,155 wedged between the Strip District and Lawrenceville jobs corridors. The last sub-$250K pocket in the East End's growth path, which is exactly why BRRRR operators work it hard."
+        },
+        {
+          "name": "Bloomfield",
+          "medianPrice": 301318,
+          "medianRent": 1700,
+          "note": "Pittsburgh's Little Italy at $301,318, walkable to three hospital systems. Reliable medical-resident and young-professional tenants; the ratio is thin at asking prices, so files here usually run larger down payments."
+        },
+        {
+          "name": "Central Lawrenceville",
+          "medianPrice": 353713,
+          "medianRent": 1950,
+          "note": "The appreciation story at $353,713, renovated rows and infill near the tech and robotics employers along the Allegheny. Buyers here are underwriting growth, not yield, and most files need interest-only structure to pencil."
+        }
+      ],
+      "localAngle": {
+        "tag": "Tax Appeals",
+        "title": "The 50.14% ratio cuts both ways: your appeal, and the school district's.",
+        "body": "Allegheny County has not reassessed since 2012, so every tax bill runs through a ratio, and that ratio just moved decisively in the buyer's favor. The common level ratio applied in assessment appeals is 50.14% for 2026, after 54.5% in 2025 and 87.5% as recently as 2022, after litigation forced the county to fix how the figure was calculated. Two consequences matter to an investor. First, if you buy at market price and the property's assessment sits well above half your purchase price, an appeal window opens every year, filings for 2026 ran July through early September, and thousands of owners used it to cut five figures from taxable value. Second, the same mechanism runs in reverse: school districts monitor recent sales and file their own appeals to drag assessments up toward 50.14% of the price you just paid. So the honest underwriting move is to assume your assessment lands near half of your purchase price either way, apply the combined millage, roughly 6.43 county after the 2025 increase, 8.06 city, and Pittsburgh Public Schools millage that rose 2% for 2026, and let anything better be upside. Your matched specialist will structure the file on the post-appeal tax number, not the seller's frozen bill."
+      },
+      "programFit": [
+        "standard-dscr",
+        "bridge-to-dscr",
+        "portfolio-dscr",
+        "interest-only-dscr"
+      ],
+      "dealExample": {
+        "label": "BRRRR Refinance",
+        "propertyType": "3-bed / 1-bath SFR",
+        "neighborhood": "Polish Hill",
+        "purchasePrice": 199000,
+        "downPaymentPct": 25,
+        "downPayment": 49750,
+        "loanAmount": 149250,
+        "loanType": "30-Year Fixed Cash-Out",
+        "interestOnly": false,
+        "monthlyPI": 1043,
+        "monthlyTax": 206,
+        "monthlyInsurance": 110,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 1359,
+        "monthlyRent": 1550,
+        "dscr": 1.14,
+        "monthlyCashFlow": 191,
+        "specialistFocus": [
+          "Ordered the refinance appraisal after renovation so the 199,000 dollar value reflected the finished asset, not the 120,000 dollar shell the investor bought",
+          "Underwrote taxes at the school district appeal scenario, 50.14% of appraised value at the full combined millage, instead of the seller's decade-old assessment",
+          "Matched the file to a lender comfortable with a six-month seasoning window on the BRRRR cash-out so the investor's rehab capital came back out for the next house"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Is Pittsburgh a good BRRRR market?",
+          "answer": "It is one of the best-known in the country, and the numbers explain why. Sourced entries run from $116,385 in Middle Hill to $209,155 in Polish Hill, renovation adds real appraised value near the hospital and university job cores, and average rents of $1,593 support the refinance. The two Pittsburgh-specific catches: school districts appeal recent sales toward 50.14% of price, so your post-refi tax bill will not match the seller's, and some shells fall below lender minimum loan amounts until the rehab is done. Structure the exit before you buy the entry."
+        },
+        {
+          "question": "Will my property taxes change after I buy in Pittsburgh?",
+          "answer": "Assume yes. Allegheny County assessments are frozen at 2012 base-year values, but school districts routinely appeal recent sales, and the appeal target is the common level ratio, 50.14% of market value for 2026. So underwrite your assessment at roughly half your purchase price with the combined county, city, and school millage applied, about 1.2% to 1.3% of price for a city property. The same ratio protects you: if the existing assessment exceeds half your price, you can appeal down during the annual window. Either way, the seller's current bill is the one number you should not use."
+        },
+        {
+          "question": "Do I need to register my Pittsburgh rental with the city?",
+          "answer": "The program exists but is not being enforced. Commonwealth Court ruled in March 2023 that the city's original Residential Housing Rental Permit Program exceeded its authority under the Home Rule Law, and the registry the city relaunched in December 2024 remains voluntary, with the city committing to at least 30 days of public notice before enforcement begins. Many landlords register anyway because courts already reference the program's standards in disputes. Watch the notice, keep the property to code, and treat registration as cheap insurance rather than a binding requirement, for now."
+        },
+        {
+          "question": "Why is Pittsburgh's vacancy rate so high, and should it scare me?",
+          "answer": "Metro rental vacancy ran 8.9% in the latest Census survey, up sharply year over year, driven mostly by new apartment supply and a soft Class A lease-up market. Single-family and small multifamily rentals in established neighborhoods behave differently: average rents still rose 3.7% while values slipped. The practical takeaway is to underwrite realistic market rent with a vacancy allowance rather than the top-of-market listing figure, and to favor submarkets with anchored employment, the hospital systems, the universities, and the robotics corridor, where houses lease against thin competition."
+        },
+        {
+          "question": "Which Pittsburgh neighborhoods fit a DSCR file best?",
+          "answer": "Polish Hill and Middle Hill for yield, Bloomfield for stability, Lawrenceville for appreciation. Polish Hill at $209,155 sits in the East End growth path and still clears the ratio with 25% down on renovated stock. Middle Hill at $116,385 posts the fattest spreads but bumps into lender minimum loan amounts, which is where portfolio loans bundling several houses solve the problem. Bloomfield's medical tenancy at $301,318 needs bigger equity to pencil, and Central Lawrenceville at $353,713 is an interest-only or appreciation play. Your matched specialist can tell you which of the 70+ lenders fits each tier."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Pittsburgh typical home value and YoY change, June 2026",
+        "Zillow Observed Rent Index, Pittsburgh average rent and YoY change, June 2026",
+        "US Census Bureau Housing Vacancy Survey, Pittsburgh metro rental vacancy, 2024",
+        "PA State Tax Equalization Board via Allegheny County appeals coverage, 2026 common level ratio of 50.14%, 2025",
+        "Allegheny County and Pittsburgh Public Schools millage reporting (county 6.43, city 8.06, PPS plus 2% for 2026), effective rate derived, 2026 (est.)",
+        "Zillow neighborhood ZHVI for Middle Hill, Polish Hill, Bloomfield, Central Lawrenceville, June 2026; neighborhood rents estimated from citywide ZORI (est.)"
+      ]
+    },
+    {
+      "city": "Allentown",
+      "slug": "allentown",
+      "county": "Lehigh County",
+      "metro": "Allentown-Bethlehem-Easton",
+      "hook": "Allentown's typical home value hit $320,863, up 3.7% on top of a multi-year run, and the city is short more than 1,900 housing units. Growth is real here; the question is whether the rent covers the price it created.",
+      "metaDescription": "Allentown homes average $321K, up 3.7%, against a 1,900 unit housing shortage. See where Lehigh Valley DSCR deals still pencil. Get matched today.",
+      "market": {
+        "medianPrice": 320863,
+        "medianRent": 1732,
+        "priceToRent": 15.4,
+        "vacancyRate": 5.9,
+        "yoyPrice": 3.7,
+        "yoyRent": 3.4,
+        "estDSCR": 0.74,
+        "propertyTaxRate": 1.61,
+        "insuranceMonthly": 130
+      },
+      "overview": "Allentown is the Lehigh Valley's demand story. The typical home value reached $320,863 in June 2026, up 3.7% in a year, homes go pending in about a week, and average rents rose 3.4% to $1,732. The driver is structural: the city carries a housing shortage of more than 1,900 units, projected to swell toward 5,300 over 25 years without intervention, while warehouse, logistics, and healthcare employment keep pulling new residents in. The Neighborhood Improvement Zone has pushed more than $1 billion of downtown redevelopment, and the planning commission reviewed over 1,300 proposed residential units in 2025, a 58% jump from the prior year.\n\nHere is the two-layer truth: that growth already lives in the price. At the citywide median with 20% down, the ratio lands near 0.74, because a $320K entry against a $1,732 rent does not carry itself at today's carrying costs. Taxes are the quiet drag. Lehigh County runs on a 2013 base-year assessment, the Allentown School District holds 22.6432 mills for a third straight year, and the city adopted its first millage increase in seven years, 3.96%, for the 2026 budget. Applied through the county's assessment ratio, an investor purchase carries roughly 1.6% of market value annually.\n\nWhere files clear: the older rowhome wards. Old Allentown Historic District stock at $225,999 rents within sight of the citywide average, and small multifamily conversions there produce the only reliable above-1.0 paper in the city without a heavy down payment.",
+      "regulationBadge": "moderate",
+      "regulationNote": "No rent control exists anywhere in Pennsylvania and Allentown's landlord rules are standard mid-size-city licensing and inspections, so the binding constraints here are price-to-rent math and a school millage that has held at 22.6432 mills while the city raised its own rate 3.96% for 2026.",
+      "neighborhoods": [
+        {
+          "name": "Old Allentown Historic District",
+          "medianPrice": 225999,
+          "medianRent": 1550,
+          "note": "The city's rowhome core at $225,999, the cheapest sourced entry inside the growth story. Historic-district facade rules apply to exterior work, but this is where the rent-to-price spread still resembles an investment."
+        },
+        {
+          "name": "West Park Historic District",
+          "medianPrice": 259991,
+          "medianRent": 1650,
+          "note": "Grand early-1900s stock around the park at $259,991, much of it long since converted to units. Solid tenant draw from downtown's NIZ employment; verify legal unit counts because not every conversion was permitted."
+        },
+        {
+          "name": "West End Theatre District",
+          "medianPrice": 273937,
+          "medianRent": 1700,
+          "note": "The stable middle at $273,937, small commercial strips and well-kept twins. Rents run close to citywide averages, so the ratio depends almost entirely on your entry price and down payment."
+        },
+        {
+          "name": "Hamilton Park",
+          "medianPrice": 347535,
+          "medianRent": 1900,
+          "note": "Leafy West End blocks at $347,535 renting to professionals and hospital staff. Appreciation-grade stock where files typically need 30% down or interest-only structure to clear the line."
+        }
+      ],
+      "localAngle": {
+        "tag": "Growth Math",
+        "title": "A 1,900-unit shortage is the tailwind. A $321K median is the toll.",
+        "body": "Allentown's growth is not a broker story, it is in the public record. The Neighborhood Improvement Zone, the state tax-financing district that rebuilt downtown, has driven more than $1 billion in development, with roughly $500 million completed and another $500 million in planning. The city's own housing analysis puts the current shortage above 1,900 units, projected toward 5,300 over the next 25 years without new supply. In 2025 the planning commission reviewed proposals totaling more than 1,300 residential units, up 58% from 2024, and approved projects carrying more than 850 of them. Landlords feel this as 3.4% rent growth and roughly week-long marketing times. Investors feel the other side: a typical value of $320,863 that has repriced far ahead of rents, leaving the citywide ratio near 0.74 at 20% down. The way through is entry discipline. The rowhome and twin stock in Old Allentown and West Park trades 20% to 30% below the citywide median while renting within about 10% of it, and small legal multifamily there stacks two rents against one mortgage. Add the tax detail: the school district held 22.6432 mills for a third year, but the city's 2026 budget carries its first millage increase in seven years, so underwrite the new bill. Your matched specialist will structure around the entry price and unit count, because in Allentown that is the whole ballgame."
+      },
+      "programFit": [
+        "standard-dscr",
+        "interest-only-dscr",
+        "portfolio-dscr",
+        "no-ratio-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 1.5-bath rowhome",
+        "neighborhood": "Old Allentown Historic District",
+        "purchasePrice": 226000,
+        "downPaymentPct": 25,
+        "downPayment": 56500,
+        "loanAmount": 169500,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 1185,
+        "monthlyTax": 303,
+        "monthlyInsurance": 115,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 1603,
+        "monthlyRent": 1650,
+        "dscr": 1.03,
+        "monthlyCashFlow": 47,
+        "specialistFocus": [
+          "Kept the entry in the rowhome tier at 226,000 dollars because the citywide median at 320,863 dollars cannot cover its own carry at any reasonable down payment",
+          "Underwrote the 2026 tax bill including the city's 3.96% millage increase rather than the seller's 2025 figure",
+          "Flagged the historic-district exterior approval process in the rehab budget so a facade repair did not stall the rent-ready date"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Is Allentown still a good place to buy rental property after the run-up?",
+          "answer": "Selectively. The demand side is as strong as any small metro in the Northeast: a documented shortage above 1,900 units, $1 billion of NIZ-driven downtown investment, 3.4% rent growth, and 5.9% metro rental vacancy. But the typical value of $320,863 already prices most of that in, and the citywide ratio sits near 0.74 at 20% down. Deals that work in 2026 are rowhomes and small multifamily bought 20% to 30% under the citywide median in Old Allentown and West Park, where the rent gives back most of what the price asks."
+        },
+        {
+          "question": "What is the NIZ and does it actually matter to a landlord?",
+          "answer": "The Neighborhood Improvement Zone is a state-created tax financing district covering about 128 acres of downtown Allentown. Developers inside it can redirect most state and local non-property taxes their projects generate into financing their buildings, which is how more than $1 billion of offices, apartments, and the arena got built. For a landlord outside the zone, the NIZ matters as an employment and amenity anchor: it concentrated thousands of jobs downtown and keeps tenant demand deep in the surrounding wards. It does not change your taxes, your licensing, or your rent. It changes who is applying to live in your unit."
+        },
+        {
+          "question": "How much are property taxes on an Allentown rental?",
+          "answer": "Plan on roughly 1.6% of market value per year for a recent investor purchase. The stack is county millage on a 2013 base-year assessment, the Allentown School District at 22.6432 mills, unchanged for three consecutive years, and city millage that rose 3.96% in the 2026 budget, the first increase in seven years. Because Lehigh County assessments date to 2013, the state's common level ratio applies in appeals, and a buyer whose assessment implies far more than about half of the purchase price has a case worth filing. Underwrite the post-increase bill, not the listing sheet's figure."
+        },
+        {
+          "question": "Should I buy a single family or a small multifamily in Allentown?",
+          "answer": "The math strongly favors legal small multifamily. A single rowhome at $226,000 renting for $1,650 barely clears the line at 25% down, roughly 1.03 with about 47 dollars of monthly margin. The same capital into a legal duplex or triplex in West Park or Old Allentown stacks multiple rents against one mortgage and typically lands between 1.2 and 1.4. The catch is legality: many of Allentown's grand old houses were cut into units decades ago, not all with permits. Verify the certificate of occupancy and legal unit count before you write the offer, because DSCR lenders will."
+        },
+        {
+          "question": "Where does the Allentown market go from here?",
+          "answer": "Supply is coming, but slowly and mostly downtown. Over 1,300 proposed units passed through planning review in 2025, including projects like a 267-unit tower on North Front Street, yet the city's own numbers say the shortage still grows without sustained building. For rentals that suggests continued low vacancy, 5.9% metro-wide, and rent growth near the 3.4% pace, while price growth moderates from the 3.7% posted this year. The honest read: buy for the spread you can verify today, treat further appreciation as upside, and let the shortage protect your occupancy rather than justify your price."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Allentown typical home value and YoY change, June 2026",
+        "Zillow Observed Rent Index, Allentown average rent and YoY change, June 2026",
+        "US Census Bureau Housing Vacancy Survey, Allentown-Bethlehem metro rental vacancy, 2024",
+        "Allentown School District, 2025-26 millage of 22.6432 held flat, 2025; City of Allentown 2026 budget 3.96% property tax increase, LehighValleyNews, November 2025",
+        "Allentown NIZ Development Authority and LehighValleyNews planning coverage, $1B development and 1,300+ units reviewed in 2025, 2026",
+        "Zillow neighborhood ZHVI for Old Allentown, West Park, West End Theatre District, Hamilton Park, June 2026; neighborhood rents estimated from citywide average (est.)"
+      ]
+    },
+    {
+      "city": "Scranton",
+      "slug": "scranton",
+      "county": "Lackawanna County",
+      "metro": "Scranton-Wilkes-Barre",
+      "hook": "Scranton's typical home value is $205,566, down 2.8%, and Lackawanna County just completed its first reassessment since 1968, resetting the county's assessed base from $1.6 billion to $24.8 billion. Every tax bill in this market is new. Underwrite accordingly.",
+      "metaDescription": "Scranton homes average $206K and the first reassessment since 1968 reset every tax bill in the county. Underwrite DSCR on the new number. Get matched today.",
+      "market": {
+        "medianPrice": 205566,
+        "medianRent": 1315,
+        "priceToRent": 13,
+        "vacancyRate": 4.9,
+        "yoyPrice": -2.8,
+        "yoyRent": 0,
+        "estDSCR": 0.83,
+        "propertyTaxRate": 2,
+        "insuranceMonthly": 100
+      },
+      "overview": "Scranton spent four years as a BiggerPockets darling, out-of-state money chasing $120K doubles, and the price chart shows it: the typical home value more than doubled from 2020 before easing 2.8% over the past year to $205,566. Rents did not keep pace and have now gone flat, roughly $1,315 on Zillow's city measure with apartment rents unchanged year over year per RentCafe. That combination, a cooling price and a stalled rent, puts the citywide ratio near 0.83 at 20% down. The easy era is over; the operator era is starting.\n\nThe defining 2026 event is the reassessment. A court order forced Lackawanna County to complete its first countywide revaluation since 1968, effective January 1, 2026, lifting the county's assessed base from $1.6 billion to about $24.8 billion. Millage reset to match: the county adopted 5.79 mills against the old 89.98, and the City of Scranton set a single 6.0439-mill rate, with the school district adjusting to a revenue-neutral level as values certified. Around 4,200 owners appealed. The practical effect for a buyer: assessments now approximate real market value, so the seller's 2025 tax bill tells you nothing, and a fair estimate of the full stack runs near 2% of what you pay.\n\nWhat still works here is the housing stock itself. Scranton's double blocks, the region's native two-unit frame houses, stack two rents against one mortgage in Green Ridge and the Hill Section, and that structure is what keeps files above the line in a flat-rent market.",
+      "regulationBadge": "friendly",
+      "regulationNote": "No rent control, standard Pennsylvania landlord-tenant law, and a fast local eviction process make Scranton operationally easy; the 2026 risk is tax-bill whiplash from the county's first reassessment since 1968, not regulation.",
+      "neighborhoods": [
+        {
+          "name": "Green Ridge",
+          "medianPrice": 227938,
+          "medianRent": 1450,
+          "note": "Scranton's stable landlord neighborhood at $227,938, tree streets and big frame doubles near the Dunmore line. Values eased 1.5% over the year, and its double blocks are the classic two-rents-one-mortgage play."
+        },
+        {
+          "name": "Hill Section",
+          "medianPrice": 209579,
+          "medianRent": 1350,
+          "note": "At $209,579 and up 2.8%, the Hill leans on institutional tenants, hospital staff and University of Scranton affiliates. Larger houses convert to strong room and unit rentals, with condition the main diligence item."
+        },
+        {
+          "name": "West Mountain",
+          "medianPrice": 260719,
+          "medianRent": 1500,
+          "note": "The newest and priciest sourced stock at $260,719, up 4.3%. More single-family tenant profile, thinner yield, and the one Scranton submarket where appreciation is doing the heavy lifting."
+        },
+        {
+          "name": "South Side",
+          "medianPrice": 165000,
+          "medianRent": 1150,
+          "note": "The value tier south of downtown, roughly $165,000 stock renting near $1,150. The deepest spreads in the city and the most condition and collections work; underwrite renovation and management, not the listing photos."
+        }
+      ],
+      "localAngle": {
+        "tag": "Reassessment",
+        "title": "The first reassessment since 1968 just repriced every tax bill in Lackawanna County.",
+        "body": "For 57 years, Lackawanna County taxed property on 1968 values, which meant tiny assessed numbers multiplied by enormous millage, the county alone levied 89.98 mills, and wildly uneven bills that punished whoever had not renovated since the Nixon administration. A 2022 lawsuit ended it: a judge ordered a countywide reassessment completed by January 1, 2026. The new roll lifted the county's assessed base from $1.6 billion to roughly $24.8 billion, and state law required each taxing body to reset millage to revenue-neutral levels. The county adopted 5.79 mills, the City of Scranton set a single rate of 6.0439 mills, and the school district adjusted to hold revenue flat as certified values landed, with about 4,200 appeals filed in the first cycle. What this means for an investor is simple and absolute: the seller's 2025 tax bill is dead information. Your bill will be the new millage stack applied to an assessment that now approximates market value, which for a typical purchase pencils near 2% of price, and if the new assessment overshoots what you actually paid, the annual appeal window is your remedy. Deals in this market get won by whoever runs the new math first. Your matched specialist will structure the file on the post-reassessment number and document the appeal path when the assessment argues with the appraisal."
+      },
+      "programFit": [
+        "standard-dscr",
+        "portfolio-dscr",
+        "bridge-to-dscr",
+        "no-ratio-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "Double block (2-unit)",
+        "neighborhood": "Green Ridge",
+        "purchasePrice": 210000,
+        "downPaymentPct": 25,
+        "downPayment": 52500,
+        "loanAmount": 157500,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 1101,
+        "monthlyTax": 350,
+        "monthlyInsurance": 130,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 1581,
+        "monthlyRent": 2300,
+        "dscr": 1.45,
+        "monthlyCashFlow": 719,
+        "specialistFocus": [
+          "Underwrote taxes on the 2026 post-reassessment stack, county 5.79 mills plus the city's 6.0439 plus the reset school levy, instead of the seller's 1968-era bill",
+          "Qualified on the appraiser's market rent for both units of the double block, which carried the file to 1.45 where a single-family at the same price sits under 1.0",
+          "Documented the assessment appeal path up front in case the new county value came in above the purchase price"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Is Scranton still a good cash flow market or did that window close?",
+          "answer": "The window narrowed but did not close, it moved into the double blocks. Citywide, a $205,566 typical value against roughly $1,315 in rent puts the single-family ratio near 0.83 at 20% down, and rents have gone flat after the 2020-2024 surge. Two-unit doubles change the equation: a $210,000 Green Ridge double renting $1,100 to $1,200 per side clears 1.4 with room to spare. The out-of-state mistake in 2026 is buying a single-family at a price that only made sense when values were still compounding."
+        },
+        {
+          "question": "How does the Lackawanna County reassessment change what I will pay in taxes?",
+          "answer": "It replaces guesswork with arithmetic. Assessments now approximate market value, and the reset millage stack, 5.79 county mills, 6.0439 city mills, plus the revenue-neutral school levy, lands a typical purchase near 2% of price annually. Some bills fell, many rose, and about 4,200 owners appealed in the first cycle. As a buyer you gain something rare: predictability. Estimate assessment at what you pay, apply the stack, and you are close. If the county's number materially exceeds your purchase price, file in the annual appeal window with your closing statement as evidence."
+        },
+        {
+          "question": "What is a double block and why does everyone here talk about them?",
+          "answer": "It is northeastern Pennsylvania's native investment property: a large frame house built as two side-by-side units sharing a center wall, each with its own entrance, often its own utilities. They dominate Green Ridge, the Hill Section, and South Side, and they solve Scranton's core math problem, flat rents against post-boom prices, by putting two leases on one foundation. Lenders treat them as standard 2-unit residential, appraisers have deep comparable data, and vacancies hurt half as much. Most files that clear the ratio comfortably in this market are doubles, not singles."
+        },
+        {
+          "question": "Why are Scranton rents flat when everyone says the market is hot?",
+          "answer": "Because the heat was in prices, not rents. Investor demand from 2020 through 2024 bid the typical value up sharply on cash-flow spreadsheets, while the tenant base, healthcare, education, logistics, and government payrolls, absorbed rent increases only up to a point. RentCafe's apartment measure now shows rents essentially unchanged year over year, and Zillow's city figure sits near $1,315. That is the honest backdrop: buy for the spread that exists at today's flat rent, treat any rent growth as upside, and structure with the double-block stack rather than hoping the lease catches up to the price."
+        },
+        {
+          "question": "How does Scranton compare to Wilkes-Barre for rental investing?",
+          "answer": "Same metro, different files. Scranton costs more, $205,566 against Wilkes-Barre's $183,600, but its post-reassessment tax picture is clean and predictable, one set of market-value assessments across county, city, and school. Wilkes-Barre is cheaper with faster rent growth, 4.1% versus flat, but runs two separate assessment rolls, and its combined carry can quietly exceed Scranton's. Scranton also has the deeper double-block inventory and the larger institutional tenant base. Many operators end up holding both, using Scranton for stability and Wilkes-Barre for entry price, under one portfolio loan."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Scranton typical home value and YoY change, June 2026",
+        "Zillow city rent figure June 2026; RentCafe/Yardi Matrix, Scranton average apartment rent flat YoY, August 2026 (substituted for small-sample Zillow trend)",
+        "US Census ACS 5-year via Census Reporter, Lackawanna County rental vacancy, 2024",
+        "WVIA/WNEP/Times-Tribune coverage, Lackawanna County reassessment ($1.6B to $24.8B, county 5.79 mills, Scranton 6.0439 mills, ~4,200 appeals), November 2025",
+        "Scranton School District 2026 budget, revenue-neutral millage adjustment, November 2025; total effective rate derived (est.)",
+        "Zillow neighborhood ZHVI for Green Ridge, Hill Section, West Mountain, June 2026; South Side figures and neighborhood rents estimated (est.)"
+      ]
+    },
+    {
+      "city": "Harrisburg",
+      "slug": "harrisburg",
+      "county": "Dauphin County",
+      "metro": "Harrisburg-Carlisle",
+      "hook": "Harrisburg taxes land at 30.97 mills and buildings at 5.16, the best-known two-rate system in America, and the Zillow region averages $271K while city-limits rowhomes trade near $122K. Two markets, one name, and the tax code actually favors the landlord.",
+      "metaDescription": "Harrisburg splits its tax rate, 30.97 mills on land, 5.16 on buildings, and city rentals start near $122K. See how DSCR files pencil. Get matched today.",
+      "market": {
+        "medianPrice": 271374,
+        "medianRent": 1361,
+        "priceToRent": 16.6,
+        "vacancyRate": 4.2,
+        "yoyPrice": 3.1,
+        "yoyRent": 3,
+        "estDSCR": 0.65,
+        "propertyTaxRate": 2,
+        "insuranceMonthly": 110
+      },
+      "overview": "Harrisburg is two markets wearing one zip-code prefix. Zillow's Harrisburg region, which blends the city with Paxtonia, Colonial Park, and the Lower Paxton suburbs, averages $271,374, up 3.1%, with rents near $1,361. Inside the city line the numbers change completely: Allison Hill stock trades around $122,173 and Uptown near $147,834, which is where the area's rental inventory actually concentrates. Run the region median against the city's carrying costs and the ratio looks hopeless at 0.65; run an Allison Hill duplex and it clears comfortably. Geography is the whole underwriting question here.\n\nThe city's tax structure is a genuine curiosity that works in a landlord's favor. Harrisburg is America's best-known two-rate city: for 2026 it taxes land at 30.97 mills and buildings and improvements at just 5.16 mills, on top of Dauphin County's 9.193 mills plus library levy and the school district's roughly 30.78 mills, all applied to 2001 base-year assessments that the state's common level ratio puts near 38% of market value. For a rowhome, where the building is most of the value and the lot is small, the split-rate design keeps the city's share modest. The blended effective load for a city investor purchase pencils near 2% of market value.\n\nDemand is steady rather than dramatic: state government anchors the payroll, county rental vacancy runs 4.2%, and Redfin classes the market as very competitive with homes drawing multiple offers. The play is city-limits doubles and rowhomes bought at Allison Hill and Uptown prices, not suburban medians.",
+      "regulationBadge": "moderate",
+      "regulationNote": "Standard Pennsylvania landlord-tenant law with no rent control, city rental inspections typical of a state capital, and a split-rate tax that mildly favors improved rental property over vacant land speculation.",
+      "neighborhoods": [
+        {
+          "name": "Allison Hill",
+          "medianPrice": 122173,
+          "medianRent": 1100,
+          "note": "The city's rental engine at $122,173, dense rowhome and duplex blocks east of downtown. The deepest spreads in the metro, real renovation and management workload, and loan sizes that need small-balance-friendly lenders."
+        },
+        {
+          "name": "Uptown",
+          "medianPrice": 147834,
+          "medianRent": 1200,
+          "note": "River-adjacent rows at $147,834 north of the Capitol complex. State workers and hospital staff rent here to skip the commute, and stabilized doubles routinely clear the ratio with margin."
+        },
+        {
+          "name": "Colonial Park",
+          "medianPrice": 285535,
+          "medianRent": 1650,
+          "note": "Suburban Lower Paxton ranches at $285,535 outside the city tax stack. Thin yield at full price, but the school district and tenant profile make it the low-management end of the local spectrum."
+        },
+        {
+          "name": "Paxtonia",
+          "medianPrice": 323268,
+          "medianRent": 1800,
+          "note": "The suburban ceiling at $323,268. Family rentals with long tenancies and quiet appreciation; files here need 30% down or interest-only structure and are really a different strategy than the city plays."
+        }
+      ],
+      "localAngle": {
+        "tag": "Split-Rate Tax",
+        "title": "30.97 mills on land, 5.16 on buildings: Harrisburg's tax code quietly sides with landlords.",
+        "body": "Harrisburg has run a two-rate property tax for decades, and for 2026 the split is dramatic: land is taxed at 30.97 mills while buildings and site improvements pay just 5.16 mills, a six-to-one tilt codified in the city's property tax chapter. The theory is classic land-value taxation, punish holding vacant dirt, reward putting buildings to work, and for a rental investor the practical effects are concrete. A typical city rowhome sits on a small lot where the structure carries most of the assessed value, so the bulk of your city assessment rides the 5.16-mill rate rather than the 30.97. The full stack still includes Dauphin County at 9.193 mills plus a 0.35-mill library levy and the Harrisburg School District near 30.78 mills, all against 2001 base-year assessments that the state's common level ratio places around 38% of today's market value, which is why the blended effective load lands near 2% of price rather than the 5% the raw mill count implies. The flip side: buying a teardown or holding vacant lots in the city is punished by design, the land rate hits full force with no building to dilute it. Buy improved, income-producing structures and the code is on your side. Your matched specialist will structure the file on the actual split-rate bill for the parcel, not a county-average guess."
+      },
+      "programFit": [
+        "standard-dscr",
+        "portfolio-dscr",
+        "bridge-to-dscr",
+        "interest-only-dscr"
+      ],
+      "dealExample": {
+        "label": "Cash-Out Refinance",
+        "propertyType": "3-bed / 1-bath rowhome",
+        "neighborhood": "Uptown",
+        "purchasePrice": 150000,
+        "downPaymentPct": 25,
+        "downPayment": 37500,
+        "loanAmount": 112500,
+        "loanType": "30-Year Fixed Cash-Out",
+        "interestOnly": false,
+        "monthlyPI": 786,
+        "monthlyTax": 250,
+        "monthlyInsurance": 95,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 1131,
+        "monthlyRent": 1250,
+        "dscr": 1.11,
+        "monthlyCashFlow": 119,
+        "specialistFocus": [
+          "Pulled equity from a free-and-clear Uptown rowhome at 75% of the 150,000 dollar appraisal to fund the next Allison Hill acquisition without selling the performing asset",
+          "Underwrote the split-rate city bill parcel by parcel, land at 30.97 mills and the building at 5.16, instead of applying a flat county-average rate",
+          "Matched the file to a lender whose minimum loan amount accepts a 112,500 dollar balance, the constraint that quietly kills most small Harrisburg refis"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Is Harrisburg a good market for out-of-state rental investors?",
+          "answer": "Yes, if you buy the city and not the headline. The Zillow region average of $271,374 blends in Lower Paxton suburbs where yields are thin; the actual rental market concentrates in Allison Hill near $122,173 and Uptown near $147,834, where doubles and rowhomes clear the ratio with real margin. Demand is government-anchored, the state payroll does not leave town, county rental vacancy is 4.2%, and Redfin rates the market very competitive. The trade-off is hands-on stock: older rows, renovation budgets, and management that earns its fee."
+        },
+        {
+          "question": "How does Harrisburg's land value tax actually affect my bill?",
+          "answer": "For an improved rental, favorably. The city charges 30.97 mills on land but only 5.16 mills on buildings for 2026, and a rowhome's value is mostly building, so the city slice of your bill stays modest. County, library, and school levies stack on top, applied to 2001 base-year assessments the state ratio puts near 38% of market value, which is how the total lands around 2% of price instead of the raw mill count. Where the design bites is vacant land: a lot with no structure pays the full 30.97 with nothing to dilute it, so land-banking in Harrisburg is an expensive hobby."
+        },
+        {
+          "question": "Why do lenders push back on cheap Allison Hill deals?",
+          "answer": "Minimum loan amounts, not the neighborhood. A $122,000 purchase at 75% or 80% financing produces a loan near $92,000 to $98,000, and plenty of DSCR programs set floors at $100,000 or higher regardless of how well the deal cash flows. The workarounds are mechanical: buy the better-condition stock that appraises higher, reduce the down payment so the balance clears the floor, or bundle several rows into one portfolio loan, which is how most serious Harrisburg operators finance at scale. Your matched specialist knows which of the 70+ lenders write small-balance paper and which want the bundle."
+        },
+        {
+          "question": "Should I buy in the city or the suburbs like Colonial Park?",
+          "answer": "They are different strategies. City stock at $122,000 to $148,000 produces the ratios, a stabilized Uptown row runs near 1.1 and doubles higher, but carries renovation, turnover, and management workload. Colonial Park and Paxtonia at $285,000 to $323,000 rent to long-stay families with far less friction, but at full price the ratio sits well under 1.0, so those files need 30% down or interest-only structure and are really appreciation plays with a rent subsidy. The honest portfolio answer for most buyers: cash flow in the city, and add a suburban asset only after the city spread is paying for it."
+        },
+        {
+          "question": "What should I underwrite for taxes on a Harrisburg rental?",
+          "answer": "About 2% of your purchase price annually for city-limits property, built from the pieces rather than guessed. The 2026 stack is county 9.193 mills plus a 0.35 library levy, school district near 30.78 mills, and the city's split rate of 30.97 on land and 5.16 on buildings, all applied to 2001 base-year assessed values that run well below market, roughly 38% per the state's ratio. Pull the parcel's actual assessment and split before you offer, because two identical-looking rows can carry different land shares. And if the implied ratio on your purchase runs far above 38%, the annual appeal is worth the filing fee."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Harrisburg region typical home value and YoY change, June 2026",
+        "Zillow rent figure and YoY for the Harrisburg region, June 2026",
+        "US Census ACS 5-year via Census Reporter, Dauphin County rental vacancy, 2024",
+        "City of Harrisburg codified ordinances and Dauphin County 2026 millage table (land 30.97, building 5.16, county 9.193, school ~30.78), January 2026",
+        "PA Department of Revenue common level ratio, Dauphin factor 2.61, 2025; effective rate derived (est.)",
+        "Zillow neighborhood ZHVI for Allison Hill, Uptown, Colonial Park, Paxtonia, June 2026; neighborhood rents estimated from region average (est.)"
+      ]
+    },
+    {
+      "city": "Reading",
+      "slug": "reading",
+      "county": "Berks County",
+      "metro": "Reading",
+      "hook": "The Wall Street Journal and Realtor.com rank Reading sixth among the nation's hottest housing markets, and city rowhomes that sold under $100K in 2020 now trade near a $189,886 median. The cheap-Reading era is over; the question is what the new price still earns.",
+      "metaDescription": "Reading ranks sixth hottest market in the country with city rowhomes near $190K. See what 46 mills of taxes do to a DSCR file. Get matched today.",
+      "market": {
+        "medianPrice": 268714,
+        "medianRent": 1395,
+        "priceToRent": 16.1,
+        "vacancyRate": 4,
+        "yoyPrice": 3.2,
+        "yoyRent": 4.4,
+        "estDSCR": 0.72,
+        "propertyTaxRate": 1.48,
+        "insuranceMonthly": 105
+      },
+      "overview": "Reading spent three straight years on national hottest-market lists, and the latest Wall Street Journal and Realtor.com ranking still places the metro sixth in the country. The Zillow Reading region, which blends the city with Wyomissing-side suburbs like Spring Ridge and Whitfield, averages $268,714, up 3.2%, while rents rose 4.4% to $1,395. Inside the city line, Redfin puts the median sale at $189,886, up 4.0%, for rowhome stock that traded under $100,000 in 2020. Philadelphia and New Jersey commuters chasing affordability did most of that repricing.\n\nThe tax mechanics are friendlier than the sticker suggests. The city's 2026 stack totals 46.16 mills, 19.217 city, 17.93 school district, and the Berks County levy, but it applies to 1994 base-year assessments, and the state's common level ratio puts those assessments around 32% of market value. Net effect: a recent investor purchase carries roughly 1.5% of price annually, moderate for a Pennsylvania city, and appreciation since 1994 means many parcels assess even lighter until appealed.\n\nThe honest math at the region median is thin, about 0.72 at 20% down, because suburban prices dominate that figure. The investor market is the city grid: rowhomes near $175,000 renting $1,300 to $1,400 still clear 1.0 at 25% down, and Berks County rental vacancy of 4.0% keeps them occupied. What ended is the double-digit-yield Reading of 2019. What remains is a tight, solvent market priced like it finally got noticed, because it did.",
+      "regulationBadge": "moderate",
+      "regulationNote": "No rent control and standard state landlord-tenant law apply; Reading runs routine city rental permitting and inspections, and the real underwriting variables are the 46-mill city tax stack against 1994 assessments and post-boom entry prices.",
+      "neighborhoods": [
+        {
+          "name": "Centre Park Historic District",
+          "medianPrice": 175000,
+          "medianRent": 1300,
+          "note": "The city's grand-rowhome district, roughly $175,000 stock renting near $1,300. The best remaining rent-to-price spread in the market, with historic facades and 1900s systems that deserve a real inspection budget."
+        },
+        {
+          "name": "West Wyomissing",
+          "medianPrice": 272947,
+          "medianRent": 1600,
+          "note": "Suburban twins and ranches at $272,947 in the Wyomissing-side school orbit. Long tenancies and easy management, but the ratio at full price needs a large down payment to reach 1.0."
+        },
+        {
+          "name": "Reiffton",
+          "medianPrice": 360035,
+          "medianRent": 1900,
+          "note": "Exeter Township family stock at $360,035. This is appreciation-and-schools territory rather than yield; rentals here are usually accidental landlords, not underwritten investments."
+        },
+        {
+          "name": "Spring Ridge",
+          "medianPrice": 368752,
+          "medianRent": 2000,
+          "note": "The suburban ceiling at $368,752 near the Broadcasting Square employment and retail cluster. Files only pencil with interest-only structure, and most buyers here are betting on the metro's national-ranking momentum."
+        }
+      ],
+      "localAngle": {
+        "tag": "Hot Market",
+        "title": "Sixth-hottest market in America: what that ranking pays you, and what it costs you.",
+        "body": "Reading's run is documented, not anecdotal. The Wall Street Journal and Realtor.com ranked the metro sixth nationally in their latest hottest-markets index, following cycles where Reading topped similar lists outright, on the back of demand spilling west from Philadelphia and across from New Jersey. Redfin's city-limits median sale hit $189,886, up 4.0% in a year, for rowhomes that changed hands under $100,000 in 2020, and region-wide rents climbed 4.4%, faster than the 3.2% price growth for the first time in years. What the ranking pays you: liquidity and occupancy. Houses sell fast, Berks County rental vacancy sits at 4.0%, and a vacant unit re-leases quickly at market. What it costs you: the yield that made Reading famous. A city rowhome at $175,000 renting $1,350 clears the ratio at 25% down, but the $60,000 triple-digit-return doors are gone, and buyers still underwriting 2019 spreads are the ones overpaying today. The tax detail keeps files honest: the city stack is 46.16 mills, 19.217 city, 17.93 school, plus the county, applied to 1994 base-year assessments that the state ratio places near 32% of market value, so a recent purchase pencils around 1.5% of price. Your matched specialist will structure on today's spread and treat the ranking as an occupancy guarantee, not a promise of further appreciation."
+      },
+      "programFit": [
+        "standard-dscr",
+        "portfolio-dscr",
+        "bridge-to-dscr",
+        "interest-only-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 1-bath rowhome",
+        "neighborhood": "Centre Park Historic District",
+        "purchasePrice": 175000,
+        "downPaymentPct": 25,
+        "downPayment": 43750,
+        "loanAmount": 131250,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 917,
+        "monthlyTax": 216,
+        "monthlyInsurance": 95,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 1228,
+        "monthlyRent": 1350,
+        "dscr": 1.1,
+        "monthlyCashFlow": 122,
+        "specialistFocus": [
+          "Kept the purchase in the city rowhome tier near the 189,886 dollar Redfin city median instead of the 268,714 dollar regional figure that suburban stock inflates",
+          "Underwrote the full 46.16-mill city stack against the parcel's actual 1994-base assessment rather than a countywide average",
+          "Qualified on the appraiser's market rent of 1,350 dollars, resisting the listing agent's projection built from the hottest-market headlines"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Did I already miss the Reading boom?",
+          "answer": "You missed the repricing, not the market. Rowhomes that sold under $100,000 in 2020 now trade near Redfin's $189,886 city median, so the era of buying a door for a used-car price ended. What remains is healthier than what preceded it: rents grew 4.4% over the past year, faster than the 3.2% price growth, county rental vacancy is just 4.0%, and the metro still ranks sixth on the national hottest-market index. A Centre Park row at $175,000 renting $1,350 clears 1.1 at 25% down. That is a real return, just not a 2019 fairy tale."
+        },
+        {
+          "question": "Why is Reading suddenly on every hottest-market list?",
+          "answer": "Geography plus arithmetic. Reading sits about an hour from Philadelphia's western suburbs and within commuting reach of Lehigh Valley employment, and it entered the decade as one of the cheapest cities in the Northeast. Remote and hybrid work let Philadelphia and New Jersey buyers arbitrage that gap, and they did, repeatedly enough that the Wall Street Journal and Realtor.com index has kept the metro in its top ten, currently sixth. For a landlord the ranking translates to demand depth: listings move fast, vacancies fill, and the tenant pool now includes wage earners priced out of ownership by the very run-up that brought them here."
+        },
+        {
+          "question": "How do Reading's property taxes work with 1994 assessments?",
+          "answer": "The mill count looks scary and the bill mostly is not. The 2026 city stack totals 46.16 mills, 19.217 city, 17.93 Reading School District, plus the Berks County levy, but it multiplies against assessed values frozen at the 1994 base year. The state's common level ratio pegs Berks assessments near 32% of market value, so a recent purchase pencils around 1.5% of price annually. One wrinkle worth knowing: because city rowhomes appreciated the most since 1994, many assess even lighter than the ratio implies, and the county or district can appeal a recent sale upward, so underwrite the ratio, not the seller's bill."
+        },
+        {
+          "question": "Should I buy in Reading city or the Wyomissing-side suburbs?",
+          "answer": "For cash flow, the city. Centre Park and the surrounding grid at roughly $175,000 with $1,300 to $1,400 rents produce the only ratios above 1.0 in the market at normal down payments. West Wyomissing at $272,947 and Spring Ridge at $368,752 offer easier management and stronger schools but rents that cover a shrinking fraction of the price, so those files need 30% down or interest-only structure and are appreciation bets on the metro's momentum. Portfolio buyers often blend the two, city doors for income and one suburban asset for equity, under a single portfolio loan."
+        },
+        {
+          "question": "What are the risks in Reading that the rankings do not mention?",
+          "answer": "Three practical ones. First, stock age: the city grid is nineteenth and early twentieth century masonry, and knob-and-tube wiring, old box gutters, and shared party walls belong in every inspection budget. Second, ranking reversal: markets that appreciate on commuter arbitrage cool when the arbitrage narrows, so underwrite today's rent, not extrapolated price growth. Third, assessment appeals: a recent sale well above the 1994-base assessed value invites a school district appeal, which can raise the tax line you modeled. None are fatal; all belong in the file before you write the offer, not after."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Reading region typical home value and YoY change, June 2026",
+        "Zillow rent figure and YoY for the Reading region, June 2026",
+        "Redfin, Reading city median sale price $189,886 up 4.0%, May 2026",
+        "WSJ/Realtor.com Housing Market Ranking via Pennsylvania Association of Realtors and WFMZ, Reading metro ranked 6th, 2026",
+        "City of Reading 2026 tax rates (city 19.217 mills, school 17.93, total 46.16 with county) and PA DOR Berks common level ratio factor 3.12, 2026",
+        "US Census ACS 5-year via Census Reporter, Berks County rental vacancy, 2024; Centre Park figures and neighborhood rents estimated (est.)"
+      ]
+    },
+    {
+      "city": "Lancaster",
+      "slug": "lancaster",
+      "county": "Lancaster County",
+      "metro": "Lancaster",
+      "hook": "Lancaster city's median sale price hit $245K, up 8.9%, against the tightest rental market in Pennsylvania at 2.1% county vacancy. Nothing here is cheap and nothing here sits empty, and a countywide reassessment lands in 2027.",
+      "metaDescription": "Lancaster medians run $245K, up 8.9%, with 2.1% rental vacancy, the tightest in PA. See the DSCR math and the 2027 reassessment. Get matched today.",
+      "market": {
+        "medianPrice": 245000,
+        "medianRent": 1533,
+        "priceToRent": 13.3,
+        "vacancyRate": 2.1,
+        "yoyPrice": 8.9,
+        "yoyRent": 3.7,
+        "estDSCR": 0.81,
+        "propertyTaxRate": 1.95,
+        "insuranceMonthly": 120
+      },
+      "overview": "Lancaster is Pennsylvania's supply-starved market. County rental vacancy runs 2.1% on the latest Census five-year data, the lowest of any metro on this page, county home values average $392,780, up 4.7%, and the city's median sale price reached about $245,000, up 8.9% year over year per Redfin. Rents across the county rose 3.7% to $1,533. Houses sell in days, units lease in days, and the tenant pool spans healthcare systems, tourism, and one of the strongest small-city downtowns in the mid-Atlantic.\n\nThe two-layer truth is that tightness is not the same as yield. At the city median with 20% down, the ratio pencils near 0.81, and the county's suburban stock sits far worse. The city's tax stack explains part of the drag: county, city, and School District of Lancaster millage combine to roughly 39 mills against assessments the state ratio puts near half of market value, call it just under 2% of price for a recent purchase. What rescues files here is the rowhome duplex: Cabbage Hill and the Southeast convert two modest rents into one strong ratio, and vacancy risk is as close to zero as this business offers.\n\nOne structural event is coming: Lancaster County's countywide reassessment takes effect in 2027, with values mailed in 2026 and school taxes recalibrating into mid-2027. It is designed to be revenue-neutral in aggregate, but city rowhomes that appreciated fastest are the classic candidates for above-average assessment moves. Buy with that letter priced in.",
+      "regulationBadge": "moderate",
+      "regulationNote": "No rent control and ordinary Pennsylvania landlord-tenant law, with city rental licensing and inspections; the binding constraint is supply, 2.1% county rental vacancy, and a tax stack near 2% that the 2027 reassessment will reshuffle.",
+      "neighborhoods": [
+        {
+          "name": "Cabbage Hill",
+          "medianPrice": 220721,
+          "medianRent": 1400,
+          "note": "The classic working rowhome district at $220,721, southwest of the square. Deep duplex inventory and the city's most reliable rent-to-price spread; the 2027 reassessment letter matters most on these fast-appreciating blocks."
+        },
+        {
+          "name": "South Side",
+          "medianPrice": 188103,
+          "medianRent": 1300,
+          "note": "The value entry at $188,103 south of King Street. Rents within $250 of Cabbage Hill at a lower basis, with more renovation and screening work; this is where small-balance loan floors start to bind."
+        },
+        {
+          "name": "Stevens",
+          "medianPrice": 211266,
+          "medianRent": 1350,
+          "note": "Northeast city blocks at $211,266 near the college and rail yard employment. A steady mid-tier where stabilized doubles clear the ratio and single-family files run tight at normal leverage."
+        },
+        {
+          "name": "Musser Park",
+          "medianPrice": 320352,
+          "medianRent": 1700,
+          "note": "The historic showcase at $320,352 east of the square. Professional tenants, minimal vacancy, and yields that only pencil with large equity; buyers here are underwriting Lancaster's scarcity, not its rents."
+        }
+      ],
+      "localAngle": {
+        "tag": "Reassessment",
+        "title": "2.1% vacancy pays you now. The 2027 reassessment bills you later.",
+        "body": "Lancaster County is running a full countywide reassessment that takes effect for 2027 tax bills, the first since 2018. New tentative values go to every owner during 2026, informal reviews and formal appeals follow, county and municipal taxes recalculate for January 2027, and school district taxes true up for the mid-2027 fiscal year. State law makes the event revenue-neutral in aggregate, taxing bodies must roll millage back so the reassessment itself raises no new money, but neutral in aggregate is not neutral per parcel. Properties that appreciated faster than the county average since 2018 absorb above-average assessment increases, and Lancaster city rowhomes, up 8.9% in the past year alone against 4.7% countywide, are the textbook case. For a buyer underwriting today, the discipline is straightforward: model the current stack, roughly 39 combined mills against assessments near half of market value, just under 2% of price, and stress the tax line 10% to 15% higher for 2027 on fast-appreciating city stock. If the new notice overshoots your actual purchase price, the appeal window is your remedy and your settlement statement is your best evidence. The reward for that homework is the tightest rental market in the state: 2.1% county vacancy means the unit you buy correctly stays paid. Your matched specialist will structure the file with the post-2027 tax scenario already in the ratio."
+      },
+      "programFit": [
+        "standard-dscr",
+        "portfolio-dscr",
+        "interest-only-dscr",
+        "bridge-to-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "Duplex (2-unit rowhome conversion)",
+        "neighborhood": "Cabbage Hill",
+        "purchasePrice": 250000,
+        "downPaymentPct": 25,
+        "downPayment": 62500,
+        "loanAmount": 187500,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 1311,
+        "monthlyTax": 406,
+        "monthlyInsurance": 130,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 1847,
+        "monthlyRent": 2500,
+        "dscr": 1.35,
+        "monthlyCashFlow": 653,
+        "specialistFocus": [
+          "Chose a legal two-unit over a single-family at the same price because Lancaster's 0.81 citywide ratio needs two rents on one mortgage to produce real margin",
+          "Stressed the tax line for the 2027 countywide reassessment, underwriting the bill 15% above the current 39-mill stack on this fast-appreciating block",
+          "Verified the certificate of occupancy for both units before appraisal, since unpermitted conversions are the most common kill-shot in this housing stock"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Why is Lancaster's vacancy rate so low, and does it hold?",
+          "answer": "County rental vacancy is 2.1% on the latest Census five-year data, the tightest of any Pennsylvania metro covered here, and the causes are structural rather than cyclical: strict township-level growth boundaries, preserved farmland ringing the city, two hospital systems and a durable tourism economy feeding tenant demand, and very little multifamily construction inside the city grid. None of those reverse quickly. For an operator it means priced-right units lease in days and concessions are unheard of. It also means the market's risk lives in the price you pay and the 2027 reassessment, not in whether the unit rents."
+        },
+        {
+          "question": "How should I underwrite the 2027 Lancaster County reassessment?",
+          "answer": "Expect a new assessed value during 2026, effective for 2027 county and municipal bills, with school taxes recalibrating into mid-2027. The event is revenue-neutral in aggregate, millage rolls back as values rise, but parcels that beat the county's average appreciation since 2018 pay relatively more, and city rowhomes up 8.9% in a single year are prime candidates. Practical move: underwrite today's roughly 2% effective load, stress it 10% to 15% higher, and confirm the deal survives. If the notice exceeds what you actually paid, appeal with your settlement statement. Deals that die under that stress were too thin to buy."
+        },
+        {
+          "question": "Can I still find cash flow in a market this expensive?",
+          "answer": "Yes, in exactly one shape: the two-unit rowhome. A $250,000 Cabbage Hill duplex renting $1,200 to $1,300 per side carries a ratio near 1.35 with 25% down, while a single-family at the same price sits around 0.9. South Side pushes entry to $188,103 with rents only modestly lower, though loan balances there start bumping lender minimums. What does not work is buying the county's suburban stock for yield: at $392,780 average values against $1,533 rents, those files are appreciation plays requiring heavy equity. In Lancaster the unit count is the strategy."
+        },
+        {
+          "question": "Is Lancaster landlord-friendly?",
+          "answer": "Operationally, yes. Pennsylvania has no rent control statewide and no city in the Commonwealth imposes it, evictions follow the state Landlord and Tenant Act through local magisterial courts without added city gates, and Lancaster's rental licensing and inspection regime is routine paperwork rather than a policy weapon. The practical frictions are physical and fiscal instead: century-old rowhouse systems that demand real capital budgets, a combined city tax stack near 2% of market value, and the 2027 reassessment reshuffle. Screen well and maintain honestly and the 2.1% vacancy market does the rest of the landlording for you."
+        },
+        {
+          "question": "How does Lancaster compare to Harrisburg or York for a first deal?",
+          "answer": "Lancaster is the expensive-but-bulletproof option. Entry costs the most, a $245,000 city median against York's $175,000 and Harrisburg's sub-$150,000 city stock, and headline ratios run thinner. In exchange you get 2.1% vacancy versus 3% to 4% in the neighbors, the strongest tenant quality of the three, and the deepest resale liquidity in south-central Pennsylvania. Operators optimizing pure ratio go to Harrisburg or York city stock and accept the management load; operators optimizing sleep buy Lancaster duplexes. A portfolio loan across two of the three cities is a common and sensible compromise."
+        }
+      ],
+      "dataSources": [
+        "Redfin, Lancaster city median sale price ~$245,000 up 8.9% YoY, November 2025",
+        "Zillow Home Value Index and Observed Rent Index, Lancaster County values and rents, June 2026",
+        "US Census ACS 5-year via Census Reporter, Lancaster County rental vacancy, 2024",
+        "Lancaster County government, Taxpayers Guide to the 2027 Reassessment, 2026",
+        "PA Department of Revenue common level ratio, Lancaster factor 2.00, 2025; city millage stack and effective rate derived (est.)",
+        "Zillow neighborhood ZHVI for Cabbage Hill, South Side, Stevens, Musser Park, June 2026; neighborhood rents estimated from county ZORI (est.)"
+      ]
+    },
+    {
+      "city": "Erie",
+      "slug": "erie",
+      "county": "Erie County",
+      "metro": "Erie",
+      "hook": "Erie posted the fastest appreciation in Pennsylvania's investor tier, up 5.9% to a $209,960 typical value, while more than $600 million of private investment rebuilds its downtown. The entry price is the draw. The 39-mill tax stack is the test.",
+      "metaDescription": "Erie is Pennsylvania's cheapest DSCR entry, up 5.9% with $600M invested downtown. See the full tax stack before you buy. Get matched today.",
+      "market": {
+        "medianPrice": 209960,
+        "medianRent": 1036,
+        "priceToRent": 16.9,
+        "vacancyRate": 7.3,
+        "yoyPrice": 5.9,
+        "yoyRent": 2.5,
+        "estDSCR": 0.64,
+        "propertyTaxRate": 1.97,
+        "insuranceMonthly": 90
+      },
+      "overview": "Erie is the value frontier of Pennsylvania investing, and it finally has a growth story attached. The Zillow Erie region posted a typical value of $209,960 in June 2026, up 5.9%, the fastest gain of any market on this page, while average rents sit near $1,036. Downtown, the Erie Downtown Development Corporation, backed by Erie Insurance, the Fortune 500 anchor and the county's largest employer, has completed more than $100 million of redevelopment across the core blocks, part of over $600 million in recent private investment, renovating more than 100 apartments and two dozen commercial spaces.\n\nNow the honest layer. That $209,960 regional figure blends lakefront townships and Millcreek-side suburbs with a city grid where houses trade far cheaper, Wesleyville stock averages $149,695 and inner east-side blocks less. Rents are low in absolute terms, so the region-level ratio pencils a rough 0.64 at 20% down. And taxes bite: the City of Erie stack runs about 39 mills once the school district joins the county's 6.61 and the city's 13.12, against 2012-era assessments the state ratio puts near half of market value, roughly 2% of price for a recent purchase. County rental vacancy of 7.3% is the highest on this page, so screening and location discipline matter.\n\nWhere the file works is the tier under $160,000: city and first-ring stock renting near $1,100 to $1,200, where the price-to-rent spread overwhelms the tax drag and insurance stays cheap at lake-effect-only exposure. Erie rewards buying streets, not averages.",
+      "regulationBadge": "friendly",
+      "regulationNote": "No rent control, standard state landlord-tenant process, and a city government focused on redevelopment rather than rental restriction; the investor frictions in Erie are taxes near 2% of price and the highest metro vacancy on this page, not regulation.",
+      "neighborhoods": [
+        {
+          "name": "Wesleyville",
+          "medianPrice": 149695,
+          "medianRent": 1050,
+          "note": "The first-ring borough east of the city at $149,695, up alongside the GE-legacy rail corridor employment. The best sourced balance of entry price and rentability in the market, with loan sizes that still clear most lender floors."
+        },
+        {
+          "name": "Millcreek Township",
+          "medianPrice": 245000,
+          "medianRent": 1400,
+          "note": "Erie's dominant suburb, roughly $245,000 stock with the region's strongest schools and longest tenancies. Thin ratios at full price; this is the stability end of the market, not the yield end."
+        },
+        {
+          "name": "Northwest Harborcreek",
+          "medianPrice": 287905,
+          "medianRent": 1500,
+          "note": "Lake-side township stock at $287,905 east of the city. Appreciation and quality-of-tenant play where files need heavy equity, and where the region's 5.9% growth number actually lives."
+        }
+      ],
+      "localAngle": {
+        "tag": "Cheap Entry",
+        "title": "The cheapest lakefront city in the Northeast is being rebuilt in public. The tax stack is the toll.",
+        "body": "Erie's pitch used to be price alone. It is now price plus a documented reinvestment cycle: the Erie Downtown Development Corporation, organized and funded by Erie Insurance alongside UPMC Hamot and Gannon University, has raised more than $70 million and delivered over $100 million of construction across the blocks north of Perry Square, more than 100 renovated apartments, a food hall, and two dozen storefronts, inside a broader wave the development community tallies above $600 million. Erie Insurance itself, a Fortune 500 company headquartered downtown and the county's largest employer, anchors the whole thesis. For a landlord the meaning is concrete: an employment core that is spending on itself, and a tenant base with somewhere to work. The test is the carry. A City of Erie parcel stacks roughly 39 mills, county 6.61, city 13.12, school district on top, against assessments the state's common level ratio places near half of market value, which lands around 2% of a recent purchase price annually. On a $150,000 house renting $1,100 to $1,200 the spread absorbs it and the file clears 1.0 with margin. On the region's $209,960 blended average against $1,036 average rent it does not, which is the two-layer truth of every Erie listing. Your matched specialist will structure the loan on the street-level numbers, and on the full tax bill rather than the seller's."
+      },
+      "programFit": [
+        "standard-dscr",
+        "portfolio-dscr",
+        "bridge-to-dscr",
+        "no-ratio-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 1-bath SFR",
+        "neighborhood": "Wesleyville",
+        "purchasePrice": 150000,
+        "downPaymentPct": 25,
+        "downPayment": 37500,
+        "loanAmount": 112500,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 786,
+        "monthlyTax": 246,
+        "monthlyInsurance": 85,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 1117,
+        "monthlyRent": 1195,
+        "dscr": 1.07,
+        "monthlyCashFlow": 78,
+        "specialistFocus": [
+          "Matched the file to a lender whose minimum loan amount accepts a 112,500 dollar balance, the constraint that removes half the DSCR menu on Erie-priced houses",
+          "Underwrote the full city-and-school millage stack near 2% of price instead of the county-only figure out-of-state pro formas carry",
+          "Priced a lake-effect-aware landlord policy that still came in under 90 dollars monthly, one of Erie's genuine structural advantages"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Is Erie the cheapest place in Pennsylvania to start with DSCR?",
+          "answer": "For workable stock, yes. Wesleyville and the city's first ring offer sound three-bedroom houses near $150,000 that rent around $1,100 to $1,200, clearing the ratio at 25% down while insurance runs under $90 a month. Two cautions keep it honest: the region's blended $209,960 average against $1,036 average rent pencils badly, so the deal lives street by street, and metro rental vacancy of 7.3% is the highest of Pennsylvania's investor markets, so screening and realistic rents matter more here than anywhere else on this page."
+        },
+        {
+          "question": "What is actually happening in downtown Erie?",
+          "answer": "A funded, visible rebuild rather than a press release. The Erie Downtown Development Corporation, created and capitalized by Erie Insurance with UPMC Hamot and Gannon University, raised over $70 million and completed more than $100 million of work across the blocks north of Perry Square: 100-plus renovated apartments, a food hall and market, and roughly two dozen commercial spaces. The wider tally of recent private investment tops $600 million. For a rental owner the significance is the employment anchor, Erie Insurance is a Fortune 500 employer headquartered downtown, and a slow bleed of residents reversing into a reason to stay."
+        },
+        {
+          "question": "Why are Erie property taxes so high relative to its prices?",
+          "answer": "Because millage never fell as values stagnated. A City of Erie parcel carries roughly 39 mills, 6.61 county, 13.12 city, and the school district's levy on top, applied to assessments from the county's 2012-era valuation that the state ratio now places near half of market value. Net effect: around 2% of a recent purchase price per year, among the heavier loads in the state relative to rent. The offsets are real, sub-$90 insurance and genuinely low entry prices, but a Frayser-style yield chase that ignores the tax line ends underwater here. Put the full stack in the file first."
+        },
+        {
+          "question": "Should I buy in Erie city or out in Millcreek?",
+          "answer": "Different jobs. City and first-ring stock, Wesleyville at $149,695 and the east-side grid below it, produces the ratios: cheap entry, $1,050 to $1,200 rents, files above 1.0 at normal leverage. Millcreek at roughly $245,000 buys the region's best schools, its longest tenancies, and its slowest phone, but rents near $1,400 cannot carry the price, so those files need 30% down or interest-only structure. The portfolio answer most Erie operators land on: two or three city doors for income, added to one Millcreek or Harborcreek asset only once the doors are paying for it."
+        },
+        {
+          "question": "Does the 7.3% vacancy rate break the Erie thesis?",
+          "answer": "It disciplines it. Erie County's 7.3% rental vacancy, highest of the markets on this page, reflects soft spots in the oldest, roughest inner-city stock and a shrinking-then-stabilizing population, not the market a screened landlord actually operates in. Sound houses near employment, the rail corridor, the hospitals, the university belt, lease reliably at market. The underwriting response is mechanical: model a real vacancy allowance, buy condition rather than the absolute cheapest shell, and hold rents at the level the tenant base earns. Do that, and Erie's spread still pays; skip it, and the vacancy statistic becomes your biography."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Erie region typical home value and YoY change, June 2026",
+        "Zillow rent figure for the Erie region, June 2026; rent trend estimated, small-market YoY unavailable (est.)",
+        "US Census ACS 5-year via Census Reporter, Erie County rental vacancy, 2024",
+        "Erie County 2025 millage table (county 6.61, City of Erie 13.12) plus school district levy, effective rate derived via PA DOR common level ratio factor 1.99 (est.)",
+        "Erie Downtown Development Corporation and Infinite Erie, $100M+ downtown build-out and $600M private investment, 2026",
+        "Zillow ZHVI for Wesleyville and Northwest Harborcreek, June 2026; Millcreek figure and neighborhood rents estimated (est.)"
+      ]
+    },
+    {
+      "city": "York",
+      "slug": "york",
+      "county": "York County",
+      "metro": "York-Hanover",
+      "hook": "York rents rose 4.4% and the regional typical value sits at $282,926, but the city line splits this market in two: 63 combined mills inside the City of York against roughly half that in the boroughs. Same tenant, same rent, two completely different deals.",
+      "metaDescription": "York rents rose 4.4%, and the city line splits the tax bill, 63 mills inside against far less outside. Run your DSCR on both sides. Get matched today.",
+      "market": {
+        "medianPrice": 282926,
+        "medianRent": 1366,
+        "priceToRent": 17.3,
+        "vacancyRate": 3.3,
+        "yoyPrice": 3.4,
+        "yoyRent": 4.4,
+        "estDSCR": 0.63,
+        "propertyTaxRate": 2.1,
+        "insuranceMonthly": 105
+      },
+      "overview": "York looks like one market and underwrites like two. The Zillow York region, blending the small city with its ring of boroughs and townships, carries a typical value of $282,926, up 3.4%, with rents up a strong 4.4% to $1,366 and county rental vacancy at just 3.3%. Inside the city line, Redfin's median sale ran about $175,000 in early 2026, rowhome stock renting to the same regional tenant base at nearly the same rents.\n\nThe reason the cheap stock is not automatically the better deal is the tax cliff. A City of York parcel stacks 18.97 city mills, 37.31 York City School District mills, and 6.9 county mills, about 63.18 combined, against 2005 base-year assessments the state ratio places near 49% of market value. That is roughly 3.1% of a recent purchase price per year, one of the heaviest effective loads in Pennsylvania. Cross into West York, North York, or the Springettsbury side and the school district changes, the millage roughly halves, and the same rent covers a different mortgage. The region-blended effective rate used here, about 2.1%, splits that difference; the localAngle below shows the sourced city numbers.\n\nThe play most operators land on: borough stock. West York at $193,366 and North York at $186,541, up 7.6% on the year, pair sub-$200K entries with $1,300 to $1,450 rents outside the city school levy, and those files clear 1.0 at 30% down. City rowhomes still work at Allison-Hill-style prices, but only when the offer respects the 63-mill arithmetic.",
+      "regulationBadge": "friendly",
+      "regulationNote": "No rent control and a standard state eviction process keep York operationally simple; the decisive variable is the property tax cliff at the city line, where the York City School District stack roughly doubles the effective rate versus neighboring boroughs.",
+      "neighborhoods": [
+        {
+          "name": "West York",
+          "medianPrice": 193366,
+          "medianRent": 1350,
+          "note": "Borough rowhomes and twins at $193,366 just over the city line, outside the York City School District levy. The rent tracks the city's while the tax bill does not, which is the whole thesis in one sentence."
+        },
+        {
+          "name": "North York",
+          "medianPrice": 186541,
+          "medianRent": 1300,
+          "note": "The cheapest sourced borough entry at $186,541, up 7.6% in a year as investors price in the tax advantage. Small stock, small borough, and listings move fast when they surface."
+        },
+        {
+          "name": "East York",
+          "medianPrice": 298155,
+          "medianRent": 1600,
+          "note": "Suburban stock at $298,155 on the Springettsbury side, up 4.2%. Long-tenancy family rentals with thin ratios; files here need heavy equity and are held for schools-driven appreciation."
+        }
+      ],
+      "localAngle": {
+        "tag": "Tax Cliff",
+        "title": "63 mills inside the city line. Roughly half outside it. The street you buy on is the deal.",
+        "body": "York's defining investor fact is written in the county millage table. A City of York parcel pays 18.97 mills to the city, 37.3093 mills to the York City School District, and 6.9 mills to the county, about 63.18 mills combined, applied to 2005 base-year assessments that Pennsylvania's common level ratio places near 49% of market value. Work that through and a recent city purchase carries roughly 3.1% of its price in annual property tax, among the highest effective loads in the Commonwealth. Walk two blocks into West York or North York borough and the school district changes, the combined millage falls to roughly half, and the same $1,300 rent that struggled to carry a city rowhome now clears a borough mortgage with margin. That is why borough stock has been repricing fastest, North York rose 7.6% this year, investors have done the arithmetic. It is not a reason to redline the city: York city rowhomes at $120,000 to $150,000 still produce workable ratios when the purchase price respects the tax line, and the city's revitalizing downtown keeps tenant demand real on both sides of the boundary. It is a reason to never underwrite a York deal from a county-average tax estimate. Pull the parcel, identify the school district, apply the actual stack. Your matched specialist will structure the file on the correct side of the cliff, whichever side the deal sits on."
+      },
+      "programFit": [
+        "standard-dscr",
+        "portfolio-dscr",
+        "bridge-to-dscr",
+        "no-ratio-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 1-bath rowhome",
+        "neighborhood": "West York",
+        "purchasePrice": 189000,
+        "downPaymentPct": 30,
+        "downPayment": 56700,
+        "loanAmount": 132300,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 925,
+        "monthlyTax": 331,
+        "monthlyInsurance": 100,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 1356,
+        "monthlyRent": 1425,
+        "dscr": 1.05,
+        "monthlyCashFlow": 69,
+        "specialistFocus": [
+          "Placed the purchase in West York borough, outside the York City School District levy, where the same regional rent carries the mortgage that a city-side tax bill would sink",
+          "Structured 30% down because the borough file at 20% ran below 1.0, and the extra equity is what bought the ratio",
+          "Verified the parcel's school district on the county millage table before the offer, the single highest-leverage diligence step in this market"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Why is the same house so much more expensive to hold in York city than next door?",
+          "answer": "School district millage. The York City School District levies 37.3093 mills, and with the city's 18.97 and the county's 6.9 the combined stack reaches about 63.18 mills on 2005-base assessments near 49% of market value, roughly 3.1% of a recent purchase price per year. Neighboring boroughs sit in different districts where the total runs near half that. Rents do not respect the boundary, tenants pay about the same on either side, so the entire difference lands on the owner's carry. Two identical rowhomes, one boundary, and one of them keeps twice the margin."
+        },
+        {
+          "question": "Are York city rowhomes ever worth buying despite the taxes?",
+          "answer": "Yes, at the right basis. Redfin's city median sale ran about $175,000 in early 2026, and plenty of sound rows trade from $120,000 to $150,000. At those prices, even a 3.1% effective tax load leaves a workable spread against $1,200 to $1,350 rents, and the city's downtown revival keeps demand honest. What fails is paying borough prices for city-side parcels: the tax line erases the margin invisibly. Offer off the actual millage stack, favor duplexes that stack two rents against the levy, and let deals that cannot survive the arithmetic go to someone who did not run it."
+        },
+        {
+          "question": "What is driving York's 4.4% rent growth?",
+          "answer": "Spillover economics. York sits within commuting range of Harrisburg, Lancaster, and the Maryland line, county rental vacancy is a tight 3.3%, and the region added logistics and healthcare payrolls while building very little rental stock. Meanwhile the ownership market repriced, the regional typical value rose 3.4% to $282,926, pushing marginal buyers into tenancy. That is a durable demand base rather than a spike: rents grew faster than prices this year, which for a landlord is the right direction, and it is why borough stock with the modest tax stack has become the most competitive corner of the market."
+        },
+        {
+          "question": "Which side of the York market fits a first DSCR deal?",
+          "answer": "The boroughs, almost every time. West York at $193,366 and North York at $186,541 pair sub-$200,000 entries with $1,300 to $1,450 rents outside the city school levy, clearing 1.0 with 30% down on standard 30-year paper. East York and the Springettsbury side offer easier tenancies but $298,155 prices that need heavy equity to pencil. City rowhomes reward experienced operators who buy deep and manage hard. Start where the tax table is on your side; add city doors when your basis discipline and management bench can carry them."
+        },
+        {
+          "question": "Does York County's assessment system create appeal opportunities?",
+          "answer": "Regularly. Assessments date to a 2005 base year, and the state's common level ratio for York sits near 49%, meaning a fairly assessed parcel should carry an assessment around half its market value. Recent sales attract district appeals upward toward that ratio, so underwrite your post-sale bill at roughly 49% of price times the local stack rather than the seller's number. In reverse, if your parcel's assessment implies a value well above what you paid, the annual appeal window with your settlement statement is a straightforward remedy. Either way, in York the millage table is required reading, not trivia."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, York region typical home value and YoY change, June 2026",
+        "Zillow rent figure and YoY for the York region, June 2026",
+        "US Census ACS 5-year via Census Reporter, York County rental vacancy, 2024",
+        "York County millage table, City of York 18.97, York City SD 37.3093, county 6.9 mills, 2025; effective rates derived via PA DOR common level ratio factor 2.05 (est.)",
+        "Redfin, York city median sale price ~$175,000, March 2026",
+        "Zillow ZHVI for West York, North York, East York, June 2026; neighborhood rents estimated from region average (est.)"
+      ]
+    },
+    {
+      "city": "Bethlehem",
+      "slug": "bethlehem",
+      "county": "Northampton County",
+      "metro": "Allentown-Bethlehem-Easton",
+      "hook": "Bethlehem's typical home value is $366,727, up 3.7%, and the city straddles two counties running two different assessment systems, 63.17 school mills on the Northampton side against 19.42 on the Lehigh side for the same district. The rent is the same. The paperwork is not.",
+      "metaDescription": "Bethlehem homes average $367K across two counties with two tax systems, and rents near $1,916. See which side pencils for DSCR. Get matched today.",
+      "market": {
+        "medianPrice": 366727,
+        "medianRent": 1916,
+        "priceToRent": 16,
+        "vacancyRate": 5.9,
+        "yoyPrice": 3.7,
+        "yoyRent": 3.1,
+        "estDSCR": 0.72,
+        "propertyTaxRate": 1.5,
+        "insuranceMonthly": 140
+      },
+      "overview": "Bethlehem is the Lehigh Valley's premium address and its most confusing tax map. The typical home value reached $366,727 in June 2026, up 3.7%, with average rents at $1,916, up 3.1%, and metro rental vacancy of 5.9%. Lehigh University anchors a deep South Side rental market, the former Steel site now hosts arts, casino, and logistics employment, and the historic district pulls the strongest tenants in the Valley. At the citywide median with 20% down the ratio pencils near 0.72, so like everywhere in the Lehigh Valley, the file is won at the entry price, not the average.\n\nThe quirk every investor must understand: Bethlehem sits in two counties that assess property on entirely different systems. Northampton County uses 50% of 1995 base-year values; Lehigh County uses a 2013 full-value base. The Bethlehem Area School District therefore levies 63.17 mills on Northampton-side parcels and 19.42 mills on Lehigh-side parcels for the 2025-26 year, after a 4.3% budget increase, and the raw numbers mean nothing until translated through each county's assessment ratio. Do the translation and a recent purchase on the Northampton side carries roughly 1.5% of price annually. Skip it and a spreadsheet will tell you Bethlehem taxes are either free or fatal, and both are wrong.\n\nWhere files clear: the South Side wards. 1st Ward at $193,940 and 6th Ward at $204,276 hold the student and workforce rental stock where two-unit buildings and by-the-room houses rent far above the citywide ratio, at half the citywide price.",
+      "regulationBadge": "moderate",
+      "regulationNote": "No rent control and standard Pennsylvania process, with city rental inspections and student-housing oversight on the South Side; the underwriting trap is the two-county assessment split, not tenant law.",
+      "neighborhoods": [
+        {
+          "name": "1st Ward",
+          "medianPrice": 193940,
+          "medianRent": 1450,
+          "note": "South Side stock at $193,940 in Lehigh University's walk zone. Student and workforce demand keeps units full; buy for the location math, and underwrite the market rent rather than the per-bed fantasy."
+        },
+        {
+          "name": "6th Ward",
+          "medianPrice": 204276,
+          "medianRent": 1500,
+          "note": "The other half of the South Side at $204,276, rows and twins between the greenway and the former Steel site's employment. The city's best remaining rent-to-price spread outside student housing."
+        },
+        {
+          "name": "Midway Manor",
+          "medianPrice": 319059,
+          "medianRent": 1750,
+          "note": "Quiet northeast-side ranches at $319,059 renting to families and healthcare staff. Thin ratio at full price; works as the stability piece of a portfolio, not the engine."
+        },
+        {
+          "name": "Dutch Hill",
+          "medianPrice": 338814,
+          "medianRent": 1800,
+          "note": "Sturdy pre-war stock at $338,814 above the university. Strong tenants and low vacancy, with files that need 30% down or interest-only structure to reach the line."
+        }
+      ],
+      "localAngle": {
+        "tag": "Two Counties",
+        "title": "One city, two counties, two assessment systems: read the parcel before you trust any tax number.",
+        "body": "Bethlehem is split between Northampton and Lehigh counties, and the two have never agreed on how to value property. Northampton County still assesses at 50% of 1995 base-year values; Lehigh County assesses on a 2013 full-value base. Same school district, same city services, radically different arithmetic: for 2025-26 the Bethlehem Area School District levies 63.17 mills on its Northampton County parcels and 19.42 mills on its Lehigh County parcels, both reflecting a 4.3% budget increase, and each number only makes sense against its own county's assessment ratio. Pennsylvania's common level ratio tables put Northampton assessments near 16% of market value, which is why 63 mills there translates to a live effective load of roughly 1.5% of a recent purchase price once county and city millage join the stack, in the same neighborhood as the Lehigh-side math despite the wildly different mill counts. The practical failure mode is copying a millage number from the wrong county into a pro forma, an error that swings the modeled tax line by hundreds of dollars a month in either direction. The fix costs nothing: pull the parcel, confirm the county, read the actual assessed value, apply the actual stack. Bethlehem rewards that diligence with the Valley's strongest tenant base, university, healthcare, casino, and logistics payrolls within one small city. Your matched specialist will underwrite the parcel's real bill, not a blended guess."
+      },
+      "programFit": [
+        "standard-dscr",
+        "interest-only-dscr",
+        "portfolio-dscr",
+        "bridge-to-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "4-bed / 2-bath twin (student rental)",
+        "neighborhood": "1st Ward",
+        "purchasePrice": 212000,
+        "downPaymentPct": 25,
+        "downPayment": 53000,
+        "loanAmount": 159000,
+        "loanType": "30-Year Fixed Interest-Only",
+        "interestOnly": true,
+        "monthlyPI": 994,
+        "monthlyTax": 265,
+        "monthlyInsurance": 120,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 1379,
+        "monthlyRent": 1800,
+        "dscr": 1.31,
+        "monthlyCashFlow": 421,
+        "specialistFocus": [
+          "Structured interest-only to widen the ratio on a South Side twin whose amortizing file ran materially tighter at the same rent",
+          "Qualified on the appraiser's whole-house market rent of 1,800 dollars, not the per-bedroom student total the listing advertised",
+          "Confirmed the parcel sits on the Northampton County roll and underwrote the 63.17-mill school levy through the county's actual assessment ratio rather than face value"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Is Bethlehem's school tax really 63 mills, and does that kill deals?",
+          "answer": "It is really 63.17 mills on the Northampton County side for 2025-26, and no, because millage without an assessment base is a meaningless number. Northampton assesses at 50% of 1995 values, and the state's ratio tables put those assessments near 16% of today's market value, so the translated effective load for a recent purchase lands around 1.5% of price once county and city levies join. The identical district charges 19.42 mills on its Lehigh County parcels against a 2013 full-value base and arrives in the same neighborhood. Underwrite the parcel's actual bill; ignore the raw mill count."
+        },
+        {
+          "question": "How do Lehigh University rentals work for a DSCR loan?",
+          "answer": "The house qualifies on its market rent, not its student premium. A 1st Ward twin might collect per-bedroom rents that total well above what the appraiser's comparable-rent schedule supports, but DSCR underwriting uses the appraisal figure, so the file must clear on the whole-house number, with the student premium as margin rather than qualification. That discipline protects you too: it means the deal survives a year of renting to a family instead of four students. Also verify the city's rental inspection and occupancy rules for the specific parcel, since unrelated-occupant limits shape what the premium can legally be."
+        },
+        {
+          "question": "Where does a cash-flow file actually clear in Bethlehem?",
+          "answer": "The South Side wards, at half the citywide price. 1st Ward at $193,940 and 6th Ward at $204,276 rent to students, hospital staff, and Wind Creek and logistics workers at $1,450 to $1,800 for twins and small multifamily, which puts well-bought files at 1.2 to 1.4 on the ratio. The citywide median of $366,727 against $1,916 average rent pencils near 0.72, so the historic district and the northeast-side family stock are equity plays that need 30% down or interest-only structure. In Bethlehem the spread lives south of the river."
+        },
+        {
+          "question": "What is the Bethlehem rental market's demand base beyond students?",
+          "answer": "Broader than most college towns. Lehigh University and Moravian anchor the academic tenancy, but the former Bethlehem Steel site now hosts the Wind Creek casino complex, arts venues, and a logistics corridor, St. Luke's and Lehigh Valley Health Network payrolls span the city, and the Allentown-Bethlehem metro's 5.9% rental vacancy shows demand outrunning supply across the Valley. Rents rose 3.1% on top of that base. The mix matters for underwriting: South Side units re-lease across student and workforce pools rather than living and dying by the academic calendar, which steadies the twelve-month collections a DSCR file depends on."
+        },
+        {
+          "question": "Bethlehem or Allentown for the next Lehigh Valley deal?",
+          "answer": "Same metro, different entry math. Allentown is cheaper at a $320,863 typical value with a documented 1,900-unit housing shortage and the NIZ employment engine; its rowhome wards produce workable files near $226,000. Bethlehem costs more at $366,727 but rents higher, $1,916 against $1,732, and its South Side wards at $194,000 to $204,000 are the strongest price-to-rent pockets in either city. Operators chasing pure ratio usually land in Allentown's wards; operators wanting the university-and-healthcare tenant quality pay Bethlehem's toll. Holding one file in each under a portfolio loan is the Valley's most common endgame."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Bethlehem typical home value and YoY change, June 2026",
+        "Zillow rent figure and YoY for Bethlehem, June 2026",
+        "US Census Bureau Housing Vacancy Survey, Allentown-Bethlehem metro rental vacancy, 2024",
+        "LehighValleyNews, Bethlehem Area School District 2025-26 millage of 63.17 (Northampton) and 19.42 (Lehigh) after 4.3% increase, June 2025",
+        "PA Department of Revenue common level ratio, Northampton factor 6.21, 2025; city and county millage components and effective rate derived (est.)",
+        "Zillow neighborhood ZHVI for 1st Ward, 6th Ward, Midway Manor, Dutch Hill, June 2026; neighborhood rents estimated from citywide average (est.)"
+      ]
+    },
+    {
+      "city": "Wilkes-Barre",
+      "slug": "wilkes-barre",
+      "county": "Luzerne County",
+      "metro": "Scranton-Wilkes-Barre",
+      "hook": "Wilkes-Barre pairs a $183,600 typical value, the cheapest city entry in northeast Pennsylvania, with rents up 4.1%. The asterisk: the city runs its own assessment roll separate from the county's, so every pro forma here has two tax bills to get right.",
+      "metaDescription": "Wilkes-Barre DSCR entry runs near $184K with rents up 4.1%, but two separate tax rolls hide the real carry. See the honest math. Get matched today.",
+      "market": {
+        "medianPrice": 183600,
+        "medianRent": 1358,
+        "priceToRent": 11.3,
+        "vacancyRate": 4.7,
+        "yoyPrice": 1.4,
+        "yoyRent": 4.1,
+        "estDSCR": 0.9,
+        "propertyTaxRate": 2.5,
+        "insuranceMonthly": 95
+      },
+      "overview": "Wilkes-Barre is the entry-price champion of northeast Pennsylvania: a typical value of $183,600, up a modest 1.4%, against average rents of $1,358 that climbed 4.1%, the strongest rent growth in the Scranton-Wilkes-Barre metro. The 11.3 price-to-rent ratio is the best on this page, county rental vacancy sits at 4.7%, and the tenant base runs on healthcare, logistics, and the county courthouse economy. On paper this is the yield play of the region.\n\nThe honest layer is the tax plumbing. Wilkes-Barre is one of the few Pennsylvania cities that never converted to the county's assessment roll: Luzerne County and the Wilkes-Barre Area School District tax on the county's 2009 full-value assessments, 6.4494 county mills and 18.4332 school mills for 2025-26, while the city levies its own 141.33 mills against a separate, decades-old city assessment roll with far smaller values. Neither bill is optional and neither appears on the other's statement. Out-of-town pro formas routinely copy one roll and miss the other, understating the carry by hundreds of dollars a month. A fair composite for a recent purchase runs near 2.5% of price, which drags the citywide ratio to roughly 0.9 at 20% down even at these prices.\n\nThat is why Wilkes-Barre is the right home for honest no-ratio paper: East End and Mayflower houses at $160,000 rent near $1,250, slightly under water at high leverage today, with 4.1% rent growth doing the repair work. Buy it knowing the number, or do not buy it.",
+      "regulationBadge": "friendly",
+      "regulationNote": "No rent control, a standard state eviction process, and a city that has held its own millage flat for seven straight years; the trap is administrative, two separate assessment rolls, rather than regulatory.",
+      "neighborhoods": [
+        {
+          "name": "Parsons",
+          "medianPrice": 195618,
+          "medianRent": 1350,
+          "note": "The northeast-side neighborhood at $195,618, the most house-proud of the city's sections. Steady family tenants and the market's most predictable collections; the premium over East End buys lower turnover."
+        },
+        {
+          "name": "Miners Mills",
+          "medianPrice": 174654,
+          "medianRent": 1250,
+          "note": "Old mining-village stock at $174,654 along the river flats. Solid mid-tier entry with the same two-roll tax homework as everywhere else in the city."
+        },
+        {
+          "name": "Mayflower",
+          "medianPrice": 163365,
+          "medianRent": 1225,
+          "note": "South-central blocks at $163,365 near the hospital employment. The rent-to-price spread looks generous until the composite tax bill lands; underwrite both rolls before celebrating."
+        },
+        {
+          "name": "East End",
+          "medianPrice": 161369,
+          "medianRent": 1200,
+          "note": "The cheapest sourced entry at $161,369. High-leverage files run honestly negative here today, which makes it no-ratio territory where 4.1% rent growth is the actual investment thesis."
+        }
+      ],
+      "localAngle": {
+        "tag": "Two Tax Rolls",
+        "title": "One house, two assessment rolls: the Wilkes-Barre bill nobody's spreadsheet includes.",
+        "body": "When Luzerne County completed its countywide reassessment in 2009, most municipalities adopted the new full-value roll for everything. Wilkes-Barre did not. The city continues to levy its municipal tax, 141.33 mills, unchanged since 2017 and held flat again in the 2026 budget, against its own legacy assessment roll, whose values are small fractions of market price, while the county's 6.4494 mills and the Wilkes-Barre Area School District's 18.4332 mills apply to the county's 2009 assessments. The result is two bills computed on two different values for the same parcel, and no single line item that represents your true carry. Local coverage flags the consequence directly: the city's assessment base is skewed because it never converted to market values, so raw millage comparisons with neighboring towns mislead in both directions. For a buyer the fix is procedural, not clever: pull the county assessment and apply the 24.88 combined county-school mills, pull the city's separate assessed value and apply 141.33, add them, and divide by your purchase price. Composites for typical recent purchases land near 2.5% of price, materially heavier than the county-average figures circulating in out-of-state forums. Run it before the offer and Wilkes-Barre's genuine advantages, the cheapest entries in the region and 4.1% rent growth, are yours with eyes open. Your matched specialist will underwrite both rolls into one honest ratio."
+      },
+      "programFit": [
+        "no-ratio-dscr",
+        "standard-dscr",
+        "portfolio-dscr",
+        "bridge-to-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 1-bath SFR",
+        "neighborhood": "East End",
+        "purchasePrice": 160000,
+        "downPaymentPct": 20,
+        "downPayment": 32000,
+        "loanAmount": 128000,
+        "loanType": "No-Ratio DSCR 30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 895,
+        "monthlyTax": 333,
+        "monthlyInsurance": 90,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 1318,
+        "monthlyRent": 1250,
+        "dscr": 0.95,
+        "monthlyCashFlow": -68,
+        "specialistFocus": [
+          "Placed the file in a no-ratio program that does not require the 0.95 coverage to qualify, with the investor documenting reserves for the honest 68 dollar monthly shortfall",
+          "Underwrote both tax rolls, the county-school levy on the 2009 assessment plus the city's 141.33 mills on its separate roll, instead of the single line the listing carried",
+          "Positioned the deal around 4.1% market rent growth, with a refinance into standard DSCR paper once the lease crosses the carry"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Why did my Wilkes-Barre tax estimate come in so far below the real bills?",
+          "answer": "Because there are two of them. The county and school district bill against Luzerne County's 2009 full-value assessments at a combined 24.88 mills, while the city bills 141.33 mills against its own separate legacy roll that was never converted to market values. Most online estimates and many listing sheets capture one roll and silently omit the other, understating the carry by hundreds of dollars a month. Composite bills for recent purchases typically total near 2.5% of price. Pull both assessed values from the county and the city before you write an offer, and make the seller's actual paid bills part of diligence."
+        },
+        {
+          "question": "Is a deal with negative cash flow ever worth doing here?",
+          "answer": "Only when it is honest and structured for it. An East End house at $160,000 with 20% down runs about 68 dollars short each month at today's $1,250 rent, a 0.95 ratio. A no-ratio DSCR program finances that deal without pretending otherwise: qualification does not depend on coverage, the investor documents reserves, and the thesis is the market's 4.1% rent growth, which at that pace carries the lease past the carry within roughly two years, opening a refinance into standard paper. What is never worth doing is arriving at the same negative number by accident because half the tax bill was missing."
+        },
+        {
+          "question": "What does $184,000 actually buy in Wilkes-Barre?",
+          "answer": "A real house, not a project, which is the market's underrated feature. The typical value of $183,600 maps to sound three-bedroom stock in Parsons at $195,618 or Miners Mills at $174,654, solid pre-war frame and brick homes on established blocks, renting $1,250 to $1,350 to healthcare, logistics, and county-government tenants. The 11.3 price-to-rent ratio is the best of any market on this page. The arithmetic drag is the composite tax load near 2.5% of price; the operational drag is the age of the stock, so budget mechanicals honestly. Neither is hidden once you know to look."
+        },
+        {
+          "question": "How do Wilkes-Barre and Scranton compare for a first deal?",
+          "answer": "Wilkes-Barre is cheaper and growing rents faster, $183,600 entries with 4.1% growth against Scranton's $205,566 and flat rents, and its price-to-rent ratio of 11.3 beats Scranton's 13.0. Scranton counters with cleaner tax mechanics after its 2026 reassessment, one set of market-value assessments across all three taxing bodies, plus deeper double-block inventory and a larger institutional tenant base. If you will actually do the two-roll homework, Wilkes-Barre's spread is the better raw material; if you want arithmetic you can trust off one document, Scranton charges about $22,000 more for the privilege. Many operators hold both."
+        },
+        {
+          "question": "Is Wilkes-Barre's rent growth sustainable or a blip?",
+          "answer": "The drivers look durable. The 4.1% growth rides the same forces as the rest of northeast Pennsylvania, logistics employment along the interstates, healthcare systems hiring, and affordability refugees from pricier metros, but Wilkes-Barre adds the region's lowest entry prices, which keeps attracting investor renovation capital that upgrades the rentable stock. County rental vacancy of 4.7% leaves little slack. The prudent underwrite is still conservative: qualify at today's actual market rent, treat continued growth as the repair mechanism for tight files rather than a qualification input, and let the no-ratio structure carry the gap in the meantime."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Wilkes-Barre typical home value and YoY change, June 2026",
+        "Zillow rent figure and YoY for Wilkes-Barre, June 2026",
+        "US Census ACS 5-year via Census Reporter, Luzerne County rental vacancy, 2024",
+        "Times Leader and Luzerne County millage records, county 6.4494 and WBASD 18.4332 mills on 2009 assessments; City of Wilkes-Barre 141.33 mills on its separate roll, held flat in the 2026 budget, 2025",
+        "Composite effective tax rate for a recent purchase derived from both rolls, 2026 (est.)",
+        "Zillow neighborhood ZHVI for Parsons, Miners Mills, Mayflower, East End, June 2026; neighborhood rents estimated from citywide average (est.)"
+      ]
+    },
+    {
+      "city": "East Stroudsburg",
+      "slug": "east-stroudsburg",
+      "county": "Monroe County",
+      "metro": "East Stroudsburg",
+      "hook": "East Stroudsburg anchors the Poconos short-term rental economy: $319,967 typical values, 45% STR occupancy across roughly 800 active listings, and township-by-township licensing that decides which houses may legally host at all. The market is real. So is the saturation.",
+      "metaDescription": "East Stroudsburg is the Poconos STR DSCR hub, $320K medians at 45% STR occupancy, and townships decide who can host. See which license. Get matched today.",
+      "market": {
+        "medianPrice": 319967,
+        "medianRent": 1898,
+        "priceToRent": 14,
+        "vacancyRate": 2.7,
+        "yoyPrice": 1.4,
+        "yoyRent": 3.5,
+        "estDSCR": 0.76,
+        "propertyTaxRate": 2.1,
+        "insuranceMonthly": 145
+      },
+      "overview": "East Stroudsburg is where the Poconos investment story gets underwritten or unravels. The typical home value is $319,967, up a cooling 1.4% after the 2021-2023 vacation-home surge, and long-term rents run near $1,898, an unusually high figure for a small market because so much stock left the long-term pool for short-term rental service. Monroe County's long-term rental vacancy of 2.7% tells the same story from the other side: for tenants, almost nothing is available.\n\nThe STR market itself has matured past its gold-rush phase. AirDNA-tracked data for the Pocono Lake area shows roughly 800 active listings, occupancy around 45%, median annual revenue near $59,000, and active listings down 9.6% year over year as under-capitalized hosts exited, while average daily rates still rose about 4.2%. Translation: the median operator grosses well, the marginal operator quit, and the spread between a licensed, well-run house and a hopeful listing has never been wider.\n\nRegulation is hyper-local and decisive. Monroe County published a model ordinance in 2019 and townships adopted their own versions: Middle Smithfield Township runs a clear licensing regime under Chapter 150 of its code, a $500 annual STR license, a 16-person occupancy cap, septic documentation, and the county hotel tax certificate, with no cap on rental days, while other townships restrict harder. Taxes are the other line: East Stroudsburg borough's 2026 stack totals 47.64 mills, including a 33.01-mill school levy, against 2019-base assessments, roughly 2.1% of a recent purchase price. Buy the township rules first, the house second.",
+      "regulationBadge": "moderate",
+      "regulationNote": "No rent control exists, but short-term rental rights are decided township by township under Monroe County's model-ordinance framework, so the same house can be a licensed STR in Middle Smithfield and an illegal one a mile away; verify the municipality before valuing any Poconos property on nightly income.",
+      "neighborhoods": [
+        {
+          "name": "Middle Smithfield Township",
+          "medianPrice": 315000,
+          "medianRent": 1900,
+          "note": "The STR-friendly jurisdiction, roughly $315,000 stock across Winona Lakes and the Route 209 corridor. Chapter 150 licensing is clear, annual, and unlimited on rental days, which is why serious operators concentrate here."
+        },
+        {
+          "name": "Arlington Heights",
+          "medianPrice": 338218,
+          "medianRent": 2000,
+          "note": "Stroud-side suburban stock at $338,218 near the hospital and university employment. Primarily a long-term rental play serving the 2.7% vacancy market rather than the tourist trade."
+        },
+        {
+          "name": "Mountainhome",
+          "medianPrice": 293546,
+          "medianRent": 1800,
+          "note": "Barrett Township village stock at $293,546 on the Route 390 resort corridor. Verify the township's current STR rules before underwriting nightly income; the county's framework is adopted differently here."
+        },
+        {
+          "name": "Silver Lake",
+          "medianPrice": 377378,
+          "medianRent": 2100,
+          "note": "Lake-adjacent homes at $377,378, the premium tier where STR revenue concentrates. Higher entry, higher ADR, and the occupancy math only works with professional management and real amenity spend."
+        }
+      ],
+      "localAngle": {
+        "tag": "STR Rules",
+        "title": "In the Poconos, the township decides whether your Airbnb exists. Middle Smithfield wrote it down.",
+        "body": "Monroe County does not regulate short-term rentals; its townships do, working from a model ordinance the county published in July 2019, and the differences between adjacent municipalities are the whole game. Middle Smithfield Township is the clarity benchmark: Chapter 150 of its code, amended through Ordinance 221, requires a short-term rental license from the zoning officer before operating, at a $500 annual fee, with a 16-person occupancy cap, proof of a Monroe County Hotel Room Excise Tax certificate and a Pennsylvania sales tax license, and for septic properties a professional system evaluation with pumping documented within twelve months. Notably, it imposes no cap on rental days, a licensed house may host year-round. Neighboring townships adopted stricter or murkier versions, and some effectively closed the door, so two identical houses a mile apart can carry entirely different legal income ceilings. The market data explains why the license is worth protecting: roughly 800 active listings area-wide, 45% occupancy, median revenue near $59,000 with summer STRs capturing over half of local lodging revenue, and a 9.6% year-over-year decline in active listings as unlicensed and under-capitalized hosts washed out. STR-specific DSCR programs qualify on projected nightly income precisely because that documentation exists. Your matched specialist will structure the file on the license, the occupancy-honest projection, and the township's actual code section, in that order."
+      },
+      "programFit": [
+        "str-dscr",
+        "standard-dscr",
+        "interest-only-dscr",
+        "portfolio-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "4-bed / 2-bath chalet (licensed STR)",
+        "neighborhood": "Middle Smithfield Township",
+        "purchasePrice": 332000,
+        "downPaymentPct": 25,
+        "downPayment": 83000,
+        "loanAmount": 249000,
+        "loanType": "30-Year Fixed STR-DSCR",
+        "interestOnly": false,
+        "monthlyPI": 1741,
+        "monthlyTax": 581,
+        "monthlyInsurance": 200,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 2522,
+        "monthlyRent": 3400,
+        "dscr": 1.35,
+        "monthlyCashFlow": 878,
+        "specialistFocus": [
+          "Qualified under an STR DSCR program on a projected 3,400 dollars of monthly short term rental income, underwritten at the market's real 45% occupancy rather than the listing screenshot",
+          "Made the Middle Smithfield Chapter 150 license, the county hotel excise certificate, and the septic evaluation part of the loan file before appraisal",
+          "Priced commercial-grade STR liability coverage and the 500 dollar annual license into the carry instead of the homeowner-policy number the seller quoted"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Can I legally run an Airbnb in the East Stroudsburg area?",
+          "answer": "It depends entirely on the township, and that is the first diligence question, before price, before condition. Middle Smithfield Township licenses short-term rentals clearly under Chapter 150 of its code: a $500 annual license, 16-person occupancy cap, county hotel tax certificate, septic documentation, and no limit on rental days. Other Monroe County municipalities, all working from the county's 2019 model ordinance, adopted stricter caps, buffer rules, or effective prohibitions. Buy the ordinance first: confirm the parcel's municipality, read its current STR chapter, and only then value the house, because the same chalet is a business in one township and a violation in the next."
+        },
+        {
+          "question": "Is the Poconos STR market oversaturated in 2026?",
+          "answer": "It is consolidated, which is different. Active listings in the tracked Pocono Lake market fell 9.6% year over year to roughly 800 as marginal hosts exited, while occupancy held near 45% and average daily rates rose about 4.2%, lifting revenue per listing. Median annual revenue runs near $59,000, and summer STRs still capture over half of local lodging revenue. What died was the 2021 fantasy of effortless 70% occupancy. What survives is a professional market where licensing, amenities, and management determine whether a specific house earns the median or sits dark. Underwrite at 45%, not at the screenshot."
+        },
+        {
+          "question": "How does an STR DSCR loan work for a Poconos property?",
+          "answer": "Instead of a long-term lease, the file qualifies on documented or projected short-term rental income, typically supported by a vendor projection or the property's trailing twelve months, underwritten to market occupancy. Lenders in this niche expect the township license in the file, the county hotel tax registration, and STR-appropriate insurance, and they will haircut aggressive projections. Structure matters: at 25% down, a $332,000 licensed Middle Smithfield chalet projecting $3,400 monthly clears roughly 1.35 with margin for the fat and lean seasons. The license is not paperwork; it is the collateral's income right, and underwriting treats it that way."
+        },
+        {
+          "question": "What are the real carrying costs beyond the mortgage up here?",
+          "answer": "Four lines that flatland pro formas miss. Property tax: East Stroudsburg borough's stack totals 47.64 mills including a 33.01-mill school levy, and township-side parcels run near 41 mills, landing around 2% of a recent purchase price. Insurance: STR liability and vacation-home coverage runs well above a homeowner policy, budget $200 monthly and up at this price tier. Operations: management for remote owners commonly takes 20% or more of gross, plus cleaning, hot-tub service, and snow removal. And the $500 annual license with hotel tax filings. The median $59,000 gross absorbs all of it; a bad projection does not."
+        },
+        {
+          "question": "Should I buy a long-term rental here instead of an STR?",
+          "answer": "It is a legitimate and quieter play. Monroe County's long-term rental vacancy is 2.7%, squeezed by exactly the STR conversion wave that built the tourist market, and Stroud-side stock near the hospital and East Stroudsburg University rents around $1,800 to $2,000 to year-round tenants with none of the occupancy variance. At a $319,967 typical value the long-term ratio pencils near 0.76 at 20% down, so these files want larger equity or an interest-only structure, but they carry no township licensing risk and no seasonality. Plenty of operators run one of each: the STR earns, the long-term steadies."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, East Stroudsburg typical home value and YoY change, June 2026",
+        "Zillow rent figure June 2026; YoY trend estimated after rejecting a 9% small-sample swing as listing-mix noise (est.)",
+        "US Census ACS 5-year via Census Reporter, Monroe County rental vacancy, 2024",
+        "Middle Smithfield Township Code Chapter 150 and Ordinance 221, STR license, $500 fee, 16-person cap; Monroe County model STR ordinance, July 2019",
+        "AirDNA Pocono Lake market data, ~800 active listings, 45% occupancy, $59K median revenue, listings down 9.6% YoY, July 2026",
+        "Monroe County 2026 millage table, East Stroudsburg borough total 47.64 mills, Middle Smithfield 41.32 mills; effective rate derived via PA DOR CLR factor 2.27 (est.)"
+      ]
+    }
+  ]
+}

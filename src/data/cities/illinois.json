@@ -1,0 +1,1308 @@
+{
+  "state": "Illinois",
+  "abbreviation": "IL",
+  "stateSlug": "illinois",
+  "dataUpdated": "2026-08",
+  "cities": [
+    {
+      "city": "Chicago",
+      "slug": "chicago",
+      "county": "Cook County",
+      "metro": "Chicago-Naperville-Elgin",
+      "hook": "Chicago's typical home value is $335K, up 3.9% in a year, with median rent near $2,409. The asset that makes the math work here is the two-flat, and the tax bill is computed in three layers most out-of-state buyers never see.",
+      "metaDescription": "Chicago homes average $335K with median rent near $2,409, and Cook County's layered tax math decides the deal. See where DSCR files pencil. Get matched today.",
+      "market": {
+        "medianPrice": 335521,
+        "medianRent": 2409,
+        "priceToRent": 11.6,
+        "vacancyRate": 5.1,
+        "yoyPrice": 3.9,
+        "yoyRent": 2.4,
+        "estDSCR": 0.92,
+        "propertyTaxRate": 1.85,
+        "insuranceMonthly": 230
+      },
+      "overview": "Chicago is the largest rental market in the Midwest and one of the few big cities where the numbers still resemble a rental market instead of an appreciation bet. The typical home value sits at $335,521 as of June 2026, up 3.9% year over year, with median rent near $2,409 while average listing rents rose about 2.4%. At the citywide median with 20% down the ratio lands near 0.92, which is closer to clearing than almost any coastal metro manages.\n\nThe native investor asset is the two-to-four unit building. Units in 2-to-4 unit properties make up 26% of Chicago's housing stock and have historically supplied over a third of its rental units, per DePaul's Institute for Housing Studies, and nearly 40% of those rental units have three or more bedrooms. Two rents against one mortgage is how Chicago files clear, and it is why the deal example below is a two-flat rather than a condo.\n\nThe part that surprises out-of-state buyers is the tax machinery. Cook County assesses residential property at 10% of market value, then multiplies by a state equalization factor of 3.0300 for 2025, then applies the local composite levy. The published median effective bill in Chicago is about 1.66% of value, but that median includes owners with homestead exemptions an investor does not get, so underwrite closer to 1.85%. Belmont Cragin, Portage Park, and Ashburn are where the bungalow and two-flat math still pencils.",
+      "regulationBadge": "tenant",
+      "regulationNote": "Chicago's Residential Landlord and Tenant Ordinance covers most rentals except owner-occupied buildings of six units or fewer, and it carries real teeth: a required summary attached to every lease, security deposit interest rules, and penalty exposure that makes many operators switch to move-in fees.",
+      "neighborhoods": [
+        {
+          "name": "Belmont Cragin",
+          "medianPrice": 367727,
+          "medianRent": 2000,
+          "note": "Northwest Side two-flat country, up 4.2% over the year. A largely Latino working-class neighborhood where DePaul's research shows 2-to-4 unit buildings dominate the fabric, so most listings price on two rent rolls, not one."
+        },
+        {
+          "name": "Portage Park",
+          "medianPrice": 427531,
+          "medianRent": 2200,
+          "note": "Brick bungalows and two-flats near the Six Corners retail node, up 6.1% over the year, the strongest appreciation of the five submarkets here. Entry is higher, so files lean on larger down payments or the second unit's rent."
+        },
+        {
+          "name": "Ashburn",
+          "medianPrice": 268949,
+          "medianRent": 2100,
+          "note": "Southwest Side brick ranches and Cape Cods at $268,949, up 2.1%. The cheapest detached single-family play in the city that still rents to long-tenure working families, and the closest thing Chicago has to a set-and-hold SFR market."
+        },
+        {
+          "name": "Bronzeville",
+          "medianPrice": 298049,
+          "medianRent": 2000,
+          "note": "Historic greystone corridor south of downtown at roughly $298,049. Rehab-to-rent and small multifamily buyers compete here, and appraisals swing block by block, so comp discipline matters more than anywhere else on this list."
+        },
+        {
+          "name": "South Shore",
+          "medianPrice": 137156,
+          "medianRent": 1500,
+          "note": "Lakefront condos and courtyard buildings at $137,156, down 2% over the year. The highest headline yield in the city, but many condo buildings fail lender review and assessments run heavy, so the cheap price is not free money."
+        }
+      ],
+      "localAngle": {
+        "tag": "Tax Math",
+        "title": "Cook County taxes are computed in three layers, and the investor pays the version without the discounts.",
+        "body": "Almost every out-of-state pro forma for Chicago carries the wrong tax number, because Cook County does not work like the counties around it. Residential property here is assessed at 10% of market value under county ordinance, while the rest of Illinois assesses at 33.33%. The state then applies an equalization factor to pull Cook back in line, 3.0300 for tax year 2025, and the local composite levy hits that equalized base. Three layers, and the published bills you see on listing sites sit on top of a fourth distortion: exemptions. The homeowner selling you the property was likely knocking $10,000 of equalized assessed value off the bill with a homestead exemption that dies at closing, because an investor cannot claim it. That is why Chicago's median effective bill of about 1.66% of value understates what a rental actually pays. The city also reassesses on a triennial cycle, with the Chicago triad last reassessed in 2024 and due again in 2027, and appeals are a local sport with real win rates. The practical playbook: underwrite the unabated non-homestead bill, calendar the reassessment year, and appeal on cycle. Your matched specialist will structure the file on the post-closing tax reality rather than the seller's discounted bill, which is the single most common fix that keeps a Chicago ratio honest."
+      },
+      "programFit": [
+        "standard-dscr",
+        "portfolio-dscr",
+        "interest-only-dscr",
+        "bridge-to-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "Two-flat (2-unit)",
+        "neighborhood": "Belmont Cragin",
+        "purchasePrice": 450000,
+        "downPaymentPct": 30,
+        "downPayment": 135000,
+        "loanAmount": 315000,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 2202,
+        "monthlyTax": 694,
+        "monthlyInsurance": 260,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 3156,
+        "monthlyRent": 3300,
+        "dscr": 1.05,
+        "monthlyCashFlow": 144,
+        "specialistFocus": [
+          "Structured 30% down because the citywide ratio at 20% lands near 0.92, and the second unit's rent plus the extra equity is what carried the file over 1.0",
+          "Qualified on the appraiser's market rent for both units on the small-residential income report instead of the seller's below-market month-to-month leases",
+          "Underwrote the full non-homestead tax bill using the 10% assessment level and the 3.0300 equalization factor rather than the seller's exempted bill"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Can I buy a Chicago house or condo and run it as an Airbnb?",
+          "answer": "Mostly no, if you will not live there. Chicago's Shared Housing Ordinance requires that a single-family home or a unit in a 2-to-4 unit building be the host's primary residence, with narrow exceptions, which closes the classic investor STR play in exactly the building types investors buy here. Units must also avoid the Restricted Residential Zones, the Prohibited Buildings List, and since a 2025 law, operators file monthly data reports with the city. What works instead is a 30-day-plus furnished mid-term rental, which sits outside the ordinance. Your matched specialist will qualify the file on long-term market rent, which is what the appraisal supports anyway."
+        },
+        {
+          "question": "Why does my Cook County tax estimate keep coming out wrong?",
+          "answer": "Because three moving parts stack: a 10% residential assessment level, a state equalization factor of 3.0300 for 2025, and the local levy, and then exemptions distort the seller's published bill. The homestead exemption cuts $10,000 of equalized assessed value for an owner-occupant and it does not transfer to you as an investor. The published Chicago median effective bill is about 1.66% of value, but a non-homestead rental should be underwritten closer to 1.85%, and the Chicago triad reassesses in 2027. Budget the higher number, then appeal on cycle like local owners do."
+        },
+        {
+          "question": "Does the RLTO apply to my Chicago rental?",
+          "answer": "Almost certainly yes. The Residential Landlord and Tenant Ordinance covers most Chicago rental units, and the main exemption, owner-occupied buildings with six units or fewer, does not help a pure investor. In practice that means attaching the current RLTO summary to every lease and renewal, following the security deposit rules including interest payments, and respecting the ordinance's notice and repair timelines. Penalties run to multiples of the deposit plus attorney fees, which is why many Chicago operators use move-in fees instead of deposits. It is manageable, but it is a compliance-first market and your systems need to reflect that."
+        },
+        {
+          "question": "Why do Chicago investors keep talking about two-flats?",
+          "answer": "Because the two-flat is the vehicle that makes the ratio work. Units in 2-to-4 unit buildings are 26% of the city's housing stock and have supplied over a third of its rental units, and nearly 40% of those units have three or more bedrooms, which is family-sized inventory apartments cannot match. A $450,000 Belmont Cragin two-flat carrying two rents near $1,700 and $1,600 produces roughly $3,300 against a payment stack a single lease could not cover. The citywide median at 20% down sits near 0.92; the two-flat is how local buyers finish above 1.0."
+        },
+        {
+          "question": "Which Chicago neighborhoods actually pencil for DSCR?",
+          "answer": "The bungalow and two-flat belts, not the lakefront glamour zips. Ashburn pairs a $268,949 median with roughly $2,100 house rents and long-tenure tenants. Belmont Cragin and Portage Park run $367,000 to $428,000 but price on two rent rolls. Bronzeville rewards rehab-to-rent buyers who know their comps. South Shore posts the highest headline yield at a $137,156 median, but condo buildings there frequently fail lender project review and carry heavy assessments, so underwrite the association before the unit. Your matched specialist can tell you which of the 70+ lenders in the network will look at each building type."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Chicago typical home value and YoY change, June 2026",
+        "Zillow Chicago home values page, median rent, June 2026; Zillow rental market trends, listing rent YoY (calc), August 2026",
+        "US Census Housing Vacancy Survey via iPropertyManagement, Chicago metro rental vacancy, 2024",
+        "Ownwell, Chicago median effective property tax rate 1.66%, 2026; non-homestead investor adjustment applied (est.)",
+        "Illinois Department of Revenue, 2025 Cook County final equalization factor 3.0300 and 10% residential assessment, 2026",
+        "Zillow neighborhood home values (Cragin, Portage Park, Ashburn, South Shore, Bronzeville), June 2026; neighborhood rents anchored to Zillow bedroom-level data (est.)"
+      ]
+    },
+    {
+      "city": "Rockford",
+      "slug": "rockford",
+      "county": "Winnebago County",
+      "metro": "Rockford",
+      "hook": "Rockford home values jumped 9.9% in a year to $187K after Realtor.com crowned it America's hottest market, and 3-bed rents near $1,600 still nearly clear the ratio. The toll booth is a property tax bill near 2.6% of value.",
+      "metaDescription": "Rockford home values rose 9.9% in a year and 3-bed rents near $1,600 nearly clear the DSCR ratio. See the property tax toll before you bid. Get matched today.",
+      "market": {
+        "medianPrice": 187245,
+        "medianRent": 1600,
+        "priceToRent": 9.8,
+        "vacancyRate": 6.5,
+        "yoyPrice": 9.9,
+        "yoyRent": 5.3,
+        "estDSCR": 0.98,
+        "propertyTaxRate": 2.75,
+        "insuranceMonthly": 150
+      },
+      "overview": "Rockford spent two decades as a punchline and is now the most-watched cheap market in America. Realtor.com ranked it the nation's hottest housing market for the first time in December 2024, and the Wall Street Journal / Realtor.com index still had it at No. 2 nationally in fall 2025. The typical home value hit $187,245 in June 2026, up 9.9% year over year, the fastest appreciation of any Illinois market on this site. Three-bed rents run near $1,600, up roughly 5.3% on listing averages, and at the median with 20% down the ratio lands at 0.98, a rounding error from clearing.\n\nHere is the two-layer truth. The BiggerPockets version of Rockford, $80,000 houses renting for 1.5% of price, is mostly gone; the price ran and the yield compressed. What replaced it is a tighter but more durable trade: sub-$200,000 brick housing an hour from the O'Hare logistics belt, with real rent growth and buyer competition that did not exist in 2019.\n\nThe toll booth is the tax bill. Winnebago County's median effective rate is 2.49% of value and Rockford city parcels run about 2.61% before the investor adjustment, among the heaviest burdens in Illinois. On a $187,000 house that is roughly $430 a month, frequently more than the insurance and maintenance lines combined, and it is the difference between the 1.3 ratio the listing pro forma shows and the 0.98 underwriting actually produces.",
+      "regulationBadge": "friendly",
+      "regulationNote": "Illinois preempts local rent control statewide under the Rent Control Preemption Act, and Winnebago County eviction practice moves far faster than Cook County, so Rockford's operating risk is taxes and property condition rather than regulation.",
+      "neighborhoods": [
+        {
+          "name": "Churchill's Grove",
+          "medianPrice": 160000,
+          "medianRent": 1450,
+          "note": "Tree-lined 1920s stock north of downtown and the neighborhood locals point renovation buyers toward. Values have run hard off a low base, and renovated rentals here lease quickly to healthcare workers from the nearby hospital corridor."
+        },
+        {
+          "name": "Edgewater",
+          "medianPrice": 150000,
+          "medianRent": 1400,
+          "note": "Historic riverside district with brick foursquares and bungalows. A classic BRRRR pocket: acquisition below replacement cost, rehab, then refinance on the appraised value rather than the purchase price."
+        },
+        {
+          "name": "Rolling Green",
+          "medianPrice": 210000,
+          "medianRent": 1650,
+          "note": "Postwar ranches on the east side near the shopping corridors. The most turnkey of the four submarkets, which means thinner spread but also the least condition risk for out-of-state buyers."
+        },
+        {
+          "name": "Midtown",
+          "medianPrice": 110000,
+          "medianRent": 1200,
+          "note": "The cheapest entry in the city and the highest headline yield. Deferred maintenance is the norm, many purchases fall below lender minimum loan amounts, and management intensity is real, so treat the yield as a risk premium."
+        }
+      ],
+      "localAngle": {
+        "tag": "Market Heat",
+        "title": "America's hottest cheap market still almost clears the ratio. The tax bill is the toll.",
+        "body": "Rockford's run is real and documented: No. 1 on Realtor.com's hottest markets list in December 2024, No. 3 in spring 2025, No. 2 on the Wall Street Journal / Realtor.com ranking in fall 2025, and a 9.9% value gain through June 2026. What the ranking stories do not print is where the cash flow went. At $80,000 a house, Rockford's taxes were an annoyance; at $187,245 they are the deal's biggest line item after the mortgage. Winnebago County carries a median effective burden of 2.49% of value, Rockford city parcels run about 2.61% before the non-homestead adjustment, and Illinois reassesses on a quadrennial cycle with annual equalization, so the bill chases the price appreciation you just paid for. Run the arithmetic: $187,000 at roughly 2.75% for an investor is about $5,150 a year, $429 a month, against a $1,600 rent. That single line is why the median file lands at 0.98 instead of the 1.3 the listing pro forma promised. The buyers still winning here follow the BRRRR pattern into Churchill's Grove and Edgewater, buy below replacement cost, force the value, then refinance into a long-term loan on the appraised number. Your matched specialist will underwrite the full post-sale tax bill and structure the refinance on the appraiser's market rent, which is where Rockford files either clear honestly or fail early."
+      },
+      "programFit": [
+        "standard-dscr",
+        "bridge-to-dscr",
+        "portfolio-dscr"
+      ],
+      "dealExample": {
+        "label": "BRRRR Refinance",
+        "propertyType": "3-bed / 1-bath SFR",
+        "neighborhood": "Rolling Green",
+        "purchasePrice": 165000,
+        "downPaymentPct": 25,
+        "downPayment": 41250,
+        "loanAmount": 123750,
+        "loanType": "30-Year Fixed Rate-Term Refinance",
+        "interestOnly": false,
+        "monthlyPI": 865,
+        "monthlyTax": 378,
+        "monthlyInsurance": 145,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 1388,
+        "monthlyRent": 1550,
+        "dscr": 1.12,
+        "monthlyCashFlow": 162,
+        "specialistFocus": [
+          "Structured the refinance on the $165,000 appraised value after rehab rather than the $105,000 acquisition price, returning most of the investor's capital",
+          "Qualified on the appraiser's market rent with the new lease in place instead of the pre-rehab rent the old tenant was paying",
+          "Underwrote the reassessed tax bill at the full investor rate so the ratio holds when the county catches up to the new value"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Is Rockford really the hottest housing market in the country?",
+          "answer": "It has genuinely held the top of the national rankings. Realtor.com named Rockford the nation's hottest market for the first time in December 2024, it sat at No. 3 on the spring 2025 list, and the Wall Street Journal / Realtor.com index placed it No. 2 in fall 2025. The mechanics are simple: sub-$200,000 brick housing within commuting range of the Chicago metro's logistics employment, in a country that stopped building starter homes. For an investor the ranking cuts both ways, because the same competition that validates the market means you are no longer the only bidder on the $140,000 three-bed."
+        },
+        {
+          "question": "If Rockford is a famous cash-flow market, why is the ratio only 0.98?",
+          "answer": "Because the price ran faster than the rent. Values rose 9.9% in the year through June 2026 and roughly 50% over the post-2020 run, while three-bed rents climbed to about $1,600. Meanwhile the property tax line scales with the new prices: about 2.61% of value on Rockford parcels before the investor adjustment, among the heaviest in Illinois. The old 1.3-plus ratios lived on $90,000 purchases that no longer exist. Files that clear today either buy below market and force value, put 25% to 30% down, or capture the top of the rent range with renovated product."
+        },
+        {
+          "question": "Does BRRRR still work in Rockford?",
+          "answer": "Yes, and it is arguably the last Illinois market where the full cycle still fits. Midtown and Edgewater still offer acquisitions meaningfully below replacement cost, rehab labor is cheaper than Chicagoland, and the appraisal gap between distressed and renovated product remains wide enough to refinance most of the capital back out. The trap is the exit loan: DSCR lenders typically want a seasoned lease and will size the loan on the appraised value and market rent, and some set minimum loan amounts near $75,000 that the cheapest projects miss. Your matched specialist will line up the long-term loan before the rehab starts, not after."
+        },
+        {
+          "question": "What happens to my Rockford tax bill after I buy?",
+          "answer": "Expect it to move toward your purchase price. Illinois townships reassess on a four-year cycle with annual equalization factors in between, and Winnebago County's assessments have been climbing behind the market's 9.9% annual run. You also lose any homestead exemption the previous owner-occupant claimed, which alone lifts the effective bill several percent. Underwrite roughly 2.75% of your purchase price as the steady-state investor number, then verify the parcel's actual levy stack, because rates vary by township and school district. An appeal is worth filing when the assessor's lagged value overshoots, and it happens in fast markets like this one."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Rockford typical home value and YoY change, June 2026",
+        "Zillow rental market trends, Rockford 3-bed rent and 8-month listing YoY (calc), August 2026",
+        "Realtor.com hottest housing markets ranking December 2024 and WSJ/Realtor.com fall 2025 ranking, via Rock River Current, October 2025",
+        "Ownwell, Rockford and Winnebago County median effective property tax rates, 2026; non-homestead investor adjustment applied (est.)",
+        "US Census HVS via iPropertyManagement, Illinois statewide rental vacancy 6.5%, 2024 (metro proxy, est.)",
+        "Neighborhood medians anchored to citywide Zillow values and local listing ranges, August 2026 (est.)"
+      ]
+    },
+    {
+      "city": "Peoria",
+      "slug": "peoria",
+      "county": "Peoria County",
+      "metro": "Peoria",
+      "hook": "Peoria is one of the few American cities where the median still clears the ratio: $137K typical homes against $1,300 three-bed rents. The catch is a tax bill near 2.7% of value and a $75-per-unit city registration.",
+      "metaDescription": "Peoria clears the DSCR ratio at the median, with $137K homes against $1,300 3-bed rents. See the 2.7% tax toll and city registration first. Get matched today.",
+      "market": {
+        "medianPrice": 137410,
+        "medianRent": 1300,
+        "priceToRent": 8.8,
+        "vacancyRate": 6.5,
+        "yoyPrice": 6.3,
+        "yoyRent": 1,
+        "estDSCR": 1.06,
+        "propertyTaxRate": 2.85,
+        "insuranceMonthly": 135
+      },
+      "overview": "Peoria is the Memphis of the Midwest: a market where the arithmetic clears before you do anything clever, and where everything downstream of the ratio decides whether you keep the spread. The typical home value is $137,410 as of June 2026, up 6.3% year over year, while three-bed rents run about $1,300. At the median with 20% down the ratio lands near 1.06, one of only two Illinois markets on this site that clears 1.0 outright.\n\nNow the downstream part. Peoria city parcels carry a median effective tax burden of 2.69% of value before the investor adjustment, among the highest of any midsize American city, so the county takes its cut of your yield every year. The city also requires residential rental registration at $75 per unit for a new license, a small line but one out-of-state buyers routinely miss until the letter arrives. And the housing stock skews old: the affordable bluff neighborhoods are largely pre-1950 balloon-frame construction where a furnace, a roof, and knob-and-tube surprises can eat a year of cash flow.\n\nThe employment base is steadier than the price implies. OSF HealthCare anchors a large medical corridor, Caterpillar relocated its headquarters to Texas in 2022 but kept substantial manufacturing and engineering operations in the area, and Bradley University adds a stable student rental layer. Buy on the real tax number with a capital expenditure reserve, and Peoria is one of the last honest cash-flow markets in the country.",
+      "regulationBadge": "friendly",
+      "regulationNote": "Illinois bans local rent control statewide and Peoria County eviction practice is measured in weeks rather than Cook County's months, but the city does require every rental unit to be registered, currently $75 per unit for a new license.",
+      "neighborhoods": [
+        {
+          "name": "Rolling Acres",
+          "medianPrice": 150000,
+          "medianRent": 1400,
+          "note": "Postwar ranches on the northwest side near the medical corridor. The most turnkey of Peoria's affordable submarkets and the natural first buy for an out-of-state investor who wants the ratio without the rehab."
+        },
+        {
+          "name": "West Bluff",
+          "medianPrice": 110000,
+          "medianRent": 1200,
+          "note": "Historic stock around Bradley University with a mix of student and workforce tenants. Strong rent-to-price, but pre-1950 construction means real capital expenditure budgeting, and the best blocks sit within a short walk of campus."
+        },
+        {
+          "name": "East Bluff",
+          "medianPrice": 85000,
+          "medianRent": 1100,
+          "note": "The classic Peoria yield play, with entry prices that frequently fall below DSCR lender minimum loan amounts. The percentage return looks spectacular on paper; the condition risk and turnover are what the percentage is paying you for."
+        },
+        {
+          "name": "North Valley",
+          "medianPrice": 70000,
+          "medianRent": 1000,
+          "note": "The cheapest quadrant in the city. Most purchases here need portfolio bundling or cash, because a $56,000 loan clears almost no lender's floor. Best treated as an add-on for operators already established in the market."
+        }
+      ],
+      "localAngle": {
+        "tag": "Cash Flow",
+        "title": "The median clears 1.0 in Peoria. The tax bill, the registration, and the furnace decide what you keep.",
+        "body": "Peoria's ratio is genuine. A $137,410 typical value against $1,300 three-bed rents produces roughly 1.06 at 20% down using standard assumptions, which almost no American metro can print in 2026. It is also the number most likely to mislead you, because three line items sit downstream of it. First, taxes: Peoria's median effective burden runs 2.69% of value before the non-homestead adjustment, roughly $330 a month on the median house, and it is the single biggest gap between listing pro formas and underwriting reality here. Second, the city's Residential Property Registration program: every rental unit must be registered, currently $75 per unit for a new license, and unregistered rentals accumulate fines that surface at closing. Third, the stock itself: the bluff neighborhoods that carry the best yields are heavily pre-1950 construction, and a single mechanical failure can erase a year of the spread the ratio promised. None of this breaks the market; it prices it. The operators who do well here buy Rolling Acres and West Bluff instead of chasing the deepest discount on the East Bluff, hold a real reserve, and treat the tax line as a fixed toll rather than a negotiable estimate. Your matched specialist will underwrite the full investor tax bill and flag when a cheap purchase falls below lender minimum loan amounts, which is where most Peoria files actually die."
+      },
+      "programFit": [
+        "standard-dscr",
+        "portfolio-dscr",
+        "bridge-to-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 2-bath SFR",
+        "neighborhood": "Rolling Acres",
+        "purchasePrice": 135000,
+        "downPaymentPct": 25,
+        "downPayment": 33750,
+        "loanAmount": 101250,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 708,
+        "monthlyTax": 321,
+        "monthlyInsurance": 130,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 1159,
+        "monthlyRent": 1350,
+        "dscr": 1.16,
+        "monthlyCashFlow": 191,
+        "specialistFocus": [
+          "Matched the file to a lender whose minimum loan amount accepts a $101,250 balance, the hurdle that kills a large share of Peoria deals before underwriting",
+          "Underwrote the full 2.85% investor tax load instead of the seller's exempted bill, which kept the ratio honest at 1.16 rather than a paper 1.35",
+          "Confirmed the city rental registration was current so no accumulated fines surfaced against the property at closing"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Peoria yields look great on paper. What is the catch?",
+          "answer": "Three things, all downstream of the ratio. Property taxes run about 2.69% of value at the median before the investor adjustment, which is triple what many Sun Belt buyers are used to modeling. The city requires every rental unit to be registered at $75 per unit for a new license, and fines for skipping it follow the property. And the affordable stock is old: pre-1950 balloon-frame houses on the bluffs where mechanical systems fail expensively. A file underwritten with all three still clears in Rolling Acres and West Bluff. One underwritten on the listing pro forma does not survive its first winter."
+        },
+        {
+          "question": "Why do lenders decline the cheapest Peoria houses?",
+          "answer": "Minimum loan amounts. An $85,000 East Bluff house with 80% financing needs a $68,000 loan, and many DSCR lenders set floors at $75,000 or $100,000 regardless of how well the deal cash-flows. It is a program guideline, not a judgment on the neighborhood. The workarounds are mechanical: buy slightly better stock so the balance clears the floor, put less down to raise the loan amount, or bundle several houses into one portfolio loan. Your matched specialist knows which of the 70+ lenders in the network write small-balance files and which want the bundle."
+        },
+        {
+          "question": "Did Caterpillar leaving hurt the Peoria rental market?",
+          "answer": "Less than the headline suggested. Caterpillar moved its corporate headquarters to Texas in 2022, but the company kept substantial manufacturing and engineering operations in the Peoria area, and the city's largest employment anchor is now OSF HealthCare's medical corridor, which is structurally harder to relocate. Bradley University adds a stable student rental layer on the West Bluff. The honest read: do not underwrite job growth, underwrite stability. Values rose 6.3% in the year through June 2026, which for a market priced at 8.8 times annual rent is more than the thesis requires."
+        },
+        {
+          "question": "Which Peoria neighborhoods should I actually target?",
+          "answer": "Rolling Acres for turnkey ratio, West Bluff for yield with a university tenant base, and the East Bluff only if you are local or have management you trust completely. Rolling Acres ranches near the medical corridor rent around $1,400 against $150,000 prices with the least condition risk. West Bluff pairs $110,000 entries with $1,200 rents and steady Bradley-adjacent demand, but budget real capital expenditures on the older stock. East Bluff and North Valley print the highest percentage returns and the most surprises, and many purchases there fall below lender loan minimums, so they usually work as portfolio add-ons rather than first buys."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Peoria typical home value and YoY change, June 2026",
+        "Zillow rental market trends, Peoria 3-bed rent and listing YoY (calc), August 2026",
+        "Ownwell, Peoria median effective property tax rate 2.69%, 2026; non-homestead investor adjustment applied (est.)",
+        "City of Peoria, Residential Property Registration program, $75 per unit new license, 2026",
+        "US Census HVS via iPropertyManagement, Illinois statewide rental vacancy 6.5%, 2024 (metro proxy, est.)",
+        "Neighborhood medians anchored to citywide Zillow values and local listing ranges, August 2026 (est.)"
+      ]
+    },
+    {
+      "city": "Springfield",
+      "slug": "springfield",
+      "county": "Sangamon County",
+      "metro": "Springfield",
+      "hook": "Springfield pairs a $173K typical home, up 8.1% in a year, with three-bed rents near $1,300 and the steadiest tenant base in Illinois: the state payroll. The ratio at the median is 0.88, so the file clears on selection, not on autopilot.",
+      "metaDescription": "Springfield IL pairs $173K homes with $1,300 3-bed rents and state-payroll tenant stability. See where DSCR deals pencil after taxes. Get matched today.",
+      "market": {
+        "medianPrice": 173202,
+        "medianRent": 1300,
+        "priceToRent": 11.1,
+        "vacancyRate": 6.5,
+        "yoyPrice": 8.1,
+        "yoyRent": 2.6,
+        "estDSCR": 0.88,
+        "propertyTaxRate": 2.5,
+        "insuranceMonthly": 145
+      },
+      "overview": "Springfield is the stability trade in Illinois. The typical home value reached $173,202 in June 2026, up a surprising 8.1% year over year, while listing rents rose about 2.6% with three-bed houses near $1,300. State government anchors the tenant base: the capital complex, the agencies, and the university and medical systems that orbit them produce renters with payroll stability that manufacturing towns cannot match, and the University of Illinois Springfield campus adds a smaller student layer.\n\nThe two-layer truth here is that Springfield's famous affordability no longer automatically clears the ratio. At the median with 20% down the file lands near 0.88, because the 8.1% price run outpaced rent growth and because Sangamon County taxes take a real bite: the citywide median effective burden is 2.41% of value before the investor adjustment. The listing pro forma that shows a fat spread is usually carrying the seller's exempted tax bill.\n\nWhere it works: the sub-$150,000 pockets. Enos Park's historic stock a walk from the medical district, Harvard Park's worker cottages, and Southern View's small ranches all price low enough that a $1,100 to $1,350 rent clears with 25% down. The west side's Westchester and the newer subdivisions rent higher but price like appreciation plays. Buy the cheap side of the median, underwrite the full tax bill, and let the state payroll do the collections work.",
+      "regulationBadge": "friendly",
+      "regulationNote": "Illinois preempts local rent control statewide, Sangamon County eviction practice moves in weeks rather than months, and Springfield adds no meaningful licensing overlay, so the operating risk here is tenant quality block by block rather than regulation.",
+      "neighborhoods": [
+        {
+          "name": "Enos Park",
+          "medianPrice": 95000,
+          "medianRent": 1100,
+          "note": "Historic near-north neighborhood beside the medical district, with an active preservation association and deep rehab discounts. The best rent-to-price in the city for buyers who can manage a renovation."
+        },
+        {
+          "name": "Harvard Park",
+          "medianPrice": 85000,
+          "medianRent": 1050,
+          "note": "South-side worker cottages at the lowest entry prices in Springfield. Solid demand from service and state-adjacent tenants, but many purchases fall below lender minimum loan amounts, so plan the financing before the offer."
+        },
+        {
+          "name": "Southern View",
+          "medianPrice": 140000,
+          "medianRent": 1300,
+          "note": "Small postwar ranches in a separate village on the south edge, popular with long-tenure working families. The practical middle of the market: cheap enough to clear, new enough to avoid the big mechanical surprises."
+        },
+        {
+          "name": "Westchester",
+          "medianPrice": 210000,
+          "medianRent": 1500,
+          "note": "West-side subdivisions where state managers and medical staff rent. The ratio thins out here, so files lean on larger down payments; the trade is the lowest turnover and easiest management in the city."
+        }
+      ],
+      "localAngle": {
+        "tag": "Stability",
+        "title": "The tenant base is the state of Illinois. The tax bill is the price of admission.",
+        "body": "Springfield's pitch is not growth, it is variance, or rather the absence of it. The state capital's employment base does not boom and it does not bust, and a large share of Springfield renters draw a state paycheck that clears like a treasury instrument. For a leveraged rental, tenant payroll stability is worth more than a point of headline yield, because vacancy and collections are what actually break pro formas in soft markets. The flip side is that Illinois taxes its stability: Springfield's median effective property tax burden runs 2.41% of value before the non-homestead adjustment, and the 8.1% value run through June 2026 means reassessments are working their way through the county on Illinois' quadrennial cycle with annual equalization. An investor who buys at $173,000 should model roughly 2.5% of price as the steady-state bill and treat the seller's exempted number as fiction. The market's second trap is scale: below roughly $95,000, Harvard Park and parts of the east side price under many lenders' minimum loan amounts, which quietly kills more Springfield files than credit ever does. The playbook is unglamorous and it works: buy the $120,000 to $150,000 band in Southern View or renovated Enos Park, rent to the state payroll, underwrite the real tax line. Your matched specialist will structure the file on those numbers and route small-balance deals to the lenders that actually accept them."
+      },
+      "programFit": [
+        "standard-dscr",
+        "interest-only-dscr",
+        "portfolio-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 1-bath ranch",
+        "neighborhood": "Southern View",
+        "purchasePrice": 152000,
+        "downPaymentPct": 25,
+        "downPayment": 38000,
+        "loanAmount": 114000,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 797,
+        "monthlyTax": 317,
+        "monthlyInsurance": 140,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 1254,
+        "monthlyRent": 1350,
+        "dscr": 1.08,
+        "monthlyCashFlow": 96,
+        "specialistFocus": [
+          "Structured 25% down because the citywide median at 20% lands near 0.88, and the extra equity moved this file to 1.08 without touching the rent assumption",
+          "Qualified on the appraiser's market rent of $1,350 for the renovated ranch rather than the outgoing tenant's legacy $1,150 lease",
+          "Underwrote the full 2.5% investor tax load in place of the seller's homestead-exempted bill, the most common Springfield pro forma error"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Why buy rentals in Springfield instead of a growth market?",
+          "answer": "Because the tenant base is the state of Illinois. Capital-city employment does not swing with a single factory or commodity cycle, and a large share of Springfield renters draw government paychecks with the collection reliability that implies. For a leveraged rental, low vacancy variance is worth more than headline yield: an extra month of vacancy costs more than a $50 rent premium earns. Values still rose 8.1% in the year through June 2026, so the stability has not meant stagnation. The honest trade-off is a 0.88 ratio at the median, which pushes buyers toward the sub-$150,000 pockets."
+        },
+        {
+          "question": "The median ratio is 0.88. How do Springfield files actually clear?",
+          "answer": "Selection and structure. The citywide median blends the west-side subdivisions, which price like appreciation plays, with the sub-$150,000 south and near-north pockets where the arithmetic still works. A $140,000 Southern View ranch renting at $1,300 clears comfortably with 25% down, and renovated Enos Park stock does better. The other lever is the tax line: sellers' bills carry exemptions you will not get, so underwriting the true 2.5% investor number and pricing the offer accordingly protects the ratio. Files that chase the median-priced house with 20% down and the seller's tax bill are the ones that miss."
+        },
+        {
+          "question": "What is the property tax situation in Springfield?",
+          "answer": "Heavy, like everywhere in Illinois, but slightly lighter than the state's worst. Springfield's median effective burden is 2.41% of market value per Ownwell's 2026 data, against a 2.33% statewide median, and Sangamon County overall runs 2.28%. As an investor you lose the general homestead exemption the seller likely claimed, which pushes your effective number toward 2.5% of purchase price. Assessments follow Illinois' four-year cycle with annual equalization, so after an 8.1% value year, expect the bill to migrate toward your purchase price rather than stay at the seller's level. Budget it up front and the market still works."
+        },
+        {
+          "question": "Is there a student rental play in Springfield?",
+          "answer": "A modest one. University of Illinois Springfield enrolls a few thousand students on the southeast side, and SIU School of Medicine feeds the medical district near Enos Park with residents and staff who rent for multi-year stints. Neither approaches the scale of Champaign's machine, so treat student demand here as a bonus tenant pool rather than a thesis. The more durable play is medical-district workforce housing: renovated Enos Park and near-north stock within a short drive of the hospitals rents quickly and re-rents faster than the citywide average. Underwrite to the standard lease market and let the institutional demand be upside."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Springfield typical home value and YoY change, June 2026",
+        "Zillow rental market trends, Springfield 3-bed rent and listing YoY, August 2026",
+        "Ownwell, Springfield median effective property tax rate 2.41% and Sangamon County 2.28%, 2026; non-homestead investor adjustment applied (est.)",
+        "US Census HVS via iPropertyManagement, Illinois statewide rental vacancy 6.5%, 2024 (metro proxy, est.)",
+        "Neighborhood medians anchored to citywide Zillow values and local listing ranges, August 2026 (est.)"
+      ]
+    },
+    {
+      "city": "Decatur",
+      "slug": "decatur",
+      "county": "Macon County",
+      "metro": "Decatur",
+      "hook": "Decatur is the cheapest market on this site: a $108K typical home against $1,100 three-bed rents, clearing the ratio at 1.13 even after a tax bill near 2.8% of value. The fight is not the math, it is financing houses this cheap.",
+      "metaDescription": "Decatur is the cheapest DSCR market on this site at a $108K median, clearing the ratio near 1.13. Lender loan minimums are the real fight. Get matched today.",
+      "market": {
+        "medianPrice": 107596,
+        "medianRent": 1100,
+        "priceToRent": 8.2,
+        "vacancyRate": 6.5,
+        "yoyPrice": 7.3,
+        "yoyRent": 1.5,
+        "estDSCR": 1.13,
+        "propertyTaxRate": 2.8,
+        "insuranceMonthly": 125
+      },
+      "overview": "Decatur has the best raw arithmetic in Illinois and arguably in the Midwest. The typical home value is $107,596 as of June 2026, up 7.3% year over year, against three-bed rents near $1,100. Run the standard formula at 20% down and the median produces a ratio around 1.13, the highest of the twelve markets on this page, even after carrying a tax bill that runs about 2.64% of value at the median before the investor adjustment.\n\nThe honesty portion. Decatur's population has been drifting down for decades, from over 80,000 residents at the millennium to roughly 70,000, and the listing rents that looked flat this year, up about 1.5% on an 8-month average, reflect a market with no scarcity premium. This is a yield market with zero appreciation thesis: you are buying a bond dressed as a house, and the coupon is real while the principal growth is not promised. The employment base is more durable than the population chart implies, anchored by ADM's massive corn and soybean processing complex, Primient, and a hospital system, the kind of agricultural-industrial employers that do not relocate.\n\nThe actual fight is financing. At a $107,596 median, an 80% loan is $86,000, and a large share of Decatur's stock prices below $90,000, where loan amounts fall under many DSCR lenders' floors of $75,000 to $100,000. Portfolio loans that bundle several houses into one note are how serious Decatur operators structure it, which is exactly the conversation to have before writing offers.",
+      "regulationBadge": "friendly",
+      "regulationNote": "Illinois bans local rent control statewide and Macon County's eviction process runs in weeks, so Decatur's real risks are property condition, tenant screening, and resale liquidity rather than anything a city ordinance does to you.",
+      "neighborhoods": [
+        {
+          "name": "Fairview Park",
+          "medianPrice": 120000,
+          "medianRent": 1150,
+          "note": "West-side neighborhood around the park of the same name, with solid mid-century stock that clears most lender loan floors. The practical sweet spot for a first Decatur purchase: real houses, real tenants, financeable balances."
+        },
+        {
+          "name": "South Shores",
+          "medianPrice": 150000,
+          "medianRent": 1300,
+          "note": "Lakeside ranches near Lake Decatur, the top of the city's rental market. Thinner percentage yield but the strongest tenant profile and the easiest management, and the stock is young enough to keep capital expenditures predictable."
+        },
+        {
+          "name": "West End",
+          "medianPrice": 95000,
+          "medianRent": 1050,
+          "note": "The historic district west of downtown with the city's best rent-to-price on paper. Pre-1940 housing means the inspection is the underwriting: a sound house here is a strong hold, a rough one eats two years of coupons."
+        },
+        {
+          "name": "Northeast Decatur",
+          "medianPrice": 75000,
+          "medianRent": 950,
+          "note": "The deepest discounts in the city and mostly below DSCR lender loan minimums on standard structures. Works as cash purchases rolled later into portfolio refinances, not as one-off financed buys."
+        }
+      ],
+      "localAngle": {
+        "tag": "Entry Price",
+        "title": "The ratio clears at 1.13. The lender's minimum loan amount is the real gatekeeper.",
+        "body": "Decatur's arithmetic is the easiest sale on this page: $107,596 typical value, $1,100 three-bed rent, a 1.13 ratio at 20% down after a full 2.8% investor tax load. Nothing else in Illinois prints that. What the arithmetic hides is that the DSCR lending industry was not built for $80,000 houses. Most programs set minimum loan amounts, commonly $75,000, often $100,000, and a Decatur house at $85,000 with 20% down needs a $68,000 note that clears almost nobody's floor. This single guideline, not credit, not condition, is where the majority of would-be Decatur files die. The structures that work: first, buy the $110,000 to $150,000 band, Fairview Park and South Shores, where an 80% loan clears the common floors, and accept a slightly thinner percentage yield for a financeable balance. Second, portfolio loans: five $70,000 houses that are individually unfinanceable become one $280,000 blanket note that most portfolio programs will write, with one payment and one set of closing costs. Third, the BRRRR variant: buy cheap for cash, renovate, then refinance a bundle on appraised values. Population decline is the other honest disclosure, roughly 70,000 residents and slowly falling, which is why the thesis is coupon, never appreciation. Your matched specialist will map which of the 70+ lenders accept small balances and which want the bundle, before you write the first offer."
+      },
+      "programFit": [
+        "standard-dscr",
+        "portfolio-dscr",
+        "bridge-to-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 1.5-bath SFR",
+        "neighborhood": "Fairview Park",
+        "purchasePrice": 118000,
+        "downPaymentPct": 20,
+        "downPayment": 23600,
+        "loanAmount": 94400,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 660,
+        "monthlyTax": 275,
+        "monthlyInsurance": 120,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 1055,
+        "monthlyRent": 1175,
+        "dscr": 1.11,
+        "monthlyCashFlow": 120,
+        "specialistFocus": [
+          "Matched the file to a lender with a $75,000 minimum loan amount so the $94,400 balance cleared, after two programs with $100,000 floors declined it",
+          "Kept the down payment at 20% deliberately, because a larger down payment would have pushed the loan below the floor that made the deal financeable",
+          "Underwrote the full 2.8% investor tax bill and a realistic maintenance reserve for 1950s stock instead of the listing pro forma's national averages"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Decatur houses are incredibly cheap. Why isn't everyone buying them?",
+          "answer": "Because cheap houses are hard to finance and hard to exit. Many DSCR lenders set minimum loan amounts of $75,000 to $100,000, and a large share of Decatur's stock needs loans below those floors, so buyers either pay cash, buy the $110,000-plus band, or bundle houses into portfolio loans. Resale liquidity is the other constraint: your eventual buyer is another investor, not an owner-occupant bidding emotionally. What you get in exchange is the best ratio in Illinois, roughly 1.13 at the median, from employers like ADM's processing complex that are bolted to the corn belt and not going anywhere."
+        },
+        {
+          "question": "Decatur's population is shrinking. Does that kill the rental thesis?",
+          "answer": "It reframes it, the same way it does in Memphis or Cleveland. Roughly 70,000 people live in Decatur today, down from over 80,000 at the millennium, so you underwrite zero appreciation and zero rent-scarcity premium; listing rents rose only about 1.5% this year. What holds the floor is that the housing stock shrinks too, through demolition and obsolescence, while ADM, Primient, and the hospital system keep paying wages that comfortably cover $1,100 rents. Buy for the coupon, screen tenants hard, keep a real reserve, and treat any appreciation as found money. Decatur punishes leverage on bad houses, not the thesis itself."
+        },
+        {
+          "question": "What do property taxes look like in Decatur?",
+          "answer": "High as a percentage, manageable in dollars. Decatur's median effective burden is 2.64% of market value per Ownwell's 2026 data, and losing the seller's homestead exemption pushes an investor's effective number toward 2.8% of purchase price. On a $118,000 house that is roughly $275 a month, a big slice of a $1,175 rent, which is exactly why the ratio here is 1.13 rather than the 1.4 the raw price-to-rent implies. Macon County reassesses on Illinois' standard cycle, and after a 7.3% value year the bills follow. Model 2.8% flat and let any successful appeal be upside."
+        },
+        {
+          "question": "Should I buy one Decatur house or a package?",
+          "answer": "If you are serious about the market, think in packages from the start. One $118,000 Fairview Park house on a standard loan is a fine proof of concept. But the deepest discounts, the $60,000 to $85,000 stock on the north and east sides, only become financeable when several are bundled into a single portfolio note that clears lender minimums in aggregate. Operators who assemble five to ten doors this way get one payment, one lender relationship, and per-door pricing no single-house buyer can match. The sequencing matters: line up the portfolio lender first. Your matched specialist can tell you which programs blanket Decatur-sized balances."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Decatur typical home value and YoY change, June 2026",
+        "Zillow rental market trends, Decatur 3-bed rent and 8-month listing YoY (calc), August 2026",
+        "Ownwell, Decatur median effective property tax rate 2.64%, 2026; non-homestead investor adjustment applied (est.)",
+        "US Census HVS via iPropertyManagement, Illinois statewide rental vacancy 6.5%, 2024 (metro proxy, est.)",
+        "US Census population estimates, Decatur city, 2024 (est.)",
+        "Neighborhood medians anchored to citywide Zillow values and local listing ranges, August 2026 (est.)"
+      ]
+    },
+    {
+      "city": "Cicero",
+      "slug": "cicero",
+      "county": "Cook County",
+      "metro": "Chicago-Naperville-Elgin",
+      "hook": "Cicero is two-flat country: a $280K typical building where two rents beat a tax bill near 3% of value. Unit rents rose 7.5% in a year, and the town sits under Cook County's suburban tenant ordinance, not Chicago's RLTO.",
+      "metaDescription": "Cicero two-flats put two rents against one mortgage, which is how investors beat a near 3% effective tax bill. See the real DSCR math. Get matched today.",
+      "market": {
+        "medianPrice": 280419,
+        "medianRent": 1919,
+        "priceToRent": 12.2,
+        "vacancyRate": 5.1,
+        "yoyPrice": 3.5,
+        "yoyRent": 7.5,
+        "estDSCR": 0.77,
+        "propertyTaxRate": 3,
+        "insuranceMonthly": 210
+      },
+      "overview": "Cicero is the most misunderstood market on this page, because every citywide statistic describes a building type the statistics were not designed for. The typical property value is $280,419 as of June 2026, up 3.5%, and three-bed unit rents run about $1,919 with Zillow showing rents up 7.5% year over year. Run the standard single-lease formula and the ratio prints a dismal 0.77. That number is technically correct and practically meaningless, because the median Cicero property is not a house with one lease. It is a brick two-flat, the same 2-to-4 unit fabric that DePaul's Institute for Housing Studies documents across Chicago's West Side, continuing unbroken across the town line.\n\nA two-flat priced near $310,000 carries two units renting around $1,500 to $1,600 each, roughly $3,100 combined, against the same mortgage the 0.77 calculation assumed. That is the entire Cicero trade: the asset is priced on two incomes while the headline stat counts one.\n\nWhat you pay for the privilege is Cook County's suburban cost stack. Cicero's median effective tax burden is 2.83% of value per Ownwell, roughly 70% above Chicago's, and the investor number without a homestead exemption pushes toward 3%. The town also sits in Cook's south and west reassessment triad, on cycle in 2026, and under the Cook County RTLO since June 2021: security deposits capped at 1.5 months, 30-day return windows, and late-fee limits. Two rents, three percent, one ordinance. Underwrite all three.",
+      "regulationBadge": "moderate",
+      "regulationNote": "Cicero rentals fall under the Cook County Residential Tenant Landlord Ordinance, in force since June 1, 2021, which caps security deposits at 1.5 months' rent with a 30-day return window and limits late fees, while Cook County eviction practice runs slower than any downstate venue.",
+      "neighborhoods": [
+        {
+          "name": "Boulevard Manor",
+          "medianPrice": 300000,
+          "medianRent": 1550,
+          "note": "The northwest corner near the Berwyn line, with the best-kept two-flat rows in town. Buildings here price at the top of the Cicero range and rent both units fastest, the standard first target for a two-flat buyer."
+        },
+        {
+          "name": "Clyde",
+          "medianPrice": 285000,
+          "medianRent": 1500,
+          "note": "Central Cicero along the Cermak corridor, dense two-flat and small multifamily fabric with deep rental demand from the retail and industrial employment nearby. Unit condition varies more than Boulevard Manor, so inspect hard."
+        },
+        {
+          "name": "Grant Works",
+          "medianPrice": 265000,
+          "medianRent": 1450,
+          "note": "The historic north-side district named for the old Grant locomotive works. The cheapest two-flat entry in town, with more deferred maintenance and more value-add opportunity per dollar than anywhere else in Cicero."
+        },
+        {
+          "name": "Hawthorne",
+          "medianPrice": 260000,
+          "medianRent": 1425,
+          "note": "South Cicero near the Hawthorne Works site that once employed 40,000 people. Solid workforce rental demand, and the blocks closest to the Pink Line stops rent at a premium worth chasing."
+        }
+      ],
+      "localAngle": {
+        "tag": "Two-Flat Math",
+        "title": "The headline ratio says 0.77. The two-flat says otherwise, and the two-flat is what is actually for sale.",
+        "body": "Every screening tool that ranks markets by median price against median rent hates Cicero, and every experienced Chicagoland investor quietly buys here anyway. The disconnect is the building. Cicero's housing fabric is dominated by the brick two-flat, a native Chicago asset class where one parcel carries two full-sized apartments, frequently three bedrooms each, built for exactly the house-hacking and rental use investors put it to today. The median $280,419 property is priced on its two rent rolls, while the median rent statistic counts a single unit near $1,919 for a three-bed, which is why the naive formula prints 0.77 while an actual Cicero file with $3,100 of combined rent clears 1.18. Zillow shows Cicero rents up 7.5% year over year, among the strongest prints in the metro, as West Side Chicago renters priced out by that city's costs cross the town line. The costs are real: a median effective tax burden of 2.83% of value, near 3% for an investor without a homestead exemption, a 2026 reassessment in Cook's south and west triad, and the Cook County RTLO's deposit caps and late-fee limits since June 2021. DSCR lenders handle all of this routinely; the appraisal uses the small-residential income form and both units' market rents. Your matched specialist will structure the file on the combined rent roll and the full post-reassessment tax bill, which is the version of Cicero that actually exists."
+      },
+      "programFit": [
+        "standard-dscr",
+        "portfolio-dscr",
+        "bridge-to-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "Two-flat (2-unit)",
+        "neighborhood": "Boulevard Manor",
+        "purchasePrice": 310000,
+        "downPaymentPct": 25,
+        "downPayment": 77500,
+        "loanAmount": 232500,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 1625,
+        "monthlyTax": 775,
+        "monthlyInsurance": 225,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 2625,
+        "monthlyRent": 3100,
+        "dscr": 1.18,
+        "monthlyCashFlow": 475,
+        "specialistFocus": [
+          "Qualified on both units' appraiser market rents of $1,600 and $1,500 on the small-residential income report, not the single-unit figure the citywide statistics show",
+          "Underwrote the full 3% non-homestead tax bill including the 2026 south and west triad reassessment instead of the seller's exempted bill",
+          "Structured the reserves around the Cook County RTLO's 1.5-month deposit cap and 30-day return window so the operating plan matched the ordinance"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Why do Cicero's numbers look so bad on market-screening sites?",
+          "answer": "Because the screeners assume one lease per property. Cicero's median property near $280,419 is typically a two-flat priced on two rent rolls, while the median rent statistic counts one unit. Run the formula with a single $1,919 lease and you get 0.77; run it with the $3,100 a real two-flat collects and the same building clears 1.18 with 25% down. The two-layer truth cuts the other way too: the tax bill near 3% of value and the Cook County RTLO are just as real as the second rent, so the market is neither the disaster the screeners show nor the free lunch the gross rents suggest."
+        },
+        {
+          "question": "How does a DSCR loan work on a two-flat?",
+          "answer": "The same as on a house, with a better income line. The appraiser completes the small-residential income report with market rent for each unit, the lender qualifies on the combined figure against the full payment, and 2-to-4 unit properties are standard collateral for DSCR programs, usually with slightly higher down payment requirements than single-family. Vacant units get credited at appraiser market rent, so you are not stuck qualifying on a half-empty building's actual collections. What lenders scrutinize in Cicero is condition and legal unit count: basement units without proper egress do not count as income. Your matched specialist will confirm the unit mix is documented before the appraisal is ordered."
+        },
+        {
+          "question": "What does the Cook County RTLO mean for my Cicero rental?",
+          "answer": "Since June 1, 2021, suburban Cook rentals operate under the county's Residential Tenant Landlord Ordinance. The practical rules: security deposits are capped at 1.5 times monthly rent and must be returned within 30 days with itemized deductions, late fees are capped at $10 on the first $1,000 of rent plus 5% of the remainder, lockouts carry damages of two months' rent, and tenants get defined repair and notice rights. Penalties for deposit violations run to twice the deposit plus attorney fees. It is a compliance checklist, not a prohibition: nothing in the RTLO stops market-rate rents, and Illinois law bans any local rent control outright."
+        },
+        {
+          "question": "How slow are evictions in Cook County really?",
+          "answer": "Slow enough to underwrite differently than downstate. A contested Cook County residential eviction commonly runs several months from filing to enforcement, the Sheriff works a backlog queue, and enforcement pauses during the county's traditional winter holiday moratorium period each year. Compare that with downstate venues where the same case runs in weeks. The mitigation is boring and effective: screen hard on payment history, price the unit at market rather than peak, and keep the property compliant so a nonpayment case stays clean. Cicero's 7.5% rent growth and deep tenant demand mean re-leasing is fast; it is the removal timeline you pad, not the vacancy."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Cicero typical home value and YoY change, June 2026",
+        "Zillow Cicero home values page rent widget, rent YoY +7.5%, June 2026; Zillow rental market trends bedroom rents, August 2026",
+        "Ownwell, Cicero median effective property tax rate 2.83%, 2026; non-homestead investor adjustment applied (est.)",
+        "Cook County Commission on Human Rights, Residential Tenant Landlord Ordinance provisions, effective June 1, 2021",
+        "US Census HVS via iPropertyManagement, Chicago metro rental vacancy, 2024",
+        "Neighborhood medians anchored to citywide Zillow values and local listing ranges, August 2026 (est.)"
+      ]
+    },
+    {
+      "city": "Berwyn",
+      "slug": "berwyn",
+      "county": "Cook County",
+      "metro": "Chicago-Naperville-Elgin",
+      "hook": "Berwyn's bungalow rows and two-flats carry a $326K typical value, up 6% in a year, against the heaviest tax burden on this page at nearly 3% of value. Two rents are how local buyers make the arithmetic survive the bill.",
+      "metaDescription": "Berwyn IL bungalows and two-flats carry the heaviest tax bill on this page, near 3% of value. Two rents make the DSCR math work. Get matched today.",
+      "market": {
+        "medianPrice": 325587,
+        "medianRent": 2200,
+        "priceToRent": 12.3,
+        "vacancyRate": 5.1,
+        "yoyPrice": 6,
+        "yoyRent": 6.9,
+        "estDSCR": 0.76,
+        "propertyTaxRate": 3.15,
+        "insuranceMonthly": 230
+      },
+      "overview": "Berwyn is Cicero's more polished sibling: the same brick two-flat and bungalow fabric one town west, with better schools, a livelier Depot District, and prices about $45,000 higher. The typical value reached $325,587 in June 2026, up 6.0% year over year, while three-bed rents run about $2,200 and listing rents averaged roughly 6.9% higher across 2026 than the year before. Demand is spillover in both directions: Chicago renters crossing the line for space, and Oak Park buyers crossing Roosevelt Road for price.\n\nThe number that defines Berwyn is the tax bill. Ownwell puts the city's median effective burden at 2.98% of market value, the heaviest of the twelve markets on this page and roughly 80% above Chicago's, and an investor without the homestead exemption should model closer to 3.15%. On the median property that is about $855 a month before the mortgage, which is why the single-lease ratio prints a brutal 0.76 and why the town's investor market runs almost entirely on two-flats. A $365,000 two-flat collecting $3,250 across two units carries the same tax bill with twice the income, and clears.\n\nLike Cicero, Berwyn sits in Cook County's south and west reassessment triad, on cycle in 2026, and its rentals operate under the Cook County RTLO. The bungalow belt itself, one of the largest intact collections of Chicago-style bungalows anywhere, rents fast to families but works better as an appreciation-and-stability hold than a yield play.",
+      "regulationBadge": "moderate",
+      "regulationNote": "Berwyn rentals sit under the Cook County RTLO with its deposit cap and late-fee limits, and the town runs its own inspection and transfer-stamp process at sale, so budget compliance friction on top of Cook County's slow eviction venue.",
+      "neighborhoods": [
+        {
+          "name": "South Berwyn",
+          "medianPrice": 345000,
+          "medianRent": 1700,
+          "note": "The blocks south of Cermak toward 34th Street, with the strongest two-flat stock and the Depot District's restaurant strip as the amenity anchor. Top of the town's price range and the fastest unit-by-unit lease-up."
+        },
+        {
+          "name": "Depot District",
+          "medianPrice": 330000,
+          "medianRent": 1650,
+          "note": "The core around the Berwyn Metra stops on the BNSF line, where a 20-minute ride to the Loop sets the rent premium. Two-flats near the stations pull commuter tenants that the rest of the town cannot reach."
+        },
+        {
+          "name": "North Berwyn",
+          "medianPrice": 300000,
+          "medianRent": 1550,
+          "note": "The cheaper half of town north of Cermak, bordering Oak Park's Roosevelt Road corridor. The best value-add two-flat hunting in Berwyn, with rents climbing as Oak Park renters cross the street for $300 a month of savings."
+        }
+      ],
+      "localAngle": {
+        "tag": "Tax Bill",
+        "title": "Berwyn's tax bill is the heaviest on this page. Here is the arithmetic that survives it.",
+        "body": "Start with the number nobody puts in the listing: 2.98% of market value, Berwyn's median effective property tax burden per Ownwell's 2026 data, versus 2.33% for Illinois and about 1.66% in Chicago proper. An investor loses the homestead exemption, pushing the real number toward 3.15%, and the south and west Cook triad reassesses in 2026, so the bill is repricing to the market's 6% gains as files close. On the $325,587 median that is roughly $10,250 a year. A single $2,200 lease cannot carry that plus a mortgage, which is exactly what the 0.76 median ratio is telling you. The arithmetic that survives is the two-flat's: $365,000 of purchase, two units at $1,700 and $1,550, $3,250 of combined rent against one tax bill, one insurance policy, one roof. That structure clears 1.0 with 25% down even at Berwyn's tax load, and it is why virtually every serious investor transaction in town is a 2-to-4 unit building while the bungalows sell to owner-occupants. The appeal culture matters here too: Cook County assessment appeals through the Assessor and Board of Review are routine, cheap, and frequently successful in reassessment years, and a $20,000 assessed-value reduction is worth roughly $600 a year at Berwyn's rates. Your matched specialist will underwrite the full post-reassessment bill on both rent rolls, then let a successful appeal be upside rather than a rescue."
+      },
+      "programFit": [
+        "standard-dscr",
+        "portfolio-dscr",
+        "interest-only-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "Two-flat (2-unit)",
+        "neighborhood": "South Berwyn",
+        "purchasePrice": 365000,
+        "downPaymentPct": 25,
+        "downPayment": 91250,
+        "loanAmount": 273750,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 1914,
+        "monthlyTax": 958,
+        "monthlyInsurance": 245,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 3117,
+        "monthlyRent": 3250,
+        "dscr": 1.04,
+        "monthlyCashFlow": 133,
+        "specialistFocus": [
+          "Underwrote the tax line at the full 3.15% investor load against the 2026 triad reassessment, the line item that sinks most Berwyn pro formas",
+          "Qualified on both units' market rents from the small-residential income appraisal, $1,700 down and $1,550 up, rather than the single-lease citywide statistic",
+          "Structured 25% down after showing the file misses at 20%, and flagged the town's point-of-sale inspection and transfer stamp in the closing timeline"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Why are Berwyn property taxes so high?",
+          "answer": "Suburban Cook County's levy stack without Chicago's commercial tax base. Berwyn is a built-out residential town whose schools, parks, and city services are funded almost entirely from residential parcels, so the composite levy lands hard: a 2.98% median effective burden per Ownwell, versus about 1.66% in Chicago, where a massive commercial base shares the load. As an investor you also lose the homestead exemption, pushing toward 3.15% of value. The town sits in the Cook triad reassessing in 2026. It is the single most important number in any Berwyn pro forma, and the reason the market's investor activity concentrates in two-flats."
+        },
+        {
+          "question": "Should I buy a Berwyn bungalow or a two-flat as a rental?",
+          "answer": "For yield, the two-flat, almost every time. Berwyn's bungalow belt is a beautiful, durable asset that rents quickly to families near $2,200, but one lease against a $325,000 price and a 3%-of-value tax bill produces a ratio near 0.76, which needs a very large down payment to finance. A $365,000 two-flat collecting $3,250 across two units carries the same tax bill with roughly 50% more income and clears 1.0 at 25% down. The bungalow works as an appreciation-and-stability hold, or with a no-ratio structure that accepts the carry. Your matched specialist can price both against your capital."
+        },
+        {
+          "question": "Do Berwyn rents justify the prices?",
+          "answer": "They are moving in that direction fast. Listing rents in Berwyn averaged about 6.9% higher across 2026 than the prior year, with three-bed units near $2,200 and two-bed units around $1,700, driven by two spillovers: Chicago renters crossing the line for space and Oak Park renters crossing Roosevelt Road to save $300 a month on comparable apartments. The Metra BNSF line's 20-minute Loop access from the Depot District sets a commuter premium the rest of the west suburbs cannot match at these prices. Values rose 6% in the same window, so the race is roughly even; underwrite today's rent, not the trend."
+        },
+        {
+          "question": "What should I expect at a Berwyn closing that other towns skip?",
+          "answer": "Municipal friction. Berwyn, like many west-suburban Cook towns, runs a point-of-sale process that typically includes a city inspection and a real estate transfer stamp before the deed records, and open code items can become the buyer's problem or a repair negotiation. Budget the time and the modest fees, and have your attorney order the stamp requirements early; Illinois closings run through attorneys as standard practice. On the lending side nothing changes: the DSCR file processes normally, and the only Berwyn-specific underwriting item is the tax line. Treat the municipal checklist as a project-management task and it stays boring, which is what you want."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Berwyn typical home value and YoY change, June 2026",
+        "Zillow rental market trends, Berwyn 3-bed rent and 8-month listing YoY (calc), August 2026",
+        "Ownwell, Berwyn median effective property tax rate 2.98%, 2026; non-homestead investor adjustment applied (est.)",
+        "Cook County Commission on Human Rights, Residential Tenant Landlord Ordinance coverage of suburban Cook, 2026",
+        "US Census HVS via iPropertyManagement, Chicago metro rental vacancy, 2024",
+        "Neighborhood medians anchored to citywide Zillow values and local listing ranges, August 2026 (est.)"
+      ]
+    },
+    {
+      "city": "Aurora",
+      "slug": "aurora",
+      "county": "Kane County",
+      "metro": "Chicago-Naperville-Elgin",
+      "hook": "Aurora is Illinois' second-largest city, with a $328K typical home and three-bed rents near $2,650. Before the first lease, the city requires a rental license and mandatory crime-free housing training that most out-of-town buyers learn about late.",
+      "metaDescription": "Aurora IL homes average $328K with 3-bed rents near $2,650. Factor the rental license and crime-free housing program before closing. Get matched today.",
+      "market": {
+        "medianPrice": 327932,
+        "medianRent": 2650,
+        "priceToRent": 10.3,
+        "vacancyRate": 5.1,
+        "yoyPrice": 2.8,
+        "yoyRent": -0.2,
+        "estDSCR": 0.97,
+        "propertyTaxRate": 2.55,
+        "insuranceMonthly": 195
+      },
+      "overview": "Aurora is the second-largest city in Illinois at roughly 180,000 residents, and the most administratively demanding rental jurisdiction in the collar counties. The typical home value sits at $327,932 as of June 2026, up 2.8%, while three-bed rents run about $2,650 and overall listing rents were essentially flat, down 0.2% on an 8-month average. At the median with 20% down the ratio lands at 0.97, the closest any Chicagoland market on this page comes to clearing on a single lease.\n\nThe two-layer story is jurisdictional. Aurora sprawls across four counties, Kane, DuPage, Will, and Kendall, and the tax bill changes with the county line: the Kane County portion carries a 2.40% median effective burden per Ownwell, with the county overall at 2.49%, and an investor without a homestead exemption should model roughly 2.55%. Two houses a mile apart can carry bills $150 a month different, which at these ratios is the whole margin.\n\nThe city layer is the one that surprises buyers. Aurora requires rental properties to be licensed, and no license issues until the owner or agent completes the city's Crime Free Housing Program, mandatory classes covering screening, lease addenda, and enforcement, with the crime-free lease addendum incorporated into tenancies. It is manageable, and the east-side blocks near downtown's Fox River corridor still price close enough to rent for real files. West Aurora's school-district demand and the Far East Side's Naperville-border stock give the market its range.",
+      "regulationBadge": "moderate",
+      "regulationNote": "Aurora requires rental licensing with mandatory Crime Free Housing Program training and a crime-free lease addendum before units can legally operate, an administrative layer collar-county neighbors mostly skip, though Illinois still bans any local rent control.",
+      "neighborhoods": [
+        {
+          "name": "West Aurora",
+          "medianPrice": 295000,
+          "medianRent": 2400,
+          "note": "The west-side blocks feeding District 129 schools, mid-century ranches and split-levels with steady family tenants. The practical middle of Aurora's rental market: financeable prices, dependable demand, minimal drama."
+        },
+        {
+          "name": "Near East Side",
+          "medianPrice": 255000,
+          "medianRent": 2100,
+          "note": "The older stock east of the Fox River near downtown's casino and RiverEdge Park. The cheapest entry in the city and the best rent-to-price, with more condition risk and the heaviest overlap with the city's licensing enforcement."
+        },
+        {
+          "name": "Far East Side",
+          "medianPrice": 390000,
+          "medianRent": 2900,
+          "note": "The DuPage and Will county sections bordering Naperville, with 1990s-and-newer subdivisions in coveted school boundaries. Rents are the highest in the city but the ratio thins; this is the appreciation-and-tenant-quality end of the barbell."
+        },
+        {
+          "name": "Downtown Aurora",
+          "medianPrice": 230000,
+          "medianRent": 1900,
+          "note": "The Fox River core, where the city has poured redevelopment money into the arts district and casino corridor. Condos and small multifamily dominate; check association health and the license status of any building before writing."
+        }
+      ],
+      "localAngle": {
+        "tag": "Licensing",
+        "title": "Aurora makes you take a class before you collect a rent check. Budget for it.",
+        "body": "Aurora's rental ordinance is the kind of local rule that never shows up in a listing and always shows up at the worst time. The city requires rental properties to hold a license, and the license does not issue until the owner, landlord, or managing agent completes the Aurora Police Department's Crime Free Housing Program: mandatory classes covering tenant screening, warning signs, and lease enforcement, announced in rounds by the city. The program's lease addendum, which makes certain criminal activity a lease violation, gets incorporated into tenancies, and the city pairs the paperwork with inspection authority. None of this is exotic, several hundred American cities run crime-free programs, but Aurora enforces its version seriously, and an out-of-state buyer who closes, leases, and then learns the license was never issued is operating an unlicensed rental in a city that checks. The practical sequence: register early, schedule the class before closing when possible, and put the addendum in your standard lease from day one. The economics that sit under the ordinance are the best in Chicagoland on a single lease, a 0.97 median ratio, three-bed rents near $2,650, and a four-county tax map where picking the right side of a county line saves $150 a month. Your matched specialist will underwrite the county-correct tax bill and calendar the licensing steps into the closing so the file and the paperwork finish together."
+      },
+      "programFit": [
+        "standard-dscr",
+        "interest-only-dscr",
+        "foreign-national-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 2-bath SFR",
+        "neighborhood": "West Aurora",
+        "purchasePrice": 315000,
+        "downPaymentPct": 25,
+        "downPayment": 78750,
+        "loanAmount": 236250,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 1651,
+        "monthlyTax": 669,
+        "monthlyInsurance": 190,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 2510,
+        "monthlyRent": 2600,
+        "dscr": 1.04,
+        "monthlyCashFlow": 90,
+        "specialistFocus": [
+          "Underwrote the Kane County tax stack at the full 2.55% investor load and verified which of Aurora's four counties the parcel actually sits in",
+          "Structured 25% down because the citywide single-lease ratio at 20% lands at 0.97, and the extra equity cleared the file without leaning on rent upside",
+          "Flagged the rental license and Crime Free Housing class requirement at application so the landlord could operate legally the day the lease started"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "What licensing does Aurora require before I can rent my property?",
+          "answer": "A rental license, and it does not issue automatically. Aurora's rental ordinance requires owners, landlords, or their agents to complete the city's Crime Free Housing Program, mandatory training run with the police department covering screening, early warning signs, and lease enforcement, before a license is granted. The program's crime-free lease addendum gets incorporated into your tenancies, and the city announces class rounds and follows up on compliance. Buyers who close and lease without the license are operating illegally in a city that enforces. Schedule the class around your closing and build the addendum into your standard lease from the first tenant."
+        },
+        {
+          "question": "Which county is my Aurora property actually in, and why does it matter?",
+          "answer": "Aurora spans Kane, DuPage, Will, and Kendall counties, and the tax bill changes at each line. The Kane portion carries a 2.40% median effective burden with Kane County overall at 2.49%, DuPage typically runs lighter, and Will's stack differs again; as an investor without a homestead exemption, model roughly 2.55% on the Kane side. On a $315,000 house, a half-point of effective burden is about $130 a month, which at Aurora's 0.97 median ratio is the entire margin. Pull the parcel's actual county and levy stack before you write the offer, not after the appraisal."
+        },
+        {
+          "question": "Is Aurora a cash-flow market or an appreciation market?",
+          "answer": "It is the barbell. The Near East Side around downtown's Fox River redevelopment prices near $255,000 against $2,100 rents, which is genuine cash-flow territory once the tax bill is modeled honestly. The Far East Side bordering Naperville prices near $390,000 against $2,900 rents, a thin ratio carried by school-district demand and the strongest tenant quality in the city. West Aurora sits between them and is where most financed files land. Citywide, values rose 2.8% while rents went flat this year, so the honest underwrite assumes today's rent with no growth and lets the Fox Valley's steady in-migration be upside."
+        },
+        {
+          "question": "How does the 0.97 median ratio compare around Chicagoland?",
+          "answer": "It is the best single-lease number in the metro's larger cities. Chicago's median lands near 0.92, Elgin near 0.91, Joliet near 0.94, and the Cook County two-flat towns print in the 0.70s on single-unit statistics. Aurora reaches 0.97 because its rent base, near $2,650 for a three-bed, punches above its $328,000 price point, a legacy of deep family-rental demand and comparatively moderate Kane County pricing. Files here clear with 25% down on ordinary houses, no two-flat required, which is why Aurora is often the first collar-county market out-of-state DSCR buyers actually close in. The license class is the toll; pay it early."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Aurora typical home value and YoY change, June 2026",
+        "Zillow rental market trends, Aurora 3-bed rent and 8-month listing YoY (calc), August 2026",
+        "Ownwell, Aurora (Kane County) median effective property tax rate 2.40% and Kane County 2.49%, 2026; non-homestead investor adjustment applied (est.)",
+        "City of Aurora, Rental Ordinance and Crime Free Housing Program requirements, 2026",
+        "US Census HVS via iPropertyManagement, Chicago metro rental vacancy, 2024",
+        "Neighborhood medians anchored to citywide Zillow values and local listing ranges, August 2026 (est.)"
+      ]
+    },
+    {
+      "city": "Joliet",
+      "slug": "joliet",
+      "county": "Will County",
+      "metro": "Chicago-Naperville-Elgin",
+      "hook": "Joliet sits beside North America's largest inland port, 6,400 acres moving 3 million containers a year, with $271K homes renting near $2,195. Every rental in the city passes through a systematic inspection program.",
+      "metaDescription": "Joliet IL sits on North America's largest inland port, with $271K homes renting near $2,195. Every rental gets city-inspected. See the math. Get matched today.",
+      "market": {
+        "medianPrice": 270919,
+        "medianRent": 2195,
+        "priceToRent": 10.3,
+        "vacancyRate": 5.1,
+        "yoyPrice": 1.1,
+        "yoyRent": -1.7,
+        "estDSCR": 0.94,
+        "propertyTaxRate": 2.85,
+        "insuranceMonthly": 180
+      },
+      "overview": "Joliet's rental thesis is freight. The CenterPoint Intermodal Center straddling Joliet and Elwood is North America's largest master-planned inland port, roughly 6,400 acres handling more than 3 million twenty-foot containers a year off the BNSF and Union Pacific mainlines, and the warehouse belt it anchors employs the tenant base that fills the city's three-bed rentals at about $2,195 a month. The typical home value is $270,919 as of June 2026, up a modest 1.1%, with listing rents down about 1.7% on an 8-month average as the metro's apartment supply wave digests.\n\nAt the median with 20% down the ratio lands near 0.94, and the gap to 1.0 is almost entirely the tax line: Joliet's median effective burden runs 2.73% of value per Ownwell, third-heaviest of the twelve markets on this page, and the investor number without a homestead exemption pushes toward 2.85%. Will County reassesses on Illinois' quadrennial cycle, so bills track the market with a lag.\n\nThe city layer matters here too. Joliet's Systematic Rental Inspection Program covers all landlords, any property you own and do not reside in, with registration and recurring city inspections. It is a real compliance line, and it is also a floor under stock quality that keeps the rental market honest. The Cathedral Area's historic homes, the West Side's postwar ranches, and the Far West Side's newer subdivisions near the Plainfield border give the market a full price ladder.",
+      "regulationBadge": "moderate",
+      "regulationNote": "Joliet's Systematic Rental Inspection Program requires registration and recurring inspections for every non-owner-occupied rental in the city, and Will County courts move faster than Cook, so the compliance load is administrative rather than adversarial.",
+      "neighborhoods": [
+        {
+          "name": "Cathedral Area",
+          "medianPrice": 255000,
+          "medianRent": 2200,
+          "note": "The historic district of large early-1900s homes near St. Raymond's, long the address of Joliet's professional class. Renovated stock rents at a premium, and the equity story here has outrun the city for a decade."
+        },
+        {
+          "name": "West Side",
+          "medianPrice": 285000,
+          "medianRent": 2400,
+          "note": "Postwar ranches and newer infill west of the river, feeding the stronger school boundaries. The dependable middle of the market and the default target for a first Joliet file."
+        },
+        {
+          "name": "Eastside",
+          "medianPrice": 210000,
+          "medianRent": 1950,
+          "note": "The cheapest quadrant, closest to the intermodal employment but with the oldest stock and the most inspection findings. The rent-to-price is the best in the city if the building passes the city's checklist without a rehab budget."
+        },
+        {
+          "name": "Far West Side",
+          "medianPrice": 350000,
+          "medianRent": 2700,
+          "note": "The newer subdivisions toward the Plainfield border, where Joliet addresses carry near-Plainfield finishes at a discount. Thin ratio, strong tenant quality, and the easiest properties on the inspection cycle."
+        }
+      ],
+      "localAngle": {
+        "tag": "Logistics",
+        "title": "The largest inland port in North America is the tenant base. The inspection program is the tollgate.",
+        "body": "Joliet is the rare Chicagoland market where you can name the demand driver in one sentence: the CenterPoint Intermodal Center, about 6,400 acres across Joliet and Elwood, is North America's largest inland port, moving more than 3 million twenty-foot containers a year where the BNSF and Union Pacific transcontinental lines meet I-55 and I-80. The warehouse, drayage, and rail workforce it anchors rents three-bed houses, not studio apartments, which is why Joliet's $2,195 three-bed rent holds up against a $270,919 median while the metro's apartment rents sag. Two tolls sit between that demand and your net. First, Will County taxes: a 2.73% median effective burden, about 2.85% for an investor, roughly $640 a month on the median house, which is most of the distance between the 0.94 ratio and 1.0. Second, the city's Systematic Rental Inspection Program: the amended ordinance covers all landlords, any property you own and do not reside in, with registration and inspections on a recurring cycle. For renovated stock the inspection is a formality; for the Eastside's older houses it is a rehab budget wearing a clipboard. The buyers who win here register early, buy stock that passes, and underwrite the full tax bill. Your matched specialist will structure the file on the real Will County numbers and the appraiser's market rent, which in this market usually survives contact with underwriting."
+      },
+      "programFit": [
+        "standard-dscr",
+        "portfolio-dscr",
+        "bridge-to-dscr"
+      ],
+      "dealExample": {
+        "label": "Cash-Out Refinance",
+        "propertyType": "3-bed / 2-bath SFR",
+        "neighborhood": "Cathedral Area",
+        "purchasePrice": 290000,
+        "downPaymentPct": 30,
+        "downPayment": 87000,
+        "loanAmount": 203000,
+        "loanType": "30-Year Fixed Cash-Out",
+        "interestOnly": false,
+        "monthlyPI": 1419,
+        "monthlyTax": 689,
+        "monthlyInsurance": 180,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 2288,
+        "monthlyRent": 2350,
+        "dscr": 1.03,
+        "monthlyCashFlow": 62,
+        "specialistFocus": [
+          "Structured the cash-out at 70% of the $290,000 appraised value, returning roughly $80,000 of trapped equity for the investor's next purchase while the ratio held above 1.0",
+          "Qualified on the in-place $2,350 lease, seasoned over a year, rather than asking the appraiser to stretch a market-rent argument",
+          "Underwrote the full 2.85% investor tax load and confirmed the rental inspection certificate was current before ordering the appraisal"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "What is Joliet's rental inspection program and how much does it matter?",
+          "answer": "The Systematic Rental Inspection Program covers every property you own in Joliet and do not live in; the city amended the ordinance to make that explicit. You register the rental, the city inspects on a recurring cycle, and code findings must be corrected to keep operating. For post-1990 stock and renovated houses it is mostly scheduling friction. For older Eastside properties it can amount to a forced rehab budget, so price the checklist into the offer. The upside is market-wide: the program culls the worst stock, which supports the rent floor for compliant landlords. Register early and keep the certificate current."
+        },
+        {
+          "question": "Does the intermodal port actually move Joliet rents?",
+          "answer": "It sets the tenant base. CenterPoint's Joliet and Elwood campus is North America's largest inland port at roughly 6,400 acres and more than 3 million containers a year, and the surrounding logistics belt employs tens of thousands across warehousing, drayage, and rail. Those are household-forming wages that rent three-bed houses near $2,195, and they are structurally tied to the BNSF and UP mainlines, which do not relocate. The honest caveat: logistics employment is cyclical with freight volumes, and listing rents dipped about 1.7% this year with the metro's supply wave, so underwrite flat rents and let the port's gravity be the floor, not the projection."
+        },
+        {
+          "question": "Why is the Joliet ratio 0.94 when rents look strong?",
+          "answer": "Will County's tax line. Joliet's median effective burden is 2.73% of value, about 2.85% for an investor without the homestead exemption, which is roughly $640 a month on the median $270,919 house before the mortgage. The rent side genuinely is strong, $2,195 for a three-bed against a 10.3 price-to-rent, but the tax bill consumes the spread that would clear the ratio in a Sun Belt county. Files finish above 1.0 here with 25% to 30% down, with seasoned leases at the top of the range, or in the Eastside's cheaper stock once it passes inspection. Model the full bill first."
+        },
+        {
+          "question": "Is a cash-out refinance realistic on a Joliet rental?",
+          "answer": "Yes, and Joliet is one of the better Chicagoland markets for it. A decade of steady appreciation in the Cathedral Area and West Side left long-term owners with substantial trapped equity, and DSCR cash-out programs will typically lend to around 70 to 75% of appraised value when the ratio supports it. The mechanics that matter: a seasoned lease strengthens the income line, the city inspection certificate should be current before the appraisal, and the new payment must still clear on the full investor tax bill. Your matched specialist will size the maximum cash-out the ratio allows across the 70+ lenders rather than anchoring on one program's ceiling."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Joliet typical home value and YoY change, June 2026",
+        "Zillow rental market trends, Joliet 3-bed rent and 8-month listing YoY (calc), August 2026",
+        "Ownwell, Joliet median effective property tax rate 2.73% and Will County 2.67%, 2026; non-homestead investor adjustment applied (est.)",
+        "CenterPoint Intermodal Center and FHWA project profile, 6,400 acres and 3M+ annual TEUs, largest North American inland port, 2026",
+        "City of Joliet, Systematic Rental Inspection Program amendment covering all landlords, 2026",
+        "Neighborhood medians anchored to citywide Zillow values and local listing ranges, August 2026 (est.)"
+      ]
+    },
+    {
+      "city": "Champaign",
+      "slug": "champaign",
+      "county": "Champaign County",
+      "metro": "Champaign-Urbana",
+      "hook": "Champaign rides a student machine that set another record in fall 2025: 60,848 enrolled at the University of Illinois. Homes average $242K, three-bed rents run $1,650, and the per-bedroom lease changes the math from there.",
+      "metaDescription": "Champaign IL rides a record 60,848 U of I students, with $242K homes and $1,650 3-bed rents. Per-bedroom leases change the DSCR math. Get matched today.",
+      "market": {
+        "medianPrice": 241516,
+        "medianRent": 1650,
+        "priceToRent": 12.2,
+        "vacancyRate": 6.5,
+        "yoyPrice": 4.9,
+        "yoyRent": 3.7,
+        "estDSCR": 0.81,
+        "propertyTaxRate": 2.55,
+        "insuranceMonthly": 165
+      },
+      "overview": "Champaign is a company town where the company is the University of Illinois, and the company keeps beating its own records. Fall 2025 enrollment reached 60,848 students, the first time past 60,000 in university history, on 83,045 applications, and the flagship has set freshman records for years running. Every August a five-figure cohort of new renters arrives with parental backing, on a lease calendar you can set a watch by.\n\nThe market splits in two. The typical home value is $241,516 as of June 2026, up 4.9%, with citywide three-bed rents near $1,650, up about 3.7%. Run the standard formula and the median prints 0.81, which describes the family-rental side of town: Garden Hills, the southwest subdivisions, the non-campus fabric. The campus-adjacent market runs different arithmetic: four and five-bedroom houses within walking distance of the Engineering campus lease by the bedroom at rates that put whole-house rents near $2,300 to $2,800, and Zillow's four-bed average for Champaign sits at $2,287.\n\nThe underwriting nuance: DSCR lenders qualify on the appraiser's whole-house market rent, not a stacked per-bedroom student premium, so the campus play finances on conservative numbers and collects on aggressive ones. Note the county line too: Champaign's twin city Urbana runs a mandatory rental registration and inspection program on an annual cycle; Champaign proper does not, which is a quiet reason the investor volume concentrates on the Champaign side.",
+      "regulationBadge": "friendly",
+      "regulationNote": "Champaign adds no rental registration program of its own, unlike adjacent Urbana whose Rental Registration and Inspection Program requires annual registration and cyclical inspections, and Illinois preempts rent control statewide, so the Champaign side of the metro is the lighter-touch jurisdiction.",
+      "neighborhoods": [
+        {
+          "name": "Campustown Edge",
+          "medianPrice": 260000,
+          "medianRent": 2300,
+          "note": "The blocks ringing the university where older houses lease by the bedroom to groups. Whole-house collections beat the citywide statistics badly, turnover is annual and choreographed, and proximity to the Engineering quad prices in hundreds per month."
+        },
+        {
+          "name": "Garden Hills",
+          "medianPrice": 150000,
+          "medianRent": 1400,
+          "note": "Northwest Champaign's affordable postwar stock and the city's non-student cash-flow pocket. The ratio here beats the citywide print by a wide margin, with workforce tenants and none of the August turn chaos."
+        },
+        {
+          "name": "West Champaign",
+          "medianPrice": 300000,
+          "medianRent": 2000,
+          "note": "The subdivisions out Kirby and Springfield Avenue where faculty, medical staff, and Research Park employees rent. Thin ratio, long tenancies, and the easiest management in the metro."
+        },
+        {
+          "name": "Downtown Champaign",
+          "medianPrice": 240000,
+          "medianRent": 1800,
+          "note": "The bar-and-restaurant core that graduated from student strip to legitimate downtown. Condos and small mixed-use buildings dominate; verify association health and lender eligibility before writing on anything attached."
+        }
+      ],
+      "localAngle": {
+        "tag": "Student Rentals",
+        "title": "60,848 students, one lease calendar, and an appraisal rule that works in your favor.",
+        "body": "The University of Illinois enrolled 60,848 students in fall 2025, its sixth consecutive record and the first time over 60,000, off 83,045 applications. Enrollment at that scale is a demand machine no local recession touches: the students arrive every August regardless of freight volumes or factory news, a large share lease off-campus, and the payer is frequently a parent co-signing from Naperville or Shanghai. The mechanics of the campus play: houses within walking distance of the quads lease by the bedroom, commonly $650 to $850 per room, so a five-bed near campus collects $3,200-plus while the same house three miles out rents whole for $1,800. Leases sign eight to ten months ahead on a rigid August cycle, group guarantees are standard, and a missed pre-leasing window costs a full year, not a month. The underwriting nuance most first-time student-housing buyers miss: DSCR lenders qualify the file on the appraiser's whole-house market rent from comparable leases, not your stacked per-bedroom projection. That gap is a feature, the loan sizes on the conservative number while collections run the aggressive one, but it means the file must clear on the boring rent. One more line: Champaign proper imposes no rental registration, while Urbana across Wright Street requires annual registration and inspections, a boundary worth respecting when two similar houses face off. Your matched specialist will structure the file on the appraiser's market rent and time the closing to the pre-leasing calendar."
+      },
+      "programFit": [
+        "standard-dscr",
+        "interest-only-dscr",
+        "portfolio-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "4-bed / 2-bath student rental",
+        "neighborhood": "Campustown Edge",
+        "purchasePrice": 270000,
+        "downPaymentPct": 25,
+        "downPayment": 67500,
+        "loanAmount": 202500,
+        "loanType": "30-Year Fixed, Interest-Only Period",
+        "interestOnly": true,
+        "monthlyPI": 1266,
+        "monthlyTax": 574,
+        "monthlyInsurance": 165,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 2005,
+        "monthlyRent": 2400,
+        "dscr": 1.2,
+        "monthlyCashFlow": 395,
+        "specialistFocus": [
+          "Structured an interest-only period so the qualifying payment matched the appraiser's conservative whole-house market rent while per-bedroom collections run higher",
+          "Qualified on the appraiser's $2,400 market rent from comparable whole-house leases rather than the $3,000 stacked bedroom projection, which underwriting will not use",
+          "Underwrote the full 2.55% investor tax bill and timed the closing ahead of the August pre-leasing window so the property never missed a lease cycle"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Will a DSCR lender count per-bedroom student rents?",
+          "answer": "No, and planning around that is the whole game. The appraisal uses whole-house market rent from comparable leases, so a five-bed collecting $3,400 by the bedroom might appraise at $2,400 as a single lease, and the loan sizes on the $2,400. The file must clear on the conservative number; the per-bedroom premium becomes your cash-flow margin rather than your qualifying income. Interest-only structures help align the qualifying payment with the appraised rent. Group leases with parental guarantees are standard practice locally and lenders have no issue with them, they simply do not underwrite to them."
+        },
+        {
+          "question": "How risky is betting a rental on one university?",
+          "answer": "It is concentration risk with unusually good numbers behind it. Enrollment hit 60,848 in fall 2025, a sixth consecutive record, applications rose to 83,045, and the flagship's computer science and engineering programs pull international and out-of-state students who pay full freight and rent close to campus. The state's flagship is not exposed to the demographic cliff hitting small private colleges; it is the beneficiary, absorbing demand as weaker schools shrink. The real risks are operational: a missed August pre-leasing window costs a year, and university-adjacent supply keeps growing in the high-rise segment, which competes hardest against mediocre houses far from the quads."
+        },
+        {
+          "question": "Champaign or Urbana, does the side of the street matter?",
+          "answer": "More than most buyers expect. Urbana operates a Rental Registration and Inspection Program requiring annual registration, fees, and inspections on a multi-year cycle for all rentals including single-family homes. Champaign proper has no equivalent program, which means one less annual cost and one less scheduling obligation per property. The campus straddles both cities, so comparable student houses sit on each side; when two deals otherwise tie, the Champaign address carries lower friction. Urbana deals still work, its east-campus blocks are closer to some quads, but price the registration and inspection line into the pro forma rather than discovering it at the first renewal."
+        },
+        {
+          "question": "What about renting to non-students in Champaign?",
+          "answer": "It is the quieter half of a genuinely two-engine market. Garden Hills pairs $150,000 entries with $1,400 rents, workforce tenants, and no August chaos, the best pure ratio in the city. West Champaign's subdivisions rent near $2,000 to faculty, Carle and OSF medical staff, and Research Park employees, long tenancies against a thinner ratio. The university underwrites both indirectly, as the county's dominant employer. A reasonable Champaign portfolio mixes one campus-edge house for yield with Garden Hills doors for stability. The citywide 0.81 median ratio describes neither pocket well, which is why submarket selection does the work here."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Champaign typical home value and YoY change, June 2026",
+        "Zillow rental market trends, Champaign 3-bed and 4-bed rents and listing YoY, August 2026",
+        "University of Illinois, fall 2025 enrollment 60,848 and applications 83,045, September 2025",
+        "Ownwell, Champaign median effective property tax rate 2.43%, 2026; non-homestead investor adjustment applied (est.)",
+        "City of Urbana, Rental Registration and Inspection Program requirements, 2026",
+        "US Census HVS via iPropertyManagement, Illinois statewide rental vacancy 6.5%, 2024 (metro proxy, est.); neighborhood medians anchored to citywide values (est.)"
+      ]
+    },
+    {
+      "city": "Elgin",
+      "slug": "elgin",
+      "county": "Kane County",
+      "metro": "Chicago-Naperville-Elgin",
+      "hook": "Elgin's typical home hit $344K, up 3.7%, while listing rents slipped about 1.5%. The city straddles the Kane and Cook county lines, and which side of the line your parcel sits on rewrites the tax bill and the ratio.",
+      "metaDescription": "Elgin IL homes average $344K with 3-bed rents near $2,650 and a ratio near 0.91, so structure decides the file. See the county-line tax math. Get matched today.",
+      "market": {
+        "medianPrice": 343968,
+        "medianRent": 2650,
+        "priceToRent": 10.8,
+        "vacancyRate": 5.1,
+        "yoyPrice": 3.7,
+        "yoyRent": -1.5,
+        "estDSCR": 0.91,
+        "propertyTaxRate": 2.7,
+        "insuranceMonthly": 200
+      },
+      "overview": "Elgin is the priciest market on this page after Chicago's north-side neighborhoods, and the one where structure does the most work. The typical home value reached $343,968 in June 2026, up 3.7%, while listing rents softened about 1.5% on an 8-month average; three-bed houses still command roughly $2,650. At the median with 20% down the ratio lands at 0.91, which is why Elgin is where the no-ratio conversation starts rather than the exception.\n\nThe jurisdictional quirk that matters: Elgin straddles two counties. Most of the city sits in Kane, where the median effective tax burden runs 2.55% per Ownwell with zip-level medians reaching 2.84% at the 75th percentile, but the eastern sections extend into Cook County, with its 10% assessment level, state equalization factor, and different exemption and appeal machinery. Two similar houses a few blocks apart can carry meaningfully different bills and different reassessment calendars. Underwrite the parcel, not the city.\n\nWhat you are buying into: the Fox River's second-largest city, roughly 115,000 people, with Metra's Milwaukee District West line into Chicago, a stabilized Grand Victoria casino corridor, and a historic housing stock, the Elgin Historic District and Gifford Park's painted ladies, that rents distinctively when renovated. Values here have compounded quietly for a decade while the cash-flow crowd looked past it. The honest frame: Elgin is an appreciation-and-quality market where files clear with 30% down, accepted negative carry, or the right side of the county line.",
+      "regulationBadge": "moderate",
+      "regulationNote": "Elgin licenses residential rentals with inspection authority and its eastern sections fall under Cook County's assessment and court systems while the Kane majority does not, so both your compliance load and your tax bill depend on the parcel, not the postal address.",
+      "neighborhoods": [
+        {
+          "name": "Gifford Park",
+          "medianPrice": 300000,
+          "medianRent": 2200,
+          "note": "The historic district east of downtown, one of Illinois' great Victorian inventories. Renovated stock rents at a premium to tenants who want character, but pre-1900 mechanicals mean the inspection is the real purchase negotiation."
+        },
+        {
+          "name": "Northeast Elgin",
+          "medianPrice": 280000,
+          "medianRent": 2100,
+          "note": "The older east-side fabric running toward the Cook County line. The cheapest entry in the city and the strongest rent-to-price, with the county-line tax question live on every block; pull the parcel's county before writing."
+        },
+        {
+          "name": "The Highlands",
+          "medianPrice": 350000,
+          "medianRent": 2500,
+          "note": "West-side mid-century neighborhoods near the golf course. The dependable middle of Elgin's market: newer systems, steady family tenants, and the ratio thins accordingly."
+        },
+        {
+          "name": "Southwest Elgin",
+          "medianPrice": 400000,
+          "medianRent": 2900,
+          "note": "The 1990s-and-newer subdivisions toward Randall Road's retail spine. Top-of-market rents and tenant quality against the thinnest ratio in the city; this is where interest-only and no-ratio structures live."
+        }
+      ],
+      "localAngle": {
+        "tag": "County Line",
+        "title": "Elgin sits in two counties, and the line through town rewrites the tax bill.",
+        "body": "Most cities on this page have one assessor. Elgin has two, and the difference is not cosmetic. The Kane County majority of the city runs Illinois' standard machinery: assessment at 33.33% of market value, township assessors, quadrennial reassessment, and a median effective burden of 2.55% per Ownwell, with zip-level medians in the city running between 2.19% at the 10th percentile and 2.91% at the 90th. The eastern sections of Elgin reach into Cook County, which assesses residential at 10% of market value, applies the state equalization factor of 3.0300 for 2025, runs a triennial reassessment on the suburban triad calendar, and offers Cook's own exemption and appeal apparatus through the Assessor and Board of Review. Two houses blocks apart can carry different effective burdens, different appeal deadlines, and different reassessment years, and listing agents routinely quote the wrong county's history. The underwriting consequence is mechanical: at Elgin's 0.91 median ratio, a few hundred dollars a month of tax difference is the entire distance between a file that clears and one that needs a no-ratio structure with accepted negative carry. The playbook: pull the parcel's PIN before the offer, confirm the county, model that county's investor bill without exemptions, and when two candidate houses tie, let the tax line break the tie. Your matched specialist will run the file both ways and route it to the lender whose program fits which side of the line you land on."
+      },
+      "programFit": [
+        "no-ratio-dscr",
+        "standard-dscr",
+        "interest-only-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 2-bath SFR",
+        "neighborhood": "Gifford Park",
+        "purchasePrice": 340000,
+        "downPaymentPct": 30,
+        "downPayment": 102000,
+        "loanAmount": 238000,
+        "loanType": "30-Year Fixed, No-Ratio",
+        "interestOnly": false,
+        "monthlyPI": 1664,
+        "monthlyTax": 765,
+        "monthlyInsurance": 200,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 2629,
+        "monthlyRent": 2400,
+        "dscr": 0.91,
+        "monthlyCashFlow": -229,
+        "specialistFocus": [
+          "Structured the file as no-ratio because the honest number is 0.91: the investor accepted $229 a month of negative carry against a renovated historic asset in an appreciating district rather than pretending the rent was higher",
+          "Priced 30% down to keep the carry manageable and documented the investor's reserves so the negative cash flow was a planned position, not a surprise",
+          "Underwrote the Kane County parcel's full investor tax bill and confirmed the property sat outside the Cook County section before modeling the levy"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "What is a no-ratio DSCR loan and why does Elgin need one?",
+          "answer": "A no-ratio program qualifies the loan without requiring the rent to cover the payment, priced for the risk, usually with larger down payments. Elgin's median math is why it exists here: $343,968 typical value against $2,650 three-bed rents lands at 0.91 with 20% down, and even strong files print in the 0.9s. Investors use no-ratio to buy appreciating assets, renovated Gifford Park stock, Southwest Elgin subdivisions, while accepting a planned monthly carry. The discipline is treating the negative number as a position you fund from reserves, not a projection you hope away. The example above shows the honest version: 0.91, minus $229 a month, on purpose."
+        },
+        {
+          "question": "Part of Elgin is in Cook County. Does that change my deal?",
+          "answer": "It can change everything downstream of the address. The Cook sections run a 10% assessment level with the 3.0300 state equalization factor, triennial suburban reassessment, and Cook's exemption and appeal system, while the Kane majority runs 33.33% assessment on the standard downstate machinery with a 2.55% median effective burden. Effective bills, appeal windows, and reassessment years all differ, and Cook's slower eviction venue applies to its side. Neither side is automatically cheaper for a given house, which is the point: pull the parcel's county first, model that county's non-homestead bill, and never underwrite from a listing agent's summary of the taxes."
+        },
+        {
+          "question": "Rents in Elgin fell this year. Why would I buy into that?",
+          "answer": "Because the softness is in the listing blend, not the asset you would buy. Elgin's overall listing average slipped about 1.5% across 2026 as the metro's new apartment supply leased up, but three-bed houses still command roughly $2,650, and detached family rentals do not compete with concession-heavy towers. Meanwhile values rose 3.7% and the city's decade-long compounding has outlasted several rent cycles. The honest structure acknowledges both truths: underwrite today's soft rent with no growth assumption, use down payment or a no-ratio structure to absorb the 0.91 median ratio, and hold the asset for the appreciation the Fox Valley keeps delivering."
+        },
+        {
+          "question": "Is historic-district stock a good rental play in Elgin?",
+          "answer": "It is the distinctive play here, with a specific cost profile. Gifford Park and the Elgin Historic District hold one of the state's best Victorian inventories, and renovated houses rent near $2,200 to tenants who choose character over granite, with tenancies that run long. The costs: pre-1900 mechanicals, knob-and-tube surprises, and exterior work that may face design review in the local historic district, so the inspection report is the real negotiation and the capital expenditure reserve is not optional. Buy renovated or price the renovation honestly; the district rewards finished product and punishes optimistic rehab budgets. Insurance also runs higher on century-old stock, so quote it before the offer."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Elgin typical home value and YoY change, June 2026",
+        "Zillow rental market trends, Elgin 3-bed rent and 8-month listing YoY (calc), August 2026",
+        "Ownwell, Elgin median effective property tax rate 2.55% with zip percentiles, 2026; non-homestead investor adjustment applied (est.)",
+        "Illinois Department of Revenue, Cook County 2025 equalization factor 3.0300 for Elgin's Cook sections, 2026",
+        "US Census HVS via iPropertyManagement, Chicago metro rental vacancy, 2024",
+        "Neighborhood medians anchored to citywide Zillow values and local listing ranges, August 2026 (est.)"
+      ]
+    },
+    {
+      "city": "Waukegan",
+      "slug": "waukegan",
+      "county": "Lake County",
+      "metro": "Chicago-Naperville-Elgin",
+      "hook": "Waukegan home values jumped 7% in a year to $248K while listing rents averaged about 7% higher, the strongest twin print in the metro. The city requires a $60-per-unit rental license with inspection before the first lease.",
+      "metaDescription": "Waukegan home values rose 7% in a year and 3-bed rents reached $2,000. Budget the per-unit rental license and inspection first. Get matched today.",
+      "market": {
+        "medianPrice": 247565,
+        "medianRent": 2000,
+        "priceToRent": 10.3,
+        "vacancyRate": 5.1,
+        "yoyPrice": 7,
+        "yoyRent": 7.2,
+        "estDSCR": 0.95,
+        "propertyTaxRate": 2.6,
+        "insuranceMonthly": 175
+      },
+      "overview": "Waukegan is the value play of Chicagoland's north shore, and 2026 is the year the market noticed. The typical home value rose 7.0% to $247,565 through June 2026, and listing rents averaged about 7.2% higher across 2026 than the year before, with three-bed houses reaching $2,000. Both prints lead the metro's larger cities, and the driver is arithmetic: Waukegan is the last Lake County lakefront city where the median house costs less than $250,000, in a county where the median value runs $318,000 and North Shore suburbs start at triple Waukegan's price.\n\nAt the median with 20% down the ratio lands at 0.95, closer to clearing than Chicago, Elgin, or Joliet. The tax line is why it is not already over: Lake County's median effective burden is 2.61% per Ownwell, with Waukegan's zip codes at 2.45% to 2.48%, and an investor without the homestead exemption should model roughly 2.6%. Historically Waukegan carried one of the region's heaviest burdens, so the current prints represent improvement, but this is still a top-decile tax state.\n\nThe city layer: Waukegan requires a rental license at $60 per unit, with pre-approval from planning and a passed inspection from the building department before the license issues. Like Joliet's program, it is a compliance line that doubles as a quality floor. The near-lakefront blocks and the northwest side's postwar stock are where the license, the tax bill, and the rent finally line up.",
+      "regulationBadge": "moderate",
+      "regulationNote": "Waukegan requires a rental license at $60 per unit with planning pre-approval and a building inspection before units can operate, and Lake County courts run on standard downstate-style timelines rather than Cook County's, so the compliance load is front-loaded paperwork.",
+      "neighborhoods": [
+        {
+          "name": "Northwest Waukegan",
+          "medianPrice": 290000,
+          "medianRent": 2200,
+          "note": "The 60087 side near the Gurnee border, postwar ranches and newer subdivisions renting to Abbott-corridor and Naval Station Great Lakes households. The strongest tenant profile in the city and the easiest inspections."
+        },
+        {
+          "name": "West Waukegan",
+          "medianPrice": 260000,
+          "medianRent": 2000,
+          "note": "The central-west residential fabric around Washington Street. The practical middle of the market where the citywide numbers actually live, and the default first buy for an out-of-town file."
+        },
+        {
+          "name": "Near South Side",
+          "medianPrice": 210000,
+          "medianRent": 1800,
+          "note": "The older stock south of downtown toward the harbor. The best rent-to-price in the city, older mechanicals that the license inspection will find, and the biggest upside if the lakefront redevelopment story ever fully lands."
+        },
+        {
+          "name": "Downtown Waukegan",
+          "medianPrice": 180000,
+          "medianRent": 1600,
+          "note": "The civic core near the Metra UP-North terminus and the Genesee Theatre. Small multifamily and mixed-use dominate, priced lowest in the city while the lakefront plans stay perpetually almost-started."
+        }
+      ],
+      "localAngle": {
+        "tag": "Licensing",
+        "title": "The last cheap lakefront in Lake County, with a license before the lease.",
+        "body": "Waukegan's setup is simple to state: a lakefront city of about 90,000 with a Metra terminus, forty miles from the Loop, priced at $247,565 while the county around it medians $318,000 and the North Shore towns to its south start near triple. The 2026 prints say the discount is closing, values up 7.0% and listing rents averaging about 7.2% higher year over year, the strongest combined move in the metro's larger cities, driven by households priced out of Gurnee, Libertyville, and the Abbott and AbbVie employment corridor along the Tri-State. What the momentum stories skip is the two-step compliance sequence. First, the city: Waukegan requires a rental license at $60 per unit, and the application needs pre-approval from the planning department plus a passed inspection from building and code before the license issues. Buy a house with deferred maintenance and the inspection becomes your rehab scope, priced after closing if you did not price it before. Second, the county: Lake County's median effective tax burden runs 2.61% of value, and while Waukegan's own zips print 2.45% to 2.48%, the investor number without a homestead exemption models near 2.6%, which is the distance between the 0.95 median ratio and clearing. The buyers doing this right inspect to the city's checklist before the offer, license before the lease, and underwrite the full bill. Your matched specialist will sequence the license timeline into the closing so the property can legally collect rent the week it funds."
+      },
+      "programFit": [
+        "standard-dscr",
+        "portfolio-dscr",
+        "bridge-to-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 1-bath SFR",
+        "neighborhood": "West Waukegan",
+        "purchasePrice": 235000,
+        "downPaymentPct": 25,
+        "downPayment": 58750,
+        "loanAmount": 176250,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 1232,
+        "monthlyTax": 509,
+        "monthlyInsurance": 170,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 1911,
+        "monthlyRent": 1975,
+        "dscr": 1.03,
+        "monthlyCashFlow": 64,
+        "specialistFocus": [
+          "Structured 25% down because the citywide ratio at 20% lands at 0.95, and the extra equity carried the file over 1.0 on the appraiser's rent without stretching",
+          "Underwrote the full 2.6% Lake County investor tax load rather than the seller's exempted bill, the standard Waukegan pro forma correction",
+          "Sequenced the $60-per-unit rental license, planning pre-approval, and building inspection into the closing timeline so the lease could start at funding"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "What does Waukegan's rental license actually require?",
+          "answer": "Three steps before a unit can legally operate: a rental license application at $60 per unit, pre-approval from the planning department, and a passed inspection from the building and code department. The fee is trivial; the inspection is the real content, because older near-south and downtown stock frequently carries findings that become your repair list on a deadline. The efficient sequence is to walk the property against the city's checklist during due diligence, price the corrections into the offer, and file the license application at closing so the lease and license start together. Operating unlicensed in a city this compliance-forward is a false economy."
+        },
+        {
+          "question": "Why are Waukegan rents rising so fast?",
+          "answer": "Priced-out demand from the rest of Lake County. Waukegan's listing rents averaged about 7.2% higher across 2026 than the prior year, with three-beds reaching $2,000, while the county's employment anchors, the Abbott and AbbVie corridor, Naval Station Great Lakes, and the Gurnee logistics and retail belt, keep generating households that cannot touch Libertyville or Lake Forest prices. Waukegan is the county's affordable release valve with a Metra terminus attached. The honest caveat: fast listing-rent prints in mid-sized markets carry mix noise, so underwrite your specific property against comparable leases, not the citywide trend, and treat continued growth as upside."
+        },
+        {
+          "question": "Is Waukegan's lakefront redevelopment story real?",
+          "answer": "It is perpetually almost-real, and you should not pay for it. Waukegan owns miles of Lake Michigan shoreline, a harbor, a downtown Metra terminus, and a stack of master plans dating back decades; pieces move, the Genesee Theatre anchors an entertainment block, and the near-lakefront gets periodic infusions. But the full build-out has stayed over the horizon through several cycles. The disciplined way to hold the option: buy Near South Side or downtown-adjacent stock that clears on today's $1,600 to $1,800 rents, operate it as a standard rental, and treat any lakefront acceleration as a free call option rather than the thesis."
+        },
+        {
+          "question": "How do Lake County taxes compare for an investor?",
+          "answer": "Heavy but no longer the outlier they were. Lake County's median effective burden is 2.61% of value, among the highest in Illinois, and Waukegan's zip-level medians print 2.45% to 2.48%; without a homestead exemption an investor should model roughly 2.6% of purchase price, about $509 a month on the deal above. A decade ago Waukegan's effective burden ran meaningfully higher, past 3.5% in the mid-2010s per Civic Federation studies, so the direction has been favorable even as the absolute level stings. Quadrennial reassessment with annual equalization means the 7% value run flows into bills on a lag. Underwrite 2.6% flat, appeal when the assessment overshoots."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Waukegan typical home value and YoY change, June 2026",
+        "Zillow rental market trends, Waukegan 3-bed rent and 8-month listing YoY (calc), August 2026",
+        "Ownwell, Waukegan zip-level effective tax rates 2.45% to 2.48% and Lake County 2.61%, 2026; non-homestead investor adjustment applied (est.)",
+        "City of Waukegan, rental license requirements, $60 per unit with planning pre-approval and building inspection, 2026",
+        "Civic Federation, Waukegan effective rate history in Estimated Effective Property Tax Rates reports, 2022 tax year edition",
+        "Neighborhood medians anchored to citywide Zillow values and local listing ranges, August 2026 (est.)"
+      ]
+    }
+  ]
+}
