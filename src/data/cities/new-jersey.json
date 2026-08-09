@@ -1,0 +1,1253 @@
+{
+  "state": "New Jersey",
+  "abbreviation": "NJ",
+  "stateSlug": "new-jersey",
+  "dataUpdated": "2026-08",
+  "cities": [
+    {
+      "city": "Newark",
+      "slug": "newark",
+      "county": "Essex County",
+      "metro": "New York-Newark-Jersey City, NY-NJ",
+      "hook": "Newark's typical home value is $487K, and most of that stock is two- and three-family buildings carrying two or three rent rolls. The county has ordered a citywide revaluation, and the current 47.77% assessment ratio is the number that decides your tax line.",
+      "metaDescription": "Newark 3-family values near $487K with a 2027 revaluation ordered. See how DSCR files underwrite three rent rolls and the tax risk. Get matched today.",
+      "market": {
+        "medianPrice": 486845,
+        "medianRent": 2130,
+        "priceToRent": 19,
+        "vacancyRate": 5.5,
+        "yoyPrice": -1.8,
+        "yoyRent": 0.5,
+        "estDSCR": 0.56,
+        "propertyTaxRate": 1.91,
+        "insuranceMonthly": 290
+      },
+      "overview": "Newark is a per-unit market being read with per-house math, and that mismatch confuses every out-of-state buyer. The typical home value sits near $486,800 as of June 2026, down 1.8% over the year, while the citywide average rent is $2,130 and rose only 0.5%. Run those two numbers through the standard formula and you get 0.56, one of the weakest citywide ratios on this site. But the $2,130 is one unit's rent, and the $486,800 buys a three-family in Weequahic or Vailsburg. Three leases against one mortgage is the actual trade, and it is why local investors keep closing here while the blended math says nobody should.\n\nThe tax line is the part to respect. Newark's certified 2025 general rate is 3.999 per $100 of assessed value, but the city's equalization ratio is 47.77%, so the effective bill runs near 1.91% of market value. That ratio exists because Newark has not revalued in over a decade, and the Essex County Board of Taxation has now ordered a citywide revaluation with inspections already underway. When new assessments land, long-held properties with stale valuations will see bills move, in both directions.\n\nWhere files clear: the Ironbound's 07105 zip averages $571,100 with average rents of $2,349 and a tenant base tied to the port and Penn Station. Weequahic and Upper Vailsburg trade near $487,000 to $497,000, where three units at $1,600 to $1,900 each carry the building.",
+      "regulationBadge": "tenant",
+      "regulationNote": "Newark rent control covers non-owner-occupied buildings of three or more units at a 4% annual cap, the state Anti-Eviction Act requires good cause to remove any tenant, and pre-1978 buildings sit in the lead-safe inspection cycle, so the rules are workable but they are rules.",
+      "neighborhoods": [
+        {
+          "name": "Ironbound",
+          "medianPrice": 571140,
+          "medianRent": 2349,
+          "note": "The 07105 zip east of Penn Station, dense pre-war two- and three-families with a Portuguese and Brazilian commercial spine along Ferry Street. Strongest rents and lowest vacancy in the city, priced accordingly, and values eased 2.8% over the year, which is the entry window."
+        },
+        {
+          "name": "Weequahic",
+          "medianPrice": 497027,
+          "medianRent": 2100,
+          "note": "South Ward three-family stock around Weequahic Park, up 1.5% over the year while the city fell. Classic per-unit cash flow with long-tenured tenants, and the neighborhood where the three-rent-roll math is easiest to prove to an appraiser."
+        },
+        {
+          "name": "Upper Vailsburg",
+          "medianPrice": 486554,
+          "medianRent": 2000,
+          "note": "West Ward two- and three-families bordering South Orange and Maplewood, down 1.9% on the year. The border position rents to commuters priced out of the suburbs next door, but underwrite the older mechanicals in this 1920s stock."
+        },
+        {
+          "name": "Forest Hill",
+          "medianPrice": 568538,
+          "medianRent": 2300,
+          "note": "The North Ward's historic district, larger homes and better-kept multifamilies near Branch Brook Park, up 1.2%. The quality tier of Newark: thinner yield, stronger tenant profile, and the block-by-block variance is real, so walk it."
+        }
+      ],
+      "localAngle": {
+        "tag": "Reval Risk",
+        "title": "Newark is assessed at 47.77% of market value, and the county has ordered a revaluation.",
+        "body": "Newark's tax math is an artifact of time. The city has not completed a revaluation in more than a decade, so the average property is assessed at 47.77% of its true value per the 2025 Essex County equalization table, and the certified general rate of 3.999 per $100 only makes sense against those stale assessments. In practice an investor buying at market today carries an effective load near 1.91% of purchase price. Here is the problem: the Essex County Board of Taxation has ordered Newark to revalue all real estate, inspections are underway, and published guidance points to the new assessments taking effect for the 2027 tax year. Revaluations are levy-neutral citywide but never parcel-neutral. Properties that gentrified fastest since the last reval, which is exactly the renovated three-family an investor is most likely to buy, are the ones most exposed to an upward reset, while long-stagnant blocks may see relief. A seller's current tax bill tells you what the seller pays under 2013-era assessments, not what you will pay in 2028. The defensible move is to underwrite the full 1.91% effective load on your actual purchase price, treat anything lower as found money, and stress the ratio at a higher bill before you write the offer. Your matched specialist will structure the file so the ratio still clears after the reassessment, not just before it."
+      },
+      "programFit": [
+        "standard-dscr",
+        "portfolio-dscr",
+        "bridge-to-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-Unit Multifamily",
+        "neighborhood": "Weequahic",
+        "purchasePrice": 500000,
+        "downPaymentPct": 25,
+        "downPayment": 125000,
+        "loanAmount": 375000,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 2621,
+        "monthlyTax": 796,
+        "monthlyInsurance": 350,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 3767,
+        "monthlyRent": 4950,
+        "dscr": 1.31,
+        "monthlyCashFlow": 1183,
+        "specialistFocus": [
+          "Qualified on the appraiser's market rent for all three units, $1,650 average per floor, instead of the citywide blended figure that treats a three-family like one lease",
+          "Underwrote the tax line at the full 1.91% effective load on the purchase price rather than the seller's stale assessed bill, so the ratio survives the county-ordered revaluation",
+          "Confirmed the building is non-owner-occupied and therefore inside Newark rent control at the 4% cap, and priced the hold on controlled increases rather than pro-forma rent pops"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Does Newark rent control apply to my 3-family?",
+          "answer": "If you do not live in it, yes. Newark's ordinance covers buildings of three or more units, and the owner-occupied exemption only applies to owner-occupied buildings of four units or fewer. An investor-owned three-family is controlled: annual increases cap at 4%, or 2% for senior tenants. Two-family rentals fall below the ordinance's coverage line. Newly constructed multiple dwellings can be exempt for 30 years under state statute, and there is a narrow decontrol path for buildings vacant 18 months that undergo rehabilitation exceeding half their value. Your matched specialist will underwrite the rents you can legally charge, not the rents a pro forma wishes you could."
+        },
+        {
+          "question": "Why is Newark's citywide DSCR only 0.56 if investors cash flow here?",
+          "answer": "Because the citywide numbers divide one unit's rent by a whole building's price. Zillow's June 2026 average rent of $2,130 is per lease, while the $486,800 typical value is dominated by two- and three-family buildings. A Weequahic three-family near $500,000 collecting $1,600 to $1,900 per floor grosses around $4,950 a month, and at 25% down that file lands near 1.31, not 0.56. The blended figure is still useful: it tells you a single-condo or single-family rental in Newark rarely pencils. The multifamily is the native asset here."
+        },
+        {
+          "question": "What happens to my taxes after the revaluation?",
+          "answer": "The Essex County Board of Taxation has ordered Newark to revalue all real estate, with inspections underway through 2026 and new assessments expected for the 2027 tax year. A revaluation resets every assessment to full market value and drops the general rate to offset, so the citywide levy stays flat but individual bills shift. Recently renovated and recently sold properties, assessed today at a fraction of what they trade for, carry the most upward risk. If you buy at market and underwrite the full effective load near 1.91% of your price, the reval should hold few surprises. Buying based on the seller's current bill is how investors get hurt."
+        },
+        {
+          "question": "What does the state lead-safe law require in Newark?",
+          "answer": "New Jersey's lead-safe law, P.L.2021, c.182, requires lead-based paint inspections for rental units built before 1978, at tenant turnover or on a three-year cycle, with certificates valid for three years. In municipalities with higher child blood-lead histories, which includes Newark, the inspection standard is dust-wipe sampling rather than a visual check, so budget for the stricter test and possible remediation in pre-war stock. Nearly all of Newark's two- and three-family inventory is pre-1978. It is a real line item, a few hundred dollars per unit per cycle plus any abatement work, and lenders expect to see it handled upfront, not surfaced later."
+        },
+        {
+          "question": "Can I evict a non-paying tenant in Newark?",
+          "answer": "Non-payment of rent is good cause under New Jersey's Anti-Eviction Act, N.J.S.A. 2A:18-61.1, so yes, the path exists and it is the most commonly used ground. What the Act removes is everything else: you cannot decline to renew a lease without cause, and lease expiration alone is not cause. Essex County's landlord-tenant docket moves slower than Sun Belt markets, so underwrite realistic timelines and screen accordingly. The owner-occupancy exemptions to the Act only help owner-occupants of small buildings, which by definition is not a DSCR borrower. Management quality and tenant selection matter more here than in any preemption state."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Newark typical home value and YoY change, June 2026",
+        "Zillow Observed Rent Index, Newark average rent and YoY change, June 2026",
+        "US Census Housing Vacancy Survey Table 4, New York-Newark-Jersey City metro rental vacancy, Q2 2026",
+        "NJ Division of Taxation 2025 Essex County equalization table (Newark ratio 47.77%) and certified 2025 general rate 3.999, effective rate computed",
+        "Appraisal Systems Inc. and Essex County Board of Taxation, Newark revaluation order and 2026 inspection status, March 2026",
+        "NJ DCA 2026 Rent Control Survey, Newark ordinance coverage and caps; neighborhood values from Zillow neighborhood and zip pages June 2026, neighborhood rents partly (est.)"
+      ]
+    },
+    {
+      "city": "Jersey City",
+      "slug": "jersey-city",
+      "county": "Hudson County",
+      "metro": "New York-Newark-Jersey City, NY-NJ",
+      "hook": "Jersey City's average home value is $665K against average rents of $3,182, which puts most single-condo files under 1.0 before the HOA line. Investors here are buying the PATH corridor's trajectory, and the honest way to do that is a no-ratio file, not a pretend one.",
+      "metaDescription": "Jersey City averages $665K against $3,182 rents, so most condos sit under 1.0. See how no-ratio DSCR files get structured anyway. Get matched today.",
+      "market": {
+        "medianPrice": 665140,
+        "medianRent": 3182,
+        "priceToRent": 17.4,
+        "vacancyRate": 5.5,
+        "yoyPrice": -1.3,
+        "yoyRent": 2.8,
+        "estDSCR": 0.63,
+        "propertyTaxRate": 1.86,
+        "insuranceMonthly": 295
+      },
+      "overview": "Jersey City is the most honest expensive market in New Jersey: everyone involved knows the cash flow is not the point. The average home value is $665,100 as of June 2026, down 1.3% over the year, while average rents rose 2.8% to $3,182. Even with rents growing and prices easing, the standard formula at 20% down lands near 0.63 citywide, and a Journal Square condo with a $385 HOA fee does worse than that. Nobody structuring these files pretends otherwise, which is exactly why the no-ratio program exists.\n\nThe tax picture is better than the sticker suggests. Jersey City revalued in 2018, the market has run since, and the 2025 Hudson County table shows a 2.335 general rate against a 79.59% ratio, an effective load near 1.86% of market value. That is below Paterson, East Orange, and Trenton, and it is one reason the negative carry here is smaller than the price tag implies. Watch the ratio drift, though: every year it slips further under par, the city moves closer to its next reval.\n\nWhat investors are actually buying: Journal Square, down 3.8% on the year to $513,000 average values, has thousands of units delivering around the PATH station, and Bergen-Lafayette at $572,700 sits one light rail stop from downtown. The Heights at $755,900 held flat while downtown corrected. Buy the corridor, structure the carry honestly, and let the lease catch up.",
+      "regulationBadge": "tenant",
+      "regulationNote": "Jersey City rent control (Chapter 260) covers buildings of five or more units built before mid-1987, short-term rentals are capped at 60 nights a year without an owner in residence, and the Anti-Eviction Act applies everywhere, but the two-to-four unit building and post-1987 construction both sit outside local control.",
+      "neighborhoods": [
+        {
+          "name": "Journal Square",
+          "medianPrice": 512987,
+          "medianRent": 2600,
+          "note": "Average values fell 3.8% over the year to $513,000 while high-rise deliveries around the PATH station keep absorbing tenants. The negative-carry capital of the city, and the clearest appreciation thesis: 10 minutes to lower Manhattan at half the downtown price."
+        },
+        {
+          "name": "Bergen-Lafayette",
+          "medianPrice": 572685,
+          "medianRent": 2750,
+          "note": "Brownstones and small multifamily at $572,700, down 2.3%. The light rail spine to Liberty State Park keeps pulling downtown spillover south, and the two-to-four unit stock here escapes Chapter 260 rent control entirely."
+        },
+        {
+          "name": "Greenville",
+          "medianPrice": 539763,
+          "medianRent": 2500,
+          "note": "The southern end of the city at $539,800, down 2.2%, with the deepest two-to-four family inventory and the widest block-to-block variance. Where Jersey City files come closest to actually clearing 1.0, if the rents are real and verified."
+        },
+        {
+          "name": "The Heights",
+          "medianPrice": 755925,
+          "medianRent": 2900,
+          "note": "Up on the Palisades at $755,900, flat over the year while downtown corrected. Two-family houses with river-adjacent rents and Hoboken overflow tenants. Priciest of the non-waterfront tiers, and the one that holds value in a soft tape."
+        }
+      ],
+      "localAngle": {
+        "tag": "Honest Carry",
+        "title": "The no-ratio file is how professionals buy Jersey City, and Chapter 260 is why the small building still works.",
+        "body": "Two Jersey City facts most listings will not tell you. First, the math: at June 2026 averages, $665,100 values against $3,182 rents, a standard 20%-down file lands near 0.63, and adding a condo association fee pushes it lower. DSCR lenders see these numbers daily, which is why no-ratio DSCR exists: the loan is underwritten to the asset and the down payment with no minimum coverage test, priced for what it is, and the borrower carries the gap on purpose as the cost of holding the PATH corridor. An interest-only structure trims the monthly bleed while the Journal Square pipeline, thousands of units in towers around the station, finishes lease-up and the rent line climbs at its current 2.8% pace. Second, the regulation map: Jersey City's rent control ordinance, Chapter 260 of the municipal code, covers buildings of five or more units built before June 1987. Buildings with four or fewer units are exempt, as is newer construction, so the Greenville or Bergen-Lafayette two-to-four family rents at market and stays at market. The Anti-Eviction Act still requires good cause to remove any tenant, and short-term rentals without an owner in residence are capped at 60 nights a year under Chapter 255, so the Airbnb arbitrage pitch is dead here. Your matched specialist will structure the carry honestly, no-ratio where the math is negative, and match it to one of the 70+ lenders that prices this market correctly."
+      },
+      "programFit": [
+        "no-ratio-dscr",
+        "interest-only-dscr",
+        "standard-dscr",
+        "foreign-national-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "2-Bed Condo",
+        "neighborhood": "Journal Square",
+        "purchasePrice": 515000,
+        "downPaymentPct": 30,
+        "downPayment": 154500,
+        "loanAmount": 360500,
+        "loanType": "30-Year Fixed, Interest-Only",
+        "interestOnly": true,
+        "monthlyPI": 2253,
+        "monthlyTax": 798,
+        "monthlyInsurance": 250,
+        "monthlyHOA": 385,
+        "monthlyPITIA": 3686,
+        "monthlyRent": 2600,
+        "dscr": 0.71,
+        "monthlyCashFlow": -1086,
+        "specialistFocus": [
+          "Structured as no-ratio DSCR because the honest coverage is 0.71 and no amount of pro-forma massaging changes what a Journal Square 2-bed rents for today",
+          "Used a 10-year interest-only period to hold the monthly gap near $1,086 instead of $1,353 amortizing, since the borrower's thesis is corridor appreciation, not month-one cash flow",
+          "Sized the down payment at 30% so the negative carry stays within the borrower's documented reserves, with the exit being either the rent line catching up or a resale into the finished PATH pipeline"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Can I run an Airbnb in Jersey City?",
+          "answer": "Not the way the arbitrage videos describe. Jersey City's short-term rental rules under Chapter 255 require a permit for every unit, restrict operation to owners rather than tenants, and cap stays at 60 nights per year when the owner is not living on site. Buildings with more than four units where the owner does not reside are effectively off the table. That kills the year-round investor Airbnb model that briefly flourished before the 2019 referendum. What still works is the 30-day-plus furnished mid-term rental for traveling professionals, which sits outside the short-term permit regime. Your matched specialist will qualify the file on a lease the ordinance actually allows."
+        },
+        {
+          "question": "Is my 2-to-4 unit building rent-controlled in Jersey City?",
+          "answer": "No. Chapter 260 of the Jersey City code applies to multifamily dwellings of five or more units, and its coverage is further limited to older stock, with newer construction and post-June-1987 buildings holding exemptions. A two-family in the Heights or a four-unit in Greenville rents at whatever the market pays, and resets to market at turnover. Two caveats: the statewide Anti-Eviction Act still requires good cause to remove tenants regardless of building size, and the 1.5-month security deposit cap applies everywhere in New Jersey. Control on the small building comes from Trenton, not City Hall."
+        },
+        {
+          "question": "Why would anyone buy a rental that loses $1,000 a month?",
+          "answer": "Because they are pricing the whole return, not the monthly check. Journal Square average values fell 3.8% over the past year to $513,000 while citywide rents rose 2.8%, and the neighborhood has thousands of new units delivering around a PATH station that reaches the World Trade Center in about 10 minutes. Buyers running no-ratio files here are underwriting rent growth closing the gap, principal paydown once the interest-only period ends, and resale into a finished corridor. It is a legitimate strategy when the carry is planned and reserved for. It is a disaster when someone talks themselves into fake rents to dodge the honesty. The first version is financeable."
+        },
+        {
+          "question": "How do Jersey City property taxes actually work after the reval?",
+          "answer": "Jersey City revalued in 2018, and assessments have stayed put while the market ran, so the 2025 Hudson County table shows the average property assessed at 79.59% of true value with a 2.335 general rate. Buying at market today, your realistic effective load is near 1.86% of the purchase price, cheaper than most of urban New Jersey. Two flags: the ratio drops every year the market outruns 2018 assessments, which is the fuse on the next revaluation, and a purchase well above your unit's assessed value can draw an assessor's attention. Underwrite 1.86% on your actual price and you are being fair to yourself."
+        },
+        {
+          "question": "Who pays New Jersey's mansion tax on a $1M+ purchase now?",
+          "answer": "The seller, since July 10, 2025. The amended law flipped the so-called mansion tax obligation to sellers and made it graduated: 1% for sales between $1 million and $2 million, then 2% above $2 million, stepping up to 3.5% for sales above $3.5 million. Plenty of Jersey City condos and most small multifamily portfolios cross the $1 million line, so this changed closing-table math across the county. As a buyer you no longer write that check, but sellers price it in, and on a portfolio trade the tiers get material. Your matched specialist will flag the transfer-cost stack early so the offer accounts for it."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Jersey City typical home value and YoY change, June 2026",
+        "Zillow Observed Rent Index, Jersey City average rent and YoY change, June 2026",
+        "US Census Housing Vacancy Survey Table 4, New York-Newark-Jersey City metro rental vacancy, Q2 2026",
+        "Hudson County Board of Taxation 2025 rates and ratios, Jersey City general rate 2.335 and ratio 79.59%, effective rate computed",
+        "NJ DCA 2026 Rent Control Survey, Jersey City Chapter 260 coverage; Jersey City Chapter 255 short-term rental rules via city guidance",
+        "NJ Realtors and Division of Taxation, July 2025 mansion tax amendments; neighborhood values from Zillow neighborhood pages June 2026, neighborhood rents (est.) from Zillow bedroom medians"
+      ]
+    },
+    {
+      "city": "Paterson",
+      "slug": "paterson",
+      "county": "Passaic County",
+      "metro": "New York-Newark-Jersey City, NY-NJ",
+      "hook": "Paterson values ran up 4.6% in a year to $541K while blended rents sat flat at $1,941. One rent cannot carry that price, and it is not supposed to: the Paterson two-family rents twice, and the 2.91% effective tax rate is the line that decides whether twice is enough.",
+      "metaDescription": "Paterson values rose 4.6% while blended rents sat at $1,941. Two-family DSCR math and the 5% rent cap explained for investors. Get matched today.",
+      "market": {
+        "medianPrice": 541017,
+        "medianRent": 1941,
+        "priceToRent": 23.2,
+        "vacancyRate": 5.5,
+        "yoyPrice": 4.6,
+        "yoyRent": -0.1,
+        "estDSCR": 0.42,
+        "propertyTaxRate": 2.91,
+        "insuranceMonthly": 290
+      },
+      "overview": "Paterson posts the single ugliest citywide ratio on this site, 0.42, and the number is both true and misleading. True, because the average home value hit $541,000 in June 2026, up 4.6% in a year, while the blended average rent went nowhere at $1,941. Misleading, because almost nothing at that price is a single rental: this is a two-family city, floors rent separately at a median of $2,250 for three bedrooms, and the building's gross is two checks, not one. The real Paterson question is whether $4,300 to $4,500 of combined rent can carry a $550,000 purchase with the second-heaviest tax load in North Jersey. At 25% down it cannot. At 30% it barely does.\n\nTaxes are the reason the margin is thin. Paterson's certified 2025 numbers work out to a 2.909% effective rate on market value, roughly $16,000 a year on a typical two-family, triple what the same building pays across the Hudson County line. Rent regulation adds friction without killing the deal: the city's ordinance covers buildings with two or more rented units, caps annual increases at 5%, and decontrols units at vacancy, so market resets happen at turnover, not mid-lease.\n\nSubmarket selection is everything. Hillcrest at $553,000 and the Eastside at $588,900 carry the strongest stock, while South Paterson's 07503 zip, up 8.8% in a year to $563,900, runs on the Main Street corridor economy and rents near $2,274 a unit.",
+      "regulationBadge": "tenant",
+      "regulationNote": "Paterson rent control covers buildings with two or more rented units at a 5% annual cap with vacancy decontrol, the Anti-Eviction Act requires cause for every removal, and the city requires inspection at tenant turnover, so plan the operating calendar around the paperwork.",
+      "neighborhoods": [
+        {
+          "name": "Hillcrest",
+          "medianPrice": 552989,
+          "medianRent": 2100,
+          "note": "Northwest corner bordering Haledon and North Haledon, up 4.4% to $553,000. The steadiest two-family blocks in the city with owner-occupant neighbors, which is exactly what you want next to a rental. The BRRRR exit appraisals hold up best here."
+        },
+        {
+          "name": "Eastside",
+          "medianPrice": 588916,
+          "medianRent": 2250,
+          "note": "The Eastside Park historic district and surrounding blocks, up 4.8% to $588,900. Larger pre-war two- and three-families, the city's priciest stock outside the park frontage itself. Strong rents, but the entry price eats most of the yield."
+        },
+        {
+          "name": "South Paterson",
+          "medianPrice": 563879,
+          "medianRent": 2274,
+          "note": "The 07503 zip along the Main Street corridor, up 8.8% in a year, the fastest appreciation in the city. A dense Middle Eastern and South Asian commercial spine keeps unit demand deep, and average zip rents of $2,274 are the strongest of the affordable tiers."
+        }
+      ],
+      "localAngle": {
+        "tag": "Turnover Rules",
+        "title": "The 5% cap, vacancy decontrol, and the inspection calendar run a Paterson hold.",
+        "body": "Paterson's ordinance is more workable than its reputation, if you plan around three mechanics. First, coverage: rent control applies to buildings with two or more rented units, so the standard investor two-family is controlled, while a building where only one unit is rented is not. Annual increases cap at 5%, with 3.5% for senior and disabled tenants. Second, vacancy decontrol: when a tenant leaves voluntarily, the unit resets to market before control resumes for the new tenancy. That makes tenant turnover, not annual increases, the real rent-growth engine, and it changes how you value a building: a two-family with both units $400 under market is worth more to you at vacancy than a fully-market building, because the reset is yours to capture. Third, the paperwork stack: certificate-of-occupancy inspection at tenant changes, the state lead-safe inspection cycle for pre-1978 stock on turnover or every three years, and annual registration. None of this is exotic, but each item has a fee and a scheduling delay, and a vacant month in a thin-margin market erases a year of cash flow. Newer construction carries multi-decade exemptions from control, and substantially rehabilitated buildings can qualify for exemption periods, which matters if your plan is a gut renovation. Your matched specialist will underwrite the legal in-place rents plus the documented turnover resets, which is the version of Paterson math a lender will actually fund."
+      },
+      "programFit": [
+        "standard-dscr",
+        "bridge-to-dscr",
+        "portfolio-dscr"
+      ],
+      "dealExample": {
+        "label": "BRRRR Refinance",
+        "propertyType": "2-Family (2-unit)",
+        "neighborhood": "Hillcrest",
+        "purchasePrice": 550000,
+        "downPaymentPct": 30,
+        "downPayment": 165000,
+        "loanAmount": 385000,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 2691,
+        "monthlyTax": 1334,
+        "monthlyInsurance": 300,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 4325,
+        "monthlyRent": 4500,
+        "dscr": 1.04,
+        "monthlyCashFlow": 175,
+        "specialistFocus": [
+          "Set the refinance at 70% of the $550,000 appraised value instead of the maximum pull, because those extra five points of loan size dropped the ratio under 1.0 against Paterson's $1,334 monthly tax line",
+          "Qualified on both floors at the appraiser's $2,250 market rent, documented with the post-renovation leases signed at turnover under vacancy decontrol",
+          "Timed the refinance after the certificate of occupancy and lead-safe dust-wipe certificates cleared, so the file had no open municipal conditions at underwriting"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Is a Paterson two-family rent-controlled?",
+          "answer": "If both units are rented, yes. Paterson's ordinance covers buildings with two or more rented units, capping annual increases at 5%, or 3.5% for senior and disabled tenants. A building where only one unit is rented sits outside the ordinance, and buildings constructed after late 1999 carry long exemptions tied to their financing period. The feature that matters most to investors is vacancy decontrol: a voluntarily vacated unit resets to market rent before control reattaches. That means your rent growth comes in steps at turnover rather than smoothly, and it means in-place rents on a listing sheet are a floor and a fact, not a suggestion."
+        },
+        {
+          "question": "Why did Paterson prices jump 4.6% when rents went nowhere?",
+          "answer": "Spillover demand, not local income growth. Paterson's two-families at $541,000 average are among the last sub-$600K multifamily buildings within a commutable ring of Manhattan, and buyers priced out of Bergen County and Hudson County keep bidding them. South Paterson's 07503 zip ran 8.8% in a year on the strength of its commercial corridor. Meanwhile the blended rent line was flat at $1,941, and the city's 5% cap plus flat wages limit how fast leases reprice. That squeeze, prices climbing on outside money while rents crawl, is exactly why the citywide ratio reads 0.42 and why files here need combined two-unit rents and bigger down payments to clear."
+        },
+        {
+          "question": "What inspections do I face when a tenant moves out?",
+          "answer": "Three layers. Paterson requires a certificate-of-occupancy inspection at tenant changes, covering basic habitability and code items. The state lead-safe law adds a lead-based paint inspection for pre-1978 units at turnover or every three years, and in higher-risk municipalities that means dust-wipe sampling, not just a visual pass. And your annual rental registration has to be current before any of it processes. Each item is a modest fee, but the scheduling is the real cost: an uncoordinated turnover can leave a unit dark for weeks in a market where the margin is already thin. Build the calendar before the lease ends, not after."
+        },
+        {
+          "question": "Do the floors really rent for more than the $1,941 average?",
+          "answer": "Yes, and the gap is the whole deal. The $1,941 blended average includes small apartments across the city's rental stock. The unit an investor actually offers, a renovated three-bedroom floor-through in a two-family, carries a citywide median near $2,250, and South Paterson zip averages run $2,274. Two floors at those numbers gross $4,400 to $4,500 a month against a $550,000 building. That is why the deal example above clears 1.0 while the citywide blended math shows 0.42. When the appraiser's rent schedule comes back, it will be built on comparable floor-throughs, not on the blended average, and that schedule is what DSCR lenders qualify against."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Paterson typical home value and YoY change, June 2026",
+        "Zillow Observed Rent Index, Paterson average rent and YoY change, June 2026",
+        "Zillow Rental Manager market trends, Paterson bedroom-level median rents, August 2026",
+        "Joe Shimkus NJ tax tables from certified 2025 data, Paterson general rate 3.011 and effective rate 2.909%",
+        "US Census Housing Vacancy Survey Table 4, New York-Newark-Jersey City metro rental vacancy, Q2 2026",
+        "NJ DCA 2026 Rent Control Survey, Paterson ordinance coverage, caps, and exemptions; neighborhood values from Zillow neighborhood and zip pages June 2026, neighborhood rents partly (est.)"
+      ]
+    },
+    {
+      "city": "Trenton",
+      "slug": "trenton",
+      "county": "Mercer County",
+      "metro": "Trenton-Princeton, NJ",
+      "hook": "Trenton rowhouses trade near $196K in Chambersburg while three-bedroom rents hold $2,100, gross yield the rest of the Northeast cannot touch. The catch is a 3.47% effective tax rate, the heaviest carry on this site, and it is the first number your file gets underwritten against.",
+      "metaDescription": "Trenton rowhouses near $196K rent for $2,100, but the 3.47% effective tax is the real story. DSCR math for deep-value buyers. Get matched today.",
+      "market": {
+        "medianPrice": 356470,
+        "medianRent": 2139,
+        "priceToRent": 13.9,
+        "vacancyRate": 5.3,
+        "yoyPrice": -1.9,
+        "yoyRent": 1.5,
+        "estDSCR": 0.66,
+        "propertyTaxRate": 3.47,
+        "insuranceMonthly": 220
+      },
+      "overview": "Trenton is where New Jersey's property tax problem stops being an abstraction. The certified 2025 numbers: a 5.890 general rate against a 60.13% ratio, which is a 3.468% effective load on market value. On a $195,000 Chambersburg rowhouse that is roughly $6,770 a year, about $564 a month, frequently more than the principal-and-interest line deserves on a loan that size. Every Trenton deal is a negotiation between gross yield that looks spectacular and a tax bill that claws half of it back.\n\nThe citywide averages need decoding too. Zillow's $356,500 typical value, down 1.9% over the year, blends the city's stronger edges with the investor blocks; Chambersburg, the classic rowhouse quarter, averages $196,100, down 4.1%, and Villa Park sits at $260,300, down 4.5%. Rents did not follow prices down: the average rent rose 1.5% to $2,139, and three-bedroom listings hold a $2,100 median. State government anchors employment, and the tenant base is deep because the homeownership ladder here is broken in the same place the rental demand comes from.\n\nRegulation runs tenant-first. Trenton's rent control reaches every rental from the first unit up, capping increases at 4% a year with owner-occupied one- and two-family homes exempt, and vacancy decontrol allows a maximum 25% reset. The Anti-Eviction Act governs removals. None of it kills the math; all of it belongs in the file before you close, not after.",
+      "regulationBadge": "tenant",
+      "regulationNote": "Trenton rent control covers all rentals from the first unit at a 4% annual cap with a 25% maximum vacancy-decontrol reset, so buy the rent roll as it stands, not the rent roll you plan to invent.",
+      "neighborhoods": [
+        {
+          "name": "Chambersburg",
+          "medianPrice": 196084,
+          "medianRent": 2100,
+          "note": "The old Italian quarter south of downtown, now the city's densest investor market, averaging $196,100 after a 4.1% dip. Brick rowhouses rent to a Latin American working-tenant base at three-bedroom medians near $2,100. Gross yield is elite; condition and collections discipline decide who keeps it."
+        },
+        {
+          "name": "Villa Park",
+          "medianPrice": 260294,
+          "medianRent": 2150,
+          "note": "East of Chambersburg toward Hamilton Township, $260,300 average and down 4.5% on the year. Slightly newer stock, more owner-occupants, and the Hamilton border position pulls tenants who want Trenton pricing with suburban adjacency. The step-up block for a second Trenton buy."
+        },
+        {
+          "name": "Hiltonia",
+          "medianPrice": 305000,
+          "medianRent": 2350,
+          "note": "The West Ward's leafy pocket of larger 1920s homes near Cadwalader Park. Values around $305,000 and single-family rents in the low $2,000s make it the quality-tenant play, though the bigger footprints carry bigger tax bills at Trenton's 3.47% effective rate."
+        }
+      ],
+      "localAngle": {
+        "tag": "Tax Math",
+        "title": "A 3.47% effective rate rewrites every yield number, and abatements are not automatically yours.",
+        "body": "Start with the arithmetic every Trenton wholesaler skips. A $195,000 rowhouse renting $2,100 a month grosses almost 13% a year, which is the number on the postcard. Then Trenton's tax line arrives: the certified 2025 general rate is 5.890 per $100 of assessed value, the county equalization ratio is 60.13%, and the product is a 3.468% effective rate on what you actually paid. That is $564 a month on the same rowhouse, and suddenly the postcard yield is ordinary. It still works, the deal example below clears 1.18 at 25% down, but only when the full bill is in the file from day one. Two abatement wrinkles matter. First, some renovated properties carry five-year improvement abatements under N.J.S.A. 40A:21; the schedule phases out on its own timetable regardless of your purchase, so confirm the remaining term and the year-five bill, and underwrite the unabated number. Second, larger redevelopment projects run PILOT agreements under the long-term exemption law, N.J.S.A. 40A:20, and those agreements belong to the urban renewal entity that signed them; they are not a feature of the dirt that transfers to any buyer. The seller's operating statement is not your operating statement, and nowhere in New Jersey is that more expensive to forget than here. Your matched specialist will structure the file on the full tax load and treat any surviving abatement as upside, not as the basis."
+      },
+      "programFit": [
+        "standard-dscr",
+        "bridge-to-dscr",
+        "portfolio-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-Bed Brick Rowhouse",
+        "neighborhood": "Chambersburg",
+        "purchasePrice": 195000,
+        "downPaymentPct": 25,
+        "downPayment": 48750,
+        "loanAmount": 146250,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 1022,
+        "monthlyTax": 564,
+        "monthlyInsurance": 200,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 1786,
+        "monthlyRent": 2100,
+        "dscr": 1.18,
+        "monthlyCashFlow": 314,
+        "specialistFocus": [
+          "Underwrote the tax line at the full 3.47% effective load, $564 a month, instead of the seller's partially abated bill that expires two years after closing",
+          "Matched the file to a lender whose minimum loan amount accepts a $146,250 balance, the quiet dealbreaker on most sub-$200K Trenton purchases",
+          "Documented the in-place rent against Trenton's 4% annual cap so the growth assumptions in the file are the ordinance's numbers, not a pro forma's"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Does Trenton rent control apply to a single-family rental?",
+          "answer": "Yes. Trenton's ordinance reaches all rental housing from the first unit, which surprises investors used to ordinances that start at three or five units. Annual increases cap at 4%, with 2% for senior and disabled tenants. The exemptions that matter: owner-occupied one- and two-family homes, and newly constructed or first-time rental units until they re-rent. Vacancy decontrol exists but is itself capped, at a 25% maximum increase when a unit turns over, unless the landlord justifies more under the ordinance. So a deep-under-market unit cannot be reset to market in one jump. Buy the rent roll that exists, and model the ordinance's step sizes."
+        },
+        {
+          "question": "How bad are Trenton property taxes, really?",
+          "answer": "The heaviest effective load of any market on this site. The 2025 certified general rate is 5.890 per $100 assessed, the average assessment ratio is 60.13%, and multiplying them gives 3.468% of market value per year. A $195,000 rowhouse pays roughly $6,770; a $305,000 Hiltonia house pays over $10,500. For scale, the same money in Toms River carries an effective load of 1.68%. This is why Trenton gross yields that embarrass every other Northeast market produce net returns that are merely good, and why any listing quoting the seller's abated or stale bill deserves a fresh calculation before you write anything."
+        },
+        {
+          "question": "Do five-year abatements transfer when I buy a renovated Trenton house?",
+          "answer": "Confirm it in writing, and underwrite as if the answer is no. Five-year improvement abatements under N.J.S.A. 40A:21 run on their own schedule from completion, phasing the improvement value onto the rolls in steps, so at best you inherit the remaining years, not a fresh five. Larger projects with PILOT agreements under N.J.S.A. 40A:20 are a different animal entirely: those agreements sit with the urban renewal entity that negotiated them and do not ride along with an ordinary deed. The safe file carries the full unabated bill, treats any surviving abatement as temporary upside, and prices the year the schedule ends."
+        },
+        {
+          "question": "Where do Trenton deals actually clear the ratio?",
+          "answer": "Chambersburg and Villa Park, on three-bedroom rowhouses bought right. At Chambersburg's $196,100 average value and $2,100 three-bedroom median rent, a 25%-down file lands near 1.18 even with the full tax load, and Villa Park runs similar math a price tier up. The citywide 0.66 figure is dragged down by the blended $356,500 value that includes the pricier edges. What breaks files here is not the ratio: it is condition surprises in 120-year-old brick, lender minimum loan amounts under $150,000, and turnover cost in a tenant base that needs active management. Screen hard, reserve honestly, and the arithmetic holds."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Trenton typical home value and YoY change, June 2026",
+        "Zillow Observed Rent Index, Trenton average rent and YoY change, June 2026; Zillow Rental Manager bedroom medians, August 2026",
+        "njtaxcalculator.com from certified 2025 data, Trenton general rate 5.890, ratio 60.13%, effective rate 3.468%",
+        "US Census Housing Vacancy Survey Table 1, New Jersey statewide rental vacancy, Q2 2026",
+        "NJ DCA 2026 Rent Control Survey, Trenton ordinance coverage, 4% cap, and 25% vacancy decontrol limit",
+        "Neighborhood values from Zillow neighborhood pages June 2026; Hiltonia figures and neighborhood rents partly (est.)"
+      ]
+    },
+    {
+      "city": "Elizabeth",
+      "slug": "elizabeth",
+      "county": "Union County",
+      "metro": "New York-Newark-Jersey City, NY-NJ",
+      "hook": "Elizabeth two-families near the port rent both floors to an airport-and-logistics workforce, and values rose a quiet 1.2% to $548K. The detail that matters: the city's rent control ordinance starts at three units, so the two-family you are underwriting is not in it.",
+      "metaDescription": "Elizabeth 2-families near the port escape local rent control, and values hit $548K. See where DSCR deals clear at 25% down. Get matched today.",
+      "market": {
+        "medianPrice": 547806,
+        "medianRent": 2255,
+        "priceToRent": 20.2,
+        "vacancyRate": 5.5,
+        "yoyPrice": 1.2,
+        "yoyRent": 0.9,
+        "estDSCR": 0.52,
+        "propertyTaxRate": 2.11,
+        "insuranceMonthly": 285
+      },
+      "overview": "Elizabeth is the port economy wearing a housing market. Newark Airport, Port Newark-Elizabeth, and the warehouse belt around them supply a tenant base that works shifts, pays in full months, and does not leave the area, which is why the average rent climbed to $2,255 while the citywide vacancy backdrop for the metro sits at 5.5%. The average home value reached $547,800 in June 2026, up a restrained 1.2% in a year that saw Newark and Jersey City go negative. Elizabeth does not spike; it grinds.\n\nThe citywide 0.52 ratio is the usual North Jersey illusion: one blended rent divided into a two-family price. The asset investors buy here is the two-family off the Elmora or Elizabethport corridors, two three-bedroom floors at $2,000 to $2,500 each, grossing $4,300 to $4,500 against a $510,000 to $590,000 basis. Taxes land at a 2.113% effective rate per the certified 2025 tables, mid-pack for urban New Jersey and a full point under Trenton.\n\nRegulation is friendlier than the tenant-state reputation suggests, if you buy the right building. Elizabeth's rent control covers buildings of three or more units at a 3% annual cap, but housing with two or fewer units is exempt, owner-occupied three- and four-unit buildings are exempt, and newly constructed units are exempt permanently. The two-family investor deal therefore prices at market and re-lets at market, with only the statewide Anti-Eviction Act and deposit rules in play.",
+      "regulationBadge": "tenant",
+      "regulationNote": "Elizabeth rent control caps covered buildings, three units and up, at 3% a year, but two-unit buildings and new construction sit entirely outside the ordinance, so asset selection decides how much of the tenant-state rulebook actually applies to you.",
+      "neighborhoods": [
+        {
+          "name": "Elmora (07208)",
+          "medianPrice": 590422,
+          "medianRent": 1880,
+          "note": "The west-side zip around Elmora Avenue, up 2.5% to $590,400, the strongest appreciation in the city. Tidier two-families and small colonials, a step-up tenant base, and zip average rents of $1,880 that skew low because of the apartment mix; floor-throughs let for well over $2,000."
+        },
+        {
+          "name": "Elizabethport (07206)",
+          "medianPrice": 511071,
+          "medianRent": 2069,
+          "note": "The port-side zip, $511,100 average and up 1.6%, with zip average rents of $2,069. Dense pre-war two- and three-families closest to the marine terminal jobs. The highest gross yields in the city and the oldest stock, so the inspection findings decide the deal."
+        },
+        {
+          "name": "North Elizabeth",
+          "medianPrice": 540000,
+          "medianRent": 2300,
+          "note": "The blocks between North Avenue and the Newark line, near the 07208 and citywide averages, with quick access to the airport employment core and the North Elizabeth train stop. Commuter-and-crew tenant base; values and rents estimated between the two zip anchors."
+        }
+      ],
+      "localAngle": {
+        "tag": "Exemption Line",
+        "title": "Elizabeth rent control starts at three units, and new construction never enters it.",
+        "body": "Elizabeth's ordinance draws its lines in unusually investor-legible places, and the whole local strategy falls out of them. Coverage begins at buildings of three or more units, where annual increases cap at 3% and vacancy decontrol allows a maximum 20% reset that lasts twelve months. Below that line, the ordinance simply does not reach: housing with two or fewer units is exempt, and so are owner-occupied three- and four-unit buildings. Above it, one more exemption matters long-term: newly constructed units are exempt permanently, not for a fixed exemption window like most New Jersey cities. Read those rules as a menu. The two-family, the dominant investor asset from Elmora to Elizabethport, prices at market, re-lets at market, and its only rent governor is what port, airport, and logistics wages can pay, which lately has been $2,000 to $2,500 a floor. The six-unit building two blocks away lives on a 3% escalator with capped resets, and should be priced on its actual controlled roll, not on the two-family comps around it. Statewide law still applies to everything: the Anti-Eviction Act's good-cause regime, the 1.5-month security deposit ceiling under the Rent Security Deposit Act, and the lead-safe inspection cycle on this almost entirely pre-1978 stock. Your matched specialist will structure the file on the correct side of the three-unit line, because in Elizabeth that single fact moves the value of the same gross rent by double digits."
+      },
+      "programFit": [
+        "standard-dscr",
+        "portfolio-dscr",
+        "bank-statement-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "2-Family (2-unit)",
+        "neighborhood": "Elizabethport (07206)",
+        "purchasePrice": 510000,
+        "downPaymentPct": 25,
+        "downPayment": 127500,
+        "loanAmount": 382500,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 2674,
+        "monthlyTax": 897,
+        "monthlyInsurance": 290,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 3861,
+        "monthlyRent": 4400,
+        "dscr": 1.14,
+        "monthlyCashFlow": 539,
+        "specialistFocus": [
+          "Qualified on the appraiser's rent schedule for both floors, $2,000 and $2,400, instead of the blended citywide average that would have shown a broken ratio",
+          "Confirmed the building is a true two-unit and therefore outside Elizabeth's rent control before underwriting market-rate turnover assumptions",
+          "Priced the lead-safe inspection cycle and the turnover certificate costs into reserves upfront, since the port-side stock is almost universally pre-1978"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Is my Elizabeth two-family rent-controlled?",
+          "answer": "No. Elizabeth's ordinance covers buildings of three or more units, and it explicitly exempts housing with two or fewer units, owner-occupied three- and four-unit buildings, and newly constructed units, the last of those permanently. A standard investor two-family re-lets at whatever the market pays. What still applies is state law: the Anti-Eviction Act requires good cause for removal, security deposits cap at 1.5 months, and pre-1978 units sit in the lead-safe inspection cycle. If you step up to a covered building, increases cap at 3% a year and vacancy resets max out at 20%, so price that rent roll on the ordinance's arithmetic."
+        },
+        {
+          "question": "What tax rate should I underwrite on an Elizabeth purchase?",
+          "answer": "About 2.11% of your purchase price per year, from the certified 2025 tables. Elizabeth's posted general rate looks tiny at 2.017, but that is because assessments run close to full value here; the equalized effective load is what matters for a buyer paying market price. On the $510,000 deal example that is roughly $897 a month. That is meaningfully cheaper than East Orange at 2.89% or Trenton at 3.47%, and it is a real part of why Elizabeth two-family files clear 1.0 at 25% down while similar gross rents a few towns over cannot."
+        },
+        {
+          "question": "Which side of Elizabeth rents strongest?",
+          "answer": "Depends which number you want. Elizabethport, the 07206 zip by the marine terminal, posts the higher zip-average rent at $2,069 and the highest gross yields, on a $511,100 average value with the city's oldest housing. Elmora's 07208, averaging $590,400 and up 2.5% in a year, rents floor-throughs above $2,000 to a steadier, longer-tenure base and appreciates faster. The port side pays you now; Elmora pays you at sale. Both sides draw on the same fundamental: an airport, a seaport, and a warehouse belt that keep shift workers renting within a short drive of the job."
+        },
+        {
+          "question": "Does the 1.5-month security deposit cap change how I screen tenants?",
+          "answer": "It should sharpen it. New Jersey's Rent Security Deposit Act caps deposits at one and a half months' rent, with annual increases to the deposit limited alongside rent increases, so you cannot buffer a marginal application with a bigger deposit the way some states allow. On a $2,200 floor-through that is $3,300 of protection against a turnover that can cost more, especially with the Anti-Eviction Act ruling out non-renewal as a cleanup tool. The practical answer is underwriting-grade screening on income multiples and landlord references, plus reserves sized for a real turnover, which is exactly how lenders expect an Elizabeth file to be built."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Elizabeth typical home value and YoY change, June 2026",
+        "Zillow Observed Rent Index, Elizabeth average rent and YoY change, June 2026; Zillow Rental Manager bedroom medians, August 2026",
+        "Joe Shimkus NJ tax tables from certified 2025 data, Elizabeth general rate 2.017 and effective rate 2.113%",
+        "US Census Housing Vacancy Survey Table 4, New York-Newark-Jersey City metro rental vacancy, Q2 2026",
+        "NJ DCA 2026 Rent Control Survey, Elizabeth ordinance coverage, 3% cap, and exemptions",
+        "Zip-level values and rents from Zillow 07208 and 07206 pages, June 2026; North Elizabeth figures (est.)"
+      ]
+    },
+    {
+      "city": "Camden",
+      "slug": "camden",
+      "county": "Camden County",
+      "metro": "Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",
+      "hook": "Camden is the only New Jersey market on this site where the median clears the ratio outright: $151K average values against $1,811 average rents is a 1.39 at 20% down. It is also down 7.1% in a year, and rent control here reaches every rental from the first unit.",
+      "metaDescription": "Camden is a 1.39 DSCR at the median, $151K values against $1,811 rents, with prices down 7.1%. The honest math for BRRRR buyers. Get matched today.",
+      "market": {
+        "medianPrice": 150576,
+        "medianRent": 1811,
+        "priceToRent": 6.9,
+        "vacancyRate": 6.6,
+        "yoyPrice": -7.1,
+        "yoyRent": 4.1,
+        "estDSCR": 1.39,
+        "propertyTaxRate": 2.33,
+        "insuranceMonthly": 165
+      },
+      "overview": "Camden's arithmetic works before you do anything clever, which is exactly why it deserves the most scrutiny of any market on this page. The average home value is $150,600 as of June 2026, average rent is $1,811 and rose 4.1%, and the standard 20%-down formula lands near 1.39. Rowhouses in Fairview or Parkside at $151,000 to $156,000 rent three bedrooms at a $1,825 median. Across the river, Philadelphia wages set the rents; on this side, Camden prices set the basis. That spread is real.\n\nNow the disclosures. Values fell 7.1% in a year, and Cramer Hill printed an 18.1% decline on thin volume, so the tape here is volatile in a way North Jersey is not. The tax line is a 2.329% effective load per the certified 2025 tables, modest in dollars on a $155,000 basis but a real share of a $1,800 rent. Eds-and-meds anchors, Cooper Health, Rutgers-Camden, Rowan's medical school, and the waterfront employers, hold the center, while block condition swings value violently a street at a time. And the loans themselves are the quiet filter: a 75% advance on $155,000 is a $116,250 note, under the minimum at a meaningful share of DSCR shops.\n\nRegulation surprises buyers who assume a distressed market is a loose one. Camden's rent control covers every rental from the first unit, capping increases at the lesser of the Philadelphia-area CPI or 6%, with owner-occupied two-family homes exempt and new construction exempt for only two years.",
+      "regulationBadge": "tenant",
+      "regulationNote": "Camden rent control covers all rentals including single-family houses, capping annual increases at the lesser of the regional CPI or 6%, and the Anti-Eviction Act governs removals, so even at $150K price points this is a regulated hold, not a frontier one.",
+      "neighborhoods": [
+        {
+          "name": "Fairview",
+          "medianPrice": 156056,
+          "medianRent": 1650,
+          "note": "The planned garden-village district in South Camden, $156,100 average, down only 2.1% while the city fell 7.1%. The most coherent blocks in the city, rowhouses around a central green, and the default first Camden buy for out-of-area investors because the comps actually cluster."
+        },
+        {
+          "name": "Parkside",
+          "medianPrice": 151117,
+          "medianRent": 1650,
+          "note": "Anchored by Farnham Park and close to the Cooper medical corridor, $151,100 average after an 8.6% slide. Bigger brick rowhouses than Fairview with more scattered condition. The eds-and-meds tenant pipeline is the draw; block-by-block diligence is the price of it."
+        },
+        {
+          "name": "Cramer Hill",
+          "medianPrice": 157882,
+          "medianRent": 1700,
+          "note": "The riverfront northeast quarter, $157,900 average, down a stark 18.1% on thin sales volume. Redevelopment plans and river adjacency give it the widest outcome range in the city in both directions. Priced as a value play only if your basis assumes the tape stays soft."
+        }
+      ],
+      "localAngle": {
+        "tag": "Abatement Fine Print",
+        "title": "The seller's PILOT is not your PILOT, and the 1.39 needs every disclosure attached.",
+        "body": "Camden has spent two decades as New Jersey's laboratory for tax abatement, and the artifacts are all over its listings. Large redevelopment projects operate under PILOT agreements through the Long-Term Tax Exemption Law, N.J.S.A. 40A:20, held by urban renewal entities; smaller renovated properties carry five-year improvement abatements under N.J.S.A. 40A:21 that phase out on their own schedule. Neither is a permanent feature of the real estate. The long-term agreements belong to the entity that signed them and do not ride an ordinary deed, and the five-year schedules keep burning down no matter who owns the door. So the single most expensive Camden mistake is underwriting the seller's tax line: the operating statement you were handed may reflect an abatement in year four of five, and the unabated bill at Camden's 2.329% effective rate is the one your year-three self will pay. The second mistake is assuming a cheap market is an unregulated one. Camden's rent control covers every rental from the first unit, increases cap at the lesser of the Philadelphia-area CPI or 6%, owner-occupied two-families are exempt, and new construction gets only a two-year exemption, one of the shortest in the state. The 4.1% rent growth in the current data fits inside the cap, but your pro forma jumps do not. Your matched specialist will structure the file on the unabated tax bill and the ordinance-capped rent roll, which is the version of the 1.39 that survives underwriting."
+      },
+      "programFit": [
+        "standard-dscr",
+        "bridge-to-dscr",
+        "portfolio-dscr"
+      ],
+      "dealExample": {
+        "label": "BRRRR Refinance",
+        "propertyType": "3-Bed Brick Rowhouse",
+        "neighborhood": "Fairview",
+        "purchasePrice": 155000,
+        "downPaymentPct": 25,
+        "downPayment": 38750,
+        "loanAmount": 116250,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 813,
+        "monthlyTax": 301,
+        "monthlyInsurance": 170,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 1284,
+        "monthlyRent": 1825,
+        "dscr": 1.42,
+        "monthlyCashFlow": 541,
+        "specialistFocus": [
+          "Matched the refinance to one of the lenders whose minimum loan amount accepts a $116,250 balance, the step where most sub-$160K Camden BRRRR files quietly die",
+          "Underwrote the full unabated tax bill at 2.33% of the appraised value, not the seller's five-year abatement schedule that expires mid-hold",
+          "Qualified the rent at the $1,825 three-bedroom median with the ordinance's CPI-linked cap on future increases, rather than the pro-forma jump the rehab budget was hoping for"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Is a single-family rental in Camden rent-controlled?",
+          "answer": "Yes, and this catches nearly every out-of-state buyer. Camden's ordinance covers rental housing from the first unit, so a plain rowhouse rental is regulated: annual increases cap at the lesser of the Philadelphia-area CPI or 6%. The exemptions are narrow, owner-occupied two-family homes, public and subsidized housing, and newly constructed or substantially rehabilitated multi-unit buildings for just two years. Vacancy adjustments allow a decontrolled unit to move toward comparable rents in the same building, then control reattaches. Current market rent growth of 4.1% fits inside the cap, but a plan built on repricing an inherited tenant to market overnight does not."
+        },
+        {
+          "question": "Why is Camden's ratio 1.39 when everything else in New Jersey is under 1.0?",
+          "answer": "Because the basis collapsed while the rents held. Camden's average value of $150,600 is a fraction of the state's, but Philadelphia-metro wages and Cooper-Rutgers-Rowan employment support $1,811 average rents, up 4.1% in a year. Price divided by twelve months of rent is 6.9 here versus 17 to 23 in North Jersey. The honest counterweights: values fell 7.1% in a year and 18.1% in Cramer Hill, the metro vacancy backdrop is 6.6%, collections and turnover run heavier than the spreadsheet version, and insurance-to-value is high on century-old brick. The ratio is real. It is compensation for risk, not free money."
+        },
+        {
+          "question": "Will a DSCR lender even fund a $116,000 loan?",
+          "answer": "Some will, many will not, and this is the decisive Camden question. Minimum loan amounts of $100,000 to $150,000 are common across DSCR programs, so a 75% advance on a $155,000 appraisal sits right on the cutline. The workarounds are practical: buy slightly up-tier so the note clears the minimum, cross-collateralize several rowhouses into one portfolio loan with a single balance well above any floor, or match directly to the subset of the 70+ lenders whose floors accommodate deep-value markets. This is precisely the matching problem the specialist model exists for; a declined file here is usually a routing failure, not a property failure."
+        },
+        {
+          "question": "How do I underwrite a Camden property that has a PILOT or abatement?",
+          "answer": "As if it were not there, then treat any surviving benefit as bonus. Five-year improvement abatements under N.J.S.A. 40A:21 phase out on a fixed schedule from completion; at purchase you inherit whatever is left, and the unabated bill arrives regardless. Long-term PILOT agreements under N.J.S.A. 40A:20 sit with the urban renewal entity that negotiated them and do not automatically convey with an ordinary sale. Ask for the agreement itself, confirm the remaining term and assignment provisions in writing, and run the file at the full 2.33% effective rate on your price. If the deal only works with the abatement, the deal does not work."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Camden typical home value and YoY change, June 2026",
+        "Zillow Observed Rent Index, Camden average rent and YoY change, June 2026; Zillow Rental Manager bedroom medians, August 2026",
+        "Joe Shimkus NJ tax tables from certified 2025 data, Camden general rate 3.687 and effective rate 2.329%",
+        "US Census Housing Vacancy Survey Table 4, Philadelphia-Camden-Wilmington metro rental vacancy, Q2 2026",
+        "NJ DCA 2026 Rent Control Survey, Camden ordinance coverage, CPI cap, and exemptions",
+        "Neighborhood values from Zillow neighborhood pages June 2026; neighborhood rents (est.) from citywide bedroom medians"
+      ]
+    },
+    {
+      "city": "Atlantic City",
+      "slug": "atlantic-city",
+      "county": "Atlantic County",
+      "metro": "Atlantic City-Hammonton, NJ",
+      "hook": "Atlantic City is the rare New Jersey market that licenses investor short-term rentals outright: an annual permit, an inspection, and a seasonal certificate of occupancy. Typical homes cost $221K, beach-block money at rowhouse prices, and the year-round math stands at 0.95 before a single summer week is booked.",
+      "metaDescription": "Atlantic City licenses investor short-term rentals, and homes average $221K. STR DSCR math plus the annual license costs, in plain numbers. Get matched today.",
+      "market": {
+        "medianPrice": 221432,
+        "medianRent": 1765,
+        "priceToRent": 10.5,
+        "vacancyRate": 5.3,
+        "yoyPrice": 1.7,
+        "yoyRent": 1.7,
+        "estDSCR": 0.95,
+        "propertyTaxRate": 2.16,
+        "insuranceMonthly": 230
+      },
+      "overview": "Atlantic City is two rental businesses sharing one zip code, and the ordinance book treats them differently on purpose. The year-round market: $221,400 average values, up 1.7%, against $1,765 average rents, also up 1.7%, with a casino, hospital, and university workforce renting twelve months a year. That math lands at 0.95 at 20% down, close enough that submarket picking and a quarter-point more down payment clear it. The seasonal market is the reason most investors call: the city licenses short-term rentals through an annual registration and inspection regime, with the seasonal certificate of occupancy functioning as the operating license.\n\nThe license stack is specific and budgetable. Registration renews annually on a calendar-year basis with a $150 application fee, the inspection sets a lawful occupancy, and the occupancy tier sets the permit cost, roughly $1,000 for smaller houses up to $1,800 for twelve-plus sleepers. Operators must carry at least $300,000 of liability coverage specific to the rental activity, keep taxes and utilities current, respond to complaints around the clock, and rent to no one under 21. That is friction, and it is also a moat: the operators who systematize it inherit the bookings of the ones who do not.\n\nTaxes run a 2.155% effective rate on the certified 2025 tables, insurance carries a coastal wind load, and three-bedroom year-round rents hold a $2,300 median. Rent control exists but exempts seasonal rentals, owner-occupied two- and three-families, and post-1987 buildings of three-plus units.",
+      "regulationBadge": "tenant",
+      "regulationNote": "Year-round Atlantic City rentals sit under a CPI-based rent control ordinance and the Anti-Eviction Act, but seasonal rentals are exempt from control and the city runs a defined annual licensing path for short-term rentals, which is the clearest STR lane in New Jersey.",
+      "neighborhoods": [
+        {
+          "name": "Chelsea",
+          "medianPrice": 235000,
+          "medianRent": 1900,
+          "note": "The lower-beach-block quarter south of the casino core, where renovated rowhouses and duplexes work both as STRs and as year-round rentals to hospitality staff. Values around the mid $230Ks; the dual-use flexibility is the underwriting cushion here."
+        },
+        {
+          "name": "Ducktown",
+          "medianPrice": 245000,
+          "medianRent": 1850,
+          "note": "The old Italian quarter behind the Tropicana corridor, walkable to casino employment and the beach. Small rowhouses in the mid $240Ks with steady worker-tenant demand, and the food scene keeps shoulder-season STR bookings warmer than the boardwalk average."
+        },
+        {
+          "name": "Venice Park",
+          "medianPrice": 265000,
+          "medianRent": 2100,
+          "note": "The lagoon-and-bungalow pocket across the bay bridge, quieter and more owner-occupied, values in the mid $260Ks. The year-round family rental play rather than the STR play, with three-bedroom rents near the citywide $2,300 median and less turnover churn."
+        }
+      ],
+      "localAngle": {
+        "tag": "STR License",
+        "title": "Atlantic City actually licenses investor short-term rentals. Here is the real cost stack.",
+        "body": "Most of New Jersey's headline markets have shut the investor STR door: Jersey City caps unhosted stays at 60 nights, and the north shore towns lean on owner-occupancy rules. Atlantic City went the other way and built a licensing lane. Since 2021, every unit rented on a seasonal or transient basis must register annually, pass an inspection, and operate under a seasonal certificate of occupancy that functions as the license, valid for the calendar year with no proration. The costs are published and predictable: a $150 application fee, then an occupancy-tiered permit of roughly $1,000 for one to six occupants, $1,500 for seven to eleven, and $1,800 for twelve or more, plus proof of at least $300,000 in liability coverage specific to short-term rental activity. Corporate and LLC owners qualify by disclosing their principals, which means the standard DSCR borrowing entity fits the regime instead of fighting it. Operational rules with teeth: no renters under 21, a 24/7 responsible contact expected to respond within an hour, condo-association signoff where applicable, and fines that stack per violation. The honest revenue picture is seasonal concentration, a large share of annual gross lands between June and August, so the file needs winter carry built in, and the fallback of a $2,300 three-bedroom year-round lease is the floor under the projection. Your matched specialist will structure the STR file on a projection a lender's third-party data source will corroborate, with the license stack and wind-zone insurance already in the expense line."
+      },
+      "programFit": [
+        "str-dscr",
+        "standard-dscr",
+        "interest-only-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-Bed Rowhouse (Licensed STR)",
+        "neighborhood": "Chelsea",
+        "purchasePrice": 250000,
+        "downPaymentPct": 25,
+        "downPayment": 62500,
+        "loanAmount": 187500,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 1311,
+        "monthlyTax": 450,
+        "monthlyInsurance": 275,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 2036,
+        "monthlyRent": 3500,
+        "dscr": 1.72,
+        "monthlyCashFlow": 1464,
+        "specialistFocus": [
+          "Qualified on a $3,500 projected monthly STR average from third-party comp data with the June-to-August concentration disclosed, not on peak-week arithmetic",
+          "Verified the annual license path before closing: registration, inspection, the occupancy-tier permit fee, and the $300,000 liability policy the ordinance requires",
+          "Stress-tested the file against the $2,300 year-round three-bedroom median as the fallback lease, so the deal survives even if the operator exits the STR business"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Can an LLC get an Atlantic City short-term rental license?",
+          "answer": "Yes. The registration framework anticipates entity ownership: corporate, LLC, and partnership applicants disclose their principals' names and addresses as part of the annual application, alongside the property manager or agent's contact information. The unit must be current on taxes, water, and sewer, clear of maintenance violations, pass inspection for its occupancy load, and carry at least $300,000 of liability insurance specific to short-term rental use. Condo units also need association approval. That is a workable checklist for a DSCR borrower, and it is the structural difference between Atlantic City and the New Jersey cities where investor STRs are capped or effectively barred."
+        },
+        {
+          "question": "Does rent control affect a seasonal rental in Atlantic City?",
+          "answer": "No. Atlantic City's rent control ordinance explicitly excepts seasonal rentals, along with owner-occupied two- and three-family homes, subsidized housing, and buildings of three or more units built after 1987. Control applies to the year-round stock, where increases track the CPI with hardship and capital-improvement paths through the Office of Landlord-Tenant Affairs. Practical read for an investor: the licensed summer business prices freely, and if you later convert to a year-round lease, that tenancy comes under the CPI cap and the Anti-Eviction Act's good-cause rules. Plan which business each unit is in before you buy, because the regulatory treatment follows the use."
+        },
+        {
+          "question": "What happens to STR income between September and May?",
+          "answer": "It thins, and the file should say so out loud. Atlantic City's booking calendar concentrates a large share of annual gross into June through August, with shoulder-season weekends around casino events, conventions, and the Airshow, and quiet deep-winter months. Underwriting that survives: an annualized average, the deal example uses $3,500 a month, roughly $42,000 a year, corroborated by third-party comp data, with reserves for the thin months. The structural backstop is the year-round market underneath, a $2,300 three-bedroom median supported by casino, hospital, and Stockton University employment. If the property cannot carry itself on that fallback lease at a stretch, size the down payment until it can."
+        },
+        {
+          "question": "Are Atlantic City property taxes still a horror story?",
+          "answer": "Not at current numbers. The certified 2025 tables show a 3.380 general rate and a 2.155% effective rate on market value, steep against the national average, mid-pack for urban New Jersey, and a fraction of Trenton's 3.47%. On the $250,000 deal example that is $450 a month. The history that built the horror stories, casino appeals shrinking the ratable base through the 2010s, has stabilized under the state's casino payment framework. Two practical notes: verify the current-year bill on the specific parcel rather than trusting a listing, and remember the coastal insurance line usually moves a South Jersey file more than the tax line does."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Atlantic City typical home value and YoY change, June 2026",
+        "Zillow Observed Rent Index, Atlantic City average rent and YoY change, June 2026; Zillow Rental Manager bedroom medians, August 2026",
+        "njtaxcalculator.com from certified 2025 data, Atlantic City general rate 3.380 and effective rate 2.155%",
+        "US Census Housing Vacancy Survey Table 1, New Jersey statewide rental vacancy, Q2 2026",
+        "City of Atlantic City short-term rental compliance page and Airbnb regulatory summary, license fees and insurance requirement, checked August 2026",
+        "NJ DCA 2026 Rent Control Survey, Atlantic City ordinance and seasonal exemption; neighborhood values and rents (est.) anchored to citywide Zillow figures"
+      ]
+    },
+    {
+      "city": "Toms River",
+      "slug": "toms-river",
+      "county": "Ocean County",
+      "metro": "New York-Newark-Jersey City, NY-NJ",
+      "hook": "Toms River mainland ranches average $471K, up 3.7%, with three-bedroom rents near $3,250, and the township's rent control stops at mobile homes. The trade-off is a licensing calendar: every rental needs an annual township certificate, and the barrier island runs April to November.",
+      "metaDescription": "Toms River ranches average $471K with rents near $3,250, and rent control stops at mobile homes. DSCR fit for shore landlords. Get matched today.",
+      "market": {
+        "medianPrice": 470769,
+        "medianRent": 2797,
+        "priceToRent": 14,
+        "vacancyRate": 5.5,
+        "yoyPrice": 3.7,
+        "yoyRent": 2.4,
+        "estDSCR": 0.79,
+        "propertyTaxRate": 1.68,
+        "insuranceMonthly": 260
+      },
+      "overview": "Toms River is the least regulated landlord market in this file, which for New Jersey means moderately regulated and worth the trip. The township's rent control ordinance applies to mobile homes only, so the conventional single-family rental, the dominant asset here, prices and reprices at market. The average home value reached $470,800 in June 2026, up 3.7% in a year when North Jersey's urban cores went flat or negative, average rents rose 2.4% to $2,797, and three-bedroom listings hold a $3,250 median. Taxes are the state's rare good news: a 1.68% effective rate, roughly half of what the same house carries in East Orange.\n\nThe math still needs structuring. At 20% down on the citywide median the ratio lands at 0.79; single-family shore-adjacent suburbia rarely pencils at minimum down payment. What moves it: buying the $430,000 to $470,000 ranch instead of the $550,000 listing, 30% down, and the East Dover and Silverton zips where $552,700 average values come with genuine year-round tenant depth from the hospital, the county government complex, and commuters up the Parkway.\n\nThe operational catch is licensing. Every rental in the township needs an annual Rental Certificate of Inspection at $150 per unit before occupancy, and on the barrier island, Ortley Beach and the oceanfront strips, seasonal and short-term certificates run April 1 through November 30. The statewide rules still apply everywhere: good-cause eviction under the Anti-Eviction Act, the 1.5-month deposit cap, and lead-safe inspections for pre-1978 stock.",
+      "regulationBadge": "moderate",
+      "regulationNote": "Township rent control covers mobile homes only and conventional rentals reprice at market, but every unit needs the annual $150 Rental Certificate of Inspection, and barrier-island seasonal certificates run April 1 through November 30, so the compliance calendar is the real landlord rulebook here.",
+      "neighborhoods": [
+        {
+          "name": "Silverton / East Dover (08753)",
+          "medianPrice": 552713,
+          "medianRent": 2672,
+          "note": "The bayside quadrant, up 4.0% to $552,700 with zip average rents of $2,672. Post-war ranches and split-levels renting to hospital staff and Parkway commuters, the deepest year-round tenant pool in the township. Flood mapping varies street to street near the lagoons, so price the elevation certificate."
+        },
+        {
+          "name": "North Dover (08755)",
+          "medianPrice": 536795,
+          "medianRent": 3326,
+          "note": "The newer inland tier bordering Lakewood, $536,800 average and zip rents of $3,326, the highest in the township on larger single-family stock. Spillover demand from Lakewood's growth is the engine; bigger footprints mean the rent is strong but the entry price eats the ratio."
+        },
+        {
+          "name": "Holiday City area (08757)",
+          "medianPrice": 330000,
+          "medianRent": 2200,
+          "note": "The sprawling 55-plus sections west of the Parkway, entry prices around $330,000, the cheapest way into Toms River. The catch is structural: age-restricted deeds shrink the eligible tenant pool to seniors, so underwrite longer vacancy windows against the lower basis."
+        }
+      ],
+      "localAngle": {
+        "tag": "License Calendar",
+        "title": "No rent control on houses, but every lease starts with the township certificate.",
+        "body": "Toms River's rulebook is refreshingly short and strictly enforced. The rent control ordinance covers mobile home parks only, so the single-family rental that defines this market carries no municipal cap; your rent is whatever the Ocean County market pays, currently a $3,250 three-bedroom median. What the township does police is occupancy paperwork. Every rental unit needs a Rental Certificate of Inspection before a tenant takes possession, renewed annually, at $150 per unit with a $50 re-inspection fee if you fail the first pass on smoke detectors, GFCI outlets, or the usual list. Skip it and the township writes summonses, and an uncertificated tenancy is a bad posture to hold in a good-cause eviction state. On the barrier island, the seasonal version of the certificate runs April 1 through November 30, which is the lane for Ortley Beach summer rentals; a winter STR there is not a thing the calendar supports. Statewide law fills in the rest: the Anti-Eviction Act applies to year-round tenancies regardless of building size, deposits cap at 1.5 months, and pre-1978 houses sit in the lead-safe cycle. One more shore-specific line: wind deductibles and flood zones move insurance costs street by street near the lagoons and the barrier island, sometimes by thousands a year. Your matched specialist will build the file with the certificate calendar, the elevation reality, and the actual county rent comps, which is what makes a 0.79 headline market close at 1.0-plus on the right house."
+      },
+      "programFit": [
+        "standard-dscr",
+        "str-dscr",
+        "interest-only-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-Bed Ranch SFR",
+        "neighborhood": "Silverton / East Dover (08753)",
+        "purchasePrice": 460000,
+        "downPaymentPct": 30,
+        "downPayment": 138000,
+        "loanAmount": 322000,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 2251,
+        "monthlyTax": 644,
+        "monthlyInsurance": 270,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 3165,
+        "monthlyRent": 3250,
+        "dscr": 1.03,
+        "monthlyCashFlow": 85,
+        "specialistFocus": [
+          "Structured 30% down because the township-wide ratio at 20% lands near 0.79, and the extra equity is what carried a market-rent ranch past 1.0",
+          "Verified the flood zone and priced the wind deductible before appraisal, since two otherwise identical Silverton streets can differ by thousands a year in premium",
+          "Built the annual Rental Certificate of Inspection into the operating calendar so the lease start date and the township inspection never collide"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Do I need a license to rent out a regular house in Toms River?",
+          "answer": "Yes. The township requires a Rental Certificate of Inspection for every rental unit, renewed annually, at $150 per unit with a $50 fee for re-inspection if the first visit fails. The inspection is a habitability and safety pass, smoke and carbon monoxide detectors, egress, GFCI protection, general condition, and a tenant cannot lawfully take occupancy without it. It is not onerous, but it is enforced, and operating without it undercuts your standing in any later landlord-tenant action. Calendar it alongside lease renewals: the certificate, the lead-safe cycle on pre-1978 homes, and the state's 1.5-month deposit cap are the compliance stack."
+        },
+        {
+          "question": "Can I run a summer rental on the barrier island?",
+          "answer": "Yes, inside the township's seasonal lane. Seasonal and short-term rental certificates on the barrier island are valid April 1 through November 30, which fits the Ortley Beach summer market the shore has run for generations. An STR-DSCR file there qualifies on projected rental income, and the honest projection concentrates most of the gross into ten to twelve summer weeks with shoulder weekends around them; there is no December business to pretend about. Insurance is the other half of the underwriting, wind deductibles and flood coverage on the island are a real monthly number. Structured that way, the seasonal house is a legitimate, licensable New Jersey STR play."
+        },
+        {
+          "question": "Is there any rent control in Toms River?",
+          "answer": "Only for mobile homes. The township ordinance regulates mobile home park lot rents, capping increases at utility pass-throughs plus the lesser of 3.5% or the CPI, with vacancy decontrol between tenants. Conventional houses, condos, and apartment units carry no municipal rent cap at all, which makes Toms River one of the few markets in this file where your renewal pricing is purely a market decision. The statewide framework still applies: good-cause eviction under the Anti-Eviction Act for year-round tenancies, the security deposit ceiling, and habitability standards enforced through that annual township inspection."
+        },
+        {
+          "question": "Why is the citywide DSCR 0.79 if taxes are only 1.68%?",
+          "answer": "Because the price of entry is suburban-shore, not urban-cash-flow. The $470,800 average value against a $2,797 blended average rent produces 0.79 at 20% down even with the friendliest tax rate in this file. The fix is asset selection and structure: a $460,000 Silverton ranch renting at the $3,250 three-bedroom median clears 1.0 at 30% down, and North Dover's $3,326 zip-average rents cover bigger footprints if the basis is right. Toms River pays you in stability, 3.7% appreciation, a mobile-home-only rent control map, and half of East Orange's tax load, rather than in day-one spread. Structure for that and it works."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Toms River typical home value and YoY change, June 2026",
+        "Zillow Observed Rent Index, Toms River average rent and YoY change, June 2026; Zillow Rental Manager bedroom medians, August 2026",
+        "Joe Shimkus NJ tax tables from certified 2025 data, Toms River general rate 1.545 and effective rate 1.680%",
+        "US Census Housing Vacancy Survey Table 4, New York-Newark-Jersey City metro rental vacancy, Q2 2026",
+        "Toms River Township Division of Code Enforcement, Rental Certificate of Inspection program, fees, and barrier-island seasonal validity dates, checked August 2026",
+        "NJ DCA 2026 Rent Control Survey, Toms River mobile-home-only coverage; zip values and rents from Zillow 08753 and 08755 pages June 2026, Holiday City figures (est.)"
+      ]
+    },
+    {
+      "city": "East Orange",
+      "slug": "east-orange",
+      "county": "Essex County",
+      "metro": "New York-Newark-Jersey City, NY-NJ",
+      "hook": "East Orange three-families trade around $485K two train stops from Manhattan-bound transfers, and the city's rent control only reaches buildings of four units and up. The 2.89% effective tax rate is the toll; the exempt three-family is how investors pay it.",
+      "metaDescription": "East Orange rent control starts at 4 units, so the 3-family walks free. Values near $484K, rents up 2.3%. DSCR math on the train line. Get matched today.",
+      "market": {
+        "medianPrice": 483575,
+        "medianRent": 2068,
+        "priceToRent": 19.5,
+        "vacancyRate": 5.5,
+        "yoyPrice": -1,
+        "yoyRent": 2.3,
+        "estDSCR": 0.5,
+        "propertyTaxRate": 2.89,
+        "insuranceMonthly": 280
+      },
+      "overview": "East Orange is Newark's commuter cousin with a cleaner regulatory line and a heavier tax bill. The average home value sits at $483,600, down 1% over the year, while average rents rose 2.3% to $2,068. The citywide 0.50 ratio is the familiar per-unit illusion: the housing stock is dominated by pre-war two- and three-families plus brick apartment blocks, and the investor asset is the three-family collecting $1,500 to $1,700 per floor, grossing near $4,800 against a mid-$400Ks basis. Brick Church and East Orange stations put Midtown-bound commuters one transfer away on the Morris and Essex line, which is what keeps the unit demand deep.\n\nThe tax line is the second-heaviest in this file: a 3.241 general rate against an 89.86% ratio works out to 2.89% of market value, about $1,168 a month on the deal example below. That single line is why an East Orange file needs roughly $500 more monthly rent than the same building in Newark to hit the same ratio.\n\nThe regulatory line is the third fact, and it favors the exact building investors buy. East Orange rent control covers buildings of four or more units, capping increases around 4% to 5% depending on tenancy type. Dwellings of three or fewer units are exempt, so the three-family reprices at market on turnover. The 07017 zip averages $493,000 with $2,020 rents; 07018 runs $472,600 and $2,228.",
+      "regulationBadge": "tenant",
+      "regulationNote": "East Orange rent control caps buildings of four or more units at roughly 4% to 5% depending on tenancy type, but three-family and smaller buildings are exempt from the local ordinance, leaving the Anti-Eviction Act and lead-safe cycle as the binding state-level rules on the standard investor asset.",
+      "neighborhoods": [
+        {
+          "name": "Ampere (07017)",
+          "medianPrice": 493005,
+          "medianRent": 2020,
+          "note": "The north-side zip around the old Ampere station area and Fourth Avenue corridors, averaging $493,000 with $2,020 zip rents. Dense two- and three-family blocks with quick I-280 access; the deepest inventory of the classic exempt three-family."
+        },
+        {
+          "name": "Greenwood / Doddtown (07018)",
+          "medianPrice": 472563,
+          "medianRent": 2228,
+          "note": "The south-side zip toward the South Orange border, $472,600 average with the stronger zip rents at $2,228. Larger houses and better-kept multifamilies pulling tenants priced out of the villages next door; the rent premium over 07017 is real and appraisers see it."
+        },
+        {
+          "name": "Presidential Estates",
+          "medianPrice": 510000,
+          "medianRent": 2300,
+          "note": "The northeast pocket of larger 1910s-1920s homes on the presidents-named streets. Values estimated around $510,000, the quality tier of the city, where single-family rentals in the low $2,000s trade yield for tenant stability and the strongest resale story."
+        }
+      ],
+      "localAngle": {
+        "tag": "Four-Unit Line",
+        "title": "Control starts at four units here, so the three-family is the whole strategy.",
+        "body": "East Orange draws its rent control line one unit higher than Newark draws it, and that single digit reorganizes the investor map of Essex County. The ordinance covers buildings of four or more units: new tenancies are limited to a 5% increase over the prior rent or the CPI difference, whichever is less, month-to-month tenants cap near 4%, and the Rent Control Board handles hardship and capital improvement requests. But dwellings containing three or fewer units are exempt, along with first-time rentals until re-let. Next door in Newark, the same three-family is controlled at 4% a year unless the owner lives in it. Here it floats with the market, which over the last year meant rents rising 2.3% citywide while values eased 1%. The state framework still binds: the Anti-Eviction Act requires good cause to remove any tenant regardless of building size, so market pricing does not mean at-will turnover; the 1.5-month deposit cap applies; and this almost entirely pre-1978 stock lives on the lead-safe inspection cycle, with East Orange among the municipalities where dust-wipe sampling is the standard. The tax load is the offset to all this flexibility, 2.89% effective, so the winning file pairs the exempt building with rents documented at the 07018 tier. Your matched specialist will structure the loan on the appraiser's per-floor market rents and the full tax bill, which is the version of East Orange that underwrites clean."
+      },
+      "programFit": [
+        "standard-dscr",
+        "portfolio-dscr",
+        "bridge-to-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-Unit Multifamily",
+        "neighborhood": "Greenwood / Doddtown (07018)",
+        "purchasePrice": 485000,
+        "downPaymentPct": 25,
+        "downPayment": 121250,
+        "loanAmount": 363750,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 2543,
+        "monthlyTax": 1168,
+        "monthlyInsurance": 320,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 4031,
+        "monthlyRent": 4800,
+        "dscr": 1.19,
+        "monthlyCashFlow": 769,
+        "specialistFocus": [
+          "Underwrote the full 2.89% effective tax load, $1,168 a month, upfront, because East Orange files that borrow Newark tax assumptions die in underwriting",
+          "Qualified on the appraiser's three-floor rent schedule at the 07018 zip tier rather than the lower citywide blended figure",
+          "Confirmed the building is three units, not a converted four, since one extra unit would move the entire rent roll under the ordinance's caps"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Is my East Orange three-family rent-controlled?",
+          "answer": "No. The city's ordinance covers dwellings of four or more units; buildings containing three or fewer separate units are exempt, as are first-time rentals until they re-let. Your three floors reprice at market when tenants turn over. Two cautions: verify the legal unit count against the certificate of occupancy, because a four-unit conversion, even an old informal one, would put the whole roll under the roughly 4% to 5% caps; and remember the Anti-Eviction Act still requires good cause to end any tenancy, so market-rate pricing does not mean you can simply non-renew your way to a new rent roll."
+        },
+        {
+          "question": "Why do East Orange taxes run higher than Newark's?",
+          "answer": "Assessment currency. East Orange's 2025 general rate of 3.241 sits against an 89.86% equalization ratio, producing a 2.89% effective load on market value. Newark's higher-looking 3.999 rate applies to assessments sitting at 47.77% of value, netting out near 1.91%. Same county, opposite positions in the reval cycle. Practical consequences: an East Orange bill is close to what the math says and unlikely to jump structurally, while Newark carries reval risk into 2027. On a $485,000 three-family the East Orange line is about $14,000 a year, which is why the file needs the 07018-tier rents to clear comfortably."
+        },
+        {
+          "question": "What does the commute actually do for rents?",
+          "answer": "It is the demand engine. Brick Church and East Orange stations sit on NJ Transit's Morris and Essex line with direct or one-transfer service toward Manhattan, and the buildings within walking distance of Brick Church rent fastest in the city. Zip-level data shows the pattern: 07018, with the better housing stock and South Orange adjacency, averages $2,228, against $2,020 in 07017. Tenants here are buying time-to-Midtown at a discount to anything in Hudson County, where the average rent is $1,000-plus higher. When you underwrite, distance-to-station is a legitimate line item; appraisers comping floor-throughs treat it that way too."
+        },
+        {
+          "question": "What should I budget for lead-safe compliance in East Orange?",
+          "answer": "Treat it as a recurring line item, not a one-time surprise. Under P.L.2021, c.182, rental units built before 1978, which is essentially the entire East Orange multifamily stock, require lead-based paint inspections at tenant turnover or on a three-year cycle, and municipalities with higher child blood-lead histories like East Orange use dust-wipe sampling rather than visual review. Certificates hold for three years. Budget a few hundred dollars per unit per cycle for testing, plus remediation reserves for older window and door friction surfaces, the usual failure points. Lenders and insurers increasingly expect the certificate in the file; having it ready is cheap credibility."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, East Orange typical home value and YoY change, June 2026",
+        "Zillow Observed Rent Index, East Orange average rent and YoY change, June 2026",
+        "njtaxcalculator.com from certified 2025 data, East Orange general rate 3.241 and effective rate 2.886%; NJ Division of Taxation 2025 Essex equalization ratio 89.86%",
+        "US Census Housing Vacancy Survey Table 4, New York-Newark-Jersey City metro rental vacancy, Q2 2026",
+        "NJ DCA 2026 Rent Control Survey, East Orange ordinance coverage at 4+ units and caps",
+        "Zip values and rents from Zillow 07017 and 07018 pages, June 2026; Presidential Estates figures (est.)"
+      ]
+    },
+    {
+      "city": "Irvington",
+      "slug": "irvington",
+      "county": "Essex County",
+      "metro": "New York-Newark-Jersey City, NY-NJ",
+      "hook": "Irvington ran up 5.2% in a year to a $426K average while the rest of Essex County's cores went flat, and the township's own equalization table says the average property is assessed at 113.2% of market value. The tax appeal is not a side quest here; it is part of the acquisition.",
+      "metaDescription": "Irvington is up 5.2% to $426K, and properties are assessed at 113% of market on average. The tax appeal is part of the DSCR file. Get matched today.",
+      "market": {
+        "medianPrice": 426368,
+        "medianRent": 2038,
+        "priceToRent": 17.4,
+        "vacancyRate": 5.5,
+        "yoyPrice": 5.2,
+        "yoyRent": 0.6,
+        "estDSCR": 0.55,
+        "propertyTaxRate": 2.91,
+        "insuranceMonthly": 270
+      },
+      "overview": "Irvington is the value spillover play of Essex County, and for once the appreciation data says the market agrees. The average home value hit $426,400 in June 2026, up 5.2% in a year when Newark fell 1.8% and East Orange fell 1%. Buyers priced out of Newark's Vailsburg, which sits directly across the municipal line at $486,600, keep stepping one town west for the same 1920s two- and three-family stock at a $60,000 discount. Average rents held near flat at $2,038, so this is a basis trade, not a rent trade.\n\nThe tax situation is strange enough to be an edge. Irvington's 2025 general rate is a low-looking 2.587, but the county equalization table puts the township's average assessment ratio at 113.20%, meaning the average property is assessed above its market value, and the working effective rate lands near 2.91%. Ratios over 100% happen when assessments outrun a market, and they create a specific opportunity: a buyer whose new assessment implies more than the purchase price has a live Chapter 123 appeal argument, with the standard county filing window generally closing April 1. Knocking an over-assessment down is a permanent expense cut on a thin-margin asset.\n\nRegulation is Essex-standard: rent control covers buildings of three or more units at 4% a year when the landlord supplies heat, 3% when the tenant pays it, with two-unit buildings and owner-occupied three- and four-unit buildings exempt, vacancy decontrol between tenancies, and the Anti-Eviction Act underneath everything.",
+      "regulationBadge": "tenant",
+      "regulationNote": "Irvington rent control covers three-plus-unit buildings at 4% with landlord-supplied heat or 3% when tenants pay heat, two-unit buildings are exempt, and the real local quirk is the 113.2% assessment ratio that makes tax appeals a standard part of buying here.",
+      "neighborhoods": [
+        {
+          "name": "Upper Irvington",
+          "medianPrice": 445000,
+          "medianRent": 2250,
+          "note": "The north end bordering Newark's Vailsburg, where most of the two- and three-family investor stock concentrates. Values estimated in the mid $440Ks, a clean discount to the identical building across the line, with three-bedroom floors letting in the low $2,000s."
+        },
+        {
+          "name": "Camptown / Springfield Avenue corridor",
+          "medianPrice": 410000,
+          "medianRent": 2100,
+          "note": "The central spine along Springfield Avenue's bus corridor, values estimated near $410,000. The busiest rental turnover in the township and the fastest lease-ups, with condition and block quality varying building by building; walk everything."
+        },
+        {
+          "name": "East Irvington / Civic Square",
+          "medianPrice": 400000,
+          "medianRent": 2000,
+          "note": "The blocks around the township center and the Newark West Side border, entry basis estimated around $400,000, the cheapest way into Essex two-to-three family stock. Deepest value and the widest management demands in the township; underwrite turnover accordingly."
+        }
+      ],
+      "localAngle": {
+        "tag": "Assessment Appeal",
+        "title": "Irvington's average property is assessed at 113% of market. Appeal math belongs in the file.",
+        "body": "The 2025 Essex County equalization table assigns Irvington an average ratio of 113.20%, the only figure over 100% among the county's investor markets. Translated: assessments here, set in a revaluation cycle that landed before the recent run-up flattened out unevenly, now exceed what the average property actually trades for. The nominal general rate of 2.587 looks cheap next to East Orange's 3.241, but applied to inflated assessments the true effective load works out near 2.91% of market value, essentially tied with Paterson for the second-heaviest carry in this file. Here is the operational edge. New Jersey's Chapter 123 framework gives each municipality an annual ratio corridor, and when a property's implied value, its assessment divided by the average ratio, exceeds its true market value beyond the corridor, the owner has a statutory appeal case at the county board, with the standard filing deadline generally April 1. A purchase at arm's length is itself strong evidence of true value. So an Irvington acquisition has two closing dates: the deed, and the next appeal window. Winning a reduction on an over-assessed three-family can cut hundreds a month off the largest single expense line and permanently move the ratio. The rent side is Essex-standard: three-plus-unit buildings capped at 4% or 3% depending on who pays heat, two-families exempt, vacancy decontrol between tenants. Your matched specialist will underwrite the current bill as it stands and structure the file so the appeal outcome is upside rather than a rescue."
+      },
+      "programFit": [
+        "standard-dscr",
+        "bridge-to-dscr",
+        "portfolio-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "2-Family (2-unit)",
+        "neighborhood": "Upper Irvington",
+        "purchasePrice": 420000,
+        "downPaymentPct": 25,
+        "downPayment": 105000,
+        "loanAmount": 315000,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 2202,
+        "monthlyTax": 1019,
+        "monthlyInsurance": 300,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 3521,
+        "monthlyRent": 4300,
+        "dscr": 1.22,
+        "monthlyCashFlow": 779,
+        "specialistFocus": [
+          "Underwrote the tax line at the full current bill off the 113.2% ratio rather than assuming the appeal wins, so the reduction is upside instead of a requirement",
+          "Confirmed two-unit status, which keeps the building outside Irvington's rent control and lets both floors reprice at market on turnover",
+          "Qualified on the appraiser's per-floor schedule at $2,150 average, consistent with the borough-border rents rather than the blended township figure"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Why would I file a tax appeal on an Irvington property I just bought?",
+          "answer": "Because the county's own table says the average Irvington property is assessed at 113.2% of its market value. If your assessment divided by the township's average ratio implies a value meaningfully above what you just paid at arm's length, New Jersey's Chapter 123 corridor gives you a statutory case at the Essex County Board of Taxation, with the standard filing window generally closing April 1. Your recorded purchase price is itself primary evidence of true value. A successful reduction permanently cuts the largest expense line on the building. Underwrite the current bill as-is, file in the first available window, and treat the win as margin expansion."
+        },
+        {
+          "question": "Is a two-family in Irvington rent-controlled?",
+          "answer": "No. The township ordinance covers dwellings of three or more units; buildings of two units or fewer are exempt, and owner-occupied three- and four-unit buildings are exempt as well. An investor two-family reprices both floors at market on turnover. For covered three-plus buildings the caps depend on who supplies heat: 4% when the landlord does, 3% when tenants pay their own, with a 2% ceiling for senior tenants, and vacancy decontrol resets units between tenancies. The Anti-Eviction Act sits under all of it, so every removal still needs statutory good cause regardless of building size."
+        },
+        {
+          "question": "Is Irvington really appreciating 5.2% a year?",
+          "answer": "That is what the June 2026 index shows, and the mechanism is visible on a map. Newark's Upper Vailsburg averages $486,600 directly across the municipal line; the same vintage two- and three-family in Upper Irvington runs about $60,000 less, so investors and owner-occupants priced out of Newark and the South Orange-Maplewood spillover keep bidding here. Rents only rose 0.6%, which says the run is a basis repricing, not an income story. Play it accordingly: the appreciation validates the entry, but the file has to carry itself on today's roughly $2,000 to $2,250 floor rents, not on next year's hoped-for lift."
+        },
+        {
+          "question": "What are the operating rules I cannot skip in Irvington?",
+          "answer": "Four state-level items and one local one. Statewide: good-cause eviction under N.J.S.A. 2A:18-61.1, the 1.5-month security deposit ceiling, lead-safe inspections for this almost entirely pre-1978 stock at turnover or every three years, and annual landlord registration. Locally, certificate-of-occupancy inspection at tenant changes, standard across Essex municipalities. None of these are deal-breakers, but each carries a fee and a scheduling window, and stacked carelessly they turn a two-week turnover into a six-week vacancy. The operators who win in Irvington run the compliance calendar as tightly as the rehab schedule."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Irvington typical home value and YoY change, June 2026",
+        "Zillow Observed Rent Index, Irvington average rent and YoY change, June 2026",
+        "NJ Division of Taxation 2025 Essex County equalization table, Irvington ratio 113.20%; njtaxcalculator.com certified 2025 general rate 2.587 and effective rate 2.913%",
+        "US Census Housing Vacancy Survey Table 4, New York-Newark-Jersey City metro rental vacancy, Q2 2026",
+        "NJ DCA 2026 Rent Control Survey, Irvington ordinance coverage, heat-based caps, and exemptions",
+        "Neighborhood values and rents (est.) anchored to Zillow township figure and bordering Newark neighborhood pages, June 2026"
+      ]
+    },
+    {
+      "city": "Bayonne",
+      "slug": "bayonne",
+      "county": "Hudson County",
+      "metro": "New York-Newark-Jersey City, NY-NJ",
+      "hook": "Bayonne two-families average $601K and rents rose 3.6% in a year, the strongest rent growth in this file. The city's rent control does not start until five units, so the standard investor building here never meets the ordinance at all.",
+      "metaDescription": "Bayonne 2-families average $601K and sit outside rent control, which starts at 5 units. DSCR math one light rail from Jersey City. Get matched today.",
+      "market": {
+        "medianPrice": 600724,
+        "medianRent": 2353,
+        "priceToRent": 21.3,
+        "vacancyRate": 5.5,
+        "yoyPrice": 1.2,
+        "yoyRent": 3.6,
+        "estDSCR": 0.51,
+        "propertyTaxRate": 2.01,
+        "insuranceMonthly": 285
+      },
+      "overview": "Bayonne is what Hudson County looks like without the skyline tax. The average home value reached $600,700 in June 2026, up 1.2% while Jersey City fell, and average rents rose 3.6% to $2,353, the fastest rent growth of any city in this file. The peninsula's pitch is simple: the light rail runs straight into Jersey City's job core, the 440 corridor keeps adding mid-rise supply that leases immediately, and the classic two-family on a 25-by-100 lot still trades around the citywide average, two floors of three bedrooms grossing $4,400 to $4,600.\n\nThe regulatory setup is the quiet advantage. Bayonne's rent control ordinance covers buildings of five or more units, capping increases on a CPI formula with a 5.5% ceiling, and it decontrols units at both vacancy and eviction. Everything with four or fewer units, which is nearly the entire investor market here, sits outside the ordinance entirely. State law still applies, good-cause eviction, the deposit cap, lead-safe inspections on pre-1978 stock, but there is no municipal rent cap on the two-family.\n\nTaxes are mid-pack for Hudson: the 2025 county table shows a 2.88 general rate at a 69.82% ratio, roughly 2.01% effective on market value. The citywide ratio at 20% down reads 0.51, the usual blended illusion; the two-family arithmetic below is the real file. The watch item is the ratio drift: like Jersey City, Bayonne's assessments are aging against a rising market, which is how the county eventually orders the next reval.",
+      "regulationBadge": "tenant",
+      "regulationNote": "Bayonne rent control covers buildings of five or more units with a CPI cap that tops out at 5.5% and decontrol at vacancy and eviction, so the two-to-four unit investor stock runs at market rates under only the statewide tenant-protection framework.",
+      "neighborhoods": [
+        {
+          "name": "Bergen Point",
+          "medianPrice": 575000,
+          "medianRent": 2350,
+          "note": "The southern tip around the old ferry district, estimated in the mid $570Ks, with a walkable main-street pocket on Broadway's south end. Two-families with yards, marina adjacency, and tenants who want quiet at a light-rail commute; the value end of the peninsula."
+        },
+        {
+          "name": "Uptown / North Broadway",
+          "medianPrice": 625000,
+          "medianRent": 2456,
+          "note": "The blocks from roughly 40th Street north toward the Jersey City line, estimated around $625,000. Closest to the 45th Street and 34th Street light rail stops and the strongest rents in the city, near the $2,456 three-bedroom median; JC spillover tenants land here first."
+        },
+        {
+          "name": "Constable Hook / East Side",
+          "medianPrice": 560000,
+          "medianRent": 2250,
+          "note": "The industrial-adjacent east side near the port and tank farms, estimated in the mid $550Ks. Cheapest entry on the peninsula with genuine port-worker demand; underwrite the industrial adjacency honestly, it caps the resale ceiling even as it feeds the rent roll."
+        }
+      ],
+      "localAngle": {
+        "tag": "Five-Unit Line",
+        "title": "Rent control starts at five units in Bayonne, and the mansion tax now bites sellers at $1M.",
+        "body": "Bayonne's ordinance draws the most investor-friendly rent control line in Hudson County. Coverage begins at dwellings of five or more housing units, where increases follow a CPI formula capped at 5.5% and the Rent Control Board handles hardship and capital improvement cases. Buildings with four or fewer units are exempt outright, and the ordinance also recognizes decontrol at vacancy and at eviction for covered stock. Compare the neighbors: Jersey City draws the same line at five units but layers a stricter STR regime on top; Union City controls at four-plus; Newark reaches down to three. In Bayonne, the two-family that defines the market, and even the four-unit corner building, prices, re-lets, and renews at whatever the light-rail commuter market pays, which over the past year moved 3.6%. The statewide framework is the only rent-side constraint: good cause under the Anti-Eviction Act, 1.5-month deposits, lead-safe cycles on the pre-war stock. One transaction-cost note for this price tier: since July 10, 2025, New Jersey's amended mansion tax puts a graduated fee on sellers of residential property above $1 million, 1% to 2% through the mid tiers and reaching 3.5% above $3.5 million. Bayonne two-families are approaching that line and small portfolio trades cross it routinely, so exit math on a multi-building hold now includes a seller-side transfer cost that did not exist before mid-2025. Your matched specialist will structure the hold on market rents with the five-unit line, the reval drift, and the exit-cost stack all priced in from day one."
+      },
+      "programFit": [
+        "standard-dscr",
+        "interest-only-dscr",
+        "portfolio-dscr"
+      ],
+      "dealExample": {
+        "label": "Cash-Out Refinance",
+        "propertyType": "2-Family (2-unit)",
+        "neighborhood": "Uptown / North Broadway",
+        "purchasePrice": 600000,
+        "downPaymentPct": 30,
+        "downPayment": 180000,
+        "loanAmount": 420000,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 2936,
+        "monthlyTax": 1005,
+        "monthlyInsurance": 300,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 4241,
+        "monthlyRent": 4550,
+        "dscr": 1.07,
+        "monthlyCashFlow": 309,
+        "specialistFocus": [
+          "Held the cash-out at 70% of the $600,000 appraisal because the maximum pull dropped the ratio under 1.0 against Bayonne's $1,005 monthly tax line",
+          "Qualified both floors at the appraiser's market schedule, $2,100 and $2,450, supportable because the two-family sits outside the five-unit rent control line",
+          "Documented the equity release against the borrower's next acquisition so the file reads as portfolio growth, not distress, which is how it priced best"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Is my Bayonne two-family rent-controlled?",
+          "answer": "No. Bayonne's ordinance covers dwellings containing five or more housing units; buildings with four or fewer are exempt, along with public and subsidized housing and first-time rentals. Your two floors renew at market. For covered five-plus buildings, increases run on a CPI formula capped at 5.5%, with hardship and capital-improvement paths through the Rent Control Board, and units decontrol at vacancy and at eviction. The statewide rules are the ones to respect on small buildings: good-cause eviction under the Anti-Eviction Act, the 1.5-month deposit ceiling, and the lead-safe inspection cycle on Bayonne's overwhelmingly pre-1978 housing stock."
+        },
+        {
+          "question": "What is Bayonne's real property tax rate?",
+          "answer": "About 2.01% of market value. The 2025 Hudson County table shows a 2.88 general rate applied against a 69.82% average assessment ratio, and the product is the number a market-price buyer actually carries, roughly $1,005 a month on a $600,000 two-family. That is higher than Jersey City's 1.86% and far below Essex County's urban rates. The drift matters: each year the market outruns the aging assessments, the ratio slips further under par, and that is the mechanical countdown to the county ordering a revaluation, at which point recently-sold properties get assessed at what they traded for. Underwrite 2.01% on your price and the reval risk stays boring."
+        },
+        {
+          "question": "Why are Bayonne rents growing faster than Jersey City's?",
+          "answer": "Price displacement plus new product. Jersey City's average rent is $3,182; Bayonne's is $2,353, and the light rail connects the two ten minutes apart. Every JC tenant priced out of downtown or the Heights is a Bayonne prospect, and the 440-corridor mid-rises that have delivered on the peninsula lease up fast enough to keep validating the migration. That spread drove Bayonne's 3.6% rent growth this year, the fastest in this file, while its 1.2% price growth stayed modest. For a two-family owner the play is straightforward: renovated three-bedroom floors near the light rail stops capture the spillover first, at rents near the $2,456 three-bedroom median."
+        },
+        {
+          "question": "Does the mansion tax matter for a two-family purchase here?",
+          "answer": "At today's averages, not yet on the way in, and increasingly yes on the way out. Since July 10, 2025, the amended law places the so-called mansion tax on sellers, graduated: 1% on sales between $1 million and $2 million, stepping up to 3.5% above $3.5 million. A single Bayonne two-family at $600,000 is under the line, but Uptown renovated stock is drifting toward it, and a two- or three-building portfolio disposition crosses it easily. If your plan is to assemble several two-families and exit in one package trade, model the seller-side fee against the alternative of selling the buildings individually. Your matched specialist will flag which exit structure keeps the fee off the table."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Bayonne typical home value and YoY change, June 2026",
+        "Zillow Observed Rent Index, Bayonne average rent and YoY change, June 2026; Zillow Rental Manager bedroom medians, August 2026",
+        "Hudson County Board of Taxation 2025 rates and ratios, Bayonne general rate 2.88 and ratio 69.82%, effective rate computed",
+        "US Census Housing Vacancy Survey Table 4, New York-Newark-Jersey City metro rental vacancy, Q2 2026",
+        "NJ DCA 2026 Rent Control Survey, Bayonne five-plus-unit coverage, CPI cap at 5.5%, and decontrol provisions",
+        "NJ Realtors, July 2025 mansion tax amendment tiers; neighborhood values and rents (est.) anchored to citywide Zillow figures, June 2026"
+      ]
+    },
+    {
+      "city": "New Brunswick",
+      "slug": "new-brunswick",
+      "county": "Middlesex County",
+      "metro": "New York-Newark-Jersey City, NY-NJ",
+      "hook": "New Brunswick rents average $2,726, up 1.8%, with Rutgers demand underneath and four-bedroom student houses letting near $3,583. The trade: nearly every rental is rent-controlled from the first unit, registers with the city annually, and reprices inside a 2.5% to 5.5% band.",
+      "metaDescription": "New Brunswick rents hit $2,726 on Rutgers demand, with a 2.5% to 5.5% rent cap band. DSCR math for student rental buyers. Get matched today.",
+      "market": {
+        "medianPrice": 452183,
+        "medianRent": 2726,
+        "priceToRent": 13.8,
+        "vacancyRate": 5.5,
+        "yoyPrice": 0.5,
+        "yoyRent": 1.8,
+        "estDSCR": 0.76,
+        "propertyTaxRate": 2.09,
+        "insuranceMonthly": 255
+      },
+      "overview": "New Brunswick is the most institutionalized rental demand in New Jersey: a flagship state university, two hospital systems, and Johnson and Johnson's headquarters, all inside a city of under 60,000 residents. Average rents reached $2,726 in June 2026, up 1.8%, on an average home value of $452,200 that barely moved at 0.5%. The price-to-rent ratio of 13.8 is the best in this file north of Trenton, and the four-bedroom median of $3,583 tells you which asset produces it: the off-campus student house, leased by the room-count to groups a full academic year ahead.\n\nThe regulatory wrapper is the densest in this file. The city's rent control ordinance, Chapter 5.80, covers rental housing from the first unit: annual increases follow the CPI inside a floor of 2.5% and a ceiling of 5.5%, and every regulated unit must register with the Rent Control Board annually by April 1, at $50 per unit for 2026. A vacancy adjustment allows the standard increase plus 4%, available once per five years per unit and conditioned on property improvements. Exemptions cover owner-occupied one- and two-family homes, Rutgers-registered fraternities and sororities, and institutional housing, and owners of newly constructed multiple dwellings can claim a 30-year exemption. State landlord registration and the Anti-Eviction Act apply, and habitability enforcement around the student blocks is active.\n\nTaxes land at 2.09% effective from the certified 2025 tables, $784 a month on the deal example. The lease calendar is the real risk: miss the academic cycle and the house sits until the next one.",
+      "regulationBadge": "tenant",
+      "regulationNote": "New Brunswick rent control reaches nearly every rental from the first unit with a CPI-linked cap bounded between 2.5% and 5.5%, annual per-unit registration is due April 1, and the vacancy bump is limited to once per five years, so the rent roll grows on the ordinance's schedule, not yours.",
+      "neighborhoods": [
+        {
+          "name": "College Avenue edge (Fifth / Sixth Ward)",
+          "medianPrice": 465000,
+          "medianRent": 3583,
+          "note": "The blocks feeding the College Avenue campus, where converted Victorians rent by the academic year to student groups at the four-bedroom median or better. Values estimated in the mid $460Ks; the premium buys the shortest walk and the most reliable pre-leasing calendar."
+        },
+        {
+          "name": "Feaster Park / Lincoln Park",
+          "medianPrice": 440000,
+          "medianRent": 2900,
+          "note": "The residential wards south and east of the hospitals, estimated near $440,000. Mixed tenancy of hospital staff, families, and graduate students, three-bedroom rents around $2,900, and steadier twelve-month leases than the undergraduate blocks; the diversified New Brunswick play."
+        },
+        {
+          "name": "Downtown / French Street corridor",
+          "medianPrice": 455000,
+          "medianRent": 2595,
+          "note": "The commercial spine between the train station and the hospitals, estimated around $455,000. Two-bedroom units near the $2,595 median rent to young professionals on the Northeast Corridor line; newer buildings here often sit inside claimed multi-decade new-construction exemptions."
+        }
+      ],
+      "localAngle": {
+        "tag": "Registration Clock",
+        "title": "Chapter 5.80 runs the rent roll: register by April 1, grow inside the band, bank the five-year bump.",
+        "body": "New Brunswick's ordinance is unusually specific, and its mechanics reward operators who read it. Coverage starts at the first unit, so the single-family student rental is regulated, not just the apartment building. The annual increase is set each year from the CPI change through August, bounded so it never falls below 2.5% and never exceeds 5.5%, and it applies at lease expiration. Every regulated unit registers with the Rent Control Board annually by April 1, $50 per unit in 2026, and an unregistered unit has no business taking an increase at all. The growth lever the ordinance actually hands you is the vacancy adjustment: at a qualified vacancy, the maximum is the standard allowable increase plus 4%, available once per five years per unit and conditioned on meeting minimum property improvement requirements. On a student house that turns over every one to two academic years anyway, planning capital improvements against that five-year clock is the difference between a rent roll that compounds and one that drifts. The exemption map matters too: owner-occupied one- and two-family homes are out, Rutgers-registered fraternities and sororities are out, and newly constructed multiple dwellings can claim an exemption for up to 30 years, which is why the downtown towers price freely while the Victorian next door is capped. Add the state layer, landlord registration, good-cause eviction, lead-safe cycles on pre-1978 stock, and the academic pre-leasing calendar, and this is a market you administer as much as own. Your matched specialist will underwrite the ordinance's numbers and the academic-year lease cycle as they actually operate."
+      },
+      "programFit": [
+        "standard-dscr",
+        "portfolio-dscr",
+        "bridge-to-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "4-Bed SFR (Student Rental)",
+        "neighborhood": "College Avenue edge (Fifth / Sixth Ward)",
+        "purchasePrice": 450000,
+        "downPaymentPct": 25,
+        "downPayment": 112500,
+        "loanAmount": 337500,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 2359,
+        "monthlyTax": 784,
+        "monthlyInsurance": 260,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 3403,
+        "monthlyRent": 3550,
+        "dscr": 1.04,
+        "monthlyCashFlow": 147,
+        "specialistFocus": [
+          "Qualified on the appraiser's whole-house market rent at the four-bedroom median rather than a per-room sum, because lenders underwrite the lease the appraisal form supports",
+          "Verified the unit's rent registration history with the Rent Control Board, since the legal rent is the registered rent plus allowable increases, not whatever the last tenants happened to pay",
+          "Timed the closing to the academic pre-leasing window so the house was group-leased for September before the first payment came due"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Is a single-family student rental in New Brunswick rent-controlled?",
+          "answer": "Yes, unless you live in it. Chapter 5.80 covers rental units from the first one, with exemptions for owner-occupied one-family homes where the owner holds majority title, owner-occupied two-families, Rutgers-registered fraternities and sororities, and institutional housing. A standard investor-owned student house is regulated: increases follow the CPI-based standard set each year, never below 2.5% or above 5.5%, applied at lease expiration, and the unit must be registered annually by April 1 at $50 per unit. The legal rent is the registered history plus allowable increases, so pull the registration file during diligence the way you would pull title."
+        },
+        {
+          "question": "How do I raise rent to market when a unit turns over?",
+          "answer": "Through the ordinance's vacancy adjustment, and only partway at a time. At a qualified vacancy, the maximum increase is the year's standard allowable increase plus 4%, and a unit can only take that adjustment once every five years, conditioned on meeting minimum property improvement requirements. There is no full decontrol to market the way Paterson or Bayonne resets work. The compounding strategy is planning: schedule the improvement spend against the five-year clock, take the bump at the highest-value turnover, and let the 2.5% floor work in the flat years. Buying a house with registered rents far under market means inheriting years of that catch-up math, so price the gap at acquisition."
+        },
+        {
+          "question": "What does the Rutgers calendar do to my vacancy risk?",
+          "answer": "It converts vacancy from a rate into a binary. Student houses pre-lease for September during the preceding fall and winter; a house that misses that window does not rent a little late, it risks sitting until the next cycle. The mitigation is operational: list early, sign the group lease with guarantors before spring break, and time renovations for the summer gap. The other side of the trade is remarkable stability once leased, twelve-month group leases with parental guarantees, backed by an institution of roughly forty thousand students in a city where the university, two hospital systems, and a pharmaceutical headquarters anchor demand. The deal example's thin 1.04 margin is thin only if the calendar is managed casually."
+        },
+        {
+          "question": "Are the new downtown buildings under the same rent cap?",
+          "answer": "Generally no, and the distinction is written into the ordinance. Owners of newly constructed multiple dwellings can claim an exemption for the lesser of 30 years from completion or the amortization period of the initial mortgage, which is why the towers near the train station price and reprice freely while the pre-war Victorian a block away lives inside the 2.5% to 5.5% band. For an investor this cuts two ways: the exempt new building is the rent-growth play with the higher basis, and the capped older house is the yield play with the administered roll. Both underwrite fine; problems start when a file prices one asset with the other's rules."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, New Brunswick typical home value and YoY change, June 2026",
+        "Zillow Observed Rent Index, New Brunswick average rent and YoY change, June 2026; Zillow Rental Manager bedroom medians including 4-bed $3,583, August 2026",
+        "Joe Shimkus NJ tax tables from certified 2025 data, New Brunswick general rate 2.688 and effective rate 2.092%",
+        "US Census Housing Vacancy Survey Table 4, New York-Newark-Jersey City metro rental vacancy, Q2 2026",
+        "City of New Brunswick Rent Control office and NJ DCA 2026 Rent Control Survey, Chapter 5.80 coverage, 2.5%-5.5% band, April 1 registration at $50 per unit, vacancy adjustment terms",
+        "Neighborhood values and rents (est.) anchored to citywide Zillow figures and bedroom medians, June-August 2026"
+      ]
+    }
+  ]
+}

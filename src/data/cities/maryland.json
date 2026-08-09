@@ -1,0 +1,1276 @@
+{
+  "state": "Maryland",
+  "abbreviation": "MD",
+  "stateSlug": "maryland",
+  "dataUpdated": "2026-08",
+  "cities": [
+    {
+      "city": "Baltimore",
+      "slug": "baltimore",
+      "county": "Baltimore City",
+      "metro": "Baltimore-Columbia-Towson",
+      "hook": "Baltimore's typical home value is $193K against citywide rents near $1,799, so the median actually clears the ratio. The catch is the $2.248 city tax rate and everything else downstream of it.",
+      "metaDescription": "Baltimore rowhomes average $193K with rents near $1,799, so the ratio clears at the median. See the 2.248 tax and lead cert math first. Get matched today.",
+      "market": {
+        "medianPrice": 192669,
+        "medianRent": 1799,
+        "priceToRent": 8.9,
+        "vacancyRate": 5.2,
+        "yoyPrice": -2.3,
+        "yoyRent": 2.4,
+        "estDSCR": 1.12,
+        "propertyTaxRate": 2.36,
+        "insuranceMonthly": 150
+      },
+      "overview": "Baltimore is one of the few East Coast markets where the citywide arithmetic still works before you do anything clever. The typical home value is about $192,700, down 2.3% over the year, while the Zillow rent index runs $1,799 and rose 2.4%. Run the standard formula at 20% down and the median lands around 1.12. Metro rental vacancy came in at 5.2% for 2025, tighter than the 7.3% national figure. That is why Baltimore stays on every BRRRR list in the country.\n\nNow the part the turnkey pitch leaves out. Baltimore City's real property rate is $2.248 per $100 of assessed value, plus the state's $0.112, roughly 2.36% of value per year and about twice what the surrounding counties charge. The Homestead Credit that capped the seller's bill dies at transfer and never applies to a rental, so with the 2026 reassessment cycle running hot statewide, the investor's bill is the full uncapped number. Every rental needs city registration and an inspection-backed license, and most rowhome stock is pre-1978, which triggers annual MDE lead registration and a passing lead dust test at every turnover.\n\nThen there is the two-layer deed question: a lot of rowhomes sit on ground leases, where you own the house and someone else owns the ground under it. All of it is manageable. None of it is optional. Investors who win here buy block by block in Belair-Edison, Patterson Park, and Hampden, and price the full stack from day one.",
+      "regulationBadge": "tenant",
+      "regulationNote": "Every Baltimore City rental needs registration plus an inspection-backed license, pre-1978 units carry annual MDE lead registration with a dust test at each turnover, and an unlicensed landlord cannot even file a rent case, so compliance is a cost line, not a suggestion.",
+      "neighborhoods": [
+        {
+          "name": "Belair-Edison",
+          "medianPrice": 145958,
+          "medianRent": 1600,
+          "note": "Classic brick rowhome BRRRR territory in the northeast, typical value $145,958, down 4.8% over the year while three-bed listings ask $1,600 to $1,750. The buy-renovate-refi math still pencils, but values are drifting, so underwrite the exit appraisal conservatively."
+        },
+        {
+          "name": "Patterson Park",
+          "medianPrice": 266406,
+          "medianRent": 1900,
+          "note": "Renovated rowhomes ringing the park, typical value $266,406, off just 1.5% in a year, with two-beds renting $1,740 to $1,750 and three-beds near $2,200. The stable, professional-tenant contrast to the deep-value pockets, with correspondingly thinner yield."
+        },
+        {
+          "name": "Hampden",
+          "medianPrice": 306513,
+          "medianRent": 2100,
+          "note": "North-central retail-strip neighborhood, typical value $306,513 and the most resilient trend of the three core investor pockets. Three-bed rowhomes list near $2,900 while smaller units pull the median down. Buy for tenant quality, not headline yield."
+        },
+        {
+          "name": "Brooklyn",
+          "medianPrice": 134833,
+          "medianRent": 1400,
+          "note": "South Baltimore's deep-value pocket, typical value $134,833 with neighboring Curtis Bay near $109,350. The highest paper yield in the city and the highest condition, turnover, and vacancy risk. Many purchases here fall below common lender loan minimums."
+        }
+      ],
+      "localAngle": {
+        "tag": "Real Costs",
+        "title": "The ratio clears at the median. The city's paperwork stack decides whether you keep it.",
+        "body": "Three line items separate a Baltimore pro forma from a Baltimore reality. First, taxes: $2.248 per $100 city plus $0.112 state is roughly 2.36% of value annually, and the seller's Homestead-capped bill is not your bill, because the credit dies at transfer and never applies to rentals. On a $165,000 rowhome that is about $325 a month before anything else. Second, licensing and lead: the city requires registration of every non-owner-occupied property and an inspection-backed rental license, and Maryland's lead law requires pre-1978 rentals, which is most rowhome stock, to register with MDE by December 31 each year at $30 per unit and pass an accredited lead dust inspection at every change in occupancy. Skip any of it and you cannot legally collect rent or file a failure-to-pay case. Third, ground rent: thousands of rowhomes are leaseholds where the deed conveys the house but not the ground. Maryland's SDAT registry now controls the system, an unregistered ground lease holder cannot collect or sue, and most ground rents can be redeemed for a few thousand dollars. None of this kills the deal. It just belongs in the file before an appraiser or underwriter finds it, which is exactly how your matched specialist will structure it."
+      },
+      "programFit": [
+        "standard-dscr",
+        "bridge-to-dscr",
+        "portfolio-dscr",
+        "no-ratio-dscr"
+      ],
+      "dealExample": {
+        "label": "BRRRR Refinance",
+        "propertyType": "3-bed / 1-bath brick rowhome",
+        "neighborhood": "Belair-Edison",
+        "purchasePrice": 165000,
+        "downPaymentPct": 25,
+        "downPayment": 41250,
+        "loanAmount": 123750,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 865,
+        "monthlyTax": 325,
+        "monthlyInsurance": 130,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 1320,
+        "monthlyRent": 1650,
+        "dscr": 1.25,
+        "monthlyCashFlow": 330,
+        "specialistFocus": [
+          "Qualified the refinance on the after-repair appraisal at 75% of the $165,000 value, so the investor's renovation cash came back out while the ratio stayed at 1.25",
+          "Underwrote the full uncapped 2.36% city tax stack on the new assessment instead of the seller's Homestead-capped bill that the listing sheet implied",
+          "Confirmed the rental license, MDE lead registration, and a passing lead dust certificate were in the file before closing, because the lender's rent verification and the city's rent court both require them"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Does Baltimore really cash flow, or is the yield a trap?",
+          "answer": "Both, depending on the block. The citywide math is real: a $192,700 typical value against $1,799 rents produces a ratio around 1.12 at 20% down, and metro vacancy ran 5.2% in 2025. What eats the spread is the 2.36% tax stack, licensing and lead compliance, water bills that stay in the owner's name, and condition risk that changes street by street. Belair-Edison and Patterson Park have decades of investor history. The $90K-and-under pockets carry the highest paper yield and the highest real-world failure quotient. Underwrite the full stack and Baltimore holds up. Underwrite the Zillow rent alone and it will not."
+        },
+        {
+          "question": "What licenses do I actually need to rent a Baltimore rowhome?",
+          "answer": "Three layers. The city requires every non-owner-occupied property to be registered, and every rental to hold a license backed by an inspection from a state-licensed home inspector registered with the city's housing department. Separately, if the property was built before 1978, which covers most rowhome stock, Maryland's lead law requires annual MDE registration at $30 per unit and a passing lead dust inspection by an accredited contractor at every change in occupancy. Miss the license and you cannot file a failure-to-pay-rent case in District Court. Your matched specialist will expect all three in the file, because lenders verify them too."
+        },
+        {
+          "question": "What is ground rent and should it scare me off?",
+          "answer": "It is a leftover 19th-century system where the house and the ground under it have separate owners, and it survives mostly on Baltimore rowhome blocks. You buy the improvements and pay the ground owner a small annual rent, typically $50 to $150. Since the state overhauled the system, a ground lease must be registered with SDAT to be enforceable, an unregistered holder cannot collect or sue, and most ground rents can be redeemed, meaning bought out, for a capitalized value that usually runs a few thousand dollars. It is a title-work item, not a deal killer. Just make sure the contract and the appraisal both reflect leasehold versus fee simple."
+        },
+        {
+          "question": "How does the BRRRR refinance work here?",
+          "answer": "Baltimore is one of the last major East Coast markets where the full cycle still pencils. Investors buy distressed shells in the $80K to $110K range in pockets like Belair-Edison, put $40K to $60K into renovation, and refinance on an after-repair appraisal in the $150K to $180K range. DSCR lenders qualify the new loan on the appraiser's market rent, not your personal income, and the rowhome rental comps are dense enough that the rent survey usually holds. The two failure points are optimistic ARVs on declining blocks and loan amounts that fall below lender minimums, which is where small-balance and portfolio lenders earn their keep."
+        },
+        {
+          "question": "Which Baltimore submarkets should I target first?",
+          "answer": "Match the block to the strategy. Belair-Edison is the workhorse BRRRR pocket: $145,958 typical value, three-bed rents around $1,600, deep renovation comp history. Patterson Park and Hampden are the stability tier, $266K to $307K with professional tenants and the mildest value declines in the city. Brooklyn and Curtis Bay post the highest paper yields at $109K to $135K and the highest turnover, condition, and vacancy risk, and many purchases there fall under lender loan minimums. Whatever the block, run the full 2.36% tax, licensing, lead, and water-bill stack before trusting any yield number."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Baltimore typical home value and YoY change, June 2026",
+        "Zillow Observed Rent Index, Baltimore average rent and YoY change, June 2026",
+        "US Census Bureau Housing Vacancy Survey Table 6, Baltimore-Columbia-Towson metro rental vacancy, 2025",
+        "Maryland SDAT county and municipal tax rate chart, Baltimore City $2.248 plus state $0.112 per $100, July 2026",
+        "MDE Lead Poisoning Prevention rental owner requirements and Baltimore City DHCD property registration pages, August 2026",
+        "Neighborhood values from Zillow neighborhood pages June 2026; neighborhood rents from active Zillow listings, August 2026 (est.)"
+      ]
+    },
+    {
+      "city": "Columbia",
+      "slug": "columbia",
+      "county": "Howard County",
+      "metro": "Baltimore-Columbia-Towson",
+      "hook": "Columbia's typical home value is $518K, homes go pending in 6 days, and 55% of May sales closed over list. The rental math runs near 0.65 at the median, and there is a second tax line most out-of-town buyers never see coming.",
+      "metaDescription": "Columbia MD homes average $518K against $2,304 rents, a 0.65 ratio at 20% down. DSCR specialists structure around the CA annual charge. Get matched today.",
+      "market": {
+        "medianPrice": 518039,
+        "medianRent": 2304,
+        "priceToRent": 18.7,
+        "vacancyRate": 5.2,
+        "yoyPrice": 0.1,
+        "yoyRent": 2.8,
+        "estDSCR": 0.65,
+        "propertyTaxRate": 1.156,
+        "insuranceMonthly": 170
+      },
+      "overview": "Columbia is the tightest housing market in this file. The typical value is $518,039, flat over the year at +0.1%, but the velocity numbers tell the real story: 6 median days to pending, 55% of May sales over list, and a median sale-to-list ratio above 1.0. Rents rose 2.8% to a $2,304 average while Baltimore-metro rental vacancy ran 5.2% in 2025. Howard County schools are the demand engine, and they do not take years off.\n\nThe carry side is heavier than the 1.044 county rate suggests. Add the state's $0.112 and you are near 1.16%, and then comes the line item unique to Columbia: the Columbia Association annual charge, 68 cents per $100 on 50% of your assessed value, roughly 0.34% of value every year. On the median home that is about $1,760 a year, functionally a second tax that funds CA's pools, paths, and facilities, and it applies to rentals with no owner-occupant discount. Howard County also requires a rental housing license before you lease.\n\nRun it all and the median Columbia file lands near 0.65 at 20% down. Nobody buys Columbia for month-one cash flow. The play is school-district tenancy that never goes vacant, rent growth on a flat-price entry, and townhome tiers in the eastern villages where $2,700 rents against low-$400K prices pull the ratio toward 0.9. Structure for that reality instead of fighting it.",
+      "regulationBadge": "moderate",
+      "regulationNote": "Howard County requires a rental housing license and registration before you lease, and every Columbia parcel pays the Columbia Association annual charge on top of property tax, but there is no rent cap and the county's process is straightforward.",
+      "neighborhoods": [
+        {
+          "name": "Wilde Lake / Harper's Choice (21044)",
+          "medianPrice": 552510,
+          "medianRent": 2344,
+          "note": "The original west-side villages around the lakefront Town Center, typical value $552,510, up 0.2%. Oldest stock in Columbia, 1967-1980s builds, which means renovation upside and inspection findings in equal measure. Zip average rent $2,344 blends apartments with SFRs."
+        },
+        {
+          "name": "Long Reach / Owen Brown (21045)",
+          "medianPrice": 491446,
+          "medianRent": 2395,
+          "note": "The east-side value tier and the investor entry point, typical value $491,446 with the zip's average rent at $2,395, the highest of Columbia's three zips. Townhome clusters here trade in the low $400Ks against $2,600 to $2,800 rents, the best ratio math in Columbia."
+        },
+        {
+          "name": "Kings Contrivance (21046)",
+          "medianPrice": 532393,
+          "medianRent": 2014,
+          "note": "The southern village off Route 32, typical value $532,393, up 0.1%. Quiet cul-de-sac SFR stock with long family tenancies; the $2,014 zip rent average skews to its apartment pockets while detached homes rent well above $3,000."
+        }
+      ],
+      "localAngle": {
+        "tag": "Carrying Costs",
+        "title": "The CA annual charge is the tax line that is not called a tax.",
+        "body": "Every investor who buys in Columbia signs up for a cost that exists almost nowhere else in Maryland: the Columbia Association annual charge. The rate has sat at 68 cents per $100 of 50% of your state-assessed valuation since 2004, just under its 75-cent charter maximum, which works out to roughly 0.34% of your property's value every single year. On the $518,039 median that is about $1,760 a year, or $147 a month, on top of the county and state property tax stack of roughly 1.16%. It is not an HOA you can vote to dissolve and it is not optional; it funds the association's 3,600 acres of open space, pools, and fitness facilities that also happen to be why Howard County tenants pay premium rents and stay for years. Village associations can layer their own covenants and, for townhomes, separate HOA dues on top. The practical consequence: a Columbia pro forma built from a Zillow tax estimate alone understates carry by $120 to $180 a month, which is frequently the entire difference between a 0.95 file and a 0.85 file. Maryland law even requires the charge to be disclosed to tenants in leases. Your matched specialist will put the CA line into the underwriting file up front, where it belongs, rather than letting an underwriter find it in the title work."
+      },
+      "programFit": [
+        "standard-dscr",
+        "no-ratio-dscr",
+        "interest-only-dscr",
+        "portfolio-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 2.5-bath townhome",
+        "neighborhood": "Long Reach / Owen Brown (21045)",
+        "purchasePrice": 425000,
+        "downPaymentPct": 25,
+        "downPayment": 106250,
+        "loanAmount": 318750,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 2228,
+        "monthlyTax": 409,
+        "monthlyInsurance": 130,
+        "monthlyHOA": 210,
+        "monthlyPITIA": 2977,
+        "monthlyRent": 2700,
+        "dscr": 0.91,
+        "monthlyCashFlow": -277,
+        "specialistFocus": [
+          "Carried the Columbia Association annual charge and the village HOA dues as a real $210 monthly line instead of the zero the listing pro forma showed",
+          "Placed the file with a lender whose program accepts sub-1.0 ratios on strong-credit borrowers, because the honest number here is 0.91, not the 1.05 a padded rent estimate would fake",
+          "Confirmed the Howard County rental housing license and registration before the first lease, since the county requires it and lease-up timing was part of the reserve calculation"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "What is the Columbia Association annual charge and does it apply to rentals?",
+          "answer": "It is a mandatory assessment levied on every property in Columbia by the Columbia Association, set at 68 cents per $100 of 50% of your state-assessed valuation, a rate unchanged since 2004. That is roughly 0.34% of value per year, about $1,760 on the median home, and yes, it applies to rentals with no discount. It is separate from, and on top of, the county and state property tax stack near 1.16%. Maryland law requires landlords to disclose it in Howard County leases. Budget it like a second tax, because functionally that is what it is."
+        },
+        {
+          "question": "Can any Columbia deal actually clear 1.0?",
+          "answer": "At the median, no. $518K values against $2,304 average rents put the citywide figure near 0.65 at 20% down. The paths closer to break-even are specific: eastern-village townhomes in the low $400Ks renting $2,700 to $2,800 get you to roughly 0.9, older condos in Wilde Lake trade in the mid $200Ks against $2,000 rents but carry condo fees that eat the gain, and larger down payments or interest-only structures close the rest of the gap. Most Columbia buyers accept a managed negative in year one and bank on 2.8% rent growth against flat prices."
+        },
+        {
+          "question": "Do I need a license to rent out a house in Howard County?",
+          "answer": "Yes. Howard County requires a rental housing license for a dwelling unit to be rented, with registration and a modest fee, and the license must be in place before you lease. It is a straightforward process compared to Baltimore City's inspection-backed regime, but it is not optional, and Maryland courts take licensing seriously: in jurisdictions that require a license, an unlicensed landlord can be barred from bringing a failure-to-pay-rent action. Layer the Columbia Association charge disclosure into your lease as well. Your matched specialist will expect both items squared away before the first tenant."
+        },
+        {
+          "question": "Why buy at a 0.65 ratio at all?",
+          "answer": "Because Columbia is the definition of a demand moat. Homes went pending in a median of 6 days in June 2026, 55% of May sales closed over asking, and values held flat while most of the DC-Baltimore corridor corrected. Howard County schools keep a deep bench of long-stay family tenants, rents rose 2.8% in a year, and metro vacancy is 5.2%. Investors here are buying occupancy certainty and rent trajectory, not month-one yield. The honest structure is a bigger down payment or a no-ratio program that prices the negative carry instead of pretending it is not there."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index and market overview, Columbia typical value, days to pending, sales over list, June 2026",
+        "Zillow Observed Rent Index, Columbia average rent and YoY change, June 2026",
+        "US Census Bureau Housing Vacancy Survey Table 6, Baltimore-Columbia-Towson metro rental vacancy, 2025",
+        "Maryland SDAT tax rate chart, Howard County $1.044 plus state $0.112 per $100, July 2026",
+        "Columbia Association Annual Charge FAQ, 68 cents per $100 of 50% of valuation, retrieved August 2026",
+        "Zip-level values and rents from Zillow 21044/21045/21046 pages, June 2026; detached-home rent context from listings (est.)"
+      ]
+    },
+    {
+      "city": "Silver Spring",
+      "slug": "silver-spring",
+      "county": "Montgomery County",
+      "metro": "Washington-Arlington-Alexandria",
+      "hook": "Silver Spring homes average $557K, and because it is unincorporated Montgomery County, most rentals here sit under the county's rent stabilization law, capped at 5.2% for increases taking effect after July 1, 2026.",
+      "metaDescription": "Silver Spring homes average $557K and county law caps most rent increases at 5.2%. See how DSCR files get structured around the cap. Get matched today.",
+      "market": {
+        "medianPrice": 556503,
+        "medianRent": 1966,
+        "priceToRent": 23.6,
+        "vacancyRate": 6.4,
+        "yoyPrice": -1.1,
+        "yoyRent": -2,
+        "estDSCR": 0.52,
+        "propertyTaxRate": 1.09,
+        "insuranceMonthly": 175
+      },
+      "overview": "Silver Spring is where the Montgomery County rulebook matters as much as the market. The typical home value is $556,503, down 1.1% over the year, and the blended Zillow rent average slipped 2% to $1,966, dragged by downtown's large apartment inventory. That blended figure misleads for the houses investors actually buy: detached three- and four-beds in White Oak, Forest Knolls, and Glen Haven rent between $2,750 and $3,100. Even so, run the median math and Silver Spring sits near 0.52 at 20% down, so nobody is buying here on ratio alone.\n\nThe regulation layer is the real story. Silver Spring is unincorporated, which means Montgomery County's rent stabilization law, Bill 15-23, applies directly. Every county-licensed rental at least 23 years old is covered, and the annual increase allowance is CPI-U plus 3%, capped at the lesser of that or 6%. The county set 5.7% for the year ending June 30, 2026, and 5.2% for increases taking effect July 1, 2026 through June 30, 2027. Buildings stay exempt for their first 23 years, but most Silver Spring SFR stock is decades past that.\n\nDC-metro rental vacancy ran 6.4% in 2025 and the federal-workforce tenant base is steady if no longer growing. The structure that works: single-family homes bought at the softened -1.1% prices, qualified on the appraiser's actual house rent, with interest-only terms doing the ratio work.",
+      "regulationBadge": "tenant",
+      "regulationNote": "Unincorporated Silver Spring falls under Montgomery County rent stabilization: rentals 23 or more years old are capped at a 5.2% increase for the year starting July 1, 2026, and every rental needs a county license, so buy knowing your rent trajectory is regulated.",
+      "neighborhoods": [
+        {
+          "name": "White Oak",
+          "medianPrice": 490974,
+          "medianRent": 2750,
+          "note": "Northeast Silver Spring near the FDA campus, typical value $490,974, the value tier for detached stock. Mid-century ranches and split-levels with long-tenured tenants; the practical entry point for a first Silver Spring rental."
+        },
+        {
+          "name": "Chestnut Hills",
+          "medianPrice": 484985,
+          "medianRent": 2800,
+          "note": "Inside-the-Beltway pocket of 1940s-50s brick capes and ramblers, typical value $484,985. Old enough that every unit is rent-stabilized and lead-era diligence applies, but the location commands dependable demand from downtown and Metro commuters."
+        },
+        {
+          "name": "Glen Haven",
+          "medianPrice": 562282,
+          "medianRent": 2950,
+          "note": "Wheaton-adjacent mid-tier at $562,282. Solid family SFR territory where three-beds rent near $2,950; the spread between here and White Oak is mostly lot and school-boundary driven, not rent driven, which compresses the ratio as you move up."
+        },
+        {
+          "name": "Forest Knolls",
+          "medianPrice": 592148,
+          "medianRent": 3100,
+          "note": "The upper tier of the investor-relevant stock at $592,148. Four-bed houses pull $3,100 or better, but the extra $100K of entry price buys only $150 of monthly rent versus White Oak, so most files here need interest-only or no-ratio structures."
+        }
+      ],
+      "localAngle": {
+        "tag": "Rent Cap",
+        "title": "Bill 15-23 sets your rent trajectory before you ever set an asking price.",
+        "body": "Montgomery County's rent stabilization law, enacted as Bill 15-23 and implemented from July 2024, is the single most important underwriting input in Silver Spring. Coverage is simple and broad: unless exempt, every county-licensed residential rental that is at least 23 years old is stabilized, and a unit crosses that line on January 1 of the 23rd year after its SDAT year built. The annual allowance is CPI-U plus 3%, capped at the lesser of that sum or 6%. The county published 5.7% for the year ending June 30, 2026, and 5.2% for any increase taking effect between July 1, 2026 and June 30, 2027. New construction rides exempt for its first 23 years, and the law reaches single-family rentals, not just apartment buildings, which surprises out-of-state buyers more than anything else in the file. The county's own guidance also names the carve-outs that matter nearby: rentals inside the cities of Rockville, Gaithersburg, and Takoma Park are not subject to the county law, which is why the same house on two sides of a municipal line can carry different rent trajectories. In practice the cap has not been the binding constraint in a soft year, blended rents fell 2%, but it caps your recovery speed after every vacancy and renovation. Your matched specialist will underwrite the regulated trajectory, document the between-tenancy rules, and structure the loan so the file works at the capped growth rate rather than a hoped-for one."
+      },
+      "programFit": [
+        "interest-only-dscr",
+        "standard-dscr",
+        "no-ratio-dscr",
+        "portfolio-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "4-bed / 2-bath SFR",
+        "neighborhood": "White Oak",
+        "purchasePrice": 475000,
+        "downPaymentPct": 25,
+        "downPayment": 118750,
+        "loanAmount": 356250,
+        "loanType": "30-Year Fixed, Interest-Only",
+        "interestOnly": true,
+        "monthlyPI": 2227,
+        "monthlyTax": 431,
+        "monthlyInsurance": 160,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 2818,
+        "monthlyRent": 2900,
+        "dscr": 1.03,
+        "monthlyCashFlow": 82,
+        "specialistFocus": [
+          "Structured a 10-year interest-only period because the amortizing payment put the ratio at 0.94, and the IO payment clears 1.0 on the appraiser's actual market rent",
+          "Qualified on the 1007 rent survey for the house itself, $2,900, rather than the citywide $1,966 blended average that apartment inventory drags down",
+          "Documented the unit's rent stabilization status and the 5.2% allowance effective July 2026 in the file, so the lender's rent-growth assumptions matched the county's, not a pro forma's"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Does Montgomery County's rent cap really apply to a single-family rental?",
+          "answer": "In unincorporated Silver Spring, yes. Bill 15-23 covers every county-licensed residential rental unit that is at least 23 years old, houses included, and most Silver Spring SFR stock was built decades before the 2003 cutoff that currently matters. The allowance is CPI-U plus 3%, capped at the lesser of that or 6%: 5.7% for the year ending June 30, 2026, then 5.2% for increases taking effect through June 30, 2027. Newer construction is exempt for its first 23 years. Buy assuming the cap governs your rent trajectory, because it does."
+        },
+        {
+          "question": "Why does the market table show a 0.52 ratio when your deal example shows 1.03?",
+          "answer": "Because the citywide numbers blend two different markets. The $1,966 average rent is weighted by downtown Silver Spring's big apartment pipeline, while the $556K typical value is weighted by detached houses. The asset an investor actually buys, a White Oak or Chestnut Hills SFR at $475K to $500K renting $2,750 to $2,950, runs closer to 0.9 amortizing and clears 1.0 with interest-only structuring. DSCR lenders qualify on the appraiser's rent survey for your specific property, not on a blended index, which is exactly why the honest median figure and a workable deal can both be true."
+        },
+        {
+          "question": "What happens to the cap when a tenant moves out?",
+          "answer": "Montgomery County's law regulates increases on regulated units rather than granting unlimited vacancy resets, and the county publishes specific rules for increases between tenancies, banked increases, and petitions for larger adjustments through the Office of Rent Stabilization. The practical takeaway for underwriting: do not model a renovation-and-re-lease jump the way you would in an uncapped market, and document any planned increase against the current allowance before you commit capital. This is file-structuring work, and it is exactly the part your matched specialist and a local property manager should nail down before closing, not after."
+        },
+        {
+          "question": "Is the federal workforce still a reliable tenant base in 2026?",
+          "answer": "Steady, not growing. Silver Spring's tenant pool leans on the FDA's White Oak campus, downtown's health and nonprofit employers, and Metro commuters into the District, and DC-metro rental vacancy ran 6.4% in 2025, right around the national average. Blended rents slipped 2% over the year as new apartment supply leased up, while single-family rents held far better because no one is building competing houses inside the Beltway. Underwrite flat-to-modest rent growth, lean on the house-versus-apartment spread, and treat the -1.1% price softness as your entry discount."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index and Observed Rent Index, Silver Spring, June 2026",
+        "US Census Bureau Housing Vacancy Survey Table 6, Washington-Arlington-Alexandria metro rental vacancy, 2025",
+        "Montgomery County DHCA Office of Rent Stabilization, allowance 5.7% through June 2026 and 5.2% effective July 1, 2026, plus municipal exemptions, retrieved August 2026",
+        "Maryland SDAT tax rate chart plus Montgomery County FY27 weighted-rate staff report, investor rate approx 1.09 (est.), July 2026",
+        "Neighborhood values from Zillow neighborhood pages, June 2026; SFR rents from area listings and rent surveys, August 2026 (est.)"
+      ]
+    },
+    {
+      "city": "Germantown",
+      "slug": "germantown",
+      "county": "Montgomery County",
+      "metro": "Washington-Arlington-Alexandria",
+      "hook": "Germantown's typical value fell 2.8% to $426K, the softest print in Montgomery County's investor corridor, while rents held flat. Condos in the $250Ks are how DSCR files clear 1.0 here.",
+      "metaDescription": "Germantown values average $426K, down 2.8% in a year. Condos are how DSCR deals clear 1.0 here, and the rent cap phases in by build year. Get matched today.",
+      "market": {
+        "medianPrice": 425701,
+        "medianRent": 2137,
+        "priceToRent": 16.6,
+        "vacancyRate": 6.4,
+        "yoyPrice": -2.8,
+        "yoyRent": 0,
+        "estDSCR": 0.73,
+        "propertyTaxRate": 1.09,
+        "insuranceMonthly": 150
+      },
+      "overview": "Germantown is Montgomery County's volume market: a planned-community grid of townhomes and garden condos built in waves from the mid-1980s through the mid-2000s, up the I-270 corridor from the bioscience employers. The typical value is $425,701, down 2.8% over the year, the largest decline of any city in this file, while the average rent held exactly flat at $2,137. Prices soft, rents firm is an entry setup, and homes still go pending in a median of 9 days, so the correction is orderly rather than distressed.\n\nAt the median the ratio runs about 0.73 at 20% down. The stock mix is what changes the math. Two-bed condos trade in the $240K to $280K range and rent for $1,950 to $2,100, which puts a well-bought condo file right at 1.0 once you hold the condo fee honest. Townhomes in the high $300Ks against $2,500 rents land near 0.85. Detached stock behaves like the rest of Montgomery County: negative carry, appreciation thesis.\n\nBecause Germantown is unincorporated, the county's rent stabilization law applies, and the 23-year exemption is doing something interesting here: the huge 1985-2003 cohort is already covered, and each January 1 another vintage of early-2000s townhomes rolls into coverage. The allowance for increases taking effect after July 1, 2026 is 5.2%. DC-metro vacancy ran 6.4% in 2025. Buy the dip, underwrite the cap, and let the condo tier carry the ratio.",
+      "regulationBadge": "tenant",
+      "regulationNote": "Germantown is unincorporated Montgomery County, so rentals 23 or more years old fall under the county rent cap, 5.2% for increases taking effect after July 1, 2026, and county rental licensing applies to every unit.",
+      "neighborhoods": [
+        {
+          "name": "Milestone / Germantown East (20876)",
+          "medianPrice": 487195,
+          "medianRent": 2500,
+          "note": "The east-of-270 zip, typical value $487,195, down 2.1%. Larger 1990s-2000s townhomes and small singles near the Milestone retail hub; much of this vintage is now rolling into rent-cap coverage year by year as it crosses the 23-year line."
+        },
+        {
+          "name": "Kingsview / Germantown West (20874)",
+          "medianPrice": 400000,
+          "medianRent": 2300,
+          "note": "The west-side zip carries the denser townhome and condo mix and a lower typical value around $400K. Commuter base for the MARC station and I-270; two-bed condos here in the $240Ks to $270Ks are the volume DSCR trade in Germantown."
+        },
+        {
+          "name": "Churchill Town Sector",
+          "medianPrice": 340000,
+          "medianRent": 2100,
+          "note": "The 1980s core around Town Center: lake-adjacent condos and back-to-back townhomes, values mostly $260K to $380K. Every unit here is decades past the 23-year line, so model the 5.2% allowance, and verify condo association finances before writing the offer."
+        }
+      ],
+      "localAngle": {
+        "tag": "Rent Cap",
+        "title": "The 23-year clock decides which Germantown vintage is capped, one January at a time.",
+        "body": "Montgomery County's rent stabilization law, Bill 15-23, covers every county-licensed rental that is at least 23 years old, and it defines the birthday precisely: a unit becomes stabilized on January 1 of the 23rd year after the year built on its SDAT record. A 2002-built townhome crossed the line on January 1, 2025. A 2003 build crossed on January 1, 2026. That mechanism matters more in Germantown than anywhere else in the county, because the housing stock was built in one long wave from the mid-1980s through the mid-2000s, so each new year quietly moves another tract of townhomes from the exempt column to the capped column. The current allowance is CPI-U plus 3% capped at the lesser of that or 6%: 5.7% for increases through June 30, 2026, and 5.2% for increases taking effect July 1, 2026 through June 30, 2027. The county's guidance also names the neighboring carve-outs, Rockville and Gaithersburg city rentals are not subject to the county law, which makes the municipal boundary an underwriting input on the I-270 corridor. For a buyer today the practical rule is simple: check the SDAT year built before you model a single rent increase, assume the cap for anything 2003 and older, and calendar the coverage date for anything newer. Your matched specialist will structure the file on the capped trajectory and document the build year alongside the appraisal."
+      },
+      "programFit": [
+        "standard-dscr",
+        "interest-only-dscr",
+        "no-ratio-dscr",
+        "portfolio-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "2-bed / 2-bath garden condo",
+        "neighborhood": "Churchill Town Sector",
+        "purchasePrice": 262000,
+        "downPaymentPct": 25,
+        "downPayment": 65500,
+        "loanAmount": 196500,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 1374,
+        "monthlyTax": 238,
+        "monthlyInsurance": 60,
+        "monthlyHOA": 320,
+        "monthlyPITIA": 1992,
+        "monthlyRent": 2050,
+        "dscr": 1.03,
+        "monthlyCashFlow": 58,
+        "specialistFocus": [
+          "Held the $320 condo fee in the ratio from day one, because Germantown condo files that pencil at 1.2 without the fee are 1.0 files in real life",
+          "Pulled the association's budget and insurance certificate early, since 1980s Montgomery County condo projects are exactly where DSCR lenders probe reserves and master-policy coverage",
+          "Documented the unit's 1980s build year and rent-stabilized status with the 5.2% allowance, so the lender underwrote the regulated rent trajectory rather than an open-market one"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Is a 2.8% price drop in Germantown a warning or an entry?",
+          "answer": "Orderly entry, on the evidence. Values fell 2.8% to $425,701, the softest print in the county's investor corridor, yet homes still went pending in a median of 9 days and 42.9% of May sales closed over list. That combination reads as a rate-driven repricing with demand intact, not a demand problem. Rents held exactly flat at $2,137 while DC-metro vacancy ran 6.4%. Prices down, rents flat improves every ratio in the file. The discipline is on the exit assumption: underwrite zero appreciation and let the entry discount be the margin."
+        },
+        {
+          "question": "Which Germantown property type actually clears 1.0?",
+          "answer": "Condos, and almost only condos. A two-bed garden condo in the $250Ks renting $2,000 to $2,100 clears 1.0 at 25% down even with a $300-plus association fee held honestly in the math. Townhomes in the high $300Ks against roughly $2,500 rents run near 0.85, and detached homes sit deeper underwater on ratio. The condo caveats are real, though: association budgets, reserves, and master insurance drive lender approval, and some projects with heavy investor concentration need lenders comfortable with non-warrantable condos. That is a matching problem, and it is solvable across a 70+ lender network."
+        },
+        {
+          "question": "How do I know if a specific Germantown unit is under the rent cap?",
+          "answer": "Look up the year built on the property's SDAT record, then apply the county's rule: the unit becomes rent-stabilized on January 1 of the 23rd year after that date. Anything built 2003 or earlier is covered now; a 2005 build stays exempt until January 1, 2028. Covered units are limited to the published allowance, 5.2% for increases taking effect July 1, 2026 through June 30, 2027, and every rental needs a Montgomery County license regardless of age. The county publishes lists of covered properties, and documenting the status in your loan file up front avoids surprises at appraisal review."
+        },
+        {
+          "question": "Who is the tenant in Germantown?",
+          "answer": "I-270 corridor workforce: bioscience and lab employees from the Gaithersburg-Germantown employment base, federal and contractor commuters using the MARC Boyds and Germantown stations, and families priced out of Rockville and Gaithersburg ownership. That mix rents two-bed condos near $2,000 and three-bed townhomes near $2,500, and it kept the citywide average dead flat through a year when downtown Silver Spring rents fell 2%. Turnover is moderate and credit quality is strong for the price point. It is a boring tenant base in the best possible sense, which is what a leveraged ratio wants."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index and Observed Rent Index, Germantown, June 2026",
+        "Zillow zip page 20876 typical value and rent, June 2026; 20874 figures from area pages and listings (est.)",
+        "US Census Bureau Housing Vacancy Survey Table 6, Washington metro rental vacancy, 2025",
+        "Montgomery County DHCA Office of Rent Stabilization, 23-year coverage rule and 5.2% allowance effective July 1, 2026, retrieved August 2026",
+        "Maryland SDAT tax rate chart plus Montgomery County FY27 weighted-rate staff report, investor rate approx 1.09 (est.), July 2026"
+      ]
+    },
+    {
+      "city": "Frederick",
+      "slug": "frederick",
+      "county": "Frederick County",
+      "metro": "Washington-Arlington-Alexandria",
+      "hook": "Frederick homes average $470K while a 2,100-acre data center campus rises just south of town. The number nobody quotes: a city parcel pays a 1.83% tax stack, and the same house across the line pays 1.22%.",
+      "metaDescription": "Frederick homes average $470K while 600 MW of data centers rise nearby. City parcels pay a 1.83% tax stack, county parcels 1.22%. Get matched today.",
+      "market": {
+        "medianPrice": 469711,
+        "medianRent": 2205,
+        "priceToRent": 17.8,
+        "vacancyRate": 6.4,
+        "yoyPrice": -1.1,
+        "yoyRent": 2,
+        "estDSCR": 0.63,
+        "propertyTaxRate": 1.83,
+        "insuranceMonthly": 155
+      },
+      "overview": "Frederick is the growth story of western Maryland, and for once the story has steel in the ground. The typical home value is $469,711, down 1.1% over the year, rents rose 2% to a $2,205 average, and homes go pending in 11 days. Twenty minutes south in Adamstown, the Quantum Frederick campus, 2,100 acres assembled for data centers, has Rowan Digital Infrastructure's Bauxite projects under construction, roughly 600 MW of capacity as of mid-2026, with the planned QLoop fiber ring tying the site to Northern Virginia's data center alley.\n\nHere is the layer under the headline. The City of Frederick is one of the most expensive tax addresses in the state for an investor: the city levies $0.7055 per $100, the county charges city parcels a differential rate of $1.0125, and the state adds $0.112, a combined stack near 1.83% of assessed value with no Homestead Credit for rentals. Cross into unincorporated Ballenger Creek and the stack drops to about 1.22%. On a $420,000 townhome that is a $2,550-a-year difference for the same commute.\n\nAt the median and the full city stack, the ratio runs about 0.63 at 20% down; county-side parcels at equivalent prices run closer to 0.72. Rents have real support, downtown's historic-district premium is durable, and the construction-phase payroll is already in the market. Buy the address by its tax map, not its zip code.",
+      "regulationBadge": "moderate",
+      "regulationNote": "The City of Frederick runs its own rental licensing and inspection program on top of statewide landlord law, and city parcels carry a combined tax stack near 1.83%, so the jurisdiction line is the first underwriting question in every Frederick file.",
+      "neighborhoods": [
+        {
+          "name": "Downtown Frederick (21701)",
+          "medianPrice": 425000,
+          "medianRent": 2200,
+          "note": "The historic core: brick townhomes and small multifamily within walking distance of Market Street. Values roughly $300K to $600K by condition, three-bed rowhome-style rentals near $2,200 to $2,500. Premium tenancy, full 1.83% city tax stack, and historic-district approvals on exterior work."
+        },
+        {
+          "name": "Ballenger Creek (21703)",
+          "medianPrice": 420621,
+          "medianRent": 2334,
+          "note": "The unincorporated townhome belt southwest of the city, typical value $420,621, down 1.3%, zip average rent $2,334. Same commuter shed, county-only tax stack near 1.22%, and the closest bedroom inventory to the Quantum Frederick site. The default DSCR address in Frederick."
+        },
+        {
+          "name": "Worman's Mill / North Frederick (21701)",
+          "medianPrice": 520000,
+          "medianRent": 2600,
+          "note": "Newer planned-community stock on the city's north end, mostly $450K to $600K with three-bed rents around $2,600. Inside city limits, so the full stack applies; buyers here are trading yield for newer mechanicals and lower capex risk."
+        }
+      ],
+      "localAngle": {
+        "tag": "Growth vs. Tax Map",
+        "title": "Data centers to the south, a 61-cent tax line through the middle.",
+        "body": "Frederick County is carrying two stories at once, and an investor needs both in the file. The first is demand: the Quantum Frederick campus in Adamstown, 2,100 acres planned as one of the largest data center developments on the East Coast, has moved from rezoning fights to construction reality. Rowan Digital Infrastructure's Bauxite I, II, and III projects, roughly 600 MW, were under construction as of July 2026, TPG Real Estate now controls the campus after Quantum Loophole stepped back, and the planned QLoop is a 40-mile fiber ring connecting the site to Northern Virginia's data center corridor. Construction payroll is renting housing in Frederick and Ballenger Creek today, and the county has been writing critical digital infrastructure rules in real time, complete with 2026 sediment-control violations that tell you enforcement is live. The second story is the tax map. A City of Frederick parcel pays the city's $0.7055, the county's in-city differential rate of $1.0125, and the state's $0.112 per $100, roughly 1.83% of value with no Homestead Credit on a rental. The identical townhome in unincorporated Ballenger Creek pays about 1.22%. That 61-cent spread is around $210 a month on a $420,000 property, frequently the whole difference between negative and positive carry. Your matched specialist will check the jurisdiction line before the rent survey, because in Frederick the tax map is the deal."
+      },
+      "programFit": [
+        "standard-dscr",
+        "no-ratio-dscr",
+        "bridge-to-dscr",
+        "portfolio-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 2.5-bath brick townhome",
+        "neighborhood": "Downtown Frederick (21701)",
+        "purchasePrice": 380000,
+        "downPaymentPct": 25,
+        "downPayment": 95000,
+        "loanAmount": 285000,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 1992,
+        "monthlyTax": 580,
+        "monthlyInsurance": 125,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 2697,
+        "monthlyRent": 2450,
+        "dscr": 0.91,
+        "monthlyCashFlow": -247,
+        "specialistFocus": [
+          "Underwrote the full 1.83% in-city stack, city plus county differential plus state, instead of the county-only figure the listing agent's net sheet used",
+          "Ran the same file against a Ballenger Creek comp at the 1.22% county stack so the investor could see the $210 monthly spread before choosing the historic-district address",
+          "Placed the loan with a lender that accepts a documented 0.91 on strong reserves, because the downtown premium is an appreciation-and-tenancy play, not a cash-flow one"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Will the data centers actually move Frederick rents?",
+          "answer": "Treat construction and operations as two different bets. Construction is real now: Rowan's Bauxite projects at Quantum Frederick, roughly 600 MW, were under construction as of mid-2026, and that payroll rents townhomes in Ballenger Creek and apartments in the city. Operational data centers, by contrast, run lean headcounts, so do not model a permanent employment boom from the buildings themselves. The durable rent support comes from Frederick's position as the affordable end of the I-270 corridor plus the construction cycle, which has years to run. Underwrite today's $2,205 average and 2% growth, and let any data-center upside be margin."
+        },
+        {
+          "question": "Why is the city tax stack 1.83% when Frederick County's rate is $1.11?",
+          "answer": "Because City of Frederick parcels pay two governments. The city levies $0.7055 per $100, the county charges city parcels a differential rate of $1.0125 instead of its full $1.11, and the state adds $0.112, which sums to about $1.83 per $100 of assessed value. An unincorporated parcel pays just the county's $1.11 plus state, about 1.22%. Maryland assesses at market value on a triennial cycle with increases phased in, and the Homestead Credit never applies to rentals, so a newly purchased rental gets billed on the full phased-in assessment. The city-versus-county line is worth roughly $210 a month on a $420K property."
+        },
+        {
+          "question": "Downtown historic district or Ballenger Creek townhome?",
+          "answer": "Two different jobs. Downtown 21701 brick townhomes rent to the strongest tenant pool in western Maryland and hold value through cycles, but you pay the 1.83% stack, historic-district review governs exterior work, and the ratio at 25% down lands near 0.91 on honest numbers. Ballenger Creek gives you 1990s-2000s townhomes at a $420,621 typical value, $2,300-plus zip-average rents, the 1.22% county stack, and files that clear 1.0 with ordinary structuring. Cash-flow buyers should default to the county side; downtown earns its keep as a long-hold appreciation and tenancy asset."
+        },
+        {
+          "question": "Does the City of Frederick license rentals?",
+          "answer": "Yes. The City of Frederick operates its own rental licensing and inspection program, separate from anything the county requires, and city rentals need that license in place to operate legally, a point Maryland courts back up by barring unlicensed landlords from failure-to-pay-rent actions in licensing jurisdictions. Statewide rules stack on top: the 2024 Renters' Rights and Stabilization Act capped security deposits at one month's rent and created a tenant right of first refusal with a 30-day exclusive negotiation window when 1-to-3-unit rental properties sell. Build the license timeline and the disposition rules into your plan up front."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index and Observed Rent Index, Frederick, June 2026; zip 21703 page, June 2026",
+        "US Census Bureau Housing Vacancy Survey Table 6, Washington metro rental vacancy, 2025",
+        "Maryland SDAT tax rate chart, City of Frederick $0.7055 plus county differential $1.0125 plus state $0.112, July 2026",
+        "Nature Forward Quantum Frederick series June 2026, Data Center Dynamics and PoweredByWho project trackers, Rowan Bauxite construction status, July 2026",
+        "Maryland DHCD, Renters' Rights and Stabilization Act FAQ, retrieved August 2026",
+        "Downtown and Worman's Mill submarket figures from Zillow area pages and listings, August 2026 (est.)"
+      ]
+    },
+    {
+      "city": "Waldorf",
+      "slug": "waldorf",
+      "county": "Charles County",
+      "metro": "Washington-Arlington-Alexandria",
+      "hook": "Waldorf rents rose 4.2% in a year, the strongest print in Maryland's major investor markets, against a $439K typical value that slipped 1.5%. Rents up, prices down is the whole thesis.",
+      "metaDescription": "Waldorf rents rose 4.2% in a year against $439K values, the strongest rent growth in Maryland's DSCR markets. St. Charles leads the math. Get matched today.",
+      "market": {
+        "medianPrice": 439312,
+        "medianRent": 2249,
+        "priceToRent": 16.3,
+        "vacancyRate": 6.4,
+        "yoyPrice": -1.5,
+        "yoyRent": 4.2,
+        "estDSCR": 0.73,
+        "propertyTaxRate": 1.253,
+        "insuranceMonthly": 165
+      },
+      "overview": "Waldorf is the DC commuter market that still behaves like one. The typical home value is $439,312, down 1.5% over the year, while average rents jumped 4.2% to $2,249, the fastest rent growth of the twelve markets in this file. That divergence, prices easing while rents accelerate, is the setup value investors wait for, and it is happening in a market where three-bed townhomes list for rent at $2,800-plus.\n\nThe structure of Waldorf helps. Most of the rental stock sits in St. Charles, the 1970s-2000s planned community that makes up the 20602 and 20603 zips, where the typical value in 20602 is $394,085 against a $2,386 zip-average rent. That tier, high-$300Ks entry with mid-$2,000s rents, is where files clear 1.0 with ordinary structuring. Charles County's tax rate is $1.141 plus the state's $0.112, about 1.25% all-in, with no municipal layer because Waldorf is unincorporated, and no county rent cap.\n\nThe demand base is Branch Avenue Metro park-and-ride commuters, Joint Base Andrews and Navy families, and Prince George's County renters trading up for space. The state is also studying the corridor: the Southern Maryland Rapid Transit project, evaluating bus rapid transit and light rail along the US 301/MD 5 line through Waldorf, advanced into its federally required planning phase. Do not underwrite the train. Do underwrite the 4.2%.",
+      "regulationBadge": "moderate",
+      "regulationNote": "Waldorf is unincorporated, so there is no municipal license layer or rent cap; statewide rules still apply, including the one-month security deposit cap and the tenant right of first refusal on 1-to-3-unit sales from the 2024 Renters' Rights and Stabilization Act.",
+      "neighborhoods": [
+        {
+          "name": "St. Charles (20602)",
+          "medianPrice": 394085,
+          "medianRent": 2386,
+          "note": "The planned-community core, typical value $394,085, down 1.5%, zip-average rent $2,386. Townhome villages with small association fees, the volume DSCR trade in Southern Maryland; three-bed units rent fast to Andrews and Metro commuters."
+        },
+        {
+          "name": "North Waldorf (20601)",
+          "medianPrice": 430000,
+          "medianRent": 2400,
+          "note": "The closest-to-DC zip, a mix of older SFRs on larger lots and 1990s subdivisions, values mostly high-$300Ks to high-$400Ks. Shortest commute in the market and the strongest single-family rent depth, with three-beds pushing $2,700 and up."
+        },
+        {
+          "name": "Westlake / 20603",
+          "medianPrice": 465000,
+          "medianRent": 2500,
+          "note": "The newer western tier around the Regency Furniture Stadium corridor, values roughly $420K to $520K. Newest townhome and SFR stock in Waldorf, lower capex risk, thinner ratio; works best with larger down payments or interest-only structures."
+        }
+      ],
+      "localAngle": {
+        "tag": "Rent Momentum",
+        "title": "The only Maryland market where the rent line is outrunning everything else.",
+        "body": "Every market in this file has a story; Waldorf's is the simplest. Average rents rose 4.2% in the year through June 2026 while values slipped 1.5%, and that spread compounds directly into the ratio: a file that penciled at 0.95 on last summer's rent survey pencils at 0.99 today without the price moving. The drivers are structural rather than speculative. Waldorf is the affordability release valve for the DC side of the Beltway, where the same townhome dollar buys a third more house than Prince George's County, and the tenant base is anchored by Joint Base Andrews households on dependable housing allowances, Metro commuters using the Branch Avenue park-and-rides, and federal workers priced out of closer-in ownership. Supply is the quiet half of the story: Charles County entitles new construction slowly, and St. Charles, the planned community that built Waldorf, is largely built out. The state's Southern Maryland Rapid Transit project, which would run bus rapid transit or light rail up the US 301/MD 5 corridor through Waldorf toward the Branch Avenue Metro, moved into its formal planning-and-environment phase with the Maryland Transit Administration. It is a study, not a shovel, so treat it as a free option rather than an underwriting input. The honest Waldorf file uses today's rent roll, the 1.25% county-plus-state tax stack, and zero transit premium, and your matched specialist will build it exactly that way."
+      },
+      "programFit": [
+        "standard-dscr",
+        "portfolio-dscr",
+        "interest-only-dscr",
+        "bank-statement-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 2.5-bath townhome",
+        "neighborhood": "St. Charles (20602)",
+        "purchasePrice": 400000,
+        "downPaymentPct": 25,
+        "downPayment": 100000,
+        "loanAmount": 300000,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 2097,
+        "monthlyTax": 418,
+        "monthlyInsurance": 140,
+        "monthlyHOA": 30,
+        "monthlyPITIA": 2685,
+        "monthlyRent": 2700,
+        "dscr": 1.01,
+        "monthlyCashFlow": 15,
+        "specialistFocus": [
+          "Qualified on the appraiser's $2,700 market rent for the specific townhome, supported by the 4.2% county rent trend, rather than the blended $2,249 citywide average",
+          "Structured 25% down because 20% put the ratio at 0.96, and the extra five points bought a cleaner approval and pricing tier",
+          "Verified the St. Charles sub-association dues and kept them in the payment stack, since even a $30 line flips a 1.01 file to 0.99 when it gets missed"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Is Waldorf's 4.2% rent growth durable or a one-year blip?",
+          "answer": "The drivers look structural. Waldorf prices roughly a third below comparable Prince George's County stock for the same commute shed, Joint Base Andrews supplies a steady tenant base on housing allowances, and Charles County adds new supply slowly because St. Charles is essentially built out. Rents rose 4.2% in the year through June 2026 while DC-metro vacancy sat at 6.4%, so the growth came from demand, not from a vacancy squeeze that could snap back. Prudent underwriting still models 2 to 3% forward growth and treats the current momentum as margin rather than baseline."
+        },
+        {
+          "question": "Does the 1.25% Charles County tax stack break the math?",
+          "answer": "It compresses it without breaking it. The county's $1.141 rate plus the state's $0.112 lands near 1.25% of assessed value, which is about $418 a month on a $400K purchase, and because the Homestead Credit never applies to rentals you pay on the full phased-in assessment from day one. The offset is that Waldorf has no municipal tax layer and no rental license fee stack, unlike the City of Frederick or Baltimore. Net effect: St. Charles townhomes bought right still clear 1.0 at 25% down on real rents, which is more than most DC-metro submarkets can say in 2026."
+        },
+        {
+          "question": "Should I factor the Southern Maryland light rail into my purchase?",
+          "answer": "No, and yes. No, because the Southern Maryland Rapid Transit project is in its planning-and-environment study phase with the Maryland Transit Administration, evaluating bus rapid transit and light rail along US 301/MD 5, and Maryland transit timelines are measured in decades, not lease terms. Yes, in the sense that it is a free option attached to real estate you would buy anyway on today's numbers. If the corridor ever breaks ground, Waldorf's park-and-ride commuter base converts into transit-adjacent tenancy. Underwrite the file at zero transit premium and let the option ride."
+        },
+        {
+          "question": "What does the 2024 state law change about selling my Waldorf rental later?",
+          "answer": "Maryland's Renters' Rights and Stabilization Act, effective October 1, 2024, gives tenants in 1-to-3-unit rental properties a right of first refusal when the owner intends to sell to a third party, including a 30-day exclusive negotiation window after notice, with exemptions for transfers like family conveyances, court-ordered sales, and properties of four or more units. It also capped security deposits at one month's rent statewide. Neither kills an exit; both add process and calendar time. Build the notice mechanics into any disposition plan, and keep deposits compliant from the first lease so the file stays clean."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index and Observed Rent Index, Waldorf, June 2026; zip 20602 page, June 2026",
+        "US Census Bureau Housing Vacancy Survey Table 6, Washington metro rental vacancy, 2025",
+        "Maryland SDAT tax rate chart, Charles County $1.141 plus state $0.112 per $100, July 2026",
+        "Maryland Transit Administration, Southern Maryland Rapid Transit PEL study announcements, retrieved August 2026",
+        "Maryland DHCD, Renters' Rights and Stabilization Act FAQ, retrieved August 2026",
+        "North Waldorf and Westlake submarket figures from Zillow area pages and listings, August 2026 (est.)"
+      ]
+    },
+    {
+      "city": "Glen Burnie",
+      "slug": "glen-burnie",
+      "county": "Anne Arundel County",
+      "metro": "Baltimore-Columbia-Towson",
+      "hook": "Glen Burnie's typical value is $401K, one of only three markets in this file where prices rose, and a single-family rental here needs no county rental license at all. The BWI-Fort Meade tenant base does the rest.",
+      "metaDescription": "Glen Burnie averages $401K with BWI and Fort Meade tenants, and single-family rentals skip the county license. See the honest DSCR math. Get matched today.",
+      "market": {
+        "medianPrice": 401291,
+        "medianRent": 1708,
+        "priceToRent": 19.6,
+        "vacancyRate": 5.2,
+        "yoyPrice": 0.6,
+        "yoyRent": 1.9,
+        "estDSCR": 0.62,
+        "propertyTaxRate": 1.08,
+        "insuranceMonthly": 150
+      },
+      "overview": "Glen Burnie is the working spine of northern Anne Arundel County: postwar ranches, split foyers, and duplexes ten minutes from BWI, the Amazon and logistics corridor around the airport, and the Fort Meade-NSA employment mass to the southwest. The typical value is $401,291, up 0.6% over the year while most of the state corrected, and 45.3% of May sales still closed over list. The blended average rent of $1,708 undersells the investor stock: three- and four-bed houses in the 21061 core rent $2,300 to $2,500, and the zip's typical value is $385,369.\n\nThe cost side is the quiet advantage. Anne Arundel's rate is $0.968 plus the state's $0.112, about 1.08% all-in, less than half of Baltimore City's stack two exits north. And the licensing regime is the lightest in the metro: the county's Multiple Dwelling License applies to buildings with two or more units, and the code exempts single-family dwellings outright. Rent a house in Glen Burnie and there is no county rental license to pull; buy a duplex and you file for the MDL at $120 plus $25 per unit, with a health and fire inspection and, for out-of-county owners, a designated resident agent.\n\nAt the blended median the ratio reads 0.62; on the actual SFR trade, roughly $385K against $2,400, files land near 0.95 to 1.0, and duplexes clear it. Metro vacancy 5.2%. Boring, licensed lightly, and durable.",
+      "regulationBadge": "moderate",
+      "regulationNote": "Anne Arundel County requires its Multiple Dwelling License only at two or more units, single-family rentals are exempt, though out-of-county owners of licensed buildings must name a county-resident agent and statewide lead and deposit rules still apply.",
+      "neighborhoods": [
+        {
+          "name": "Glen Burnie core (21061)",
+          "medianPrice": 385369,
+          "medianRent": 2300,
+          "note": "The heart of the market: 1950s-70s ranches and splits west of Ritchie Highway, zip typical value $385,369, up 0.8%. Three-beds rent $2,300 to $2,500 to airport, logistics, and Fort Meade households; the default single-family DSCR trade in north county."
+        },
+        {
+          "name": "Ferndale",
+          "medianPrice": 370000,
+          "medianRent": 2250,
+          "note": "The older grid between Glen Burnie and the BWI rail spur, with the county's best supply of legal duplexes and small two-unit conversions. Values around $370K for singles; two-unit buildings trade $430K to $480K and carry the county MDL requirement."
+        },
+        {
+          "name": "Marley Neck (21060)",
+          "medianPrice": 420000,
+          "medianRent": 2500,
+          "note": "The newer east-side tier toward Solley Road: 1990s-2010s colonials and townhomes, values low-to-mid $400Ks, three-bed rents near $2,500. Lower capex, thinner ratio; the move-up tenant tier for NSA and defense-contractor households."
+        }
+      ],
+      "localAngle": {
+        "tag": "Light Licensing",
+        "title": "The county line where a single-family rental needs no license at all.",
+        "body": "Cross from Baltimore City into Anne Arundel County and the compliance stack collapses. Baltimore requires registration of every non-owner-occupied property, an inspection-backed rental license, and annual MDE lead registration on its mostly pre-1978 stock. Anne Arundel's rule, spelled out in its licensing code, is narrower: the Multiple Dwelling License applies to properties with two or more dwelling units, rooming houses, and similar operations, at $120 plus $25 per unit, with Health Department and Fire Marshal inspections and a zoning certificate of use. Single-family dwellings are expressly excluded, as are true roommate arrangements and owner-occupied two-unit homes. The practical consequences run in both directions. For the SFR investor, Glen Burnie is about as close to permit-free leasing as Maryland gets: no county license, no scheduled municipal inspection, just the statewide baseline, lead compliance for pre-1978 houses, the one-month security deposit cap, and the licensing-free path to rent court that Baltimore landlords envy. For the duplex buyer, the MDL is real but modest, and one detail catches out-of-state investors: if the owner does not live in Anne Arundel County, the county requires a designated resident agent, plus an alternate, authorized by notarized statement to receive violation notices and service of process. That is a property-manager checkbox, not a barrier. Your matched specialist will structure the file to match the unit count, because in this county the license question is decided by whether the building has one door or two."
+      },
+      "programFit": [
+        "standard-dscr",
+        "portfolio-dscr",
+        "bridge-to-dscr",
+        "no-ratio-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "Duplex (2-unit)",
+        "neighborhood": "Ferndale",
+        "purchasePrice": 450000,
+        "downPaymentPct": 25,
+        "downPayment": 112500,
+        "loanAmount": 337500,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 2359,
+        "monthlyTax": 405,
+        "monthlyInsurance": 160,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 2924,
+        "monthlyRent": 3000,
+        "dscr": 1.03,
+        "monthlyCashFlow": 76,
+        "specialistFocus": [
+          "Underwrote both units at $1,500 against the appraiser's small-multifamily rent schedule instead of stretching to the $1,700 single-unit comps across Ritchie Highway",
+          "Built the county Multiple Dwelling License into the closing checklist, $120 plus $25 per unit with health and fire inspections, because a two-unit building triggers it even though a house next door would not",
+          "Documented the county-resident agent designation for the out-of-state owner up front, the notarized requirement that stalls unprepared files at the license desk"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Do I really not need a rental license for a Glen Burnie house?",
+          "answer": "For a single-family dwelling, Anne Arundel County's licensing FAQ is explicit: the Multiple Dwelling License applies to properties with two or more units, rooming houses, and similar operations, and single-family dwellings are excluded. That makes Glen Burnie one of the lightest-touch rental jurisdictions in the Baltimore metro, a sharp contrast with Baltimore City's registration-license-lead stack. The statewide baseline still applies everywhere: MDE lead registration and clearance testing for pre-1978 houses, the one-month security deposit cap, and the 2024 tenant right of first refusal mechanics when you eventually sell a 1-to-3-unit rental."
+        },
+        {
+          "question": "The market table shows 0.62. What does a real Glen Burnie file look like?",
+          "answer": "The 0.62 divides a blended $1,708 average rent, weighted by garden apartments, into a $401K typical value that skews single-family. The asset you would actually buy, a three-bed ranch in 21061 near the zip's $385,369 typical value, rents $2,300 to $2,500, which puts an amortizing 25%-down file at roughly 0.95 to 1.0. Ferndale duplexes at $450K collecting $3,000 across two doors clear 1.0 with margin. DSCR lenders qualify on the appraiser's rent survey for the specific property, so the blended index is context, not your number."
+        },
+        {
+          "question": "Who rents in Glen Burnie?",
+          "answer": "Three overlapping paychecks. BWI and its logistics ring, including the airport-adjacent warehouse corridor, supply shift workers who want a ten-minute commute. Fort Meade, NSA, and the defense contractors around them supply cleared workers and military families, many on housing allowances, who rent before they buy. And Baltimore commuters take the light rail or Route 2 north. That mix kept values rising 0.6% through a statewide correction and keeps three-bed houses leasing quickly at $2,300-plus. It is a wage-diverse, recession-resistant base, which is what you want holding up a leveraged payment."
+        },
+        {
+          "question": "Should I buy the cheap rowhomes in Brooklyn and Curtis Bay instead?",
+          "answer": "Know which side of the line you are on. Brooklyn and Curtis Bay sit inside Baltimore City, so the $109K to $135K price tags come packaged with the 2.36% city tax stack, city registration and licensing, lead-cert cycles on pre-1978 rowhomes, and the metro's toughest condition and turnover risk. Glen Burnie's $385K entry point costs more money and less grief: 1.08% taxes, no license on a single-family, and a deeper tenant pool. Portfolio buyers do run both playbooks, but they underwrite them as different businesses. Price per door is not the same thing as return per door."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index and Observed Rent Index, Glen Burnie, June 2026; zip 21061 page, June 2026",
+        "US Census Bureau Housing Vacancy Survey Table 6, Baltimore-Columbia-Towson metro rental vacancy, 2025",
+        "Maryland SDAT tax rate chart, Anne Arundel County $0.968 plus state $0.112 per $100, July 2026",
+        "Anne Arundel County Inspections and Permits licensing FAQ, Multiple Dwelling License scope and resident-agent rule, retrieved August 2026",
+        "Ferndale and Marley Neck submarket figures from Zillow area pages and listings, August 2026 (est.)"
+      ]
+    },
+    {
+      "city": "Rockville",
+      "slug": "rockville",
+      "county": "Montgomery County",
+      "metro": "Washington-Arlington-Alexandria",
+      "hook": "Rockville rentals are exempt from Montgomery County's rent cap, the county's own guidance says so, but the price of that freedom is a $624K typical value where almost every amortizing file starts below 1.0.",
+      "metaDescription": "Rockville is exempt from Montgomery County's rent cap, but $624K entry prices push most DSCR files below 1.0. No-ratio structures fit here. Get matched today.",
+      "market": {
+        "medianPrice": 623896,
+        "medianRent": 2426,
+        "priceToRent": 21.4,
+        "vacancyRate": 6.4,
+        "yoyPrice": -1.1,
+        "yoyRent": -0.2,
+        "estDSCR": 0.56,
+        "propertyTaxRate": 1.23,
+        "insuranceMonthly": 180
+      },
+      "overview": "Rockville is the county seat, the biotech corridor's front porch, and the most expensive market in this file at a $623,896 typical value, down 1.1% over the year. Average rents were flat at $2,426, three Red Line stations anchor the commute, and the I-270 life-science employers, plus NIH one town south, supply the tenant base with the strongest credit profiles in Maryland.\n\nTwo structural facts define the investor file. First, the regulation: Rockville is an incorporated city, and Montgomery County's own rent stabilization guidance states that rentals inside the City of Rockville are not subject to the county law. The 5.2% county cap that governs Silver Spring and Germantown simply does not reach here, and the city has no equivalent cap of its own. Second, the cost stack: the city levies $0.292 per $100 on top of the county's in-city $0.6706, the state's $0.112, and the county district levies that still apply, an investor total near 1.23% of value.\n\nAt the median the ratio is a brutal 0.56, and no amount of copywriting fixes that. What works is either the condo tier, Town Center units carry a $315,798 typical value against $2,300-plus rents, or honestly structured negative carry on SFRs: no-ratio programs, 30%-plus down, and a documented plan built on the uncapped rent trajectory. DC-metro vacancy ran 6.4% in 2025. This is a balance-sheet market, and it rewards the investors who treat it like one.",
+      "regulationBadge": "moderate",
+      "regulationNote": "Rentals inside the City of Rockville are exempt from Montgomery County's rent stabilization law per the county's own guidance, and the city imposes no cap of its own, though city rental licensing and statewide landlord law still apply.",
+      "neighborhoods": [
+        {
+          "name": "Twinbrook",
+          "medianPrice": 548307,
+          "medianRent": 3000,
+          "note": "The 1950s rambler grid around the Twinbrook Metro, typical value $548,307. The classic Rockville rental: three-bed brick ranches leasing near $3,000 to lab and hospital staff. Entry tier for the city and the natural no-ratio candidate."
+        },
+        {
+          "name": "Lincoln Park",
+          "medianPrice": 504252,
+          "medianRent": 2800,
+          "note": "The historic neighborhood east of the Rockville Metro, typical value $504,252, the lowest SFR entry point in central Rockville. Smaller lots and older housing mean inspection findings; the Metro walk and Town Center adjacency mean the rent floor holds."
+        },
+        {
+          "name": "Town Center",
+          "medianPrice": 315798,
+          "medianRent": 2300,
+          "note": "The condo tier at Rockville's core, typical value $315,798 with two-beds renting $2,300 to $2,700 across the street from the Metro and courthouse. The only Rockville product that approaches 1.0 on ordinary structuring; condo fees and lender project review are the gatekeepers."
+        },
+        {
+          "name": "King Farm",
+          "medianPrice": 633931,
+          "medianRent": 3200,
+          "note": "The early-2000s planned community by the Shady Grove Metro, typical value $633,931. Premium townhomes and singles renting $3,200-plus to biotech and hospital professionals. Appreciation-and-tenant-quality territory; ratios here need interest-only or heavy equity."
+        }
+      ],
+      "localAngle": {
+        "tag": "Cap Exemption",
+        "title": "The county rent cap stops at the city line. The price of admission is the ratio.",
+        "body": "Montgomery County's rent stabilization program, built on Bill 15-23, caps annual increases on covered units at CPI-U plus 3%, no more than 6%, with the published allowance at 5.2% for increases taking effect July 1, 2026 through June 30, 2027. But the county's own rent stabilization page carves out the incorporated municipalities by name: rental units located in the Cities of Gaithersburg, Rockville, and Takoma Park are not subject to the county law. Takoma Park runs its own older stabilization regime; Rockville does not, which leaves Rockville landlords governed by the city's rental licensing program and statewide law rather than any percentage cap. For an investor holding through lease cycles, that is a real difference in kind: renovation repositioning, catch-up increases after long tenancies, and market-rate resets at turnover all remain legal tools inside the city while the surrounding unincorporated county runs at 5.2%. The trade is arithmetic. A $548,307 Twinbrook rambler renting $3,000 produces a 0.91 file even at 30% down, and the all-in tax stack near 1.23%, city, county, district levies, and state combined, is the second-highest carry in this file after the licensing-light markets are accounted for. So Rockville files get structured, not forced: no-ratio programs priced for sub-1.0 coverage, interest-only periods matched to the uncapped rent trajectory, or condo-tier entries where the numbers start closer to even. Your matched specialist will document the exemption itself in the file, because an underwriter who assumes county-cap rent growth is underpricing the asset's actual upside."
+      },
+      "programFit": [
+        "no-ratio-dscr",
+        "interest-only-dscr",
+        "standard-dscr",
+        "foreign-national-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 2-bath SFR",
+        "neighborhood": "Twinbrook",
+        "purchasePrice": 550000,
+        "downPaymentPct": 30,
+        "downPayment": 165000,
+        "loanAmount": 385000,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 2691,
+        "monthlyTax": 564,
+        "monthlyInsurance": 170,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 3425,
+        "monthlyRent": 3100,
+        "dscr": 0.91,
+        "monthlyCashFlow": -325,
+        "specialistFocus": [
+          "Placed the file in a no-ratio program that prices the documented 0.91 honestly, instead of inflating the rent survey to fake a 1.0 that the appraiser would never sign",
+          "Structured 30% down and twelve months of reserves so the $325 monthly negative is a planned cost of holding a Metro-walkable asset, not a surprise",
+          "Documented Rockville's exemption from the county rent cap in the file, because the uncapped reset-at-turnover trajectory is the entire investment case for accepting negative carry"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Is Rockville really exempt from Montgomery County's rent control?",
+          "answer": "Yes. The county's own rent stabilization guidance lists the municipalities outside the law, naming the Cities of Gaithersburg, Rockville, and Takoma Park, and directing tenants there to their local governments. Takoma Park has its own long-standing stabilization ordinance; Rockville does not impose a rent cap, so city rentals operate under Rockville's licensing program and statewide landlord-tenant law instead of the county's 5.2% allowance. That exemption is durable but not constitutionally guaranteed, city councils can legislate, so document the current framework in your file and monitor it like any other regulatory input."
+        },
+        {
+          "question": "Why would anyone accept negative carry at 0.91?",
+          "answer": "Because the negative is the price of an asset with three Red Line stations, the I-270 biotech employment base, and an uncapped rent trajectory in a county where the unincorporated competition is limited to 5.2% increases. A Twinbrook rambler at $550K renting $3,100 costs roughly $325 a month at 30% down on honest numbers. Investors who take that trade are underwriting tenant quality, land value near Metro, and reset-at-turnover economics, with the negative funded from reserves as a known holding cost. If monthly cash flow is the goal, this is the wrong market, and the right answer is saying so."
+        },
+        {
+          "question": "Are the Town Center condos the workaround?",
+          "answer": "They are the closest thing Rockville has to cash-flow product. The Town Center typical value is $315,798, two-beds rent $2,300 to $2,700 within a block of the Metro, and at 25% down the numbers approach break-even before condo dues. The gatekeepers are the associations: monthly fees of $400 to $700 absorb much of the spread, and lenders review project budgets, reserves, insurance, and investor concentration before approving. Some buildings clear conventional review; others need lenders comfortable with non-warrantable projects. That is a lender-matching exercise across a 70+ lender network, not a reason to skip the tier."
+        },
+        {
+          "question": "What does the 1.23% tax stack actually consist of?",
+          "answer": "Four layers. The State of Maryland charges $0.112 per $100 of assessed value. Montgomery County's general levy inside municipalities is $0.6706. The City of Rockville adds $0.292. And county special-district levies that still apply within the city bring the practical investor total to roughly 1.23% of value, about $564 a month on a $550K purchase. Maryland reassesses on a three-year cycle with increases phased in, and the Homestead Credit belongs to owner-occupants only, so a rental pays on the full phased-in assessment. Budget the stack from the SDAT record, not the seller's capped bill."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index and Observed Rent Index, Rockville, June 2026",
+        "US Census Bureau Housing Vacancy Survey Table 6, Washington metro rental vacancy, 2025",
+        "Montgomery County DHCA Office of Rent Stabilization, municipal exemption list and 5.2% allowance, retrieved August 2026",
+        "Maryland SDAT tax rate chart, Rockville $0.292 plus county $0.6706 plus state $0.112, with district levies additional (investor total approx 1.23, est.), July 2026",
+        "Neighborhood values from Zillow neighborhood pages, June 2026; rents from area listings and rent surveys, August 2026 (est.)"
+      ]
+    },
+    {
+      "city": "Gaithersburg",
+      "slug": "gaithersburg",
+      "county": "Montgomery County",
+      "metro": "Washington-Arlington-Alexandria",
+      "hook": "Gaithersburg city rentals sit outside Montgomery County's rent cap while Montgomery Village, literally across the street, is covered at 5.2%. The boundary is now an underwriting input, and values just repriced 2.1% in your favor.",
+      "metaDescription": "Gaithersburg city rentals sit outside the county's 5.2% rent cap while Montgomery Village next door is covered. DSCR math on both sides. Get matched today.",
+      "market": {
+        "medianPrice": 529016,
+        "medianRent": 2187,
+        "priceToRent": 20.2,
+        "vacancyRate": 6.4,
+        "yoyPrice": -2.1,
+        "yoyRent": 0.6,
+        "estDSCR": 0.6,
+        "propertyTaxRate": 1.2,
+        "insuranceMonthly": 165
+      },
+      "overview": "Gaithersburg is the I-270 corridor's split personality, and for once the split favors the informed buyer. The typical home value is $529,016, down 2.1% over the year, the second-softest print in Montgomery County's investor tier, while average rents edged up 0.6% to $2,187 and homes still went pending in 10 days with 43.5% of May sales over list. Soft prices, firm demand.\n\nThe regulatory geography is the story. Incorporated Gaithersburg is one of the municipalities that Montgomery County's rent stabilization law does not reach, the county's guidance names the city explicitly, and Gaithersburg imposes no cap of its own. Step across the city line into Montgomery Village, the 1960s-70s planned community that shares the zip codes and the shopping centers, and you are in unincorporated county territory where the 5.2% allowance governs every rental more than 23 years old, which in Montgomery Village is essentially all of them. Same tenant pool, same commute, different rulebooks.\n\nThe tax stack inside the city runs near 1.2%: state $0.112, county in-city levy $0.6706, city $0.262, plus the county district charges that still apply. At the median the ratio reads 0.6; the working trades are Olde Towne singles and townhomes in the low-to-mid $400Ks renting $2,700-plus, and Montgomery Village condos and townhomes at a $393,860 typical value where the cap is the tradeoff for the entry price. DC-metro vacancy: 6.4%. Pick your side of the line deliberately.",
+      "regulationBadge": "moderate",
+      "regulationNote": "City of Gaithersburg rentals are exempt from the county rent cap per Montgomery County's own guidance, but the city runs its own rental licensing, and adjacent unincorporated Montgomery Village is fully covered at the 5.2% allowance.",
+      "neighborhoods": [
+        {
+          "name": "Olde Towne",
+          "medianPrice": 400000,
+          "medianRent": 2300,
+          "note": "The original downtown grid around the MARC station: 1900s-1950s singles and small multifamily, values mostly mid-$300Ks to high-$400Ks. The city's value tier and its redevelopment focus area; uncapped rents and walkable-transit tenancy, with age-of-stock capex to match."
+        },
+        {
+          "name": "Montgomery Village (adjacent CDP)",
+          "medianPrice": 393860,
+          "medianRent": 2410,
+          "note": "The unincorporated planned community on Gaithersburg's north edge, typical value $393,860, down 2.3%, average rent $2,410. Best entry prices in the submarket, but it sits under the county's 5.2% rent cap and layered community associations; model both."
+        },
+        {
+          "name": "Kentlands / Lakelands",
+          "medianPrice": 700000,
+          "medianRent": 3300,
+          "note": "The new-urbanist showcase on the west side, values mostly $600Ks to $800Ks with townhomes renting $3,100 to $3,500. Premium tenancy and the city's strongest appreciation history; ratios need interest-only or 35% down to breathe."
+        }
+      ],
+      "localAngle": {
+        "tag": "Boundary Arbitrage",
+        "title": "One street, two rent rulebooks: the city line as an underwriting input.",
+        "body": "Montgomery County's rent stabilization program caps increases on covered units at the lesser of CPI-U plus 3% or 6%, with the allowance set at 5.2% for increases taking effect July 1, 2026 through June 30, 2027, and it covers every county-licensed rental at least 23 years old in unincorporated areas. The county's guidance then names the carve-outs: rentals inside the Cities of Gaithersburg, Rockville, and Takoma Park are not subject to the county law. In most of the county that is trivia. In Gaithersburg it is a map exercise with money attached, because Montgomery Village, the 32,000-resident planned community interleaved with the city's northern boundary, is unincorporated. A 1975 townhome on the Village side is capped at 5.2% this year; a comparable unit four hundred yards south inside the city can move to market at renewal. The Village compensates with the lowest entry prices in the submarket, a $393,860 typical value against a $2,410 average rent, plus its own layer of Montgomery Village Foundation assessments that belong in any honest payment stack. The city side charges more per door, runs its own rental licensing program, and leaves the rent trajectory to the market. Neither side is wrong; they are different machines. The mistake is underwriting one with the other's rulebook, which happens constantly when out-of-state buyers see 'Gaithersburg, MD' in both addresses. Your matched specialist will confirm which jurisdiction the parcel actually sits in before anything else in the file gets built."
+      },
+      "programFit": [
+        "standard-dscr",
+        "no-ratio-dscr",
+        "interest-only-dscr",
+        "portfolio-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 2-bath townhome",
+        "neighborhood": "Olde Towne",
+        "purchasePrice": 430000,
+        "downPaymentPct": 30,
+        "downPayment": 129000,
+        "loanAmount": 301000,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 2104,
+        "monthlyTax": 430,
+        "monthlyInsurance": 140,
+        "monthlyHOA": 90,
+        "monthlyPITIA": 2764,
+        "monthlyRent": 2750,
+        "dscr": 0.99,
+        "monthlyCashFlow": -14,
+        "specialistFocus": [
+          "Structured 30% down because 25% put the ratio at 0.94, and the extra equity brought the file to a 0.99 that priced like break-even",
+          "Verified the parcel sits inside city limits, exempt from the county's 5.2% cap, and documented that uncapped trajectory as the upside case for accepting fourteen dollars of monthly negative",
+          "Confirmed the City of Gaithersburg rental license and the townhome association's $90 dues before closing, so neither surfaced as a post-settlement surprise"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "How do I know if a Gaithersburg address is under the rent cap?",
+          "answer": "Check the jurisdiction, not the mailing address. USPS puts 'Gaithersburg' on tens of thousands of unincorporated parcels, including all of Montgomery Village, that sit under Montgomery County's rent stabilization law and its 5.2% allowance for the year starting July 1, 2026. Only parcels inside the incorporated City of Gaithersburg are exempt, per the county's own guidance. The city's GIS and the SDAT record both show incorporation status in seconds. Getting this wrong flips your entire rent-growth model, in either direction, so it is the first box your matched specialist will check."
+        },
+        {
+          "question": "Montgomery Village is cheaper. Is it the better buy?",
+          "answer": "It is the better entry and the tighter rulebook. The Village's $393,860 typical value against a $2,410 average rent produces the best raw ratio in the submarket, and its townhome and condo stock leases quickly to the same I-270 tenant base. The tradeoffs: virtually every unit predates 2003, so the county's 5.2% cap governs increases; the Montgomery Village Foundation assessment plus sub-association dues add a real monthly line; and values fell 2.3% this year. Buy it as a capped-growth cash-flow asset with association costs held honestly, not as a discount version of the city."
+        },
+        {
+          "question": "What is the play in Olde Towne?",
+          "answer": "Uncapped rents on the cheapest incorporated dirt in the corridor. Olde Towne's older singles and townhomes trade in the mid-$300Ks to high-$400Ks, rent $2,300 to $2,800 to MARC commuters and service workers, and sit squarely in the city's long-running redevelopment focus area around the station. Because the parcels are inside city limits, renewals can move to market, which matters over a ten-year hold in a way a spreadsheet's year-one row never shows. The offset is age-of-stock capex, 1920s-1950s systems, and the city's rental licensing and inspection cadence. Underwrite roofs and sewer laterals, not just the ratio."
+        },
+        {
+          "question": "Is a 2.1% price decline a reason to wait?",
+          "answer": "It is the reason to negotiate now. Gaithersburg's decline is a repricing inside a market that still moves, median 10 days to pending, 43.5% of May sales over list, not a market that stopped clearing. Rents rose 0.6% while prices fell, which mechanically improves every new file, and DC-metro vacancy at 6.4% shows no distress. Waiting for a bottom in a 10-day market means paying over list when it turns. The disciplined move is buying the softened price with honest structuring, 30% down or interest-only where the ratio needs it, and letting the entry basis be the margin."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index and Observed Rent Index, Gaithersburg and Montgomery Village, June 2026",
+        "US Census Bureau Housing Vacancy Survey Table 6, Washington metro rental vacancy, 2025",
+        "Montgomery County DHCA Office of Rent Stabilization, municipal exemption list and 5.2% allowance, retrieved August 2026",
+        "Maryland SDAT tax rate chart, Gaithersburg $0.262 plus county $0.6706 plus state $0.112, with district levies additional (investor total approx 1.20, est.), July 2026",
+        "Olde Towne and Kentlands submarket figures from Zillow area pages and listings, August 2026 (est.)"
+      ]
+    },
+    {
+      "city": "Hagerstown",
+      "slug": "hagerstown",
+      "county": "Washington County",
+      "metro": "Hagerstown-Martinsburg",
+      "hook": "Hagerstown is Maryland's cheapest metro at a $307K typical value with rents up 3.2%, but the city line nearly doubles the tax bill: 1.97% inside, 1.04% outside. The line decides the deal.",
+      "metaDescription": "Hagerstown looks like Maryland's yield market at $307K, but the city line nearly doubles the tax bill to 1.97%. Run the DSCR both sides. Get matched today.",
+      "market": {
+        "medianPrice": 307383,
+        "medianRent": 1442,
+        "priceToRent": 17.8,
+        "vacancyRate": 5.3,
+        "yoyPrice": 0.6,
+        "yoyRent": 3.2,
+        "estDSCR": 0.62,
+        "propertyTaxRate": 1.97,
+        "insuranceMonthly": 120
+      },
+      "overview": "Hagerstown reads like the value play from three states away: a $307,383 typical value, prices up 0.6% while the big metros corrected, rents up 3.2%, and an I-81/I-70 logistics economy stacking warehouses from the airport to the Antietam interchange. Maryland's statewide rental vacancy ran just 5.3% in 2025. Out-of-state buyers see Pennsylvania prices an hour from the Beltway's tenant overflow and assume Memphis-style math.\n\nThe city line is what the pro formas miss. A parcel inside Hagerstown pays the city's $1.057 per $100, Washington County's in-city differential rate of $0.803, and the state's $0.112, a 1.97% stack that is the second-highest in this file after Baltimore. The same house outside city limits pays about 1.04%. On a $300,000 rental that spread is worth roughly $230 a month, which is most of the cash flow the listing promised. The city also runs a real rental program: annual registration at $75 per unit, exterior inspections, and interior inspections on a four-year cycle, with enforcement expanding per 2025 reporting.\n\nBlended average rent is $1,442, but the investor stock tells a better story: three-bed singles and townhomes rent $1,900 to $2,200, and the county-side suburbs, Fountainhead-Orchard Hills at $397,195 and Paramount-Long Meadow at $429,924, rent higher still. At the median and the full city stack the ratio reads 0.62; on a county-side file it climbs past 0.9. Same metro, two businesses.",
+      "regulationBadge": "moderate",
+      "regulationNote": "The City of Hagerstown requires annual rental registration at $75 per unit with exterior inspections and interior inspections roughly every four years, and its compliance push expanded in 2025, while county-side rentals face no equivalent municipal program.",
+      "neighborhoods": [
+        {
+          "name": "City core / West End (21740)",
+          "medianPrice": 296022,
+          "medianRent": 1500,
+          "note": "The rowhome-and-duplex heart of the city, zip typical value $296,022 with individual blocks trading far below it. Highest paper yields in western Maryland, full 1.97% city stack, registration and inspection cadence, and block-by-block condition risk. Small-balance loan minimums bite here."
+        },
+        {
+          "name": "North End",
+          "medianPrice": 320000,
+          "medianRent": 1800,
+          "note": "The city's stable single-family tier north of the hospital corridor: 1920s-1950s brick and stone houses, values high-$200Ks to mid-$300Ks, three-beds renting $1,800 to $2,100. The default in-city rental trade, still on the 1.97% stack."
+        },
+        {
+          "name": "Fountainhead-Orchard Hills",
+          "medianPrice": 397195,
+          "medianRent": 2100,
+          "note": "The county-side suburb north of the line, typical value $397,195. No city tax, no city registration program, tenants from the hospital, schools, and logistics management tier. The ratio-friendly side of the Hagerstown market."
+        },
+        {
+          "name": "Paramount-Long Meadow",
+          "medianPrice": 429924,
+          "medianRent": 2200,
+          "note": "The northeast county-side tier, typical value $429,924. Newer splits and colonials renting near $2,200; the 1.04% county-only stack keeps files near break-even at 25% down, which in-city equivalents cannot manage."
+        }
+      ],
+      "localAngle": {
+        "tag": "The City Line",
+        "title": "Maryland's cheapest metro, and its second-highest tax stack, share a zip code.",
+        "body": "Hagerstown's pitch deck writes itself: sub-$310K typical values, rents growing 3.2%, an interstate logistics base, and Washington County unemployment consistently below the metro averages the coastal markets carry. The underwriting reality has a border running through it. Inside city limits, the SDAT chart stacks Hagerstown's $1.057 municipal rate on the county's $0.803 in-city differential and the state's $0.112, and 1.97% of assessed value makes the city a tax jurisdiction on par with big-city Baltimore, except with $1,500 rents instead of $1,800. Outside the line, the same county charges $0.928, the state adds $0.112, and the investor total is about 1.04%. That 93-cent spread converts to roughly $230 a month on a $300,000 house, and it does not show up in a Zillow tax estimate that averages the two regimes. The city adds an operating layer on top: every rental registers annually at $75 per unit, exteriors get inspected on an annual cadence, interiors roughly every four years, and 2025 local reporting documented the program expanding to close compliance gaps. None of this makes in-city Hagerstown uninvestable, the North End's brick stock at $1,800 to $2,100 rents can still work, but it does mean the city-side and county-side files are different deals wearing the same mailing address. Your matched specialist will run the parcel's actual jurisdiction and both tax scenarios before the rent survey gets ordered, because in Hagerstown the line item that decides the deal is literally a line."
+      },
+      "programFit": [
+        "standard-dscr",
+        "portfolio-dscr",
+        "bridge-to-dscr",
+        "no-ratio-dscr"
+      ],
+      "dealExample": {
+        "label": "Cash-Out Refinance",
+        "propertyType": "3-bed / 2-bath SFR",
+        "neighborhood": "North End",
+        "purchasePrice": 300000,
+        "downPaymentPct": 30,
+        "downPayment": 90000,
+        "loanAmount": 210000,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 1468,
+        "monthlyTax": 493,
+        "monthlyInsurance": 115,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 2076,
+        "monthlyRent": 2100,
+        "dscr": 1.01,
+        "monthlyCashFlow": 24,
+        "specialistFocus": [
+          "Sized the cash-out at 70% of the $300,000 appraisal instead of the maximum, because pulling the last ten points of equity dropped the ratio below the program's cash-out floor",
+          "Underwrote the full 1.97% in-city stack on the post-sale assessment, then showed the investor the same file at the county's 1.04% so the next acquisition targets the right side of the line",
+          "Verified the city rental registration and inspection history were current before ordering the appraisal, since open code items in the city's expanded program surface in underwriting"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Why doesn't cheap Hagerstown pencil like other cheap markets?",
+          "answer": "Because the carry does not scale down with the price. A $300,000 house inside city limits pays roughly $493 a month in property tax at the 1.97% stack, plus $75 per unit in annual registration and an inspection cadence, against rents of $1,900 to $2,100. The same money in a true low-tax yield market keeps an extra $200-plus of that rent. Hagerstown still works, values rose 0.6% and rents 3.2% this year, but it works as a modest-spread, low-volatility market, and it works noticeably better on the county side of the line where the stack drops to 1.04%."
+        },
+        {
+          "question": "What does the city's rental program actually require?",
+          "answer": "Annual registration of every rental unit at $75 per unit, exterior inspections on an annual cycle, and interior inspections roughly every four years, run by the city's code administration office, with 2025 local reporting documenting the program expanding to catch unregistered units. It is lighter than Baltimore's license-plus-lead-cert stack but heavier than the county side, which has no equivalent municipal program. Statewide layers apply everywhere: MDE lead registration for pre-1978 stock, which covers most city-core rowhomes, the one-month deposit cap, and licensing-adjacent rules that can block rent court for non-compliant owners."
+        },
+        {
+          "question": "Who is the Hagerstown tenant in 2026?",
+          "answer": "Three tiers. Warehouse and distribution payrolls from the I-81/I-70 logistics build-out fill the $1,300 to $1,700 city-core tier. Meritus Health, the school system, and county government anchor the $1,800 to $2,200 single-family tier in the North End and county suburbs. And a growing commuter remnant works Frederick or the DC-Baltimore fringe remotely, renting space they could not afford east of the mountain. Rents grew 3.2% on that base this year. It is not a boom-town profile, it is a payroll-diverse floor, which is what a leveraged file actually needs."
+        },
+        {
+          "question": "City rowhomes at $120K or county splits at $400K?",
+          "answer": "Run them as different businesses. City-core rowhomes post the highest paper yields in western Maryland, then give chunks back through the 1.97% stack, registration and inspections, pre-1978 lead cycles, higher turnover, and loan amounts small enough that many DSCR lenders' minimums exclude them, portfolio and small-balance programs exist for exactly this. County-side splits and colonials at $397K to $430K rent $2,100-plus, carry the 1.04% stack, and produce boring files that clear underwriting on the first pass. Most out-of-state buyers who thrive here start county-side, then add city stock only with local management proven."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index and Observed Rent Index, Hagerstown, June 2026; zip 21740 page, June 2026",
+        "US Census Bureau Housing Vacancy Survey Table 3, Maryland statewide rental vacancy 2025 (Hagerstown metro not in the 75-metro table)",
+        "Maryland SDAT tax rate chart, Hagerstown $1.057 plus county differential $0.803 plus state $0.112, July 2026",
+        "Herald-Mail reporting on the city rental program expansion, July 2025, and The Atlas project summary of the $75 per unit registration and inspection cadence",
+        "County-side neighborhood values from Zillow neighborhood pages, June 2026; rents from area listings, August 2026 (est.)"
+      ]
+    },
+    {
+      "city": "Salisbury",
+      "slug": "salisbury",
+      "county": "Wicomico County",
+      "metro": "Salisbury-Ocean Pines",
+      "hook": "Salisbury rents jumped 5.6% against a $270K typical value, the best raw ratio on the Eastern Shore. The offsets are a 1.93% city tax stack and a landlord licensing program with real teeth.",
+      "metaDescription": "Salisbury rents rose 5.6% against $270K values, the best ratio on the Eastern Shore. The city license and 1.93% tax stack come first. Get matched today.",
+      "market": {
+        "medianPrice": 270177,
+        "medianRent": 1641,
+        "priceToRent": 13.7,
+        "vacancyRate": 5.3,
+        "yoyPrice": 1.5,
+        "yoyRent": 5.6,
+        "estDSCR": 0.79,
+        "propertyTaxRate": 1.93,
+        "insuranceMonthly": 135
+      },
+      "overview": "Salisbury is the Eastern Shore's only real rental economy: a regional hub of 33,000 anchored by Salisbury University's roughly 7,000 students, TidalHealth's medical campus, and the Perdue-centered poultry and logistics base. The investor numbers lead the state in the categories that matter: a $270,177 typical value, up 1.5% while bigger markets fell, rents up 5.6% to a $1,641 average, the fastest growth in this file, and a 13.7 price-to-rent ratio that no Washington-corridor market approaches. Maryland's statewide rental vacancy ran 5.3% in 2025.\n\nThe two-layer truth costs money here in specific ways. First, the tax stack: the city levies $1.0332 per $100, Wicomico County adds $0.7799, the state adds $0.112, and the 1.93% total is triple what raw Eastern Shore land pays, with no Homestead cap for investors, and Salisbury's homestead percentage for owner-occupants is set at zero anyway, so assessments bite quickly after transfer. Second, the program: Salisbury requires a landlord license and per-unit rental registration with inspections, publishes a city Landlord Guide, and Maryland law bars unlicensed landlords from bringing failure-to-pay-rent actions, which makes the license a cash-flow document, not paperwork.\n\nAt the median the ratio runs 0.79, and the actual trades run better: Camden Avenue three-beds near SU rent $1,700-plus against low-$200K prices, and Doverdale doubles push 1.1 on paper before condition reserves. Buy the license-ready house, not the cheapest one.",
+      "regulationBadge": "moderate",
+      "regulationNote": "Salisbury requires a landlord license and per-unit rental registration with inspections before leasing, and an unlicensed Maryland landlord cannot bring a failure-to-pay-rent case, so compliance literally gates your rent collection.",
+      "neighborhoods": [
+        {
+          "name": "Camden Avenue",
+          "medianPrice": 239449,
+          "medianRent": 1750,
+          "note": "The corridor between downtown and Salisbury University, typical value $239,449. Student and young-professional demand keeps three-beds at $1,700 to $2,100 with pre-leasing a year out near campus. The city watches over-occupancy here; license and lease to the rule."
+        },
+        {
+          "name": "Doverdale / Church Street",
+          "medianPrice": 179811,
+          "medianRent": 1400,
+          "note": "The workforce-rental grid northeast of downtown, typical value $179,811. Highest yields in the city with duplexes and small singles renting $1,300 to $1,500; condition, turnover, and small-balance loan minimums are the real underwriting inputs."
+        },
+        {
+          "name": "West Side",
+          "medianPrice": 159575,
+          "medianRent": 1300,
+          "note": "The deepest value tier at a $159,575 typical value. Paper ratios look spectacular and the blocks vary house by house; this is local-operator territory where the inspection report matters more than the rent survey."
+        }
+      ],
+      "localAngle": {
+        "tag": "License Gate",
+        "title": "In Salisbury the rental license is the collection system.",
+        "body": "Most markets treat rental licensing as an administrative fee. Maryland law makes it existential, and Salisbury is where Eastern Shore investors learn that. The city's Housing and Community Development department requires a landlord license and registration of every rental unit, backed by inspections and documented in the city's own Landlord Guide, with non-rental affidavits required for owners claiming a property is not tenanted. The enforcement mechanism with teeth is not the fine schedule, it is the courthouse: under Maryland law as applied in licensing jurisdictions, a landlord without the required license cannot bring a failure-to-pay-rent action in District Court. No license, no rent court, no leverage, which converts a $100-class compliance item into the difference between collecting and not collecting. The university adds a second layer: Salisbury's zoning and occupancy rules around SU cap unrelated-occupant counts, and the student blocks off Camden Avenue are exactly where over-occupancy enforcement concentrates. The offsetting math is why investors bother: a 13.7 price-to-rent ratio, 5.6% rent growth, sub-$250K entry on the university corridor, and a tenant pipeline that renews itself every August. Underwrite the 1.93% stack, hold $500-per-turn reserves for student wear, close with the license application already moving, and Salisbury produces the most honest cash flow in Maryland. Your matched specialist will sequence the license, the lease, and the loan so all three are enforceable on day one."
+      },
+      "programFit": [
+        "standard-dscr",
+        "portfolio-dscr",
+        "no-ratio-dscr",
+        "bridge-to-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 1.5-bath SFR",
+        "neighborhood": "Camden Avenue",
+        "purchasePrice": 220000,
+        "downPaymentPct": 25,
+        "downPayment": 55000,
+        "loanAmount": 165000,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 1153,
+        "monthlyTax": 354,
+        "monthlyInsurance": 120,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 1627,
+        "monthlyRent": 1750,
+        "dscr": 1.08,
+        "monthlyCashFlow": 123,
+        "specialistFocus": [
+          "Sequenced the city landlord license and unit registration to be filed at settlement, because without them the owner cannot even file a rent case, let alone enforce the student leases",
+          "Underwrote the full 1.93% city-county-state stack on the post-sale assessment rather than the flyer's county-only figure, a $175 monthly difference on this house",
+          "Qualified on the appraiser's $1,750 unfurnished market rent, not the by-the-room student premium, so the ratio holds even if the tenancy flips from students to a TidalHealth family"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Is Salisbury the best cash-flow market in Maryland?",
+          "answer": "On the raw numbers, yes. A 13.7 price-to-rent ratio, a $270,177 typical value, 5.6% rent growth, and 1.5% price appreciation in a down year beat every other market in this file, and the median file at 20% down runs 0.79 against Baltimore's 1.12 only because Baltimore's prices are lower still. The honest comparison: Salisbury's stack taxes you 1.93% and gates you behind a city license, but its tenant demand is structural, university, hospital, poultry, and regional retail, rather than cyclical. For sub-$250K entries with real rent growth, nothing else east of the Bay Bridge competes."
+        },
+        {
+          "question": "What does the city license process involve?",
+          "answer": "A landlord license for the owner plus registration of each rental unit through the city's Housing and Community Development department, with inspections and annual renewal, all laid out in the city's published Landlord Guide. Owners claiming a property is owner-occupied or vacant file a non-rental affidavit instead. The consequence for skipping it is the sharpest in Maryland practice: courts in licensing jurisdictions will not hear an unlicensed landlord's failure-to-pay-rent case, which means no summary eviction path until you cure. Budget the fees as trivial and the sequencing as critical: license first, lease second."
+        },
+        {
+          "question": "How should I underwrite student rentals near SU?",
+          "answer": "Qualify on the house, cash-flow on the students. DSCR lenders use the appraiser's unfurnished market rent, around $1,750 for a Camden-corridor three-bed, and that is the number your loan should survive on. The student premium, $600 to $700 per bedroom with parental guarantees and August-to-August leases, is real but comes with rules: city occupancy limits cap unrelated tenants, over-occupancy enforcement is active near campus, and turnover costs run $500-plus per cycle. Pre-leasing runs nearly a year ahead, so vacancy risk is timing risk. If the deal only works at by-the-room pricing, it is a management business, not a rental."
+        },
+        {
+          "question": "Why is the tax rate 1.93% when Wicomico's county rate is only $0.78?",
+          "answer": "City stacking, same as Hagerstown and Baltimore. A Salisbury parcel pays the city's $1.0332, the county's $0.7799, and the state's $0.112 per $100 of assessed value, and Maryland phases reassessment increases in over three years with no Homestead protection for investors. Salisbury's owner-occupant homestead cap is set at 0%, the most aggressive in the state, which tells you how the city treats assessment growth as revenue. On a $220,000 house the stack is about $354 a month. Outside city limits the county-plus-state total drops near 0.89%, but so does the tenant base."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index and Observed Rent Index, Salisbury, June 2026",
+        "US Census Bureau Housing Vacancy Survey Table 3, Maryland statewide rental vacancy 2025 (Salisbury metro not in the 75-metro table)",
+        "Maryland SDAT tax rate chart, Salisbury $1.0332 plus Wicomico $0.7799 plus state $0.112, with the city's 0% homestead cap, July 2026",
+        "City of Salisbury Housing and Community Development, landlord licensing and rental registration pages and 2025 Landlord Guide, retrieved August 2026",
+        "People's Law Library of Maryland, rental license requirement and failure-to-pay-rent bar, retrieved August 2026",
+        "Neighborhood values from Zillow neighborhood pages, June 2026; rents from area listings, August 2026 (est.)"
+      ]
+    },
+    {
+      "city": "Ocean City",
+      "slug": "ocean-city",
+      "county": "Worcester County",
+      "metro": "Salisbury-Ocean Pines",
+      "hook": "Ocean City voters killed the R-1 minimum-stay law at referendum in August 2025 and the town repealed its license moratorium in March 2026, so STRs run town-wide under a license stack. The typical condo-heavy value: $445K, down 2.4%.",
+      "metaDescription": "Ocean City STRs stayed legal after the 2025 referendum, with a $445K typical value. DSCR files run on realistic revenue, not pro formas. Get matched today.",
+      "market": {
+        "medianPrice": 444692,
+        "medianRent": 1950,
+        "priceToRent": 19,
+        "vacancyRate": 5.3,
+        "yoyPrice": -2.4,
+        "yoyRent": 1.1,
+        "estDSCR": 0.62,
+        "propertyTaxRate": 1.36,
+        "insuranceMonthly": 175
+      },
+      "overview": "Ocean City is Maryland's short-term rental market, 10 miles of barrier island where the majority of the housing stock is condos bought to rent. The typical value is $444,692, down 2.4% over the year, and this is now a negotiator's market: 76.9% of May sales closed under list, only 9.8% over, and the median listing took 51 days to go pending. Year-round long-term rents average around $1,950, up a modest 1.1%, but long-term rent is the fallback math here, not the business.\n\nThe regulatory fight ended in the investors' favor. The town council passed Ordinance 2025-04 in March 2025, imposing a five-night minimum STR stay in the R-1 and MH districts and stepping to 31 nights by 2027, and voters repealed it at referendum in August 2025 by 834 votes to 800. A moratorium on new STR licenses followed, and the council repealed that too in March 2026 once a citizen petition qualified for another referendum. What remains is the license stack: an annual town rental license and noise permit for any rental, a supplemental STR license for stays of 30 days or fewer, and a contact who can respond within 60 minutes.\n\nThe honest revenue layer: a 2026 market analysis put the median two-bed condo's gross vacation-rental income near $12,800 a year, while listing pro formas routinely project $35,000 to $55,000. Both numbers are real; they describe different operators. Underwrite like the median, operate like the professionals, and let the 1.36% tax stack and condo dues sit in the file from day one.",
+      "regulationBadge": "friendly",
+      "regulationNote": "Short-term rentals operate town-wide after the August 2025 referendum repealed the R-1 minimum-stay ordinance and the March 2026 repeal of the license moratorium, but every rental needs the town's annual rental license and noise permit, plus the supplemental STR license and a 60-minute response contact for stays of 30 days or fewer.",
+      "neighborhoods": [
+        {
+          "name": "Midtown",
+          "medianPrice": 449881,
+          "medianRent": 1900,
+          "note": "The 28th-to-90th Street core, typical value $449,881: bayside and mid-block condo buildings where two-beds trade $300K to $400K. The volume STR trade, close enough to the beach to book, cheap enough relative to oceanfront to pencil."
+        },
+        {
+          "name": "North Ocean City",
+          "medianPrice": 431335,
+          "medianRent": 1850,
+          "note": "90th Street to the Delaware line, typical value $431,335. Newer buildings, more year-round owners, and the steadiest shoulder-season bookings; HOA quality varies building by building and drives lender review more than price does."
+        },
+        {
+          "name": "Boardwalk / Inlet",
+          "medianPrice": 492011,
+          "medianRent": 2000,
+          "note": "The south-end classic at $492,011 typical. Highest nightly rates and occupancy in town, oldest building stock, and the heaviest wear; reserves and special-assessment history decide these files, not the rate card."
+        },
+        {
+          "name": "West Ocean City",
+          "medianPrice": 509122,
+          "medianRent": 2200,
+          "note": "Across the bridge and outside town limits, typical value $509,122. Unincorporated Worcester County means no town rental license or room-tax regime, but county rules and different zoning apply; single-family STR-and-boat-slip territory."
+        }
+      ],
+      "localAngle": {
+        "tag": "STR Rules",
+        "title": "The referendum settled it: licensed STRs town-wide, and the license stack is the moat.",
+        "body": "Ocean City spent 2025 fighting over whether investor short-term rentals belonged in its R-1 single-family and MH districts, and the investors won at the ballot box. Ordinance 2025-04, passed 4-3 in March 2025, set a five-night minimum stay in those districts and would have stepped to a 31-night minimum in 2027, an effective STR ban on single-family homes. A petition forced it to referendum, and in August 2025 voters repealed it, 834 to 800. The council had separately frozen new STR licenses in the residential districts; when a second petition qualified for the 2026 ballot, the council repealed the moratorium outright in March 2026 rather than fight another referendum. The operating rules that survived are clear and enforceable: every rental of any length needs the town's annual rental license and noise permit, stays of 30 consecutive days or fewer additionally require the supplemental short-term rental license, and the town requires a designated person, legally authorized to accept notices and handle violations, who can physically respond to the property within 60 minutes. Worcester County layers its room tax on gross rents, and the town's 0% homestead cap is irrelevant to investors who never had the credit anyway. Two practical notes decide files here: many older buildings are non-warrantable by conventional standards, which is routine for STR-focused DSCR lenders, and wind-and-flood insurance sits in the condo master policy with deductibles that belong in your reserve math. Your matched specialist will structure the file on documented, annualized revenue with the full license stack in place, because that is what the appraisal and the town will both verify."
+      },
+      "programFit": [
+        "str-dscr",
+        "standard-dscr",
+        "portfolio-dscr",
+        "no-ratio-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "2-bed / 2-bath bayside condo (STR)",
+        "neighborhood": "Midtown",
+        "purchasePrice": 335000,
+        "downPaymentPct": 30,
+        "downPayment": 100500,
+        "loanAmount": 234500,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 1639,
+        "monthlyTax": 380,
+        "monthlyInsurance": 150,
+        "monthlyHOA": 425,
+        "monthlyPITIA": 2594,
+        "monthlyRent": 2800,
+        "dscr": 1.08,
+        "monthlyCashFlow": 206,
+        "specialistFocus": [
+          "Qualified on $2,800 a month of annualized short-term revenue, about $33,600 gross, a full-availability professional-operator number, and showed the investor the $12,800 median-operator figure beside it so the downside case was underwritten, not discovered",
+          "Structured 30% down because the building's investor concentration makes it non-warrantable, and the STR program's pricing at 70% LTV cleared while 75% did not",
+          "Sequenced the town rental license, noise permit, and supplemental STR license with a 60-minute-response local manager named before the first booking, since the town enforces the contact requirement"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Are short-term rentals actually legal for investors in Ocean City right now?",
+          "answer": "Yes, town-wide, under a license stack. The five-night R-1/MH minimum-stay ordinance passed in March 2025 was repealed by voters at the August 2025 referendum, 834 to 800, and the related moratorium on new STR licenses was repealed by the council in March 2026 after a petition qualified for another ballot. What you must hold: the town's annual rental license and noise permit for any rental, the supplemental short-term rental license for stays of 30 days or fewer, and a designated contact able to respond to the property within 60 minutes. Politics can revisit the issue; the licenses are the durable requirement."
+        },
+        {
+          "question": "What will a two-bed condo really gross as a vacation rental?",
+          "answer": "The spread is enormous and it is operator-driven. A 2026 analysis of the market put the median two-bed condo near $12,800 in annual gross vacation-rental income, while listing pro formas routinely promise $35,000 to $55,000. Both are real: the median includes owners who block summer weeks for themselves, skip the shoulder season, and never touch dynamic pricing, while full-availability professional operations on the same floor plan gross $30,000 to $40,000. Underwrite somewhere between, document the assumptions, and remember Worcester County's room tax and 20%-plus management fees come off the top of whatever you gross."
+        },
+        {
+          "question": "Why do lenders care so much about the condo building here?",
+          "answer": "Because in Ocean City the building is the collateral's weather system. Many towers are non-warrantable by conventional standards, too many investor-owned units, commercial space, or thin reserves, which is routine for STR-focused DSCR lenders but changes pricing and down payment. The master policy carries the wind and flood coverage, and its deductibles, often percentage-based after coastal storms, plus special-assessment history for concrete and balcony work, land directly in your reserve math. A $300K unit in a well-reserved building beats a $260K unit in a deferred one every time. Get the condo documents before the rate conversation."
+        },
+        {
+          "question": "Is 2026 a good time to buy, with prices down 2.4%?",
+          "answer": "It is the best negotiating environment the island has offered in years. 76.9% of May sales closed under list, 9.8% over, and the median listing sat 51 days before going pending, which means credible offers below asking are getting signed. Values are off 2.4% while the regulatory cloud that suppressed 2025 demand, the R-1 fight, has been resolved in operators' favor. The discipline is on revenue: buy at the discounted basis, underwrite median-operator income, and let professional operations be your upside rather than your break-even requirement."
+        },
+        {
+          "question": "What about West Ocean City, across the bridge?",
+          "answer": "Different jurisdiction, different rules, often better bones. West Ocean City is unincorporated Worcester County, so the town's rental license, noise permit, and STR license regime stops at the bridge, and the housing stock shifts to single-family homes with parking and boat access at a $509,122 typical value. County-level rules and zoning still apply, and the total tax stack is modestly lower than the town's 1.36%. The tradeoff is booking gravity: guests pay for proximity to the beach and boardwalk, and mainland properties earn it back through group size, season length, and fishing traffic. Underwrite it as its own market."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index and market overview, Ocean City typical value, sales under list, days to pending, June 2026",
+        "Beach Resort Real Estate leasing market guide April 2026 and Apartments.com trend July 2026 for year-round rent and YoY (Zillow rent index unavailable for Ocean City; small-market swings rejected as mix noise)",
+        "US Census Bureau Housing Vacancy Survey Table 3, Maryland statewide rental vacancy 2025 (resort seasonality noted)",
+        "Maryland SDAT tax rate chart, Ocean City $0.4326 plus Worcester $0.815 plus state $0.112, July 2026",
+        "Avalara MyLodgeTax March 2026, WBOC, and Coastal Association of Realtors coverage of Ordinance 2025-04, the August 2025 referendum, and the March 2026 moratorium repeal; Town of Ocean City Division of Rental Housing license requirements",
+        "GrantF.com 2026 analysis of median Ocean City vacation-rental gross income; neighborhood values from Zillow neighborhood pages, June 2026 (rents est.)"
+      ]
+    }
+  ]
+}
