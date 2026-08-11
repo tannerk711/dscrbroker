@@ -36,3 +36,6 @@ CHANGE-LOG-*.md
 
 # Local dev server log
 dev.log
+
+.vercel
+.env*

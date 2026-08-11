@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import { STATE_NAMES, PROPERTY_TYPE_NAMES } from '../../utils/brokerRouting';
 import type { DealVerdict, ProgramRecommendation } from '../../utils/rateEstimation';
 import { JOHN_LICENSING_LINE, JOHN_LICENSING_PARAGRAPH } from '../../data/john-licensing';
+import { ADAM_LICENSING_LINE, ADAM_LICENSING_PARAGRAPH } from '../../data/adam-licensing';
 
 interface SubmissionPayload {
   loanGoal?: string;
@@ -132,10 +133,10 @@ const ADAM_SPECIALIST: SpecialistProfile = {
       },
     ],
   },
-  // PLACEHOLDER: Adam's state-licensing disclaimer block (the broker_f equivalent of
-  // src/data/john-licensing.ts). Waiting on Adam's official licensing text for
-  // AK/HI/LA/MS/MO/MT/NM/OH + GA. Until then no licensing block renders for him.
-  licensing: null,
+  licensing: {
+    line: ADAM_LICENSING_LINE,
+    paragraph: ADAM_LICENSING_PARAGRAPH,
+  },
 };
 
 const BROKER_PROFILES: Record<string, SpecialistProfile> = {
