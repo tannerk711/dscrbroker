@@ -273,10 +273,13 @@ export default function DSCRForm() {
     };
 
     let success = false;
+    // The server owns the final assignment for split states (GA is a 50/50
+    // John/Adam split picked in /api/lead). Default to the client-side guess.
+    let assignedBroker = brokerKey;
 
     // POST to our own server route, which forwards to the broker's Zapier hook.
     // The webhook URL is a non-PUBLIC env var, so it is NOT available in the
-    // browser bundle (Vite strips it) — it must be read server-side. This is also
+    // browser bundle (Vite strips it), it must be read server-side. This is also
     // a same-origin request, so there is no CORS/preflight concern.
     const body = JSON.stringify(payload);
     for (let attempt = 0; attempt < 2; attempt++) {
@@ -289,6 +292,14 @@ export default function DSCRForm() {
           signal: AbortSignal.timeout(12000),
         });
         if (response.ok) {
+          try {
+            const result = await response.json();
+            if (typeof result?.assignedBroker === 'string') {
+              assignedBroker = result.assignedBroker;
+            }
+          } catch {
+            /* body parse failure never blocks the success path */
+          }
           success = true;
           break;
         }
@@ -303,7 +314,7 @@ export default function DSCRForm() {
 
     if (success) {
       trackEvent('generate_lead', {
-        broker: brokerKey,
+        broker: assignedBroker,
         state: payload.state,
         property_type: payload.propertyType,
         loan_goal: payload.loanGoal,
@@ -312,7 +323,9 @@ export default function DSCRForm() {
       });
 
       // Persist submission for the thank-you page to render the verdict + broker context.
-      const successPayload = { ...payload, dealVerdict, program: programRec };
+      // matchedBroker reflects the SERVER's assignment (split states may differ from
+      // the client-side guess) so the right specialist renders on /thank-you/.
+      const successPayload = { ...payload, matchedBroker: assignedBroker, dealVerdict, program: programRec };
       sessionStorage.setItem('dscrbroker_submission', JSON.stringify(successPayload));
       $submittedData.set(successPayload);
       clearFormData();

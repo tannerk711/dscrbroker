@@ -1,5 +1,9 @@
 // State-to-broker routing map
-// Note: HI, NY, NM, OH, MI, LA, ND, SD, AK, MS, MO, UT, MT excluded from form (2026-04-27).
+// Note: NY, MI, ND, SD, UT excluded from form (trimmed 2026-08-11; was 13 states from 2026-04-27).
+// broker_f = Adam Cunningham / Tall Timbers (added 2026-08-11): AK, HI, LA, MS, MO, MT, NM, OH.
+// GA is a 50/50 split between John (broker_c) and Adam (broker_f). The client-side map
+// keeps GA -> broker_c as a placeholder; the REAL pick happens server-side in
+// src/pages/api/lead.ts (SPLIT_STATES), which returns the assigned broker to the form.
 const STATE_TO_BROKER: Record<string, string> = {
   AL: 'broker_a', AR: 'broker_a', CT: 'broker_a',
   DE: 'broker_a', ID: 'broker_a', IN: 'broker_a',
@@ -16,10 +20,12 @@ const STATE_TO_BROKER: Record<string, string> = {
   MD: 'broker_d',
   NJ: 'broker_e', PA: 'broker_e', MA: 'broker_e',
   IL: 'broker_e', DC: 'broker_e', WV: 'broker_e',
+  AK: 'broker_f', HI: 'broker_f', LA: 'broker_f', MS: 'broker_f',
+  MO: 'broker_f', MT: 'broker_f', NM: 'broker_f', OH: 'broker_f',
 };
 
 // States excluded from the form (broker network does not currently cover).
-const EXCLUDED_STATES = new Set(['HI', 'NY', 'NM', 'OH', 'MI', 'LA', 'ND', 'SD', 'AK', 'MS', 'MO', 'UT', 'MT']);
+const EXCLUDED_STATES = new Set(['NY', 'MI', 'ND', 'SD', 'UT']);
 
 // Broker config with webhook URLs from env vars
 interface BrokerConfig {
@@ -34,6 +40,7 @@ const BROKER_ENV_MAP: Record<string, { webhook: string; apiKey: string; email: s
   broker_c: { webhook: 'WEBHOOK_BROKER_C', apiKey: 'API_KEY_BROKER_C', email: 'EMAIL_BROKER_C' },
   broker_d: { webhook: 'WEBHOOK_BROKER_D', apiKey: 'API_KEY_BROKER_D', email: 'EMAIL_BROKER_D' },
   broker_e: { webhook: 'WEBHOOK_BROKER_E', apiKey: 'API_KEY_BROKER_E', email: 'EMAIL_BROKER_E' },
+  broker_f: { webhook: 'WEBHOOK_BROKER_F', apiKey: 'API_KEY_BROKER_F', email: 'EMAIL_BROKER_F' },
 };
 
 export function getBrokerForState(stateAbbr: string): string {

@@ -37,13 +37,18 @@ interface SpecialistProfile {
   nmls: string;
   company: string;
   companyLogo: string;
+  // Dark logos (e.g. Tall Timbers green-on-transparent) need a light chip behind
+  // them to read on the navy background. White-negative logos leave this false.
+  logoOnLightChip?: boolean;
   headshot: string;
   message: string;
   videoEmbedUrl: string | null;
   reviews: {
     rating: number;
-    count: number;
-    quotes: { quote: string; author: string; avatar: string }[];
+    // Omit when there is no verified review count to claim; the "N+ reviews"
+    // label simply doesn't render. Never invent a count.
+    count?: number;
+    quotes: { quote: string; author: string; avatar?: string }[];
   };
   // Full state-licensing disclaimer for this specialist. Rendered in the thank-you
   // page footer only when this broker is the matched specialist. null = no block.
@@ -91,12 +96,55 @@ const DEFAULT_SPECIALIST: SpecialistProfile = {
   },
 };
 
+// Adam Cunningham / Tall Timbers. Second lender in the network (added 2026-08-11).
+// Covers AK, HI, LA, MS, MO, MT, NM, OH solo, plus the GA 50/50 split with John.
+// Review quotes are the approved Tall Timbers deal stories (clients/tall-timbers-funnel,
+// funnel.ts), trimmed for length. No invented numbers: 250+ closed is the locked claim.
+const ADAM_SPECIALIST: SpecialistProfile = {
+  name: 'Adam C. Cunningham',
+  displayName: 'Adam Cunningham',
+  title: 'Mortgage Loan Originator',
+  nmls: '312817',
+  company: 'Tall Timbers Realty and Financial Services',
+  companyLogo: '/images/tall-timbers-logo.png',
+  logoOnLightChip: true,
+  headshot: '/images/adam-cunningham.webp',
+  message:
+    "I've closed 250+ DSCR and non-QM loans for real estate investors, including plenty of files other lenders passed on. The questionnaire you just filled out gives me a real starting point, but every deal has details that don't fit in a form. I'll review your file personally, call you to walk through what I'm seeing, and lay out the cleanest path to closing. No call center, no runaround.",
+  videoEmbedUrl: null,
+  reviews: {
+    rating: 5.0,
+    quotes: [
+      {
+        quote:
+          "First lender walked away on my Tampa duplex. Adam's team got on the phone, walked through what went wrong, and matched the file to a lender whose overlays fit. Closed at 75% LTV.",
+        author: 'Marcus T., Florida',
+      },
+      {
+        quote:
+          'Bought a 5-bedroom pool home with zero rental history. Most lenders ghosted me. They flagged the county STR permitting up front, then matched me with a lender that took AirDNA income. First STR in the books.',
+        author: 'Lauren K., Florida',
+      },
+      {
+        quote:
+          'I live in Toronto and own two Florida rentals. No SSN, no US credit history. Adam walked me through Foreign National DSCR, used my Canadian credit reference letter, and closed the canal-front.',
+        author: 'Carlos V., Toronto',
+      },
+    ],
+  },
+  // PLACEHOLDER: Adam's state-licensing disclaimer block (the broker_f equivalent of
+  // src/data/john-licensing.ts). Waiting on Adam's official licensing text for
+  // AK/HI/LA/MS/MO/MT/NM/OH + GA. Until then no licensing block renders for him.
+  licensing: null,
+};
+
 const BROKER_PROFILES: Record<string, SpecialistProfile> = {
   broker_a: DEFAULT_SPECIALIST,
   broker_b: DEFAULT_SPECIALIST,
   broker_c: DEFAULT_SPECIALIST,
   broker_d: DEFAULT_SPECIALIST,
   broker_e: DEFAULT_SPECIALIST,
+  broker_f: ADAM_SPECIALIST,
 };
 
 function getThankYouCopy(loanGoal: string | undefined, firstName: string | undefined): { headline: string; body: string } {
@@ -291,7 +339,11 @@ export default function ThankYou() {
               <img
                 src={specialist.companyLogo}
                 alt={specialist.company}
-                className="h-7 md:h-8 w-auto object-contain opacity-90"
+                className={
+                  specialist.logoOnLightChip
+                    ? 'h-9 md:h-10 w-auto object-contain bg-white/95 rounded-md px-2.5 py-1.5'
+                    : 'h-7 md:h-8 w-auto object-contain opacity-90'
+                }
                 loading="lazy"
               />
             </div>
@@ -401,9 +453,11 @@ export default function ThankYou() {
               <span className="text-sm font-semibold text-white">
                 {specialist.reviews.rating.toFixed(1)}
               </span>
-              <span className="text-sm text-white/50">
-                · {specialist.reviews.count}+ reviews
-              </span>
+              {typeof specialist.reviews.count === 'number' && (
+                <span className="text-sm text-white/50">
+                  · {specialist.reviews.count}+ reviews
+                </span>
+              )}
             </div>
           </div>
         </div>
@@ -420,12 +474,24 @@ export default function ThankYou() {
               </div>
               <p className="text-sm text-white/80 leading-relaxed flex-1">"{review.quote}"</p>
               <div className="flex items-center gap-3 mt-4 pt-4 border-t border-white/10">
-                <img
-                  src={review.avatar}
-                  alt={review.author}
-                  className="w-9 h-9 rounded-full object-cover ring-1 ring-white/15 flex-shrink-0"
-                  loading="lazy"
-                />
+                {review.avatar ? (
+                  <img
+                    src={review.avatar}
+                    alt={review.author}
+                    className="w-9 h-9 rounded-full object-cover ring-1 ring-white/15 flex-shrink-0"
+                    loading="lazy"
+                  />
+                ) : (
+                  <div className="w-9 h-9 rounded-full bg-white/10 ring-1 ring-white/15 flex-shrink-0 flex items-center justify-center text-[11px] font-semibold text-white/70">
+                    {review.author
+                      .split(',')[0]
+                      .split(' ')
+                      .map((part) => part[0])
+                      .join('')
+                      .slice(0, 2)
+                      .toUpperCase()}
+                  </div>
+                )}
                 <p className="text-xs text-white/60 leading-tight">{review.author}</p>
               </div>
             </div>
