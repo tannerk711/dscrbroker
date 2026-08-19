@@ -30,6 +30,9 @@ export const $utmParams = persistentAtom<string>('form_utm', '{}');
 export const $currentStep = atom(1);
 export const $direction = atom<'forward' | 'backward'>('forward');
 export const $consent = atom(false);
+// ISO timestamp of the moment the user checked the consent box. Part of the
+// TCPA consent record forwarded with the lead; cleared if the box is unchecked.
+export const $consentAt = atom('');
 export const $honeypot = atom('');
 export const $isSubmitting = atom(false);
 export const $submitError = atom<string | null>(null);

@@ -32,6 +32,9 @@ WHERE-IS-GOOGLE-ADS.md
 DSCRbrokers-apr2.vtt
 context/
 scripts/
+# The postbuild cache-header fix MUST ship: package.json's build script runs it,
+# so an ignored copy breaks every Vercel deploy with Cannot find module.
+!scripts/fix-vercel-cache-headers.mjs
 CHANGE-LOG-*.md
 
 # Local dev server log

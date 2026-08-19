@@ -1,10 +1,10 @@
-import { useEffect, useCallback, useMemo } from 'react';
+import { useEffect, useCallback, useMemo, useRef } from 'react';
 import { useStore } from '@nanostores/react';
 import {
   $loanGoal, $propertyType, $state, $propertyValue, $downPayment, $loanBalance,
   $rehabBudget, $cashFlow, $creditScore, $usCitizen, $timeline,
   $firstName, $lastName, $phone, $email, $utmParams,
-  $currentStep, $direction, $consent, $honeypot, $isSubmitting, $submitError,
+  $currentStep, $direction, $consent, $consentAt, $honeypot, $isSubmitting, $submitError,
   $submittedData, $matchedBroker, captureUTMParams, clearFormData, processURLParams,
 } from '../../stores/formStore';
 import { getBrokerForState, formatPhoneE164, getDeviceType, STATE_NAMES } from '../../utils/brokerRouting';
@@ -21,12 +21,33 @@ import StepCashFlow from './StepCashFlow';
 import StepCreditScore from './StepCreditScore';
 import StepCitizenship from './StepCitizenship';
 import StepTimeline from './StepTimeline';
-import StepContact from './StepContact';
+import StepContact, { CONSENT_CHECKBOX_TEXT, CONSENT_DISCLOSURE_TEXT } from './StepContact';
 
 function trackEvent(eventName: string, params: Record<string, unknown> = {}) {
   if (typeof window !== 'undefined' && (window as any).gtag) {
     (window as any).gtag('event', eventName, params);
   }
+}
+
+// Advance to the step AFTER `from`, but only if the form is still ON `from` AND
+// no other navigation happened since scheduling. Every auto-advance used to
+// schedule a relative `current + 1`, so a double-tap (two stacked timers)
+// advanced twice and skipped a step, and a Back click inside the delay window
+// got undone by the stale timer. The generation counter also invalidates a
+// stale timer when rapid Back+retap lands the user on the same step NUMBER via
+// a different route (step identity, not just step index).
+let advanceGen = 0;
+function invalidatePendingAdvances() {
+  advanceGen++;
+}
+function scheduleAdvance(from: number, delayMs: number) {
+  const gen = ++advanceGen;
+  setTimeout(() => {
+    if (advanceGen !== gen) return; // another navigation was scheduled after this one
+    if ($currentStep.get() !== from) return; // stale: double-tap or Back already moved us
+    $direction.set('forward');
+    $currentStep.set(from + 1);
+  }, delayMs);
 }
 
 // Path step definitions. Each entry is a logical question. The router renders
@@ -103,7 +124,14 @@ export default function DSCRForm() {
     trackEvent('form_view', { step: 1, page: window.location.pathname });
   }, []);
 
+  // Cooldown so a double-click on a Continue button cannot advance two steps.
+  const lastAdvanceAt = useRef(0);
+
   const goForward = useCallback(() => {
+    const now = Date.now();
+    if (now - lastAdvanceAt.current < 350) return;
+    lastAdvanceAt.current = now;
+    invalidatePendingAdvances();
     $direction.set('forward');
     $currentStep.set($currentStep.get() + 1);
     trackEvent('form_step', { step: $currentStep.get() - 1, page: window.location.pathname });
@@ -111,6 +139,7 @@ export default function DSCRForm() {
 
   const goBack = useCallback(() => {
     if ($currentStep.get() > 1) {
+      invalidatePendingAdvances();
       $direction.set('backward');
       $currentStep.set($currentStep.get() - 1);
       trackEvent('form_back', { from_step: $currentStep.get() + 1, to_step: $currentStep.get() });
@@ -129,67 +158,53 @@ export default function DSCRForm() {
 
   // Property Type, auto-advance
   const handlePropertyTypeSelect = useCallback((value: string) => {
+    const from = $currentStep.get();
     $propertyType.set(value);
-    setTimeout(() => {
-      $direction.set('forward');
-      $currentStep.set($currentStep.get() + 1);
-    }, 300);
+    scheduleAdvance(from, 300);
   }, []);
 
   // Location, auto-advance with confirmation delay
   const handleLocationSelect = useCallback((value: string) => {
+    const from = $currentStep.get();
     $state.set(value);
     const broker = getBrokerForState(value);
     $matchedBroker.set(broker);
-    setTimeout(() => {
-      $direction.set('forward');
-      $currentStep.set($currentStep.get() + 1);
-    }, 500);
+    scheduleAdvance(from, 500);
   }, []);
 
   // Down payment, auto-advance after a beat (so user sees the qualifier message)
   const handleDownPaymentSelect = useCallback((value: string) => {
+    const from = $currentStep.get();
     $downPayment.set(value);
-    setTimeout(() => {
-      $direction.set('forward');
-      $currentStep.set($currentStep.get() + 1);
-    }, 450);
+    scheduleAdvance(from, 450);
   }, []);
 
   // Cash flow, auto-advance
   const handleCashFlowSelect = useCallback((value: string) => {
+    const from = $currentStep.get();
     $cashFlow.set(value);
-    setTimeout(() => {
-      $direction.set('forward');
-      $currentStep.set($currentStep.get() + 1);
-    }, 450);
+    scheduleAdvance(from, 450);
   }, []);
 
   // Credit, auto-advance
   const handleCreditSelect = useCallback((value: string) => {
+    const from = $currentStep.get();
     $creditScore.set(value);
-    setTimeout(() => {
-      $direction.set('forward');
-      $currentStep.set($currentStep.get() + 1);
-    }, 450);
+    scheduleAdvance(from, 450);
   }, []);
 
   // Citizenship, auto-advance
   const handleCitizenshipSelect = useCallback((value: string) => {
+    const from = $currentStep.get();
     $usCitizen.set(value);
-    setTimeout(() => {
-      $direction.set('forward');
-      $currentStep.set($currentStep.get() + 1);
-    }, 450);
+    scheduleAdvance(from, 450);
   }, []);
 
   // Timeline, auto-advance
   const handleTimelineSelect = useCallback((value: string) => {
+    const from = $currentStep.get();
     $timeline.set(value);
-    setTimeout(() => {
-      $direction.set('forward');
-      $currentStep.set($currentStep.get() + 1);
-    }, 450);
+    scheduleAdvance(from, 450);
   }, []);
 
   // Submit
@@ -221,6 +236,15 @@ export default function DSCRForm() {
       return;
     }
 
+    // Consent gate at submit time. The Try Again path calls handleSubmit directly
+    // (bypassing StepContact's zod gate), so a user who unchecks the box and then
+    // retries would otherwise ship a consent record for a revoked consent. A
+    // consent record is a legal document; it is never fabricated.
+    if (!$consent.get()) {
+      $submitError.set('Please check the consent box above, then try again.');
+      return;
+    }
+
     $isSubmitting.set(true);
     $submitError.set(null);
 
@@ -238,6 +262,12 @@ export default function DSCRForm() {
     try { utmParsed = JSON.parse($utmParams.get()); } catch {}
 
     const payload = {
+      // Client-generated id so the Zap/CRM can dedupe if a degraded network ever
+      // produces two webhooks for one submission.
+      submissionId:
+        typeof crypto !== 'undefined' && 'randomUUID' in crypto
+          ? crypto.randomUUID()
+          : `${Date.now()}-${Math.random().toString(36).slice(2)}`,
       firstName: $firstName.get().trim(),
       lastName: $lastName.get().trim(),
       email: $email.get().trim().toLowerCase(),
@@ -258,6 +288,16 @@ export default function DSCRForm() {
       timeline: $timeline.get(),
       dealTier: dealVerdict.tier,
       matchedBroker: brokerKey,
+      // TCPA consent record: the exact text agreed to, when the box was checked,
+      // and where. The server (/api/lead) rejects submissions without this and
+      // stamps client IP, user agent, and received-at before forwarding, so the
+      // CRM holds a complete, defensible consent record for every lead.
+      consent: {
+        agreed: true,
+        text: `${CONSENT_CHECKBOX_TEXT} ${CONSENT_DISCLOSURE_TEXT}`,
+        agreedAt: $consentAt.get() || new Date().toISOString(),
+        url: window.location.href,
+      },
       source: {
         utmSource: utmParsed.utm_source || null,
         utmMedium: utmParsed.utm_medium || null,
@@ -289,7 +329,10 @@ export default function DSCRForm() {
           headers: { 'Content-Type': 'application/json' },
           body,
           keepalive: true,
-          signal: AbortSignal.timeout(12000),
+          // Longer than the server's 10s webhook budget so a client abort cannot
+          // race a forward that is still completing (an aborted-then-retried POST
+          // risks two webhooks for one lead).
+          signal: AbortSignal.timeout(20000),
         });
         if (response.ok) {
           try {
@@ -301,8 +344,11 @@ export default function DSCRForm() {
             /* body parse failure never blocks the success path */
           }
           success = true;
-          break;
         }
+        // ANY received response is terminal, ok or not. A 502 can mean the
+        // webhook already fired before Zapier answered badly; re-POSTing it
+        // would duplicate the lead. Only a thrown network error is retried.
+        break;
       } catch {
         if (attempt === 0) {
           await new Promise((r) => setTimeout(r, 2000));
@@ -434,7 +480,11 @@ export default function DSCRForm() {
             onLastNameChange={(v) => $lastName.set(v)}
             onEmailChange={(v) => $email.set(v)}
             onPhoneChange={(v) => $phone.set(v)}
-            onConsentChange={(v) => $consent.set(v)}
+            onConsentChange={(v) => {
+              $consent.set(v);
+              // Timestamp the actual consent click for the TCPA record.
+              $consentAt.set(v ? new Date().toISOString() : '');
+            }}
             onHoneypotChange={(v) => $honeypot.set(v)}
             onSubmit={handleSubmit}
             onRetry={handleRetry}

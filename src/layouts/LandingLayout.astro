@@ -53,13 +53,15 @@ const canonicalUrl = canonical || new URL(Astro.url.pathname, siteUrl).href;
       <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
     )}
 
-    <!-- Google tag (gtag.js) -->
+    <!-- Google tag (gtag.js): GA4 + Google Ads. The AW config registers the Ads
+         destination so conversion events with send_to AW-11297975154 are delivered. -->
     <script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-W92EXVZW3P"></script>
     <script is:inline set:html={`
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
       gtag('config', 'G-W92EXVZW3P');
+      gtag('config', 'AW-11297975154');
     `} />
 
     <!-- Google Tag Manager -->
@@ -123,5 +125,20 @@ const canonicalUrl = canonical || new URL(Astro.url.pathname, siteUrl).href;
         </div>
       </footer>
     )}
+
+    <!-- CTA click tracking: every LP CTA carries data-event / data-location
+         attributes (phone_click, scroll_to_form). This delegated listener is the
+         delivery layer that forwards them to GA4; without it the attributes are
+         dead markup and no CTA engagement is ever recorded. -->
+    <script is:inline set:html={`
+      document.addEventListener('click', function (e) {
+        var el = e.target && e.target.closest ? e.target.closest('[data-event]') : null;
+        if (!el || typeof window.gtag !== 'function') return;
+        window.gtag('event', el.getAttribute('data-event'), {
+          location: el.getAttribute('data-location') || undefined,
+          page: window.location.pathname,
+        });
+      });
+    `} />
   </body>
 </html>

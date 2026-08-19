@@ -8,11 +8,16 @@ interface StepLocationProps {
 
 export default function StepLocation({ value, onSelect }: StepLocationProps) {
   const [showConfirmation, setShowConfirmation] = useState(false);
+  // True once the user makes a real selection this mount. When the step renders
+  // with a value already set (persisted from an abandoned session), re-picking
+  // the SAME option fires no onChange, so auto-advance can never trigger. In
+  // that state we show an explicit Continue button instead of stalling the lead.
+  const [pickedThisMount, setPickedThisMount] = useState(false);
   const isCovered = (v: string) => STATES_LIST.some((s) => s.value === v);
 
   useEffect(() => {
     // Only confirm coverage for states the network actually serves. A prefilled
-    // excluded state (e.g. from the analyzer handoff) must not claim a specialist.
+    // excluded state (e.g. from stale persisted data) must not claim a specialist.
     if (value && isCovered(value)) {
       setShowConfirmation(true);
     }
@@ -21,6 +26,7 @@ export default function StepLocation({ value, onSelect }: StepLocationProps) {
   const handleChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
     const selected = e.target.value;
     if (selected) {
+      setPickedThisMount(true);
       setShowConfirmation(false);
       // Small delay to show the confirmation before auto-advance
       setTimeout(() => {
@@ -60,6 +66,19 @@ export default function StepLocation({ value, onSelect }: StepLocationProps) {
           </svg>
           <span>We have a licensed DSCR specialist in {STATE_NAMES[value]}.</span>
         </div>
+      )}
+
+      {/* Pre-selected state (persisted from an earlier visit): the select fires no
+          onChange when the same option is re-picked, so give an explicit way forward. */}
+      {value && isCovered(value) && !pickedThisMount && (
+        <button
+          type="button"
+          onClick={() => onSelect(value)}
+          className="w-full mt-4 py-3.5 rounded bg-blue hover:bg-blue/90 text-white text-sm font-semibold uppercase tracking-wider transition-colors duration-150"
+          style={{ fontFamily: 'var(--font-sans)' }}
+        >
+          Continue
+        </button>
       )}
     </div>
   );

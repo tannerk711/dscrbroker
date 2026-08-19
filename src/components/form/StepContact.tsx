@@ -2,6 +2,16 @@ import { useState, useCallback } from 'react';
 import { contactSchema } from '../../utils/formValidation';
 import { formatPhoneDisplay } from '../../utils/brokerRouting';
 
+// TCPA consent copy, exported so the submitted consent record carries the exact
+// text the user agreed to. If this copy changes, the recorded text changes with
+// it automatically. Rendered verbatim below; never let display and record drift.
+// SUBMIT_LABEL feeds both the button and the disclosure sentence that names it.
+export const SUBMIT_LABEL = 'Match Me With a Specialist';
+export const CONSENT_CHECKBOX_TEXT =
+  'I agree to be contacted by a licensed DSCR loan specialist about my deal. Submitting this form does not pull my credit.';
+export const CONSENT_DISCLOSURE_TEXT =
+  `By clicking "${SUBMIT_LABEL}," I consent to receive calls, texts, and emails from a licensed loan specialist. Standard message and data fees may apply. Reply STOP to opt out.`;
+
 interface StepContactProps {
   firstName: string;
   lastName: string;
@@ -228,14 +238,14 @@ export default function StepContact({
               after:content-[''] after:absolute after:left-1.5 after:top-0.5 after:w-1.5 after:h-3 after:border-white after:border-r-2 after:border-b-2 after:rotate-45 after:opacity-0 checked:after:opacity-100"
           />
           <span className="text-white/60 text-xs leading-relaxed">
-            I agree to be contacted by a licensed DSCR loan specialist about my deal. Submitting this form does not pull my credit.
+            {CONSENT_CHECKBOX_TEXT}
           </span>
         </label>
         {errors.consent && touched.consent && (
           <p className="text-red-400 text-xs mt-1 ml-8 animate-[fadeIn_150ms_ease-out]">{errors.consent}</p>
         )}
         <p className="text-white/40 text-xs leading-relaxed mt-2 ml-8">
-          By clicking "Match Me With a Specialist," I consent to receive calls, texts, and emails from a licensed loan specialist. Standard message and data fees may apply. Reply STOP to opt out.
+          {CONSENT_DISCLOSURE_TEXT}
         </p>
       </div>
 
@@ -295,7 +305,7 @@ export default function StepContact({
             Matching You With a Specialist...
           </span>
         ) : (
-          'Match Me With a Specialist'
+          SUBMIT_LABEL
         )}
       </button>
 

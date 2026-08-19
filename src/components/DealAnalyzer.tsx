@@ -14,7 +14,6 @@ import {
 import {
   $loanGoal,
   $propertyType,
-  $state,
   $propertyValue,
   $downPayment,
   $currentStep,
@@ -323,7 +322,11 @@ export default function DealAnalyzer() {
       const mapped = PROPERTY_TYPE_MAP[result.propertyType];
       if (mapped) $propertyType.set(mapped);
     }
-    if (result.state) $state.set(result.state);
+    // Do NOT pre-fill $state. A pre-selected state renders the location step with
+    // a green confirmation but no way to advance (auto-advance only fires on a real
+    // onChange, and re-picking the same option fires nothing), stalling the lead.
+    // Same reason URL-param state prefill was removed on 2026-07-24 (formStore.ts).
+    // The lead actively selects their own state.
 
     const downStr = String(result.downPaymentPercent);
     if (['20', '25', '30'].includes(downStr)) {

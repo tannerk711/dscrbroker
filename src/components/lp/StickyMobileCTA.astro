@@ -39,7 +39,11 @@ const phoneHref = `tel:${phoneNumber.replace(/\D/g, '')}`;
 </div>
 
 <script>
-  // Show sticky CTA after user scrolls past the hero (~600px)
+  // Show sticky CTA after user scrolls past the hero (~600px).
+  // Tailwind v4's translate-y-full compiles to the CSS `translate` property, so
+  // the JS override MUST set style.translate too. Setting style.transform never
+  // overrides it and the bar stays permanently below the viewport (the bug that
+  // kept this bar invisible on every LP until 2026-08-18).
   const stickyEl = document.getElementById('sticky-mobile-cta');
   if (stickyEl) {
     let visible = false;
@@ -47,7 +51,7 @@ const phoneHref = `tel:${phoneNumber.replace(/\D/g, '')}`;
       const shouldShow = window.scrollY > 600;
       if (shouldShow !== visible) {
         visible = shouldShow;
-        stickyEl.style.transform = shouldShow ? 'translateY(0)' : 'translateY(100%)';
+        stickyEl.style.translate = shouldShow ? '0 0' : '0 100%';
       }
     };
     window.addEventListener('scroll', onScroll, { passive: true });
