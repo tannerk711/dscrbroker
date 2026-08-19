@@ -21,9 +21,9 @@ interface Props {
    */
   selfHostFonts?: boolean;
   /**
-   * Learn pages skip Hotjar: its ~65KB of script plus session XHRs sit in the
-   * article LCP dependency graph and cost real mobile Lighthouse points, and
-   * heatmaps matter on conversion surfaces, not education pages. Defaults to
+   * Learn pages skip Hotjar (Tanner's call 2026-08-18): heatmaps matter on
+   * conversion surfaces, not education pages, and its script sits in the
+   * article LCP graph. gtag (GA4 + Ads) always loads regardless. Defaults to
    * false, so every existing page keeps recording exactly as before.
    */
   skipHotjar?: boolean;

@@ -147,7 +147,10 @@ const jsonLd = [
            inside their own containers instead. -->
       <div class="grid grid-cols-1 gap-10 lg:grid-cols-[minmax(0,1fr)_264px] lg:gap-14">
         <div class="max-w-3xl">
-          <div class="-mt-12 md:-mt-16">
+          <!-- relative is load-bearing: the dark band above is positioned, so a
+               static card pulled up with negative margin paints UNDER it (the
+               label was clipped and the band showed a dead dark zone). -->
+          <div class="relative -mt-12 md:-mt-16">
             <DirectAnswer>{directAnswer}</DirectAnswer>
           </div>
           <div class="mt-10 lg:hidden">
