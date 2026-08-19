@@ -20,6 +20,13 @@ interface Props {
    * existing page renders exactly as before.
    */
   selfHostFonts?: boolean;
+  /**
+   * Learn pages skip Hotjar: its ~65KB of script plus session XHRs sit in the
+   * article LCP dependency graph and cost real mobile Lighthouse points, and
+   * heatmaps matter on conversion surfaces, not education pages. Defaults to
+   * false, so every existing page keeps recording exactly as before.
+   */
+  skipHotjar?: boolean;
 }
 
 const {
@@ -31,6 +38,7 @@ const {
   jsonLd,
   noIndex = false,
   selfHostFonts = false,
+  skipHotjar = false,
 } = Astro.props;
 
 const siteUrl = import.meta.env.PUBLIC_SITE_URL || 'https://dscrbroker.com';
@@ -123,7 +131,7 @@ const fullOgImage = ogImage.startsWith('http') ? ogImage : `${siteUrl}${ogImage}
   )}
 
   <!-- Hotjar: session recordings + heatmaps -->
-  <Hotjar />
+  {!skipHotjar && <Hotjar />}
 
   <slot name="head" />
 </head>

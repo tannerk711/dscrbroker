@@ -46,7 +46,15 @@ const jsonLd = [
 ];
 ---
 
-<BaseLayout title={title} description={description} canonical={canonical} jsonLd={jsonLd} selfHostFonts>
+<BaseLayout title={title} description={description} canonical={canonical} jsonLd={jsonLd} selfHostFonts skipHotjar>
+  <link
+    slot="head"
+    rel="preload"
+    as="font"
+    type="font/woff2"
+    crossorigin
+    href="/fonts/inter-latin-wght-normal.woff2"
+  />
   <!-- Dark hero -->
   <section class="relative overflow-hidden bg-navy pt-24 pb-16 md:pt-36 md:pb-24">
     <div class="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_top,#131C31_0%,#0B1120_65%)]"></div>

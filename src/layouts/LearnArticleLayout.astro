@@ -90,7 +90,20 @@ const jsonLd = [
   ogType="article"
   jsonLd={jsonLd}
   selfHostFonts
+  skipHotjar
 >
+  <!-- Same-origin font preload: lands Inter before first paint so the text
+       LCP carries no late-font dependency (font-display: optional then makes
+       first paint final either way). crossorigin required: font fetches are
+       CORS-mode even same-origin, a mismatched preload double-downloads. -->
+  <link
+    slot="head"
+    rel="preload"
+    as="font"
+    type="font/woff2"
+    crossorigin
+    href="/fonts/inter-latin-wght-normal.woff2"
+  />
   <!-- Dark article header band -->
   <section class="relative overflow-hidden bg-navy pt-24 pb-20 md:pt-36 md:pb-28">
     <div class="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_top,#131C31_0%,#0B1120_65%)]"></div>
