@@ -1,0 +1,45 @@
+---
+/**
+ * Phone-free sticky mobile CTA for /learn/ pages. Variant of
+ * lp/StickyMobileCTA.astro: single full-width button to /qualify/,
+ * same show-after-600px logic. The directory has no phone number.
+ */
+---
+
+<!-- Mobile-only sticky bottom CTA bar. Appears after scrolling past 600px. -->
+<div
+  id="sticky-content-cta"
+  class="sticky-mobile-chrome fixed bottom-0 left-0 right-0 z-40 lg:hidden bg-navy/95 backdrop-blur-md border-t border-white/[0.08] px-3 py-3 transform translate-y-full transition-transform duration-300"
+>
+  <div class="mx-auto max-w-md">
+    <a
+      href="/qualify/"
+      data-event="scroll_to_form"
+      data-location="sticky_learn"
+      class="flex items-center justify-center gap-2 rounded-lg bg-blue py-3 text-sm font-semibold text-white active:bg-blue-dark"
+    >
+      Match Me With a Specialist
+      <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+      </svg>
+    </a>
+  </div>
+</div>
+
+<script>
+  // Tailwind v4's translate-y-full compiles to the CSS `translate` property,
+  // so the JS override MUST set style.translate (style.transform never wins).
+  const stickyEl = document.getElementById('sticky-content-cta');
+  if (stickyEl) {
+    let visible = false;
+    const onScroll = () => {
+      const shouldShow = window.scrollY > 600;
+      if (shouldShow !== visible) {
+        visible = shouldShow;
+        stickyEl.style.translate = shouldShow ? '0 0' : '0 100%';
+      }
+    };
+    window.addEventListener('scroll', onScroll, { passive: true });
+    onScroll();
+  }
+</script>

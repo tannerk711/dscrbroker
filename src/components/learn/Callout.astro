@@ -1,0 +1,38 @@
+---
+/**
+ * Article callout. Three variants:
+ *  - takeaway (blue): the one sentence to remember
+ *  - important (amber): the catch people miss
+ *  - tip (green): the operator move
+ */
+interface Props {
+  variant?: 'takeaway' | 'important' | 'tip';
+  label?: string;
+}
+const { variant = 'takeaway', label } = Astro.props;
+
+const styles = {
+  takeaway: {
+    wrap: 'border-l-blue bg-blue/[0.04]',
+    label: 'text-blue-dark',
+    text: label ?? 'Key takeaway',
+  },
+  important: {
+    wrap: 'border-l-amber bg-amber/[0.05]',
+    label: 'text-amber-dark',
+    text: label ?? 'Worth knowing',
+  },
+  tip: {
+    wrap: 'border-l-green bg-green/[0.05]',
+    label: 'text-green',
+    text: label ?? 'Investor move',
+  },
+}[variant];
+---
+
+<aside class={`lr-reveal my-8 rounded-r-xl border-l-[3px] px-5 py-4 md:px-6 md:py-5 ${styles.wrap}`}>
+  <p class={`text-xs font-semibold uppercase tracking-widest ${styles.label}`}>{styles.text}</p>
+  <div class="mt-1.5 text-[0.9375rem] leading-relaxed text-gray-600 md:text-base">
+    <slot />
+  </div>
+</aside>

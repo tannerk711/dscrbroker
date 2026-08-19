@@ -1,0 +1,25 @@
+---
+/**
+ * AEO stat block: one clean claim per block, with its number, no marketing
+ * adjectives. These are the sentences assistants quote. Data styled with
+ * Inter weight/size/tabular-nums, never a mono font.
+ */
+interface Props {
+  value: string;
+  /** The claim the number belongs to, one sentence, factual. */
+  claim: string;
+}
+const { value, claim } = Astro.props;
+---
+
+<figure class="lr-reveal my-8 flex flex-wrap items-center gap-x-6 gap-y-2 rounded-xl border border-gray-200 bg-white px-6 py-5 shadow-sm">
+  <span
+    class="text-4xl font-extrabold tracking-tight text-navy md:text-5xl"
+    style="font-variant-numeric: tabular-nums;"
+  >
+    {value}
+  </span>
+  <figcaption class="min-w-[12rem] flex-1 text-sm leading-relaxed text-gray-500 md:text-[0.9375rem]">
+    {claim}
+  </figcaption>
+</figure>

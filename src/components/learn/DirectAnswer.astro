@@ -1,0 +1,17 @@
+---
+/**
+ * AEO direct-answer block. Renders the 40-70 word plain-English answer
+ * right under the H1 so assistants can lift it verbatim. One per article.
+ */
+interface Props {
+  label?: string;
+}
+const { label = 'The short answer' } = Astro.props;
+---
+
+<div class="mt-8 rounded-xl border border-gray-200 border-l-[3px] border-l-blue bg-white p-5 shadow-sm md:p-6">
+  <p class="text-xs font-semibold uppercase tracking-widest text-blue-dark">{label}</p>
+  <p class="mt-2 text-base leading-relaxed text-gray-600 md:text-lg">
+    <slot />
+  </p>
+</div>

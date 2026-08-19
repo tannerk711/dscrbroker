@@ -1,0 +1,34 @@
+---
+interface Props {
+  category: 'basics' | 'programs' | 'strategy' | 'market';
+  onDark?: boolean;
+}
+const { category, onDark = false } = Astro.props;
+
+const LABELS: Record<Props['category'], string> = {
+  basics: 'DSCR Basics',
+  programs: 'Loan Programs',
+  strategy: 'Strategy',
+  market: 'Market Analysis',
+};
+
+const light: Record<Props['category'], string> = {
+  basics: 'bg-blue/10 text-blue-dark border-blue/20',
+  programs: 'bg-green/10 text-green border-green/20',
+  strategy: 'bg-amber/10 text-amber-dark border-amber/20',
+  market: 'bg-gray-100 text-gray-500 border-gray-200',
+};
+
+const dark: Record<Props['category'], string> = {
+  basics: 'bg-blue/15 text-blue-light border-blue/25',
+  programs: 'bg-green/15 text-green border-green/25',
+  strategy: 'bg-amber/15 text-amber border-amber/25',
+  market: 'bg-white/10 text-slate-300 border-white/15',
+};
+
+const cls = onDark ? dark[category] : light[category];
+---
+
+<span class={`inline-flex items-center rounded-full border px-2.5 py-1 text-[11px] font-semibold uppercase tracking-wide ${cls}`}>
+  {LABELS[category]}
+</span>

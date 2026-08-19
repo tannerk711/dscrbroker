@@ -1,0 +1,33 @@
+---
+/**
+ * The single contextual mid-article CTA. Placed immediately after the
+ * article's biggest "aha" section, phrased to match the article topic.
+ * Exactly one per article (CTA doctrine: mid CTA + end band + sticky mobile,
+ * nothing else).
+ */
+interface Props {
+  heading: string;
+  body: string;
+  label: string;
+  href?: string;
+}
+const { heading, body, label, href = '/analyze/' } = Astro.props;
+---
+
+<div class="lr-reveal my-10 overflow-hidden rounded-xl border border-gray-200 bg-white shadow-md">
+  <div class="flex flex-col gap-4 p-6 sm:flex-row sm:items-center sm:justify-between md:p-7">
+    <div class="max-w-lg">
+      <p class="text-lg font-bold tracking-tight text-navy">{heading}</p>
+      <p class="mt-1 text-sm leading-relaxed text-gray-500">{body}</p>
+    </div>
+    <a
+      href={href}
+      class="inline-flex shrink-0 items-center justify-center gap-2 rounded-lg bg-blue px-6 py-3 text-base font-semibold text-white transition-all hover:bg-blue-dark hover:shadow-lg"
+    >
+      {label}
+      <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M5 12h14m0 0l-7-7m7 7l-7 7" />
+      </svg>
+    </a>
+  </div>
+</div>

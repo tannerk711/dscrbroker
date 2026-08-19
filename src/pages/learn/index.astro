@@ -1,0 +1,288 @@
+---
+/**
+ * /learn/ hub: dark hero with the signature 3-D card scene, featured guide,
+ * article grid, explore cards out to /programs/ and /states/, and one CTA
+ * banner below the grid (hub CTA doctrine: the banner, nothing else).
+ */
+import '../../styles/learn.css';
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import CategoryBadge from '../../components/learn/CategoryBadge.astro';
+
+const articles = (await getCollection('learn')).sort((a, b) => a.data.order - b.data.order);
+const featured = articles.find((a) => a.data.featured) ?? articles[0];
+const rest = articles.filter((a) => a.id !== featured.id);
+
+const title = 'DSCR Loan Guides for Real Estate Investors | DSCRBroker.com';
+const description =
+  'DSCR loan guides written for rental investors. How these loans work, what lenders actually check, how the math plays out, and how deals get structured.';
+const canonical = 'https://dscrbroker.com/learn/';
+
+const jsonLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    name: 'DSCR Loan Guide: Everything Investors Need to Know',
+    description,
+    url: canonical,
+    mainEntity: {
+      '@type': 'ItemList',
+      itemListElement: articles.map((a, i) => ({
+        '@type': 'ListItem',
+        position: i + 1,
+        name: a.data.title,
+        url: `https://dscrbroker.com/learn/${a.id}/`,
+      })),
+    },
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://dscrbroker.com/' },
+      { '@type': 'ListItem', position: 2, name: 'Learn', item: canonical },
+    ],
+  },
+];
+---
+
+<BaseLayout title={title} description={description} canonical={canonical} jsonLd={jsonLd} selfHostFonts>
+  <!-- Dark hero -->
+  <section class="relative overflow-hidden bg-navy pt-24 pb-16 md:pt-36 md:pb-24">
+    <div class="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_top,#131C31_0%,#0B1120_65%)]"></div>
+    <div class="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <nav class="flex items-center gap-2 text-sm text-slate-400" aria-label="Breadcrumb">
+        <a href="/" class="transition-colors hover:text-white">Home</a>
+        <span aria-hidden="true">/</span>
+        <span class="text-slate-300">Learn</span>
+      </nav>
+
+      <div class="mt-8 grid items-center gap-10 md:grid-cols-2 md:gap-12 lg:gap-16">
+        <div>
+          <span class="inline-flex items-center gap-2 rounded-full border border-amber/20 bg-amber/10 px-3 py-1 text-xs font-semibold text-amber">
+            The DSCR education library
+          </span>
+          <h1
+            class="mt-4 text-3xl font-extrabold tracking-tight text-white md:text-5xl"
+            style="line-height: 1.12; letter-spacing: -0.008em;"
+          >
+            DSCR Loan Guide: Everything Investors Need to Know
+          </h1>
+          <p class="mt-5 max-w-xl text-lg leading-relaxed text-slate-300">
+            Qualify on the property&rsquo;s rent, not your tax returns. These guides walk the whole
+            thing: the formula, the requirements, the trade-offs, and what a specialist actually does
+            with your file. Written to teach, not to sell.
+          </p>
+        </div>
+
+        <!-- Signature 3-D scene: layered card stack with pointer tilt on
+             desktop, flat static composition on mobile. Zero image weight. -->
+        <div class="lr-tilt-scene mx-auto w-full max-w-sm md:max-w-md" data-tilt-scene>
+          <div class="lr-tilt relative" data-tilt>
+            <!-- back chip: sits mostly above the card's top edge so it reads -->
+            <div
+              class="absolute -top-16 right-4 rounded-xl border border-white/10 bg-navy-light px-4 py-3 shadow-xl md:-right-4"
+              style="transform: translateZ(-50px);"
+            >
+              <p class="text-xl font-extrabold text-white" style="font-variant-numeric: tabular-nums;">70+</p>
+              <p class="text-[11px] font-semibold uppercase tracking-wide text-slate-400">Lenders in network</p>
+            </div>
+            <!-- mid chip -->
+            <div
+              class="absolute -bottom-7 -left-2 z-10 rounded-xl border border-white/10 bg-navy-light px-4 py-3 shadow-xl md:-left-6"
+              style="transform: translateZ(40px);"
+            >
+              <p class="text-[11px] font-semibold uppercase tracking-wide text-slate-400">Monthly cash flow</p>
+              <p class="text-xl font-extrabold text-green" style="font-variant-numeric: tabular-nums;">+$320/mo</p>
+            </div>
+            <!-- front card: mini gauge -->
+            <div class="relative rounded-xl border border-white/10 bg-white p-6 shadow-xl">
+              <p class="text-xs font-semibold uppercase tracking-widest text-gray-400">Example deal</p>
+              <svg viewBox="0 0 220 128" class="mx-auto mt-2 max-w-[280px]" role="img" aria-label="Gauge showing a 1.15 DSCR">
+                <path d="M 22 112 A 88 88 0 0 1 198 112" fill="none" stroke="#EF4444" stroke-opacity="0.22" stroke-width="13" pathLength="100" stroke-dasharray="36.7 100" />
+                <path d="M 22 112 A 88 88 0 0 1 198 112" fill="none" stroke="#D4930D" stroke-opacity="0.22" stroke-width="13" pathLength="100" stroke-dasharray="11.7 100" stroke-dashoffset="-37.5" />
+                <path d="M 22 112 A 88 88 0 0 1 198 112" fill="none" stroke="#3B82F6" stroke-opacity="0.22" stroke-width="13" pathLength="100" stroke-dasharray="11.7 100" stroke-dashoffset="-50" />
+                <path d="M 22 112 A 88 88 0 0 1 198 112" fill="none" stroke="#22C55E" stroke-opacity="0.22" stroke-width="13" pathLength="100" stroke-dasharray="36.7 100" stroke-dashoffset="-62.5" />
+                <path d="M 44 112 A 66 66 0 0 1 176 112" fill="none" stroke="#3B82F6" stroke-width="9" stroke-linecap="round" pathLength="100" stroke-dasharray="57.5 100" />
+                <text x="110" y="98" text-anchor="middle" fill="#3B82F6" style="font-size: 30px; font-weight: 800; letter-spacing: -0.01em; font-variant-numeric: tabular-nums;">1.15x</text>
+                <text x="110" y="116" text-anchor="middle" class="fill-gray-400" style="font-size: 9px; font-weight: 600; letter-spacing: 0.08em;">DSCR</text>
+              </svg>
+              <div class="mt-3 flex items-center justify-between rounded-lg bg-off-white px-4 py-2.5 text-sm">
+                <span class="text-gray-500">Rent <strong class="font-bold text-navy">$2,400</strong></span>
+                <span class="text-gray-300">/</span>
+                <span class="text-gray-500">PITIA <strong class="font-bold text-navy">$2,080</strong></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured guide -->
+  <section class="bg-off-white py-14 md:py-20">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div class="lr-reveal">
+        <p class="text-xs font-semibold uppercase tracking-widest text-amber-dark">Start here</p>
+        <h2 class="mt-2 text-2xl font-bold tracking-tight text-navy md:text-3xl">The flagship guide</h2>
+      </div>
+
+      <a
+        href={`/learn/${featured.id}/`}
+        class="lr-reveal group mt-8 grid overflow-hidden rounded-xl border border-gray-200 bg-white shadow-md transition-all hover:-translate-y-1 hover:shadow-lg md:grid-cols-[3fr_2fr]"
+      >
+        <div class="p-7 md:p-10">
+          <CategoryBadge category={featured.data.category} />
+          <h3 class="mt-4 text-2xl font-bold tracking-tight text-navy transition-colors group-hover:text-blue-dark md:text-3xl" style="line-height: 1.2;">
+            {featured.data.title}
+          </h3>
+          <p class="mt-3 max-w-xl text-base leading-relaxed text-gray-500">{featured.data.description}</p>
+          <p class="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-blue-dark">
+            Read the guide
+            <svg class="h-4 w-4 transition-transform group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M5 12h14m0 0l-7-7m7 7l-7 7" />
+            </svg>
+            <span class="ml-2 font-normal uppercase tracking-wide text-gray-400 text-xs">{featured.data.readTime} min read</span>
+          </p>
+        </div>
+        <div class="relative hidden items-center justify-center overflow-hidden bg-navy md:flex">
+          <div class="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_center,#1A2540_0%,#0B1120_75%)]"></div>
+          <div class="relative px-8 py-10 text-center">
+            <p class="text-5xl font-extrabold tracking-tight text-white" style="font-variant-numeric: tabular-nums;">1.0x</p>
+            <p class="mt-2 text-sm font-semibold uppercase tracking-widest text-slate-400">The number that<br />decides the deal</p>
+          </div>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <!-- Guide grid -->
+  <section class="bg-white py-14 md:py-20">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      {rest.length > 0 && (
+        <div class="lr-reveal">
+          <p class="text-xs font-semibold uppercase tracking-widest text-amber-dark">The library</p>
+          <h2 class="mt-2 text-2xl font-bold tracking-tight text-navy md:text-3xl">All guides</h2>
+        </div>
+      )}
+
+      <div class={`grid gap-6 sm:grid-cols-2 lg:grid-cols-4 ${rest.length > 0 ? 'mt-8' : 'hidden'}`}>
+        {rest.map((article) => (
+          <a
+            href={`/learn/${article.id}/`}
+            class="lr-reveal group flex flex-col rounded-xl border border-gray-200 bg-white p-6 shadow-sm transition-all hover:-translate-y-1 hover:border-blue/30 hover:shadow-lg"
+          >
+            <CategoryBadge category={article.data.category} />
+            <h3 class="mt-3 flex-none text-lg font-bold tracking-tight text-navy transition-colors group-hover:text-blue-dark" style="line-height: 1.3;">
+              {article.data.title}
+            </h3>
+            <p class="mt-2 flex-1 text-sm leading-relaxed text-gray-500">
+              {article.data.description.length > 120
+                ? `${article.data.description.slice(0, 117)}...`
+                : article.data.description}
+            </p>
+            <p class="mt-4 text-xs font-semibold uppercase tracking-wide text-gray-400">
+              {article.data.readTime} min read
+            </p>
+          </a>
+        ))}
+      </div>
+
+      <!-- Explore the money pages -->
+      <div class="mt-10 grid gap-6 md:grid-cols-2">
+        <a
+          href="/programs/"
+          class="lr-reveal group flex items-center justify-between rounded-xl border border-gray-200 bg-off-white p-6 transition-all hover:-translate-y-0.5 hover:border-blue/30 hover:shadow-md md:p-7"
+        >
+          <div>
+            <h3 class="text-lg font-bold tracking-tight text-navy">Browse the 8 DSCR loan programs</h3>
+            <p class="mt-1 text-sm text-gray-500">Standard, No-Ratio, STR, Foreign National, and more. Stats and fit for each.</p>
+          </div>
+          <svg class="h-5 w-5 shrink-0 text-blue transition-transform group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M5 12h14m0 0l-7-7m7 7l-7 7" />
+          </svg>
+        </a>
+        <a
+          href="/states/"
+          class="lr-reveal group flex items-center justify-between rounded-xl border border-gray-200 bg-off-white p-6 transition-all hover:-translate-y-0.5 hover:border-blue/30 hover:shadow-md md:p-7"
+        >
+          <div>
+            <h3 class="text-lg font-bold tracking-tight text-navy">DSCR loans by state</h3>
+            <p class="mt-1 text-sm text-gray-500">Market data, deal examples, and specialist coverage across 45+ states.</p>
+          </div>
+          <svg class="h-5 w-5 shrink-0 text-blue transition-transform group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M5 12h14m0 0l-7-7m7 7l-7 7" />
+          </svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA banner (the hub's single CTA) -->
+  <section class="bg-navy py-14 md:py-20">
+    <div class="mx-auto max-w-3xl px-4 text-center sm:px-6 lg:px-8">
+      <div class="lr-reveal">
+        <h2 class="text-2xl font-bold tracking-tight text-white md:text-3xl" style="line-height: 1.15;">
+          Have a deal you want to run numbers on?
+        </h2>
+        <p class="mx-auto mt-3 max-w-xl text-lg leading-relaxed text-slate-300">
+          Reading is the homework. A specialist match is the shortcut. Two minutes, no SSN, no credit
+          pull.
+        </p>
+        <div class="mt-7">
+          <a
+            href="/qualify/"
+            class="inline-flex items-center gap-2 rounded-lg bg-blue px-8 py-4 text-lg font-bold text-white transition-all hover:bg-blue-dark hover:shadow-lg"
+          >
+            Match Me With a Specialist
+            <svg class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M5 12h14m0 0l-7-7m7 7l-7 7" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pointer tilt (desktop, fine pointers only) + below-fold reveals -->
+  <script>
+    const scene = document.querySelector<HTMLElement>('[data-tilt-scene]');
+    const card = document.querySelector<HTMLElement>('[data-tilt]');
+    const fine = window.matchMedia('(hover: hover) and (pointer: fine)').matches;
+    const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (scene && card && fine && !reduced) {
+      scene.addEventListener('mousemove', (e) => {
+        const r = scene.getBoundingClientRect();
+        const px = (e.clientX - r.left) / r.width - 0.5;
+        const py = (e.clientY - r.top) / r.height - 0.5;
+        card.style.transform = `rotateY(${px * 10}deg) rotateX(${py * -8}deg)`;
+      });
+      scene.addEventListener('mouseleave', () => {
+        card.style.transform = 'rotateY(0deg) rotateX(0deg)';
+      });
+    }
+
+    // Below-fold reveals: IO + CSS transitions, no GSAP (perf budget).
+    window.addEventListener('load', () => {
+      if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+      if (!('IntersectionObserver' in window)) return;
+      const io = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('lr-in');
+              io.unobserve(entry.target);
+            }
+          });
+        },
+        { rootMargin: '0px 0px -10% 0px' }
+      );
+      const vh = window.innerHeight;
+      document.querySelectorAll<HTMLElement>('.lr-reveal').forEach((el) => {
+        if (el.getBoundingClientRect().top < vh * 0.92) return;
+        el.classList.add('lr-prep');
+        io.observe(el);
+      });
+    });
+  </script>
+</BaseLayout>

@@ -1,0 +1,70 @@
+---
+/**
+ * End-of-article "Related guides" cards (2-3 sibling articles) plus one
+ * money-page card, feeding link equity where it belongs.
+ */
+import CategoryBadge from './CategoryBadge.astro';
+
+interface RelatedEntry {
+  id: string;
+  title: string;
+  description: string;
+  category: 'basics' | 'programs' | 'strategy' | 'market';
+  readTime: number;
+}
+
+interface Props {
+  entries: RelatedEntry[];
+  moneyLink: { label: string; href: string; blurb: string };
+}
+const { entries, moneyLink } = Astro.props;
+---
+
+<section class="cv-auto bg-off-white py-14 md:py-20">
+  <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    <div class="lr-reveal">
+      <p class="text-xs font-semibold uppercase tracking-widest text-amber-dark">Keep going</p>
+      <h2 class="mt-2 text-2xl font-bold tracking-tight text-navy md:text-3xl">Related guides</h2>
+    </div>
+
+    <div class="mt-8 grid gap-6 md:grid-cols-3">
+      {entries.map((entry) => (
+        <a
+          href={`/learn/${entry.id}/`}
+          class="lr-reveal group flex flex-col rounded-xl border border-gray-200 bg-white p-6 shadow-sm transition-all hover:-translate-y-1 hover:border-blue/30 hover:shadow-lg"
+        >
+          <CategoryBadge category={entry.category} />
+          <h3 class="mt-3 text-lg font-bold tracking-tight text-navy transition-colors group-hover:text-blue-dark">
+            {entry.title}
+          </h3>
+          <p class="mt-2 flex-1 text-sm leading-relaxed text-gray-500">
+            {entry.description.length > 120 ? `${entry.description.slice(0, 117)}...` : entry.description}
+          </p>
+          <p class="mt-4 text-xs font-semibold uppercase tracking-wide text-gray-400">
+            {entry.readTime} min read
+          </p>
+        </a>
+      ))}
+
+      <!-- Money-page card -->
+      <a
+        href={moneyLink.href}
+        class="lr-reveal group flex flex-col rounded-xl border border-blue/25 bg-white p-6 shadow-sm transition-all hover:-translate-y-1 hover:border-blue/50 hover:shadow-lg"
+      >
+        <span class="inline-flex w-fit items-center rounded-full border border-blue/20 bg-blue/10 px-2.5 py-1 text-[11px] font-semibold uppercase tracking-wide text-blue-dark">
+          Put it to work
+        </span>
+        <h3 class="mt-3 text-lg font-bold tracking-tight text-navy transition-colors group-hover:text-blue-dark">
+          {moneyLink.label}
+        </h3>
+        <p class="mt-2 flex-1 text-sm leading-relaxed text-gray-500">{moneyLink.blurb}</p>
+        <p class="mt-4 inline-flex items-center gap-1.5 text-sm font-semibold text-blue-dark">
+          Go
+          <svg class="h-4 w-4 transition-transform group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M5 12h14m0 0l-7-7m7 7l-7 7" />
+          </svg>
+        </p>
+      </a>
+    </div>
+  </div>
+</section>

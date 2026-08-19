@@ -1,0 +1,169 @@
+---
+/**
+ * SVG DSCR gauge that sweeps to a value when scrolled into view.
+ * Zones use the site's DSCR tier colors (same semantics as the live
+ * calculator): red < 0.75, amber 0.75-1.0, blue 1.0-1.25, green 1.25+.
+ * Boundaries are directly labeled so identity never rides on color alone.
+ * Zero image weight, no island: pure SVG + a tiny IntersectionObserver script.
+ */
+interface Props {
+  value: number;
+  caption?: string;
+}
+const { value, caption } = Astro.props;
+
+const MAX = 2;
+const clamped = Math.min(Math.max(value, 0), MAX);
+const frac = clamped / MAX;
+
+const tierColor =
+  clamped >= 1.25 ? '#22C55E' : clamped >= 1.0 ? '#3B82F6' : clamped >= 0.75 ? '#D4930D' : '#EF4444';
+const tierLabel =
+  clamped >= 1.25 ? 'Strong cash flow' : clamped >= 1.0 ? 'Cash flow positive' : clamped >= 0.75 ? 'Below break-even' : 'Deep negative';
+
+/* Geometry: semicircle, center (110,112), outer zone radius 88, inner value radius 66 */
+const CX = 110;
+const CY = 112;
+const RZ = 88;
+const RV = 66;
+
+/* Zone segments as [startFrac, endFrac, color] with pathLength=100 dash math */
+const zones: [number, number, string][] = [
+  [0, 0.375, '#EF4444'],
+  [0.375, 0.5, '#D4930D'],
+  [0.5, 0.625, '#3B82F6'],
+  [0.625, 1, '#22C55E'],
+];
+const GAP = 0.8;
+
+/* Boundary tick labels along the outside of the arc */
+function point(f: number, r: number): { x: number; y: number } {
+  const a = Math.PI * (1 - f);
+  return { x: CX + r * Math.cos(a), y: CY - r * Math.sin(a) };
+}
+const ticks = [0.75, 1.0, 1.25].map((v) => {
+  const p = point(v / MAX, RZ + 16);
+  return { v: v.toFixed(2), x: p.x, y: p.y };
+});
+
+const zonePath = `M ${CX - RZ} ${CY} A ${RZ} ${RZ} 0 0 1 ${CX + RZ} ${CY}`;
+const valuePath = `M ${CX - RV} ${CY} A ${RV} ${RV} 0 0 1 ${CX + RV} ${CY}`;
+const sweep = Math.max(frac * 100, 1.5);
+---
+
+<figure
+  class="lr-reveal my-10 rounded-xl border border-gray-200 bg-white px-4 py-6 shadow-sm sm:px-8"
+  data-gauge
+  data-gauge-value={clamped.toFixed(2)}
+>
+  <div class="mx-auto max-w-[340px]">
+    <svg viewBox="0 0 220 132" role="img" aria-label={`DSCR gauge showing ${clamped.toFixed(2)}, ${tierLabel}`}>
+      <!-- zone track -->
+      {zones.map(([s, e, color]) => (
+        <path
+          d={zonePath}
+          fill="none"
+          stroke={color}
+          stroke-opacity="0.22"
+          stroke-width="13"
+          pathLength="100"
+          stroke-dasharray={`${Math.max((e - s) * 100 - GAP, 0.5)} 100`}
+          stroke-dashoffset={-(s * 100)}
+        />
+      ))}
+      <!-- boundary labels -->
+      {ticks.map((t) => (
+        <text
+          x={t.x}
+          y={t.y}
+          text-anchor="middle"
+          class="fill-gray-400"
+          style="font-size: 9.5px; font-weight: 600;"
+        >
+          {t.v}
+        </text>
+      ))}
+      <!-- value sweep -->
+      <path
+        class="gauge-arc"
+        d={valuePath}
+        fill="none"
+        stroke={tierColor}
+        stroke-width="9"
+        stroke-linecap="round"
+        pathLength="100"
+        stroke-dasharray={`${sweep} 100`}
+        stroke-dashoffset={sweep}
+      />
+      <!-- readout -->
+      <text
+        x={CX}
+        y="98"
+        text-anchor="middle"
+        data-gauge-num
+        fill={tierColor}
+        style="font-size: 30px; font-weight: 800; letter-spacing: -0.01em; font-variant-numeric: tabular-nums;"
+      >
+        0.00x
+      </text>
+      <text
+        x={CX}
+        y="116"
+        text-anchor="middle"
+        class="fill-gray-400"
+        style="font-size: 9px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase;"
+      >
+        DSCR
+      </text>
+    </svg>
+    <p class="mt-1 text-center text-sm font-semibold" style={`color: ${tierColor}`}>{tierLabel}</p>
+  </div>
+  {caption && (
+    <figcaption class="mx-auto mt-3 max-w-md text-center text-sm leading-relaxed text-gray-500">
+      {caption}
+    </figcaption>
+  )}
+</figure>
+
+<script>
+  const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  const animateGauge = (el: Element) => {
+    const target = parseFloat((el as HTMLElement).dataset.gaugeValue || '0');
+    const arc = el.querySelector<SVGPathElement>('.gauge-arc');
+    const num = el.querySelector<SVGTextElement>('[data-gauge-num]');
+    if (arc) arc.style.strokeDashoffset = '0';
+    if (!num) return;
+    if (reduced) {
+      num.textContent = `${target.toFixed(2)}x`;
+      return;
+    }
+    const dur = 1200;
+    const t0 = performance.now();
+    const tick = (t: number) => {
+      const p = Math.min((t - t0) / dur, 1);
+      const eased = 1 - Math.pow(1 - p, 3);
+      num.textContent = `${(target * eased).toFixed(2)}x`;
+      if (p < 1) requestAnimationFrame(tick);
+    };
+    requestAnimationFrame(tick);
+  };
+
+  const gauges = document.querySelectorAll('[data-gauge]');
+  if ('IntersectionObserver' in window) {
+    const io = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            animateGauge(entry.target);
+            io.unobserve(entry.target);
+          }
+        });
+      },
+      { threshold: 0.4 }
+    );
+    gauges.forEach((g) => io.observe(g));
+  } else {
+    gauges.forEach(animateGauge);
+  }
+</script>

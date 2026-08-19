@@ -1,0 +1,29 @@
+---
+import { getCollection, render } from 'astro:content';
+import LearnArticleLayout from '../../layouts/LearnArticleLayout.astro';
+
+export async function getStaticPaths() {
+  const articles = await getCollection('learn');
+  return articles.map((entry) => ({ params: { slug: entry.id }, props: { entry } }));
+}
+
+const { entry } = Astro.props;
+const { Content, headings } = await render(entry);
+
+const all = await getCollection('learn');
+const relatedEntries = entry.data.related
+  .map((slug) => all.find((a) => a.id === slug))
+  .filter((e): e is NonNullable<typeof e> => Boolean(e))
+  .slice(0, 3)
+  .map((e) => ({
+    id: e.id,
+    title: e.data.title,
+    description: e.data.description,
+    category: e.data.category,
+    readTime: e.data.readTime,
+  }));
+---
+
+<LearnArticleLayout entry={entry} headings={headings} relatedEntries={relatedEntries}>
+  <Content />
+</LearnArticleLayout>

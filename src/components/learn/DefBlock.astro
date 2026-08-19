@@ -1,0 +1,18 @@
+---
+/**
+ * AEO definition block: a term and its clean one-to-two sentence definition.
+ * Visually distinct so assistants (and skimmers) can lift it whole.
+ */
+interface Props {
+  term: string;
+}
+const { term } = Astro.props;
+---
+
+<div class="lr-reveal my-8 rounded-xl border border-gray-200 bg-white p-5 shadow-sm md:p-6">
+  <p class="text-xs font-semibold uppercase tracking-widest text-gray-400">Definition</p>
+  <p class="mt-1.5 text-lg font-bold tracking-tight text-navy">{term}</p>
+  <div class="mt-1.5 text-[0.9375rem] leading-relaxed text-gray-600 md:text-base">
+    <slot />
+  </div>
+</div>
