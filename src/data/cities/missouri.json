@@ -1,0 +1,1297 @@
+{
+  "state": "Missouri",
+  "abbreviation": "MO",
+  "stateSlug": "missouri",
+  "dataUpdated": "2026-08",
+  "cities": [
+    {
+      "city": "Kansas City",
+      "slug": "kansas-city",
+      "county": "Jackson County",
+      "metro": "Kansas City MO-KS",
+      "hook": "Kansas City's typical home is $255,590 with rents up 4.5% in a year, and the county that assesses it just recalled its executive over property taxes. The spread is real and so is the paperwork.",
+      "metaDescription": "Kansas City homes average $255K with rents up 4.5%. See how DSCR deals pencil after the Jackson County assessment shake-up. Get matched today.",
+      "market": {
+        "medianPrice": 255590,
+        "medianRent": 1445,
+        "priceToRent": 14.7,
+        "vacancyRate": 6.8,
+        "yoyPrice": 1.4,
+        "yoyRent": 4.5,
+        "estDSCR": 0.73,
+        "propertyTaxRate": 1.49,
+        "insuranceMonthly": 230
+      },
+      "overview": "Kansas City enters 2026 as a steady cash-flow metro with an asterisk the size of a courthouse. The typical home value sits at $255,590 as of July 2026, up 1.4% year over year, while average asking rent rose 4.5% to $1,445 and homes go pending in about 8 days. Rents outrunning prices is the setup an investor wants, and the metro's roughly 6.8% rental vacancy is balanced rather than soft.\n\nThe asterisk is Jackson County. The 2023 reassessment triggered lawsuits, tens of thousands of appeals, and a State Tax Commission order to roll back assessments that rose more than 15%. A circuit court upheld the Commission's authority in April 2025, the county capped 2025 increases at 15% over 2022 levels, and voters recalled County Executive Frank White with 85% of the vote that September. Kansas City's median effective property tax load now runs about 1.49% of market value, with south-side zips like 64134 and 64138 reaching 1.62% to 1.71%. Underwrite the post-sale bill, not the seller's.\n\nWhere files pencil: the Historic Northeast's brick doubles and foursquares, Ruskin Heights and Hickman Mills ranches in the $160Ks, and Waldo's $230K bungalow stock that never sits vacant. At the citywide median with 20% down the ratio lands near 0.73, so Kansas City deals clear through submarket selection and 2-4 unit stock, not through the median house.",
+      "regulationBadge": "moderate",
+      "regulationNote": "Missouri preempts local rent control under RSMo Section 441.043, but Kansas City requires annual Healthy Homes rental registration with interior inspection authority, and its 2023 rewrite bars non-resident short-term rentals from every residentially zoned area.",
+      "neighborhoods": [
+        {
+          "name": "Historic Northeast",
+          "medianPrice": 147459,
+          "medianRent": 1250,
+          "note": "Pendleton Heights, Scarritt Renaissance, and Indian Mound, where the native asset is the brick double and the foursquare. Zillow shows Pendleton Heights at $245,778 while Independence Plaza sits at $128,357, so the block-by-block spread is the whole underwriting job."
+        },
+        {
+          "name": "Waldo",
+          "medianPrice": 230865,
+          "medianRent": 1650,
+          "note": "The classic first-rental neighborhood in Kansas City, 1920s to 1950s bungalows near shops on Wornall and 75th. Waldo Homes carries a $230,865 typical value and houses here rent fast to young professionals priced out of Brookside next door."
+        },
+        {
+          "name": "Ruskin Heights",
+          "medianPrice": 163599,
+          "medianRent": 1350,
+          "note": "South Kansas City's 1950s tract-ranch belt, including Ruskin Hills at $163,599 and Hickman Mills South at $181,391. The deepest cash-flow tier inside city limits, with the trade-off that these zips carry effective tax loads up to 1.62%."
+        },
+        {
+          "name": "White Oak",
+          "medianPrice": 215973,
+          "medianRent": 1595,
+          "note": "East Kansas City off I-70 near the Blue River corridor, 1960s and 1970s ranches at $215,973. A quieter middle path between Northeast condition risk and Waldo pricing, renting to commuters working the stadium and industrial corridors."
+        }
+      ],
+      "localAngle": {
+        "tag": "Rental Rules",
+        "title": "Kansas City licenses the rental itself. Budget for the permit, not just the purchase.",
+        "body": "Kansas City is one of the few Missouri cities that regulates the rental unit directly, and the costs are specific. The Healthy Homes Rental Inspection Program, approved by voters in 2018 and run by the Health Department, requires every rental unit inside city limits to be registered. The 2026 schedule is a $25 annual permit per unit plus a one-time $25 application fee, with a $150 charge if a failed item is not fixed by the reinspection deadline. Inspectors check 16 life-safety items and tenant complaints trigger interior inspections. Separately, Ordinance 230268 rewrote short-term rental rules effective June 15, 2023 under Chapter 56, Article VIII of the city code: every STR must register annually, and non-resident short-term rentals are prohibited in all residentially zoned areas, full stop. Voters also added a 7.5% tax on STR stays in April 2023. The practical read for an investor: buy Kansas City for long-term rental economics, register every unit before the first lease, and treat any pro forma built on nightly rates in a residential neighborhood as dead on arrival. Your matched specialist will structure the file on lease income with the permit costs and the post-reassessment tax bill already inside the ratio."
+      },
+      "programFit": [
+        "standard-dscr",
+        "portfolio-dscr",
+        "bridge-to-dscr",
+        "no-ratio-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "Duplex (2-unit)",
+        "neighborhood": "Historic Northeast",
+        "purchasePrice": 185000,
+        "downPaymentPct": 25,
+        "downPayment": 46250,
+        "loanAmount": 138750,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 970,
+        "monthlyTax": 230,
+        "monthlyInsurance": 190,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 1390,
+        "monthlyRent": 2000,
+        "dscr": 1.44,
+        "monthlyCashFlow": 610,
+        "specialistFocus": [
+          "Qualified on the appraiser's market rent for both units, $1,000 a side, instead of the single-family comps that undervalue Northeast doubles",
+          "Underwrote the tax line at the full post-sale Jackson County assessment rather than the seller's capped 2025 bill, so the ratio survives the 2027 reassessment",
+          "Priced both Healthy Homes unit registrations and a repair reserve for the inspection checklist into cash-to-close instead of letting them surprise the first year"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "What did the Jackson County assessment mess actually settle, and what still is not settled?",
+          "answer": "Settled: the State Tax Commission ordered rollbacks of 2023 assessments that rose more than 15%, a circuit court upheld that authority in April 2025, the county capped 2025 increases at 15% over 2022, and credits were applied to 2026 through 2028 bills. Voters recalled County Executive Frank White that September with 85% support. Not settled: what the 2027 countywide reassessment does once the caps age out. Missouri reassesses every odd year, so a 2026 purchase gets marked toward its price soon. Underwrite Kansas City's roughly 1.49% effective load on your purchase price, not the seller's frozen bill."
+        },
+        {
+          "question": "Can I run an Airbnb in a Kansas City neighborhood?",
+          "answer": "Not as an out-of-town investor in a residential zone. Ordinance 230268, effective June 15, 2023, prohibits non-resident short-term rentals in all residentially zoned areas of Kansas City and requires annual registration for the STRs that remain legal in commercial zones, where density limits also apply. Voters layered a 7.5% tax on STR stays in April 2023. A house in Waldo or the Northeast is a long-term or mid-term rental, and the numbers in this market support exactly that. Your matched specialist will qualify the file on lease income, which is what an appraiser and an underwriter will accept."
+        },
+        {
+          "question": "Why does the citywide DSCR land near 0.73 when rents are climbing 4.5%?",
+          "answer": "Because the $1,445 average rent blends apartments with houses while the $255,590 typical value reflects a market where prices held. Run the formula at 20% down with the 1.49% tax load and roughly $230 monthly insurance and the median lands near 0.73. Files still clear here every day, in three ways: 2-4 unit buildings in the Historic Northeast where combined rents double the house figure, sub-$170K ranches in Ruskin Heights renting near $1,350, and larger down payments in Waldo. Kansas City rewards asset selection, not index buying."
+        },
+        {
+          "question": "What does the Healthy Homes program cost me per property?",
+          "answer": "Less in fees than in readiness. The 2026 permit is $25 per unit each year plus a one-time $25 application, so a single-family rental costs $50 in year one and $25 after. The real exposure is the inspection: 16 life-safety items, tenant complaints trigger interior visits, and a missed reinspection deadline runs $150 with another $100 for each additional trip. Budget a small make-ready reserve for smoke detectors, handrails, and electrical covers before the first lease. It is a manageable program if you plan for it and a fine-generator if you do not."
+        },
+        {
+          "question": "Which Kansas City zips should I underwrite most carefully on taxes?",
+          "answer": "The south and east side of the city. Ownwell's April 2026 data shows the citywide median effective load at 1.49% of market value, but 64134 and 64137 run about 1.62% and 64133 reaches 1.71%, mostly on school district levies. Those are also the highest-yield zips, so the gross numbers look best exactly where the tax line bites hardest. The urban-core zips like 64106 run under 1%. Price the specific zip's load into the ratio before you write the offer, because the difference between 1% and 1.7% on a $200,000 house is about $117 a month."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Kansas City typical home value and YoY change, July 2026",
+        "Zillow Observed Rent Index, Kansas City average rent and YoY change, July 2026",
+        "US Census ACS 5-year via Neilsberg and Alpine Property Management market data, Kansas City metro rental vacancy, January 2026 (est.)",
+        "Ownwell property tax trends, Kansas City and zip-level median effective property tax data, April 2026",
+        "City of Kansas City, Healthy Homes Rental Inspection Program fees and Ordinance 230268 STR rules, 2026",
+        "Insurify, Missouri average premium of $2,952 at $300,000 dwelling coverage, 2026 (scaled to local median, est.)"
+      ]
+    },
+    {
+      "city": "St. Louis",
+      "slug": "st-louis",
+      "county": "St. Louis City",
+      "metro": "St. Louis MO-IL",
+      "hook": "St. Louis is two markets sharing one tax bill: south city four-families that gross $3,000 a month on $260K buildings, and north-side blocks where typical values start under $40K. Know which city you are buying.",
+      "metaDescription": "St. Louis four-families still trade under $300K while city rents rose 4.3%. See where DSCR files pencil, north and south. Get matched today.",
+      "market": {
+        "medianPrice": 188569,
+        "medianRent": 1352,
+        "priceToRent": 11.6,
+        "vacancyRate": 7.7,
+        "yoyPrice": -0.4,
+        "yoyRent": 4.3,
+        "estDSCR": 0.9,
+        "propertyTaxRate": 1.5555,
+        "insuranceMonthly": 205
+      },
+      "overview": "St. Louis City's typical home value is $188,569 as of July 2026, down 0.4% year over year, while average asking rent rose 4.3% to $1,352. Flat prices against rising rents is a cash-flow setup, and the native investor asset here is unlike anywhere else in Missouri: the brick four-family flat. South city corridors are stacked with them, and a $260,000 building in Dutchtown grossing $3,000 across four units produces math a single-family market cannot touch.\n\nNow the two-layer truth. The city's 2025 residential levy is $8.1867 per $100 of assessed value, and Missouri assesses homes at 19% of market value, which works out to roughly 1.56% of appraised value per year, among the heaviest loads in the state. The city also collects a 1% earnings tax, and rental operations filed as a business report net profit on Form E-234. Then there is geography: Zillow shows Tower Grove South at $245,988 and Princeton Heights near $217,571, while Walnut Park East sits at $32,918 and Baden at $56,163. Those north-side numbers reflect decades of vacancy the Land Reutilization Authority is still clearing, with roughly 1,000 demolitions targeted by 2026.\n\nThe honest playbook: buy the south city grid from Tower Grove South down through Bevo Mill and Dutchtown, underwrite the full tax load and the earnings tax, and treat deep north-side yield as a specialist operator's game, not a first out-of-state purchase.",
+      "regulationBadge": "moderate",
+      "regulationNote": "Missouri preempts rent control statewide, but St. Louis City layers a heavy property tax levy, a 1% earnings tax on net rental profits filed via Form E-234, and occupancy permit requirements on tenant turnover in much of the city.",
+      "neighborhoods": [
+        {
+          "name": "Tower Grove South",
+          "medianPrice": 245988,
+          "medianRent": 1350,
+          "note": "The anchor of south city investing, brick two-stories and four-families around Tower Grove Park. Typical value $245,988, essentially flat over the year, with one-bedroom units renting $1,000 to $1,200 and strong tenant demand from the Grove and the medical campuses."
+        },
+        {
+          "name": "Bevo Mill",
+          "medianPrice": 157130,
+          "medianRent": 1150,
+          "note": "Workhorse brick stock at $157,130 south of Chippewa, a mix of gable-front singles and small multifamily. The value play between Tower Grove pricing and Dutchtown condition risk, with a long-standing immigrant tenant base that stays put."
+        },
+        {
+          "name": "Dutchtown",
+          "medianPrice": 125171,
+          "medianRent": 950,
+          "note": "The city's densest four-family territory at a $125,171 typical value. Gross yields are the best in south city and so is the management load; Gravois Park next door sits at $138,066. Buy the block, not the neighborhood average, and walk every unit."
+        },
+        {
+          "name": "Princeton Heights",
+          "medianPrice": 217571,
+          "medianRent": 1400,
+          "note": "Quiet 1920s to 1940s brick singles near the county line at roughly $217,571. Rents like a suburb with city taxes, so the ratio is thinner, but vacancy and turnover run lower than anywhere east of it. The stability end of the south city barbell."
+        },
+        {
+          "name": "Walnut Park East",
+          "medianPrice": 32918,
+          "medianRent": 900,
+          "note": "Listed honestly as the north-side reality check: a $32,918 typical value reflects vacancy, insurance difficulty, and blocks the LRA is still clearing. Paper yields look enormous and most out-of-state buyers who chase them exit poorer. Specialist operators only."
+        }
+      ],
+      "localAngle": {
+        "tag": "Real Costs",
+        "title": "The four-family math works. The city's tax stack is what you underwrite around.",
+        "body": "St. Louis City hands investors the best small-multifamily stock in Missouri and then charges for the privilege three ways. First, the property tax levy: the Assessor's 2025 residential rate is $8.1867 per $100 of assessed value, and with Missouri's 19% residential assessment ratio that is roughly 1.56% of appraised market value each year, roughly double what a Springfield owner carries. Second, the earnings tax: the city collects 1% on earnings, and rental operations conducted as a business in the city report net profit on Form E-234 with the Collector of Revenue, a line item almost no out-of-state pro forma includes. Third, turnover friction: much of the city requires an occupancy permit and inspection when tenants change, which adds days and small fees to every turn. None of this kills the deal. A Dutchtown four-family grossing $3,000 a month absorbs all three costs and still cash flows in a way a coastal duplex never will, and the LRA's demolition program, on track for roughly 1,000 structures cleared by 2026, is slowly stabilizing the blocks that dragged values. It does mean the gap between gross and net is wider than the listing math suggests. Your matched specialist will structure the file with the full levy, the earnings tax, and realistic unit turnover already priced in."
+      },
+      "programFit": [
+        "standard-dscr",
+        "portfolio-dscr",
+        "bridge-to-dscr",
+        "no-ratio-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "Four-family (4-unit)",
+        "neighborhood": "Dutchtown",
+        "purchasePrice": 260000,
+        "downPaymentPct": 25,
+        "downPayment": 65000,
+        "loanAmount": 195000,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 1363,
+        "monthlyTax": 337,
+        "monthlyInsurance": 290,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 1990,
+        "monthlyRent": 3000,
+        "dscr": 1.51,
+        "monthlyCashFlow": 1010,
+        "specialistFocus": [
+          "Qualified on the appraiser's market rent of $750 per unit across four units, which is where St. Louis four-family files win or die",
+          "Underwrote the full $8.1867 per $100 city levy at the 19% assessment ratio instead of the county-style figure out-of-state buyers assume",
+          "Flagged the 1% earnings tax on net rental profit and the occupancy-permit turnover cost so the net number the buyer saw was the real one"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Is the north-side yield real? Zillow shows houses under $40,000.",
+          "answer": "The prices are real and so are the reasons. Walnut Park East carries a $32,918 typical value and Baden $56,163 because those blocks absorbed decades of vacancy, arson risk, and population loss, and the Land Reutilization Authority still holds a large inventory it is clearing, with roughly 1,000 demolitions targeted by 2026. Insurance is hard to place, appraisals are thin, and many lenders will not finance below their loan minimums there. Some local operators do well. As a first out-of-state purchase, the south city grid at 2 to 3 times the price and a fraction of the risk is the honest recommendation."
+        },
+        {
+          "question": "How does the St. Louis earnings tax hit a rental investor?",
+          "answer": "The city collects a 1% earnings tax, and it reaches rental operations run as a business in the city. Net profit from city rental property is reported on Form E-234 with the Collector of Revenue, and a city-resident business owes it on its entire net profit while non-resident businesses owe it on activity performed in the city. On a four-family netting $12,000 a year that is roughly $120, small but real, and it is the kind of line an underwriter never sees but your accountant must. Build it into your net-return math along with the levy and turnover costs, and it stops being a surprise."
+        },
+        {
+          "question": "Why do investors keep saying four-family instead of duplex here?",
+          "answer": "Because St. Louis built thousands of flat-roof brick four-families from the 1890s through the 1930s, and they are the best cash-per-door vehicle in the state. A $260,000 Dutchtown building with four units at $750 grosses $3,000 a month, which clears the ratio near 1.5 even under the city's heavy tax load. The same dollars buy one house in St. Charles grossing $2,150. The trade is management intensity: four leases, four turns, hundred-year-old systems. DSCR lenders finance 2-4 unit buildings on rental income without tax returns, which is exactly the gap this stock fills. Your matched specialist can match the building to a lender comfortable with century-old multifamily."
+        },
+        {
+          "question": "Values fell 0.4% this year. Is St. Louis City a declining market?",
+          "answer": "The city is flat, not collapsing, and the average hides a split. South city neighborhoods like Tower Grove South eased less than 1% while rents citywide rose 4.3%, which improved every operator's ratio. The metro's rental vacancy near 7.7% is balanced. What is genuinely declining is the population of the weakest north-side tracts, and the citywide average carries that weight. Buy here for cash flow and underwrite zero appreciation; anything above zero is a bonus. If you need price growth to make the deal work, this is the wrong city and St. Charles is up the highway."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, St. Louis City typical home value and YoY change, July 2026",
+        "Zillow Observed Rent Index, St. Louis average rent and YoY change, July 2026",
+        "Zillow neighborhood pages, Tower Grove South, Dutchtown, Bevo Mill, Walnut Park East typical values, July 2026",
+        "City of St. Louis Assessor, 2025 residential tax rates of $8.1867 per $100 assessed, 2025",
+        "City of St. Louis Collector of Revenue, Form E-234 business earnings tax requirements, 2026",
+        "St. Louis Public Radio, LRA demolition program and vacant property inventory, August 2025; ACS metro rental vacancy 7.7% via St. Louis Real Estate News, 2023"
+      ]
+    },
+    {
+      "city": "Springfield",
+      "slug": "springfield",
+      "county": "Greene County",
+      "metro": "Springfield MO",
+      "hook": "Springfield's median sits at $246,969 while 56% of the city rents, and its northside pockets still trade near $130K. The math clears where the stock is oldest, which is the whole game here.",
+      "metaDescription": "Springfield MO homes average $247K and 56% of households rent. See which northside pockets clear DSCR math near 1.0 or better. Get matched today.",
+      "market": {
+        "medianPrice": 246969,
+        "medianRent": 1222,
+        "priceToRent": 16.8,
+        "vacancyRate": 9.4,
+        "yoyPrice": 2.7,
+        "yoyRent": 4.4,
+        "estDSCR": 0.67,
+        "propertyTaxRate": 1.02,
+        "insuranceMonthly": 225
+      },
+      "overview": "Springfield is Missouri's renter city. A 2023 city housing study confirmed what landlords already knew: more households rent than own, about 56%, fed by Missouri State University's record 25,238 Springfield-campus students in fall 2025, two hospital systems, and a service economy that pays rent on the first. The typical home value is $246,969 as of July 2026, up 2.7%, with average asking rent at $1,222, up 4.4%.\n\nThe citywide numbers hide the split that matters. At the median with 20% down the ratio lands near 0.67, which looks like a pass. But Springfield's north side is a different market: Grant Beach at $132,184, Woodland Heights at $131,317, West Central at $132,422, and Robberson at $124,380, all live Zillow figures, where a rehabbed 3-bed rents $1,200 to $1,400 against a sub-$140K basis. That is the Memphis pattern in the Ozarks: the arithmetic clears at the entry point, and what sits downstream is 1900s to 1940s housing stock, so the capex schedule, not the mortgage, is the real underwriting question.\n\nGreene County keeps the carrying cost light at about a 1.02% median effective tax load, the tenant pipeline is deep, and the statewide rental vacancy of 9.4% overstates a college market that leases on an August cycle. Buy north of Sunshine for yield, south for stability, and inspect the sewer line before you brag about the ratio.",
+      "regulationBadge": "friendly",
+      "regulationNote": "Missouri preempts rent control under RSMo Section 441.043 and Springfield has no citywide rental license, so oversight runs through standard code enforcement, leaving condition risk in old stock as the main operating constraint.",
+      "neighborhoods": [
+        {
+          "name": "Woodland Heights",
+          "medianPrice": 131317,
+          "medianRent": 1050,
+          "note": "North of downtown at a $131,317 typical value, bungalows and folk-Victorian stock a decade into a slow rehab wave. The neighborhood association is active and the BRRRR pipeline here is the busiest in the city. Pre-1940 systems, so inspect everything."
+        },
+        {
+          "name": "Grant Beach",
+          "medianPrice": 132184,
+          "medianRent": 995,
+          "note": "West of Kansas Expressway at $132,184, the classic Springfield cash-flow pocket. Entry prices in the low $100s with rents near $1,000 make the gross math easy; tenant screening and roof age are what separate the operators who keep the yield from those who do not."
+        },
+        {
+          "name": "Doling Park",
+          "medianPrice": 149313,
+          "medianRent": 1150,
+          "note": "The north side's step-up tier at $149,313 near the park and Truman Elementary, with postwar ranches mixed into the older grid. Slightly newer stock means lighter capex than Grant Beach, at a basis still low enough to clear the ratio comfortably."
+        },
+        {
+          "name": "Downtown",
+          "medianPrice": 231328,
+          "medianRent": 1250,
+          "note": "Lofts and small multifamily near the square at $231,328, up 6.6% on the year, renting to MSU graduate students and young professionals. The appreciation half of the Springfield barbell; the ratio is thinner, the tenant quality and retention are better."
+        }
+      ],
+      "localAngle": {
+        "tag": "Cash Flow",
+        "title": "The ratio clears at $130K. The 1925 sewer lateral is what decides the deal.",
+        "body": "Springfield is one of the few metros left where an investor can buy a detached house for $130,000, rent it for $1,200, and clear a DSCR above 1.2 without creative structuring. Grant Beach, Woodland Heights, West Central, and Robberson all carry live typical values between $124,000 and $133,000, Greene County's median effective property tax load is about 1.02% of market value, and 56% of the city rents. That is the headline. Here is the layer underneath, and it is the same lesson Memphis teaches: when the arithmetic is this easy, the market is pricing something, and here it prices age. The northside grid is substantially pre-1940 housing. Knob-and-tube remnants, clay sewer laterals, undersized panels, and roofs on their third overlay are normal findings, and a $130,000 purchase can carry a $30,000 first-year capex schedule that no ratio calculation shows. The operators who win here budget the systems upfront, screen hard for the tenant base a service economy produces, and hold through the August leasing cycle that MSU's 25,238 students impose on the calendar. The ones who lose bought a gross yield on a listing screenshot. Your matched specialist will structure the file on the appraiser's market rent with a basis that leaves room for the house the inspection actually finds."
+      },
+      "programFit": [
+        "standard-dscr",
+        "portfolio-dscr",
+        "bridge-to-dscr"
+      ],
+      "dealExample": {
+        "label": "BRRRR Refinance",
+        "propertyType": "3-bed / 1-bath SFR",
+        "neighborhood": "Woodland Heights",
+        "purchasePrice": 155000,
+        "downPaymentPct": 25,
+        "downPayment": 38750,
+        "loanAmount": 116250,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 813,
+        "monthlyTax": 132,
+        "monthlyInsurance": 145,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 1090,
+        "monthlyRent": 1295,
+        "dscr": 1.19,
+        "monthlyCashFlow": 205,
+        "specialistFocus": [
+          "Structured the refinance off the $155,000 post-rehab appraisal so the investor recovered most of an $85,000 purchase plus $45,000 rehab basis",
+          "Qualified on the appraiser's $1,295 market rent for the finished house rather than the $850 the property fetched pre-rehab",
+          "Confirmed the new roof, panel, and sewer lateral in the appraisal so the lender credited the rehab instead of discounting 1920s stock"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Is Springfield really majority renters, and what does that mean for me?",
+          "answer": "Yes. The city's own 2023 housing study found more renter households than owner households, roughly 56%, and ACS data agrees. Missouri State's Springfield campus enrolled a record 25,238 students in fall 2025, and hospitals, logistics, and service employers fill the rest of the tenant pool. For an investor it means depth: a correctly priced 3-bed north of Sunshine leases in days, and vacancy risk concentrates in overpriced or rough-condition units rather than in the market itself. It also means the tenant base skews working-class, so screening discipline and realistic rent-setting matter more than they do in a suburb."
+        },
+        {
+          "question": "Why does the citywide DSCR read 0.67 if the northside clears 1.2?",
+          "answer": "The median mixes two markets. Southeast Springfield around 65809 and 65810 carries $350,000 to $420,000 homes that rent nowhere near proportionally, dragging the citywide calculation down to about 0.67 at 20% down. The investable grid is different: Grant Beach at $132,184, Woodland Heights at $131,317, and Robberson at $124,380 against rents of $1,000 to $1,300 produce property-level ratios from 1.1 to 1.4. Springfield is a submarket decision wearing a citywide statistic. Buy where the basis is low and the rent is proportionate, and the median stops mattering."
+        },
+        {
+          "question": "What is the real risk in a $130,000 Springfield rental?",
+          "answer": "The house, not the market. Most northside stock predates 1940, and the common findings are clay sewer laterals that collapse, 60-amp panels, active knob-and-tube, and layered roofs. Any of those can be a five-figure repair on a property whose annual gross is under $16,000, which is why two identical-looking listings can be a 1.35 ratio and a disaster. Budget systems before cosmetics, get a sewer scope on every offer, and hold reserves scaled to the age of the stock rather than to the loan size. The market gives you the margin; the inspection tells you if you keep it."
+        },
+        {
+          "question": "Does Springfield make landlords register or license rentals?",
+          "answer": "No citywide rental license or routine interior inspection program exists in Springfield today, unlike Independence, Columbia, or St. Joseph. Oversight runs through complaint-driven code enforcement, and Missouri law preempts local rent control entirely under RSMo Section 441.043. That makes Springfield one of the lightest-touch regulatory environments among Missouri's larger cities, which is worth real money in operating friction. The trade-off is that nobody made the last owner fix anything either, so the burden of finding deferred maintenance falls entirely on your inspection rather than on a municipal checklist."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Springfield typical home value and neighborhood values, July 2026",
+        "Zillow Observed Rent Index, Springfield average rent and YoY change, July 2026",
+        "Ownwell property tax trends, Greene County median effective property tax data, April 2026",
+        "City of Springfield housing study renter share via KY3, October 2023",
+        "Missouri State University, record fall 2025 enrollment of 25,238 on the Springfield campus, September 2025",
+        "US Census Bureau HVS via FRED, Missouri rental vacancy of 9.4%, 2025"
+      ]
+    },
+    {
+      "city": "Independence",
+      "slug": "independence",
+      "county": "Jackson County",
+      "metro": "Kansas City MO-KS",
+      "hook": "Independence pairs a $214,173 typical value, up 3.5% in a year, with the metro's oldest interior rental inspection program. The numbers work if the house passes its Rental Ready checklist.",
+      "metaDescription": "Independence MO homes average $214K, up 3.5%, and Rental Ready inspections run every two years. See how DSCR files clear here. Get matched today.",
+      "market": {
+        "medianPrice": 214173,
+        "medianRent": 1368,
+        "priceToRent": 13,
+        "vacancyRate": 6.8,
+        "yoyPrice": 3.5,
+        "yoyRent": 2.6,
+        "estDSCR": 0.83,
+        "propertyTaxRate": 1.32,
+        "insuranceMonthly": 215
+      },
+      "overview": "Independence is the Kansas City metro's classic entry market: a $214,173 typical value as of July 2026, up 3.5% year over year, average asking rent of $1,368, and houses going pending in about 7 days. Postwar ranches in Farview, Queen City, and Clermont trade between $194,000 and $203,000 and rent near $1,450 to $1,550, which puts realistic property-level ratios right around the 1.0 line before neighborhood selection does the rest.\n\nWhat separates Independence from the suburbs around it is regulation you must actually plan for. The Rental Ready Program, adopted in 2016 and running since June 2017, was the first of its kind in the metro: every rental unit needs a landlord business license and must pass an interior health and safety inspection every two years, at $100 per unit with a $60 reinspection. Since January 1, 2026 the city will not even connect utilities for a rental unless the landlord's license is active. It is a real gate, and it is also why the housing stock reads better than its age.\n\nThe tax picture is friendlier than the county headline: Ownwell's April 2026 data puts Independence's median effective load at 1.32% of market value versus Jackson County's 1.49%, with core zips like 64050 and 64052 near 1.29% to 1.32%. Same reassessment saga as the rest of the county, smaller bills at the end of it.",
+      "regulationBadge": "moderate",
+      "regulationNote": "Independence requires a landlord business license with an interior Rental Ready inspection every two years, and since January 1, 2026 utilities are not connected for rental units without an active license, so compliance is a closing item, not an afterthought.",
+      "neighborhoods": [
+        {
+          "name": "Farview",
+          "medianPrice": 194500,
+          "medianRent": 1450,
+          "note": "West-central Independence at a $194,500 typical value, 1950s ranches close to the Kansas City line. The cheapest reliable entry point in the city and the tightest ratio math, renting to commuters working both sides of the metro."
+        },
+        {
+          "name": "Queen City",
+          "medianPrice": 199731,
+          "medianRent": 1495,
+          "note": "Central Independence near the Square at $199,731, a mix of prewar bungalows and postwar infill. The Square's slow revival is pulling small landlords back in; block condition varies more here than the average suggests, so walk the street."
+        },
+        {
+          "name": "Clermont",
+          "medianPrice": 202956,
+          "medianRent": 1525,
+          "note": "Southeast of the core at $202,956 with slightly newer stock and steadier owner occupancy. The middle of the Independence barbell: enough yield to clear the ratio at 25% down, enough stability to keep turnover low."
+        },
+        {
+          "name": "Glendale",
+          "medianPrice": 227640,
+          "medianRent": 1650,
+          "note": "The step-up tier at $227,640 near 64055's medical corridor, three-bed ranches renting $1,550 to $1,700 to hospital and trades households. Thinner ratio, better tenant retention, and the strongest resale story in the city."
+        }
+      ],
+      "localAngle": {
+        "tag": "Rental Rules",
+        "title": "Rental Ready is a real gate. Since 2026, no license means no utilities.",
+        "body": "Independence runs the Kansas City metro's oldest and most enforced rental inspection regime, and buying here means underwriting it. The Rental Ready Program, adopted by the City Council in 2016 and effective June 1, 2017, requires every residential rental unit to hold a landlord business license and pass an interior inspection every two years covering 16 life and safety items: electrical covers, operable smoke detectors, secure handrails, visible addressing, and the rest of the basics done right. The inspection costs $100 per unit and a failed follow-up runs $60. The enforcement teeth sharpened on January 1, 2026: utility service is not provided for a rental dwelling unless the landlord's license is valid and active, which converts a paperwork lapse into a vacant unit that cannot be legally occupied. For an investor the practical sequence is to schedule the inspection during due diligence or immediately after closing, budget the small make-ready list old ranches usually need, and calendar the two-year renewal like a tax deadline. The upside of the program is real: Independence rental stock shows better than its 1950s age because someone has been forcing the basics for eight years. Your matched specialist will structure the file with license, inspection, and make-ready costs inside the numbers instead of on top of them."
+      },
+      "programFit": [
+        "standard-dscr",
+        "portfolio-dscr",
+        "bridge-to-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 1-bath SFR",
+        "neighborhood": "Farview",
+        "purchasePrice": 195000,
+        "downPaymentPct": 25,
+        "downPayment": 48750,
+        "loanAmount": 146250,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 1022,
+        "monthlyTax": 215,
+        "monthlyInsurance": 190,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 1427,
+        "monthlyRent": 1495,
+        "dscr": 1.05,
+        "monthlyCashFlow": 68,
+        "specialistFocus": [
+          "Structured 25% down because Independence math at 20% runs just under the line, and the extra equity is what carried the ratio to 1.05",
+          "Underwrote Independence's 1.32% effective tax load and the post-sale Jackson County assessment instead of the seller's capped bill",
+          "Built the Rental Ready license, the $100 inspection, and a smoke-detector and handrail make-ready into cash-to-close so the unit could legally take utilities on day one"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "What exactly does the Rental Ready inspection check, and can it kill my closing?",
+          "answer": "It is a 16-item interior health and safety checklist: covered electrical, operable smoke detectors per code, secure handrails, visible street numbers, functioning plumbing and heat, and similar basics. It does not grade cosmetics. It cannot block your closing, because it attaches to renting the unit rather than buying it, but since January 1, 2026 the city will not connect utilities for a rental without an active landlord license, so an unlicensed unit is effectively unrentable. Schedule the $100 inspection immediately at closing, fix the punch list before the $60 reinspection, and the program becomes routine."
+        },
+        {
+          "question": "How did the Jackson County assessment chaos land in Independence?",
+          "answer": "Same storm, smaller bills. Independence sits in Jackson County, so the 2023 reassessment, the State Tax Commission rollback order, the April 2025 court ruling upholding it, the 15% cap on 2025 increases, and the recall of County Executive Frank White all apply here. The difference is the base: Ownwell's April 2026 data shows Independence's median effective load at 1.32% of market value against the county's 1.49%, with core zips near 1.29%. A $195,000 purchase carries roughly $215 a month in tax. Underwrite your purchase price at the full load and the 2027 reassessment holds no surprises."
+        },
+        {
+          "question": "Independence rents rose only 2.6% while Kansas City rose 4.5%. Should that worry me?",
+          "answer": "It is worth watching, not worrying. The 2.6% figure reflects a blended index in a city where the rental stock is older and rent ceilings are set by tenant incomes, not by lease-up towers. Property-level reality is steadier: 3-bed ranches in Farview and Queen City moved from roughly $1,400 to $1,500 over two years, and metro vacancy near 6.8% is balanced. Independence is a basis market, not a rent-growth market. You buy it because the entry price sits $40,000 under comparable Kansas City stock, not because you expect the lease to sprint."
+        },
+        {
+          "question": "Which Independence zips pencil best for a first rental?",
+          "answer": "The western and central core. Zips 64050 and 64052 combine the lowest entry prices, county-records medians near $113,000 to $120,000 with Zillow typical values around $195,000 to $203,000 for finished stock, and effective tax loads near 1.29% to 1.32%. That is where 3-bed rents of $1,450 to $1,550 meet sub-$210,000 prices. East of Missouri 291, zips 64055 and 64057 carry newer houses at $230,000 to $300,000 with better schools and thinner ratios. Start west for the math, move east when you are optimizing for tenant tenure instead of yield."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Independence typical home value and neighborhood values, July 2026",
+        "Zillow Observed Rent Index, Independence average rent and YoY change, July 2026",
+        "Ownwell property tax trends, Independence median effective property tax data by zip, April 2026",
+        "City of Independence, Rental Ready Program requirements, fees, and 2026 utility enforcement, 2026",
+        "US Census ACS 5-year via Neilsberg, Kansas City metro rental vacancy, 2024 (est.)",
+        "Insurify, Missouri average premium of $2,952 at $300,000 dwelling coverage, 2026 (scaled to local median, est.)"
+      ]
+    },
+    {
+      "city": "Columbia",
+      "slug": "columbia",
+      "county": "Boone County",
+      "metro": "Columbia MO",
+      "hook": "Columbia's median is $327,680 against $1,430 blended rents, which fails at 20% down. More than 31,000 Mizzou students are why the by-the-bedroom math tells a different story.",
+      "metaDescription": "Columbia MO pairs a $328K median with 31,000 Mizzou students. See how DSCR lenders treat student rentals and 5-year certificates. Get matched today.",
+      "market": {
+        "medianPrice": 327680,
+        "medianRent": 1430,
+        "priceToRent": 19.1,
+        "vacancyRate": 9.4,
+        "yoyPrice": 2.7,
+        "yoyRent": 3.8,
+        "estDSCR": 0.59,
+        "propertyTaxRate": 1.28,
+        "insuranceMonthly": 255
+      },
+      "overview": "Columbia is a university economy with university math. The typical home value reached $327,680 in July 2026, up 2.7%, while blended average rent sits at $1,430, up 3.8%. Run the standard formula at 20% down and the citywide ratio lands near 0.59, among the weakest in Missouri. That number is true and also misleading, because Columbia's rental market does not price by the house, it prices by the bedroom, and the University of Missouri enrolled more than 31,000 students in fall 2025 on a campus that grew again year over year.\n\nA 4-bed within walking or biking distance of campus leases by the room at $500 to $575 per bedroom, which turns a $295,000 house into $2,000 to $2,300 of monthly income and moves the ratio from failing to workable. East Campus at a $315,734 typical value is the traditional epicenter; Benton-Stephens at $179,074 is the value entry a mile north with the same tenant pool.\n\nTwo structural notes. Boone County's median effective tax load runs about 1.28% of market value. And Columbia is a licensing city: the Rental Unit Conservation Law requires every rental to hold a Certificate of Compliance, with rules amended effective January 1, 2025 to five-year certificates with inspection at each renewal, $130 for a single-family and $195 for a duplex. Buy the bedroom count, keep the certificate current, and underwrite summer vacancy honestly.",
+      "regulationBadge": "moderate",
+      "regulationNote": "Columbia's Rental Unit Conservation Law makes it unlawful to rent without a current Certificate of Compliance, issued for five years with an inspection at each renewal under rules amended effective January 1, 2025.",
+      "neighborhoods": [
+        {
+          "name": "East Campus",
+          "medianPrice": 315734,
+          "medianRent": 2100,
+          "note": "The traditional student-rental core at $315,734, blocks from Mizzou's east edge. Houses lease by the bedroom on a rigid August cycle and grandfathered occupancy patterns matter, so verify what the certificate actually allows before you model five unrelated tenants."
+        },
+        {
+          "name": "Benton-Stephens",
+          "medianPrice": 179074,
+          "medianRent": 1350,
+          "note": "The value play at $179,074 northeast of downtown, older bungalows renting to a mix of students, Stephens College staff, and young families. Entry prices $130,000 under East Campus with the same distance-to-campus arithmetic on its southern blocks."
+        },
+        {
+          "name": "East Walnut",
+          "medianPrice": 231849,
+          "medianRent": 1550,
+          "note": "Between downtown and the hospital corridor at $231,849, a steady non-student rental pocket. Nurses and university staff rent here for years at a time, which trades a point of gross yield for the lowest turnover cost in the city."
+        },
+        {
+          "name": "Shepard Boulevard",
+          "medianPrice": 336899,
+          "medianRent": 1995,
+          "note": "Southeast family territory at $336,899 near Rock Bridge feeder schools. Rents just under $2,000 keep the ratio thin, and buyers here are underwriting the strongest appreciation and tenant quality in Columbia rather than monthly spread."
+        }
+      ],
+      "localAngle": {
+        "tag": "Licensing",
+        "title": "No certificate, no lease. Columbia's Conservation Law is the deal checklist.",
+        "body": "Columbia has run rental licensing longer than almost any Missouri city, and its Rental Unit Conservation Law is blunt: it is unlawful to operate a rental unit, from a single house to an apartment building, without a current Certificate of Compliance confirming the unit meets the licensing ordinance, zoning, and the Property Maintenance Code. The City Council amended the law in August 2024 with changes effective January 1, 2025: certificates now run five years, an inspection happens at every renewal, and fees run $130 for a single-family dwelling, $195 for a duplex, and $70 per unit for most multifamily. Certificates transfer to a buyer within 90 days of closing for $15, which makes the seller's certificate status a due-diligence item with an actual deadline attached. The trap for student-rental buyers is occupancy: what a house near East Campus legally sleeps is governed by zoning and the certificate, and a five-bedroom pro forma on a unit certified for fewer unrelated occupants is fiction with granite countertops. Verify the certificate, its occupancy terms, and the inspection history before writing the offer. Your matched specialist will structure the loan on the appraiser's market rent for the legal configuration, which is the number an underwriter will actually accept."
+      },
+      "programFit": [
+        "standard-dscr",
+        "interest-only-dscr",
+        "portfolio-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "4-bed / 2-bath SFR near campus",
+        "neighborhood": "East Campus",
+        "purchasePrice": 295000,
+        "downPaymentPct": 25,
+        "downPayment": 73750,
+        "loanAmount": 221250,
+        "loanType": "30-Year Fixed, 10-Year Interest-Only Period",
+        "interestOnly": true,
+        "monthlyPI": 1383,
+        "monthlyTax": 315,
+        "monthlyInsurance": 240,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 1938,
+        "monthlyRent": 2100,
+        "dscr": 1.08,
+        "monthlyCashFlow": 162,
+        "specialistFocus": [
+          "Structured an interest-only period because student rentals carry August turn costs, and the lower payment keeps the ratio above 1.0 through the make-ready month",
+          "Qualified on the appraiser's whole-house market rent of $2,100 for the legal occupancy, not a five-head-count pro forma the certificate does not support",
+          "Verified the Certificate of Compliance transfer within Columbia's 90-day window so the house never sat unrentable between owners"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "How do DSCR lenders treat by-the-bedroom student rents?",
+          "answer": "They qualify the property on the appraiser's market rent for the home as a single lease, not on the sum of five bedroom contracts. A house that collects $2,300 across bedrooms might appraise at $2,000 whole-house rent, and that lower figure is what the ratio uses. This is why Columbia files near campus get structured with 25% to 30% down or an interest-only period rather than at minimum equity. The bedroom premium is real money in your pocket; it is just not credit the underwriter extends. Your matched specialist knows which of the 70+ lenders read college-town appraisals most sensibly."
+        },
+        {
+          "question": "What happens to my rental if I skip the Certificate of Compliance?",
+          "answer": "You are operating unlawfully, and the city treats it that way. Columbia's Rental Unit Conservation Law makes it illegal to rent any unit without a current certificate, tenants can and do report, and code enforcement can pull the unit from the market until it passes. Since January 1, 2025 certificates run five years with an inspection at each renewal, $130 for a single-family home, and a $15 transfer within 90 days of a sale. The system is cheap and predictable, which removes every excuse. Calendar the renewal, keep the inspection punch list handled, and the certificate never touches your ratio."
+        },
+        {
+          "question": "Is betting on Mizzou enrollment safe after what happened in 2015?",
+          "answer": "It is a cycle, and the cycle is currently up. Columbia landlords remember 2015 to 2017, when enrollment fell sharply after campus protests and near-campus rentals sat empty. The rebound is now several years old: Mizzou crossed 31,000 students again and fall 2025 enrollment rose year over year. The honest read is that Columbia student housing is a functioning market with one dominant customer, so underwrite a summer vacancy month, keep leases on the August cycle, and favor houses that could pivot to hospital and staff tenants, the way East Walnut stock does. Diversifiable risk, not disqualifying risk."
+        },
+        {
+          "question": "Why is Columbia's citywide DSCR the worst in Missouri if landlords do well here?",
+          "answer": "Because the median house and the median rental are different animals. The $327,680 typical value is pulled up by southwest and southeast family neighborhoods where $400,000 houses rent under $2,200, while the blended $1,430 rent includes a large purpose-built apartment stock. At 20% down that mix computes to roughly 0.59. Working files avoid the median entirely: by-the-bedroom houses near campus, Benton-Stephens entries at $179,074, and duplexes with certificates in order. Columbia rewards buying the tenant pipeline, not the citywide statistic, and the pipeline is 31,000 students deep."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Columbia typical home value and neighborhood values, July 2026",
+        "Zillow Observed Rent Index, Columbia average rent and YoY change, July 2026",
+        "Ownwell property tax trends, Boone County median effective property tax data, April 2026",
+        "City of Columbia, Rental Unit Conservation Law amendments effective January 1, 2025, and certificate fee schedule, 2025",
+        "University of Missouri enrollment above 31,000 for fall 2025 via KRCG, August 2025",
+        "US Census Bureau HVS via FRED, Missouri rental vacancy of 9.4%, 2025"
+      ]
+    },
+    {
+      "city": "St. Charles",
+      "slug": "st-charles",
+      "county": "St. Charles County",
+      "metro": "St. Louis MO-IL",
+      "hook": "St. Charles homes average $350,422 and 52.6% of June sales went over asking. This is the growth half of the St. Louis metro, priced accordingly, and files here get structured for appreciation.",
+      "metaDescription": "St. Charles MO homes average $350K and half of sales go over asking. See how DSCR investors structure deals in a 6-day market. Get matched today.",
+      "market": {
+        "medianPrice": 350422,
+        "medianRent": 1537,
+        "priceToRent": 19,
+        "vacancyRate": 7.7,
+        "yoyPrice": 2.2,
+        "yoyRent": 3.8,
+        "estDSCR": 0.59,
+        "propertyTaxRate": 1.26,
+        "insuranceMonthly": 265
+      },
+      "overview": "St. Charles is where the St. Louis region's growth actually lives. While the city of St. Louis shrinks, St. Charles County keeps absorbing households, and the numbers show a seller's market: a $350,422 typical value as of July 2026, up 2.2%, homes pending in about 6 days, and 52.6% of June sales closing above list. Ownwell's data shows the county carrying Missouri's highest median tax bill at $3,678, a statistic that says more about price levels than about levies; the effective load runs about 1.26% of market value.\n\nFor a cash-flow investor the arithmetic is hostile: at 20% down the citywide ratio computes near 0.59, and average asking rent of $1,537 cannot carry a $350,000 basis. Investors still transact here for three reasons. Frenchtown and the north side of 63301 hold the city's old housing stock, including legitimate duplexes, at prices below the citywide number. New Town and the 63303 corridor rent instantly to relocating households who want St. Charles schools before they buy. And the county's supply discipline keeps resale liquidity the best in the region, which matters when the exit is part of the plan.\n\nThe honest framing: St. Charles is an appreciation and tenant-quality market. Structure for it, usually with 2-4 unit stock, larger down payments, or interest-only periods, and stop trying to make a Dutchtown yield appear where the market never offered one.",
+      "regulationBadge": "friendly",
+      "regulationNote": "St. Charles is a landlord-friendly, high-demand suburb with no rental licensing regime; the operating constraints are price and competition for inventory rather than regulation, with Missouri preempting rent control statewide.",
+      "neighborhoods": [
+        {
+          "name": "Frenchtown and North St. Charles (63301)",
+          "medianPrice": 321677,
+          "medianRent": 1430,
+          "note": "The historic north side along the Missouri River, where the zip carries a $321,677 typical value but Frenchtown's 19th-century stock, including true duplexes, trades well below it. The only part of the city where small multifamily math exists."
+        },
+        {
+          "name": "Central St. Charles (63303)",
+          "medianPrice": 361412,
+          "medianRent": 1607,
+          "note": "The suburban core at $361,412, up 1.8%, with zip-level average rent of $1,607. Three-bed ranches from the 1970s and 1980s rent in days to families buying time in the school district; over half of sales here went above list in June."
+        },
+        {
+          "name": "South toward Cottleville (63304)",
+          "medianPrice": 407484,
+          "medianRent": 1850,
+          "note": "Newer construction at a $407,484 typical value on the city's southwest edge. Build-to-rent economics only: the ratio fails on resale stock, but new houses rent near $1,850 or more with near-zero maintenance, which some portfolio buyers accept deliberately."
+        }
+      ],
+      "localAngle": {
+        "tag": "Growth",
+        "title": "Missouri's biggest tax bills, its fastest sales, and the trade an investor is really making.",
+        "body": "Two St. Charles County statistics frame every deal here. First, Ownwell's April 2026 data shows the county's median property tax bill at $3,678, the highest in Missouri, not because levies are extreme, the median effective load is about 1.26% of market value, but because the houses are worth more than anywhere else in the state's interior. Second, velocity: the city's median days to pending sits near 6, with 52.6% of June sales above list and a sale-to-list ratio over 1.0. Households keep crossing the river from St. Louis County for schools and taxes they consider predictable, and the county's slow-growth permitting keeps supply behind demand. That combination is why the cash-flow formula fails at the median, near 0.59 at 20% down, and why investors buy anyway. The trade is explicit: you accept a thin or negative early spread in exchange for the region's most reliable appreciation, its shortest vacancy windows, and tenants who treat the house as their pre-purchase audition. The structures that make it work are equally explicit: Frenchtown duplexes where two rents carry one mortgage, 30% down payments that move the ratio over 1.0, or interest-only periods that match payment to the hold plan. Your matched specialist will structure the file for the trade you are actually making instead of pretending this is a yield market."
+      },
+      "programFit": [
+        "standard-dscr",
+        "interest-only-dscr",
+        "portfolio-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "Duplex (2-unit)",
+        "neighborhood": "Frenchtown and North St. Charles (63301)",
+        "purchasePrice": 285000,
+        "downPaymentPct": 25,
+        "downPayment": 71250,
+        "loanAmount": 213750,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 1494,
+        "monthlyTax": 299,
+        "monthlyInsurance": 260,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 2053,
+        "monthlyRent": 2500,
+        "dscr": 1.22,
+        "monthlyCashFlow": 447,
+        "specialistFocus": [
+          "Sourced the deal in Frenchtown because it is the only St. Charles submarket where two rents carry one note, and single-family math here fails at the median",
+          "Qualified on the appraiser's market rent of $1,250 per unit with the 63301 rental comps rather than blended citywide figures",
+          "Underwrote the full 1.26% effective tax load on the purchase price, since a fast-appreciating county marks new sales to market at the next odd-year reassessment"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Why would a cash-flow investor touch a market with a 0.59 median ratio?",
+          "answer": "Most should not, and the ones who do are buying something else. St. Charles offers the St. Louis region's strongest appreciation base, 6-day marketing times, and tenants who rent specifically to enter the school district before buying, which produces low turnover and clean payment histories. The working structures are narrow: Frenchtown duplexes near $285,000 grossing $2,500, 30% down on central ranches, or interest-only periods matched to a five-year hold. If monthly spread is the entire thesis, Florissant is twenty minutes east with a median that actually clears. St. Charles is the balance-sheet half of a Missouri portfolio."
+        },
+        {
+          "question": "Is the highest median tax bill in Missouri a reason to avoid the county?",
+          "answer": "No, because the bill is high for the right reason. Ownwell puts the county's median bill at $3,678 on a median county home price near $292,700, an effective load around 1.26% of market value, which is midpack for the St. Louis region and far below Florissant's 1.69%. You are paying more dollars because the asset is worth more dollars, funding the school districts that create the tenant demand in the first place. Underwrite the load on your actual purchase price, remember Missouri reassesses every odd year, and treat the tax line as the subscription fee for the district premium."
+        },
+        {
+          "question": "Does New Town or the historic district allow short-term rentals?",
+          "answer": "Treat St. Charles as a long-term rental market unless you verify otherwise on the specific parcel. The city's tourism draw around Main Street has produced STR activity, but operating rules vary by zoning and the city has tightened review rather than opened it, and nothing here resembles Branson's by-right resort districts. The dependable demand is the relocation pipeline: families renting 12 to 24 months before buying in the district. A furnished mid-term rental serving that pipeline and hospital travelers can outperform a nightly model without the regulatory exposure. Your matched specialist will qualify the file on the lease structure the property can defensibly run."
+        },
+        {
+          "question": "Where do I find anything resembling yield inside St. Charles?",
+          "answer": "North of Boone's Lick Road. Frenchtown and the older 63301 grid hold the 19th-century cottages, shotgun houses, and true duplexes that predate the subdivisions, at prices meaningfully below the $321,677 zip average, and its walkable-antique-district character keeps improving. A duplex there grossing $2,400 to $2,600 is the one native St. Charles asset that clears 1.2. Everything south and west is newer, more expensive, and mathematically thinner: 63303 at $361,412 rents near $1,607 blended, and 63304 at $407,484 only pencils as deliberate build-to-rent. Yield here is a street-level hunt, not a zip-code setting."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, St. Charles typical home value and zip-level values, July 2026",
+        "Zillow Observed Rent Index, St. Charles average rent and zip-level rents, July 2026",
+        "Zillow market overview, St. Charles days to pending and share of sales over list, June and July 2026",
+        "Ownwell property tax trends, St. Charles County median effective tax data and median bill of $3,678, April 2026",
+        "ACS metro rental vacancy for St. Louis via St. Louis Real Estate News, 2023",
+        "Insurify, Missouri average premium of $2,952 at $300,000 dwelling coverage, 2026 (scaled to local median, est.)"
+      ]
+    },
+    {
+      "city": "Lee's Summit",
+      "slug": "lees-summit",
+      "county": "Jackson County",
+      "metro": "Kansas City MO-KS",
+      "hook": "Lee's Summit's typical home hit $399,113 while houses rent near $1,658, a 20.1 price-to-rent ratio that breaks standard underwriting. This is a no-ratio and appreciation market, stated plainly.",
+      "metaDescription": "Lees Summit homes average $399K against $1,658 rents, so standard DSCR math runs thin. See the no-ratio structures that work here. Get matched today.",
+      "market": {
+        "medianPrice": 399113,
+        "medianRent": 1658,
+        "priceToRent": 20.1,
+        "vacancyRate": 6.8,
+        "yoyPrice": 2.9,
+        "yoyRent": 3.8,
+        "estDSCR": 0.56,
+        "propertyTaxRate": 1.36,
+        "insuranceMonthly": 285
+      },
+      "overview": "Lee's Summit is the Kansas City metro's premium suburb, and the numbers behave accordingly. The typical home value reached $399,113 in July 2026, up 2.9%, homes go pending in about 6 days, and the median list price in the newer zips runs well above $400,000. Average asking rent is $1,658, which produces a 20.1 price-to-rent ratio and a citywide DSCR near 0.56 at 20% down, the thinnest in this dataset. Ownwell's April 2026 data shows a median effective tax load of 1.36% of market value and a median annual bill of $4,152, real carrying cost on top of an already heavy basis.\n\nSo why does investor money keep arriving? The Lee's Summit R-7 school district and downtown's award-collecting revival created the metro's most reliable tenant class: relocating families and pre-purchase households who pay $1,975 to $2,600 for houses they treat like their own. Turnover is low, damage is rare, and vacancy windows are measured in days. The old core around downtown, zip 64063 at a $307,619 typical value and up 3.3%, is the one pocket where the entry price bends toward workable.\n\nThe honest structure menu: no-ratio programs that qualify on credit and equity rather than the lease, 30% or larger down payments, or interest-only periods. Lee's Summit files are balance-sheet plays on the metro's strongest suburb, and pretending otherwise is how negative carry surprises people.",
+      "regulationBadge": "friendly",
+      "regulationNote": "Lee's Summit imposes no rental licensing and Missouri preempts rent control, so the constraint is arithmetic, not regulation: a 20.1 price-to-rent ratio that forces deliberate loan structuring.",
+      "neighborhoods": [
+        {
+          "name": "Downtown Lee's Summit (64063)",
+          "medianPrice": 307619,
+          "medianRent": 1615,
+          "note": "The old core around the revived downtown at $307,619, up 3.3%, the fastest-moving zip in the city at 3 days to pending. Prewar bungalows and 1960s ranches rent $1,600 to $2,000 to households who want walkability, and it is the least punishing math in Lee's Summit."
+        },
+        {
+          "name": "West Lee's Summit (64081)",
+          "medianPrice": 426725,
+          "medianRent": 2100,
+          "note": "Established 1980s to 2000s subdivisions at $426,725 between View High and 291. Deep R-7 demand and easy Kansas City commutes; rents near $2,100 leave the ratio far under 1.0, so files here run no-ratio or heavy equity by design."
+        },
+        {
+          "name": "Northeast Lee's Summit (64086)",
+          "medianPrice": 384811,
+          "medianRent": 2050,
+          "note": "Lakewood-adjacent and newer construction at $384,811, with lake-community amenities driving premium rents around $2,050. HOA layers are common and some subdivisions restrict leasing, so read covenants before the offer, not after."
+        }
+      ],
+      "localAngle": {
+        "tag": "Structuring",
+        "title": "A 0.56 median ratio is not a dealbreaker. It is an instruction to structure differently.",
+        "body": "Run the standard formula on Lee's Summit and it fails in public: $399,113 typical value, $1,658 average rent, a 1.36% effective tax load producing a $4,152 median annual bill, and a citywide ratio near 0.56 at 20% down. No amount of optimism fixes that arithmetic, and the listings do not care. What fixes it is the loan structure, and this is precisely the market the no-ratio DSCR product exists for. A no-ratio file qualifies on credit, equity, and reserves without measuring rent against payment at all, which converts the question from does the lease cover the note, it will not at 20% down, to is the borrower strong enough to carry the spread while the asset appreciates in the metro's most demanded school district. The supporting cast matters too: 30% or larger down payments pull thin files toward break-even, interest-only periods cut the payment while the hold plan matures, and the downtown 64063 pocket at $307,619 with rents to $2,000 gets closest to conventional math. What a buyer should not do is inflate the rent assumption to force a 1.0, because the appraiser's market rent survey will price the fiction out of the file anyway. Your matched specialist will present the structure that matches your balance sheet and hold period to lenders who write no-ratio and interest-only paper every week."
+      },
+      "programFit": [
+        "no-ratio-dscr",
+        "interest-only-dscr",
+        "standard-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 2-bath SFR",
+        "neighborhood": "Downtown Lee's Summit (64063)",
+        "purchasePrice": 310000,
+        "downPaymentPct": 25,
+        "downPayment": 77500,
+        "loanAmount": 232500,
+        "loanType": "30-Year Fixed No-Ratio",
+        "interestOnly": false,
+        "monthlyPI": 1625,
+        "monthlyTax": 351,
+        "monthlyInsurance": 270,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 2246,
+        "monthlyRent": 1975,
+        "dscr": 0.88,
+        "monthlyCashFlow": -271,
+        "specialistFocus": [
+          "Placed the file in a no-ratio program qualifying on credit, equity, and reserves, because the honest 0.88 ratio fails standard pricing and inflating the rent would not survive the appraisal",
+          "Documented the negative carry of roughly $271 a month against the borrower's reserves so the underwriter saw a planned appreciation hold, not a distressed file",
+          "Underwrote the 1.36% effective tax load and the R-7 levy on the full purchase price ahead of the next odd-year Jackson County reassessment"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "What is a no-ratio DSCR loan and why is it the Lee's Summit tool?",
+          "answer": "It is a DSCR program variant that skips the rent-to-payment test entirely, qualifying the file on credit score, down payment, and reserves instead. Pricing is higher and down payments start around 25% to 30%, because the lender is accepting a property that does not carry itself yet. In a 20.1 price-to-rent market like Lee's Summit, that is not a trick, it is the honest product: the median house cannot clear 1.0 on real rents, and the buyer's thesis is appreciation plus tenant quality. Your matched specialist will show the no-ratio quotes next to a 30%-down standard file so the trade-offs are visible."
+        },
+        {
+          "question": "How much negative carry should I actually plan for?",
+          "answer": "On the realistic middle of the market, a few hundred dollars a month. A $310,000 downtown ranch at 25% down runs about $2,246 in payment, taxes at the 1.36% load, and insurance, against roughly $1,975 in rent, so the honest spread is about negative $271 before maintenance. On a $425,000 west-side house at $2,100 rent the gap widens past $700. That money is a deliberate purchase of appreciation in the metro's premier school district, funded from reserves. If that sentence reads as uncomfortable rather than intentional, buy in Independence or Blue Springs instead, where the same dollars clear 1.0."
+        },
+        {
+          "question": "Is the tenant quality story real or a realtor talking point?",
+          "answer": "It is real and measurable. Lee's Summit rents draw relocating families and pre-purchase households aiming at the R-7 district, the kind of tenant with strong income documentation, long tenures, and an incentive to keep the house showing well. Zillow shows the city's houses pending in about 6 days and downtown's 64063 in 3, and rental listings move on similar timelines. Metro vacancy near 6.8% overstates what owners here experience. You are trading yield for near-zero collections drama and turnover that happens on your schedule. Priced correctly, that trade is worth making; priced on hope, nothing saves it."
+        },
+        {
+          "question": "Do any Lee's Summit subdivisions block rentals outright?",
+          "answer": "Some restrict them, and the lake communities are where to look hardest. Newer subdivisions and amenity communities in 64086 and 64082 commonly carry HOA covenants with rental caps, minimum lease terms, or waiting lists for leasing permission, and a covenant violation is not curable with money after closing. Downtown's older grid and most pre-1990 neighborhoods carry no such layer. Pull the declarations during due diligence on anything with an HOA, confirm current cap capacity in writing from the management company, and have the file structured only after the property is confirmed leasable."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Lees Summit typical home value and zip-level values, July 2026",
+        "Zillow Observed Rent Index, Lees Summit average rent and zip-level rents, July 2026",
+        "Ownwell property tax trends, Lees Summit median effective tax data and $4,152 median bill, April 2026",
+        "Zillow market overview, Lees Summit and 64063 days-to-pending velocity, July 2026",
+        "US Census ACS 5-year via Neilsberg, Kansas City metro rental vacancy, 2024 (est.)",
+        "Insurify, Missouri average premium of $2,952 at $300,000 dwelling coverage, 2026 (scaled to local median, est.)"
+      ]
+    },
+    {
+      "city": "Blue Springs",
+      "slug": "blue-springs",
+      "county": "Jackson County",
+      "metro": "Kansas City MO-KS",
+      "hook": "Blue Springs carries a $313,757 typical value and a 1.52% effective property tax load, the highest of Jackson County's big suburbs. The school district everyone buys for is also the line item that eats the ratio.",
+      "metaDescription": "Blue Springs homes average $314K with a 1.52% effective tax load. See what the Jackson County saga means for DSCR files here. Get matched today.",
+      "market": {
+        "medianPrice": 313757,
+        "medianRent": 1728,
+        "priceToRent": 15.1,
+        "vacancyRate": 6.8,
+        "yoyPrice": 2,
+        "yoyRent": 3,
+        "estDSCR": 0.72,
+        "propertyTaxRate": 1.52,
+        "insuranceMonthly": 250
+      },
+      "overview": "Blue Springs is the family-rental suburb on Kansas City's eastern flank: a $313,757 typical value as of July 2026, up 2%, average asking rent of $1,728, and houses pending in about 6 days. The Blue Springs R-IV school district is the demand engine, pulling households along the I-70 corridor who rent for a year or three before buying, and rent growth of 3% to 5.3% in the core zip shows the pipeline working.\n\nThe number that separates Blue Springs from its neighbors is the tax line. Ownwell's April 2026 data puts the city's median effective load at 1.52% of market value, above Jackson County's 1.49% and well above Independence's 1.32%, with a median annual bill of $3,572. The same R-IV levy that fills the rental pipeline is what a landlord carries every month, and it is the main reason the citywide ratio computes near 0.72 at 20% down.\n\nWhere it works: the older central grid in 64014, where Jackson County records show a median assessor market value near $229,900 and finished ranches trade in the mid $200s, renting $1,700 to $1,850. That is the pocket where 25% down puts a file just over the line. The newer west side in 64015 at $315,741 and Adams Dairy corridor stock push toward Lee's Summit math, thin spread bought for appreciation. Same county, same reassessment saga, so underwrite the post-sale bill, not the seller's capped one.",
+      "regulationBadge": "friendly",
+      "regulationNote": "Blue Springs has no rental licensing or interior inspection program, unlike Independence next door, so the binding constraints are the 1.52% effective tax load and entry prices, with Missouri preempting rent control statewide.",
+      "neighborhoods": [
+        {
+          "name": "Central Blue Springs (64014)",
+          "medianPrice": 234340,
+          "medianRent": 1650,
+          "note": "The pre-1990 core between downtown and Adams Dairy, where Jackson County records put the median market value near $234,340 even as the full zip averages $307,787 with newer stock. Split-levels and ranches rent $1,550 to $1,850, and this is where Blue Springs math clears."
+        },
+        {
+          "name": "West Blue Springs (64015)",
+          "medianPrice": 315741,
+          "medianRent": 1900,
+          "note": "The 64015 side toward Woods Chapel and I-70 at a $315,741 typical value, up 2.3%. Newer three-beds rent near $1,900 with zip-level tax loads around 1.52%; the ratio runs thin and buyers here are underwriting district demand plus appreciation."
+        },
+        {
+          "name": "Adams Dairy corridor (64014 east)",
+          "medianPrice": 307787,
+          "medianRent": 1850,
+          "note": "The retail and employment spine on the east side, with the broader 64014 zip at $307,787 and newer subdivisions feeding it. Strong tenant draw from corridor jobs; Grain Valley next door at $335,534 shows where the growth is spilling."
+        }
+      ],
+      "localAngle": {
+        "tag": "Taxes",
+        "title": "The R-IV premium cuts both ways: it fills your rental and writes your tax bill.",
+        "body": "Every Blue Springs investment thesis runs through one levy. The Blue Springs R-IV school district is why families target this suburb, why rentals lease in days, and why Ownwell's April 2026 data shows the city's median effective property tax load at 1.52% of market value, the highest among Jackson County's major suburbs and materially above Independence's 1.32% ten minutes west. On a $235,000 central ranch that is roughly $298 a month; on a $315,000 west-side three-bed it approaches $400. Layer the county context on top: Blue Springs sat inside the same 2023 Jackson County reassessment that triggered a State Tax Commission rollback order, a court ruling upholding it in April 2025, a 15% cap on 2025 increases measured against 2022, and the recall of the county executive that September. Credits softened 2026 through 2028 bills, and the 2027 countywide reassessment will mark recent purchases toward their prices. The underwriting rule that follows: price the 1.52% load on your contract price from day one and treat the seller's current bill as trivia. The consolation is that the same levy keeps the tenant pipeline full, and a correctly priced 64014 ranch rarely sits a full week. Your matched specialist will underwrite the full unabated tax bill so the ratio you close on is the ratio you live with."
+      },
+      "programFit": [
+        "standard-dscr",
+        "interest-only-dscr",
+        "portfolio-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 2-bath SFR",
+        "neighborhood": "Central Blue Springs (64014)",
+        "purchasePrice": 235000,
+        "downPaymentPct": 25,
+        "downPayment": 58750,
+        "loanAmount": 176250,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 1232,
+        "monthlyTax": 298,
+        "monthlyInsurance": 220,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 1750,
+        "monthlyRent": 1795,
+        "dscr": 1.03,
+        "monthlyCashFlow": 45,
+        "specialistFocus": [
+          "Targeted the older 64014 grid where a $235,000 basis meets $1,795 rent, because the newer subdivisions fail the ratio at any reasonable down payment",
+          "Underwrote the full 1.52% R-IV tax load on the purchase price rather than the seller's capped 2025 assessment",
+          "Structured 25% down to hold the ratio at 1.03 with margin for the 2027 countywide reassessment already modeled"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Why is the Blue Springs tax load higher than the rest of Jackson County?",
+          "answer": "School levies. Ownwell's April 2026 data shows Blue Springs at a 1.52% median effective load against the county's 1.49% and Independence's 1.32%, and the spread is almost entirely the Blue Springs R-IV district stack, with the Grain Valley edge of 64029 slightly lower at 1.41%. The median annual bill runs $3,572. It is the price of admission to the district that creates the rental demand, which is why the honest move is underwriting it in full rather than shopping for a lower number that does not exist inside city limits."
+        },
+        {
+          "question": "Where does a rental actually pencil in Blue Springs?",
+          "answer": "In the pre-1990 central grid. Jackson County records put the median market value in 64014 near $234,340, and finished ranches and split-levels there rent $1,650 to $1,850 to R-IV families. At 25% down that produces ratios right at 1.0 to 1.05, thin but real, with the district doing the vacancy control. The newer stock is a different trade: 64015 at $315,741 and the Adams Dairy subdivisions rent near $1,900, which computes to 0.8 or worse, so those files run larger equity or interest-only structures. Buy the old grid for the ratio, the new grid for the exit."
+        },
+        {
+          "question": "Does Blue Springs make me license or register the rental like Independence does?",
+          "answer": "No. Blue Springs has no rental license, no registration, and no interior inspection cycle, which is a genuine operating difference from Independence's Rental Ready program next door, where every unit needs a licensed landlord and a $100 inspection every two years just to keep utilities connectable. Code enforcement here is complaint-driven and Missouri preempts rent control statewide under RSMo Section 441.043. The absence of a municipal checklist shifts the whole condition burden onto your own inspection and make-ready standards, and district-caliber tenants will hold you to them anyway."
+        },
+        {
+          "question": "How exposed is a 2026 Blue Springs purchase to the next reassessment?",
+          "answer": "Exposed in a known, modelable way. Jackson County reassesses in odd years, the 2025 cycle was capped at 15% over 2022 under the State Tax Commission order, and credits run through 2028 bills, so current seller bills understate steady-state. A 2026 purchase gets marked toward its contract price in the 2027 reassessment. The defense is arithmetic: underwrite 1.52% of your purchase price from day one, about $298 monthly on a $235,000 house, and the reassessment becomes a non-event. Files built on the seller's frozen bill are the ones that find out their ratio broke a year after closing."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Blue Springs typical home value and zip-level values, July 2026",
+        "Zillow Observed Rent Index, Blue Springs average rent and zip-level rents, July 2026",
+        "Ownwell property tax trends, Blue Springs median effective tax load of 1.52% and zip detail, April 2026",
+        "Missouri State Tax Commission order and Jackson County 2025 assessment cap via KCUR and The Beacon, 2025",
+        "US Census ACS 5-year via Neilsberg, Kansas City metro rental vacancy, 2024 (est.)",
+        "Insurify, Missouri average premium of $2,952 at $300,000 dwelling coverage, 2026 (scaled to local median, est.)"
+      ]
+    },
+    {
+      "city": "St. Joseph",
+      "slug": "st-joseph",
+      "county": "Buchanan County",
+      "metro": "St. Joseph MO-KS",
+      "hook": "St. Joseph jumped 6.1% in a year and the median is still only $187,021, with 3-bed houses renting near $1,400. The ratio clears at the property level while the city keeps shrinking. Both things are true.",
+      "metaDescription": "St. Joseph MO is up 6.1% on a $187K median, and 3-bed rentals near $1,400 clear DSCR with room. See what to underwrite first. Get matched today.",
+      "market": {
+        "medianPrice": 187021,
+        "medianRent": 1054,
+        "priceToRent": 14.8,
+        "vacancyRate": 9.4,
+        "yoyPrice": 6.1,
+        "yoyRent": 2.7,
+        "estDSCR": 0.72,
+        "propertyTaxRate": 1.36,
+        "insuranceMonthly": 205
+      },
+      "overview": "St. Joseph posted the fastest price growth of any market in this dataset, up 6.1% in a year to a $187,021 typical value as of July 2026, and the move concentrated exactly where investors buy: the central 64501 zip repriced 9.4% to $132,291 and the east side's 64506 rose 5.8% to $283,774. Out-of-metro capital found the last sub-$150K stock within an hour of Kansas City, and it shows.\n\nThe cash-flow case is property-level, not citywide. The blended $1,054 average rent is dragged by an older apartment base, so the citywide formula reads about 0.72 at 20% down. Actual houses tell the real story: 3-bed rentals in 64503 and 64504 lease at $1,400 with values near $137,000 to $179,000, which produces ratios from 1.2 to 1.4 on ordinary purchases. The city requires it be done right: the Residential Rental Certification Program, running since July 2019, requires every rental unit to pass a minimum code inspection every five years.\n\nNow the honest layer. St. Joseph's population has declined every count since 2010: 76,780 then, 72,473 in 2020, roughly 71,100 in the 2024 estimate. Mosaic Life Care and Triumph Foods anchor employment at roughly 2,900 workers each, stable rather than growing. Buy for yield on stock that clears its inspection, underwrite zero population tailwind, and let 6.1% appreciation be a surprise instead of a plan.",
+      "regulationBadge": "moderate",
+      "regulationNote": "St. Joseph's Residential Rental Certification Program, in force since July 2019, requires every rental unit to pass a minimum code inspection every five years, a lighter cycle than Independence's but a real gate on the oldest stock.",
+      "neighborhoods": [
+        {
+          "name": "Museum Hill and Midtown (64501)",
+          "medianPrice": 132291,
+          "medianRent": 1050,
+          "note": "The historic core at $132,291, up 9.4% in a year as investors repriced the cheapest central stock. Grand 1880s architecture next to hard blocks; certification-ready houses rent near $1,050 to $1,100 and the block-by-block judgment is everything."
+        },
+        {
+          "name": "South Side (64504)",
+          "medianPrice": 137267,
+          "medianRent": 1150,
+          "note": "Working-class stock at $137,267 south of downtown toward the stockyards legacy district. Three-bed houses lease $1,075 to $1,400, the plant workforce rents for years at a time, and the entry basis keeps property-level ratios among the best in Missouri."
+        },
+        {
+          "name": "North End (64505)",
+          "medianPrice": 225519,
+          "medianRent": 1300,
+          "note": "Krug Park country at $225,519, postwar ranches and solid mid-century blocks north of downtown. The middle tier: cleaner condition, five-year certifications that pass first visit, and rents near $1,300 that still clear at 25% down."
+        },
+        {
+          "name": "East Side (64506)",
+          "medianPrice": 283774,
+          "medianRent": 1450,
+          "note": "The Belt Highway corridor at $283,774, up 5.8%, where hospital staff and managers rent newer three-beds near $1,450 to $1,700. The appreciation and tenant-quality end of the market, with the thinnest ratios in the city."
+        }
+      ],
+      "localAngle": {
+        "tag": "Deep Value",
+        "title": "A 9.4% repricing in the cheapest zip, a shrinking city, and a five-year inspection cycle.",
+        "body": "Three facts define underwriting in St. Joseph, and they point in different directions. First, the repricing is real: the central 64501 zip rose 9.4% in a year to a $132,291 typical value, the citywide number rose 6.1%, and inventory sits near 322 homes, so the era of throwaway pricing on the historic core is ending while the absolute basis remains among the lowest in the state. Second, the demand base is flat by design: the city has recorded population declines at every count since 2010, from 76,780 down to roughly 71,100 in the 2024 estimate, and the anchor employers, Mosaic Life Care and Triumph Foods at roughly 2,900 workers each, are stability stories rather than growth stories. That combination means the yield is genuine and the appreciation is a bonus you do not underwrite. Third, the city checks the product: under the Residential Rental Certification Program, in force since July 2019, every rental unit must pass a minimum code inspection every five years, with the Property Maintenance division running the checklist. On 1900s stock that inspection is where deferred wiring and dead water heaters surface, so the smart sequence is inspection-grade rehab first, certification second, lease third. Your matched specialist will structure the file on the appraiser's market rent with the certification and rehab timeline built into the closing plan."
+      },
+      "programFit": [
+        "standard-dscr",
+        "portfolio-dscr",
+        "bridge-to-dscr",
+        "no-ratio-dscr"
+      ],
+      "dealExample": {
+        "label": "Cash-Out Refinance",
+        "propertyType": "3-bed / 1-bath SFR",
+        "neighborhood": "South Side (64504)",
+        "purchasePrice": 150000,
+        "downPaymentPct": 30,
+        "downPayment": 45000,
+        "loanAmount": 105000,
+        "loanType": "30-Year Fixed Cash-Out",
+        "interestOnly": false,
+        "monthlyPI": 734,
+        "monthlyTax": 170,
+        "monthlyInsurance": 165,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 1069,
+        "monthlyRent": 1400,
+        "dscr": 1.31,
+        "monthlyCashFlow": 331,
+        "specialistFocus": [
+          "Structured the cash-out at 70% of the $150,000 appraisal so the $105,000 balance clears the $100,000 loan floor most lenders apply, which is where small St. Joseph files usually die",
+          "Qualified on the appraiser's $1,400 market rent, supported by the tenant's actual lease, rather than the blended citywide figure that understates houses here",
+          "Confirmed the five-year rental certification was current before ordering the appraisal, since an uncertified unit reads as unrentable to an underwriter"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "The city is shrinking. Why would I buy rentals in a declining population?",
+          "answer": "Because the arithmetic prices the decline in, and then some. St. Joseph fell from 76,780 residents in 2010 to roughly 71,100 in the 2024 estimate, about half a percent a year, while a $137,000 South Side house rents for $1,400, a property-level ratio near 1.3 at 30% down. The employment base, Mosaic Life Care and Triumph Foods at roughly 2,900 workers each, is anchored to a regional hospital and a pork plant that do not relocate. The discipline is to buy for current yield, underwrite zero growth, and never pay for an appreciation story. The 6.1% jump this year was the market repricing that yield, not a boom to chase."
+        },
+        {
+          "question": "What does the Residential Rental Certification actually require?",
+          "answer": "A passing minimum code inspection for every rental unit once every five years, under the program the city has run since July 2019. The checklist is life-safety and habitability, wiring, plumbing, heat, egress, smoke detection, administered by the Property Maintenance division, with a Unit Certification Application on file. It is lighter than Independence's two-year interior cycle but it has teeth on exactly the stock investors target here, because a 1905 house that has never seen a permit will fail on real defects. Budget the rehab to certification standard before you count the rent, and the five-year cadence becomes a routine calendar item."
+        },
+        {
+          "question": "Why did the cheapest zip jump 9.4% in one year, and is that a bubble?",
+          "answer": "It is a repricing from a very low base, not debt-driven froth. Zip 64501's typical value rose 9.4% to $132,291, which in dollars is about $11,000, the cost of a roof. Out-of-metro buyers found the last sub-$150K houses within commuting distance of Kansas City at the same time local inventory stayed thin at a few hundred listings. Median sale prices citywide still print under $200,000 and 46% of June sales closed below list, so sellers are not dictating terms. The risk is not a pop; it is overpaying for uncertified shells because the momentum makes everything look cheap."
+        },
+        {
+          "question": "Small loan amounts kill deals here. How do investors get financed?",
+          "answer": "By engineering the balance above lender floors. Many DSCR lenders set minimums at $75,000 or $100,000, and a $110,000 house at 25% down produces an $82,500 loan that half the market declines. The workable structures: buy the $140,000 to $180,000 tier where 20% to 25% down clears $100,000 comfortably, put less down where pricing allows so the balance rises, refinance after a value-add rehab as the appraisal grows, or bundle several houses into one portfolio loan. Your matched specialist knows which of the 70+ lenders write small-balance Missouri files and which want the bundle, and routes the file before the floor becomes a surprise."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Saint Joseph typical home value and zip-level values, July 2026",
+        "Zillow Observed Rent Index, Saint Joseph average rent, July 2026",
+        "Ownwell property tax trends, Buchanan County median effective property tax data, April 2026",
+        "City of St. Joseph, Residential Rental Certification Program requirements since July 2019, 2026",
+        "US Census Bureau, St. Joseph population 2010, 2020, and 2024 estimate via city and Census sources, 2025",
+        "US Census Bureau HVS via FRED, Missouri rental vacancy of 9.4%, 2025"
+      ]
+    },
+    {
+      "city": "Joplin",
+      "slug": "joplin",
+      "county": "Jasper County",
+      "metro": "Joplin MO",
+      "hook": "Joplin's effective property tax load is 0.88% of market value, the lowest of any major Missouri market, on a $204,902 median. South-side listings sit 27 days before pending, so buyers negotiate here.",
+      "metaDescription": "Joplin MO pairs a $205K median with a 0.88% effective tax load, lowest of Missouri's big markets. See how DSCR deals pencil here. Get matched today.",
+      "market": {
+        "medianPrice": 204902,
+        "medianRent": 1299,
+        "priceToRent": 13.1,
+        "vacancyRate": 9.4,
+        "yoyPrice": 1.7,
+        "yoyRent": 6.5,
+        "estDSCR": 0.86,
+        "propertyTaxRate": 0.88,
+        "insuranceMonthly": 210
+      },
+      "overview": "Joplin is the four-state corner's workhorse market: a $204,902 typical value as of July 2026, up 1.7%, and asking rents up 6.5% to $1,299, the strongest rent print in this dataset, with the caveat that smaller markets swing more on listing mix. What makes the math work is the carrying cost. Jasper County's median effective property tax load is 0.88% of market value per Ownwell's April 2026 data, the lowest of any major Missouri market, worth roughly $100 a month against a Jackson County suburb on the same purchase price.\n\nThe supply picture favors buyers. South Joplin's 64804, at a $229,969 typical value, shows 27 days to pending with 59.4% of June sales closing under list, and the north side's 64801 sits at $194,471 with median sales near $167,000. Nobody is bidding against you the way they are in St. Charles, and negotiated entries are how the ratio gets from 1.1 to 1.3.\n\nThe stock itself carries the 2011 story: the May 22 EF5 tornado killed 161 people and destroyed about 7,500 homes and businesses across the city's midsection, and the decade of rebuilding that followed means the tornado path corridor holds post-2011 construction with modern roofs, windows, and wiring inside otherwise century-old neighborhoods. Mercy rebuilt a 327-bed hospital, healthcare anchors employment, and rentals lease to a regional trades and medical workforce. Buy newer-stock corridors, negotiate the entry, and the lowest tax line in the state does the rest.",
+      "regulationBadge": "friendly",
+      "regulationNote": "Joplin layers no rental licensing on top of Missouri's statewide rent control preemption, and Jasper County's 0.88% effective tax load is the lowest carrying cost of any major market in the state.",
+      "neighborhoods": [
+        {
+          "name": "North Joplin (64801)",
+          "medianPrice": 194471,
+          "medianRent": 1000,
+          "note": "The historic north half at $194,471, where median sales near $167,000 and rents of $895 to $1,100 make this the entry tier. Pre-1950 stock dominates outside the rebuilt corridor, so inspection discipline decides whether the gross yield survives."
+        },
+        {
+          "name": "South Joplin (64804)",
+          "medianPrice": 229969,
+          "medianRent": 1400,
+          "note": "The larger south half at $229,969, up 1.9%, with zip-level rents near $1,431 and 27 days to pending. Much of the 2011 tornado path runs through here, so pockets of post-2011 construction sit at prices barely above the older stock around them."
+        },
+        {
+          "name": "Silver Creek",
+          "medianPrice": 274666,
+          "medianRent": 1650,
+          "note": "The southeast step-up at $274,666 toward Shoal Creek, larger 1990s-plus homes renting $1,550 to $1,750 to medical and managerial households. The tenant-quality tier; the ratio thins but the 0.88% tax load keeps it workable at 25% down."
+        }
+      ],
+      "localAngle": {
+        "tag": "Real Costs",
+        "title": "The 2011 rebuild left Joplin something rare: cheap houses with new bones.",
+        "body": "Most low-priced Midwestern markets hide their risk in the mechanicals: knob-and-tube behind plaster, sixty-year-old roofs, sewer laterals from the Coolidge administration. Joplin's tragedy rewrote part of that equation. The May 22, 2011 EF5 tornado killed 161 people and destroyed roughly 7,500 homes and businesses through the city's midsection, and the rebuild that followed, thousands of residential permits across a decade, seeded the path corridor with post-2011 construction: modern electrical, architectural shingle roofs, vinyl windows, and code-current framing, much of it built to the tougher standards the city adopted after the storm. Mercy replaced the destroyed St. John's with a new 327-bed hospital. For an investor, that means south and central Joplin sell 2011-plus houses at prices only modestly above the 1920s stock nearby, and the insurance and capex profile of those newer houses is a different sport. Pair that with Jasper County's 0.88% effective tax load, the lowest of Missouri's major markets, and a negotiated purchase in a 27-days-to-pending zip, and the net margin on an ordinary $150,000 to $230,000 rental here beats metros with better headlines. The screen is simple: confirm build year against the 2011 path, price the older stock's systems honestly, and let the tax line carry the file. Your matched specialist will underwrite whichever vintage you buy on its real numbers."
+      },
+      "programFit": [
+        "standard-dscr",
+        "portfolio-dscr",
+        "bridge-to-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 2-bath SFR",
+        "neighborhood": "North Joplin (64801)",
+        "purchasePrice": 150000,
+        "downPaymentPct": 25,
+        "downPayment": 37500,
+        "loanAmount": 112500,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 786,
+        "monthlyTax": 110,
+        "monthlyInsurance": 160,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 1056,
+        "monthlyRent": 1250,
+        "dscr": 1.18,
+        "monthlyCashFlow": 194,
+        "specialistFocus": [
+          "Negotiated the entry in a zip where 51.5% of June sales closed under list, and wrote the ratio on the negotiated price instead of the ask",
+          "Underwrote Jasper County's 0.88% effective tax load, about $110 a month here, which is the line item that carries Joplin files over the line",
+          "Kept the loan at $112,500 to clear common lender minimums, and matched the file to one of the 70+ lenders comfortable with small-balance Midwest rentals"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Rents rose 6.5% in a year. Can I underwrite that continuing?",
+          "answer": "No, and you do not need to. A 6.5% print in a market of Joplin's size partly reflects which units happened to be listed, the same listing-mix noise that makes small-metro rent indexes jumpy in both directions, and the south zip's 7.4% reads the same way. The durable facts are the levels: $1,000 in the north half, $1,400 in the south, $1,650 in Silver Creek, against purchase prices from $150,000 to $275,000. Underwrite flat rents on those levels and the ratios still run 1.1 to 1.3. Treat rent growth here as margin of safety, never as the thesis."
+        },
+        {
+          "question": "Does the 2011 tornado still matter to a buyer in 2026?",
+          "answer": "Yes, in your favor if you use it. The EF5 destroyed roughly 7,500 homes and businesses through the city's midsection, and the corridor rebuilt across the following decade, so south and central Joplin hold post-2011 houses with modern roofs, wiring, and windows at prices close to the surrounding pre-war stock. Newer bones mean lighter capex and better insurance outcomes in a hail-belt state. The flip side is that untouched 1920s blocks nearby still carry every old-house risk. Pull the build year, map it against the path, and price the two vintages as the different products they are."
+        },
+        {
+          "question": "Is a 27-days-to-pending market a red flag or an opportunity?",
+          "answer": "It is negotiating room, which yield buyers should welcome. South Joplin's 64804 shows 27 median days to pending with 59.4% of June sales under list and a 0.989 sale-to-list ratio; the citywide figure is 18 days. Compare that with St. Charles at 6 days and half of sales over ask. Nothing in Joplin's employment base, healthcare anchored by Mercy's 327-bed hospital plus regional trades and logistics, signals distress; this is simply a market where supply and demand meet politely. Offer under list with a clean file, and the discount you capture at entry is permanent ratio improvement."
+        },
+        {
+          "question": "How does Joplin's tax load change the math versus Kansas City suburbs?",
+          "answer": "It is the whole spread. Jasper County's median effective load is 0.88% of market value against 1.49% in Kansas City and 1.52% in Blue Springs. On a $200,000 rental that is roughly $147 a month here versus $248 to $253 there, about $100 of pure monthly margin before anything else differs. That is why a Joplin house renting $1,250 can out-net a KC-metro house renting $1,500 on the same price. The trade-off is metro depth: a smaller tenant pool and the statewide 9.4% vacancy backdrop argue for pricing units slightly under market and screening hard, which the margin comfortably funds."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Joplin typical home value and zip-level values, July 2026",
+        "Zillow Observed Rent Index, Joplin average rent and zip-level rents, July 2026",
+        "Ownwell property tax trends, Jasper County median effective property tax data, April 2026",
+        "Guidehouse and NBC News retrospectives, 2011 Joplin EF5 tornado losses and rebuild, and Mercy's 327-bed replacement hospital, 2021",
+        "US Census Bureau HVS via FRED, Missouri rental vacancy of 9.4%, 2025",
+        "Insurify, Missouri average premium of $2,952 at $300,000 dwelling coverage, 2026 (scaled to local median, est.)"
+      ]
+    },
+    {
+      "city": "Florissant",
+      "slug": "florissant",
+      "county": "St. Louis County",
+      "metro": "St. Louis MO-IL",
+      "hook": "Florissant is the one Missouri market in this dataset where the citywide median clears the ratio at 1.02. The catch is a 1.69% tax load and a rental licensing stack most out-of-state buyers have never seen.",
+      "metaDescription": "Florissant MO is the rare market where the median clears DSCR at 1.02. See the tax, license, and permit stack behind that number. Get matched today.",
+      "market": {
+        "medianPrice": 196718,
+        "medianRent": 1619,
+        "priceToRent": 10.1,
+        "vacancyRate": 7.7,
+        "yoyPrice": 1.4,
+        "yoyRent": 5.8,
+        "estDSCR": 1.02,
+        "propertyTaxRate": 1.69,
+        "insuranceMonthly": 205
+      },
+      "overview": "Run the standard formula on Florissant and something unusual happens: it passes. A $196,718 typical value against $1,619 average asking rent, up 5.8% in a year, computes to a 1.02 ratio at 20% down even after the heaviest tax load in this dataset. North County's biggest suburb is a genuine cash-flow market twenty minutes from the Arch, built on 1950s and 1960s brick ranches that rent to a deep, stable workforce base.\n\nNow the Memphis lesson, because a median that clears is always priced by what sits downstream. Layer one is the tax bill: Ownwell's April 2026 data puts Florissant's median effective load at 1.69% of market value, a $2,553 median annual bill, driven by North County school levies, with 63034 reaching 1.72%. Layer two is process: Florissant requires an annual Residential Rental License filed by January 31, an occupancy permit with inspection at every tenant change, attendance at the police department's Crime-Free Housing seminar, and an owner or representative within 50 miles, which means out-of-state buyers hire local management by law, not preference.\n\nLayer three is geography: Florissant's stability sits next to harder markets, Ferguson's 63135 at $112,649 and Spanish Lake at $151,959, and lenders and insurers read the whole area's headlines. The investors who win here treat the licensing stack as a moat, buy the brick ranch, and collect the metro's best honest ratio.",
+      "regulationBadge": "moderate",
+      "regulationNote": "Florissant requires an annual Residential Rental License by January 31, an occupancy permit and inspection at each tenant change, a Crime-Free Housing seminar, and an owner or representative within 50 miles, effectively mandating local management for remote investors.",
+      "neighborhoods": [
+        {
+          "name": "Old Town Florissant (63031)",
+          "medianPrice": 178179,
+          "medianRent": 1500,
+          "note": "The historic core and the west side at a $178,179 zip typical value, up from flat a year ago. Brick ranches around the old French settlement grid rent near $1,500, and the zip's median tax bill of about $2,406 is the lightest in the city."
+        },
+        {
+          "name": "East Florissant (63033)",
+          "medianPrice": 201388,
+          "medianRent": 1550,
+          "note": "The larger east side at $201,388, up 2.6%, with rents printing $1,500 to $1,719 on the zip index. The core investor pocket: three-bed brick ranches with garages that lease in days, and effective tax loads between 1.48% and 1.72% depending on the school district line."
+        },
+        {
+          "name": "North Florissant (63034)",
+          "medianPrice": 280336,
+          "medianRent": 1850,
+          "note": "Newer and larger stock at $280,336 toward the Missouri River bluffs, with the city's highest tax bills, a median near $3,933. Rents around $1,850 keep the ratio near break-even; this is the tenant-quality tier rather than the yield tier."
+        },
+        {
+          "name": "Spanish Lake (adjacent, 63138)",
+          "medianPrice": 151959,
+          "medianRent": 1400,
+          "note": "Unincorporated St. Louis County next door at $151,959, listed for honest contrast: no Florissant licensing stack applies, gross yields run higher, and condition plus insurance risk run higher with them. County occupancy rules still apply."
+        }
+      ],
+      "localAngle": {
+        "tag": "Licensing",
+        "title": "The median clears 1.0 here. The licensing stack is why it stays that way.",
+        "body": "Florissant's Article XVII on Residential Rental Real Estate builds one of Missouri's most complete rental compliance stacks, and understanding it is the difference between a 1.2-ratio machine and a stack of violation letters. The pieces: every rental property needs a Residential Rental License, applied for annually by January 31 for property owned on January 1. Every change of tenant requires an occupancy permit, and none issues until the city inspects the unit and it passes code. Landlords attend the Florissant Police Department's Crime-Free Housing seminar. And the owner or a designated representative must be located within 50 miles of the property, which converts out-of-state ownership into a mandatory local-management arrangement. Add the money layer: Ownwell puts the city's median effective property tax load at 1.69% of market value, a $2,553 median bill, the heaviest in this dataset and the single biggest reason gross rents near $1,600 produce a 1.02 median ratio instead of 1.3. Here is the reframe seasoned North County operators make: the stack is a moat. It forces every competing landlord to maintain product, keeps the worst operators out of the market, and is a real part of why Florissant rents rose 5.8% while values held. Your matched specialist will underwrite the full tax load, the licensing costs, and the management line so the file reflects the market as it actually operates."
+      },
+      "programFit": [
+        "standard-dscr",
+        "portfolio-dscr",
+        "bridge-to-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 2-bath brick ranch",
+        "neighborhood": "East Florissant (63033)",
+        "purchasePrice": 165000,
+        "downPaymentPct": 25,
+        "downPayment": 41250,
+        "loanAmount": 123750,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 865,
+        "monthlyTax": 232,
+        "monthlyInsurance": 185,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 1282,
+        "monthlyRent": 1550,
+        "dscr": 1.21,
+        "monthlyCashFlow": 268,
+        "specialistFocus": [
+          "Underwrote the full 1.69% Florissant tax load, $232 a month on this purchase, instead of the St. Louis County average that understates North County school levies",
+          "Priced the annual Rental License, the occupancy-permit inspection at each turnover, and a local management contract satisfying the 50-mile rule into the operating numbers",
+          "Qualified on the appraiser's $1,550 market rent for a licensed, inspection-passed unit, the only configuration this city legally rents"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Why does Florissant clear 1.0 when almost nothing else in Missouri does?",
+          "answer": "Because prices stayed anchored while rents kept climbing. The typical value of $196,718 rose just 1.4% in a year, held down by North County's reputation drag, while average asking rent rose 5.8% to $1,619 on genuine workforce demand for three-bed brick ranches. Even carrying the dataset's heaviest tax load at 1.69% of market value, the 20%-down formula computes to 1.02 at the median, and ordinary purchases in 63031 and 63033 print 1.1 to 1.25. The market is paying you for the licensing homework and the headlines. That is the entire trade, stated plainly."
+        },
+        {
+          "question": "Can I own a Florissant rental from out of state?",
+          "answer": "Only with local boots on the ground, because the code requires it. Florissant's rental ordinance requires the owner or a designated representative to be located within 50 miles of the property, alongside the annual Rental License due by January 31, the occupancy permit and inspection at every tenant change, and the police department's Crime-Free Housing seminar. In practice every remote investor hires a North County property manager who handles license renewals, schedules turnover inspections, and sits the seminar. Budget 8% to 10% of rent for management as a structural cost, and the compliance stack becomes routine instead of a violation generator."
+        },
+        {
+          "question": "How different is Florissant from Ferguson or Spanish Lake next door?",
+          "answer": "Meaningfully, and the map matters more than the headline. Florissant is a separate city of roughly 50,000 with its own police, licensing, and inspection regime, and its typical value of $196,718 sits well above Ferguson's 63135 at $112,649, north St. Louis County's 63136 at $84,179, and Spanish Lake at $151,959. Those adjacent markets carry higher gross yields, thinner buyer pools, and tougher insurance conversations. Some experienced operators work them well. For a first North County purchase, Florissant's licensing moat and deeper resale demand are what you are paying the premium for, and the premium is modest."
+        },
+        {
+          "question": "What does the occupancy permit process do to my vacancy math?",
+          "answer": "It adds a scheduled inspection between every tenancy, so build it into the turn plan rather than the excuse file. When a tenant leaves, the city must inspect and pass the unit before a new occupancy permit issues, and nobody legally moves in without one. A well-maintained brick ranch passes on the first visit; deferred units fail on handrails, smoke detectors, and electrical covers, then wait for reinspection. Practically, budget one to two extra weeks on a turn and keep a standing punch-list crew. The upside is real: the inspection regime is a large part of why Florissant's rental stock, and its rents, hold up."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Florissant typical home value and zip-level values, July 2026",
+        "Zillow Observed Rent Index, Florissant average rent and zip-level rents, July 2026",
+        "Ownwell property tax trends, Florissant median effective tax load of 1.69% and zip detail, April 2026",
+        "City of Florissant Code, Article XVII Residential Rental Real Estate and occupancy permit requirements, 2026",
+        "ACS metro rental vacancy for St. Louis via St. Louis Real Estate News, 2023",
+        "Insurify, Missouri average premium of $2,952 at $300,000 dwelling coverage, 2026 (scaled to local median, est.)"
+      ]
+    },
+    {
+      "city": "Branson",
+      "slug": "branson",
+      "county": "Taney County",
+      "metro": "Branson MO",
+      "hook": "Branson draws roughly 10 million visitors a year and its STR permit transfers with the deed, which Nashville's does not. Values eased 0.6% and 80% of June sales closed under list. This is a negotiating market.",
+      "metaDescription": "Branson runs on 10 million visitors a year and STR permits that transfer on sale. See how DSCR lenders underwrite projected income. Get matched today.",
+      "market": {
+        "medianPrice": 248443,
+        "medianRent": 1377,
+        "priceToRent": 15,
+        "vacancyRate": 9.4,
+        "yoyPrice": -0.6,
+        "yoyRent": 4.2,
+        "estDSCR": 0.75,
+        "propertyTaxRate": 1.02,
+        "insuranceMonthly": 225
+      },
+      "overview": "Branson is Missouri's vacation-rental economy, roughly 10 million visitors a year against a resident base near 13,000, and its property market currently favors the buyer. The typical home value eased 0.6% over the year to $248,443 as of July 2026, median days to pending stretch to 54, 80% of June sales closed under list, and the 0.970 sale-to-list ratio says sellers are taking discounts. Inventory near 631 homes is deep for a city this size. For an investor entering a nightly-rental market, that is the setup you want: negotiated entries into an established tourism machine.\n\nThe regulatory framing matters because it is the opposite of the big-city trend. Under Ordinance 2024-0065, effective May 1, 2025, Branson consolidated its rules under the short-term rental banner: an STR permit issues from the Fire Department after a fire safety inspection, runs three years, and transfers with new ownership when the property sells. Whole-home investor rentals operate by right across the commercial and entertainment districts and inside the resort planned developments that list the use, communities like Pointe Royale built around nightly rental. Straight residential zones are the exception, where the use requires the development's approval, and renting individual rooms in a house is not permitted.\n\nThe operating layer: a 4% city tourism tax that owners remit themselves by the 20th monthly, Taney County's 1.02% effective tax load, and revenue that swings hard between March-to-December peak and the January trough. Underwrite annual, not July.",
+      "regulationBadge": "friendly",
+      "regulationNote": "Branson permits whole-home short-term rentals across its commercial, entertainment, and resort planned-development districts under Ordinance 2024-0065, with a Fire Department STR permit that runs three years and transfers with ownership.",
+      "neighborhoods": [
+        {
+          "name": "Pointe Royale",
+          "medianPrice": 250000,
+          "medianRent": 1450,
+          "note": "The established golf-resort planned development near Table Rock Dam where nightly rental is a listed use, condos and villas trading roughly $200,000 to $300,000. Turnkey STR economics with HOA dues buying the amenity package guests book for."
+        },
+        {
+          "name": "Fall Creek",
+          "medianPrice": 210000,
+          "medianRent": 1350,
+          "note": "Resort condos and cabins along Fall Creek Road, typically $170,000 to $250,000, one of the value entries into permitted nightly rental. Older product than Branson Hills, so budget interior refresh cycles that guest reviews will otherwise budget for you."
+        },
+        {
+          "name": "Branson Hills",
+          "medianPrice": 380000,
+          "medianRent": 1900,
+          "note": "The newer master-planned golf community on the north side, houses commonly $320,000 to $450,000. Where the development allows nightly use, large-group STRs gross the most in town; verify the specific plat's rules because sections differ."
+        },
+        {
+          "name": "Historic Downtown",
+          "medianPrice": 230000,
+          "medianRent": 1300,
+          "note": "The walkable core above Lake Taneycomo near the Landing, a mix of cottages and small commercial-zone properties around $180,000 to $280,000. Commercial zoning opens by-right STR use on many parcels; long-term rentals to theater and hospitality staff run steady here too."
+        }
+      ],
+      "localAngle": {
+        "tag": "STR Rules",
+        "title": "A permit that transfers with the deed, and a tourism tax the platforms will not remit.",
+        "body": "Branson wrote its short-term rental rules to run a tourism economy rather than to suppress one, and two provisions matter most to an investor. First, the permit itself: under Ordinance 2024-0065, effective May 1, 2025, an STR permit is issued by the Branson Fire Department after a fire safety inspection, is valid for three years, and transfers with new ownership when the property sells. Read that against Nashville, where investor permits stopped issuing in residential zones and legacy status dies at closing: in Branson, a performing rental with its permit and booking history conveys as a going concern, which protects your exit as much as your entry. The zoning logic is straightforward: whole-home nightly rental operates across the commercial and entertainment corridors and inside resort planned developments that list the use, Pointe Royale being the textbook case, while straight residential subdivisions require the development's blessing and room-by-room rentals of a house are not permitted. Second, the money mechanics: Branson levies a 4% tourism tax on STR revenue, due by the 20th of each month, and the city states plainly that no platform, Airbnb and Vrbo included, is authorized to remit it for you. Miss the date and a 10% penalty plus 1% monthly interest accrues. Every unit also posts an emergency safety plan and evacuation map. Your matched specialist will structure the file on realistic annualized projections with the permit, inspection, and tax cadence documented for the underwriter."
+      },
+      "programFit": [
+        "str-dscr",
+        "standard-dscr",
+        "interest-only-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "2-bed / 2-bath resort condo",
+        "neighborhood": "Pointe Royale",
+        "purchasePrice": 250000,
+        "downPaymentPct": 25,
+        "downPayment": 62500,
+        "loanAmount": 187500,
+        "loanType": "30-Year Fixed STR",
+        "interestOnly": false,
+        "monthlyPI": 1311,
+        "monthlyTax": 213,
+        "monthlyInsurance": 175,
+        "monthlyHOA": 300,
+        "monthlyPITIA": 1999,
+        "monthlyRent": 2600,
+        "dscr": 1.3,
+        "monthlyCashFlow": 601,
+        "specialistFocus": [
+          "Qualified on $2,600 of projected monthly short-term rental income annualized across Branson's March-to-December season, documented with the unit's booking history and market comps rather than a peak-July screenshot",
+          "Confirmed the STR permit and fire inspection under Ordinance 2024-0065 convey with the sale, so the underwriter saw a legal going concern in a resort planned development where nightly use is listed",
+          "Underwrote the $300 HOA and the self-remitted 4% tourism tax into carrying costs, and verified condo warrantability with a lender that accepts resort projects"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Can an out-of-state investor legally run a whole-home Airbnb in Branson?",
+          "answer": "Yes, in the right zones, and Branson is one of the few Missouri cities where that answer is a clean yes. Whole-home short-term rentals operate across the commercial and entertainment districts and inside resort planned developments that list nightly use, communities like Pointe Royale that were built for it. The requirements under Ordinance 2024-0065, effective May 1, 2025: an STR permit from the Fire Department after a fire safety inspection, valid three years and transferable with ownership, a posted emergency plan and evacuation map, and the 4% tourism tax remitted monthly. Straight residential subdivisions are the exception, and renting individual rooms of a house is not permitted."
+        },
+        {
+          "question": "How do DSCR lenders underwrite projected nightly income here?",
+          "answer": "On annualized, documented numbers, never on peak months. STR-qualified DSCR programs typically use the property's trailing twelve-month revenue when it exists, or a market projection from recognized short-term rental data for the specific bedroom count and location when it does not, then apply the ratio against that monthly average. Branson's seasonality makes the annualization the whole exercise: a 2-bed that grosses $4,500 in July can average $2,600 across the year once January and February do their damage. Expect 20% to 25% minimum down and reserves. Your matched specialist knows which of the 70+ lenders run true STR programs versus long-term-rent-only underwriting."
+        },
+        {
+          "question": "Values fell and everything sells under list. Why is that good for me?",
+          "answer": "Because you are buying income, and the income did not fall with the prices. Typical values eased 0.6% while median days to pending stretched to 54 and 80% of June sales closed under asking at a 0.970 sale-to-list ratio, which is a market that rewards patient offers, especially on tired condos whose owners are done self-managing. Meanwhile visitation holds around 10 million a year and long-term rents rose 4.2%. Entry price is the one variable you fully control in an STR deal, and Branson is currently handing out discounts that permanently improve the ratio."
+        },
+        {
+          "question": "What kills Branson STR deals in underwriting?",
+          "answer": "Three recurring problems. Condo warrantability: many resort projects fail conventional condo tests on investor concentration or hotel-style operations, so the file needs a lender that accepts non-warrantable resort condos. Zoning mismatch: a house in a residential subdivision whose development never listed nightly use cannot be fixed after closing, so the plat check happens during diligence. And revenue fiction: projections built on peak-season nightly amounts with no occupancy haircut die at the appraisal stage. All three are avoidable with the permit status, the plat, and an annualized revenue model confirmed before the offer. Your matched specialist runs exactly that checklist before the file ever meets an underwriter."
+        },
+        {
+          "question": "What ongoing obligations do I take on as a Branson STR owner?",
+          "answer": "A short, strict list. Remit the 4% tourism tax to the city by the 20th of every month, yourself, because Branson authorizes no platform to remit it for you, and late filings take a 10% penalty plus 1% monthly interest. Keep the Fire Department STR permit current on its three-year cycle, with the fire safety inspection at issuance and renewal. Post the emergency safety plan and evacuation map where guests can see them. Collect and remit state and local sales and lodging taxes on top of the tourism tax. Miss the monthly remittance discipline and the penalties compound quietly; automate it in week one."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Branson typical home value, days to pending, and sale-to-list data, July 2026",
+        "Zillow Observed Rent Index, Branson average rent and YoY change, July 2026",
+        "City of Branson, Ordinance 2024-0065 short-term rental permit rules effective May 1, 2025, and 4% tourism tax requirements, 2025",
+        "Branson CVB and city marketing reports, roughly 10 million annual visitors, 2023-2024 reporting",
+        "Ownwell property tax trends, Taney County median effective property tax data, April 2026",
+        "Branson neighborhood price points from Zillow listing scans, August 2026 (est.)"
+      ]
+    }
+  ]
+}

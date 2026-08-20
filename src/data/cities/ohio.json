@@ -1,0 +1,1304 @@
+{
+  "state": "Ohio",
+  "abbreviation": "OH",
+  "stateSlug": "ohio",
+  "dataUpdated": "2026-08",
+  "cities": [
+    {
+      "city": "Columbus",
+      "slug": "columbus",
+      "county": "Franklin County",
+      "metro": "Columbus",
+      "hook": "Columbus added roughly 21,000 metro residents last year while the typical home value slipped 1% to $248,686. The growth story is real. So is the record apartment supply wave sitting on top of it.",
+      "metaDescription": "Columbus homes average $249K with 7.3% rental vacancy and a record apartment supply wave. See where DSCR files still pencil. Get matched today.",
+      "market": {
+        "medianPrice": 248686,
+        "medianRent": 1446,
+        "priceToRent": 14.3,
+        "vacancyRate": 7.3,
+        "yoyPrice": -1,
+        "yoyRent": 1.5,
+        "estDSCR": 0.75,
+        "propertyTaxRate": 1.85,
+        "insuranceMonthly": 150
+      },
+      "overview": "Columbus is the one Ohio market where the bull case writes itself, which is exactly why the numbers deserve a second look. The metro added about 21,000 residents in 2025, roughly double the national growth pace. Honda and LG's $3.5 billion battery plant in nearby Jeffersonville is ramping toward 2,200 jobs, and Anduril's Arsenal-1 facility in Pickaway County rolled its first drone off the line in 2026 on its way to 4,000+ positions. Intel is still building in New Albany, but the first fab's completion slid to 2030 with production targeted for 2031, so any pro forma leaning on Intel jobs is running five years early.\n\nNow the other layer. Builders delivered about 9,668 apartment units in 2025 with another 9,100 expected in 2026, pushing metro apartment vacancy to 10.2%, a two-decade high, with concessions offered at more than two thirds of new properties. That is why the typical home value eased 1% to $248,686 while blended rents rose just 1.5% to $1,446, and why the citywide ratio at 20% down lands near 0.75.\n\nColumbus files get structured, not rubber stamped. They clear in the sub-$180K single-family pockets like South Linden and Milo-Grogan, where houses rent against a much smaller supply wave, or as short-term rentals in the permit-friendly core neighborhoods. Buying the headline without checking the submarket is the mistake underwriting exists to catch.",
+      "regulationBadge": "friendly",
+      "regulationNote": "Ohio preempts local rent control statewide under 2022's HB 430 and Columbus is landlord-neutral in practice, but short-term rentals require a city permit under Chapter 598, with a non-primary-residence tier that legally supports investor STRs.",
+      "neighborhoods": [
+        {
+          "name": "Italian Village",
+          "medianPrice": 451821,
+          "medianRent": 2600,
+          "note": "Restored Victorians and new-build townhomes one walkable block off the Short North. Long-term leases rarely clear the ratio at these prices, which is why this is the city's most active licensed short-term rental pocket."
+        },
+        {
+          "name": "Milo-Grogan",
+          "medianPrice": 154589,
+          "medianRent": 1400,
+          "note": "A small triangle between Italian Village and the fairgrounds with sub-$160K entry and heavy renovation activity. The value-add path here is a rehab that exits on the appraiser's after-repair rent."
+        },
+        {
+          "name": "South Linden",
+          "medianPrice": 128875,
+          "medianRent": 1250,
+          "note": "The cheapest sourced entry point in the urban core at $128,875. Houses here rent against workforce demand rather than the new apartment towers, so the ratio holds, but budget real capex on the pre-war stock."
+        },
+        {
+          "name": "Victorian Village",
+          "medianPrice": 423782,
+          "medianRent": 2500,
+          "note": "The appreciation tier beside Goodale Park. Buyers here are underwriting equity growth and mid-term furnished demand from OSU's medical campus, not monthly cash flow."
+        }
+      ],
+      "localAngle": {
+        "tag": "STR Rules",
+        "title": "Columbus still issues investor STR permits. Most growth markets closed that door.",
+        "body": "Nashville shut new investor short-term rental permits in residential zones. Columbus did the opposite: Chapter 598 of city code created a working permit system with an explicit non-primary-residence tier, which means an out-of-state investor can legally operate an STR here in a way that is now impossible in most peer cities. The mechanics: a $20 application plus a $150 annual fee for non-primary residences, a fingerprint background check through an Ohio BCI-approved provider, proof of $300,000 in liability coverage, and a 24/7 local contact on file. Operators collect the city's 5.1% lodging excise tax plus state sales tax on stays. No cap on permits and no owner-occupancy requirement in the current rules, which is the part that matters for a DSCR file, because a lender underwriting projected short-term income wants to see the activity is legal at the address before the appraisal is ordered. The honest caveats: permit rules are city council products and can tighten, and the same apartment supply wave discounting Class A rents also feeds the furnished market. Underwrite a 12-month revenue projection rather than peak season, keep the long-term rent as your floor case, and have your matched specialist structure the file so it still stands if you ever convert to a standard lease."
+      },
+      "programFit": [
+        "standard-dscr",
+        "str-dscr",
+        "interest-only-dscr",
+        "portfolio-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 2-bath Victorian SFR (licensed STR)",
+        "neighborhood": "Italian Village",
+        "purchasePrice": 450000,
+        "downPaymentPct": 25,
+        "downPayment": 112500,
+        "loanAmount": 337500,
+        "loanType": "30-Year Fixed, STR income qualified",
+        "interestOnly": false,
+        "monthlyPI": 2359,
+        "monthlyTax": 694,
+        "monthlyInsurance": 210,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 3263,
+        "monthlyRent": 3900,
+        "dscr": 1.2,
+        "monthlyCashFlow": 637,
+        "specialistFocus": [
+          "Qualified the file on a 12-month short-term rental projection instead of the $2,600 long-term lease, which is the difference between 1.2 and a ratio that fails",
+          "Documented the Chapter 598 non-primary-residence permit up front so the lender's diligence never questioned whether the income was legal at the address",
+          "Underwrote the tax line at the investor's effective rate rather than the seller's owner-occupied bill, since the 2.5% owner-occupancy credit drops off at closing"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Is Columbus still a good rental market with all the new apartment supply?",
+          "answer": "Depends entirely on what you buy. Metro apartment vacancy hit 10.2% in mid-2026, the highest in two decades, and more than two thirds of new buildings are offering concessions, so anything competing head-on with Class A leasing is fighting a discount war. Single-family rentals in workforce neighborhoods like South Linden and Milo-Grogan are a different asset: their tenant pool rarely cross-shops the new towers, and blended rents still rose 1.5% through the supply peak. Buy the house that competes with houses, not the unit that competes with a leasing office giving away two free months."
+        },
+        {
+          "question": "Can I run an Airbnb in Columbus as an out-of-state investor?",
+          "answer": "Yes, legally, which is now unusual for a growth market. Columbus Chapter 598 issues short-term rental permits with a non-primary-residence tier: $20 application, $150 per year, a BCI fingerprint background check, $300,000 in liability coverage, and a 24/7 local contact. There is no owner-occupancy requirement and no permit cap in the current rules. You will collect the 5.1% city lodging excise tax plus state sales tax. For financing, DSCR lenders can qualify the purchase on projected short-term income, and your matched specialist will want the permit documented before the appraisal so the income survives underwriting."
+        },
+        {
+          "question": "Did the Intel delay break the Columbus growth story?",
+          "answer": "It delayed one chapter and left the rest intact. Intel pushed the first New Albany fab's completion to 2030 with production targeted for 2031, so any 2026 rent projection built on Intel paychecks is roughly five years early. But the metro still added about 21,000 residents in 2025, double the national pace, the Honda and LG battery plant in Jeffersonville is ramping toward 2,200 jobs, and Anduril's Arsenal-1 built its first production drone in 2026 en route to more than 4,000 positions. Underwrite the jobs that exist, treat Intel as a free call option, and the math stays honest."
+        },
+        {
+          "question": "Why does the DSCR look weak when Columbus keeps making top-market lists?",
+          "answer": "Because price ran ahead of rent. The typical home value is $248,686 against a blended rent of $1,446, a 14.3 price-to-rent ratio, and at 20% down the citywide math lands near 0.75. That is not a broken market, it is a market where the median house is priced for owner-occupants and appreciation. Files clear here three ways: buy in the sub-$180K single-family pockets where rent-to-price is double the citywide figure, qualify on short-term rental income where Chapter 598 permits it, or bring 30% down and treat the spread as the cost of owning a growth-market asset."
+        },
+        {
+          "question": "What property tax number should I actually underwrite in Columbus?",
+          "answer": "Higher than the listing's history tab. Franklin County reappraised in 2023 with values up about 41% on average, and effective rates across Columbus ZIP codes run from roughly 1.57% to 2.15% of market value depending on the school district. Two adjustments matter for investors: the 2.5% owner-occupancy credit disappears the day the property becomes a rental, and the auditor's value resets toward your purchase price over time. Underwriting near 1.85% of your price, as this page does, keeps the file honest. Your matched specialist will pull the district-specific figure before the appraisal, not after."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Columbus typical home value and YoY change, July 2026",
+        "Zillow Observed Rent Index, Columbus average rent and YoY change, July 2026",
+        "US Census Bureau Housing Vacancy Survey via iPropertyManagement, Columbus metro rental vacancy, 2024 annual",
+        "Ownwell and Franklin County Auditor, Columbus effective residential tax range 1.57% to 2.15% by ZIP, April 2026 (investor figure adjusted for loss of owner-occupancy credit, est.)",
+        "Columbus City Code Chapter 598, short-term rental permit terms and fees, 2026",
+        "CoStar via Swiss Realty and Colliers Columbus multifamily reports, deliveries, vacancy, concessions, Q2 2026"
+      ]
+    },
+    {
+      "city": "Cleveland",
+      "slug": "cleveland",
+      "county": "Cuyahoga County",
+      "metro": "Cleveland-Elyria",
+      "hook": "Cleveland's typical home value is $116,759, down 2% over the year, while rents rose 4.3%. Prices soft, rents firm, and the classic up-down double still produces some of the best ratios in the country.",
+      "metaDescription": "Cleveland homes average $117K against $1,424 rents, and doubles clear the ratio with room to spare. Lead-safe rules apply. Get matched today.",
+      "market": {
+        "medianPrice": 116759,
+        "medianRent": 1424,
+        "priceToRent": 6.8,
+        "vacancyRate": 5.8,
+        "yoyPrice": -2,
+        "yoyRent": 4.3,
+        "estDSCR": 1.44,
+        "propertyTaxRate": 2.3,
+        "insuranceMonthly": 110
+      },
+      "overview": "Cleveland is the spread trade of this list. The typical home value slipped 2% over the year to $116,759 while rents rose 4.3% to $1,424, and at 20% down the citywide median produces a ratio near 1.44. A 6.8 price-to-rent ratio is the kind of arithmetic that made this city the default answer on every out-of-state cash-flow forum, and unlike most forum favorites, the number is real.\n\nWhat the forums undersell is the compliance stack. Cleveland requires annual rental registration, and Ordinance 747-2019 requires every rental unit built before 1978, which is most of the city, to hold a lead-safe certificate renewed on a two-year cycle. The Residents First legislation adopted in 2023 added a local-agent requirement for out-of-county owners and civil ticketing for housing violations. None of it is rent control, which Ohio's HB 430 preempts statewide, but all of it is real operating cost that a turnkey pro forma tends to omit.\n\nThe native asset here is the up-down double: two 2 or 3 bedroom units stacked under one roof, bought in the $140K to $220K range on the west side, renting $1,000 to $1,300 per unit. The 2024 countywide reappraisal raised residential values 32.2% on average, and the city's residential tax load runs about 2.3% of market value, so the honest file underwrites the new assessment, the lead certificate, and the management line before celebrating the gross yield.",
+      "regulationBadge": "moderate",
+      "regulationNote": "No rent control and evictions move at normal Ohio speed, but Cleveland layers annual rental registration, pre-1978 lead-safe certification on a two-year renewal cycle, and a local-agent requirement for out-of-county owners, so compliance is a real line item.",
+      "neighborhoods": [
+        {
+          "name": "Old Brooklyn",
+          "medianPrice": 163320,
+          "medianRent": 1300,
+          "note": "The steadiest bread-and-butter submarket on the near west side, thick with 1920s doubles and small colonials. Entry near $163K with per-unit rents around $1,100 to $1,250 makes it the default BRRRR hunting ground."
+        },
+        {
+          "name": "Detroit Shoreway",
+          "medianPrice": 251587,
+          "medianRent": 1600,
+          "note": "Gordon Square's arts district carried values to $251K, the priciest of the cash-flowing west side. Renovated doubles here rent to young professionals and clear the ratio on combined rents rather than appreciation hope."
+        },
+        {
+          "name": "North Collinwood",
+          "medianPrice": 114968,
+          "medianRent": 1150,
+          "note": "Lakefront-adjacent east side pocket near $115K where the beach blocks pull steady tenants. The east side generally saw the largest reappraisal jumps, so underwrite the post-2024 tax bill, not the seller's."
+        },
+        {
+          "name": "West Boulevard",
+          "medianPrice": 126937,
+          "medianRent": 1200,
+          "note": "Dense streets of doubles and four-squares at $127K between the zoo and the lake. Strong Section 8 and workforce demand; condition varies block by block, so the inspection matters more than the comps."
+        }
+      ],
+      "localAngle": {
+        "tag": "Lead-Safe Law",
+        "title": "The lead-safe certificate is Cleveland's real underwriting event, not the price.",
+        "body": "Cleveland City Council passed Ordinance 747-2019, codified as Chapter 365, requiring every residential rental unit built before January 1, 1978 to obtain a lead-safe certification from the Department of Building and Housing, renewed every two years unless the owner earns the 20-year version, on top of the city's annual rental registration. Since the housing stock is overwhelmingly pre-1978, assume the requirement applies to whatever you are buying. Getting certified means a clearance examination by a licensed lead technician showing the unit either has no lead hazard or had one made safe, which on a neglected double can mean thousands in window, porch, and paint stabilization work before the certificate issues. The 2023 Residents First package tightened the screws further: out-of-county owners need a designated local agent, and the city can issue civil tickets for violations rather than waiting on housing court. None of this kills the Cleveland trade. A citywide ratio near 1.44 absorbs real compliance cost, which is precisely why the certificate belongs in the purchase budget, not the surprise column. Ask for the certificate status and clearance reports during diligence, price the remediation if they do not exist, and your matched specialist will structure the loan so rehab-to-certificate work fits inside a BRRRR refinance instead of your cash reserves."
+      },
+      "programFit": [
+        "standard-dscr",
+        "portfolio-dscr",
+        "bridge-to-dscr"
+      ],
+      "dealExample": {
+        "label": "BRRRR Refinance",
+        "propertyType": "Duplex (up-down double, 2 units)",
+        "neighborhood": "Old Brooklyn",
+        "purchasePrice": 185000,
+        "downPaymentPct": 25,
+        "downPayment": 46250,
+        "loanAmount": 138750,
+        "loanType": "30-Year Fixed, cash-out after rehab",
+        "interestOnly": false,
+        "monthlyPI": 970,
+        "monthlyTax": 355,
+        "monthlyInsurance": 165,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 1490,
+        "monthlyRent": 2300,
+        "dscr": 1.54,
+        "monthlyCashFlow": 810,
+        "specialistFocus": [
+          "Structured the refinance on the post-rehab appraisal after the investor bought at $118K cash, renovated both units, and stabilized them at $1,150 each",
+          "Timed the loan so the lead-safe clearance and rental registration were complete before underwriting, turning a compliance risk into a closed condition",
+          "Underwrote taxes at the full post-reappraisal assessment on the new $185K value instead of the seller's pre-2024 bill, which was 32% lighter"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "What is Cleveland's lead-safe certificate and does it apply to my rental?",
+          "answer": "Almost certainly yes. Ordinance 747-2019 requires every residential rental unit built before 1978 to hold a lead-safe certification from the city, renewed every two years, and Cleveland's housing stock is overwhelmingly pre-1978. Certification requires a clearance exam from a licensed lead technician showing no lead hazards or hazards made safe, which on a tired double can mean real window and paint stabilization money before the certificate issues. Ask for current certificates and clearance reports in diligence. If they do not exist, price the work into your offer, because the obligation transfers with the deed, not the seller."
+        },
+        {
+          "question": "Do Cleveland doubles actually cash flow after expenses, or is it forum math?",
+          "answer": "They cash flow, just less than the gross suggests. A stabilized Old Brooklyn double at $185,000 renting $2,300 combined carries a ratio near 1.54 with roughly $800 monthly over PITIA, and that is with taxes underwritten at 2.3% of market value on the post-reappraisal assessment. What the forum math omits: lead certification on two units, annual registration, a local agent if you live out of county, and the capex reality of 100-year-old mechanicals. Budget those honestly and the deal still works, which is more than most famous cash-flow markets can say in 2026."
+        },
+        {
+          "question": "Is the 2% price decline a warning sign for Cleveland?",
+          "answer": "It is a repricing, not a collapse. The 2024 sexennial reappraisal raised Cuyahoga residential values 32.2% on average, tax bills followed in 2025, and the softest sellers hit the market at the same time, so the typical value easing 2% to $116,759 reads more like digestion than distress. Meanwhile rents rose 4.3%, the metro's rental vacancy sits at a tight 5.8%, and the buy-box arithmetic improved on both ends. For a cash-flow buyer, the year that prices dip while rents climb is the year the entry gets better, provided you underwrite the new tax bill instead of the old one."
+        },
+        {
+          "question": "I live out of state. What does Cleveland require of me specifically?",
+          "answer": "Three things beyond the norm. First, annual rental registration with the city for every unit. Second, the lead-safe certificate on pre-1978 units, renewed on a two-year cycle. Third, under the Residents First rules adopted in 2023, owners without a presence in Cuyahoga County must designate a local agent who can accept service and respond on housing matters, and the city can issue civil tickets for code violations. In practice a competent local property manager satisfies the agent role and shepherds the certificates. Build their fee, typically 8% to 10% of collected rent, into the file from day one."
+        },
+        {
+          "question": "Which Cleveland submarkets should an out-of-state buyer start with?",
+          "answer": "The near west side, then specific east side pockets. Old Brooklyn and West Boulevard offer $125K to $165K entry, deep tenant demand, and the double-heavy stock that makes the ratios work. Detroit Shoreway costs more near $251K but rents to a professional tenant base. On the east side, North Collinwood's lakefront blocks pencil near $115K, but the east side also saw the biggest reappraisal jumps and the widest block-to-block variance in the county, so walk the street before you trust the comp. The deep sub-$80K pockets carry gross yields that look spectacular and loan balances most DSCR lenders will not write."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Cleveland typical home value and YoY change, July 2026",
+        "Zillow Observed Rent Index, Cleveland average rent and YoY change, July 2026",
+        "US Census Bureau Housing Vacancy Survey via iPropertyManagement, Cleveland-Elyria metro rental vacancy, 2024 annual",
+        "Cuyahoga County Treasurer, Rates of Taxation for tax year 2025 due 2026, Cleveland residential 2.30% of market value",
+        "Cleveland Codified Ordinances Chapter 365 (Ord. 747-2019) and Residents First program, rental registration and lead-safe certification, 2026",
+        "Cuyahoga County Fiscal Officer, 2024 sexennial reappraisal countywide residential increase of 32.2%, July 2024"
+      ]
+    },
+    {
+      "city": "Cincinnati",
+      "slug": "cincinnati",
+      "county": "Hamilton County",
+      "metro": "Cincinnati OH-KY-IN",
+      "hook": "Cincinnati's typical home value is $251,326, up 0.7% in a flat year, and the hillside two-family is how investors beat a 14.5 price-to-rent ratio. Registration costs $1 per unit. The reappraisal cost a lot more.",
+      "metaDescription": "Cincinnati averages $251K and single homes rarely clear the ratio. Two-families renting $2,550 combined do. See the real math. Get matched today.",
+      "market": {
+        "medianPrice": 251326,
+        "medianRent": 1445,
+        "priceToRent": 14.5,
+        "vacancyRate": 6.1,
+        "yoyPrice": 0.7,
+        "yoyRent": 2.7,
+        "estDSCR": 0.72,
+        "propertyTaxRate": 2.15,
+        "insuranceMonthly": 150
+      },
+      "overview": "Cincinnati looks expensive for Ohio and cheap for what it is: a stable river metro where the typical home value reached $251,326, up 0.7% in a year when half this list's big cities went backward. Rents rose 2.7% to a blended $1,445, metro rental vacancy runs 6.1%, and the price-to-rent ratio of 14.5 tells you the median single-family house is an appreciation asset, not a cash-flow one. At 20% down the citywide median pencils near 0.72.\n\nThe investors who make Cincinnati work buy the two-family. The hillside neighborhoods are stacked with legal two-unit buildings from the streetcar era, and a $240K Northside two-family renting $2,550 combined carries a ratio a lone house at the same price cannot touch. That is the whole Cincinnati play in one sentence: the building type, not the ZIP code, is what clears underwriting.\n\nTwo cost lines deserve respect. Hamilton County's 2023 reappraisal raised residential values a historic 34%, and while HB 920 rollbacks held the average tax increase near 15%, the Cincinnati school district's full load lands near 2.15% of market value for an investor who no longer gets the owner-occupancy credit. And since September 2020 the city requires every rental unit registered under Chapter 874. The fee is a token $1 per unit; the fine for skipping it starts at $750. Cheap insurance, expensive oversight.",
+      "regulationBadge": "moderate",
+      "regulationNote": "Ohio preempts rent control, but Cincinnati requires every rental unit registered with the city under Chapter 874 with fines starting at $750 for non-compliance, and council has layered on tenant protections like security deposit alternatives, so run the compliance checklist before closing.",
+      "neighborhoods": [
+        {
+          "name": "Northside",
+          "medianPrice": 237047,
+          "medianRent": 1495,
+          "note": "The two-family capital of the city, walkable and artsy with values near $237K. Combined rents on updated doubles run $2,400 to $2,700, which is why buildings here clear ratios the citywide median cannot."
+        },
+        {
+          "name": "Avondale",
+          "medianPrice": 144220,
+          "medianRent": 1195,
+          "note": "Entry near $144K beside the region's biggest employment anchor, the uptown hospital cluster. Deep rental demand and real block-by-block variance; the inspection and the tenant screen do the heavy lifting."
+        },
+        {
+          "name": "Winton Place",
+          "medianPrice": 168151,
+          "medianRent": 1250,
+          "note": "A quiet $168K pocket wedged between Spring Grove and the zoo corridor with honest workforce rents. Nothing glamorous, which is usually what a clean ratio looks like."
+        },
+        {
+          "name": "Camp Washington",
+          "medianPrice": 184400,
+          "medianRent": 1295,
+          "note": "Industrial-flavored valley neighborhood at $184K catching spillover from Northside and the uptown job base. Mixed stock of singles and two-families; buy the building type, not the block's reputation."
+        }
+      ],
+      "localAngle": {
+        "tag": "Registration",
+        "title": "A $1 registration with a $750 penalty, and a reappraisal that reset every pro forma.",
+        "body": "Two pieces of paper decide whether a Cincinnati rental runs clean. The first is Chapter 874 Residential Rental Registration: since September 1, 2020, every residential rental unit in the city must be registered, with ownership and local contact information kept current within 60 days of any change, including 60-day vacancies. The fee is $1 per unit per year, a rounding error. Skipping it is a Class D civil offense at $750, rising to $1,500 if delinquent, with each day after notice a fresh violation at $150 to $300 per day. It is the cheapest compliance in American landlording and the most expensive to ignore. The second is the county's 2023 sexennial reappraisal, which raised Hamilton County residential values a historic 34%. HB 920 rollbacks meant tax bills rose closer to 15% on average, but the Cincinnati Public Schools district's full stack still works out to roughly 2.15% of market value for an investor, because the 2.5% owner-occupancy credit that flatters the seller's bill does not survive the closing. Ohio also requires rental owners in large counties to file with the county auditor under ORC 5323.02. None of this is hostile; it is paperwork with teeth. Your matched specialist will underwrite the post-reappraisal tax figure and confirm registration status so the file closes without a compliance surprise."
+      },
+      "programFit": [
+        "standard-dscr",
+        "portfolio-dscr",
+        "interest-only-dscr",
+        "bridge-to-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "Two-family (2 units, stacked)",
+        "neighborhood": "Northside",
+        "purchasePrice": 240000,
+        "downPaymentPct": 25,
+        "downPayment": 60000,
+        "loanAmount": 180000,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 1258,
+        "monthlyTax": 430,
+        "monthlyInsurance": 175,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 1863,
+        "monthlyRent": 2550,
+        "dscr": 1.37,
+        "monthlyCashFlow": 687,
+        "specialistFocus": [
+          "Steered the file to a two-family instead of a single at the same price, which moved the ratio from roughly 0.9 to 1.37 on the appraiser's market rents",
+          "Underwrote the tax line at the investor's post-reappraisal 2.15% instead of the seller's credited owner-occupied bill",
+          "Confirmed both units were registered under Chapter 874 and priced the lead-safe evaluation on the pre-1978 building before the appraisal was ordered"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Why do Cincinnati single-family rentals fail DSCR when the city looks affordable?",
+          "answer": "Because the median price carries an owner-occupant premium the rent does not match. At $251,326 typical value and $1,445 blended rent, price-to-rent is 14.5 and the 20% down ratio lands near 0.72. The escape hatch is the building type: Cincinnati's streetcar-era neighborhoods are full of legal two-families where combined rents of $2,400 to $2,700 sit on a $220K to $260K basis. Same money, twice the income stream. That is why experienced buyers here filter listings by unit count first and neighborhood second, and why the deal example on this page is a Northside two-family rather than a house."
+        },
+        {
+          "question": "What is Cincinnati's rental registration and what happens if I skip it?",
+          "answer": "Chapter 874 requires every residential rental unit in the city registered with the Buildings department, a rule in force since September 1, 2020. The cost is $1 per unit per year, and you must update ownership or agent changes within 60 days, including extended vacancies. Skipping it is where the money is: failure to register is a Class D civil offense carrying a $750 fine, $1,500 if delinquent, and each day after notice of violation compounds at $150 to $300 per day. Registration also has to be current for various city processes, so treat it as a closing checklist item, not an afterthought."
+        },
+        {
+          "question": "How hard did the 2023 reappraisal hit Cincinnati investors?",
+          "answer": "Values jumped a historic 34% county-wide, and Ohio's HB 920 rollback mechanism absorbed most but not all of it, with residential tax bills rising roughly 15% on average. The investor-specific catch is the credit structure: the advertised bill on a listing usually reflects the seller's 2.5% owner-occupancy credit, which vanishes when the property becomes a rental. Cincinnati's school district stack works out near 2.15% of market value for a landlord. Underwrite that number on your purchase price, not the seller's history tab, and remember the next reappraisal lands in 2029 with values already marked to the 2023 surge."
+        },
+        {
+          "question": "Which Cincinnati neighborhoods actually pencil for a first rental?",
+          "answer": "Start where two-families cluster and hospital employment anchors demand. Northside near $237K is the two-family capital, clearing 1.3+ on combined rents. Avondale at $144K sits beside the uptown medical cluster, the region's densest job anchor, with entry prices that forgive conservative rent assumptions. Winton Place and Camp Washington offer $168K to $184K workhorse stock between the job centers. The famous appreciation neighborhoods, Hyde Park, Oakley, Clifton's gaslight district, are wonderful places to own real estate and poor places to hunt a ratio; buyers there are underwriting equity, not cash flow."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Cincinnati typical home value and YoY change, July 2026",
+        "Zillow Observed Rent Index, Cincinnati average rent and YoY change, July 2026",
+        "US Census Bureau Housing Vacancy Survey via iPropertyManagement, Cincinnati metro rental vacancy, 2024 annual",
+        "Hamilton County Auditor, taxes paid in 2025 rate sheet, Cincinnati-CPS effective residential millage (investor figure computed without owner-occupancy credit, est.)",
+        "Cincinnati Municipal Code Chapter 874, Residential Rental Registration terms and penalties, 2026",
+        "Hamilton County Auditor 2023 reappraisal, 34% residential increase and ~15% average tax impact, via county and press coverage, 2024"
+      ]
+    },
+    {
+      "city": "Dayton",
+      "slug": "dayton",
+      "county": "Montgomery County",
+      "metro": "Dayton-Kettering",
+      "hook": "Dayton's typical home value is $138,730 against $1,245 rents, one of the few metros where the median genuinely clears 1.0. The 2026 reappraisal now underway is the number that decides year two.",
+      "metaDescription": "Dayton homes average $139K against $1,245 rents, so the median clears a 1.11 ratio. Underwrite the 2026 reappraisal first. Get matched today.",
+      "market": {
+        "medianPrice": 138730,
+        "medianRent": 1245,
+        "priceToRent": 9.3,
+        "vacancyRate": 5,
+        "yoyPrice": 1.2,
+        "yoyRent": 3.5,
+        "estDSCR": 1.11,
+        "propertyTaxRate": 2.1,
+        "insuranceMonthly": 105
+      },
+      "overview": "Dayton is the quiet version of the famous Ohio cash-flow story. The typical home value sits at $138,730, up a modest 1.2%, while rents rose 3.5% to $1,245 and metro rental vacancy runs a tight 5.0%, the lowest of Ohio's big metros. Run the standard formula at 20% down and the citywide median produces a ratio near 1.11, above water without any submarket cherry-picking. Few American metros can say that in 2026.\n\nThe demand base is more durable than the rust-belt label suggests. Wright-Patterson Air Force Base employs more than 30,000 military and civilian workers, the largest single-site employment concentration in Ohio, and its research payroll rents houses in every direction. Add the hospital systems and the University of Dayton and you get a tenant pool that does not move with one factory's fortunes.\n\nThe caution flag is the tax cycle. Montgomery County's 2023 update raised residential values 37%, and the county is running its full sexennial reappraisal in 2026 right now, with new values landing on the bills paid in 2027. Dayton's effective load already runs near 2.1% of market value for an investor, among the heavier city rates in the state. A file that clears 1.11 today on the current bill should be stress-tested against the reassessed one, which is exactly the kind of forward underwriting that separates a durable Dayton hold from a spreadsheet that only worked in year one.",
+      "regulationBadge": "friendly",
+      "regulationNote": "No rent control under Ohio's statewide preemption and no city-level licensing regime beyond the state's county-auditor rental registration, so Dayton's real underwriting risks are tax reassessment and the age of the housing stock rather than regulation.",
+      "neighborhoods": [
+        {
+          "name": "Old Dayton View",
+          "medianPrice": 119041,
+          "medianRent": 1150,
+          "note": "Historic brick streets northwest of downtown near $119K. Solid rental demand and genuinely pretty stock, with pre-1930 capex to match; the roof and mechanicals budget is part of the purchase price here."
+        },
+        {
+          "name": "Grafton Hill",
+          "medianPrice": 121158,
+          "medianRent": 1150,
+          "note": "Compact historic pocket by the art institute at $121K, renting to hospital and downtown workers. Small inventory, so deals surface irregularly and move fast when priced right."
+        },
+        {
+          "name": "Five Oaks",
+          "medianPrice": 89452,
+          "medianRent": 1050,
+          "note": "Big early-1900s houses under $90K with rents that barely trail the pricier tiers, which is where the yield lives. Block quality swings hard; walk it before you wire anything."
+        },
+        {
+          "name": "Santa Clara",
+          "medianPrice": 72137,
+          "medianRent": 995,
+          "note": "The deep-value tier at $72K along the Salem Avenue corridor. Gross numbers look spectacular and loan minimums plus condition risk eat careless buyers; this is a portfolio-loan and local-team neighborhood."
+        }
+      ],
+      "localAngle": {
+        "tag": "Tax Cycle",
+        "title": "Dayton clears the ratio today. The 2026 reappraisal decides whether it still does in 2027.",
+        "body": "Ohio revalues every county on a six-year cycle with a check-in at year three, and Montgomery County drew 2026. The county auditor is reappraising all 250,000+ parcels this year, with new values effective for tax year 2026 and showing up on the bills paid in 2027. The last touch, the 2023 triennial update, raised residential values 37% county-wide, and tax rates for 2026 already include a 4% increase the county approved for its general fund. HB 920, Ohio's rollback law, will absorb a large share of whatever the reappraisal adds, the way it held Youngstown's 38% value jump to roughly 9% bill growth, but new levies and inside millage still pass through. For an investor the practical moves are mechanical. First, underwrite the tax line at Dayton's investor-effective rate near 2.1% of your purchase price rather than the seller's owner-credited bill. Second, stress the ratio at a bill 10% to 15% higher than today's to survive the 2027 reset. Third, remember that your own purchase is a sale the auditor can see, so a deep-discount buy does not stay assessed at the old value forever. A Dayton double that clears 1.25 on those assumptions is genuinely durable. Your matched specialist will build the file on the forward bill so the reappraisal is a footnote instead of a margin call."
+      },
+      "programFit": [
+        "standard-dscr",
+        "portfolio-dscr",
+        "no-ratio-dscr",
+        "bridge-to-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 1-bath brick SFR",
+        "neighborhood": "Old Dayton View",
+        "purchasePrice": 118000,
+        "downPaymentPct": 25,
+        "downPayment": 29500,
+        "loanAmount": 88500,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 619,
+        "monthlyTax": 207,
+        "monthlyInsurance": 100,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 926,
+        "monthlyRent": 1195,
+        "dscr": 1.29,
+        "monthlyCashFlow": 269,
+        "specialistFocus": [
+          "Matched the file to a lender whose minimum loan amount accepts an $88,500 balance, the quiet filter that kills many Dayton deals before underwriting",
+          "Stress-tested the ratio against a tax bill 15% above today's so the 2026 reappraisal cannot flip the file negative in year two",
+          "Qualified on the appraiser's market rent of $1,195 with a documented capex reserve for the 1920s roof and mechanicals"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Is Dayton the best cash-flow market in Ohio right now?",
+          "answer": "It is the best combination of ratio and durability. Youngstown posts a deeper ratio near 1.8 but with steeper population loss and loan-minimum friction. Cleveland matches Dayton's math with a heavier compliance stack. Dayton's median clears about 1.11 at 20% down with 5.0% metro rental vacancy, the tightest of Ohio's big metros, and the tenant base leans on Wright-Patterson's 30,000+ jobs, hospital systems, and the university rather than one employer. The honest trade-off is tax drag near 2.1% of value and a 2026 reappraisal in progress. Clear those two hurdles in underwriting and Dayton holds up as well as any Midwest market."
+        },
+        {
+          "question": "What will the 2026 Montgomery County reappraisal do to my numbers?",
+          "answer": "Raise the assessed value, and probably raise the bill by much less. The county is reappraising every parcel this year with new values hitting bills paid in 2027, after the 2023 update already lifted residential values 37%. Ohio's HB 920 rollback shrinks effective rates as values rise, which historically holds bill growth to a fraction of value growth, but inside millage and any new levies pass through. The professional move is to underwrite today's purchase at roughly 2.1% of your price and stress the ratio at a bill 10% to 15% higher. If the deal only works on the seller's current bill, it does not work."
+        },
+        {
+          "question": "Is the Wright-Patterson anchor actually meaningful for a small landlord?",
+          "answer": "Yes, and it is the reason Dayton rents behave better than its headlines. Wright-Patterson Air Force Base employs more than 30,000 military and civilian personnel, the largest single-site workforce in Ohio, weighted toward research, logistics, and contractor roles that pay above the metro median and relocate people on orders, a steady source of qualified tenants who need housing fast. Layer on Premier Health and Kettering Health's hospital networks and the University of Dayton and you get demand that does not hinge on one plant's product cycle. That mix is why metro rental vacancy sits at 5.0% while rents rose 3.5% in a soft statewide year."
+        },
+        {
+          "question": "Which Dayton neighborhoods fit a first out-of-state purchase?",
+          "answer": "Match the neighborhood to your risk appetite, not the gross yield. Old Dayton View and Grafton Hill near $120K offer historic brick stock, dependable $1,100+ rents, and the fewest unpleasant surprises per dollar. Five Oaks under $90K is the yield play, with block-to-block variance that rewards a good local team and punishes remote guessing. Santa Clara's $72K tier posts the biggest numbers on paper and the most condition risk in practice, and many purchases there fall below DSCR lender loan minimums, pushing buyers toward portfolio loans. Whatever the tier, underwrite pre-1930 capex as a certainty, not a contingency."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Dayton typical home value and YoY change, July 2026",
+        "Zillow Observed Rent Index, Dayton average rent and YoY change, July 2026",
+        "US Census Bureau Housing Vacancy Survey via iPropertyManagement, Dayton metro rental vacancy, 2024 annual",
+        "Ownwell, Dayton median effective property tax 2.04%, April 2026 (investor figure adjusted for loss of owner-occupancy credit, est.)",
+        "Montgomery County Auditor, 2026 sexennial reappraisal program and 2023 update of 37%, 2026",
+        "Insure.com and MoneyGeek Ohio homeowners averages with landlord adjustment, insurance estimate, 2026 (est.)"
+      ]
+    },
+    {
+      "city": "Toledo",
+      "slug": "toledo",
+      "county": "Lucas County",
+      "metro": "Toledo",
+      "hook": "Toledo's typical home value jumped 5.7% in a year to $134,048 while rents rose 5.8%, the fastest twin climb among Ohio's big cities. The lead-safe certificate decides which rentals get to collect that rent.",
+      "metaDescription": "Toledo homes average $134K, up 5.7% in a year with rents up 5.8%. Lead-safe certificates decide which rentals operate legally. Get matched today.",
+      "market": {
+        "medianPrice": 134048,
+        "medianRent": 1144,
+        "priceToRent": 9.8,
+        "vacancyRate": 5.8,
+        "yoyPrice": 5.7,
+        "yoyRent": 5.8,
+        "estDSCR": 1.08,
+        "propertyTaxRate": 1.85,
+        "insuranceMonthly": 105
+      },
+      "overview": "Toledo spent a decade as the market nobody bragged about, which is precisely why it is moving now. The typical home value rose 5.7% over the year to $134,048, the strongest appreciation of Ohio's six big cities, and rents kept pace at 5.8% growth to $1,144. Homes go pending in about 7 days with 45% selling over list. The citywide median still pencils near 1.08 at 20% down, so unlike most markets, the appreciation has not yet eaten the ratio.\n\nThe compliance story is the part out-of-state buyers miss. Toledo's lead ordinance, Chapter 1760, requires 1-to-4 unit rental properties built before 1978 to obtain a Lead-Safe Certificate through the Toledo-Lucas County Health Department, with registration through the county as a prerequisite and phased deadlines that have been live since the program's 2023 update. Thousands of landlords have registered; the ones who did not are carrying enforcement risk on top of old windows.\n\nThe tax picture is midway through a reset. Lucas County's 2024 revaluation carried a state-mandated 29.5% average increase and a famously rocky rollout, with the auditor publicly flagging inflated values on some parcels and taxpayers seeing uneven results. HB 920 rollbacks blunted the rate, and an investor purchase realistically underwrites near 1.85% of market value. Buy the tidy brick ranch in DeVeaux or Five Points, certify it, and Toledo is the rare market delivering both current yield and visible price momentum.",
+      "regulationBadge": "moderate",
+      "regulationNote": "Toledo's Chapter 1760 lead ordinance requires pre-1978 rentals of 1 to 4 units to hold a Lead-Safe Certificate through the Toledo-Lucas County Health Department on top of county rental registration, so certification status belongs in every purchase contract here.",
+      "neighborhoods": [
+        {
+          "name": "DeVeaux",
+          "medianPrice": 151843,
+          "medianRent": 1350,
+          "note": "West Toledo's steady mid-tier at $152K, postwar brick ranches on quiet grids. The default first buy: clean stock, faster leasing, and rents that support the price without heroics."
+        },
+        {
+          "name": "Five Points",
+          "medianPrice": 114782,
+          "medianRent": 1150,
+          "note": "Workhorse west side pocket at $115K where the ratio runs fattest relative to condition risk. The sweet spot for buyers who want yield without the deep-value headaches."
+        },
+        {
+          "name": "Ottawa",
+          "medianPrice": 131905,
+          "medianRent": 1250,
+          "note": "Riverside-adjacent streets near $132K tracking the citywide median almost exactly. A fair proxy for what average Toledo performance looks like, which in 2026 means 5%+ annual growth on both lines."
+        },
+        {
+          "name": "Old West End",
+          "medianPrice": 76551,
+          "medianRent": 995,
+          "note": "One of the country's largest intact Victorian districts at a $77K median. Gorgeous, historic, and expensive to maintain; lead compliance and century-home capex decide outcomes here, not purchase price."
+        }
+      ],
+      "localAngle": {
+        "tag": "Lead-Safe Law",
+        "title": "Toledo's lead certificate is a license to operate. Buy the paperwork with the house.",
+        "body": "Toledo passed its lead safety ordinance in 2016 and, after litigation and revisions, the current program under Municipal Code Chapter 1760 is fully live: residential rental properties of 1 to 4 units built before January 1, 1978, plus family childcare homes, must obtain a Lead-Safe Certificate through the Toledo-Lucas County Health Department. Since most of Toledo's rental stock predates 1978, treat the requirement as universal. The sequence matters: the property must first be registered with the county under Ohio's rental registration law, then pass a qualifying lead inspection, typically a dust-wipe clearance by an approved assessor, before the certificate issues, with deadlines phased by area since the city's 2023 update. More than 3,000 additional landlords registered in a single enforcement push, which tells you the city is actively reconciling its rental rolls. For a buyer the moves are simple. Ask for the certificate and the underlying clearance report in diligence. If the seller has neither, assume window sills, porches, and friction surfaces need stabilization and price it in, because certificates attach to compliant properties, not to closings. Done right, this is a few hundred dollars of testing on a maintained house. Ignored, it is fines, re-inspections, and a unit you cannot legally rent. Your matched specialist will time financing so certification lands before the file needs stabilized income."
+      },
+      "programFit": [
+        "standard-dscr",
+        "portfolio-dscr",
+        "bridge-to-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 1-bath brick ranch SFR",
+        "neighborhood": "DeVeaux",
+        "purchasePrice": 150000,
+        "downPaymentPct": 25,
+        "downPayment": 37500,
+        "loanAmount": 112500,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 786,
+        "monthlyTax": 231,
+        "monthlyInsurance": 110,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 1127,
+        "monthlyRent": 1350,
+        "dscr": 1.2,
+        "monthlyCashFlow": 223,
+        "specialistFocus": [
+          "Qualified on the appraiser's $1,350 market rent, which Toledo's 5.8% rent growth supported without stretching a single comp",
+          "Made the seller's existing Lead-Safe Certificate and clearance report a contract exhibit so the income was legal on day one",
+          "Underwrote taxes at the investor's post-revaluation effective rate instead of the seller's 2023 bill, absorbing the county's 29.5% value reset"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "What is Toledo's Lead-Safe Certificate and do I need one to rent a house?",
+          "answer": "If the rental has 1 to 4 units and was built before 1978, yes. Chapter 1760 requires those properties to hold a Lead-Safe Certificate issued through the Toledo-Lucas County Health Department, and because most Toledo housing predates 1978, the requirement is effectively citywide. The property must be registered with the county first, then pass a qualifying lead inspection before the certificate issues. In a purchase, request the certificate and the clearance report as contract exhibits. A maintained house often passes with minor prep; a neglected one needs window and paint stabilization first, and that cost belongs in your offer, not your surprise budget."
+        },
+        {
+          "question": "Is Toledo's 5.7% price jump sustainable or am I buying a top?",
+          "answer": "The jump is a repricing of the cheapest big-city stock in the state, not speculative froth. Toledo entered the decade with values so low that a $134,048 typical home still produces a ratio near 1.08 at 20% down even after the run. Rents rose 5.8% in lockstep, which is what genuine demand looks like; bubbles show prices sprinting away while rents stall. Homes pending in 7 days with 45% over list says inventory, not mania, is the binding constraint. The honest risk is not a crash, it is that another two years like this quietly turns Toledo into a 0.9-ratio market. Buyers get paid for arriving early."
+        },
+        {
+          "question": "What happened with the Lucas County revaluation and my future tax bill?",
+          "answer": "The state mandated a 29.5% average value increase for the 2024 revaluation, and the rollout was rocky enough that the county auditor publicly flagged inflated values on a set of parcels and worked through corrections while some owners saw uneven results. The practical takeaways: verify the auditor's current value on any parcel you bid, appeal windows exist if your assessment outruns your purchase price, and underwrite near 1.85% of market value as an investor since the owner-occupancy credit drops off at closing. HB 920 rollbacks absorbed most of the value surge; the leftover is real but manageable inside a 1.2 ratio."
+        },
+        {
+          "question": "Which Toledo neighborhoods make sense for an out-of-state buyer?",
+          "answer": "West Toledo first. DeVeaux at $152K buys postwar brick ranches that lease fast at $1,300+, the lowest-friction entry in the market. Five Points at $115K carries the best ratio-to-risk balance for yield hunters. Ottawa tracks the citywide average almost exactly, useful as a benchmark tier. The Old West End's Victorian mansions at a $77K median tempt everyone and punish most; century-home capex and lead compliance on big wood-frame houses consume the yield unless you have a real local crew. Whatever the pocket, Toledo is a certificate-first market: the lead paperwork, not the neighborhood name, is what makes the income real."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Toledo typical home value and YoY change, July 2026",
+        "Zillow Observed Rent Index, Toledo average rent and YoY change, July 2026",
+        "US Census Bureau HVS via iPropertyManagement, Ohio statewide rental vacancy substituted for thin metro sample, 2024 annual",
+        "Toledo Municipal Code Chapter 1760 and Toledo-Lucas County Health Department, Lead-Safe Certificate program, 2026",
+        "Lucas County Auditor Reval 2024, state-mandated 29.5% average increase and rollout coverage, 2024",
+        "Toledo district effective millage, investor effective tax estimate, 2026 (est.)"
+      ]
+    },
+    {
+      "city": "Akron",
+      "slug": "akron",
+      "county": "Summit County",
+      "metro": "Akron",
+      "hook": "Akron's typical home value is $141,611 with rents up 5.4%, and the city hands renovators a 15-year, 100% tax abatement on the value their work adds. It is the best-kept structuring angle in northeast Ohio.",
+      "metaDescription": "Akron homes average $142K and rents rose 5.4% in a year. A 15-year renovation tax abatement changes the BRRRR math here. Get matched today.",
+      "market": {
+        "medianPrice": 141611,
+        "medianRent": 1137,
+        "priceToRent": 10.4,
+        "vacancyRate": 5.8,
+        "yoyPrice": 3.2,
+        "yoyRent": 5.4,
+        "estDSCR": 1,
+        "propertyTaxRate": 2,
+        "insuranceMonthly": 105
+      },
+      "overview": "Akron sits exactly on the line, and that is meant literally: at the $141,611 typical value and $1,137 rent, the 20% down ratio computes to 1.0 on the nose. Everything above or below that line comes from structuring, which is what makes Akron interesting rather than marginal. Values rose a steady 3.2% over the year while rents climbed 5.4%, so the line is drifting in the investor's favor.\n\nThe structural gift is the tax code. Akron's Community Reinvestment Area program, created citywide by Ordinance 122-2017, exempts 100% of the added property value from new residential construction or renovations of roughly $5,000 or more, for 15 years, and the abatement rides with the property through a sale. In a state where reappraisals just repriced everyone, a renovation whose value the auditor cannot tax for 15 years is a genuine edge, and it compounds with the BRRRR playbook this housing stock was built for.\n\nThe stock itself is rubber-era: sturdy colonials and doubles in Firestone Park built for Goodyear and Firestone workers, Kenmore bungalows, student rentals ringing the university. Summit County's 2023 update raised residential values about 34%, and an investor realistically underwrites near 2.0% of market value with the owner-occupancy credit gone. Buy at $107K to $145K in the stable tiers, renovate into the abatement, and refinance on rents the 5.4% growth trend keeps validating. Akron rewards the operator, not the spectator.",
+      "regulationBadge": "friendly",
+      "regulationNote": "No rent control, no city rental licensing regime beyond state-required county registration, and a citywide 15-year residential tax abatement on renovation value that actively favors investors who improve property.",
+      "neighborhoods": [
+        {
+          "name": "Firestone Park",
+          "medianPrice": 138434,
+          "medianRent": 1250,
+          "note": "The planned rubber-worker neighborhood that still behaves like one: tidy $138K colonials, long tenancies, and the most dependable rent collection in the city. The default Akron buy."
+        },
+        {
+          "name": "Kenmore",
+          "medianPrice": 107218,
+          "medianRent": 1100,
+          "note": "Bungalow belt at $107K on the southwest side with the best entry-price-to-rent spread in the stable tier. Renovation candidates here stack the CRA abatement on top of already workable math."
+        },
+        {
+          "name": "University Park",
+          "medianPrice": 95044,
+          "medianRent": 1050,
+          "note": "The blocks around the University of Akron at $95K, renting by the house or the room. Enrollment has drifted down for years, so underwrite workforce rents, not a student premium."
+        },
+        {
+          "name": "East Akron",
+          "medianPrice": 76535,
+          "medianRent": 950,
+          "note": "Deep-value tier at $77K with gross yields that look irresistible and loan balances many DSCR lenders will not write. Portfolio-loan territory with real condition risk; budget accordingly."
+        }
+      ],
+      "localAngle": {
+        "tag": "Tax Abatement",
+        "title": "Renovate in Akron and the auditor cannot touch the added value for 15 years.",
+        "body": "In 2017 Akron City Council passed Ordinance 122-2017, designating the entire city a Community Reinvestment Area and creating one of Ohio's most aggressive residential abatement programs: 100% of the added property value from new home construction or from renovations valued at roughly $5,000 or more is exempt from property tax for 15 years. The mechanics are refreshingly simple. Pull permits through the county building department, file the CRA residential application with Akron's planning department, complete the work, and the county taxes the property at its pre-improvement assessed value for the next decade and a half. Two features make this unusually investor-friendly. First, there is no owner-occupancy requirement in the residential program, so a rental rehab qualifies the same as a homeowner's addition. Second, the abatement runs with the property: sell in year six and the buyer inherits nine remaining years, which is a real resale sweetener in a 2.0% effective-tax county that just absorbed a 34% value update. Play it forward against the BRRRR sequence this housing stock invites: buy a tired Kenmore bungalow, renovate heavily, and the refinance appraisal captures the new value while the tax bill stays anchored to the old one, widening the very ratio the lender is measuring. File the paperwork before final inspection, keep the permits clean, and your matched specialist will underwrite the abated tax line rather than the worst-case one."
+      },
+      "programFit": [
+        "standard-dscr",
+        "bridge-to-dscr",
+        "portfolio-dscr",
+        "no-ratio-dscr"
+      ],
+      "dealExample": {
+        "label": "Cash-Out Refinance",
+        "propertyType": "3-bed / 1-bath colonial SFR",
+        "neighborhood": "Firestone Park",
+        "purchasePrice": 145000,
+        "downPaymentPct": 30,
+        "downPayment": 43500,
+        "loanAmount": 101500,
+        "loanType": "30-Year Fixed, cash-out",
+        "interestOnly": false,
+        "monthlyPI": 709,
+        "monthlyTax": 242,
+        "monthlyInsurance": 115,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 1066,
+        "monthlyRent": 1295,
+        "dscr": 1.21,
+        "monthlyCashFlow": 229,
+        "specialistFocus": [
+          "Structured the cash-out at 70% of the $145,000 appraisal, returning most of the investor's rehab capital while the ratio held at 1.21",
+          "Documented the CRA abatement application on the renovation so underwriting used the abated tax line instead of taxing the improved value",
+          "Qualified on the appraiser's $1,295 market rent, which Akron's 5.4% rent growth supported with room to spare"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "How does Akron's tax abatement actually work for a rental investor?",
+          "answer": "Better than almost anywhere in the Midwest. Under the citywide CRA created by Ordinance 122-2017, 100% of the value added by new construction or renovations of roughly $5,000+ is exempt from property tax for 15 years, and the residential program has no owner-occupancy requirement, so rentals qualify. Pull permits, file the CRA application with the city, finish the work, and the county keeps taxing the pre-improvement value. The abatement transfers on sale, so a buyer inherits the remaining years. On a heavy rehab in a 2.0% effective-tax county, that is often $100+ per month of PITIA that never materializes."
+        },
+        {
+          "question": "Akron's median DSCR computes to exactly 1.0. Is that a pass or a fail?",
+          "answer": "It is a starting line. A 1.0 at the citywide median means half the market pencils above water before any structuring, which beats every US growth market by a wide margin. The moves that push a specific file to 1.2+: buy in Kenmore or Firestone Park where rent-to-price beats the median, renovate into the CRA abatement so the tax line shrinks, or size the down payment at 25% to 30%. Rents rising 5.4% against 3.2% price growth means the whole curve is drifting upward. Files that measure 0.98 today and 1.05 at renewal are common here; lenders in the 70+ network treat the structure, not the citywide average, as the application."
+        },
+        {
+          "question": "What did the Summit County reappraisal do to Akron tax bills?",
+          "answer": "The 2023 update raised residential values around 34% county-wide, and Ohio's HB 920 rollback absorbed most of the rate impact, leaving Akron's effective load near 2.0% of market value for an investor once the owner-occupancy credit drops off. Two planning notes: the next full reappraisal lands in 2026 with new values on 2027 bills, and your own purchase price gives the auditor a fresh data point, so a deep-discount buy converges toward the paid price over a cycle. This is exactly why the CRA abatement matters; value you add through renovation is walled off from that machinery for 15 years."
+        },
+        {
+          "question": "Where in Akron should an out-of-state investor actually buy?",
+          "answer": "Firestone Park if you want the fewest surprises: $138K colonials, generational tenants, and rent collection that behaves. Kenmore if you want the spread: $107K entry with $1,100 rents and the best abatement-stacking candidates in the city. University Park works if you underwrite it as workforce housing rather than a student goldmine, since enrollment has drifted for years. East Akron's $77K tier posts the biggest gross numbers and the smallest loan balances, which pushes buyers below many lender minimums and into portfolio products. The pattern across all four: Akron pays operators who improve property and punishes remote buyers chasing gross yield screenshots."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Akron typical home value and YoY change, July 2026",
+        "Zillow Observed Rent Index, Akron average rent and YoY change, July 2026",
+        "US Census Bureau HVS via iPropertyManagement, Ohio statewide rental vacancy substituted for thin metro sample, 2024 annual",
+        "Ownwell, Akron median effective property tax 1.93%, April 2026 (investor figure adjusted for loss of owner-occupancy credit, est.)",
+        "City of Akron Community Reinvestment Area residential tax abatement, Ordinance 122-2017 program terms, 2026",
+        "Summit County Fiscal Office, 2023 update average residential increase of roughly 34%, 2024"
+      ]
+    },
+    {
+      "city": "Youngstown",
+      "slug": "youngstown",
+      "county": "Mahoning County",
+      "metro": "Youngstown-Warren-Boardman",
+      "hook": "Youngstown's typical home value is $71,210, up 7.9% in a year, and the median produces a 1.8 ratio, the deepest on this site. The catch is not the math. It is finding a lender who writes loans this small.",
+      "metaDescription": "Youngstown's $71K median clears a 1.8 DSCR, the deepest ratio in Ohio. Loan minimums are the real filter, not the math. Get matched today.",
+      "market": {
+        "medianPrice": 71210,
+        "medianRent": 1067,
+        "priceToRent": 5.6,
+        "vacancyRate": 5.8,
+        "yoyPrice": 7.9,
+        "yoyRent": 8.6,
+        "estDSCR": 1.8,
+        "propertyTaxRate": 1.75,
+        "insuranceMonthly": 90
+      },
+      "overview": "Youngstown is where the national cash-flow conversation goes to test its nerve. The typical home value is $71,210, a 5.6 price-to-rent ratio, and the standard formula at 20% down produces a 1.8, the deepest ratio of any city on this site. It is also a city that lost roughly two thirds of its peak population, and both facts are true at once. The 2026 wrinkle is momentum: values rose 7.9% and rents 8.6% over the year, the fastest in the state, as the floor repriced upward.\n\nThe honest cost stack looks like this. Mahoning County's 2023 reappraisal raised county residential values 38% on average, and Youngstown parcels jumped 58%, the steepest in the county, though HB 920 held the average bill increase near 9%. An investor underwrites about 1.75% of market value. The housing is overwhelmingly pre-1950, so roofs, boxes, and boilers are a schedule, not a surprise. And the tier split is stark: the stable west and southeast sides at $110K to $132K behave like a normal market, while the deep east side trades under $40K for a reason.\n\nThe real gatekeeper is loan size. An 80% loan on the citywide median is about $57K, below most DSCR lender floors of $75K to $100K, which is why the working plays are the better-tier single house or the portfolio loan that bundles several. The math has never been the problem in Youngstown. The structure is the whole game.",
+      "regulationBadge": "friendly",
+      "regulationNote": "Ohio's landlord-tenant framework applies with no rent control and no city licensing regime beyond state-required county-auditor registration, so the operating risks here are property condition, tenant screening, and block selection rather than regulation.",
+      "neighborhoods": [
+        {
+          "name": "Kirkmere",
+          "medianPrice": 131624,
+          "medianRent": 1150,
+          "note": "The west side's postwar grid at $132K, up 3.3% on the year, and the closest thing Youngstown has to a suburban rental market inside city limits. Where the ratio and normal-market behavior overlap."
+        },
+        {
+          "name": "Brownlee Woods",
+          "medianPrice": 110415,
+          "medianRent": 1095,
+          "note": "Southeast corner pocket at $110K, up 4.9%, with compact interwar houses and steady demand off the Boardman border. The value tier that still behaves predictably."
+        },
+        {
+          "name": "Wick Park",
+          "medianPrice": 61385,
+          "medianRent": 895,
+          "note": "Historic district by the park and YSU at $61K, mixing grand old homes with student and workforce rentals. Real upside, real capex; the inspection report is the underwriting here."
+        },
+        {
+          "name": "East Side",
+          "medianPrice": 38247,
+          "medianRent": 750,
+          "note": "The $38K tier that produces the screenshots. Heavy vacancy legacy, demolition-era blocks, and purchase prices below any conventional loan floor. Cash-buyer and portfolio territory, priced that way for a reason."
+        }
+      ],
+      "localAngle": {
+        "tag": "Real Costs",
+        "title": "A 1.8 ratio, a 58% reappraisal, and the loan floor that filters everyone.",
+        "body": "Youngstown's arithmetic is the best in Ohio and the least of what decides outcomes here. Start with what just happened to carrying costs: the Mahoning County auditor's 2023 sexennial reappraisal raised county residential values 38% on average, and Youngstown parcels specifically jumped 58%, the steepest in the county, because the state finally marked decades of sub-$50K assessments to a market that had moved. Ohio's HB 920 rollback held the average bill increase near 9%, and the investor-effective load runs about 1.75% of market value, so taxes remain manageable; the lesson is simply that the era of taxes rounding to nothing is over. The second filter is the housing itself: overwhelmingly pre-1950 balloon-frame stock where a roof, furnace, and knob-and-tube rewire can exceed a down payment, which is why the spread between the $132K Kirkmere tier and the $38K east side is a difference of kind, not degree. The third filter is financing. Eighty percent of the citywide median is a $57K loan, below the $75K to $100K floors most DSCR lenders enforce, so the deals that close are either better-tier houses that clear the floor or several properties bundled into one portfolio facility. That is a structuring problem, and it is solvable: your matched specialist knows which of the 70+ lenders write small balances, which want the bundle, and how to package a file the first underwriter will not bounce."
+      },
+      "programFit": [
+        "standard-dscr",
+        "portfolio-dscr",
+        "no-ratio-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 1-bath ranch SFR",
+        "neighborhood": "Kirkmere",
+        "purchasePrice": 105000,
+        "downPaymentPct": 25,
+        "downPayment": 26250,
+        "loanAmount": 78750,
+        "loanType": "30-Year Fixed, small-balance",
+        "interestOnly": false,
+        "monthlyPI": 550,
+        "monthlyTax": 153,
+        "monthlyInsurance": 95,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 798,
+        "monthlyRent": 1095,
+        "dscr": 1.37,
+        "monthlyCashFlow": 297,
+        "specialistFocus": [
+          "Matched the file to a lender whose floor accepts a $78,750 balance, clearing the size filter that kills most Youngstown applications before the ratio is ever read",
+          "Underwrote taxes at the post-reappraisal assessment after the city's 58% value reset instead of the seller's legacy bill",
+          "Kept the buy in the Kirkmere tier deliberately, trading headline yield for a house that appraises, insures, and leases like a normal market"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Why do lenders decline Youngstown deals that obviously cash flow?",
+          "answer": "Loan minimums, almost every time. An 80% loan on the $71,210 citywide median is roughly $57,000, and most DSCR lenders set floors at $75,000 or $100,000 regardless of how fat the ratio is. The deal is fine; the balance is too small for the lender's cost structure. Three workarounds close Youngstown files: buy in the $105K+ tiers like Kirkmere or Brownlee Woods where the loan clears the floor, reduce the down payment so the balance rises, or bundle several houses into one portfolio loan. Your matched specialist knows which of the 70+ lenders write small balances and which want the bundle."
+        },
+        {
+          "question": "Is Youngstown too risky, or is the 1.8 ratio real?",
+          "answer": "Both statements hold, tier by tier. The 1.8 at the citywide median is genuine arithmetic on sourced numbers, and the west side behaves like a normal rental market with values up 3% to 5% annually. The risk concentrates in the sub-$50K tiers, where population loss, demolition-era blocks, and hundred-year-old houses turn gross yield into a maintenance subscription. The city lost roughly two thirds of its peak population, so appreciation was never the thesis; current income is. Buy the $110K house renting $1,095, screen hard, reserve for capex, and Youngstown pays exactly what the spreadsheet says. Chase the $38K screenshot and it usually pays the contractor instead."
+        },
+        {
+          "question": "What did the 58% reappraisal do to Youngstown tax bills?",
+          "answer": "Far less than the headline suggests, which is the recurring Ohio pattern. The 2023 Mahoning reappraisal raised Youngstown residential values 58% on average, the steepest in the county, because assessments had lagged reality for decades. HB 920's rollback mechanism then shrank effective rates as values rose, holding the average bill increase near 9%. Today an investor underwrites roughly 1.75% of market value, modest by Ohio standards. The planning point is directional: assessments now track the market, your own purchase becomes a data point, and the next update lands in 2026. Underwrite the tax line on your price, not the seller's nostalgic bill."
+        },
+        {
+          "question": "Which Youngstown neighborhoods are actually stable enough for out-of-state ownership?",
+          "answer": "Two pass the remote-owner test comfortably. Kirkmere on the west side at $132K is a postwar grid where houses appraise cleanly, insure normally, and lease to long-term workforce tenants; it is the closest thing to Boardman inside city limits. Brownlee Woods at $110K in the southeast corner borders Boardman directly and behaves like it. Wick Park at $61K rewards hands-on operators who can manage century-home capex near the university, and the deep east side under $40K belongs to local cash buyers who walk their blocks weekly. The honest rule: the further below $100K you buy, the more Youngstown demands you be there."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Youngstown typical home value and YoY change, July 2026",
+        "Zillow Observed Rent Index, Youngstown average rent and YoY change, July 2026",
+        "US Census Bureau HVS via iPropertyManagement, Ohio statewide rental vacancy substituted for thin metro sample, 2024 annual",
+        "Mahoning County Auditor 2023 reappraisal via The Vindicator and WKBN, county residential up 38% and Youngstown up 58% with ~9% average bill impact, September 2023",
+        "Ownwell, Youngstown median effective property tax 1.68%, April 2026 (investor figure adjusted, est.)",
+        "Zillow neighborhood ZHVI, Kirkmere and Brownlee Woods values, July 2026"
+      ]
+    },
+    {
+      "city": "Canton",
+      "slug": "canton",
+      "county": "Stark County",
+      "metro": "Canton-Massillon",
+      "hook": "Zillow's Canton region reads $176,627, but the city's June sale median was $157,333 and the core bungalows trade near $125K. Canton is two markets wearing one name, and only one of them clears the ratio.",
+      "metaDescription": "Canton's region figure reads $177K while core bungalows trade near $125K and clear a 1.19 DSCR. Know which market you are buying. Get matched today.",
+      "market": {
+        "medianPrice": 176627,
+        "medianRent": 1118,
+        "priceToRent": 13.2,
+        "vacancyRate": 5.8,
+        "yoyPrice": 4.9,
+        "yoyRent": 3.8,
+        "estDSCR": 0.84,
+        "propertyTaxRate": 1.6,
+        "insuranceMonthly": 110
+      },
+      "overview": "Canton demands one piece of honesty before anything else: the headline number is not the buy-box. Zillow's Canton region, which blends the city with suburban-flavored stock toward Plain Township and the northeast, shows a $176,627 typical value, up 4.9%. The city's own June 2026 median sale price was $157,333, and the investor-grade bungalow neighborhoods on the west and northwest sides trade near $97K to $147K. Run the ratio on the blended region figure and Canton looks like a 0.84 market. Run it on what investors actually buy and it clears comfortably, which is why the deal example below pencils at 1.19.\n\nThe operating environment is as friendly as Ohio gets. Canton's effective residential tax load runs about 1.6% of market value for an investor, the lightest of the state's northeast cities, and Stark County landlords file the standard county-auditor registration with no city licensing regime stacked on top. Rents rose 3.8% to a blended $1,118 while the workforce tenant base spans Aultman and Cleveland Clinic Mercy's hospital systems, the Timken industrial legacy, and Amazon-era logistics along the I-77 corridor.\n\nThe Hall of Fame Village next to the stadium is the city's swing-for-the-fences bet, and its financial path has been rocky enough, including city-restructured loans and a take-private completed in January 2026, that no rental underwriting should lean on it. Buy Canton for the $1,100 rents on $125K houses. Anything the Village adds is a free option.",
+      "regulationBadge": "friendly",
+      "regulationNote": "No rent control, no city rental licensing beyond Ohio's county-auditor registration for Stark County landlords, and the lightest effective tax load of northeast Ohio's cities, so Canton's risks are market-selection risks rather than regulatory ones.",
+      "neighborhoods": [
+        {
+          "name": "West Park",
+          "medianPrice": 122585,
+          "medianRent": 1100,
+          "note": "West-side bungalow streets at $123K where the core Canton ratio lives. Steady blue-collar tenancies and purchase prices that keep loan balances above most lender floors."
+        },
+        {
+          "name": "Ridgewood",
+          "medianPrice": 146889,
+          "medianRent": 1200,
+          "note": "The handsome 1920s district at $147K, a step up in stock quality and tenant profile. Thinner ratio than West Park but the strongest resale story in the city proper."
+        },
+        {
+          "name": "Colonial Heights",
+          "medianPrice": 159267,
+          "medianRent": 1250,
+          "note": "Northwest tier at $159K bordering the stronger school-district pockets. This is where the city market starts blending into the pricier region figure, so underwrite rents conservatively."
+        },
+        {
+          "name": "Westbrook",
+          "medianPrice": 97113,
+          "medianRent": 995,
+          "note": "Sub-$100K entry with rents just under $1,000, the fattest spread in the city. Watch the loan-minimum line: 80% of a $97K purchase sits below several lender floors."
+        }
+      ],
+      "localAngle": {
+        "tag": "Two Markets",
+        "title": "The region says $177K. The city core trades near $125K. Underwrite the one you are buying.",
+        "body": "Canton's data has a boundary problem, and knowing it is worth real money. Zillow's Canton region rolls city blocks together with newer suburban-style stock toward Plain Township and the northeast corridor, producing the $176,627 headline and a citywide ratio that computes to 0.84. The city inside the boundary tells a different story: June 2026's median sale price was $157,333, and the neighborhoods where rental investors actually transact, West Park, Westbrook, the Ridgewood edges, carry sourced values between $97K and $147K with rents of $995 to $1,250. On those numbers a standard 25% down file clears 1.15 to 1.25 without stretching a single assumption. The supporting economics are quietly solid: an effective tax load near 1.6% of market value, the lightest of northeast Ohio's cities and roughly 30% below Cleveland's, a hospital-and-logistics employment base, and the state-standard county registration as the only paperwork. Then there is the Hall of Fame Village, the tourism megaproject beside the stadium. Its financing history includes multiple restructurings, city-modified loans, and a takeover that ended its run as a public company in January 2026. Maybe it matures into a demand engine; a rental file should price it at zero and treat any spillover as bonus. Your matched specialist will structure the loan on the parcel-level numbers, which in Canton is the entire difference between a 0.84 and a 1.19."
+      },
+      "programFit": [
+        "standard-dscr",
+        "portfolio-dscr",
+        "bridge-to-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 1-bath bungalow SFR",
+        "neighborhood": "West Park",
+        "purchasePrice": 125000,
+        "downPaymentPct": 25,
+        "downPayment": 31250,
+        "loanAmount": 93750,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 655,
+        "monthlyTax": 167,
+        "monthlyInsurance": 100,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 922,
+        "monthlyRent": 1100,
+        "dscr": 1.19,
+        "monthlyCashFlow": 178,
+        "specialistFocus": [
+          "Underwrote the parcel at its $125,000 city-core reality instead of the $177K blended region figure that would have distorted every downstream number",
+          "Matched the file to a lender comfortable at a $93,750 balance, keeping the deal above the small-balance floors that complicate the cheaper tiers",
+          "Qualified on the appraiser's $1,100 market rent with zero credit given to Hall of Fame Village tourism projections"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Why does Zillow say Canton costs $177K when I keep seeing $120K houses?",
+          "answer": "Boundary blending. Zillow's Canton region sweeps in suburban-style stock toward Plain Township and the northeast, which drags the typical value to $176,627. The city's own June 2026 median sale price was $157,333, and the west-side rental neighborhoods trade lower still: Westbrook at $97K, West Park at $123K, Ridgewood at $147K. Both numbers are real; they describe different markets. For underwriting, the parcel-level figure is the only one that matters, and on parcel-level numbers a standard Canton file clears 1.15 to 1.25. This page shows the blended figure honestly and prices the deal example on what investors actually buy."
+        },
+        {
+          "question": "Should the Hall of Fame Village factor into my Canton underwriting?",
+          "answer": "At zero, with a smile. The football-themed development beside the stadium has been through repeated financial restructurings, including loans modified by Canton City Council to keep pieces moving, and it completed a take-private merger in January 2026 after years as a struggling public company. That history does not make it worthless; events and tourism traffic exist and may grow. It makes it unbankable as a rental thesis. Canton's actual demand base is hospitals, logistics along I-77, and industrial employers, which is what fills a $1,100 bungalow in West Park. If the Village matures, adjacent values benefit and you collect a free option."
+        },
+        {
+          "question": "How do Canton's carrying costs compare to Cleveland and Akron?",
+          "answer": "Canton is the cheap seat. The effective residential tax load runs near 1.6% of market value for an investor, versus roughly 2.0% in Akron and 2.30% in Cleveland proper, and Ohio's insurance pricing is mild statewide, penciling near $100 monthly at these price points. On a $125,000 purchase that tax gap saves roughly $70 to $90 a month against an equivalent Cleveland parcel, which is often the entire difference between a 1.05 and a 1.19 file. The trade-off is a thinner rental pool and slower rent growth, 3.8% against Akron's 5.4%, so Canton rewards buyers optimizing for durable carry rather than momentum."
+        },
+        {
+          "question": "What paperwork does an out-of-state Canton landlord actually need?",
+          "answer": "The shortest checklist in this corner of the state. Ohio law requires residential rental owners in larger counties, Stark included, to file ownership and contact information with the county auditor, a simple registration with a $150 per tax year penalty for skipping it, and out-of-state owners should keep an in-state contact current under the statute's 2024 revisions. Canton adds no city rental license, no lead certificate program like Cleveland's or Toledo's, and no point-of-sale inspection like the Cleveland suburbs. Standard diligence still applies: the pre-1940 stock deserves a real inspection, and your matched specialist will want the registration handled before closing."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Canton region typical value, YoY change, and June 2026 median sale price, July 2026",
+        "Zillow Observed Rent Index, Canton average rent and YoY change, July 2026",
+        "US Census Bureau HVS via iPropertyManagement, Ohio statewide rental vacancy substituted for thin metro sample, 2024 annual",
+        "Ownwell, Canton median effective property tax 1.53%, April 2026 (investor figure adjusted, est.)",
+        "Canton City Council Hall of Fame Village loan restructuring coverage and January 2026 take-private completion, SEC filings and press, 2026",
+        "Ohio Revised Code 5323.02, county-auditor rental registration requirement as revised effective October 2024"
+      ]
+    },
+    {
+      "city": "Parma",
+      "slug": "parma",
+      "county": "Cuyahoga County",
+      "metro": "Cleveland-Elyria",
+      "hook": "Parma taxes a rental at 1.77% of market value while Garfield Heights takes 2.61% and Shaker's district tops 3.5%. Same tenant pool, a full point of carry apart. That spread is the whole Parma thesis.",
+      "metaDescription": "Parma taxes rentals at 1.77% of value while nearby suburbs run past 2.6%. Cleveland's inner-ring tax spread is the whole game. Get matched today.",
+      "market": {
+        "medianPrice": 220070,
+        "medianRent": 1373,
+        "priceToRent": 13.4,
+        "vacancyRate": 5.8,
+        "yoyPrice": 4.4,
+        "yoyRent": 9.5,
+        "estDSCR": 0.81,
+        "propertyTaxRate": 1.77,
+        "insuranceMonthly": 130
+      },
+      "overview": "Parma is Cleveland's biggest suburb and its quietest arbitrage. The typical home value reached $220,070, up 4.4%, with homes pending in 5 days and 55% selling over list, which is what a supply-starved bungalow belt looks like. Blended rents rose a striking 9.5% to $1,373, and the single-family reality runs hotter: the 44134 ZIP's rent index sits at $1,658 with three-bedroom houses listing at $1,700 to $1,800. The blended citywide ratio computes to 0.81; a house bought and rented as a house does meaningfully better.\n\nThe tax table is the reason to care. On Cuyahoga County's official pay-2026 schedule, Parma's residential load is 1.77% of market value, against 2.30% in Cleveland proper, 2.18% in Euclid, 2.61% in Garfield Heights, and 3.50% in Shaker Heights. Those suburbs compete for overlapping tenant pools, which means a Parma landlord keeps a full point of value per year that a Garfield Heights landlord mails to the school district. Over a hold period, the tax line quietly decides which inner-ring file survives.\n\nThe stock is 1950s brick bungalows and ranches built for a workforce that still lives here, plus the Ukrainian Village commercial spine that keeps State Road relevant. The 2024 reappraisal raised values across the county, and Parma's rollback-adjusted rate settling at 1.77% is precisely why the smart money treats this as the inner ring's low-cost seat.",
+      "regulationBadge": "friendly",
+      "regulationNote": "Parma layers no lead-certificate regime or escrowed point-of-sale program on top of standard Ohio requirements, and its 1.77% residential tax load is the lightest of Cleveland's major inner-ring suburbs, so the operating file here is unusually clean.",
+      "neighborhoods": [
+        {
+          "name": "Central Parma (44134)",
+          "medianPrice": 214047,
+          "medianRent": 1650,
+          "note": "The Ridge-to-State corridor at $214K where the rent index runs $1,658, up 8% on the year. Three-bedroom bungalows listing at $1,700+ are what make interest-only structures pencil here."
+        },
+        {
+          "name": "West Parma (44129)",
+          "medianPrice": 213792,
+          "medianRent": 1650,
+          "note": "Nearly identical stock and value at $214K on the Parma Heights border. Deep owner-occupant demand means acquisitions are competitive; off-market and estate sales are where the rentals come from."
+        },
+        {
+          "name": "Southwest Parma (44130)",
+          "medianPrice": 243070,
+          "medianRent": 1750,
+          "note": "The priciest tier at $243K toward the Metroparks edge, renting near $1,750. Thinner ratios, stronger tenants, and the best long-hold appreciation profile in the city."
+        }
+      ],
+      "localAngle": {
+        "tag": "Tax Spread",
+        "title": "Cuyahoga's official rate table is a treasure map. Parma is where it points.",
+        "body": "Every January, Cuyahoga County publishes its Rates of Taxation table, and most investors never read it. They should, because the residential tax-as-percentage-of-market column for taxes due in 2026 is the clearest edge in the Cleveland inner ring: Parma at 1.77%, Cleveland at 2.30%, Euclid at 2.18%, Lakewood at 2.24%, Maple Heights at 2.47%, Garfield Heights at 2.61%, Cleveland Heights at 2.86%, and the Shaker Heights district reaching 3.50%. These suburbs sit minutes apart and rent to overlapping tenant pools, yet the annual carry on identical $220,000 houses differs by $1,000 to $3,800 depending on which side of a school-district line the parcel sits. Parma's position at the bottom of that table is structural, not accidental: a large tax base spread across a huge single-family bungalow inventory and a school system that has not stacked levies the way the eastern suburbs have. For underwriting, the spread converts directly into ratio: at a $215,000 purchase, Parma's tax line runs about $317 monthly where Garfield Heights would take $468, a swing that moves a DSCR file by roughly 0.1 on its own. The 2.5% owner-occupancy credit still drops off for rentals, so investor bills run slightly above the published owner figures, a nuance that applies evenly across the table and leaves the spread intact. Your matched specialist will underwrite the district-specific line, which in this county is the difference between competing suburbs and confusing them."
+      },
+      "programFit": [
+        "standard-dscr",
+        "interest-only-dscr",
+        "portfolio-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 1-bath brick bungalow SFR",
+        "neighborhood": "Central Parma (44134)",
+        "purchasePrice": 215000,
+        "downPaymentPct": 25,
+        "downPayment": 53750,
+        "loanAmount": 161250,
+        "loanType": "30-Year Fixed, 10-year interest-only period",
+        "interestOnly": true,
+        "monthlyPI": 1008,
+        "monthlyTax": 317,
+        "monthlyInsurance": 135,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 1460,
+        "monthlyRent": 1750,
+        "dscr": 1.2,
+        "monthlyCashFlow": 290,
+        "specialistFocus": [
+          "Structured a 10-year interest-only period because the amortizing payment held the ratio near 1.06, and the IO structure lifted it to 1.2 while rents compound at 8% in this ZIP",
+          "Qualified on the appraiser's single-family market rent of $1,750, supported by live 44134 listings, rather than the blended citywide figure that mixes in apartments",
+          "Underwrote Parma's 1.77% district tax line straight off the county's official pay-2026 table, the lightest in the inner ring, with the owner-occupancy credit correctly excluded"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Why would I buy in Parma instead of Cleveland proper for cash flow?",
+          "answer": "Different products. Cleveland's $117K doubles produce deeper ratios, around 1.44 at the median, with a compliance stack of lead certificates, registration, and local-agent rules, plus tenant turnover to match. Parma sells a cleaner operation: 1950s brick bungalows renting $1,650 to $1,800 to long-tenure suburban tenants, a 1.77% tax load that beats every neighboring suburb, no lead-certificate or point-of-sale regime layered on, and 4.4% appreciation with houses pending in 5 days. The ratio is thinner, roughly 1.05 to 1.2 with structure, but the file ages better. Yield buyers go west into Cleveland; durability buyers stop in Parma."
+        },
+        {
+          "question": "Are Parma's 9.5% rent gains real or a data quirk?",
+          "answer": "Real, with a composition caveat. The citywide index blending apartments rose 9.5% to $1,373, and the single-family-heavy 44134 ZIP shows the same shape: $1,658, up 8%, with live three-bedroom listings at $1,700 to $1,800. The driver is supply, not anomaly. Parma's bungalow belt almost never adds new houses, owner-occupants absorb most listings within days, and priced-out Cleveland-side renters keep bidding the remainder. Cross-checking multiple ZIPs and live listings is exactly how this page filters listing-mix noise, and Parma passes. Underwrite $1,650 to $1,750 on a standard three-bedroom and you are conservative, not optimistic."
+        },
+        {
+          "question": "How much does the tax difference between Cleveland suburbs really matter?",
+          "answer": "It is frequently the entire deal. On the county's official pay-2026 table, identical $220,000 houses carry annual residential taxes of about $3,894 in Parma, $4,796 in Euclid, $5,742 in Garfield Heights, and $7,700 in the Shaker district. That range, $75 to $317 per month against Parma, moves a DSCR calculation by 0.1 to 0.25, which is the difference between approval tiers on most rate sheets. Tenants do not pay more rent because the landlord's school district levies more, so the spread lands entirely on the owner. Reading one county PDF before picking a suburb is the highest-paid hour in Cleveland-area investing."
+        },
+        {
+          "question": "What should I expect when buying a Parma bungalow as a rental?",
+          "answer": "Competition first. Houses pend in 5 days with 55% selling over list, because owner-occupants want the same $214K brick bungalow you do, so clean offers and pre-underwritten financing win. The stock is 1950s vintage: roofs, waterproofing, and original electrical panels are the recurring capex items, and a $5,000 to $8,000 first-year reserve is honest. Rents of $1,650 to $1,800 support the price, and the interest-only structure in the deal example is a common way files clear comfortably while principal-paydown waits. No city lead certificate or point-of-sale escrow applies, which keeps closings simple. Your matched specialist will size the structure to the district's actual tax line."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Parma citywide and ZIP-level (44134, 44129, 44130) values, July 2026",
+        "Zillow Observed Rent Index, Parma citywide and 44134 rents with live single-family listing checks, July 2026",
+        "US Census Bureau Housing Vacancy Survey via iPropertyManagement, Cleveland-Elyria metro rental vacancy, 2024 annual",
+        "Cuyahoga County Treasurer, Rates of Taxation for tax year 2025 due 2026, Parma 1.77% residential vs Garfield Heights 2.61% and Shaker district 3.50%",
+        "Insure.com and MoneyGeek Ohio homeowners averages with landlord adjustment, insurance estimate, 2026 (est.)"
+      ]
+    },
+    {
+      "city": "Lakewood",
+      "slug": "lakewood",
+      "county": "Cuyahoga County",
+      "metro": "Cleveland-Elyria",
+      "hook": "Lakewood's typical home value is $297,929 and a single-family rental here honestly computes below 1.0. The city's signature double is how investors have made this lakefront grid pay for a century.",
+      "metaDescription": "Lakewood homes average $298K and single-family rentals sit below a 1.0 DSCR. Doubles and honest structuring make it work. Get matched today.",
+      "market": {
+        "medianPrice": 297929,
+        "medianRent": 1457,
+        "priceToRent": 17,
+        "vacancyRate": 5.8,
+        "yoyPrice": 4.2,
+        "yoyRent": 3.3,
+        "estDSCR": 0.61,
+        "propertyTaxRate": 2.24,
+        "insuranceMonthly": 160
+      },
+      "overview": "Lakewood is the inner ring's premium ticket: a dense, walkable lakefront grid where the typical home value hit $297,929, up 4.2%, homes pend in 5 days, and 54% sell over list. It is also the market on this page where the honest math is hardest. Blended rents of $1,457 against a $298K basis produce a 17.0 price-to-rent ratio and a citywide figure near 0.61, and even a well-rented $300K colonial at $2,100 lands around 0.91. The deal example below shows that negative-carry file exactly as it is, because pretending otherwise is how buyers get hurt.\n\nThe century-old answer is the double. Lakewood's streets are lined with purpose-built two-family houses, and a $340K to $380K double collecting $2,800 to $3,000 combined clears the same underwriting the single fails. That is not a trick; it is the building type the city was designed around, and it is why local investors own doubles while out-of-town buyers overpay for singles.\n\nKnow the process costs too. Since September 2019, Lakewood requires a point-of-sale certificate of code compliance before any non-owner-occupied rental sells, with inspection of interior, exterior, and yard, and its Rental Housing Safety Program inspects registered rentals on a five-year cycle. Taxes run 2.24% of market value on the county's pay-2026 table. Lakewood pays back with the metro's most reliable tenant demand and genuine appreciation; it just makes you structure for it.",
+      "regulationBadge": "moderate",
+      "regulationNote": "Lakewood requires a point-of-sale certificate of code compliance before any non-owner-occupied rental changes hands and inspects registered rentals on a roughly five-year cycle under its Rental Housing Safety Program, so build inspection findings into every purchase timeline.",
+      "neighborhoods": [
+        {
+          "name": "Central Lakewood",
+          "medianPrice": 300000,
+          "medianRent": 2100,
+          "note": "The colonial-and-double core between Detroit and Madison. Singles rent near $2,100 and compute below 1.0; the stacked doubles on the same blocks collecting $2,800+ are what clear files here."
+        },
+        {
+          "name": "Birdtown",
+          "medianPrice": 240000,
+          "medianRent": 1850,
+          "note": "The historic factory-worker district in the southeast corner, the most affordable entry in the city. Smaller homes and doubles with the best rent-to-price spread Lakewood offers."
+        },
+        {
+          "name": "Clifton Park and Gold Coast",
+          "medianPrice": 470000,
+          "medianRent": 2900,
+          "note": "Lakefront estates and the high-rise strip. Trophy territory where files are appreciation plays or mid-term furnished strategies; the ratio math is decorative at these prices."
+        },
+        {
+          "name": "West End",
+          "medianPrice": 350000,
+          "medianRent": 2300,
+          "note": "The Rocky River border tier with the strongest owner-occupant resale pull. Buy here for exit optionality and accept the thinnest rental margin in the city."
+        }
+      ],
+      "localAngle": {
+        "tag": "POS Inspection",
+        "title": "In Lakewood the city inspects before you can buy and every five years after.",
+        "body": "Lakewood formalized what most Cleveland suburbs only gesture at: since September 1, 2019, a certificate of code compliance, the successor to the old certificate of occupancy, is required before the sale of every non-owner-occupied residential rental property, and the point-of-sale inspection behind it covers the interior, exterior, and yard. Violations become repair obligations that follow the transaction, so the inspection report is effectively a second home inspection with the force of law, and smart buyers obtain it early enough to negotiate price or repairs rather than absorbing surprises at closing. Ownership is inspected too. The Rental Housing Safety Program registers the city's rental stock and inspects roughly 700 units per year, weighted about 82% multifamily and 18% single-family, which works out to most properties seeing an inspector about once every five years. None of this is hostile; Lakewood runs the program to keep a century-old housing stock rentable, and the practical effect is that deferred maintenance gets forced back into prices instead of hiding in them. For an investor the sequence is mechanical: request the current certificate and any open violations in diligence, price the punch list, close, register, and calendar the cycle. Pair that discipline with the double-versus-single arithmetic this page lays out, and Lakewood becomes a structured market rather than a hard one. Your matched specialist will time the loan around the certificate so the file closes clean."
+      },
+      "programFit": [
+        "no-ratio-dscr",
+        "interest-only-dscr",
+        "standard-dscr",
+        "portfolio-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 2-bath colonial SFR",
+        "neighborhood": "Central Lakewood",
+        "purchasePrice": 300000,
+        "downPaymentPct": 25,
+        "downPayment": 75000,
+        "loanAmount": 225000,
+        "loanType": "30-Year Fixed, no-ratio qualification",
+        "interestOnly": false,
+        "monthlyPI": 1573,
+        "monthlyTax": 560,
+        "monthlyInsurance": 170,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 2303,
+        "monthlyRent": 2100,
+        "dscr": 0.91,
+        "monthlyCashFlow": -203,
+        "specialistFocus": [
+          "Structured a no-ratio qualification because the honest 0.91 with $203 of monthly negative carry fails standard DSCR minimums, and the investor's thesis was appreciation plus rent growth, not day-one income",
+          "Documented reserves covering the carry gap for multiple years so underwriting saw a funded plan instead of a hopeful one",
+          "Ordered the point-of-sale inspection early and negotiated the certificate repair list into the price before the appraisal locked the deal"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Why do Lakewood single-family rentals fail DSCR when demand is so strong?",
+          "answer": "Because owner-occupants set the prices and tenants do not match them. Lakewood colonials trade near $300K against achievable rents around $2,100, and with taxes at 2.24% of value the honest computation lands near 0.91, negative carry of a couple hundred dollars monthly. Demand is real, it is just demand to live here, which shows up as 4.2% appreciation and 5-day pending times rather than fat rent yields. Investors who insist on the single-family format use no-ratio or interest-only structures with funded reserves and underwrite the appreciation deliberately. Investors who want the ratio buy the double next door."
+        },
+        {
+          "question": "How does the Lakewood double math actually pencil?",
+          "answer": "As the best risk-adjusted play in the city. Purpose-built two-family houses, up-down units with separate entrances, trade roughly $330K to $380K and collect $2,800 to $3,000 combined when both units are updated. At $360K with 25% down, PITIA runs near $2,730 including Lakewood's 2.24% tax line, and $2,900 of combined rent carries the file above 1.05 with genuine appreciation underneath. The point-of-sale certificate applies to the sale and both units sit on the Rental Housing Safety Program's inspection cycle, so budget the compliance polish. A century of local landlords chose this exact structure; the reasons still hold."
+        },
+        {
+          "question": "What does Lakewood's point-of-sale inspection mean for my purchase timeline?",
+          "answer": "It means the city is a party to your transaction, usefully. Before any non-owner-occupied rental transfers, Lakewood requires a certificate of code compliance backed by a point-of-sale inspection covering interior, exterior, and yard, and cited violations become repair obligations tied to the deal. Order it early. A clean report is negotiating leverage and peace of mind; a heavy punch list is a price conversation you want before the appraisal, not after. Post-closing, register the rental and expect a Rental Housing Safety Program inspection roughly every five years. Sellers who dodge the process are telling you something; price accordingly."
+        },
+        {
+          "question": "Is Lakewood worth a negative-carry year or two?",
+          "answer": "Only with eyes open and reserves funded. The bull case is legitimate: the densest walkable suburb in the metro, values up 4.2% while pending times sit at 5 days, rents compounding 3.3%, and a tenant pool that treats Lakewood as the destination rather than the fallback. A 0.91 file at $203 monthly negative carry flips positive if rents grow at trend for two to three years, and the equity story does the heavier lifting. The bear case is equally simple: you are paying to wait, and a no-ratio loan prices for that risk. Decide which investor you are before the inspection deadline, not after."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Lakewood typical home value and YoY change, July 2026",
+        "Zillow Observed Rent Index, Lakewood average rent with live single-family listing checks, July 2026",
+        "US Census Bureau Housing Vacancy Survey via iPropertyManagement, Cleveland-Elyria metro rental vacancy, 2024 annual",
+        "Cuyahoga County Treasurer, Rates of Taxation for tax year 2025 due 2026, Lakewood residential 2.24% of market value",
+        "City of Lakewood, point-of-sale certificate of code compliance and Rental Housing Safety Program terms, 2026",
+        "Neighborhood tier values estimated from Zillow listing scans within ZIP 44107, August 2026 (est.)"
+      ]
+    },
+    {
+      "city": "Euclid",
+      "slug": "euclid",
+      "county": "Cuyahoga County",
+      "metro": "Cleveland-Elyria",
+      "hook": "Euclid bungalows average $150,362 and the median sits almost exactly at a 1.0 ratio. The city's point-of-sale inspection, 90-day repair clock, and 50% escrow rule shape every deal more than the price does.",
+      "metaDescription": "Euclid homes average $150K on Lake Erie with point-of-sale inspections and escrow rules that shape every purchase. See the math. Get matched today.",
+      "market": {
+        "medianPrice": 150362,
+        "medianRent": 1230,
+        "priceToRent": 10.2,
+        "vacancyRate": 5.8,
+        "yoyPrice": 2.4,
+        "yoyRent": 4.3,
+        "estDSCR": 1,
+        "propertyTaxRate": 2.18,
+        "insuranceMonthly": 110
+      },
+      "overview": "Euclid is Cleveland's lakefront value play: 27,000 households on Lake Erie's shoreline bluffs with a typical home value of $150,362, up 2.4%, and rents rising 4.3% to $1,230. The citywide math computes almost exactly to 1.0 at 20% down, which makes Euclid a structuring market where the details, not the headline, decide whether a file clears.\n\nThe details start with process. Euclid runs one of the inner ring's firmer point-of-sale regimes: a city inspection before transfer, correction of cited violations within 90 days, and where repairs remain open at closing, an escrow of 50% of the estimated repair cost. The certificate of compliance expires after a year, with a $112.50 renewal inspection if the property has not sold within 30 days of expiration. None of it blocks investors; all of it belongs in the offer price and the closing calendar.\n\nThe second detail is the tax reset. Euclid's residential values jumped 44% in the county's 2024 reappraisal, among the steepest in Cuyahoga, and HB 920's rollback machinery then settled the effective load at 2.18% of market value on the official pay-2026 table, mid-pack for the inner ring rather than the horror story the reappraisal headline implied. With ZIP-level values running $143K to $171K and single-family rents of $1,300 to $1,450, the working Euclid file buys the brick bungalow near the lake, prices the inspection list into the offer, and clears 1.1 to 1.2 with normal structure.",
+      "regulationBadge": "moderate",
+      "regulationNote": "Euclid's point-of-sale inspection requires cited violations corrected within 90 days with a 50% repair escrow when work remains open at transfer, and certificates expire after 12 months, so the inspection report and the closing calendar are part of the price here.",
+      "neighborhoods": [
+        {
+          "name": "Southwest Euclid (44117)",
+          "medianPrice": 170518,
+          "medianRent": 1450,
+          "note": "The strongest tier at $171K along the Richmond Heights border, postwar brick with the city's most stable owner mix. Thinner ratio, cleanest inspections, easiest management."
+        },
+        {
+          "name": "Lakefront Northeast (44132)",
+          "medianPrice": 154762,
+          "medianRent": 1400,
+          "note": "Bluff streets and lake-adjacent grids at $155K where large colonials list mid-$100Ks. The rent index here spiked 11% on thin listings, a mix artifact; underwrite $1,350 to $1,450, not the spike."
+        },
+        {
+          "name": "North Central Euclid (44123)",
+          "medianPrice": 142936,
+          "medianRent": 1300,
+          "note": "The value tier at $143K between Lakeshore Boulevard and the shoreline. Fattest spread in the city and the heaviest concentration of point-of-sale punch lists; price the repairs, then bid."
+        }
+      ],
+      "localAngle": {
+        "tag": "POS Escrow",
+        "title": "Euclid's escrow rule turns the inspection report into the real purchase contract.",
+        "body": "Most markets let a buyer and seller argue about repairs in private. Euclid puts the city in the room. Before a residential property transfers, Euclid's point-of-sale program inspects it and issues a violation list, sellers are required by ordinance to correct cited violations within 90 days, and when a sale closes with work outstanding, the buyer or seller funds an escrow of 50% of the estimated repair cost until the city signs off. The certificate of compliance is good for 12 months, and if the property lingers unsold past 30 days after expiration, a $112.50 renewal inspection runs the process again. For investors this changes tactics in three specific ways. First, the violation list is diligence gold: it is a municipal inspection you did not pay for, and it prices the true condition of 1940s and 1950s bungalow stock better than listing photos ever will. Second, the escrow is a cash-flow event at closing; a $12,000 punch list means $6,000 parked beyond your down payment, so the number belongs in your funds-to-close math. Third, the 90-day clock disciplines renovation scheduling, which suits value-add buyers who were going to do the work anyway and punishes buyers who hoped to defer it. After Euclid's 44% reappraisal jump settled into a 2.18% effective load, the deals here still clear; they simply reward preparation. Your matched specialist will size funds-to-close around the escrow so the file never stalls in the final week."
+      },
+      "programFit": [
+        "standard-dscr",
+        "portfolio-dscr",
+        "bridge-to-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 1-bath brick bungalow SFR",
+        "neighborhood": "Lakefront Northeast (44132)",
+        "purchasePrice": 155000,
+        "downPaymentPct": 25,
+        "downPayment": 38750,
+        "loanAmount": 116250,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 813,
+        "monthlyTax": 282,
+        "monthlyInsurance": 115,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 1210,
+        "monthlyRent": 1395,
+        "dscr": 1.15,
+        "monthlyCashFlow": 185,
+        "specialistFocus": [
+          "Priced the city's point-of-sale violation list into the offer and sized funds-to-close around the 50% repair escrow so closing never stalled",
+          "Underwrote rent at $1,395 against the citywide trend instead of the 44132 index spike, which was listing-mix noise on thin volume",
+          "Carried the tax line at Euclid's official 2.18% pay-2026 figure, the settled rate after the 44% reappraisal, not the pre-2024 bill"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "How does Euclid's point-of-sale inspection actually work when I buy?",
+          "answer": "The city inspects before transfer and issues a violation list, the seller is obligated to correct cited items within 90 days, and if the deal closes with work still open, 50% of the estimated repair cost goes into escrow until the city verifies completion. The certificate of compliance lasts 12 months, with a $112.50 renewal inspection if the property sits unsold past 30 days after expiration. Practical read: get the report early, treat it as free municipal diligence on 70-year-old stock, negotiate the list into your price, and bring the escrow figure into your funds-to-close math so nothing surprises the lender."
+        },
+        {
+          "question": "Did Euclid's 44% reappraisal make taxes uninvestable?",
+          "answer": "No, and the settled number is the proof. The 2024 county reappraisal raised Euclid residential values 44%, among the steepest in Cuyahoga, but Ohio's HB 920 rollback machinery cut effective rates as values rose. On the county's official table for taxes due in 2026, Euclid's residential load is 2.18% of market value, below Cleveland's 2.30%, well below Garfield Heights at 2.61%, though above Parma's 1.77%. On a $155,000 purchase that is roughly $282 monthly, which a $1,395 rent absorbs at a 1.15 ratio. Underwrite the settled figure and ignore the headline; the headline already happened."
+        },
+        {
+          "question": "Is the lakefront location worth anything to a rental investor, or just to postcards?",
+          "answer": "It is worth tenant stickiness more than rent premium. Euclid's bluff streets and Lakefront Community Park access rent a three-bedroom for $1,350 to $1,450, only modestly above the inland tiers, but lake-adjacent houses lease faster and hold tenants longer, which shows up as fewer turns rather than bigger checks. The 44132 rent index spiking 11% on thin listings is exactly the kind of number to distrust; this page underwrites the citywide 4.3% trend instead. Where the lake genuinely pays is exit: shoreline-walkable brick colonials in the mid-$100Ks are a scarcity product the next buyer wave keeps rediscovering."
+        },
+        {
+          "question": "Which Euclid pocket should a first-time out-of-state buyer choose?",
+          "answer": "Match the pocket to your appetite for the inspection list. Southwest Euclid's 44117 at $171K carries the cleanest stock, the fewest point-of-sale surprises, and the thinnest margin. The Lakefront Northeast 44132 tier at $155K is the balanced play, brick bungalows and colonials with workable ratios and manageable punch lists. North Central's 44123 at $143K offers the fattest spread and the heaviest repair lists, which suits renovators who wanted the value-add anyway. Across all three, the winning sequence is identical: inspection report first, offer second, escrow sized into funds-to-close, and rent underwritten at trend rather than at the thin-market spikes."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Euclid citywide and ZIP-level (44117, 44132, 44123) values, July 2026",
+        "Zillow Observed Rent Index, Euclid citywide rent and YoY change with 44132 spike rejected as listing-mix noise, July 2026",
+        "US Census Bureau Housing Vacancy Survey via iPropertyManagement, Cleveland-Elyria metro rental vacancy, 2024 annual",
+        "Cuyahoga County Treasurer, Rates of Taxation for tax year 2025 due 2026, Euclid residential 2.18% of market value",
+        "Cuyahoga County Fiscal Officer 2024 reappraisal, Euclid residential values up 44%, July 2024",
+        "Northeast Ohio point-of-sale guides, Euclid 90-day repairs, 50% escrow, and certificate renewal terms, 2025"
+      ]
+    },
+    {
+      "city": "Springfield",
+      "slug": "springfield",
+      "county": "Clark County",
+      "metro": "Springfield",
+      "hook": "Springfield rents rose 7% in a year, the fastest on this page, while the 2025 county reappraisal marked values up 32%. The Columbus-Dayton corridor repriced this market and the tape has not caught up.",
+      "metaDescription": "Springfield rents rose 7% in a year and Clark County's reappraisal marked values up 32%. See what still pencils on the corridor. Get matched today.",
+      "market": {
+        "medianPrice": 190008,
+        "medianRent": 1267,
+        "priceToRent": 12.5,
+        "vacancyRate": 5.8,
+        "yoyPrice": 4.1,
+        "yoyRent": 7,
+        "estDSCR": 0.87,
+        "propertyTaxRate": 1.75,
+        "insuranceMonthly": 115
+      },
+      "overview": "Springfield spent decades as the pass-through town between Dayton and Columbus. The corridor finally priced it in. The Zillow region's typical value reached $190,008, up 4.1%, while rents surged 7.0% to $1,267, the fastest rent growth of any market on this page, driven by a renter population that grew faster than anyone built housing. Clark County's 2025 sexennial reappraisal then made it official, marking average values up 32% for the bills that arrive in 2026.\n\nThe number that matters is the split. The region figure blends the pricier townships; inside the city, the northeast 45503 ZIP runs $196,691, the northwest 45504 sits at $215,444, while the southeast 45505 and southwest 45506 trade at $130,360 and $114,852. Rents do not spread nearly as wide, which means the ratio lives on the south side: a $128K house renting $1,195 clears 1.25 while the region-level math computes to 0.87. Same city, two different loans.\n\nOperationally Springfield is light-touch. Clark County's population sits below the threshold that triggers Ohio's county-auditor rental registration mandate, there is no city licensing regime, and the effective tax load lands near 1.75% of market value for an investor. The honest risks are a housing stock that skews pre-war on the south side and the fact that 7% rent growth eventually invites supply. For now, the corridor's commuters and the town's own manufacturing base keep absorbing units faster than they appear.",
+      "regulationBadge": "friendly",
+      "regulationNote": "No rent control under Ohio's statewide preemption, no city rental licensing regime, and Clark County sits below the population threshold for the state's county-auditor registration mandate, making Springfield one of the lightest-compliance markets in Ohio.",
+      "neighborhoods": [
+        {
+          "name": "Northridge",
+          "medianPrice": 234354,
+          "medianRent": 1550,
+          "note": "The suburban-style tier north of town at $234K. Corridor commuters rent here when they cannot buy, but the ratio is thin; this is the appreciation-and-tenant-quality end of Springfield."
+        },
+        {
+          "name": "Northwest Springfield (45504)",
+          "medianPrice": 215444,
+          "medianRent": 1450,
+          "note": "The $215K quadrant toward the country club and newer plats. Strong owner demand and the cleanest housing stock, with rental margins that require conservative purchase discipline."
+        },
+        {
+          "name": "East Springfield (45505)",
+          "medianPrice": 130360,
+          "medianRent": 1150,
+          "note": "The workhorse quadrant at $130K where the city's ratio actually lives. Postwar and interwar houses renting near $1,150 with the corridor's rent growth flowing straight through."
+        },
+        {
+          "name": "Southwest Springfield (45506)",
+          "medianPrice": 114852,
+          "medianRent": 1050,
+          "note": "The value tier at $115K, flat on price this year while rents climbed. Pre-war stock means real capex; the spread is wide enough to fund it if the inspection is honest."
+        }
+      ],
+      "localAngle": {
+        "tag": "Corridor Growth",
+        "title": "A 32% reappraisal and 7% rent growth: the corridor repriced Springfield in one cycle.",
+        "body": "Two official numbers tell Springfield's story better than any narrative. First, the Clark County auditor's 2025 sexennial reappraisal marked average property values up 32%, the state-supervised acknowledgment that the 2021 to 2025 run was real and durable, with the new values landing on bills payable in 2026. Second, Zillow's rent index for Springfield rose 7.0% over the past year, the fastest of any city on this page, on top of earlier years of similar growth. The mechanism is geography: Springfield sits 25 minutes from Dayton and about 45 from Columbus on I-70, so it catches commuters priced out of both metros, and its own demand base grew sharply this decade as new residents filled the city's workforce housing. Supply barely responded; the south-side quadrants added almost no new units, which is how a market posts 7% rent growth while its cheapest ZIP stays flat on price. For underwriting, the reappraisal cuts both ways. HB 920 rollbacks will absorb most of the 32% on existing levies, and the effective investor load near 1.75% of market value remains light, but the auditor now has current values and your purchase price feeds the next update, so the era of taxes priced off 2019 is over. The trade is buying the $115K to $130K quadrants where rents are compounding fastest off the smallest base. Your matched specialist will structure the file on the post-reappraisal bill so year two looks like year one."
+      },
+      "programFit": [
+        "standard-dscr",
+        "portfolio-dscr",
+        "bridge-to-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 1-bath SFR",
+        "neighborhood": "East Springfield (45505)",
+        "purchasePrice": 128000,
+        "downPaymentPct": 25,
+        "downPayment": 32000,
+        "loanAmount": 96000,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 671,
+        "monthlyTax": 187,
+        "monthlyInsurance": 100,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 958,
+        "monthlyRent": 1195,
+        "dscr": 1.25,
+        "monthlyCashFlow": 237,
+        "specialistFocus": [
+          "Bought in the 45505 quadrant deliberately, where the $130K entry keeps the ratio at 1.25 while region-level math computes to 0.87",
+          "Underwrote taxes on the post-reappraisal 2025 value rather than the seller's pre-surge bill, absorbing the county's 32% mark-up before it arrived",
+          "Qualified on the appraiser's $1,195 market rent, conservative against a market compounding at 7% annually"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Why are Springfield rents growing 7% when Ohio's big cities average 3% to 4%?",
+          "answer": "Demand shock meeting fixed supply. Springfield's renter population expanded sharply this decade, both from corridor commuters priced out of Columbus and Dayton and from new residents filling local manufacturing and logistics jobs, while the city's south-side quadrants added essentially no new units. Zillow's rent index rose 7.0% over the past year on top of prior strong years, and the southwest ZIP's price staying flat while its rents climbed shows the pressure is on the rental side specifically. Growth like this eventually attracts supply, but permitting and construction run in years; the current spread belongs to owners who already hold units."
+        },
+        {
+          "question": "What does Clark County's 32% reappraisal mean for my tax bill?",
+          "answer": "Values reset; bills move much less. The 2025 sexennial reappraisal marked average Clark County values up 32%, effective for taxes payable in 2026, and Ohio's HB 920 rollback shrinks effective rates on existing voted levies as values rise, so the typical bill increase lands well below the value increase. For an investor the working number is roughly 1.75% of market value, light by Ohio standards, with the usual caveat that the 2.5% owner-occupancy credit on the seller's bill disappears when the house becomes a rental. Underwrite your purchase price at that rate and the reappraisal is already priced in."
+        },
+        {
+          "question": "Is Springfield a Columbus play or a Dayton play?",
+          "answer": "Functionally a Dayton satellite with a Columbus call option. Dayton is 25 minutes down I-70 and supplies the commuter base that fills Springfield's mid-tier rentals today, plus the Wright-Patterson gravity that stabilizes the whole region. Columbus is 45 minutes east, far enough that daily commuting is a minority behavior, close enough that Columbus-side employers like the Honda-LG battery complex in Fayette County and the broader corridor buildout keep pulling the economic center of gravity toward Springfield's side of the map. You do not need the Columbus story for the math to work; the current 1.25 ratio runs on demand that already exists."
+        },
+        {
+          "question": "Which part of Springfield should an investor actually buy?",
+          "answer": "The southeast and southwest quadrants, where the ratio lives. East Springfield's 45505 at $130K renting near $1,150 is the balanced play: postwar stock, manageable capex, and a 1.25 file at standard leverage. Southwest 45506 at $115K posts the widest spread and the oldest houses, so the inspection budget is part of the price. The northwest 45504 and Northridge tiers at $215K to $234K rent to the strongest tenants in town but compute thin, appreciation plays rather than income plays. Whichever quadrant, underwrite conservatively on rent; a market compounding at 7% forgives caution and punishes projection."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Springfield region and ZIP-level (45503, 45504, 45505, 45506) values, July 2026",
+        "Zillow Observed Rent Index, Springfield average rent and YoY change, July 2026",
+        "US Census Bureau HVS via iPropertyManagement, Ohio statewide rental vacancy substituted for small-metro sample, 2024 annual",
+        "Clark County Auditor via Springfield News-Sun, 2025 reappraisal average value increase of 32%, 2025",
+        "Ownwell, Springfield median effective property tax 1.69%, April 2026 (investor figure adjusted, est.)",
+        "Zillow neighborhood ZHVI, Northridge value, July 2026"
+      ]
+    }
+  ]
+}

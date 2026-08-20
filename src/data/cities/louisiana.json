@@ -1,0 +1,1320 @@
+{
+  "state": "Louisiana",
+  "abbreviation": "LA",
+  "stateSlug": "louisiana",
+  "dataUpdated": "2026-08",
+  "cities": [
+    {
+      "city": "New Orleans",
+      "slug": "new-orleans",
+      "county": "Orleans Parish",
+      "metro": "New Orleans-Metairie",
+      "hook": "The shotgun double is still the best DSCR vehicle in New Orleans, with citywide values near $245K and metro single-family rents around $1,925. The catch list is long, and all of it is on the table below.",
+      "metaDescription": "New Orleans DSCR loans: doubles near $245K, single-family rents near $1,925, and STR rules that shut investors out. Real math inside. Get matched today.",
+      "market": {
+        "medianPrice": 245144,
+        "medianRent": 1925,
+        "priceToRent": 10.6,
+        "vacancyRate": 10.8,
+        "yoyPrice": -1.9,
+        "yoyRent": 1.3,
+        "estDSCR": 0.91,
+        "propertyTaxRate": 1.32,
+        "insuranceMonthly": 475
+      },
+      "overview": "New Orleans is a leverage market wearing a tourism costume. The typical home sits near $245,100 as of July 2026, down 1.9% over the year, while metro single-family rents held near $1,925 and the citywide blend, which folds in apartments, reads about $1,648. That gap matters because the native investor asset here is not an apartment or a condo. It is the double: two side-by-side units under one roof, one loan, two rent checks. Doubles in Gentilly, St. Roch, and Mid-City are why the city can pencil while its headline ratio at 20% down reads 0.91.\n\nThe carrying costs are the real filter. Orleans Parish millage runs 131.99 mills on the East Bank in 2025, and Louisiana assesses at 10% of market value, so a non-homestead investor pays roughly 1.32% of price with no exemption. The seller's tax bill you see on the listing usually has the $75,000 homestead exemption baked in. Yours will not. Insurance is the second filter: a $300K dwelling averages about $6,083 a year in this city, and a two-unit landlord policy runs higher.\n\nWhat works: buying the double at the right basis, qualifying on both units at the appraiser's market rent, and treating any short-term rental upside as zero, because the city's permit regime has effectively removed investors from residential STRs. The rules are losing pieces in federal court, but underwriting on today's rules is the only honest way to buy here.",
+      "regulationBadge": "moderate",
+      "regulationNote": "Louisiana state law stays landlord-friendly with a five-day notice to vacate, but New Orleans layers a permit-and-lottery STR regime, active enforcement, and quadrennial reassessment swings on top, so underwrite the city as a long-term rental jurisdiction with paperwork.",
+      "neighborhoods": [
+        {
+          "name": "Gentilly Terrace",
+          "medianPrice": 205366,
+          "medianRent": 1600,
+          "note": "1920s to 1940s brick and stucco houses and doubles on raised terraced lots. Values slipped 4.7% over the year, which is the entry. Roof age decides the insurance quote here, so a post-Ida roof is worth real money to a carrier."
+        },
+        {
+          "name": "Mid-City",
+          "medianPrice": 325131,
+          "medianRent": 1700,
+          "note": "Rental-native and walkable with the bayou and the hospital corridor close. Doubles and half-doubles everywhere. Typical values around $325K after a 3.8% pullback, and the tenant pool is deep year round."
+        },
+        {
+          "name": "St. Roch",
+          "medianPrice": 149716,
+          "medianRent": 1450,
+          "note": "The value entry on the downriver side, off 10.7% in a year. Block-by-block underwriting is mandatory, and the double stock here is old enough that condition, not price, kills files."
+        },
+        {
+          "name": "Algiers Point",
+          "medianPrice": 379060,
+          "medianRent": 1850,
+          "note": "Historic district on the West Bank with a ferry to the CBD. Prices around $379K run well under comparable East Bank historic stock, and the levee-protected elevation is some of the best in the city."
+        },
+        {
+          "name": "Little Woods",
+          "medianPrice": 171000,
+          "medianRent": 1650,
+          "note": "New Orleans East single-family at deep-value pricing, about $171K typical. Strong voucher and workforce demand, but carriers scrutinize the housing stock, so get the insurance quote before the offer."
+        }
+      ],
+      "localAngle": {
+        "tag": "STR Rules",
+        "title": "New Orleans took investors out of residential STRs. Buy the double for the lease, not the lockbox.",
+        "body": "The city's residential short-term rental rules under Article 20 of its zoning code, the CZO, allow one permit per city square, award it by lottery when applications exceed the cap, and require a permit holder who lives on site. Non-owner-occupied residential STRs are effectively gone, and the city has not accepted new commercial STR applications since June 8, 2023. The rules keep losing pieces in federal court: in Hignell-Stark v. City of New Orleans, No. 24-30160, decided October 7, 2025, the Fifth Circuit held that limiting permits to natural persons violated equal protection, the second time this litigation has cut into the ordinance. But a court striking one clause does not hand you a permit. As of mid-2026 the lottery, the density cap, and the resident-operator requirement still govern, and enforcement is real. The honest way to buy New Orleans is to underwrite the property as a long-term or 30-day-plus furnished rental on the appraiser's market rent, and treat any future STR path as unpriced option value. If a listing is marketed on STR income in a residential zone, the income is not real for qualifying, and DSCR lenders will not use it. Your matched specialist will structure the file on the lease the property can legally sign today."
+      },
+      "programFit": [
+        "standard-dscr",
+        "portfolio-dscr",
+        "bridge-to-dscr",
+        "no-ratio-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "Shotgun double (2-unit)",
+        "neighborhood": "Gentilly Terrace",
+        "purchasePrice": 300000,
+        "downPaymentPct": 25,
+        "downPayment": 75000,
+        "loanAmount": 225000,
+        "loanType": "30-Year Fixed DSCR",
+        "interestOnly": false,
+        "monthlyPI": 1573,
+        "monthlyTax": 330,
+        "monthlyInsurance": 560,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 2463,
+        "monthlyRent": 2800,
+        "dscr": 1.14,
+        "monthlyCashFlow": 337,
+        "specialistFocus": [
+          "Qualified on both units at the appraiser's market rent, $1,400 a side, instead of the single-family figure that ignores half the income",
+          "Underwrote the full non-homestead tax bill at 131.99 mills on the purchase price, not the seller's homestead-exempt bill on the listing",
+          "Priced a two-unit landlord policy with the wind deductible spelled out in dollars, because a percentage deductible on a $300K double is a five-figure retention"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Can I run an Airbnb in New Orleans as an investor?",
+          "answer": "In residential zones, effectively no. Residential STR permits require an on-site resident permit holder, are capped at one per square, and go to lottery when oversubscribed. The city also stopped accepting new commercial STR applications in June 2023. Federal courts keep trimming the ordinance, most recently in October 2025 on the natural-persons rule, but the lottery and density caps still stand. Underwrite every purchase as a long-term rental, and treat STR income as zero until the city issues you a permit."
+        },
+        {
+          "question": "Why do New Orleans sellers' tax bills look so much lower than what I will pay?",
+          "answer": "Louisiana assesses homes at 10% of market value, and owner-occupants get the first $75,000 of value exempted. Investors get no homestead exemption, and a sale resets value to what you paid. At 131.99 mills on the East Bank, a $300,000 purchase runs roughly $3,960 a year, while the seller's listed bill might show half that. Orleans Parish also reassesses on a quadrennial cycle, and the 2024 cycle raised average values 23%, so budget the full unabated bill from day one."
+        },
+        {
+          "question": "Do shotgun doubles appraise and underwrite differently than houses?",
+          "answer": "Yes, in your favor. A double is a 2-unit property, so DSCR lenders qualify it on the combined market rent of both units from the appraiser's rent schedule. That is usually the difference between a 0.9 file and a 1.1 file in this city. The tradeoffs: two-unit landlord insurance costs more, some lenders price 2-4 unit properties slightly wider, and condition matters because much of the double stock is a century old. A renovated double with a young roof is the cleanest New Orleans file there is."
+        },
+        {
+          "question": "How bad is insurance really in New Orleans?",
+          "answer": "Plan on it being the biggest line after the mortgage. A $300K dwelling averages about $6,083 a year citywide as of 2026, more for older roofs and two-unit buildings, plus flood insurance depending on the zone. The market is improving: statewide premium increases went flat in early 2026 after years of double-digit jumps, new carriers entered, and a fortified roof earns filed discounts. But underwriting a New Orleans deal at a national insurance average is how out-of-state buyers end up cash flow negative."
+        },
+        {
+          "question": "Prices fell 1.9% this year. Is that a problem or the entry?",
+          "answer": "It is the entry if you buy income, and a problem if you buy appreciation. New Orleans values drifted down while single-family rents rose about 1.3%, which quietly improves the ratio for new money. The city's long-term risks, insurance cost and slow population bleed, are real and priced in at $245K typical. Doubles bought at today's basis on real rents carry themselves. The buyers who got hurt here bought at 2022 prices with 2022 insurance assumptions, not today's."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index (ZHVI), New Orleans typical home value and YoY, July 2026",
+        "Zillow Observed Rent Index (ZORI), single-family, New Orleans-Metairie metro, and citywide blend, July 2026",
+        "US Census ACS 2024 1-year, New Orleans city rental vacancy",
+        "Bureau of Governmental Research, Orleans Parish 2025 total millage 131.99 mills East Bank, 2025",
+        "Insure.com city premium data, New Orleans $300K dwelling at $6,083 per year, 2026 (landlord figure derived, est.)",
+        "US Fifth Circuit, Hignell-Stark v. City of New Orleans No. 24-30160, October 2025"
+      ]
+    },
+    {
+      "city": "Baton Rouge",
+      "slug": "baton-rouge",
+      "county": "East Baton Rouge Parish",
+      "metro": "Baton Rouge",
+      "hook": "Baton Rouge is one of the few Louisiana markets where the median clears 1.0, with single-family rents near $1,867 against a $233K typical home. The 16.8% rental vacancy is what underwriting actually argues about.",
+      "metaDescription": "Baton Rouge DSCR loans: the median clears 1.0 on house rents near $1,867, but 16.8% rental vacancy is the real screen. Honest math inside. Get matched today.",
+      "market": {
+        "medianPrice": 233136,
+        "medianRent": 1867,
+        "priceToRent": 10.4,
+        "vacancyRate": 16.8,
+        "yoyPrice": 0.9,
+        "yoyRent": 2.4,
+        "estDSCR": 1.03,
+        "propertyTaxRate": 1.12,
+        "insuranceMonthly": 285
+      },
+      "overview": "Baton Rouge clears the ratio at the median, which is rare in 2026 Louisiana. The typical home runs about $233,100, up 0.9% over the year, metro single-family rents sit near $1,867, and the in-city tax stack is a knowable 111.99 mills, about 1.12% of price for a non-homestead investor. Insurance is real but nothing like the coast. Run the formula and the citywide number lands at 1.03 with 20% down.\n\nNow the honest part. The city's rental vacancy reads 16.8% in the 2024 Census survey, the highest of any big Louisiana city, because the blended market is digesting apartment deliveries while the citywide rent blend sits near $1,377. Houses and apartments are two different markets here: single-family in Sherwood Forest or Shenandoah rents fast to families dodging the apartment stock, while Class B complexes discount. Buy the house, not the headline.\n\nThe map also redrew itself. St. George incorporated in 2024, taking roughly 86,000 residents and a large slice of retail tax base out of city-parish arithmetic, and the two-layer truth is that the southeast quadrant investors like best is now a different city with its own trajectory. Add the LSU machine, 2016-flood scar tissue in lower-lying pockets, and an STR ordinance that actually permits whole-home rentals with registration, and Baton Rouge is the state's most structurable market. It rewards address-level homework.",
+      "regulationBadge": "friendly",
+      "regulationNote": "Louisiana preempts local rent control and East Baton Rouge follows the state's five-day notice eviction framework, while the city's Ordinance 16370 permits whole-home short-term rentals with registration and a lodging tax license, so the regulatory posture is genuinely investor-workable.",
+      "neighborhoods": [
+        {
+          "name": "Mid City",
+          "medianPrice": 236252,
+          "medianRent": 1450,
+          "note": "The walkable urban core between downtown and the lakes, typical values around $236K. Cottages and bungalows rent to young professionals and medical workers, and renovated stock moves quickly."
+        },
+        {
+          "name": "Sherwood Forest",
+          "medianPrice": 242965,
+          "medianRent": 1600,
+          "note": "1970s brick ranches on big lots around $243K. The single-family lease here competes against discounted apartments on price and wins on space and schools, but underwrite the rent conservatively."
+        },
+        {
+          "name": "College Town",
+          "medianPrice": 329087,
+          "medianRent": 2000,
+          "note": "The LSU-adjacent pocket at about $329K, up 4.6% in a year. Game-weekend energy, professor and grad-student tenants, and the strongest whole-home STR fundamentals in the parish under the city's registration regime."
+        },
+        {
+          "name": "Old South Baton Rouge",
+          "medianPrice": 94107,
+          "medianRent": 1100,
+          "note": "Deep-value entry near LSU's north gates, typical values around $94K after an 11.2% jump. Student overflow and workforce demand are real, but so is deferred maintenance. Lender minimum loan amounts come into play down here."
+        },
+        {
+          "name": "Shenandoah",
+          "medianPrice": 333305,
+          "medianRent": 1850,
+          "note": "Family suburb in the southeast quadrant, now inside the new city of St. George. About $333K typical, steady 2.3% growth, and the tenant profile is relocating families who could not win a purchase bid."
+        }
+      ],
+      "localAngle": {
+        "tag": "The St. George Split",
+        "title": "Baton Rouge split into two cities. Your address decides which balance sheet you are on.",
+        "body": "In 2024 the Louisiana Supreme Court cleared the incorporation of St. George, and the rehearing was denied that June, ending a five-year fight. The new city took roughly 86,000 residents in the parish's southeast quadrant, instantly the fifth-largest city in Louisiana, and Baton Rouge officials have publicly put the revenue loss near $50 million over two years. The school question is still live: voters rejected the constitutional amendment a St. George district needed, and East Baton Rouge schools have projected a $100 million hit if a breakaway district ever forms. For an investor this is not politics, it is underwriting. A Shenandoah or Woodlawn rental now sits in a new city with a funded budget and a suburban service model, while legacy Baton Rouge carries the fixed costs of a shrinking tax base, which pressures future millage votes inside the city limits. Neither side is un-investable. The point is that two houses four miles apart are no longer the same bet on services, schools, and future tax loads, and listing data has not caught up to that. Your matched specialist will structure the file on the parish's actual 2025 millage for the specific address, not a citywide average that no longer describes either city."
+      },
+      "programFit": [
+        "standard-dscr",
+        "str-dscr",
+        "interest-only-dscr",
+        "portfolio-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "4-bed / 2-bath SFR (registered STR)",
+        "neighborhood": "College Town",
+        "purchasePrice": 330000,
+        "downPaymentPct": 25,
+        "downPayment": 82500,
+        "loanAmount": 247500,
+        "loanType": "30-Year Fixed DSCR, STR Income Qualified",
+        "interestOnly": false,
+        "monthlyPI": 1730,
+        "monthlyTax": 308,
+        "monthlyInsurance": 400,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 2438,
+        "monthlyRent": 3400,
+        "dscr": 1.39,
+        "monthlyCashFlow": 962,
+        "specialistFocus": [
+          "Qualified on projected short-term rental income near LSU because Baton Rouge's Ordinance 16370 permits whole-home STRs with registration and a lodging tax license, so the income is legal and documentable",
+          "Structured the reserve requirement around football-season concentration, seven home weekends carrying an outsized share of annual revenue",
+          "Underwrote the full non-homestead 111.99-mill tax bill and an STR-endorsed landlord policy instead of the owner-occupant numbers the listing implied"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Is Baton Rouge actually legal for Airbnb-style rentals?",
+          "answer": "Yes, and that makes it the exception among big Louisiana cities. Ordinance 16370, in force since August 2023, regulates rather than bans: whole-home short-term rentals are permitted citywide with registration and a lodging tax license, subject to occupancy limits of two per bedroom and parking rules, and three adjudicated violations in a year can cost the permit. Check subdivision covenants, which can privately prohibit STRs. Compare that with New Orleans, where investor STRs in residential zones are effectively gone, and the value of this ordinance is obvious."
+        },
+        {
+          "question": "Why is rental vacancy 16.8% and should that scare me off houses?",
+          "answer": "The 16.8% figure is the whole rental market, and it is being dragged by apartment deliveries competing with concessions. The single-family market behaves differently: metro single-family rents rose about 2.4% over the year to roughly $1,867 while the citywide blend, weighted toward apartments, sits near $1,377. The honest read: a generic unit faces real competition, a well-located house does not. Underwrite house rents from the appraiser's single-family comps and assume longer lease-up for anything that competes with a new complex on amenities."
+        },
+        {
+          "question": "What does the 2016 flood mean for buying here in 2026?",
+          "answer": "It means the flood map is your first diligence document, not your last. The August 2016 storm flooded tens of thousands of homes across the parish, including many outside mapped high-risk zones. A decade later the practical effects are calmer: rebuilt stock, better drainage data, and sellers who disclose. But lenders will require flood coverage in special hazard zones, and a policy on a slab home in a low pocket changes the DSCR math. Price the flood policy during your offer window, and treat an elevation certificate as a negotiating asset."
+        },
+        {
+          "question": "Do LSU student rentals work for a DSCR loan?",
+          "answer": "They can, with the right structure. DSCR lenders qualify on the appraiser's market rent for the property, not on a by-the-bedroom student stack, so a house near campus should carry the ratio on its whole-house rent alone. Purpose-built student housing supply south of campus is heavy and availability is tight only in the best pockets, so the durable play is houses in College Town, Southdowns, and the Nicholson corridor that rent to grad students, staff, and faculty. The by-the-bed premium is upside, not the qualifying basis."
+        },
+        {
+          "question": "Which taxes do I actually pay as an investor in East Baton Rouge?",
+          "answer": "Inside the city of Baton Rouge the 2025 stack totals 111.99 mills: 50.60 parish, 43.45 school, and 17.94 city. Louisiana assesses at 10% of market value, so that is about 1.12% of your purchase price with no homestead exemption for investors. A $233,000 house runs roughly $2,610 a year. Addresses in St. George, Zachary, Central, or unincorporated pockets carry different stacks, sometimes with fire and other district millages, so the exact address decides the bill. Pull the assessor's millage sheet before you write the offer."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index (ZHVI), Baton Rouge typical home value and YoY, July 2026",
+        "Zillow Observed Rent Index (ZORI), single-family, Baton Rouge metro, and citywide blend, July 2026",
+        "US Census ACS 2024 1-year, Baton Rouge city rental vacancy",
+        "East Baton Rouge Parish Assessor, 2025 millage rates, city total 111.99 mills, 2025",
+        "Insure.com and Chabert Insurance market data, Baton Rouge premiums, 2026 (landlord figure derived, est.)",
+        "Louisiana Supreme Court rulings and WBRZ/WRKF reporting on St. George incorporation and school split, April 2026"
+      ]
+    },
+    {
+      "city": "Shreveport",
+      "slug": "shreveport",
+      "county": "Caddo Parish",
+      "metro": "Shreveport-Bossier City",
+      "hook": "A $147K typical home and metro single-family rents near $1,456 put Shreveport around 1.20 at the median, among the strongest ratios in the South. The toll sits on the tax line, not the insurance line.",
+      "metaDescription": "Shreveport DSCR deals pencil near 1.20 at a $147K typical value, with the state's highest big-city tax millage as the toll. Full math inside. Get matched today.",
+      "market": {
+        "medianPrice": 146721,
+        "medianRent": 1456,
+        "priceToRent": 8.4,
+        "vacancyRate": 10.5,
+        "yoyPrice": 3.1,
+        "yoyRent": 4.1,
+        "estDSCR": 1.2,
+        "propertyTaxRate": 1.59,
+        "insuranceMonthly": 195
+      },
+      "overview": "Shreveport is Louisiana's Memphis: the median genuinely clears, and everything that decides the deal sits downstream of the ratio. The typical home costs about $146,700, up 3.1% over the year, metro single-family rents rose 4.1% to roughly $1,456, and insurance is the cheapest of any major Louisiana market because hurricanes arrive here as rain, not wind fields. Run the citywide math at 20% down and it reads about 1.20.\n\nThe downstream toll is property tax. Combined city, parish, and school millage inside Shreveport has run above 160 mills, the heaviest big-city stack in the state, and actual-records data puts the median effective bill near 1.59% of value. Louisiana's 10% assessment with no homestead break for investors means the pro forma tax line from a turnkey seller is usually understated. On a $147K house that difference is real money against a $1,456 rent.\n\nThe second toll is stock selection. Wholesaler lists are full of sub-$40K houses in Queensborough and Allendale that no DSCR lender will finance, because minimum loan amounts and condition standards exist. The investable city is the middle: Broadmoor, Caddo Heights, South Highlands, and the University Terrace pockets, where $110K to $240K buys brick stock that rents to hospital, Barksdale-adjacent, and logistics tenants. Population drifts down slowly, which is priced in. Buy the block, underwrite the full tax bill, and the yield is honest.",
+      "regulationBadge": "friendly",
+      "regulationNote": "Louisiana's five-day notice to vacate under Code of Civil Procedure article 4701 applies with no rent control anywhere in the state, and Shreveport even maintains a straightforward STR permit system rather than a ban, so regulation is not the risk here.",
+      "neighborhoods": [
+        {
+          "name": "Broadmoor-Anderson Island",
+          "medianPrice": 183040,
+          "medianRent": 1400,
+          "note": "The stable middle of the city, about $183K typical and up 2.4%. Brick ranches, mature trees, and tenants who stay. The default first Shreveport buy."
+        },
+        {
+          "name": "Caddo Heights-South Highlands",
+          "medianPrice": 113944,
+          "medianRent": 1200,
+          "note": "Workforce rental country around $114K. Rent-to-price is excellent on paper. The filter is condition and roofs, because hail is the local insurance event and carriers know every roof's age."
+        },
+        {
+          "name": "Highland",
+          "medianPrice": 81722,
+          "medianRent": 1000,
+          "note": "Historic stock near the medical district, typical values near $82K after a 7.6% slide. Big houses, big character, big renovation budgets. Works for BRRRR money that respects the block-by-block reality."
+        },
+        {
+          "name": "Springlake-University Terrace",
+          "medianPrice": 241003,
+          "medianRent": 1600,
+          "note": "The premium tier near LSUS and the country club at about $241K, up 3.8%. Lower yield, better tenant durability, and the easiest appraisals in the city."
+        },
+        {
+          "name": "Queensborough",
+          "medianPrice": 34832,
+          "medianRent": 850,
+          "note": "The $35K tier that fills out-of-state spreadsheets. Most DSCR lenders will not go here: loan minimums, condition standards, and collections reality all bite. Shown so you know what the cheap lists are actually selling."
+        }
+      ],
+      "localAngle": {
+        "tag": "Tax Math",
+        "title": "The ratio clears at 1.20. Then Caddo Parish sends the real tax bill.",
+        "body": "Shreveport's problem is not demand and it is not insurance. It is that the city carries the heaviest major-city property tax stack in Louisiana. The Caddo Parish Assessor's published municipal totals for Shreveport have combined parish, school, and city levies above 160 mills, with the parish-wide school portion alone near 74 mills, and current actual-records medians land near 1.59% of market value. Louisiana assesses residential property at 10% of fair market value, and the homestead exemption that shelters the first $75,000 of an owner-occupant's value does not apply to your rental. That two-layer structure is why the tax line on a seller's pro forma is so often fiction: they are showing you a homesteaded bill, sometimes on a stale assessed value, while you will pay the full stack on something close to your purchase price. On a $120,000 rental that is roughly $1,900 a year, about 13% of gross rent at $1,250 a month. The compensation is everywhere else: north Louisiana insurance runs less than half the coastal load, entry prices are among the lowest in the country for real brick housing, and rents rose 4.1% this year. Your matched specialist will underwrite the full unabated Caddo stack from day one, because a Shreveport file that pencils on the real tax bill is a genuinely strong file."
+      },
+      "programFit": [
+        "standard-dscr",
+        "portfolio-dscr",
+        "bridge-to-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 2-bath SFR",
+        "neighborhood": "Caddo Heights-South Highlands",
+        "purchasePrice": 120000,
+        "downPaymentPct": 25,
+        "downPayment": 30000,
+        "loanAmount": 90000,
+        "loanType": "30-Year Fixed DSCR",
+        "interestOnly": false,
+        "monthlyPI": 629,
+        "monthlyTax": 159,
+        "monthlyInsurance": 190,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 978,
+        "monthlyRent": 1250,
+        "dscr": 1.28,
+        "monthlyCashFlow": 272,
+        "specialistFocus": [
+          "Matched the file to a lender whose minimum loan amount accepts a $90,000 balance, the quiet reason many cheap Shreveport deals die before underwriting",
+          "Underwrote the combined city, parish, and school millage on the actual purchase price rather than the homesteaded figure on the seller's bill",
+          "Priced a hail-exposed landlord policy with the roof's age documented, because north Louisiana carriers rate on the roof before anything else"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Shreveport houses on wholesaler lists cost $35K. What is the catch?",
+          "answer": "The catch is that most of them cannot be financed and many should not be owned. Queensborough's typical value is about $35K, and at that price DSCR lender minimum loan amounts, condition standards, and appraisal repair calls all fail the file. Add collections-heavy tenancy and insurance carriers who walk from old roofs, and the paper yield evaporates. The financeable city starts around $80K to $110K in Caddo Heights and Highland, where real tenants pay $1,000 to $1,250 and a lender will actually close."
+        },
+        {
+          "question": "Why are Shreveport property taxes so high, and what do I actually pay?",
+          "answer": "The city stacks a parish-wide school levy near 74 mills on top of city and parish government millages, pushing the in-city total above 160 mills, the heaviest of Louisiana's big cities. As an investor you get no homestead exemption, so at 10% assessment you pay roughly 1.59% of market value. On a $147,000 house that is about $2,330 a year. The math still works because entry prices and insurance are so low, but only if you underwrite the real bill instead of the seller's homesteaded one."
+        },
+        {
+          "question": "Is Shreveport's population decline a dealbreaker for rentals?",
+          "answer": "It is a constraint, not a dealbreaker, and it is priced in at $147K typical values. The metro has bled residents slowly for a decade, yet single-family rents rose about 4.1% this year and the city's rental vacancy sits near 10.5%, because household formation and the shift away from distressed stock keep quality rentals occupied. The losers in a shrinking market are the worst blocks and the worst condition tiers. Middle-tier brick in Broadmoor or South Highlands has held demand through the entire decline."
+        },
+        {
+          "question": "How does Shreveport insurance compare with south Louisiana?",
+          "answer": "It is the cheapest major-market insurance in the state, commonly around $2,800 a year on a $300K dwelling versus $6,000 or more in New Orleans, because the hurricane wind field rarely reaches this far north at damaging strength. The local perils are hail and straight-line wind, so carriers rate heavily on roof age and may impose separate wind-hail deductibles. On a $120K rental a realistic landlord policy runs near $2,300 a year. It is the one line where Shreveport beats almost everywhere south of I-20."
+        },
+        {
+          "question": "What actually drives tenant demand in Shreveport?",
+          "answer": "Health care first: the Ochsner LSU Health system and the medical district anchor thousands of jobs near Highland and South Highlands. Barksdale Air Force Base sits across the river in Bossier City and spills BAH-backed tenants into both cities. Logistics, the casinos, and LSUS fill in the rest. None of it is boom-time growth, which is exactly why the market rewards buying rent-ready stock near the anchors rather than speculating on appreciation that history says not to expect."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index (ZHVI), Shreveport typical home value and YoY, July 2026",
+        "Zillow Observed Rent Index (ZORI), single-family, Shreveport metro, July 2026",
+        "US Census ACS 2024 1-year, Shreveport city rental vacancy",
+        "Caddo Parish Assessor municipal millage totals and Ownwell actual-records effective rate, 2025",
+        "Insuranceopedia and Insure.com Louisiana city premium data, Shreveport as cheapest major market, 2026 (landlord figure derived, est.)"
+      ]
+    },
+    {
+      "city": "Metairie",
+      "slug": "metairie",
+      "county": "Jefferson Parish",
+      "metro": "New Orleans-Metairie",
+      "hook": "Metairie values rose 7.4% in a year to $334K while metro single-family rents held near $1,925. This is Jefferson Parish's quality suburb: you are buying the tenant and the levee system, not the ratio.",
+      "metaDescription": "Metairie DSCR loans: values up 7.4% in a year while ratio math lands near 0.72 at 20% down. See how investors structure the file anyway. Get matched today.",
+      "market": {
+        "medianPrice": 334136,
+        "medianRent": 1925,
+        "priceToRent": 14.5,
+        "vacancyRate": 8.1,
+        "yoyPrice": 7.4,
+        "yoyRent": 1.3,
+        "estDSCR": 0.72,
+        "propertyTaxRate": 1.18,
+        "insuranceMonthly": 460
+      },
+      "overview": "Metairie is where New Orleans money moves when it wants the metro without the city, and the 2026 numbers show it: the typical home jumped 7.4% in a year to about $334,100 while the city of New Orleans fell 1.9%. That divergence is the whole thesis. Unincorporated Jefferson Parish offers drained, levee-protected, post-Katrina-hardened suburbia ten minutes off the parkway, and both tenants and buyers pay up for it.\n\nThe ratio math is honest and hard. At 20% down against metro single-family rents near $1,925, the areawide number reads about 0.72, the lowest in this file. Rents on actual Metairie houses run higher than the metro figure, $2,100 to $2,400 for a renovated 3/2 in Airline Park or Bissonet, but nothing about this suburb pencils like Shreveport. Jefferson's millage stack is moderate, around 118 mills as the parish default with ward variation, though investors pay it on full value with no homestead break. Insurance is coastal-metro real, roughly $5,500 a year on the typical house for a landlord policy.\n\nSo why is Metairie in a DSCR file at all? Because vacancy at the parish level runs 8.1%, tenant quality is the best in the region, Fat City's rezoning keeps densifying the core, and the levee system held in the worst storms of the modern era. Structured with 30% down or interest-only, the numbers close. This is the appreciation-and-durability allocation in a Louisiana portfolio, not the yield line.",
+      "regulationBadge": "friendly",
+      "regulationNote": "Jefferson Parish banned short-term rentals in unincorporated residential zones under Ordinance No. 25513 back in 2018, but for the long-term landlord the parish is classic landlord-friendly Louisiana: five-day notice to vacate, no rent control, fast parish courts.",
+      "neighborhoods": [
+        {
+          "name": "Airline Park",
+          "medianPrice": 287380,
+          "medianRent": 1900,
+          "note": "Post-war brick ranches on slab, about $287K and up 10.1% in a year. The entry tier for Metairie proper, renting to families chasing the unofficial school zones."
+        },
+        {
+          "name": "Bissonet",
+          "medianPrice": 278107,
+          "medianRent": 1850,
+          "note": "Quiet grid west of Transcontinental near $278K, up 7.4%. Same playbook as Airline Park with slightly older stock. Roof age and panel upgrades decide the insurance quote."
+        },
+        {
+          "name": "Clearview corridor",
+          "medianPrice": 302519,
+          "medianRent": 1950,
+          "note": "Central Metairie around the Clearview retail spine, roughly $303K, up 8.2%. Ochsner's main campus sits at the river end, and medical tenants are the dependable rent check here."
+        },
+        {
+          "name": "Bucktown",
+          "medianPrice": 380461,
+          "medianRent": 2300,
+          "note": "The lakefront pocket at about $380K, up 6.5%. Highest rents and strongest owner demand in flood-hardened stock near the lake levee. Thin inventory, so patience is part of the price."
+        }
+      ],
+      "localAngle": {
+        "tag": "Suburb Math",
+        "title": "A 0.72 median ratio, and Metairie is still worth structuring. Here is the honest case.",
+        "body": "Run Metairie at 20% down and the areawide math reads 0.72, the weakest in this file. A cheaper market investor would walk. Here is what that number does not capture. First, the rent side is understated for houses: the metro single-family index near $1,925 blends the whole region, while renovated Metairie 3/2s sign at $2,100 to $2,400, and parish-level vacancy of 8.1% runs materially tighter than New Orleans across the line. Second, the risk side is genuinely different. Unincorporated Jefferson sits behind the post-Katrina hurricane risk reduction system with pump capacity that has been tested by real events, and that shows up in both insurance appetite and tenant willingness to pay. Third, the exit is the deepest in the region, because Metairie is where metro owner-occupants actually want to buy, which is what a 7.4% annual value gain against a declining core city is telling you. The structural answer is equity or interest-only: at 30% down with an interest-only period, a $320,000 Airline Park house renting at $2,250 carries itself, and the position compounds through appreciation and rent growth rather than day-one spread. One warning: short-term rentals are banned in unincorporated residential zones under Parish Ordinance No. 25513, so none of this math gets rescued by Airbnb. Your matched specialist will structure the down payment and amortization so the file clears on the real lease."
+      },
+      "programFit": [
+        "standard-dscr",
+        "interest-only-dscr",
+        "portfolio-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 2-bath SFR",
+        "neighborhood": "Airline Park",
+        "purchasePrice": 320000,
+        "downPaymentPct": 30,
+        "downPayment": 96000,
+        "loanAmount": 224000,
+        "loanType": "30-Year Fixed DSCR, Interest-Only",
+        "interestOnly": true,
+        "monthlyPI": 1400,
+        "monthlyTax": 315,
+        "monthlyInsurance": 450,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 2165,
+        "monthlyRent": 2250,
+        "dscr": 1.04,
+        "monthlyCashFlow": 85,
+        "specialistFocus": [
+          "Structured 30% down with an interest-only period because the areawide ratio at 20% down reads 0.72, and this is what carries a quality-suburb file past 1.0",
+          "Qualified on the appraiser's single-family market rent of $2,250, documented against Airline Park leases rather than the metro blend",
+          "Underwrote Jefferson Parish's ward millage on full assessed value with no homestead break, plus a named-storm deductible quoted in dollars before the offer went in"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Why would anyone buy a rental at a 0.72 DSCR market ratio?",
+          "answer": "Nobody buys the areawide ratio; they buy a specific house with structure. Actual Metairie house rents run $2,100 to $2,400 against the $1,925 metro single-family figure, and at 30% down or with an interest-only period the file clears 1.0. What you get for accepting thin day-one spread: 7.4% annual value growth while New Orleans declined, 8.1% parish vacancy, the region's best tenant pool, and the deepest resale demand in the metro. It is a durability allocation. If you need maximum monthly spread, buy Shreveport or Monroe instead."
+        },
+        {
+          "question": "Can I run a short-term rental in Metairie?",
+          "answer": "No, not in the residential zones where you would want to buy. Jefferson Parish Ordinance No. 25513, adopted in 2018, prohibits rentals of under 30 days in residential and industrial zoning districts across unincorporated Jefferson, which is what Metairie is. STRs survive only in commercial and mixed-use districts like stretches of Metairie Road. Furnished 30-day-plus corporate and medical stays fall outside the ban entirely, and Ochsner's campus generates steady demand for exactly that. Underwrite on a long-term lease and treat mid-term premiums as upside."
+        },
+        {
+          "question": "How does Metairie hold up in hurricanes compared to New Orleans?",
+          "answer": "Metairie sits inside the same federal hurricane risk reduction system as the East Bank, behind lake levees and drained by Jefferson Parish's pump network, and the post-Katrina rebuild of that system has been tested repeatedly, including through Ida in 2021, without levee failure flooding. Street flooding in heavy rain remains a real nuisance and low slab elevations still matter for insurance. Carriers price the parish as coastal metro, roughly $5,000 to $6,000 a year on typical landlord policies, but appetite here is better than in the city."
+        },
+        {
+          "question": "What taxes does an investor actually pay in Jefferson Parish?",
+          "answer": "Jefferson's parish-default stack runs about 118 mills, with ward-level rates ranging roughly between 100 and 151 mills after the 2024 reassessment cycle. At Louisiana's 10% assessment that means an investor pays around 1.0% to 1.5% of market value depending on ward, with no homestead exemption. On a $320,000 Metairie house budget roughly $3,800 a year at the default stack. The seller's bill usually reflects the $75,000 homestead shelter, so recompute rather than copy it."
+        },
+        {
+          "question": "Metairie prices jumped 7.4% in a year. Am I buying a top?",
+          "answer": "The jump is flight-to-quality inside a flat metro, not speculative construction. New Orleans proper fell 1.9% while every core Metairie zip gained, several by 8% to 11%, on effectively zero new single-family supply. That pattern, money crossing the parish line for schools, drainage, and insurance appetite, has run for two decades and accelerated after each storm and each city budget fight. The risk worth respecting is payment math at today's basis, which is why structure matters more than timing here."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index (ZHVI), Metairie typical home value and YoY, July 2026",
+        "Zillow Observed Rent Index (ZORI), single-family, New Orleans-Metairie metro, July 2026 (Metairie house rents est. from zip-level ZORI and market leases)",
+        "US Census ACS 2024 1-year, Jefferson Parish rental vacancy",
+        "Southern Title Louisiana parish millage table, Jefferson default 118.40 mills, and BGR 2024 ward range, 2025",
+        "Jefferson Parish Ordinance No. 25513 (2018) short-term rental zoning ban",
+        "Insure.com New Orleans metro premium data, 2026 (landlord figure derived, est.)"
+      ]
+    },
+    {
+      "city": "Lafayette",
+      "slug": "lafayette",
+      "county": "Lafayette Parish",
+      "metro": "Lafayette",
+      "hook": "Lafayette runs the tightest rental market of Louisiana's big cities, 4.9% vacancy against a $227K typical home. The ratio needs structuring. The demand does not.",
+      "metaDescription": "Lafayette DSCR loans: 4.9% rental vacancy, the tightest of Louisiana's big cities, against a $227K typical home. See which zips pencil. Get matched today.",
+      "market": {
+        "medianPrice": 227080,
+        "medianRent": 1640,
+        "priceToRent": 11.5,
+        "vacancyRate": 4.9,
+        "yoyPrice": 1.9,
+        "yoyRent": 2,
+        "estDSCR": 0.91,
+        "propertyTaxRate": 1.05,
+        "insuranceMonthly": 340
+      },
+      "overview": "Lafayette's headline is boring and its fundamentals are not. The typical home costs about $227,100, up 1.9% over the year, and metro single-family rents rose 2% to roughly $1,640. What separates this market is occupancy: city rental vacancy reads 4.9% in the 2024 Census survey, the tightest of any large Louisiana city, and less than a third of Baton Rouge's figure. Houses here do not sit.\n\nThe economy explains it. The oil-and-gas service sector that once defined Acadiana now produces less than half its old share of output, and what replaced it is a spread of health care, the university, logistics, and a construction pipeline serving the whole region, with the metro forecast to add about 5,300 jobs across 2026 and 2027. Fewer boom wages, far fewer busts. Rents reflect a workforce that is employed, local, and not building itself new houses fast enough.\n\nThe two-layer truth: at 20% down the citywide ratio reads 0.91, so Lafayette is not a spreadsheet slam dunk. The parish tax stack is moderate at roughly 105 mills, about 1.05% of price for an investor with no homestead break, and insurance runs Acadiana-real at around $4,000 a year on the typical house, cheaper than the coast but no bargain. Deals clear through zip selection: the north side prices near $106K with matching rents, the Ridge Road corridor in the west runs $211K, and the 4.9% vacancy does the rest of the work over a hold.",
+      "regulationBadge": "friendly",
+      "regulationNote": "Louisiana's statewide framework applies untouched here: five-day notice to vacate under Code of Civil Procedure article 4701, no rent control anywhere in the state, and Lafayette Consolidated Government adds no investor-hostile layers on top.",
+      "neighborhoods": [
+        {
+          "name": "Northside (70501)",
+          "medianPrice": 106340,
+          "medianRent": 1090,
+          "note": "The value half of the city, typical values near $106K after a 6.4% pullback. Real workforce demand and the best paper yields in Acadiana, with block-by-block condition diligence as the price of entry."
+        },
+        {
+          "name": "Broadmoor (70503)",
+          "medianPrice": 285874,
+          "medianRent": 1550,
+          "note": "Established south-central Lafayette at about $286K, up 3%. Brick ranches, mature streets, and tenants who renew. The default quality hold."
+        },
+        {
+          "name": "West Lafayette-Ridge Road (70506)",
+          "medianPrice": 210883,
+          "medianRent": 1400,
+          "note": "The workhorse middle at roughly $211K. Close to the university and the retail spines, renting steadily to staff, students who grew up, and trade households."
+        },
+        {
+          "name": "River Ranch area (70508)",
+          "medianPrice": 295655,
+          "medianRent": 1700,
+          "note": "The premium south side around $296K zip-wide, with River Ranch itself far above that. Thin yields, durable values, and the strongest resale demand in the parish."
+        }
+      ],
+      "localAngle": {
+        "tag": "Vacancy Edge",
+        "title": "4.9% vacancy is Lafayette's whole argument. Underwrite why it stays tight.",
+        "body": "One number separates Lafayette in this file: 4.9% rental vacancy in the Census bureau's 2024 survey of the city, against 10.8% in New Orleans, 10.5% in Shreveport, and 16.8% in Baton Rouge. Tight occupancy is not an accident here. Acadiana quietly diversified after the mid-2010s oil bust, so the tenant base is hospital systems, the University of Louisiana's 19,000 students and its payroll, regional logistics, and the service economy of a metro that functions as the capital of French Louisiana. Meanwhile nobody overbuilt: the apartment construction wave that swamped Baton Rouge largely skipped Lafayette, and single-family starts have trailed household formation for years. For a DSCR file, low vacancy does three concrete things. It shortens lease-up on turnover, it supports the appraiser's market rent with actual comparables instead of concessions, and it makes the difference between underwriting a 5% vacancy factor honestly versus hoping. The honest limits: at 20% down the citywide ratio reads 0.91, oil remains a cyclical undertow with Gulf drilling soft and layoffs still landing, and insurance at roughly $340 a month on the median house is Acadiana-real. This is a market where the lease performs and the entry math needs help, so the play is 25% to 30% down on mid-tier stock near the anchors. Your matched specialist will structure the file against documented Lafayette rents, where the comps are strong enough to carry it."
+      },
+      "programFit": [
+        "standard-dscr",
+        "interest-only-dscr",
+        "portfolio-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 2-bath SFR",
+        "neighborhood": "West Lafayette-Ridge Road (70506)",
+        "purchasePrice": 215000,
+        "downPaymentPct": 25,
+        "downPayment": 53750,
+        "loanAmount": 161250,
+        "loanType": "30-Year Fixed DSCR",
+        "interestOnly": false,
+        "monthlyPI": 1127,
+        "monthlyTax": 188,
+        "monthlyInsurance": 330,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 1645,
+        "monthlyRent": 1700,
+        "dscr": 1.03,
+        "monthlyCashFlow": 55,
+        "specialistFocus": [
+          "Qualified on the appraiser's market rent backed by tight comps, which 4.9% citywide vacancy makes unusually defensible in this metro",
+          "Underwrote the full non-homestead parish stack near 105 mills on the purchase price instead of the seller's homesteaded bill",
+          "Priced Acadiana wind exposure with a dollar-stated deductible, keeping the carrier's named-storm retention out of surprise territory"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Is Lafayette still an oil town I should be nervous about?",
+          "answer": "It is an oil-influenced town, no longer an oil-dependent one. Energy now produces less than half the share of local output it did before the mid-2010s bust, and the metro is forecast to add about 5,300 jobs across 2026 and 2027 even with Gulf drilling soft and service-sector layoffs still landing. Health care, the university, and logistics carry the payroll now. A crude crash would bruise Lafayette, not break it, which is a fundamentally different risk than the single-industry exposure of twenty years ago."
+        },
+        {
+          "question": "Why is Lafayette's vacancy so much lower than other Louisiana cities?",
+          "answer": "Two reasons: nobody overbuilt, and the tenant base is local and employed. The apartment supply wave that pushed Baton Rouge's rental vacancy to 16.8% mostly skipped Lafayette, and single-family construction has trailed household formation for years. Demand comes off hospital systems, UL Lafayette, and the trades rather than transient boom labor. The result is 4.9% city rental vacancy in the 2024 Census survey. For a landlord that means faster turns, honest comps, and rent growth that arrives without drama."
+        },
+        {
+          "question": "Which parts of Lafayette actually work for a DSCR purchase?",
+          "answer": "The middle. The Ridge Road corridor and Broadmoor tiers, roughly $180K to $290K, rent between $1,400 and $1,600 to durable households and appraise cleanly, landing files at 1.0 to 1.1 with 25% down. The north side prices near $106K with $1,000-plus rents and the best spreads, but condition and block selection decide everything there. River Ranch and the far south side are appreciation holds where the ratio math needs 30% down or interest-only structure. Buy the tier that matches the job you need the property to do."
+        },
+        {
+          "question": "What should I budget for insurance in Lafayette?",
+          "answer": "Plan on roughly $340 a month for a landlord policy at the $227K typical value, about $4,000 a year. Lafayette sits far enough inland that it avoids the worst coastal wind pricing, but Acadiana still catches hurricane remnants, so carriers apply named-storm deductibles and rate on roof age. The statewide market has calmed, with premium increases essentially flat in early 2026 and new carriers writing, and a fortified roof earns filed discounts. Quote the specific house before you offer. Roof year moves these numbers hundreds of dollars."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index (ZHVI), Lafayette typical home value and zip-level values, July 2026",
+        "Zillow Observed Rent Index (ZORI), single-family, Lafayette metro, and zip-level rents, July 2026",
+        "US Census ACS 2024 1-year, Lafayette city rental vacancy",
+        "Southern Title Louisiana parish millage table, Lafayette default 105.20 mills, 2025 (investor rate derived)",
+        "Louisiana Economic Forecast 2026-2027, Lafayette MSA job projections, 2026",
+        "Louisiana homeowners premium reporting, Acadiana figures, 2026 (landlord figure derived, est.)"
+      ]
+    },
+    {
+      "city": "Lake Charles",
+      "slug": "lake-charles",
+      "county": "Calcasieu Parish",
+      "metro": "Lake Charles",
+      "hook": "Six megaprojects are staffing toward 20,500 construction workers around Lake Charles, and metro single-family rents rose 9.7% in a year. Insurance is why the median still reads 0.81.",
+      "metaDescription": "Lake Charles DSCR loans: LNG builds staffing toward 20,500 workers while insurance holds the median near 0.81. The honest numbers inside. Get matched today.",
+      "market": {
+        "medianPrice": 206355,
+        "medianRent": 1416,
+        "priceToRent": 12.1,
+        "vacancyRate": 12.6,
+        "yoyPrice": 2.4,
+        "yoyRent": 9.7,
+        "estDSCR": 0.81,
+        "propertyTaxRate": 1.05,
+        "insuranceMonthly": 420
+      },
+      "overview": "Lake Charles is running the strangest experiment in American rental economics: a demand shock landing on a housing stock that two hurricanes tried to erase. Laura and Delta hit six weeks apart in 2020, and the rebuild is still visible in the 12.6% rental vacancy the five-year Census window records. Now the LNG buildout has arrived. With Venture Global's CP2 terminal under construction after federal approval and first cargoes targeted for late 2026 into 2027, the region's concurrent megaprojects are expected to employ up to 20,500 construction workers at peak. Metro single-family rents rose 9.7% over the year to about $1,416, and that is the restrained number: zip-level blends jumped 11% to 27%, which we read as listing-mix noise on top of a real surge.\n\nThe typical home costs about $206,400, up 2.4%. The tax stack is Calcasieu-moderate near 105 mills, about 1.05% of price for a non-homestead investor. Then comes the line that defines this market: insurance. Southwest Louisiana carried the worst of the state's carrier failures after 2020, and a landlord policy on the typical house still runs around $5,000 a year even as the statewide market stabilizes. Run the formula and the median reads 0.81 at 20% down.\n\nThe honest play: buy renovated post-2020 stock, rent into workforce demand, and underwrite the lease at pre-surge rents so the file survives the construction cycle ending. The upside cycle is real. So is its expiration date.",
+      "regulationBadge": "friendly",
+      "regulationNote": "Calcasieu Parish adds no rent regulation on top of Louisiana's landlord-friendly baseline, so the operating risks here are physical and financial, wind deductibles, flood zones, and cyclical workforce demand, not legal.",
+      "neighborhoods": [
+        {
+          "name": "Downtown-Charpentier District (70601)",
+          "medianPrice": 103062,
+          "medianRent": 1056,
+          "note": "The historic core, typical values near $103K and still 5.3% down over the year. Storm-scarred Victorians and workforce cottages. BRRRR territory where the renovated product rents instantly."
+        },
+        {
+          "name": "South Lake Charles (70605)",
+          "medianPrice": 273937,
+          "medianRent": 1440,
+          "note": "The established quality tier around $274K. Rebuilt roofs, better elevations, and the tenant pool of plant supervisors and medical staff. The default long-hold zip."
+        },
+        {
+          "name": "McNeese area (70607)",
+          "medianPrice": 202923,
+          "medianRent": 1337,
+          "note": "Southeast Lake Charles around the university at roughly $203K, up 2%. Rents rose hard this year. Workforce and student demand overlap here, and post-2020 renovated stock is the product to own."
+        },
+        {
+          "name": "Moss Bluff (70611)",
+          "medianPrice": 258454,
+          "medianRent": 1268,
+          "note": "The north-of-town suburb at about $258K, up 3.1%. Families and plant workers who want out of the surge zone. Slightly gentler insurance than the lakefront zips, and steady rather than spectacular rents."
+        }
+      ],
+      "localAngle": {
+        "tag": "Insurance vs LNG",
+        "title": "The LNG boom pays the rent. Insurance decides whether you keep it.",
+        "body": "Both halves of the Lake Charles story are true at once, and a file only works if it prices both. The demand half: Venture Global's CP2 export terminal broke ground after its 2025 federal approval, Woodside's project and other regional builds are ramping in parallel, and peak staffing across the concurrent megaprojects is projected near 20,500 construction workers in late 2026 and early 2027, with CP2 alone accounting for several thousand. Those workers rent, and metro single-family rents rose 9.7% in a year. The cost half: southwest Louisiana was the epicenter of the state's insurance collapse after Laura and Delta, with a dozen carrier insolvencies statewide, and it remains the hardest region to place. The state's repair machinery is genuinely working now, the Insure Louisiana Incentive Program seeded new carriers that have written thousands of policies, Louisiana Citizens is pushing policies back to private paper with depopulation rounds dated April 1 and December 1, 2026, the statewide Citizens assessment ended in April 2025, and the 10% Citizens surcharge is waived on new and renewal policies since January 1, 2025. Premiums have stopped climbing. They have not come home: a typical landlord policy here still runs near $5,000 a year, which is why the citywide ratio reads 0.81 rather than what the rent growth implies. Your matched specialist will underwrite the lease at pre-surge market rent and the insurance at a real quote, so the deal survives both the boom ending and the premium staying."
+      },
+      "programFit": [
+        "standard-dscr",
+        "bridge-to-dscr",
+        "no-ratio-dscr"
+      ],
+      "dealExample": {
+        "label": "BRRRR Refinance",
+        "propertyType": "3-bed / 2-bath SFR (renovated post-2020)",
+        "neighborhood": "McNeese area (70607)",
+        "purchasePrice": 210000,
+        "downPaymentPct": 25,
+        "downPayment": 52500,
+        "loanAmount": 157500,
+        "loanType": "30-Year Fixed DSCR Cash-Out",
+        "interestOnly": false,
+        "monthlyPI": 1101,
+        "monthlyTax": 184,
+        "monthlyInsurance": 430,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 1715,
+        "monthlyRent": 1750,
+        "dscr": 1.02,
+        "monthlyCashFlow": 35,
+        "specialistFocus": [
+          "Structured the refinance on the post-renovation appraisal, the classic Lake Charles play of buying storm-tired stock and returning it to the rental pool",
+          "Qualified on a documented market lease rather than the surge-rate figures construction workers are temporarily paying, so the ratio holds after the LNG peak passes",
+          "Underwrote a wind-and-hail policy with the named-storm deductible stated in dollars, plus flood determination up front, the two lines that break southwest Louisiana files"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Are the 20%-plus rent jumps I see quoted for Lake Charles real?",
+          "answer": "Partly. Zip-level blended rent indexes jumped 11% to 27% over the year, but those swings ride on small samples and a listing mix that shifted toward renovated stock, so we treat them as noise on top of a real move. The restrained number is the metro single-family index, up 9.7% to about $1,416, and even that reflects a construction-phase demand surge. Underwrite the lease at pre-surge market rent, roughly what the property would have signed in 2024, and let any surge premium be margin, not the qualifying basis."
+        },
+        {
+          "question": "What happens to my rental when LNG construction ends?",
+          "answer": "Construction headcount is cyclical and the peak near 20,500 workers is projected for late 2026 into 2027, so plan for the other side. The permanent operating jobs number in the hundreds per terminal, not thousands, and the workforce wave will recede the way it always does in plant country. The defense is basis and product: renovated houses bought at Lake Charles prices, rented at rents a nurse or plant operator pays, stay occupied after the temporary premium leaves. Deals that only pencil at surge rents are the ones that give the market back."
+        },
+        {
+          "question": "How bad is insurance in Lake Charles really?",
+          "answer": "It is the deal-defining line. Southwest Louisiana absorbed the worst of the post-2020 carrier failures, and a typical landlord policy on the $206K median house still runs near $5,000 a year, with named-storm deductibles of 2% to 5% of dwelling value on top. The trend is finally right: statewide increases went flat in 2026, new carriers seeded by the Insure Louisiana Incentive Program are writing here, and Citizens keeps depopulating to private paper. Get the real quote and the flood determination before you write the offer, not after."
+        },
+        {
+          "question": "Is the hurricane rebuild actually finished?",
+          "answer": "No, and that is where the opportunity still lives. Six years after Laura and Delta, the five-year Census window still shows 12.6% rental vacancy, downtown zips still carry values near $103K, and storm-tired shells still trade at land-plus prices. The rebuilt product is what the LNG workforce rents, which is why the buy-renovate-refinance loop works here better than anywhere else in the state. The discipline: renovation budgets must include fortified-standard roofs, because that is what carriers will actually price, and what the next storm will test."
+        },
+        {
+          "question": "Does the Fortify Homes grant program help investors here?",
+          "answer": "Directly, usually no, because the state grant lottery is aimed at owner-occupied homes, and the most recent round, 3,000 grants of up to $10,000 funded out of an $80 million 2026 allocation, closed its registration in June 2026. Indirectly, yes. Louisiana requires insurers to file discounts for FORTIFIED roofs, so building to that standard during a renovation, typically a modest premium over a conventional roof replacement, earns a filed insurance discount every single year. In this parish that math usually clears on its own without any grant."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index (ZHVI), Lake Charles typical home value and zip-level values, July 2026",
+        "Zillow Observed Rent Index (ZORI), single-family, Lake Charles metro, July 2026 (zip-level blends rejected as listing-mix noise, substitution noted)",
+        "US Census ACS 2020-2024 5-year, Lake Charles city rental vacancy",
+        "Southern Title Louisiana parish millage table, Calcasieu default 104.60 mills, 2025 (investor rate derived, est.)",
+        "Venture Global CP2 federal approval and site-work announcements, and 1012 Industry Report workforce projections of 20,500 peak workers, 2025-2026",
+        "Louisiana Department of Insurance, Citizens depopulation rounds 23-24 and surcharge waiver, and Insure Louisiana Incentive Program policy counts, 2026"
+      ]
+    },
+    {
+      "city": "Bossier City",
+      "slug": "bossier-city",
+      "county": "Bossier Parish",
+      "metro": "Shreveport-Bossier City",
+      "hook": "Bossier City rents rose 5% over the year behind Barksdale Air Force Base and north Bossier rooftops, on a $232K typical home. Cleaner math than Shreveport across the river, quieter downside.",
+      "metaDescription": "Bossier City DSCR loans: rents up 5% behind Barksdale AFB with a $232K typical home. Hail deductibles and millage are the quiet tolls. Get matched today.",
+      "market": {
+        "medianPrice": 231618,
+        "medianRent": 1513,
+        "priceToRent": 12.8,
+        "vacancyRate": 7.6,
+        "yoyPrice": 1.1,
+        "yoyRent": 5,
+        "estDSCR": 0.85,
+        "propertyTaxRate": 1.25,
+        "insuranceMonthly": 240
+      },
+      "overview": "Bossier City is the suburb that outgrew its anchor city. The typical home runs about $231,600, up 1.1% over the year, against roughly $146,700 across the river in Shreveport, and citywide rents rose 5% to about $1,513. Rental vacancy sits near 7.6% in the five-year Census window, the tightest in northwest Louisiana, because the tenant engine here never idles: Barksdale Air Force Base hosts Global Strike Command headquarters and a payroll of thousands whose housing allowances flow straight into the rental market on predictable schedules.\n\nThe math is northwest-Louisiana honest. At 20% down the citywide ratio reads 0.85 rather than Shreveport's 1.20, because you pay suburb prices for newer stock. What you get for the spread you give up: newer roofs that carriers actually want to insure, tenants underwritten by the federal government, school-driven owner demand under your exit, and a rental market that absorbs turnover in days. Insurance runs about $240 a month at the median, the cheap end of the state, with hail as the operative peril.\n\nThe tax note deserves attention. Bossier Parish's default stack near 113 mills plus city levies puts an investor's effective load around 1.25% of price with no homestead break, and the city held a September 2025 hearing on a proposed 1.29-mill roll-forward, so budget the bill trending up, not flat. North Bossier and Benton absorb the growth. South Bossier by the base gates carries the yield.",
+      "regulationBadge": "friendly",
+      "regulationNote": "Louisiana's five-day notice framework and statewide absence of rent control apply, and Bossier City has no STR-specific ordinance on the books, which means short-term operators run on general zoning rather than a defined permit path, so confirm before underwriting any STR income.",
+      "neighborhoods": [
+        {
+          "name": "North Bossier (71111)",
+          "medianPrice": 281215,
+          "medianRent": 1550,
+          "note": "The growth half of the city at about $281K, up 1.7%. Newer subdivisions, the Airline Drive retail spine, and the tenants with the strongest incomes. Thin spreads, easy operations."
+        },
+        {
+          "name": "South Bossier-Barksdale gate (71112)",
+          "medianPrice": 185892,
+          "medianRent": 1486,
+          "note": "The yield half near the base gates, roughly $186K with rents nearly matching north Bossier. BAH-backed demand keeps this zip's rent-to-price the best in the metro. Older stock, so roof age drives the insurance quote."
+        },
+        {
+          "name": "Benton",
+          "medianPrice": 355686,
+          "medianRent": 2000,
+          "note": "The premium school-district suburb north of the city line in Bossier Parish, about $356K and up 3%. An appreciation hold that rents to officers and executives. Rent figure is an estimate against thin comps."
+        }
+      ],
+      "localAngle": {
+        "tag": "Barksdale Anchor",
+        "title": "Barksdale is the tenant underwriter. The B-52 fleet is not leaving, and neither is the rent check.",
+        "body": "Every rental market has a story about its anchor employer. Bossier City's anchor flies nuclear bombers, hosts Air Force Global Strike Command headquarters, and has sat on the same 22,000 acres since 1933. Barksdale Air Force Base is the reason the practical vacancy experience here stays tight and the reason a landlord four miles off the flightline can underwrite next year's occupancy with unusual confidence. Military tenants arrive on orders, pay with a Basic Allowance for Housing that adjusts annually to local costs, and leave on orders, which compresses both delinquency and vacancy duration. The pattern to build around: three-bed houses between the base gates and the Airline Drive corridor, priced $180K to $280K, renting $1,450 to $1,600 to E-5s through O-3s and the defense contractors that cluster around the base's cyber and innovation footprint. The honest tolls: at 20% down the citywide ratio reads 0.85, so files here typically want 25% to 30% down; the combined parish and city tax stack runs about 1.25% of price for an investor and the city floated a roll-forward in late 2025, so the bill trends upward; and north Louisiana hail means carriers rate roofs first and apply separate wind-hail deductibles. None of that changes the core trade. You are exchanging a slice of yield for the most reliably underwritten tenant pool in the state. Your matched specialist will structure the file so the base's rhythm, not the boom-bust of the river economy, is what your loan depends on."
+      },
+      "programFit": [
+        "standard-dscr",
+        "portfolio-dscr",
+        "bridge-to-dscr"
+      ],
+      "dealExample": {
+        "label": "Cash-Out Refinance",
+        "propertyType": "3-bed / 2-bath SFR",
+        "neighborhood": "North Bossier (71111)",
+        "purchasePrice": 260000,
+        "downPaymentPct": 30,
+        "downPayment": 78000,
+        "loanAmount": 182000,
+        "loanType": "30-Year Fixed DSCR Cash-Out",
+        "interestOnly": false,
+        "monthlyPI": 1272,
+        "monthlyTax": 271,
+        "monthlyInsurance": 250,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 1793,
+        "monthlyRent": 1850,
+        "dscr": 1.03,
+        "monthlyCashFlow": 57,
+        "specialistFocus": [
+          "Structured the cash-out at 70% of appraised value so the freed equity funds the next purchase while this file still clears 1.0 on its lease",
+          "Qualified on the appraiser's market rent documented against BAH-backed comps near the base, the most defensible rent schedule in northwest Louisiana",
+          "Underwrote the combined parish and city millage trending upward after the 2025 roll-forward hearing, not the flat bill on last year's statement"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Why buy Bossier City instead of cheaper Shreveport across the river?",
+          "answer": "Different jobs for different money. Shreveport's 1.20 median ratio beats Bossier's 0.85, so pure spread hunters cross the river. What Bossier sells is durability: newer housing stock that carriers price kindly, 7.6% rental vacancy versus 10.5%, tenants on federal paychecks, and school districts that keep owner-occupant demand under your exit price. Shreveport also taxes harder, about 1.59% effective for an investor against roughly 1.25% here. Plenty of portfolios hold both: Shreveport for cash flow, Bossier for the sleep-at-night allocation."
+        },
+        {
+          "question": "Does Barksdale really guarantee tenants?",
+          "answer": "No base guarantees anything, but Barksdale is about as close as the rental business gets. It hosts Global Strike Command headquarters and the B-52 fleet, missions with multi-decade horizons and continuing investment, including the base's expanding cyber and innovation footprint. Airmen arrive with housing allowances that adjust to local market costs annually and rent quickly within commuting distance of the gates. The practical effect: south Bossier three-beds lease in days, delinquency is rare, and turnover is orderly because moves happen on orders with notice."
+        },
+        {
+          "question": "What is the property tax situation for investors in Bossier City?",
+          "answer": "Budget roughly 1.25% of your purchase price. The parish's default combined stack runs near 113 mills and city levies stack on top inside the limits, with Louisiana's 10% assessment and no homestead exemption for rentals. On a $232K house that is about $2,900 a year. Note the direction of travel: the city held a hearing in September 2025 on a 1.29-mill roll-forward to fund raises, so underwrite the bill rising modestly rather than staying flat. It is still far lighter than Shreveport's stack across the river."
+        },
+        {
+          "question": "What does insurance cost in Bossier City and what actually hits here?",
+          "answer": "This is the cheap end of Louisiana, around $240 a month on the $232K typical house for a landlord policy, because hurricane wind arrives here spent. The operative peril is hail, plus occasional straight-line wind and tornado bands, so carriers rate on roof age first and commonly apply a separate wind-hail deductible of 1% to 2% of dwelling value. A post-2020 architectural-shingle roof versus a 15-year-old one can move the premium by a third. Inspect the roof like it is the foundation, because to the carrier it is."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index (ZHVI), Bossier City and Benton typical home values, July 2026",
+        "Zillow Observed Rent Index (ZORI), Bossier City citywide and zip-level rents, July 2026 (Benton rent est.)",
+        "US Census ACS 2020-2024 5-year, Bossier City rental vacancy",
+        "Southern Title Louisiana parish millage table, Bossier default 113.28 mills, plus Shreveport-Bossier Advocate reporting on the 2025 city roll-forward, 2025 (investor rate derived, est.)",
+        "Insuranceopedia northwest Louisiana premium data, 2026 (landlord figure derived, est.)"
+      ]
+    },
+    {
+      "city": "Kenner",
+      "slug": "kenner",
+      "county": "Jefferson Parish",
+      "metro": "New Orleans-Metairie",
+      "hook": "Kenner sits on the airport's payroll with a $273K typical home, up 5.3% in a year. The Jefferson Parish tax bill is the number out-of-state buyers keep getting wrong.",
+      "metaDescription": "Kenner DSCR loans: airport-anchored tenant demand, a $273K typical home up 5.3%, and Jefferson Parish tax math investors misread. Get matched today.",
+      "market": {
+        "medianPrice": 273203,
+        "medianRent": 1615,
+        "priceToRent": 14.1,
+        "vacancyRate": 10.7,
+        "yoyPrice": 5.3,
+        "yoyRent": 0.7,
+        "estDSCR": 0.72,
+        "propertyTaxRate": 1.25,
+        "insuranceMonthly": 420
+      },
+      "overview": "Kenner is the metro's employment landlord. Louis Armstrong International sits inside the city limits, and the airport economy, airlines, logistics, hotels, rental fleets, and the contractors serving all of it, is the tenant base. The typical home costs about $273,200, up 5.3% over the year, riding the same flight-to-Jefferson current lifting Metairie next door. Citywide rents held near $1,615 on the blended index, with detached houses signing above that.\n\nThe momentum is physical. The airport's 2025 master plan update maps twenty years of expansion, and an $84.5 million connector road project broke ground in August 2025 with $65 million in federal aviation grants behind it. Laketown's lakefront acreage remains the city's long-running redevelopment play, now with a G League tenant in the Pontchartrain Center. None of this is boomtown material, but for a rental market it is the right kind of news: payroll infrastructure, funded and under construction.\n\nThe underwriting reality is Jefferson Parish math. Kenner is one of the few parish municipalities levying its own city property tax on top of the parish stack, putting an investor's effective load near 1.25% of price with no homestead break, and coastal-metro insurance runs about $5,000 a year at the median. At 20% down the citywide ratio reads 0.72, so Kenner files clear the same way Metairie files do: more equity, interest-only structure, and rents documented against the house, not the blend. The 10.7% vacancy figure is the five-year Census window; the practical experience in north Kenner is tighter.",
+      "regulationBadge": "friendly",
+      "regulationNote": "Kenner follows Louisiana's landlord-friendly baseline with five-day notice and no rent control, and as an incorporated city it sits outside Jefferson Parish's unincorporated STR ban, but it offers no clear investor STR permit path either, so underwrite long-term leases only.",
+      "neighborhoods": [
+        {
+          "name": "North Kenner (70065)",
+          "medianPrice": 287576,
+          "medianRent": 1620,
+          "note": "The stable family half between Vintage and the lake, about $288K and up 6.3%. Brick ranches and townhomes renting to airport professionals and Ochsner Kenner staff. The default Kenner buy."
+        },
+        {
+          "name": "South Kenner (70062)",
+          "medianPrice": 242998,
+          "medianRent": 1500,
+          "note": "The working half around the airport and Rivertown, roughly $243K after a 3.1% dip. Closest to the payroll, cheapest entry in the city, and the zip where condition and street selection earn the spread. Rent figure is an estimate from nearby comps."
+        },
+        {
+          "name": "Chateau Estates",
+          "medianPrice": 320000,
+          "medianRent": 1900,
+          "note": "North Kenner's established prestige pocket around the country club. Values and rents here are estimates against thin turnover, roughly $320K and $1,900. An exit-quality hold rather than a yield play."
+        }
+      ],
+      "localAngle": {
+        "tag": "Airport Anchor",
+        "title": "The airport is in the city limits. So is its payroll, and its next twenty years of construction.",
+        "body": "Kenner's economic anchor takes off and lands about 400 times a day. Louis Armstrong New Orleans International sits entirely inside the city, and its post-2019 terminal era has kept investment flowing: the airport advanced a 20-year master plan update in 2025 to stage the next rounds of expansion, and an $84.5 million connector road broke ground in August 2025, funded largely by $65 million in Federal Aviation Administration grants, to move roughly 9,000 daily riders and workers more directly into the terminal complex. For a landlord the airport matters twice. It is the tenant base, tens of thousands of direct and adjacent jobs in airlines, ground handling, logistics, hospitality, and car fleets, most of them shift work that wants a short commute, which is exactly what South Kenner's $243K housing tier provides. And it is the floor under the land: airport-adjacent cities do not hollow out, because the infrastructure cannot move. The two-layer truth is the cost side. Kenner levies its own municipal property tax on top of Jefferson Parish's stack, so an investor's effective rate lands near 1.25% of purchase price with no homestead shelter, and coastal-metro insurance takes another $5,000 a year at the median. That is why the citywide ratio reads 0.72 while the market looks and feels tight. Your matched specialist will structure Kenner files with the equity and rent documentation the parish math demands."
+      },
+      "programFit": [
+        "standard-dscr",
+        "interest-only-dscr",
+        "foreign-national-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 2-bath SFR",
+        "neighborhood": "North Kenner (70065)",
+        "purchasePrice": 275000,
+        "downPaymentPct": 30,
+        "downPayment": 82500,
+        "loanAmount": 192500,
+        "loanType": "30-Year Fixed DSCR",
+        "interestOnly": false,
+        "monthlyPI": 1346,
+        "monthlyTax": 286,
+        "monthlyInsurance": 420,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 2052,
+        "monthlyRent": 2100,
+        "dscr": 1.02,
+        "monthlyCashFlow": 48,
+        "specialistFocus": [
+          "Structured 30% down because Jefferson Parish carrying costs put the citywide ratio near 0.72 at 20% down, and the extra equity is what gets a Kenner file to 1.0",
+          "Qualified on the appraiser's single-family rent of $2,100 documented against north Kenner house leases rather than the apartment-weighted citywide blend",
+          "Underwrote the full parish-plus-city millage on purchase price and a named-storm deductible in dollars, the two lines the listing's pro forma understated"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Who actually rents houses in Kenner?",
+          "answer": "The airport's shift economy and the medical corridor. Airlines, ground services, logistics firms, hotel and fleet operations, and Ochsner Kenner generate steady households that want a 10-minute commute, and they favor South Kenner's $1,400 to $1,600 tier and north Kenner's family streets at $1,900 to $2,200. Add relocating families priced out of Metairie by its 7%-plus appreciation, and the tenant pool is diverse enough that no single employer's bad year empties your house. Turnover concentrates around summer, matching both school calendars and airline staffing cycles."
+        },
+        {
+          "question": "Kenner versus Metairie for a first metro rental: which one?",
+          "answer": "Same parish, same levee system, same landlord-friendly law, different price of admission. Kenner's typical home costs about $61K less than Metairie's, its rents trail by less than that ratio implies, and its 5.3% value gain shows the same flight-to-Jefferson current. Metairie buys you a deeper tenant pool and the strongest resale demand in the region. Kenner buys the airport payroll and a lower basis. Both need equity-heavy structure to clear 1.0. If the choice is close, the specific house and street should decide, not the city label."
+        },
+        {
+          "question": "Can I run a short-term rental near the airport?",
+          "answer": "Do not underwrite it. Jefferson Parish's 2018 residential STR ban applies to unincorporated areas like Metairie, and Kenner as an incorporated city sets its own rules, but Kenner offers no clear, published investor permit path, and airport-adjacent STR demand invites exactly the scrutiny that gets gray-zone operations shut down. If a listing's numbers only work on nightly rates, the numbers do not work. The durable Kenner play is the 12-month lease to the airport economy, with furnished 30-day-plus stays as a legal middle option."
+        },
+        {
+          "question": "What will taxes and insurance really cost me in Kenner?",
+          "answer": "Together, plan on roughly $8,400 a year at the typical $273K house. Taxes: Kenner stacks a municipal levy on Jefferson Parish's rates, landing an investor near 1.25% of purchase price, about $3,400, with no homestead exemption. Insurance: coastal-metro landlord policies run near $5,000 at the median, with named-storm deductibles quoted as a percentage of dwelling value. Both numbers routinely exceed what out-of-state pro formas show, which is exactly why the citywide ratio reads 0.72 and why Kenner files get structured with extra equity."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index (ZHVI), Kenner typical home value and zip-level values, July 2026",
+        "Zillow Observed Rent Index (ZORI), Kenner citywide and zip 70065 rents, July 2026 (South Kenner and Chateau Estates figures est.)",
+        "US Census ACS 2020-2024 5-year, Kenner city rental vacancy",
+        "Southern Title Jefferson Parish millage default plus Kenner municipal levy, 2025 (investor rate derived, est.)",
+        "FAA grant and airport master plan reporting, $84.5M connector groundbreaking, August 2025",
+        "Insure.com New Orleans metro premium data, 2026 (landlord figure derived, est.)"
+      ]
+    },
+    {
+      "city": "Slidell",
+      "slug": "slidell",
+      "county": "St. Tammany Parish",
+      "metro": "New Orleans-Metairie",
+      "hook": "Slidell rents rose 2.6% while prices slipped 3.7%, the spread investors wait for in a commuter market. Most of the city sits in a mapped flood zone, so the file lives or dies on the elevation certificate.",
+      "metaDescription": "Slidell DSCR loans: cross-lake commuter demand, prices off 3.7%, and flood maps that cover most of the city. What still pencils here. Get matched today.",
+      "market": {
+        "medianPrice": 223090,
+        "medianRent": 1451,
+        "priceToRent": 12.8,
+        "vacancyRate": 9.9,
+        "yoyPrice": -3.7,
+        "yoyRent": 2.6,
+        "estDSCR": 0.77,
+        "propertyTaxRate": 1.45,
+        "insuranceMonthly": 360
+      },
+      "overview": "Slidell is the metro's pressure valve: when New Orleans families want a yard, St. Tammany schools, and an I-10 commute, this is the cheapest way across the lake. The typical home costs about $223,100, down 3.7% over the year while rents rose 2.6% to roughly $1,451 on the citywide blend. Prices soft and rents firm is the entry spread, and it is happening here for a knowable reason: insurance and flood costs are repricing the marginal buyer out of ownership and into your tenant pool.\n\nThe flood map is the market's operating system. More than 60% of the city sits in mapped Special Flood Hazard Area zones, a legacy of Bayou Bonfouca, Lake Pontchartrain surge, and drainage that struggles in heavy rain. The response is funded and physical: a Louisiana Watershed Initiative pump station hardening project broke ground, and FEMA mitigation money has elevated repeatedly-flooded structures around the city. But underwriting happens parcel by parcel. An X-zone house with a clean history prices like a normal suburb. An AE-zone slab home carries a flood policy that can move the DSCR by a tenth or more.\n\nTaxes complete the honest picture: St. Tammany's parish stack plus Slidell's municipal levies, which run higher than anywhere else in the parish, put an investor near 1.45% of price with no homestead break. At 20% down the citywide ratio reads 0.77. Files clear here on X-zone selection, 25% to 30% down, and rents that the commuter demand keeps filling.",
+      "regulationBadge": "friendly",
+      "regulationNote": "St. Tammany Parish restricts short-term rentals to commercial and mixed-use zones with permits and $500,000 liability coverage, and Slidell layers its own STR framework inside city limits, but for the long-term landlord Louisiana's five-day notice and no-rent-control baseline applies untouched.",
+      "neighborhoods": [
+        {
+          "name": "Olde Towne Slidell (70458)",
+          "medianPrice": 220321,
+          "medianRent": 1442,
+          "note": "The historic center and its surrounding grid, about $220K after a 4% pullback. Walkable stock, active small-business district, and the widest condition range in the city. Buy the elevation, not the charm."
+        },
+        {
+          "name": "West Slidell (70460)",
+          "medianPrice": 192349,
+          "medianRent": 1504,
+          "note": "The value zip at roughly $192K with rents outrunning its price tier. Workforce households and commuters. Flood zoning varies street by street here, which is exactly where the diligence pays."
+        },
+        {
+          "name": "East Slidell-Military Road (70461)",
+          "medianPrice": 271394,
+          "medianRent": 1501,
+          "note": "The newer family tier toward the parish line, about $271K. Better elevations on much of the newer stock, stronger school pull, and the cleanest insurance quotes in the city."
+        }
+      ],
+      "localAngle": {
+        "tag": "Flood Zones",
+        "title": "Sixty percent of Slidell is in a flood zone. The other forty percent is the business plan.",
+        "body": "Slidell's defining datum is hydrological: over 60% of the city lies in mapped Special Flood Hazard Area zones, exposed through Bayou Bonfouca backflow, Lake Pontchartrain surge, and drainage that heavy Gulf rain can outrun. That single fact drives the local math that matters to a DSCR file. It is why prices fell 3.7% while rents rose, as flood and wind insurance repriced marginal buyers into tenancy. It is why two similar houses a quarter mile apart can carry annual insurance loads different by thousands of dollars. And it is why the mitigation pipeline is real news rather than civic wallpaper: the Louisiana Watershed Initiative broke ground on hardening the Lee Street pump station intake, and FEMA mitigation funding has elevated batches of repeatedly-flooded structures around the city. The investor playbook writes itself from the map. First preference: X-zone or shaded-X parcels, where flood coverage is optional-but-smart and cheap, concentrated in newer East Slidell stock and scattered through every zip. Second: AE-zone houses only at a basis that absorbs the real flood premium, with an elevation certificate in hand before the inspection period ends, because certificates routinely cut quoted flood premiums dramatically on raised structures. Never: repetitive-loss slab homes at retail price, which is how out-of-state buyers donate to the lake. Your matched specialist will underwrite the actual certificate and the actual quotes, so the house you buy is the one on the map, not the one in the listing photos."
+      },
+      "programFit": [
+        "standard-dscr",
+        "interest-only-dscr",
+        "portfolio-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 2-bath SFR (X zone)",
+        "neighborhood": "West Slidell (70460)",
+        "purchasePrice": 205000,
+        "downPaymentPct": 25,
+        "downPayment": 51250,
+        "loanAmount": 153750,
+        "loanType": "30-Year Fixed DSCR",
+        "interestOnly": false,
+        "monthlyPI": 1075,
+        "monthlyTax": 248,
+        "monthlyInsurance": 355,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 1678,
+        "monthlyRent": 1725,
+        "dscr": 1.03,
+        "monthlyCashFlow": 47,
+        "specialistFocus": [
+          "Selected an X-zone parcel so flood coverage stayed inexpensive and optional, the single decision that let this file clear 1.0 in a 60%-flood-zone city",
+          "Underwrote the full St. Tammany parish stack plus Slidell municipal millage on purchase price, about 1.45% effective with no homestead break",
+          "Qualified on the appraiser's market rent against commuter-household comps, with the wind deductible converted to dollars before the offer"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "How do I buy in Slidell without the flood zone eating my deal?",
+          "answer": "Sequence the diligence backwards versus a normal market. Pull the FEMA panel and the parcel's zone before touring, demand the elevation certificate during the offer window, and get real flood and wind quotes before your inspection period ends. X-zone parcels underwrite like normal suburbs. AE-zone raised houses can work when the certificate cuts the premium and the basis reflects the load. Repetitive-loss slab homes at retail are the pass, every time. The 40% of the city outside hazard zones is where most files should land."
+        },
+        {
+          "question": "Is cross-lake commuter demand actually durable?",
+          "answer": "It has survived every stress test the region can produce. Slidell exists because I-10, I-12, and the Twin Spans put New Orleans jobs within a 35-minute drive of cheaper land and St. Tammany schools, and each metro disruption, Katrina, insurance spikes, city budget strain, has pushed more households across the lake, not fewer. Rents rose 2.6% this year while prices fell, which is what durable tenant demand against a repricing ownership market looks like. The commuter engine is the reason a 0.77 citywide ratio still produces closeable files."
+        },
+        {
+          "question": "Why did Slidell prices fall 3.7% when rents went up?",
+          "answer": "Insurance did the repricing, not demand. A marginal Slidell buyer now faces wind premiums, possible flood premiums, and St. Tammany's tax stack, and at 2026 payment math thousands of would-be owners became long-term tenants instead. Sellers met the thinner buyer pool with lower prices while the rental market absorbed the displaced households, pushing rents up. For an investor entering now, that spread is the gift: a 3.7% cheaper basis renting to a deeper tenant pool. The same force that squeezed the last owner subsidizes your occupancy."
+        },
+        {
+          "question": "What are the St. Tammany short-term rental rules?",
+          "answer": "Restrictive on the parish side: since 2022, unincorporated St. Tammany allows STRs only in commercial and mixed-use zones, with permits, an annual fee, a 24-hour contact, and $500,000 in liability coverage, and advertising without a permit number draws daily fines. Slidell administers its own framework inside city limits, so verify the specific address's status with the city before assuming anything. Practical read: buy Slidell for long-term commuter leases, and if an STR angle matters to you, confirm zoning in writing first."
+        },
+        {
+          "question": "What do taxes actually run for an investor in Slidell?",
+          "answer": "Plan on roughly 1.45% of purchase price. St. Tammany's district stacks average near 131 mills after the 2024 reassessment, and Slidell's municipal levies, the highest city rates in the parish, push in-city totals well above the parish median. Louisiana assesses at 10% of market value and investors get no homestead exemption, so a $223K purchase runs about $3,200 a year. The seller's homesteaded bill will look far friendlier than yours, so recompute from millage, never from the listing."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index (ZHVI), Slidell typical home value and zip-level values, July 2026",
+        "Zillow Observed Rent Index (ZORI), Slidell citywide and zip-level rents, July 2026",
+        "US Census ACS 2020-2024 5-year, Slidell city rental vacancy",
+        "St. Tammany Parish Assessor millage data and BGR 2024 medians, plus Slidell municipal levy reporting, 2025 (investor rate derived, est.)",
+        "City of Slidell hazard mitigation page (60%-plus SFHA share) and Louisiana Watershed Initiative pump-hardening groundbreaking, 2025",
+        "Insure.com New Orleans metro premium data, 2026 (landlord figure derived, est.)"
+      ]
+    },
+    {
+      "city": "Monroe",
+      "slug": "monroe",
+      "county": "Ouachita Parish",
+      "metro": "Monroe",
+      "hook": "Monroe metro single-family rents jumped 13.1% in the year Meta's Richland Parish data center rose next door. Entry still starts near $155K.",
+      "metaDescription": "Monroe DSCR loans: single-family rents up 13.1% as Meta's Richland Parish build lands next door, entry near $155K. Real math inside. Get matched today.",
+      "market": {
+        "medianPrice": 155007,
+        "medianRent": 1399,
+        "priceToRent": 9.2,
+        "vacancyRate": 9.4,
+        "yoyPrice": 1.5,
+        "yoyRent": 13.1,
+        "estDSCR": 1.13,
+        "propertyTaxRate": 1.31,
+        "insuranceMonthly": 200
+      },
+      "overview": "For decades Monroe was a quiet university-and-utilities town where nothing moved fast. Then Meta chose Richland Parish, thirty minutes east, for one of the largest data center campuses on earth, and northeast Louisiana's math changed. The build is expanding toward 5 gigawatts of compute with more than 7,500 workers at peak construction and about 1,000 permanent roles, and the money is already washing through Ouachita Parish: sales tax collections jumped almost 20% year over year in late 2025. Metro single-family rents rose 13.1% over the year to about $1,399, the fastest in this file, as construction payrolls chased a housing stock nobody had built for growth.\n\nThe base case underneath is solid and cheap. The typical Monroe home costs about $155,000, up just 1.5%, ULM anchors a $617 million annual economic footprint, and the medical systems serve a multi-parish region. At 20% down against the parish's roughly 131-mill stack, north Louisiana insurance near $200 a month, and the surged rent level, the citywide ratio reads 1.13.\n\nThe two-layer truth: some of that 13.1% is construction-phase demand that will recede when the build crews do, and Monroe remains a divided market where the Garden District and University area rent beautifully while south Monroe's sub-$50K blocks fail every lender standard. Underwrite at pre-surge rents, buy the durable pockets, and let the data center's permanent tier be upside.",
+      "regulationBadge": "friendly",
+      "regulationNote": "Ouachita Parish held its millage rates flat again for 2025 with one small cut, and Louisiana's five-day notice framework with no rent control applies, so the operating environment is as landlord-stable as the state offers.",
+      "neighborhoods": [
+        {
+          "name": "Garden District",
+          "medianPrice": 188845,
+          "medianRent": 1300,
+          "note": "Monroe's historic quality core near the river, about $189K. Oaks, 1920s-40s stock, and the tenants every landlord wants. Rent figure is a house-level estimate; the blended indexes run hotter on thin samples."
+        },
+        {
+          "name": "University area",
+          "medianPrice": 147317,
+          "medianRent": 1250,
+          "note": "The ULM belt at roughly $147K. Staff, grad students, and medical residents keep occupancy steady on the academic calendar. Rent estimated from market leases. The dependable yield pocket."
+        },
+        {
+          "name": "North Monroe",
+          "medianPrice": 293219,
+          "medianRent": 1600,
+          "note": "The newer family tier at about $293K. This is where data-center engineers and medical staff land, and where the permanent-jobs upside is most likely to show. Rent estimated; comps are thin but firming."
+        },
+        {
+          "name": "South Monroe-Booker T. Washington",
+          "medianPrice": 49302,
+          "medianRent": 850,
+          "note": "The $49K tier that fills turnkey spreadsheets. Most DSCR lenders cannot finance here: loan minimums, condition, and collections all fail. Included so the cheap lists read honestly."
+        }
+      ],
+      "localAngle": {
+        "tag": "Data Center",
+        "title": "Meta built next door. Underwrite the base case, collect the surge.",
+        "body": "Northeast Louisiana landed the kind of project that rewrites regional arithmetic: Meta's Richland Parish campus, described by the company as the largest in its fleet, expanding toward 5 gigawatts of AI compute capacity, with more than $1 billion in local infrastructure, over 7,500 workers at peak construction, and about 1,000 permanent operations roles. Monroe is the metro that houses, feeds, and staffs that build. The receipts are public: Ouachita Parish sales tax collections jumped nearly 20% year over year in October 2025, regional collections climbed to $126 million in a quarter versus $85 million before the project, and state officials cite triple-digit tax growth in the immediate area since 2020. The rental market printed it too, with metro single-family rents up 13.1% in a year and short-term rental revenue across the river in West Monroe up 50% as crews took whatever furnished stock existed. Now the discipline. Construction demand is a tide, not a level: underwrite every Monroe file at the rent the house would have signed before the surge, roughly the 2024 comp, and treat today's premium as cash flow you bank rather than the basis you borrow against. The permanent tier, 1,000 operations salaries plus the contractor ecosystem, is the durable new demand, and it will concentrate in north Monroe and the Garden District. Your matched specialist will qualify the file on the appraiser's market rent with the surge haircut applied, which is how you own the boom without depending on it."
+      },
+      "programFit": [
+        "standard-dscr",
+        "portfolio-dscr",
+        "bridge-to-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 2-bath SFR",
+        "neighborhood": "Garden District",
+        "purchasePrice": 150000,
+        "downPaymentPct": 25,
+        "downPayment": 37500,
+        "loanAmount": 112500,
+        "loanType": "30-Year Fixed DSCR",
+        "interestOnly": false,
+        "monthlyPI": 786,
+        "monthlyTax": 164,
+        "monthlyInsurance": 195,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 1145,
+        "monthlyRent": 1350,
+        "dscr": 1.18,
+        "monthlyCashFlow": 205,
+        "specialistFocus": [
+          "Qualified on a pre-surge market rent of $1,350 rather than the construction-inflated comps, so the ratio holds when the build crews rotate out",
+          "Underwrote the full Ouachita stack near 131 mills on purchase price with no homestead break, not the seller's exempted bill",
+          "Matched the file to a lender comfortable at a $112,500 balance, keeping Monroe's best price tier financeable"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Is the Meta data center hype real or another small-town mirage?",
+          "answer": "The receipts are unusually concrete. The campus is under construction and expanding toward 5 gigawatts, Ouachita Parish sales tax collections rose almost 20% year over year in late 2025, quarterly regional collections hit $126 million versus $85 million pre-project, and metro single-family rents printed 13.1% annual growth. More than 7,500 workers at peak construction and about 1,000 permanent roles are the company's own figures. What deserves skepticism is not the project; it is any pro forma that borrows against surge rents as if they were the new floor."
+        },
+        {
+          "question": "Will Monroe rents keep growing 13% a year?",
+          "answer": "No, and your underwriting should say so out loud. A double-digit rent print in a $155K market is a construction-phase artifact: thousands of temporary workers chasing a housing stock built for zero growth. When the build winds down, that tide recedes, leaving the permanent operations tier, the contractor ecosystem, and Monroe's ULM-and-medical base as the demand floor, meaningfully higher than 2023 but far below the surge. Qualify at roughly pre-surge rent, treat the premium as bankable overage, and the deal works in both eras."
+        },
+        {
+          "question": "Where are the trap blocks in Monroe?",
+          "answer": "South Monroe's sub-$50K tier, where turnkey marketers do their best work on out-of-state buyers. The Booker T. Washington area's typical value sits near $49K, and at that level DSCR lender minimum loan amounts, appraisal condition standards, and real-world collections all fail the file, so the advertised yields are unfinanceable fiction for most borrowers. The financeable city runs $120K to $200K through the University area and Garden District, where actual tenants pay $1,200 to $1,400 and lenders close without drama."
+        },
+        {
+          "question": "Monroe or West Monroe for a rental?",
+          "answer": "Both work, and taxes are the tiebreaker worth knowing: West Monroe's millage, about 81 mills, is the lowest stack in Ouachita Parish, noticeably lighter than Monroe's roughly 131, which on a $180K house is around $900 a year of difference in an investor's carry. West Monroe's typical values run near $202K with zip rents around $1,272 and its STR market absorbed a 50% revenue jump during the build. Monroe answers with ULM, the medical corridor, and the deeper rental pool. Buy the specific street, not the city label."
+        },
+        {
+          "question": "What does insurance cost in Monroe?",
+          "answer": "North Louisiana pricing, roughly $200 a month on the $155K typical house for a landlord policy, less than half the coastal load that defines the southern half of this state. Hurricane wind arrives here as rain; the perils that matter are hail, straight-line wind, and the occasional tornado band, so carriers rate on roof age and often apply a separate wind-hail deductible. Flood is parcel-specific near the Ouachita River backwaters. It is one of the few Louisiana markets where insurance is a line item, not the thesis."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index (ZHVI), Monroe and West Monroe typical home values and neighborhood values, July 2026",
+        "Zillow Observed Rent Index (ZORI), single-family, Monroe metro, July 2026 (citywide blend lacked a year-ago value, substitution noted; neighborhood rents est.)",
+        "US Census ACS 2020-2024 5-year, Monroe city rental vacancy",
+        "Southern Title Ouachita millage default 130.96 mills and City of West Monroe 81.29 mills, 2025",
+        "Meta Richland Parish data center announcements and LED, KNOE, WAFB tax-collection reporting, July 2026",
+        "AirDNA West Monroe STR revenue growth, 2026"
+      ]
+    },
+    {
+      "city": "Houma",
+      "slug": "houma",
+      "county": "Terrebonne Parish",
+      "metro": "Houma-Thibodaux",
+      "hook": "Houma is the cheapest coastal entry in Louisiana at a $189K typical value, and it carries the state's heaviest insurance bills. Sometimes the honest structure here is no-ratio.",
+      "metaDescription": "Houma DSCR loans: Louisiana's heaviest insurance bills meet $189K entry prices. See when no-ratio beats forcing the number past 1.0. Get matched today.",
+      "market": {
+        "medianPrice": 189195,
+        "medianRent": 1549,
+        "priceToRent": 10.2,
+        "vacancyRate": 2.9,
+        "yoyPrice": -5.5,
+        "yoyRent": 4.3,
+        "estDSCR": 0.87,
+        "propertyTaxRate": 1.26,
+        "insuranceMonthly": 520
+      },
+      "overview": "Houma is where Louisiana's insurance crisis stops being an abstraction. Hurricane Ida made landfall nearby as a strong Category 4 in August 2021 and damaged most of the housing stock in the parish, and the market that emerged runs on a strange arithmetic: the typical home costs about $189,200, down 5.5% over the year, metro single-family rents rose 4.3% to roughly $1,549, and rental vacancy in the five-year Census window reads just 2.9%, because Ida subtracted more housing than the recovery has returned. Scarce rentals, soft prices, firm rents. That combination exists almost nowhere else.\n\nThe reason prices fall anyway is the carry. Terrebonne homeowners face the heaviest insurance bills in Louisiana, reported around $7,301 a year on a standard policy, and a landlord package on the typical rental runs about $520 a month between wind and flood layers. The parish tax stack near 126 mills adds roughly 1.26% of price with no homestead break. Run the formula and the citywide ratio reads 0.87 at 20% down, which is the honest number, and it is why this page shows a no-ratio deal example instead of pretending.\n\nWhat holds the market up: the oilfield-services economy that built Houma still employs the bayou region, the Morganza to the Gulf levee system keeps rising around the parish, and 2.9% vacancy means a rent-ready house leases in days. Houma is a cash-and-carry yield play for investors who price the risk honestly, and a trap for anyone who copies a Texas pro forma.",
+      "regulationBadge": "friendly",
+      "regulationNote": "Terrebonne Parish adds nothing hostile to Louisiana's landlord-friendly baseline, five-day notice to vacate and no rent control, so the file's real adversaries here are the wind map, the flood zone, and the insurance quote, not the law.",
+      "neighborhoods": [
+        {
+          "name": "West Houma-Bayou Cane (70360)",
+          "medianPrice": 266400,
+          "medianRent": 1358,
+          "note": "The commercial spine and the parish's newer stock, about $266K. Medical and oilfield-services households, better roofs, and the cleanest insurance quotes Terrebonne offers, which here is the entire ballgame."
+        },
+        {
+          "name": "East Houma (70363)",
+          "medianPrice": 128092,
+          "medianRent": 1267,
+          "note": "The value tier at roughly $128K after an 11.8% slide, still healing from Ida. Rent-to-price is the best in the parish when, and only when, the roof, elevation, and insurance quote all clear."
+        },
+        {
+          "name": "North Houma-Bayou Blue (70364)",
+          "medianPrice": 191284,
+          "medianRent": 1237,
+          "note": "The middle tier stretching toward Thibodaux at about $191K. Further from open water, gentler wind pricing on newer sections, and steady family tenancy off the LA-24 corridor."
+        }
+      ],
+      "localAngle": {
+        "tag": "Insurance Math",
+        "title": "The $7,300 policy on the $189K house. Houma is where you learn to price Louisiana honestly.",
+        "body": "Terrebonne Parish carries the heaviest homeowners insurance burden in Louisiana, reported near $7,301 a year against a typical home value of about $189,200, and that single ratio explains everything unusual about this market: values down 5.5% while rents rise, 2.9% rental vacancy while listings sit, and a parish where all-cash buyers keep outbidding financed ones on the cheapest stock. Ida did this. The 2021 storm damaged most structures in the parish, drove carriers out of the coastal zone, and left NFIP flood layers, wind deductibles of 2% to 5%, and surplus-lines paper as the price of admission. The state's counterattack is real, new incentive-program carriers, Citizens depopulation rounds through 2026, filed discounts for FORTIFIED roofs that Ida-era rebuilds often already carry, and it is why premiums have stopped climbing. But stopped climbing is not cheap, so the honest Houma file prices the full stack and then chooses a structure that tells the truth. When a $180,000 purchase renting at $1,500 carries $540 a month of insurance, the DSCR reads below 1.0, and the right answer is not inflating the rent assumption. It is a no-ratio DSCR loan, sized and reserved for negative carry, held for the yield-on-cash that Houma's rent-to-price still produces, with the Morganza to the Gulf levee system's ongoing buildout as the long-term appreciation case. Your matched specialist will run both versions and show you exactly where the honest number lands."
+      },
+      "programFit": [
+        "no-ratio-dscr",
+        "standard-dscr",
+        "bridge-to-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 2-bath SFR",
+        "neighborhood": "East Houma (70363)",
+        "purchasePrice": 180000,
+        "downPaymentPct": 25,
+        "downPayment": 45000,
+        "loanAmount": 135000,
+        "loanType": "30-Year Fixed No-Ratio DSCR",
+        "interestOnly": false,
+        "monthlyPI": 944,
+        "monthlyTax": 189,
+        "monthlyInsurance": 540,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 1673,
+        "monthlyRent": 1500,
+        "dscr": 0.9,
+        "monthlyCashFlow": -173,
+        "specialistFocus": [
+          "Structured as no-ratio because the real insurance stack puts the honest DSCR at 0.90, and pretending otherwise is how coastal files blow up in year two",
+          "Sized reserves for the negative carry and documented the wind and flood layers at quoted premiums, not estimated ones",
+          "Flagged the FORTIFIED-standard roof from the Ida rebuild for its filed insurance discount, the clearest path to turning this carry positive at renewal"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Why is insurance $7,300 a year on a $189K house?",
+          "answer": "Because carriers price the wind map, not the purchase price. Terrebonne sits at the open end of the Gulf, took Ida's core as a strong Category 4 in 2021, and watched multiple insurers fail or flee afterward, leaving Citizens and surplus-lines paper holding the coastal book. A dwelling policy here stacks wind coverage with a 2% to 5% named-storm deductible, often a separate NFIP flood layer, and post-Ida reinsurance costs. The parish's reported average near $7,301 is the highest in Louisiana. Underwrite the quote, never a statewide average."
+        },
+        {
+          "question": "When does a no-ratio DSCR loan actually make sense in Houma?",
+          "answer": "When the honest math lands below 1.0 and the deal is still worth owning. A no-ratio loan qualifies without the rent-to-payment test, in exchange for more equity and pricing, which fits Houma purchases where insurance pushes the ratio to 0.85 to 0.95 despite excellent rent-to-price. The discipline: size reserves for the negative carry, hold for the yield-on-cash and the levee-driven long game, and build the exit around insurance relief, a FORTIFIED roof discount, premium moderation, or a refinance once the carry turns. Forcing a fake 1.0 with an inflated rent assumption is the alternative, and it is worse."
+        },
+        {
+          "question": "Is 2.9% rental vacancy real, and why are prices falling anyway?",
+          "answer": "Both are real, and they are the same story. Ida destroyed or sidelined a large share of Terrebonne's rental stock, so the survivors run near-full: 2.9% rental vacancy in the five-year Census window, with rent-ready houses leasing in days. Prices fall because the buyer side is throttled by the carry, since a financed owner-occupant faces the same $600-plus monthly insurance reality you do, shrinking the bid pool. Scarce rentals plus soft prices is precisely the setup yield investors look for, if and only if the insurance line is priced honestly."
+        },
+        {
+          "question": "What is Morganza to the Gulf and does it change the investment case?",
+          "answer": "It is the roughly 98-mile system of levees, floodgates, and structures being built to shield Terrebonne and Lafourche from Gulf surge, decades in the making with segments completing continuously, and local advocacy pushing federal funding through the Morganza Action Coalition. It already performed during Ida's surge. For an investor it matters twice: each completed reach lowers the realistic flood scenario for parcels behind it, and long-term it is the strongest argument that today's insurance-crushed prices are a cycle rather than a terminal state. It is upside, though, not a substitute for pricing today's premiums."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index (ZHVI), Houma typical home value and zip-level values, July 2026",
+        "Zillow Observed Rent Index (ZORI), single-family, Houma metro, and zip-level rents, July 2026",
+        "US Census ACS 2020-2024 5-year, Houma city rental vacancy",
+        "Southern Title Terrebonne millage default 126.40 mills, 2025 (investor rate derived)",
+        "Insurance.com Louisiana city premium data, Houma highest in state near $7,301, 2026 (landlord figure derived, est.)",
+        "Morganza Action Coalition and NFIP claims data for Terrebonne Parish, 2026"
+      ]
+    },
+    {
+      "city": "Alexandria",
+      "slug": "alexandria",
+      "county": "Rapides Parish",
+      "metro": "Alexandria",
+      "hook": "Alexandria pairs a $147K typical home with 6.8% rental vacancy and lands at 0.97 at the median, just under the line. Structure, not hope, is what pushes files over.",
+      "metaDescription": "Alexandria DSCR loans: $147K entry, 6.8% rental vacancy, and median math landing at 0.97, just under the line. See what clears it. Get matched today.",
+      "market": {
+        "medianPrice": 146607,
+        "medianRent": 1118,
+        "priceToRent": 10.9,
+        "vacancyRate": 6.8,
+        "yoyPrice": 1.9,
+        "yoyRent": 2.8,
+        "estDSCR": 0.97,
+        "propertyTaxRate": 1.06,
+        "insuranceMonthly": 205
+      },
+      "overview": "Alexandria is central Louisiana's quiet compromise: coastal insurance does not reach this far north, big-city taxes do not apply, and the typical home costs about $146,600, up 1.9% over the year. Metro single-family rents rose 2.8% to roughly $1,118, city rental vacancy sits at 6.8%, and the citywide ratio at 20% down reads 0.97. Just under the line, which is exactly the kind of honest number that tells you how this market works: files clear with 25% down or careful basis, not with optimism.\n\nThe economy is anchored rather than growing. England Airpark, the redeveloped Air Force base, hosts 50 tenants supporting more than 5,300 direct and indirect jobs with $322 million in annual earnings, plus an international airport and a Northwestern State satellite campus. The hospital systems serve a multi-parish region, and a rare-earth processing facility with state backing chose Alexandria for its first US plant. Against that, the metro's population has drifted down about 2.5% since 2020 with steady out-migration. Neither trend is fast. Both are real.\n\nThe playbook matches the map. West Alexandria's 71303 tier at about $234K rents to the medical and Airpark payrolls with the cleanest appraisals, the Garden District's historic stock at roughly $107K zip-wide carries the yield when condition clears, and Pineville across the Red River offers its own parish-line arithmetic near $200K. Cheap entry, stable tenants, honest limits: that is the Alexandria trade.",
+      "regulationBadge": "friendly",
+      "regulationNote": "Rapides Parish runs on Louisiana's baseline landlord framework, five-day notice to vacate and no rent control anywhere in the state, with no municipal overlays that change an investor's operations in Alexandria or Pineville.",
+      "neighborhoods": [
+        {
+          "name": "Garden District-Central (71301)",
+          "medianPrice": 106528,
+          "medianRent": 860,
+          "note": "The historic core and its surrounding blocks, about $107K zip-wide after a 3.9% dip. The zip rent blend reads $860; renovated houses sign well above it. Condition and block selection carry every deal here."
+        },
+        {
+          "name": "West Alexandria (71303)",
+          "medianPrice": 233649,
+          "medianRent": 1457,
+          "note": "The quality tier at roughly $234K, up 2.8%. Newer brick stock renting to hospital, Airpark, and professional households. The cleanest appraisals and fastest lease-ups in the metro."
+        },
+        {
+          "name": "Pineville (71360)",
+          "medianPrice": 200646,
+          "medianRent": 998,
+          "note": "The separate city across the Red River, about $201K typical. Its own municipal stack and a steadier small-town rental base. The zip rent blend understates what a renovated 3/2 signs for."
+        }
+      ],
+      "localAngle": {
+        "tag": "Deep Value",
+        "title": "0.97 at the median. Alexandria is a rounding error from clearing, and that is the whole strategy.",
+        "body": "Most markets in this file are either comfortably over 1.0 or dramatically under it. Alexandria lands at 0.97, and that number deserves a closer look because of what sits inside it. The rent side uses the metro single-family index near $1,118, but the investable product, a renovated three-bedroom in West Alexandria or a solid Garden District house, signs for $1,250 to $1,450, well above the blend that includes the metro's rural fringe. The cost side is already gentle: Rapides millage puts an investor near 1.06% of price, and central Louisiana insurance runs about $205 a month at the median, half the coastal burden. So the difference between 0.97 on paper and 1.05 to 1.15 on an actual file is nothing more than buying the right house and documenting its real rent, which is what an appraiser's rent schedule does. The honest counterweights: the metro has shed about 2.5% of its population since 2020 with net out-migration every year, so this is a cash-flow hold, not an appreciation bet, and the England Airpark anchor, 5,300-plus jobs and $322 million in earnings, plus the regional hospitals and the state-backed rare-earth plant, is what keeps the tenant pool from thinning with it. Buy at Alexandria's basis, rent to its anchored payrolls, and let the ratio clear on documentation instead of hope. Your matched specialist will structure the file on the appraiser's market rent for the specific house, which is where this market's margin actually lives."
+      },
+      "programFit": [
+        "standard-dscr",
+        "portfolio-dscr",
+        "bridge-to-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 2-bath SFR",
+        "neighborhood": "West Alexandria (71303)",
+        "purchasePrice": 165000,
+        "downPaymentPct": 25,
+        "downPayment": 41250,
+        "loanAmount": 123750,
+        "loanType": "30-Year Fixed DSCR",
+        "interestOnly": false,
+        "monthlyPI": 865,
+        "monthlyTax": 146,
+        "monthlyInsurance": 210,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 1221,
+        "monthlyRent": 1300,
+        "dscr": 1.06,
+        "monthlyCashFlow": 79,
+        "specialistFocus": [
+          "Qualified on the appraiser's rent schedule at $1,300, the documented house-level figure that runs above the metro blend and is what pushes Alexandria files over 1.0",
+          "Underwrote the Rapides stack plus city levies on full purchase price with no homestead break, roughly 1.06% effective",
+          "Kept the loan above minimum-balance thresholds by targeting the $150K-plus tier instead of the sub-$100K stock that strands borrowers"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Alexandria's population is declining. Why would I buy rentals here?",
+          "answer": "Because you are buying the anchored payrolls, not the census trend. The metro is down about 2.5% since 2020, which honestly rules out appreciation as the thesis. What remains is a cash-flow trade: $147K typical entry, 6.8% rental vacancy, insurance at half the coastal load, and tenant demand tied to England Airpark's 5,300-plus jobs, the regional hospital systems, and government payrolls that do not migrate. Shrinking metros punish the worst stock first, so buy the tiers those payrolls actually rent, and the lease survives the demographics."
+        },
+        {
+          "question": "What jobs actually hold rents up in Alexandria?",
+          "answer": "England Airpark is the anchor: the redeveloped base hosts 50 tenants supporting more than 5,300 direct and indirect jobs and $322 million in annual earnings, alongside Alexandria International Airport and a growing Northwestern State campus. The Rapides hospital systems serve a dozen-parish region, state and parish government carry steady headcount, and a state-backed rare-earth processing plant chose Alexandria for its first US facility. None of it is spectacular, all of it is contracted, salaried demand, which is exactly what a $1,100 to $1,400 rental market needs."
+        },
+        {
+          "question": "Should I buy in Alexandria or Pineville?",
+          "answer": "They are separate cities with separate math across the Red River. Alexandria offers the deeper rental pool, the medical and Airpark payrolls, and the West Alexandria quality tier near $234K; its city millage stacks on the parish base. Pineville runs smaller and steadier at about $201K typical, with its own municipal stack and a tenant base off the colleges and the VA. Yields are comparable when bought well. The deciding factors are the specific house, its flood status near the river, and which payroll your tenant profile draws from."
+        },
+        {
+          "question": "Why did my pro forma tax number double when the lender ran it?",
+          "answer": "The listing showed the seller's homesteaded bill. Louisiana assesses at 10% of market value and exempts an owner-occupant's first $75,000 of value, but rentals get no exemption and a sale resets value toward your price. In Alexandria the combined parish and city stack lands an investor near 1.06% of purchase price, about $1,750 a year on a $165K house, roughly double a homesteaded seller's bill on a stale assessment. Every Louisiana market on this site works the same way. Recompute from millage, never copy the listing."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index (ZHVI), Alexandria and Pineville typical home values and zip-level values, July 2026",
+        "Zillow Observed Rent Index (ZORI), single-family, Alexandria metro, and zip-level rents, July 2026",
+        "US Census ACS 2020-2024 5-year, Alexandria city rental vacancy",
+        "Southern Title Rapides millage default 90.63 mills plus Alexandria city levies, 2025 (investor rate derived, est.)",
+        "England Airpark 2025 annual report figures via Rapides Parish Journal, January 2025",
+        "Central Louisiana premium reporting, 2026 (landlord figure derived, est.)"
+      ]
+    }
+  ]
+}
