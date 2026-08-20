@@ -1,0 +1,1294 @@
+{
+  "state": "Hawaii",
+  "abbreviation": "HI",
+  "stateSlug": "hawaii",
+  "dataUpdated": "2026-08",
+  "cities": [
+    {
+      "city": "Honolulu",
+      "slug": "honolulu",
+      "county": "Honolulu County",
+      "metro": "Urban Honolulu",
+      "hook": "Honolulu's typical home value is $765K against blended rents of $2,678, which is a 0.57 ratio at the median. Deals close here anyway, but they are structured, never stumbled into.",
+      "metaDescription": "Honolulu homes average $765K and pencil near 0.57 DSCR at the median. See what still works: larger down payments and no-ratio files. Get matched today.",
+      "market": {
+        "medianPrice": 765367,
+        "medianRent": 2678,
+        "priceToRent": 23.8,
+        "vacancyRate": 7.4,
+        "yoyPrice": 1.4,
+        "yoyRent": 4.9,
+        "estDSCR": 0.57,
+        "propertyTaxRate": 0.35,
+        "insuranceMonthly": 175
+      },
+      "overview": "Honolulu is where mainland underwriting instincts go to die. The typical home value sits at $765,367 as of July 2026, up 1.4% over the year, while the blended average rent is $2,678 and rose 4.9%. Run the standard formula at 20% down and the median lands near 0.57. That is not a bad submarket or a bad month. That is the market, and it has looked like this for decades because Honolulu buyers are paying for scarcity and appreciation, not cash flow.\n\nThe number that decides most Honolulu files is not on the listing at all: the maintenance fee. This is a condo market, and Oahu condo dues commonly run $500 to $1,200 a month, with Waikiki towers reaching $1,000 to $2,500 after master hurricane policies repriced. Our estimated ratio above ignores HOA dues entirely, so the realistic figure on a condo purchase is lower than 0.57 once the association bill lands. Add the tax trap: a non-owner-occupied property assessed at $1,000,000 or more falls into Residential A, taxed at tiered rates far above the base residential class.\n\nWhat still works: fee simple condos in Salt Lake and Makiki with sane dues, bought with 30% or more down, underwritten as no-ratio or interest-only files by lenders who price Hawaii for what it is. The investors who win here buy the appreciation and structure the carry honestly instead of pretending the rent covers it.",
+      "regulationBadge": "moderate",
+      "regulationNote": "Hawaii has no rent control and Honolulu's short-term rental minimum outside resort-zoned areas is 30 days as enforced today, with the city's 90-day ordinance tied up in federal litigation, so underwrite long-term or 30-day-plus furnished income everywhere except resort zoning.",
+      "neighborhoods": [
+        {
+          "name": "Waikiki",
+          "medianPrice": 451815,
+          "medianRent": 2400,
+          "note": "The cheapest entry on the island at a $451,815 typical value, down 1.6% over the year, but the fine print is the whole deal: many buildings are condotels or leasehold, both of which shrink the lender pool sharply, and resort-zoned buildings are the only place legal short stays live."
+        },
+        {
+          "name": "Salt Lake",
+          "medianPrice": 433000,
+          "medianRent": 2500,
+          "note": "Fee simple mid-rise condos with a listing median near $433,000 and airport, JBPHH, and Tripler tenants in every direction. The least-bad carry math in urban Honolulu when the maintenance fee stays under control."
+        },
+        {
+          "name": "Makiki",
+          "medianPrice": 550000,
+          "medianRent": 2300,
+          "note": "Walk-to-town older condo stock renting to hospital and university tenants. Buildings vary wildly on dues and deferred maintenance, so the association documents matter more than the unit here."
+        },
+        {
+          "name": "Kalihi Valley",
+          "medianPrice": 1004650,
+          "medianRent": 3900,
+          "note": "Old plantation-era houses on real lots, median sale price $1,004,650 as of June 2026. Multigenerational tenancies and ohana-unit potential make this the whole-house rental play, but most parcels now cross the Residential A tax threshold."
+        }
+      ],
+      "localAngle": {
+        "tag": "Taxes & STR Rules",
+        "title": "Residential A doubles your tax bill at $1M, and the Airbnb door is 30 days wide.",
+        "body": "Two Honolulu-specific rules decide more investor files than any lender guideline. First, property tax classification. Honolulu's base residential rate is nationally famous for being low, but that rate belongs to properties under $1,000,000 or with a home exemption. An investment property assessed at $1,000,000 or more falls into the Residential A class under the Revised Ordinances of Honolulu: for fiscal year 2026-27 the first $1,000,000 is taxed at $4.00 per $1,000 and everything above it at $11.40 per $1,000. On a $1.5 million rental that is roughly $9,700 a year instead of the $5,250 a naive pro forma carries. Second, short-term rentals. Ordinance 22-7, better known as Bill 41 of 2022, set a 90-day minimum rental term outside resort-zoned areas, a federal judge enjoined the 90-day piece in October 2022, and the city's 2025 rerun, Bill 62 signed as CO-25-02 in January 2025, faces the same challenge. As enforced today the minimum outside resort zoning is 30 days. Waikiki's resort-zoned buildings are the legal exception, and many of those are condotels with their own financing limits. Your matched specialist will underwrite the correct tax class and the income the unit can legally produce, before an appraiser or an auditor does it after closing."
+      },
+      "programFit": [
+        "no-ratio-dscr",
+        "interest-only-dscr",
+        "foreign-national-dscr",
+        "str-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "2-bed / 1-bath fee simple condo",
+        "neighborhood": "Salt Lake",
+        "purchasePrice": 500000,
+        "downPaymentPct": 25,
+        "downPayment": 125000,
+        "loanAmount": 375000,
+        "loanType": "30-Year Fixed, No-Ratio",
+        "interestOnly": false,
+        "monthlyPI": 2621,
+        "monthlyTax": 146,
+        "monthlyInsurance": 60,
+        "monthlyHOA": 850,
+        "monthlyPITIA": 3677,
+        "monthlyRent": 2600,
+        "dscr": 0.71,
+        "monthlyCashFlow": -1077,
+        "specialistFocus": [
+          "Structured the file as no-ratio because the honest 0.71 ratio with the $850 maintenance fee counted would fail a standard DSCR minimum, and hiding the fee is not an option",
+          "Verified the building is fee simple and not a condotel before ordering the appraisal, which is where a large share of Honolulu condo files die",
+          "Confirmed the association's master hurricane policy met lender coverage requirements, since Oahu buildings that repriced under-insured are being declined outright"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Why are Waikiki condos so cheap compared to the rest of Honolulu?",
+          "answer": "Three reasons, and each one shrinks your lender pool. Many Waikiki buildings are leasehold, meaning you buy the unit but rent the land under it, and most DSCR lenders decline or sharply limit leasehold collateral. Many others are condotels, operated with front desks and nightly stays, which most lenders treat as non-warrantable and either decline or price up with larger down payments. And maintenance fees in Waikiki commonly run $1,000 to $2,500 a month after master hurricane policies repriced. A $452,000 typical value is real, but the carry and the financing are the actual price. Your matched specialist knows which of the 70+ lenders will look at condotel and leasehold files."
+        },
+        {
+          "question": "What is Residential A and how do I avoid it?",
+          "answer": "Residential A is Honolulu's tax class for residential property without a home exemption assessed at $1,000,000 or more, which describes most investor purchases above that line. For fiscal 2026-27 it is tiered: $4.00 per $1,000 on the first million, $11.40 per $1,000 above it. You avoid it only by buying under the threshold, since an investment property cannot claim the home exemption. Buying at $950,000 keeps you in the base residential class at $3.50 per $1,000; buying at $1.2 million roughly doubles the effective bill. Your matched specialist underwrites the correct class from day one so the ratio does not collapse at the first assessment notice."
+        },
+        {
+          "question": "Do Honolulu landlords really pay a tax on gross rent?",
+          "answer": "Yes. Hawaii's general excise tax applies to gross rental receipts, roughly 4.5% on Oahu including the county surcharge, and it applies whether or not you turn a profit. Mainland pro formas almost never carry this line, and on a $2,600 rent it is about $1,400 a year off the top. Most landlords pass it through in the rent, but the appraiser's market rent already reflects that practice, so you cannot double-count it back. It is a registration, filing, and cash flow item your property manager or accountant handles, and one more reason Honolulu files get underwritten conservatively."
+        },
+        {
+          "question": "Can I run a short-term rental in Honolulu?",
+          "answer": "Only in resort-zoned areas, practically speaking Waikiki, Ko Olina, and Turtle Bay, and mostly in buildings that are condotels with their own financing limits. Outside resort zoning, Ordinance 22-7 requires 90-day minimum stays, a federal injunction has kept the city enforcing a 30-day minimum instead, and the 2025 rerun of the rule is in the same fight. Registration requirements and fines up to $10,000 per day for illegal operation are enforced aggressively. The workable middle path is the 30-day-plus furnished rental serving traveling nurses and military moves. Your matched specialist will structure the file on the income the zoning actually permits."
+        },
+        {
+          "question": "Does anything in Honolulu actually cash flow?",
+          "answer": "At 20% down at the median, no, and anyone telling you otherwise is selling something. The citywide ratio pencils near 0.57, and condo maintenance fees push the realistic number lower. Files clear here three ways: down payments of 30% to 40% that buy the ratio up, interest-only structures that cut the payment while the asset appreciates, and no-ratio programs that price the deal on equity and credit instead of rent coverage. Salt Lake and Makiki fee simple condos with controlled dues get closest to break-even. Honolulu rewards the investor who buys scarcity and funds the carry honestly."
+        }
+      ],
+      "dataSources": [
+        "Zillow, Honolulu typical home value, YoY change, and average rent, July 2026",
+        "Honolulu Real Property Assessment Division, FY2026-27 Residential and Residential A rates, 2026",
+        "Redfin and Hawaii Living market pages, Salt Lake and Kalihi Valley submarket medians, June 2026 (neighborhood rents est.)",
+        "US Census Bureau Housing Vacancy Survey via FRED, Hawaii statewide rental vacancy, 2024",
+        "Living in Hawaii and Buy Oahu Condos guides, condo maintenance fee ranges and insurance costs, 2025-2026 (insurance est.)",
+        "Honolulu Ordinance 22-7 (Bill 41) and CO-25-02 (Bill 62) enforcement coverage, Hawaii Living and StaySTRA, 2026"
+      ]
+    },
+    {
+      "city": "Ewa Beach",
+      "slug": "ewa-beach",
+      "county": "Honolulu County",
+      "metro": "Urban Honolulu",
+      "hook": "Ewa Beach pairs an $834K typical value with $3,547 average rents, the best ratio math on Oahu. It still pencils at 0.69 with 20% down, and that honest number is the starting point.",
+      "metaDescription": "Ewa Beach homes average $834K with rents up 5.8% and the strongest DSCR math on Oahu at 0.69. See how investors structure the gap. Get matched today.",
+      "market": {
+        "medianPrice": 834449,
+        "medianRent": 3547,
+        "priceToRent": 19.6,
+        "vacancyRate": 7.4,
+        "yoyPrice": 1.1,
+        "yoyRent": 5.8,
+        "estDSCR": 0.69,
+        "propertyTaxRate": 0.35,
+        "insuranceMonthly": 230
+      },
+      "overview": "The Ewa plain is where Oahu built its starter housing for the last thirty years, and it is where the island's rental math comes closest to working. The typical Ewa Beach home value is $834,449 as of July 2026, up 1.1%, while average rents run $3,547 and rose 5.8%. That 0.69 estimated ratio at 20% down is the strongest on this page, produced by newer tract homes that rent as houses to families who commute the H-1 or ride the new rail line.\n\nThe tenant base is the quiet strength. Joint Base Pearl Harbor-Hickam sits twenty minutes up the freeway, and 2026 housing allowances pay an E-5 with dependents $3,663 a month and an E-6 $3,912, numbers that bracket the going rent for a three-bedroom in Ewa Gentry almost exactly. Military families sign long leases, pay on allotment-backed income, and leave houses in inspection-ready condition.\n\nThe caveats are physical and contractual. Most of Ewa is master-planned, so association fees, though modest next to condo dues, exist on many parcels, and the newer stock west of Fort Weaver Road carries them more often. Submarket sale medians swing hard on thin monthly volume, like Ocean Pointe printing a $700,000 median in January 2026, so underwrite the street, not the headline. Files here still need 25% to 30% down or an interest-only structure to carry, and the honest ones budget for it.",
+      "regulationBadge": "moderate",
+      "regulationNote": "Ewa Beach is residentially zoned with no resort districts, so short stays are off the table under Honolulu's 30-day enforced minimum, and the practical play is long-term family and military tenancies.",
+      "neighborhoods": [
+        {
+          "name": "Ewa Gentry",
+          "medianPrice": 774578,
+          "medianRent": 3400,
+          "note": "The volume submarket: 1990s-2010s tract homes with a $774,578 median sale price as of June 2026, down 2.0% on the year. Three-bedroom rents sit almost exactly on the E-5 and E-6 housing allowance, which is not a coincidence."
+        },
+        {
+          "name": "Ocean Pointe",
+          "medianPrice": 700000,
+          "medianRent": 3600,
+          "note": "Newer coastal-side community whose January 2026 median printed at $700,000 on thin volume after a 23.9% single-month swing, which is sample noise, not a crash. Newer builds rent at a premium and carry association fees."
+        },
+        {
+          "name": "Ewa Villages",
+          "medianPrice": 750000,
+          "medianRent": 3200,
+          "note": "The old plantation core, renovated in waves. Cheaper entry than the master-planned tracts, older systems, and the same tenant demand spilling over from Ewa Gentry."
+        }
+      ],
+      "localAngle": {
+        "tag": "Growth",
+        "title": "The rail line finally reached the airport, and Ewa is the end that benefits.",
+        "body": "Skyline, Honolulu's elevated rail, opened its second segment on October 16, 2025, extending service from East Kapolei through Pearl Harbor to Middle Street with new stations at Joint Base Pearl Harbor-Hickam and Daniel K. Inouye International Airport. The system logged 61,968 rides in its first four days after the extension, and Segment 3 into downtown and Kakaako is slated for 2031. For two decades the knock on the Ewa plain was the commute: an hour or more crawling the H-1 into town. A one-seat train ride from the west side to the airport and eventually downtown is the specific thing that changes the renter calculus, because the tenant paying $3,400 in Ewa Gentry is usually a household working at the base, the airport, or in town. Every station that opens makes the westside house more competitive against a town condo at the same rent. This is not a promise of instant appreciation, and rail projects run late, this one famously so. But the investor thesis for Ewa Beach has always been demographic: this is where Oahu's working families can still buy or rent a house, and the infrastructure is finally catching up to the population. Your matched specialist will structure the purchase on today's rent, with the rail upside left as exactly that, upside."
+      },
+      "programFit": [
+        "standard-dscr",
+        "interest-only-dscr",
+        "no-ratio-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 2-bath SFR",
+        "neighborhood": "Ewa Gentry",
+        "purchasePrice": 780000,
+        "downPaymentPct": 30,
+        "downPayment": 234000,
+        "loanAmount": 546000,
+        "loanType": "30-Year Fixed, Interest-Only Period",
+        "interestOnly": true,
+        "monthlyPI": 3413,
+        "monthlyTax": 228,
+        "monthlyInsurance": 230,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 3871,
+        "monthlyRent": 3400,
+        "dscr": 0.88,
+        "monthlyCashFlow": -471,
+        "specialistFocus": [
+          "Structured an interest-only period because the amortizing payment put the ratio near 0.80, and the IO structure carried it to 0.88 while the investor's plan is a five-year hold",
+          "Qualified on the appraiser's market rent of $3,400, documented against the 2026 E-6 housing allowance of $3,912 that anchors what military families pay in this tract",
+          "Priced the separate hurricane policy into the insurance figure up front, since Hawaii homeowners policies exclude named-storm wind and lenders require the coverage"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Is Ewa Beach really the best cash-flow market on Oahu?",
+          "answer": "By the numbers, yes, and it is still negative at standard leverage. The 0.69 estimated ratio at 20% down beats every other Oahu submarket on this site because Ewa's newer tract homes rent as whole houses at $3,400 to $3,600 while pricing under the island median. But best on Oahu is not the same as cash flowing: a typical file needs 30% down or an interest-only structure to approach break-even. Investors buy here for the tenant quality, the entry price, and the westside growth arc, and they fund a modest monthly gap knowingly rather than discovering it at closing."
+        },
+        {
+          "question": "How dependable are military tenants in Ewa Beach?",
+          "answer": "About as dependable as residential tenancy gets. The 2026 housing allowance for Joint Base Pearl Harbor-Hickam pays an E-5 with dependents $3,663 and an E-6 $3,912 a month, tax-free and adjusted annually, and those figures bracket Ewa Gentry's going three-bedroom rent. Families typically sign for a full tour rotation, and the income is as stable as a federal paycheck. The tradeoff is turnover on transfer orders, which arrive on the military's schedule rather than yours, and the Servicemembers Civil Relief Act allows lease termination with orders. Budget a turnover cycle every two to three years and the tenancy is a strength, not a risk."
+        },
+        {
+          "question": "Do Ewa Beach homes have HOA fees like Honolulu condos?",
+          "answer": "Many do, but at a different order of magnitude. Master-planned communities like Ewa Gentry and Ocean Pointe carry community association fees that typically run from under a hundred to a few hundred dollars a month depending on the village and amenities, versus the $500 to $1,200 monthly dues common in town condos. Older Ewa Villages parcels often have none. The fee still belongs in your underwriting because a $150 monthly association bill moves a ratio that is already below 1.0. Your matched specialist will pull the actual association budget for the specific parcel rather than assuming zero."
+        },
+        {
+          "question": "What does the new rail line actually do for Ewa Beach values?",
+          "answer": "It shortens the effective distance between the westside and the island's job centers, which supports rents before it supports prices. Skyline's second segment opened in October 2025 with stations at Pearl Harbor and the airport, and the downtown extension is slated for 2031. History from other metros says stations lift nearby rents and values gradually over years, not overnight, and Honolulu's line has run famously late. Underwrite today's rent and treat rail as the reason the ten-year hold is more attractive than the flip. If a deal only works with a rail premium baked in, it does not work."
+        }
+      ],
+      "dataSources": [
+        "Zillow, Ewa Beach typical home value, YoY change, and average rent, July 2026",
+        "Redfin, Ewa Gentry and Ocean Pointe median sale prices, January-June 2026 (neighborhood rents est.)",
+        "Defense Travel Management Office, 2026 BAH rates for the Oahu military housing area, January 2026",
+        "Honolulu Authority for Rapid Transportation and Hawaii News Now, Skyline Segment 2 opening, October 2025",
+        "US Census Bureau Housing Vacancy Survey via FRED, Hawaii statewide rental vacancy, 2024",
+        "Living in Hawaii homeowners insurance guides, base plus separate hurricane policy, 2025 (est.)"
+      ]
+    },
+    {
+      "city": "Kapolei",
+      "slug": "kapolei",
+      "county": "Honolulu County",
+      "metro": "Urban Honolulu",
+      "hook": "Kapolei's typical home runs $846K with rents up 7% in a year, the fastest rent growth on this page. The median still pencils at 0.67, so the structure decides the deal, not the story.",
+      "metaDescription": "Kapolei homes average $846K with rents up 7%, Oahu's fastest. The median DSCR is 0.67, so structure carries the deal. See what works. Get matched today.",
+      "market": {
+        "medianPrice": 845690,
+        "medianRent": 3494,
+        "priceToRent": 20.2,
+        "vacancyRate": 7.4,
+        "yoyPrice": 1.2,
+        "yoyRent": 7,
+        "estDSCR": 0.67,
+        "propertyTaxRate": 0.35,
+        "insuranceMonthly": 230
+      },
+      "overview": "Kapolei is Oahu's planned second city, and unlike most second-city marketing, the institutions actually moved: a University of Hawaii campus, a federal building, big-box retail, the island's newest hospital wing, and the eastern terminus of the Skyline rail line all sit here. The typical home value is $845,690 as of July 2026, up 1.2%, while average rents rose 7.0% to $3,494, the fastest rent growth of any city on this page. Demand is doing exactly what a growth corridor should.\n\nThe supply side is the part to respect. Ho'opili, the master-planned community rising between Kapolei and Ewa, is entitled for over 11,000 homes and delivers hundreds a year, which is why price growth here is modest while rents run hot: new inventory absorbs buyers, and the renter pool grows faster than the rental stock. For a landlord that mix is workable as long as you do not overpay for new-construction shine that the next phase will reproduce across the street.\n\nAt 20% down the median pencils at 0.67, so files here still carry negative months at standard leverage. What closes: townhomes in Makakilo and older Kapolei villages bought at a discount to the new stock, 25% to 30% down, and rent set to the military and healthcare tenant base rather than the vacation fantasy. Ko Olina, the resort district next door, is its own market with legal short stays and resort pricing to match.",
+      "regulationBadge": "moderate",
+      "regulationNote": "Kapolei proper is residentially zoned under Honolulu's 30-day enforced minimum stay, while adjacent Ko Olina is resort-zoned and legally short-term rentable, so the parcel's zoning line is worth thousands a month and must be verified, not assumed.",
+      "neighborhoods": [
+        {
+          "name": "Makakilo",
+          "medianPrice": 800000,
+          "medianRent": 3300,
+          "note": "The hillside above Kapolei with older townhomes and split-levels at a discount to the flatland new builds. Cooler air, H-1 access at the bottom of the hill, and the best value entry in the zip code."
+        },
+        {
+          "name": "Kapolei Villages",
+          "medianPrice": 845690,
+          "medianRent": 3500,
+          "note": "The 1990s-2000s core tracts around the civic center, matching the citywide median. Family tenants, walkable schools, and association fees that vary village by village."
+        },
+        {
+          "name": "Ho'opili",
+          "medianPrice": 900000,
+          "medianRent": 3600,
+          "note": "The new-construction engine, entitled for 11,000+ homes with the East Kapolei rail station in the middle. Rents strong, but every phase delivers your unit's competition, so buy the location premium only if the lot actually has one."
+        },
+        {
+          "name": "Ko Olina",
+          "medianPrice": 1300000,
+          "medianRent": 5500,
+          "note": "Resort-zoned marina and lagoon district where legal short-term rental is possible and pricing is a different sport. Condotel and resort-fee structures shrink the lender pool; treat it as a separate market."
+        }
+      ],
+      "localAngle": {
+        "tag": "Growth",
+        "title": "The second city thesis is real, but the new supply pipeline is aimed at your exit.",
+        "body": "Kapolei's bull case writes itself: state and county agencies deliberately seeded a second urban center on the Ewa plain, the University of Hawaii West Oahu campus anchors it, Skyline trains have run from East Kapolei toward Pearl Harbor and the airport since the October 2025 extension, and the downtown connection is slated for 2031. Rents rising 7.0% in a year while the island's older cores manage low single digits says the demand is genuine. Here is the two-layer truth: the same master planning that built the demand also built a supply pipeline pointed directly at your future exit. Ho'opili alone is entitled for more than 11,000 homes and delivers them in steady phases, each one a brand-new competitor for your tenant and your eventual buyer. That is why Kapolei prices rose just 1.2% while rents ran hot, and why paying top dollar for a new tract home as a rental is the classic mistake here: the builder will sell a newer version of it, with incentives, every year you own yours. The winning structure buys the older, cheaper stock the pipeline does not reproduce, hillside Makakilo townhomes and 1990s villages near the civic core, and lets the new construction keep validating the rent. Your matched specialist will price the file against the phase map, not the sales office brochure."
+      },
+      "programFit": [
+        "standard-dscr",
+        "no-ratio-dscr",
+        "interest-only-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 2.5-bath townhome",
+        "neighborhood": "Makakilo",
+        "purchasePrice": 650000,
+        "downPaymentPct": 25,
+        "downPayment": 162500,
+        "loanAmount": 487500,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 3408,
+        "monthlyTax": 190,
+        "monthlyInsurance": 100,
+        "monthlyHOA": 550,
+        "monthlyPITIA": 4248,
+        "monthlyRent": 3200,
+        "dscr": 0.75,
+        "monthlyCashFlow": -1048,
+        "specialistFocus": [
+          "Matched the file to a lender whose no-ratio program prices on equity and reserves, because the honest 0.75 ratio with the $550 association fee counted fails standard coverage minimums",
+          "Verified the townhome association's master policy and hurricane coverage before appraisal, the item that has been failing Oahu condo and townhome files since premiums repriced",
+          "Underwrote the rent to the long-term family tenant base at $3,200 instead of the furnished-rental figures marketed online, which the appraiser will not support"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Should I buy new construction in Ho'opili as a rental?",
+          "answer": "Only with eyes open. The rents are real, the rail station is real, and the tenant demand at $3,600 for a new three-bedroom is real. The problem is the pipeline: Ho'opili is entitled for over 11,000 homes, and every future phase delivers a newer version of your property, often with builder incentives, competing for your tenant and eventually your buyer. That suppresses near-term appreciation, which is exactly what the 1.2% citywide price growth against 7.0% rent growth is telling you. Buying the older Makakilo or Kapolei Villages stock at a discount usually produces a better ratio and a cleaner exit."
+        },
+        {
+          "question": "Can I short-term rent in Kapolei or Ko Olina?",
+          "answer": "In Kapolei proper, no. It is residentially zoned, and Honolulu's enforced minimum stay outside resort districts is 30 days, with the city's 90-day ordinance stuck in federal court. Ko Olina is the exception: it is resort-zoned, so nightly rental is legal there, which is why its condos price above $1 million and its rental economics look nothing like the rest of the westside. Note that many Ko Olina buildings run as condotels or carry resort fee structures that many DSCR lenders limit or decline. Your matched specialist can tell you which of the 70+ lenders in the network finance resort-zone condos before you write an offer."
+        },
+        {
+          "question": "Why is Kapolei rent growth so much faster than the rest of Oahu?",
+          "answer": "Because the westside is where Oahu's household growth physically lands. The island builds almost nothing in town, Ho'opili and the Ewa plain absorb the new families, and the university, hospital, retail, and base employment out west generate renters faster than the rental stock grows. A 7.0% annual rent gain against roughly 1% price growth is the signature of a market where demand is demographic rather than speculative. For an investor that is the right kind of rent growth to underwrite, but underwrite this year's rent, not a projection, because the same planners approving demand are approving supply."
+        },
+        {
+          "question": "What down payment does a Kapolei rental actually need?",
+          "answer": "More than the mainland playbook says. At 20% down the citywide median pencils near 0.67, and a realistic townhome file with association dues lands near 0.75 even at 25% down. To clear a standard 1.0 coverage requirement on an amortizing loan you would need down payment percentages that rarely make sense, which is why Kapolei files close as no-ratio or interest-only structures instead: 25% to 30% down, pricing based on equity and reserves, and a plan that funds a known monthly gap while rents compound at westside speed. Your matched specialist will show you both structures priced side by side."
+        }
+      ],
+      "dataSources": [
+        "Zillow, Kapolei typical home value, YoY change, and average rent, July 2026",
+        "Redfin and local MLS market pages, Makakilo and Kapolei submarket figures, 2026 (neighborhood medians and rents est.)",
+        "Honolulu Authority for Rapid Transportation, Skyline Segment 2 opening and Segment 3 timeline, October 2025",
+        "Ho'opili master plan entitlement filings and developer phase reporting, 2026 (est.)",
+        "US Census Bureau Housing Vacancy Survey via FRED, Hawaii statewide rental vacancy, 2024",
+        "Living in Hawaii homeowners insurance guides, base plus separate hurricane policy, 2025 (est.)"
+      ]
+    },
+    {
+      "city": "Waipahu",
+      "slug": "waipahu",
+      "county": "Honolulu County",
+      "metro": "Urban Honolulu",
+      "hook": "Waipahu's typical value is $870K and the whole-house rent is $2,897, a ratio that fails at the median. The files that clear here stack two incomes on one lot: main house plus ohana unit.",
+      "metaDescription": "Waipahu homes average $870K with rents up 5.6%. The deals that work stack a main house with an ohana unit on one lot. See the math. Get matched today.",
+      "market": {
+        "medianPrice": 870037,
+        "medianRent": 2897,
+        "priceToRent": 25,
+        "vacancyRate": 7.4,
+        "yoyPrice": 2.5,
+        "yoyRent": 5.6,
+        "estDSCR": 0.54,
+        "propertyTaxRate": 0.35,
+        "insuranceMonthly": 225
+      },
+      "overview": "Waipahu is the old sugar mill town the H-1 swallowed, and it holds some of the last big residential lots in urban Honolulu County. The typical home value is $870,037 as of July 2026, up 2.5%, with average rents at $2,897, up 5.6%. Run the single-tenant math and the median pencils at 0.54, which fails. Waipahu investors mostly do not run single-tenant math.\n\nThe local playbook is the ohana unit. Plantation-era lots here commonly hold a main house plus a second dwelling, either grandfathered ohana units or accessory dwelling units permitted under Honolulu's Ordinance 15-41, which allows an ADU of up to 800 square feet on qualifying residential lots. Two leases on one parcel turn a $2,900 whole-house rent into $4,600 to $5,200 of combined income, and that is the version of Waipahu that gets within reach of break-even. The tenant base is deep and multigenerational: Filipino, Micronesian, and local families who stay for years, plus spillover from Pearl Harbor and the Waikele retail belt.\n\nRespect the condition curve. This is some of the oldest tract housing on the island, with 1950s-70s plumbing, termite history, and unpermitted additions that appraisers flag. The Skyline rail runs through Waipahu with two stations already open on the 2023 first segment, a quiet long-term plus for a town that has always been about the commute. Buy the lot and the second kitchen, not the paint.",
+      "regulationBadge": "moderate",
+      "regulationNote": "Waipahu is fully residential with no resort zoning, so the 30-day minimum stay applies as enforced islandwide, and the local edge comes from Honolulu's ADU ordinance rather than from any short-stay play.",
+      "neighborhoods": [
+        {
+          "name": "Waipahu Town",
+          "medianPrice": 750000,
+          "medianRent": 3200,
+          "note": "The plantation-era core below the mill site: big flat lots, older homes, and the highest concentration of legal second dwellings. The dual-income playbook lives here, and so does the deferred-maintenance risk."
+        },
+        {
+          "name": "Village Park",
+          "medianPrice": 850000,
+          "medianRent": 3300,
+          "note": "1980s-90s subdivisions upslope with newer systems and cleaner appraisals than the old town, at a price premium that eats some of the ratio."
+        },
+        {
+          "name": "Royal Kunia",
+          "medianPrice": 830000,
+          "medianRent": 3400,
+          "note": "Master-planned tracts by the golf course with association fees and the area's most inspection-ready stock. Rents pull from the same base and hospital tenant pool at the top of the local range."
+        },
+        {
+          "name": "Waikele",
+          "medianPrice": 900000,
+          "medianRent": 3600,
+          "note": "The premium address in the zip code, golf-course townhomes and tracts near the outlet mall. Better tenant income, higher entry, and dues that belong in the underwriting."
+        }
+      ],
+      "localAngle": {
+        "tag": "House Hack Math",
+        "title": "One lot, two leases: the ADU ordinance is Waipahu's entire investment case.",
+        "body": "Honolulu's Ordinance 15-41, adopted in 2015, allows accessory dwelling units of up to 800 square feet on qualifying residential lots countywide, and no neighborhood benefits from it like Waipahu. The plantation grid here left thousands of flat 5,000-7,500 square foot lots, many already holding grandfathered ohana units from the 1980s ohana zoning era, and many more with the setbacks and parking to add an ADU legally. The arithmetic is the whole argument. A single-tenant Waipahu house rents near $2,900 against a payment stack that produces a 0.54 ratio at the median, dead on arrival. The same lot with a 3-bedroom main house at $2,800 and a 2-bedroom ohana at $2,200 grosses $5,000, and suddenly the file is arguing about 1.0 instead of 0.5. DSCR lenders underwrite this two ways: on the appraiser's combined market rent for both units when they are legal and separately rentable, or on the main house only when the second unit's permits are murky. That permit file is where Waipahu deals are won and lost, because unpermitted additions are everywhere here and an appraiser who cannot count the second kitchen cannot count its rent. Your matched specialist will confirm how each lender treats ADU income and structure the file on the income the county paperwork actually supports."
+      },
+      "programFit": [
+        "standard-dscr",
+        "portfolio-dscr",
+        "bridge-to-dscr",
+        "no-ratio-dscr"
+      ],
+      "dealExample": {
+        "label": "BRRRR Refinance",
+        "propertyType": "4-bed / 2-bath SFR with ohana unit",
+        "neighborhood": "Waipahu Town",
+        "purchasePrice": 850000,
+        "downPaymentPct": 25,
+        "downPayment": 212500,
+        "loanAmount": 637500,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 4456,
+        "monthlyTax": 248,
+        "monthlyInsurance": 225,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 4929,
+        "monthlyRent": 5000,
+        "dscr": 1.01,
+        "monthlyCashFlow": 71,
+        "specialistFocus": [
+          "Qualified on the appraiser's combined market rent for both dwellings, $2,800 for the renovated main house and $2,200 for the legal ohana unit, after confirming both on county permit records",
+          "Structured the refinance at 75% of the post-renovation appraised value, returning most of the investor's rehab capital while keeping the ratio at 1.01",
+          "Cleared the unpermitted carport enclosure with the county before appraisal so the square footage and the second kitchen both counted"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "How do lenders treat ohana unit income in Waipahu?",
+          "answer": "It depends entirely on the paperwork. When the second dwelling is a permitted ADU under Ordinance 15-41 or a legal grandfathered ohana unit, most DSCR lenders let the appraiser assign market rent to both units and underwrite the combined figure, which is what makes Waipahu math work. When the unit is an unpermitted conversion, and Waipahu has thousands, lenders either ignore its income entirely or decline the collateral. The difference on a typical lot is roughly $2,000 a month of countable rent. Pull the county permit history before you write the offer, not after. Your matched specialist knows which of the 70+ lenders credit ADU income most generously."
+        },
+        {
+          "question": "Is the Waipahu single-family median really a 0.54 deal?",
+          "answer": "At 20% down with one lease, yes, and this site will not pretend otherwise. An $870,000 typical value against a $2,897 average rent produces roughly 0.54 coverage before HOA dues on the tracts that have them. That is why the whole local investor economy runs on second units, larger down payments, and renovation value-add rather than turnkey single-tenant buys. If you are being pitched a turnkey Waipahu house at 20% down as a cash-flow deal, the seller is using someone else's rent number or someone else's payment. The two-unit version of the same street is a fundamentally different investment."
+        },
+        {
+          "question": "What does the rail line mean for Waipahu specifically?",
+          "answer": "Waipahu is one of the few towns with stations already operating: the first Skyline segment opened in 2023 with stops at Waipahu Transit Center and West Loch, and the October 2025 extension connected the line through Pearl Harbor to the airport. When Segment 3 reaches downtown, slated for 2031, Waipahu becomes a train-commute town in both directions, west to Kapolei's job base and east to town. Rents here already climbed 5.6% in a year. The station-area lots in old Waipahu Town, the same ones holding ohana units, are the specific parcels where transit access and dual income stack on top of each other."
+        },
+        {
+          "question": "What condition problems should I expect in Waipahu's older stock?",
+          "answer": "The classics of 1950s-70s plantation-town housing: galvanized plumbing at end of life, undersized electrical panels, single-wall redwood construction that termites love, cesspools on some older parcels that trigger conversion costs, and unpermitted additions that appraisers must exclude. None of it is disqualifying, all of it belongs in the price. The successful Waipahu playbook is buying at a discount that funds the cure, renovating with permits so every square foot counts, and refinancing on the improved value, which is why BRRRR structures are common here. Budget the inspection findings honestly and the old stock is exactly where the margin lives."
+        }
+      ],
+      "dataSources": [
+        "Zillow, Waipahu typical home value, YoY change, and average rent, July 2026",
+        "Redfin market pages, Royal Kunia and Waikele submarket figures, 2024-2026 (neighborhood medians and rents est.)",
+        "Honolulu Ordinance 15-41, accessory dwelling unit provisions, City and County of Honolulu records",
+        "Honolulu Authority for Rapid Transportation, Skyline segment openings, 2023-2025",
+        "US Census Bureau Housing Vacancy Survey via FRED, Hawaii statewide rental vacancy, 2024",
+        "Living in Hawaii homeowners insurance guides, base plus separate hurricane policy, 2025 (est.)"
+      ]
+    },
+    {
+      "city": "Pearl City",
+      "slug": "pearl-city",
+      "county": "Honolulu County",
+      "metro": "Urban Honolulu",
+      "hook": "Pearl City homes average $940K ten minutes from a base paying E-6 families $3,912 a month for housing. The tenant is superb. The blended ratio at the median is 0.45, so structure is everything.",
+      "metaDescription": "Pearl City homes average $940K beside JBPHH, where 2026 BAH pays E-6 families $3,912. See how investors bridge the 0.45 median DSCR. Get matched today.",
+      "market": {
+        "medianPrice": 939530,
+        "medianRent": 2591,
+        "priceToRent": 30.2,
+        "vacancyRate": 7.4,
+        "yoyPrice": 2.6,
+        "yoyRent": 6.5,
+        "estDSCR": 0.45,
+        "propertyTaxRate": 0.35,
+        "insuranceMonthly": 230
+      },
+      "overview": "Pearl City is the center of Oahu's military rental economy, perched directly above Joint Base Pearl Harbor-Hickam. The typical home value is $939,530 as of July 2026, up 2.6%, and the blended average rent is $2,591, up 6.5%. That blended figure produces the ugliest ratio on this page, 0.45 at 20% down, and it also understates what the asset investors actually buy here earns: the average mixes older walk-up condos into the figure, while a three-bedroom house near the base rents in the $3,500 to $3,900 range, anchored by housing allowances.\n\nThe allowance anchor is the underwriting story. The 2026 BAH tables pay a JBPHH E-5 with dependents $3,663 a month and an E-6 $3,912, up 4.4% from 2025, and Pearl City sits closer to the gates than any comparable inventory. October 2025 moved the base even closer in commute terms: Skyline's second segment opened with a station at Makalapa, directly serving JBPHH. Military families rent whole houses here for full tours, and the vacancy risk between tenants is measured in days.\n\nEven with a house-level rent, the math is Hawaii math: $3,700 against a $940,000 asset needs 30% down and still runs negative on an amortizing note. Files close as no-ratio or interest-only structures, funded by investors buying the tenant quality and the land. Manana and Pacific Palisades hold the family stock; Aiea next door offers the same tenant base at a slightly lower entry.",
+      "regulationBadge": "moderate",
+      "regulationNote": "Pearl City has no resort zoning, so the enforced 30-day minimum stay applies, and the practical tenant strategy is long-term military and healthcare families whose allowances reset annually with the BAH tables.",
+      "neighborhoods": [
+        {
+          "name": "Manana",
+          "medianPrice": 950000,
+          "medianRent": 3700,
+          "note": "The core family tract above Kamehameha Highway: 1960s-70s houses on flat lots, walkable schools, and the shortest commute to the base gates. The default choice for E-6 and officer families renting at allowance."
+        },
+        {
+          "name": "Pacific Palisades",
+          "medianPrice": 890000,
+          "medianRent": 3500,
+          "note": "The ridge neighborhood up Komo Mai Drive with views and cooler air. Slightly cheaper entry than Manana, slightly longer drive, same tenant pool."
+        },
+        {
+          "name": "Waiau",
+          "medianPrice": 900000,
+          "medianRent": 3600,
+          "note": "Between Pearl City and Waimalu with a mix of houses and townhomes. Townhome dues change the math, so underwrite the association line, not just the rent."
+        },
+        {
+          "name": "Aiea",
+          "medianPrice": 832879,
+          "medianRent": 2758,
+          "note": "The adjacent town toward the stadium, typical value $832,879 with blended rents of $2,758 as of July 2026. Same base tenancy at a lower entry, with more condo stock diluting the blended rent figure."
+        }
+      ],
+      "localAngle": {
+        "tag": "Tenant Base",
+        "title": "BAH is the rent floor here, and the federal government publishes it every December.",
+        "body": "Most rental markets make you guess next year's rent. Pearl City posts it. The military Basic Allowance for Housing for the Oahu military housing area, published annually by the Defense Travel Management Office, pays a 2026 E-5 with dependents $3,663 a month and an E-6 with dependents $3,912, tax-free, with rates up 4.4% over 2025. Because Joint Base Pearl Harbor-Hickam families dominate the tenant pool for three-bedroom houses in Manana and Pacific Palisades, landlords here price to the allowance almost mechanically, and the allowance has compounded upward nearly every year for two decades. That is the strength. The honest caveats: allowance-anchored rents cap out at the allowance, tenants rotate on transfer orders every two to three years, and the Servicemembers Civil Relief Act lets a tenant with orders break a lease cleanly, so your turnover schedule belongs to the Navy. And no allowance rescues the purchase math: at a $939,530 typical value even a $3,700 house rent produces coverage in the 0.8s with 30% down on an amortizing note. Pearl City files close as interest-only and no-ratio structures bought for tenant quality, land value, and a rent floor the federal government underwrites in public. Your matched specialist will document the appraiser's market rent against the current BAH table so the file's income number holds."
+      },
+      "programFit": [
+        "no-ratio-dscr",
+        "interest-only-dscr",
+        "standard-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 2-bath SFR",
+        "neighborhood": "Manana",
+        "purchasePrice": 800000,
+        "downPaymentPct": 30,
+        "downPayment": 240000,
+        "loanAmount": 560000,
+        "loanType": "30-Year Fixed, No-Ratio",
+        "interestOnly": false,
+        "monthlyPI": 3914,
+        "monthlyTax": 233,
+        "monthlyInsurance": 230,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 4377,
+        "monthlyRent": 3700,
+        "dscr": 0.85,
+        "monthlyCashFlow": -677,
+        "specialistFocus": [
+          "Structured the file as no-ratio at 30% down because the honest 0.85 coverage fails standard minimums, and the investor is buying the tenant base and the land, not this year's cash flow",
+          "Documented the $3,700 market rent against the 2026 JBPHH allowance tables, showing an E-6 with dependents carries $3,912 and prices this exact floor plan",
+          "Underwrote the separate hurricane policy and a realistic maintenance reserve for a 1960s house, so the negative carry the investor is funding is the real number, not a brochure number"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Why is the Pearl City ratio the worst on this site if the tenants are so good?",
+          "answer": "Because the blended rent average dilutes the asset investors actually buy. The $2,591 citywide average rent mixes older one and two bedroom condos into the figure, while the investable product, a three-bedroom house near the base, rents at $3,500 to $3,900 against a $939,530 typical value. Even the house-level math runs negative at standard leverage, which is honest Hawaii arithmetic, but 0.45 is the blended headline, not the house you would own. This is the reverse of most markets, where headline rents flatter the deal. Underwrite the specific property's appraiser rent and the file improves substantially while still needing structure."
+        },
+        {
+          "question": "How much should I count on BAH increases when underwriting?",
+          "answer": "Count the current table, treat the increases as upside. The 2026 Oahu rates rose 4.4% over 2025 and the series has compounded for decades, but Congress sets the formula and there is no guarantee written into your lease. The disciplined approach is pricing this year's rent at or slightly below the relevant allowance, an E-5 with dependents at $3,663 or an E-6 at $3,912 for 2026, so the house stays instantly rentable inside the tenant pool's budget. A DSCR lender underwrites the appraiser's market rent, not a projected allowance, so the published table mostly serves as third-party evidence that the market rent is durable."
+        },
+        {
+          "question": "Are military tenants risky because they can break leases?",
+          "answer": "The Servicemembers Civil Relief Act does let a tenant terminate with permanent change of station or deployment orders, typically on 30 days notice after the next rent date, and no lease clause overrides it. In practice this is a manageable cost, not a crisis: Pearl City sits beside one of the largest joint bases in the Pacific, replacement demand is continuous, and units near the gates re-rent in days, especially during summer rotation season. The offsetting benefits are federal paychecks, command accountability for serious tenant misconduct, and families who treat inspections seriously. Budget one extra turnover per hold period and the tenancy profile still beats most civilian alternatives."
+        },
+        {
+          "question": "Should I buy in Pearl City or Aiea?",
+          "answer": "Same tenant base, slightly different entries. Aiea's typical value of $832,879 runs about $107,000 below Pearl City's, both feed the JBPHH and Tripler tenant pools, and both gained a commute story when Skyline's Pearl Harbor and Aloha Stadium stations opened. Pearl City's Manana tract holds the deepest inventory of the classic three-bedroom family rental; Aiea skews slightly more condo and townhome, which is why its blended rent reads lower. The decision usually comes down to the specific house: flat lot, legal square footage, distance to the gates. Your matched specialist will run both files so the ratios, not the zip codes, make the call."
+        }
+      ],
+      "dataSources": [
+        "Zillow, Pearl City and Aiea typical home values, YoY changes, and average rents, July 2026",
+        "Defense Travel Management Office, 2026 BAH rates for the Oahu military housing area, January 2026",
+        "Redfin and local MLS market pages, Manana and Pacific Palisades submarket figures, 2026 (neighborhood medians and rents est.)",
+        "Honolulu Authority for Rapid Transportation, Skyline Segment 2 stations including Makalapa at JBPHH, October 2025",
+        "US Census Bureau Housing Vacancy Survey via FRED, Hawaii statewide rental vacancy, 2024",
+        "Living in Hawaii homeowners insurance guides, base plus separate hurricane policy, 2025 (est.)"
+      ]
+    },
+    {
+      "city": "Mililani",
+      "slug": "mililani",
+      "county": "Honolulu County",
+      "metro": "Urban Honolulu",
+      "hook": "Mililani's typical home value is $876K with rents up 5.1% and the most covenant-protected housing stock in Central Oahu. At 20% down the median pencils near 0.57, and files close on structure.",
+      "metaDescription": "Mililani homes average $876K with rents up 5.1% in Central Oahu's steadiest master-planned market. DSCR pencils at 0.57. See what works. Get matched today.",
+      "market": {
+        "medianPrice": 876447,
+        "medianRent": 3078,
+        "priceToRent": 23.7,
+        "vacancyRate": 7.4,
+        "yoyPrice": 1.2,
+        "yoyRent": 5.1,
+        "estDSCR": 0.57,
+        "propertyTaxRate": 0.35,
+        "insuranceMonthly": 230
+      },
+      "overview": "Mililani is the master-planned town Castle & Cooke built on the central plateau, and it runs on rules: the Mililani Town Association enforces design covenants across roughly 16,000 homes, parks, and seven rec centers, and the result is the most uniformly maintained housing stock on Oahu. The typical value is $876,447 as of July 2026, up 1.2%, with average rents up 5.1% to $3,078. Schofield Barracks and Wheeler Army Airfield sit ten minutes north, and Army families are the backbone of the rental pool.\n\nThe carry math is standard Hawaii: 0.57 at the median with 20% down, improved by house-level rents. A four-bedroom in Mililani Town rents near $3,600, and Mauka's newer stock pushes higher; both track the Schofield allowance tables the way Pearl City tracks JBPHH. The association fee is modest, but it exists on every parcel, and the condo and townhome segments layer project dues on top, which is why the cheaper condo entries in Mauka do not automatically produce better ratios.\n\nWhat Mililani offers that the rest of the island mostly does not is predictability. Covenants keep the comps clean, the tenant base rotates but never thins, values move slowly in both directions, and the 2026 sales data shows exactly that: modest single-digit appreciation while thin monthly medians bounce around underneath. This is the market for the investor who wants Hawaii exposure with suburban-mainland operating behavior, funded with the structure the ratio honestly requires.",
+      "regulationBadge": "moderate",
+      "regulationNote": "Mililani is covenant-governed residential zoning end to end, so short stays are out under the islandwide 30-day enforced minimum, and Mililani Town Association design rules add an approval layer to renovations that investors should price into project timelines.",
+      "neighborhoods": [
+        {
+          "name": "Mililani Town",
+          "medianPrice": 715000,
+          "medianRent": 3300,
+          "note": "The original 1970s-80s side south of the H-2: single-story homes on flat lots with a recent median sale near $715,000 on mixed volume. The default Army-family rental, priced to the Schofield allowance."
+        },
+        {
+          "name": "Mililani Mauka",
+          "medianPrice": 594644,
+          "medianRent": 2900,
+          "note": "The newer 1990s-2000s side across the freeway. The $594,644 May 2026 median reads low because condos and townhomes dominate its sales mix; its single-family stock trades well above it, and the project dues belong in every underwriting."
+        },
+        {
+          "name": "Launani Valley",
+          "medianPrice": 585000,
+          "medianRent": 2800,
+          "note": "A tucked-away valley community of townhomes and small-lot homes with a median near $585,000. Quiet, green, association-managed, and the cheapest entry in the Mililani orbit."
+        }
+      ],
+      "localAngle": {
+        "tag": "Stability",
+        "title": "Covenants are the product: what the Mililani Town Association does to your risk.",
+        "body": "Every Mililani parcel sits under the Mililani Town Association, one of the largest homeowner associations in the state, and its design covenants are the actual investment product here. The MTA controls exterior changes, landscaping standards, and property upkeep across the whole town, which is why Mililani comps stay tight, why appraisals rarely surprise, and why the neighborhood won national recognition as a planned community decades ago and still shows it. For a landlord, covenants cut both ways, and both belong in the file. The upside: your comparable sales and rents are protected from the junk-car-next-door problem that drags values in unregulated tracts, tenant expectations are uniform, and the rec center network, seven facilities with pools included in association membership, is a genuine renting amenity. The cost side: association dues on every parcel, project-level dues stacked on top in Mauka's townhome communities, an architectural approval process that adds weeks to any exterior renovation, and enforcement letters that arrive whether your tenant mows or not. None of this is hostile to investors; Mililani has hosted Army-family rentals for fifty years. It is simply a rule-dense market where the operating manual is written down. Your matched specialist will underwrite the full dues stack for the specific parcel and structure around a ratio that pencils near 0.57 at the median, because in Mililani the surprises are supposed to be zero."
+      },
+      "programFit": [
+        "no-ratio-dscr",
+        "interest-only-dscr",
+        "portfolio-dscr"
+      ],
+      "dealExample": {
+        "label": "Cash-Out Refinance",
+        "propertyType": "4-bed / 2-bath SFR",
+        "neighborhood": "Mililani Town",
+        "purchasePrice": 880000,
+        "downPaymentPct": 30,
+        "downPayment": 264000,
+        "loanAmount": 616000,
+        "loanType": "30-Year Fixed, No-Ratio Cash-Out",
+        "interestOnly": false,
+        "monthlyPI": 4306,
+        "monthlyTax": 257,
+        "monthlyInsurance": 230,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 4793,
+        "monthlyRent": 3600,
+        "dscr": 0.75,
+        "monthlyCashFlow": -1193,
+        "specialistFocus": [
+          "Structured a no-ratio cash-out at 70% of appraised value for a long-time owner converting a former residence into a rental and redeploying equity into a mainland purchase",
+          "Qualified on the appraiser's market rent of $3,600, documented against the Schofield Barracks allowance tables that anchor four-bedroom pricing in this tract",
+          "Underwrote the Mililani Town Association dues and the Residential A tax threshold check, confirming the assessed value keeps the parcel in the base residential class"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Why does Mililani Mauka look so much cheaper than Mililani Town?",
+          "answer": "Sales mix, not value. Mauka's May 2026 median of $594,644 covers all home types, and its transaction volume is dominated by condos and townhomes, while the older Town side trades more detached houses. A Mauka single-family home actually prices at or above its Town equivalent because the stock is newer. For an investor the practical difference is the dues stack: Mauka townhome projects layer project-level fees on top of the Mililani Town Association base dues, and those fees move a ratio that already sits below 1.0. Compare specific properties on full carrying cost, never on the headline medians."
+        },
+        {
+          "question": "Is the Mililani Town Association a problem for landlords?",
+          "answer": "It is a cost and a discipline, not a problem. The MTA governs the whole town, dues apply to every parcel, and its covenant enforcement means your rental must stay maintained to community standard whether the tenant cooperates or not. In exchange you get the tightest comps on the island, seven rec centers your tenants can use, and protection from the neighboring-property deterioration that quietly kills values in unregulated tracts. Renovations need architectural approval, so build weeks into project timelines. Most experienced Oahu landlords consider Mililani's rules a feature they are happy to pay for. Price the dues, follow the process, and the association is on your side."
+        },
+        {
+          "question": "Who rents in Mililani?",
+          "answer": "Army families first. Schofield Barracks and Wheeler Army Airfield sit ten minutes north, and Mililani is the preferred off-post address for families who want the school complex and the rec centers. The 2026 Oahu housing allowance pays an E-5 with dependents $3,663 and an E-6 $3,912, which brackets the going rent for three and four bedroom homes here. Beyond the military, the tenant pool is teachers, healthcare workers, and families priced out of buying on the plateau. Vacancy between tenants is short, summer rotation season is the leasing window, and long tenancies are the norm on the Town side."
+        },
+        {
+          "question": "Does Mililani appreciate like the rest of Oahu?",
+          "answer": "Slower and steadier, by design. The typical value rose 1.2% over the past year against 5.1% rent growth, and that pattern, values crawling while rents compound, has repeated through most cycles. Master-planned supply, uniform stock, and a tenant base tied to allowance tables produce a market that neither spikes nor craters. Thin monthly sale medians will print scary swings in either direction; the Zillow typical value smooths that noise and is the number to trust. Buy Mililani for durable rental demand and predictable operations, structure the negative carry honestly, and let the appreciation be whatever the island gives you."
+        }
+      ],
+      "dataSources": [
+        "Zillow, Mililani typical home value, YoY change, and average rent, July 2026",
+        "Redfin, Mililani Town, Mililani Mauka, and Launani Valley median sale prices, May-July 2026 (neighborhood rents est.)",
+        "Defense Travel Management Office, 2026 BAH rates for the Oahu military housing area, January 2026",
+        "Mililani Town Association community governance records and covenant scope, 2026",
+        "US Census Bureau Housing Vacancy Survey via FRED, Hawaii statewide rental vacancy, 2024",
+        "Living in Hawaii homeowners insurance guides, base plus separate hurricane policy, 2025 (est.)"
+      ]
+    },
+    {
+      "city": "Hilo",
+      "slug": "hilo",
+      "county": "Hawaii County",
+      "metro": "Hilo Micro Area (Hawaii Island)",
+      "hook": "Hilo's typical value is $566K, up 5.1%, the cheapest city entry in the state. Hawaii County's 1.11% investor tax class is the number the listings never mention, and it moves every file.",
+      "metaDescription": "Hilo homes average $566K, Hawaii's cheapest city entry, but the county taxes investors at 1.11%. See the real DSCR math and the tax fix. Get matched today.",
+      "market": {
+        "medianPrice": 566432,
+        "medianRent": 2088,
+        "priceToRent": 22.6,
+        "vacancyRate": 7.4,
+        "yoyPrice": 5.1,
+        "yoyRent": 4.8,
+        "estDSCR": 0.53,
+        "propertyTaxRate": 1.11,
+        "insuranceMonthly": 250
+      },
+      "overview": "Hilo looks like the Hawaii value play: the typical home is $566,432 as of July 2026, up 5.1%, the strongest appreciation on this page, with average rents near $2,088 and county 2-bedroom medians around $1,950. A university, a state hospital, and the island's government payroll anchor demand, and the entry price is barely a third of Kailua's. Then the two-layer truth arrives in the tax bill.\n\nHawaii markets itself as the lowest property tax state in America, and for owner-occupants it is: Hawaii County's homeowner class pays $5.75 per $1,000 for fiscal 2026-27. An investor does not get that class. A non-owner-occupied residential property pays $11.10 per $1,000 on value up to $2 million, an effective 1.11% that is triple what a Honolulu investor pays under $1 million and nearly double the homeowner figure next door. On the median Hilo house that is roughly $6,300 a year, and it is why the estimated ratio here lands at 0.53 despite the cheap entry.\n\nThe county built the fix into the same rate sheet: a Long-Term Rental classification at $7.75 per $1,000, new for fiscal 2026-27, for properties leased six consecutive months or more. Filing for it cuts the median tax bill by about $1,900 a year and moves every ratio in town. Add real weather insurance, rift-zone awareness for anything south in Puna, and Hilo becomes what it honestly is: the best cash-flow attempt in the state, with homework.",
+      "regulationBadge": "moderate",
+      "regulationNote": "Hawaii County requires every short-term vacation rental to register under Ordinance 25-50 with unhosted rentals largely confined to resort and commercial zoning, so Hilo residential purchases should be underwritten as long-term rentals, where the county's new $7.75 per $1,000 tax class actually rewards the strategy.",
+      "neighborhoods": [
+        {
+          "name": "Waiakea",
+          "medianPrice": 600000,
+          "medianRent": 2400,
+          "note": "The university and hospital side of town with the newest stock and the deepest professional tenant pool. The default Hilo rental buy, priced at a modest premium to the citywide median."
+        },
+        {
+          "name": "Kaumana",
+          "medianPrice": 550000,
+          "medianRent": 2200,
+          "note": "Upslope on the Saddle Road side, cooler and wetter, larger lots. Solid family rentals, with catchment water systems on some parcels that lenders and insurers will ask about."
+        },
+        {
+          "name": "Downtown / Keaukaha",
+          "medianPrice": 480000,
+          "medianRent": 2000,
+          "note": "The bayfront grid and the beach-park corridor: the cheapest entries in town, older plantation stock, and tsunami evacuation zone mapping that appraisers and insurers price in."
+        },
+        {
+          "name": "Hawaiian Paradise Park",
+          "medianPrice": 530000,
+          "medianRent": 2100,
+          "note": "The giant Puna subdivision 25 minutes south, median near $530,000 in January 2026, up 6.0%. Cheaper land, real commute demand, but parts of Puna carry lava zone 1-2 designations where insurers and most national lenders will not go; verify the parcel's zone before anything else."
+        }
+      ],
+      "localAngle": {
+        "tag": "Tax Play",
+        "title": "The lowest-tax state charges Hilo investors 1.11%, unless you file for the rental class.",
+        "body": "Hawaii County's rate sheet for fiscal 2026-27 is the most important document in a Hilo underwriting, because the same house carries three different tax bills depending on classification. Owner-occupants pay the homeowner rate of $5.75 per $1,000. A non-owner-occupied residential property, which is what you own the day you close on a rental, pays $11.10 per $1,000 up to $2 million, an effective 1.11% of value that quietly outstrips what investors pay in most of Honolulu. On a $566,000 house the difference between those two classes is about $3,000 a year, and mainland pro formas built on Hawaii is a low tax state routinely carry the wrong number. The county's newer answer is the Long-Term Rental classification, set at $7.75 per $1,000 for 2026-27: commit the property to a lease of six consecutive months or longer, file the dedication paperwork with the Real Property Tax Division by the annual deadline, and the bill drops by roughly $1,900 a year at the median. That single filing moves a typical Hilo ratio by several points, it stacks with the strategy most investors here already run, and it is the rare Hawaii regulation that pays landlords for doing the thing the housing market needs. Your matched specialist will underwrite the correct class from day one and flag the dedication filing so the improved ratio is real by your first renewal."
+      },
+      "programFit": [
+        "standard-dscr",
+        "no-ratio-dscr",
+        "portfolio-dscr",
+        "bridge-to-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 2-bath SFR",
+        "neighborhood": "Waiakea",
+        "purchasePrice": 480000,
+        "downPaymentPct": 25,
+        "downPayment": 120000,
+        "loanAmount": 360000,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 2516,
+        "monthlyTax": 444,
+        "monthlyInsurance": 240,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 3200,
+        "monthlyRent": 2500,
+        "dscr": 0.78,
+        "monthlyCashFlow": -700,
+        "specialistFocus": [
+          "Underwrote the non-owner-occupied tax bill at $11.10 per $1,000 instead of the homeowner figure the listing's estimate carried, then flagged the Long-Term Rental dedication that cuts it to $7.75 after filing",
+          "Confirmed the parcel sits in a standard lava zone with conventional insurers available, keeping the file out of the state pool coverage that caps limits and spooks lenders",
+          "Priced the separate hurricane policy and a catchment-free municipal water hookup into the carrying costs so the 0.78 ratio is the honest number"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Why is my Hilo property tax triple what the listing estimated?",
+          "answer": "Because the listing used the homeowner class. Hawaii County taxes owner-occupied homes at $5.75 per $1,000 for fiscal 2026-27, but a rental is classified non-owner-occupied residential at $11.10 per $1,000 on value up to $2 million. On a $566,000 purchase that is roughly $6,300 a year versus the $3,300 the listing implied. The fix is the county's Long-Term Rental classification at $7.75 per $1,000: dedicate the property to leases of six consecutive months or longer and file with the Real Property Tax Division. Your matched specialist underwrites the investor class from the start so the ratio never gets ambushed."
+        },
+        {
+          "question": "What do lava zones mean for financing around Hilo?",
+          "answer": "Everything, parcel by parcel. Hilo proper mostly sits in lower-risk zones where conventional insurance and lending work normally. Drive south into Puna and parts of the district carry lava zone 1 and 2 designations, where most private insurers decline coverage, the state's Hawaii Property Insurance Association becomes the fallback with limited coverage amounts at multiples of standard pricing, and many national lenders simply will not lend. A cheap Puna price usually has a zone number attached to it. Check the USGS zone for the exact parcel before falling for the yield, and expect zone 1-2 deals to need specialty lenders, bigger down payments, or cash."
+        },
+        {
+          "question": "Is Hilo's rain and catchment water an underwriting issue?",
+          "answer": "Sometimes, and it is worth asking early. Hilo is one of the wettest cities in America, which means aggressive roof and moisture maintenance schedules, and some upslope and Puna properties run on rainwater catchment systems rather than county water. Catchment is normal island living, but a few lenders and insurers treat it as a property condition item, and appraisers will note tank and filtration condition. Municipal-water parcels in Waiakea and central Hilo avoid the question entirely. Budget honestly for roofs, gutters, and dehumidification, and Hilo's operating costs stay boring; skip that budget and the wettest city in America will collect it anyway."
+        },
+        {
+          "question": "Can Hilo actually cash flow, or is 0.78 as good as it gets?",
+          "answer": "It gets to break-even more honestly than anywhere else in the state, with three moves. First, the Long-Term Rental tax dedication drops the tax line by about 30%, which alone lifts a 0.78 file toward the mid 0.8s. Second, university and hospital demand supports room-by-room and dual-unit strategies that push gross income above the single-lease figure. Third, entry prices under $500,000 in Keaukaha and Kaumana let larger down payments buy the ratio up without mainland-sized capital. A 25% down purchase with the tax dedication filed and realistic rent lands close enough to 1.0 that standard programs stay in play, which in Hawaii is saying something."
+        }
+      ],
+      "dataSources": [
+        "Zillow, Hilo typical home value, YoY change, and average rent, July 2026 (rent YoY substituted with statewide trend, city figure unavailable)",
+        "Big Island Now, Hawaii County FY2026-27 property tax rates including Long-Term Rental class, May 2026",
+        "Redfin, Hawaiian Paradise Park median sale price, January 2026 (other neighborhood figures est.)",
+        "How to Live in Hawaii rent survey, Big Island 2BR medians, Q1 2026",
+        "Hawaii Property Insurance Association and Big Island lender guides, lava zone coverage limits, 2026",
+        "US Census Bureau Housing Vacancy Survey via FRED, Hawaii statewide rental vacancy, 2024"
+      ]
+    },
+    {
+      "city": "Kailua-Kona",
+      "slug": "kailua-kona",
+      "county": "Hawaii County",
+      "metro": "Hilo Micro Area (Hawaii Island)",
+      "hook": "Kailua-Kona condos traded at a $570K median by mid-2026, down 12.3%, with 7.7 months of supply on the shelf. Resort-zoned buildings still run legal short stays, and that is the whole game here.",
+      "metaDescription": "Kailua-Kona condos hit a $570K median, down 12.3%, in a true buyer's market. Resort-zoned STRs stay legal under the new registry. Get matched today.",
+      "market": {
+        "medianPrice": 881477,
+        "medianRent": 2961,
+        "priceToRent": 24.8,
+        "vacancyRate": 7.4,
+        "yoyPrice": -1.4,
+        "yoyRent": 4.8,
+        "estDSCR": 0.49,
+        "propertyTaxRate": 1.11,
+        "insuranceMonthly": 280
+      },
+      "overview": "Kona is the sunny side of the Big Island and the state's most interesting buyer's market in 2026. The typical home value is $881,477 as of July 2026, down 1.4%, but the condo segment is where the correction concentrates: the mid-year condo median printed $570,000, down 12.3% year over year and back to 2023 levels, with 7.7 months of supply and roughly ten active listings for every pending sale. Sellers who bought the 2021-2024 run are meeting the market, and cash-flow buyers finally have leverage.\n\nThe long-term rental math alone will not carry a file: blended rents near $2,961 against the citywide typical value pencil at 0.49, and the county's 1.11% non-owner-occupied tax class applies here just as in Hilo. Kona's difference is legal short-stay income. Unlike Maui, Hawaii County kept its rules simple: short-term rentals are permitted outright in resort and commercial zoning, which describes most of the condo stock along Alii Drive and the resort corridors, and Ordinance 25-50 now requires every operator to register with the county starting July 1, 2026, at $500 a year for unhosted units, with stacking fines for the unregistered.\n\nUnderwrite honestly and the pieces fit: a resort-zoned 2-bedroom bought near the corrected median, registered, running Kona's 50-57% occupancy at real nightly figures, covers its stack where the long-term version of the same unit runs deeply negative. HOA dues and the county's transient taxes decide the margin, so both go in the model on day one.",
+      "regulationBadge": "moderate",
+      "regulationNote": "Hawaii County permits short-term rentals outright in resort and commercial zoning and requires every STR to register annually under Ordinance 25-50 effective July 2026, so a Kona condo's zoning designation, not its listing photos, determines whether nightly income is legal.",
+      "neighborhoods": [
+        {
+          "name": "Alii Drive Corridor",
+          "medianPrice": 570000,
+          "medianRent": 2600,
+          "note": "The oceanfront condo strip where the correction is deepest: mid-2026 condo median of $570,000, down 12.3%. Resort-zoned buildings here are the island's legal STR inventory, and dues plus assessment history separate the deals from the traps."
+        },
+        {
+          "name": "Kealakehe / Kona Palisades",
+          "medianPrice": 800000,
+          "medianRent": 3200,
+          "note": "The workforce housing shelf above the harbor. Long-term family rentals serving the hospitality and construction payrolls, without the STR upside or the STR management load."
+        },
+        {
+          "name": "Holualoa",
+          "medianPrice": 1000000,
+          "medianRent": 3500,
+          "note": "Coffee-country slopes above town with view estates and small farms. A lifestyle and appreciation market more than a ratio market; agricultural zoning brings its own rental rules."
+        },
+        {
+          "name": "Waikoloa Village",
+          "medianPrice": 846807,
+          "medianRent": 3000,
+          "note": "The golf community 25 minutes north, typical value $846,807 and flat over the year. Workforce base for the Kohala resort belt; the village itself is residential, while the coastal Waikoloa Beach Resort is the legal STR zone."
+        }
+      ],
+      "localAngle": {
+        "tag": "STR Rules",
+        "title": "Kona is the island where the Airbnb rules are actually workable. Registration is now mandatory.",
+        "body": "While Maui voted to phase out its grandfathered vacation rentals and Oahu fights over minimum-stay ordinances in federal court, Hawaii County wrote the simplest rulebook in the state: short-term rental where the zoning says visitor accommodations belong, long-term everywhere else. Unhosted vacation rentals operate legally in resort and commercial districts, which covers most of the condo inventory along Alii Drive and the Kohala resort corridors, while residential and agricultural zones are closed to new unhosted operations outside grandfathered nonconforming-use certificates. The 2026 change is enforcement plumbing: Ordinance 25-50, passed as Bill 47, requires every short-term vacation rental on the island, hosted or unhosted, to register with the county effective July 1, 2026, at $500 annually for unhosted units, with fines from $1,000 to $10,000 per violation for operating unregistered, and they stack. For an investor this is good news wearing a fee: registration turns the legal inventory into a countable, defensible asset class while squeezing the gray-market competition that undercut nightly pricing. The numbers still need honesty. Kona STRs average 50-57% occupancy with strong winter peaks and a soft September, transient accommodations taxes near 18% of gross come off the top, and resort-corridor dues commonly run four figures. Your matched specialist will structure the file on the zoning record, the registration, and a defensible income figure, the three things an underwriter will actually check."
+      },
+      "programFit": [
+        "str-dscr",
+        "no-ratio-dscr",
+        "interest-only-dscr",
+        "foreign-national-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "2-bed / 2-bath resort-zoned condo",
+        "neighborhood": "Alii Drive Corridor",
+        "purchasePrice": 620000,
+        "downPaymentPct": 30,
+        "downPayment": 186000,
+        "loanAmount": 434000,
+        "loanType": "30-Year Fixed, STR Income Qualified",
+        "interestOnly": false,
+        "monthlyPI": 3034,
+        "monthlyTax": 574,
+        "monthlyInsurance": 120,
+        "monthlyHOA": 1250,
+        "monthlyPITIA": 4978,
+        "monthlyRent": 5200,
+        "dscr": 1.04,
+        "monthlyCashFlow": 222,
+        "specialistFocus": [
+          "Verified the building's resort zoning on the county record and the unit's Ordinance 25-50 registration path before ordering the appraisal, because nightly income in a residential-zoned building is not income a lender can count",
+          "Qualified on a $5,200 projected monthly STR figure derived from market occupancy near 57% and area nightly data, well below the listing's peak-season pitch",
+          "Underwrote the $1,250 association dues and the building's master hurricane policy, the two lines that kill more Kona condo files than the income ever does"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Which Kona condos can legally run as vacation rentals?",
+          "answer": "The ones in resort and commercial zoning, which includes most of the established buildings along Alii Drive and the resort corridors north of town. Hawaii County permits unhosted short-term rentals outright in those districts; residential and agricultural zones are closed to new unhosted operations unless a property holds a grandfathered nonconforming-use certificate, and those are no longer issued. Since Ordinance 25-50 took effect in July 2026, every operator must also register with the county, $500 a year for unhosted units, with stacking fines for skipping it. Zoning is checked parcel by parcel on county records, and your matched specialist will confirm it before the income goes in the file."
+        },
+        {
+          "question": "What STR income should I actually underwrite for a Kona condo?",
+          "answer": "Something far below the listing agent's screenshot. Market-wide data for Kailua-Kona shows occupancy in the 50-57% range across sources, with winter months around $5,000-plus in revenue for the average listing and September dipping under $3,000. A well-located 2-bedroom can defensibly project in the low-to-mid $5,000s monthly, blended across seasons, before transient taxes near 18% of gross and management around 20-25% if you outsource. DSCR lenders that credit STR income typically use appraisal-based or data-service projections, then apply a haircut. Underwrite the haircut number: if the deal only works at peak-season figures, it does not work."
+        },
+        {
+          "question": "Why did Kona condo prices fall 12% when houses barely moved?",
+          "answer": "Supply met its buyers. The condo segment absorbed the heaviest investor buying during 2021-2024, and when carrying costs repriced, dues climbing with master-policy insurance, transient taxes rising, and the county's registration regime arriving, marginal owners listed. By mid-2026 that produced 7.7 months of condo supply, an active-to-pending ratio near ten to one, and a median back at 2023 levels, down 12.3% year over year. Single-family stock never had the same speculative float. For a buyer running honest numbers this is the good scenario: the correction is in the exact asset class where the legal STR income lives, and sellers are negotiating."
+        },
+        {
+          "question": "Do Big Island lava zones affect Kona purchases?",
+          "answer": "Less than they affect Puna, but the question belongs in every Big Island file. Kailua-Kona town and the resort corridors sit primarily in lava zone 4, where conventional insurance and lending proceed normally. Head south toward Captain Cook and Ocean View or into specific mauka pockets and zones 1-2 appear, where private insurers withdraw, the state pool caps coverage, and most national lenders decline. The zone is mapped parcel by parcel by USGS designation and shows up in every title and insurance quote. Confirm it before the offer, and if a price looks like a bargain for the area, check the zone before congratulating yourself."
+        }
+      ],
+      "dataSources": [
+        "Zillow, Kailua-Kona typical home value and YoY change, July 2026 (rent YoY substituted with statewide trend, city figure was listing-mix noise)",
+        "KE Team Compass and Hawaii MLS reporting, Kona condo median, supply months, and active-to-pending ratio, mid-2026",
+        "Hawaii County Ordinance 25-50 (Bill 47) STVR registration coverage, Hawaii-Guide and Hawaii Life, 2026",
+        "AirDNA, AirROI, and Rabbu, Kailua-Kona STR occupancy and revenue data, 2026",
+        "Big Island Now, Hawaii County FY2026-27 property tax rates, May 2026",
+        "How to Live in Hawaii rent survey, Kailua-Kona 2BR median, Q1 2026"
+      ]
+    },
+    {
+      "city": "Kihei",
+      "slug": "kihei",
+      "county": "Maui County",
+      "metro": "Kahului-Wailuku (Maui Island)",
+      "hook": "Kihei's typical value fell 8.2% in a year to $1.01M while Ordinance 5909 phases out the Minatoya vacation rentals by 2031. Price every condo here as a long-term rental or do not price it at all.",
+      "metaDescription": "Kihei values fell 8.2% as Maui's Bill 9 phases out Minatoya STRs by 2031. See the long-term rental math investors must use now. Get matched today.",
+      "market": {
+        "medianPrice": 1011431,
+        "medianRent": 3182,
+        "priceToRent": 26.5,
+        "vacancyRate": 7.4,
+        "yoyPrice": -8.2,
+        "yoyRent": 1.7,
+        "estDSCR": 0.49,
+        "propertyTaxRate": 0.628,
+        "insuranceMonthly": 300
+      },
+      "overview": "Kihei is where Maui's short-term rental reckoning is landing hardest, and the price chart shows it. The typical value fell 8.2% over the year to $1,011,431 as of July 2026, the steepest decline on this page, with rents nearly flat at $3,182. The driver is not tourism demand. It is Ordinance 5909, the December 2025 law phasing out transient vacation rental use in roughly 7,000 grandfathered Minatoya-list apartment-zoned condos, the exact product that made Kihei an investor market for forty years.\n\nThe timeline: STR use in the affected buildings must end by January 1, 2029 in West Maui and January 1, 2031 everywhere else, including Kihei. Owners sued within weeks, arguing an unconstitutional taking, and in June 2026 the council passed Bill 88 creating new H-3 and H-4 hotel-zoning classes that could eventually let some buildings continue. That is three possible futures for the same condo, and none of them is knowable at closing. This site's position is the only defensible underwriting position: price every Kihei condo as a long-term rental, and treat any STR continuation as unpriced upside.\n\nThe long-term math is brutal and worth stating plainly: a $700,000 2-bedroom renting long-term near $3,000 with four-figure dues, non-owner-occupied taxes at Maui's FY2026-27 tiered scale, and repriced insurance pencils far below coverage. Sellers know it, which is why the market is repricing toward where a long-term file can actually clear. For patient capital, that repricing is the opportunity.",
+      "regulationBadge": "tenant",
+      "regulationNote": "Ordinance 5909 phases out short-term rental use in Kihei's grandfathered apartment-zoned condos by January 1, 2031, with litigation and the Bill 88 hotel-zoning path both unresolved, so no Kihei purchase should be financed on projected nightly income.",
+      "neighborhoods": [
+        {
+          "name": "Kamaole",
+          "medianPrice": 610000,
+          "medianRent": 2900,
+          "note": "The central beach-park condo belt where Q1 2026 sales closed at a $610,000 median, down from the peak. Heavy Minatoya-list concentration means the phase-out and the repricing are both centered here."
+        },
+        {
+          "name": "North Kihei",
+          "medianPrice": 850000,
+          "medianRent": 3000,
+          "note": "The windier, cheaper end near the whale sanctuary: older condos and a strip of single-family streets. Long-term tenant demand from Kahului commuters is genuine, and the STR question matters less here."
+        },
+        {
+          "name": "Maui Meadows",
+          "medianPrice": 1400000,
+          "medianRent": 4500,
+          "note": "The half-acre upslope subdivision between Kihei and Wailea: single-family homes, ohana-unit potential, and residential zoning that was never part of the vacation-rental economy. The stable end of the market."
+        },
+        {
+          "name": "Wailea Border",
+          "medianPrice": 1200000,
+          "medianRent": 4200,
+          "note": "Condos at the resort boundary where hotel-district zoning, not the Minatoya list, governs some buildings. Zoning class determines everything here; two projects a street apart live under different laws."
+        }
+      ],
+      "localAngle": {
+        "tag": "STR Phase-Out",
+        "title": "The Minatoya list is being unwound: what Ordinance 5909 and Bill 88 actually say.",
+        "body": "For decades roughly 7,000 Maui condos built on apartment-zoned land before 1989 operated as legal vacation rentals under a zoning exemption known as the Minatoya list, and Kihei's beach-road buildings were its heart. That era is now ending on a statutory clock. Bill 9, passed by the county council on December 15, 2025 and signed the same day as Ordinance 5909, phases out transient vacation rental use in those buildings: West Maui by January 1, 2029, the rest of the county, including every Kihei complex, by January 1, 2031, with no renewals or opt-outs written into the law. Two forces could still bend the outcome. Owners filed suit within weeks, including Malter v. Maui County, case 2CCV-25-0003778, arguing the phase-out is an unconstitutional taking of vested property rights, and that litigation is unresolved. And on June 19, 2026 the council passed Bill 88, creating H-3 and H-4 hotel-zoning classifications that could allow some buildings to seek rezoning and continue nightly rental under hotel rules. Neither path is dependable enough to borrow against. The underwriting consequence is simple: a Kihei condo's financeable income is its long-term rent, roughly $2,900 to $3,000 for a 2-bedroom, against dues that jumped with insurance, Kihei Alii Kai's fees rose 53% from 2023 to 2024, and Maui's non-owner-occupied tax tiers. Your matched specialist will structure the file on that math, with any STR revival treated as free upside rather than load-bearing income."
+      },
+      "programFit": [
+        "no-ratio-dscr",
+        "interest-only-dscr",
+        "portfolio-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "2-bed / 2-bath condo",
+        "neighborhood": "Kamaole",
+        "purchasePrice": 700000,
+        "downPaymentPct": 30,
+        "downPayment": 210000,
+        "loanAmount": 490000,
+        "loanType": "30-Year Fixed, No-Ratio",
+        "interestOnly": false,
+        "monthlyPI": 3425,
+        "monthlyTax": 366,
+        "monthlyInsurance": 90,
+        "monthlyHOA": 1350,
+        "monthlyPITIA": 5231,
+        "monthlyRent": 3000,
+        "dscr": 0.57,
+        "monthlyCashFlow": -2231,
+        "specialistFocus": [
+          "Refused to underwrite the seller's vacation-rental income history because Ordinance 5909 ends that use in this building by 2031, and structured the file no-ratio on the honest 0.57 long-term coverage instead",
+          "Verified the association's post-2024 insurance-driven dues at $1,350 and its master policy adequacy, the line item that moved most on Maui since the fires",
+          "Underwrote Maui's non-owner-occupied tax tiers for fiscal 2026-27 rather than the owner-occupied figure in the listing remarks"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Can I still buy a Kihei condo and rent it nightly?",
+          "answer": "Legally, many Minatoya-list buildings can operate today, but the use is on a statutory clock: Ordinance 5909 ends transient vacation rental use in Kihei's grandfathered apartment-zoned buildings by January 1, 2031. Litigation seeking to overturn the phase-out is pending, and Bill 88's new H-3 and H-4 hotel zones may eventually offer some buildings a rezoning path, but neither outcome is knowable now. A loan you take today runs decades past the deadline, so no careful lender or buyer prices the nightly income as permanent. Buy the unit only if the long-term rental math, or your own use plus appreciation, justifies it."
+        },
+        {
+          "question": "Is the 8.2% price drop the bottom for Kihei?",
+          "answer": "Nobody knows, and this site will not pretend to. What is knowable: the decline is concentrated in exactly the buildings losing STR economics, the seller pool includes owners whose carrying costs jumped when master-policy insurance repriced, and the market must ultimately clear at prices where the next buyer's actual permitted use pencils. Long-term rental math at current rents supports valuations meaningfully below the STR-era peak in many complexes, which suggests the repricing is rational rather than panicked. Buyers who underwrite the long-term number and negotiate from the 7-plus months of supply are being paid for the uncertainty rather than paying for it."
+        },
+        {
+          "question": "Why are Kihei HOA dues so high now?",
+          "answer": "Insurance, almost entirely. Hawaii condo associations saw master policy premiums rise 300% to 600% in a single year after the 2023 fires repriced island risk, with some buildings hit harder, and Kihei complexes passed it straight into dues: Kihei Alii Kai rose 53% from 2023 to 2024, Luana Kai 48%. Oceanfront buildings with older construction pay the most. For underwriting, the current dues figure is a floor, not a ceiling, and an association with an under-insured master policy is a financing problem on top of a cost problem, because lenders check coverage adequacy. Your matched specialist reviews the association budget and insurance certificate before the appraisal is ordered."
+        },
+        {
+          "question": "What does a defensible Kihei investment look like in 2026?",
+          "answer": "Three shapes. First, the long-term rental condo bought at a price where $2,900 to $3,000 rent against full dues and investor taxes lands within structuring range, which means negotiating well below peak comps. Second, Maui Meadows and the single-family streets, where residential zoning never depended on the Minatoya exemption and the tenant pool is Kahului commuters and remote workers. Third, patient capital buying quality buildings through the uncertainty, structured no-ratio with reserves to fund negative carry, positioned to win under any of the three legal outcomes. What is not defensible is borrowing against nightly income the county has scheduled for termination."
+        }
+      ],
+      "dataSources": [
+        "Zillow, Kihei typical home value, YoY change, and average rent, July 2026",
+        "Maui Now and Rental Scale-Up, Ordinance 5909 (Bill 9) passage and phase-out deadlines, December 2025",
+        "Maui Now, Bill 9 litigation including Malter v. Maui County 2CCV-25-0003778, January 2026",
+        "Maui County Council records and local coverage, Bill 88 H-3 and H-4 hotel zoning classes, June 2026",
+        "Island Sotheby's analysis of certified Maui County FY2026-27 tax rates, non-owner-occupied tiers, June 2026",
+        "eMaui Real Estate and The 808 Team, Kihei condo Q1 2026 sale median and HOA fee increases, 2026"
+      ]
+    },
+    {
+      "city": "Kahului",
+      "slug": "kahului",
+      "county": "Maui County",
+      "metro": "Kahului-Wailuku (Maui Island)",
+      "hook": "Kahului's typical value is $1.02M against $2,538 blended rents, a 0.39 ratio at the median, the reddest number on this site. The play here is workforce housing, and it must be priced as exactly that.",
+      "metaDescription": "Kahului homes average $1.02M against $2,538 rents, a 0.39 DSCR, the reddest on this site. See why investors still buy Maui's workforce hub. Get matched today.",
+      "market": {
+        "medianPrice": 1016403,
+        "medianRent": 2538,
+        "priceToRent": 33.4,
+        "vacancyRate": 7.4,
+        "yoyPrice": -3,
+        "yoyRent": 4.8,
+        "estDSCR": 0.39,
+        "propertyTaxRate": 0.629,
+        "insuranceMonthly": 300
+      },
+      "overview": "Kahului is Maui's working town, the harbor, the airport, the big-box retail, and the homes of the people who staff the island, and it carries the most honest bad number on this entire site: a 0.39 estimated ratio at the median. The typical value is $1,016,403 as of July 2026, down 3.0%, against blended rents near $2,538. Central Maui 2-bedroom rents run about $2,650 and county rents have climbed roughly 18% since the August 2023 fire removed about 2,200 Lahaina housing units, but the price level is simply enormous relative to any rent the workforce can pay.\n\nSay the quiet part plainly: nothing in Kahului pencils as a conventional cash-flow purchase. There is no tax trick or structure that turns 0.39 into 1.0. What Kahului offers instead is the tightest workforce housing shortage in the state, a tenant pool with nowhere to go, functionally zero vacancy in practice, and post-fire demand that made central Maui rentals the most sought-after inventory on the island. Investors here are buying scarce, irreplaceable dirt in the island's economic center and consciously funding the gap between rent and carry.\n\nThe files that close look like this: 30% or more down, no-ratio or interest-only structure, dual-income Dream City lots with ohana units where permits allow, and Maui's non-owner-occupied tax tiers, an effective 0.63% at this price point, underwritten from day one. This page will not dress that up. Whoever shows you a Kahului pro forma with positive monthly cash flow at 20% down is showing you fiction.",
+      "regulationBadge": "moderate",
+      "regulationNote": "Kahului is residentially and industrially zoned workforce territory where short-term rental was never the play, and Maui County's post-fire housing politics run strongly pro-tenant, so underwrite long leases, county tax tiers, and zero vacancy rather than any visitor-economy angle.",
+      "neighborhoods": [
+        {
+          "name": "Dream City",
+          "medianPrice": 850000,
+          "medianRent": 3600,
+          "note": "The post-war grid built for sugar workers, now Maui's core workforce neighborhood. Flat lots with ohana-unit potential, multigenerational tenancies, and whole-house rents in the mid $3,000s."
+        },
+        {
+          "name": "Maui Lani",
+          "medianPrice": 1250000,
+          "medianRent": 4200,
+          "note": "The master-planned golf-course community between Kahului and Wailuku. Newer stock at a steep premium; monthly sale medians swing wildly on thin volume, so price against specific comps, not headlines."
+        },
+        {
+          "name": "Wailuku",
+          "medianPrice": 909598,
+          "medianRent": 3288,
+          "note": "The old county-seat town next door, typical value $909,598, down 2.3%, with average rents of $3,288. Historic homes, government tenants, and slightly better ratio math than Kahului proper."
+        },
+        {
+          "name": "Waihee-Waiehu",
+          "medianPrice": 900000,
+          "medianRent": 3400,
+          "note": "The rural-residential stretch north of Wailuku: bigger lots, longer tenancies, and the same shortage economics with fewer buyers competing."
+        }
+      ],
+      "localAngle": {
+        "tag": "Workforce Rentals",
+        "title": "The fire moved Maui's housing shortage to central Maui, and it is not going back.",
+        "body": "Kahului's investment case changed permanently on August 8, 2023, when the Lahaina fire destroyed roughly 2,200 housing units on an island that was already thousands of units short. Displaced households, insurance-funded at first and wage-funded now, concentrated in central Maui because that is where the jobs, schools, and remaining rental stock sit, and county rent data shows the result: Maui median rents up roughly 18% since the fire, with central Maui 2-bedrooms near $2,650 and whole houses in Dream City commanding the mid $3,000s. Layer the policy response on top: Maui County has pushed hard toward converting visitor units to resident housing, including the Ordinance 5909 vacation-rental phase-out, which over time pushes even more of the island's tenancy demand toward long-term inventory in exactly the neighborhoods Kahului owns. None of that fixes the purchase math, and this page will not pretend it does; at a $1 million typical value against workforce rents, the ratio at the median is 0.39 and files close only with heavy equity and no-ratio structures. What the shortage does provide is the other side of the underwriting: practically zero vacancy, tenant pools that apply within hours of a listing, rents that have compounded through every economic condition, and a political environment that, whatever else it does, keeps new supply scarce. Your matched specialist will structure the file for what Kahului honestly is: negative-carry ownership of the scarcest workforce housing in the country."
+      },
+      "programFit": [
+        "no-ratio-dscr",
+        "standard-dscr",
+        "interest-only-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 2-bath SFR",
+        "neighborhood": "Dream City",
+        "purchasePrice": 900000,
+        "downPaymentPct": 30,
+        "downPayment": 270000,
+        "loanAmount": 630000,
+        "loanType": "30-Year Fixed, No-Ratio",
+        "interestOnly": false,
+        "monthlyPI": 4404,
+        "monthlyTax": 472,
+        "monthlyInsurance": 300,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 5176,
+        "monthlyRent": 3800,
+        "dscr": 0.73,
+        "monthlyCashFlow": -1376,
+        "specialistFocus": [
+          "Structured the file as no-ratio at 30% down because 0.73 coverage is the honest ceiling for a single-lease Dream City house, and the investor's thesis is scarcity, not this year's cash flow",
+          "Underwrote Maui County's non-owner-occupied tiers for fiscal 2026-27, including the second-tier rate that applies above $1 million in assessed value on future assessments",
+          "Documented post-fire rent comps showing the tenant pool absorbing every central Maui listing within days, supporting the appraiser's $3,800 market rent"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Why would anyone buy a rental with a 0.39 ratio?",
+          "answer": "They would not, at that number, and no one does. The 0.39 is the citywide median math at 20% down, published here because pretending otherwise would be lying. Actual Kahului files improve on it three ways: house-level rents in Dream City run $3,600 to $3,800 against sub-median purchase prices, down payments of 30% or more shrink the debt service, and ohana units add a second lease where permits allow. A real file lands near 0.7 to 0.85, still negative, closed as no-ratio with reserves. The buyers are funding the gap deliberately to own irreplaceable workforce housing in the tightest rental market in the country."
+        },
+        {
+          "question": "How solid is post-fire rental demand in central Maui?",
+          "answer": "As solid as displacement economics get, which is grimly solid. The 2023 fire removed roughly 2,200 housing units, county rents have risen about 18% since, and central Maui absorbed the displaced households because the jobs, schools, and remaining stock are here. Listings in Dream City and Wailuku draw applicant pools within hours. The honest caveats: some fire-displacement programs that supported rents have wound down, wage-funded tenants have real payment ceilings, and Maui's political environment is firmly tenant-protective. Underwrite market rent conservatively and long tenancies confidently; this shortage took decades to build and rebuild timelines say it persists well past any loan you write today."
+        },
+        {
+          "question": "What property taxes will I actually pay on a Kahului rental?",
+          "answer": "Maui County's non-owner-occupied classification for fiscal 2026-27 runs in tiers: $6.25 per $1,000 on the first million of assessed value, $9.00 per $1,000 from $1 million to $2.5 million, and $17.00 above that. A $900,000 rental sits entirely in the first tier at about $5,600 a year, roughly 0.63% effective, and every tier tightened or rose this cycle. Owner-occupants pay far less, which means listing-page tax estimates based on the seller's bill are wrong for you. If the county reassesses your parcel above $1 million, the second tier starts applying to the excess. Your matched specialist prices the correct classification into the ratio before you offer."
+        },
+        {
+          "question": "Is Wailuku a better buy than Kahului?",
+          "answer": "Often, marginally. Wailuku's typical value of $909,598 runs about $107,000 under Kahului's while its blended rents of $3,288 run higher than Kahului's condo-diluted average, so the raw ratio math improves. The trade-offs: older housing stock with plantation-era systems, hillside parcels with slope and access quirks, and a historic core where renovation rules apply. Both towns draw from the same bottomless workforce tenant pool, and government payrolls at the county seat give Wailuku a steady professional tenancy layer. In practice the right answer is parcel-specific. Run both files on actual rent and full carrying cost and let the numbers pick the town."
+        }
+      ],
+      "dataSources": [
+        "Zillow, Kahului and Wailuku typical home values, YoY changes, and average rents, July 2026 (Kahului rent YoY substituted with statewide trend, city figure unavailable)",
+        "How to Live in Hawaii rent survey, Maui County and central Maui 2BR medians and post-fire trend, Q1 2026",
+        "Island Sotheby's analysis of certified Maui County FY2026-27 tax rates, non-owner-occupied tiers, June 2026",
+        "Redfin, Maui Lani median sale price, July 2026 (thin volume; other neighborhood figures est.)",
+        "Maui Now and county records, Lahaina fire housing loss and displacement rental demand, 2023-2026",
+        "US Census Bureau Housing Vacancy Survey via FRED, Hawaii statewide rental vacancy, 2024"
+      ]
+    },
+    {
+      "city": "Kaneohe",
+      "slug": "kaneohe",
+      "county": "Honolulu County",
+      "metro": "Urban Honolulu",
+      "hook": "Kaneohe's typical home value is $1.09M with rents near $3,593 on the rainy, gorgeous windward side. The median pencils at 0.53, and the Residential A tax tier starts eating files above $1M.",
+      "metaDescription": "Kaneohe homes average $1.09M with $3,593 rents on Oahu's windward side. The DSCR pencils at 0.53 and Residential A taxes bite. Get matched today.",
+      "market": {
+        "medianPrice": 1089620,
+        "medianRent": 3593,
+        "priceToRent": 25.3,
+        "vacancyRate": 7.4,
+        "yoyPrice": 2.5,
+        "yoyRent": 1.4,
+        "estDSCR": 0.53,
+        "propertyTaxRate": 0.461,
+        "insuranceMonthly": 280
+      },
+      "overview": "Kaneohe is the windward side's working town, tucked under the Koolau cliffs on the bay, and it rents on lifestyle: teachers, Marines from the base up the road, and families who accept the rain for the green. The typical value is $1,089,620 as of July 2026, up 2.5%, with average rents at $3,593, up a modest 1.4%. At 20% down the median pencils at 0.53, standard Oahu arithmetic, before two windward-specific lines that mainland files miss.\n\nFirst, the tax tier. At a median above $1 million, most Kaneohe investor purchases land in Honolulu's Residential A class: $4.00 per $1,000 on the first million and $11.40 per $1,000 above it for fiscal 2026-27, an effective 0.46% at the median and climbing with price. The identical house at $950,000 pays 0.35%. Second, water. Kaneohe's beauty is weather, and weather is maintenance: roughly 50-plus inches of rain a year on the town side and more against the mountains, which means roofs, gutters, mold vigilance, and hillside drainage belong in every operating budget, and some bayfront and stream-adjacent parcels carry flood zone insurance requirements.\n\nMarine Corps Base Hawaii sits ten minutes east, and its families anchor the 3 and 4 bedroom rental market alongside 2026 allowances identical to the rest of Oahu, an E-6 with dependents at $3,912. The play here is the long-hold family house in Kaneohe Town or Ahuimanu, bought with 30% down, structured no-ratio, and maintained like the rainforest asset it is.",
+      "regulationBadge": "moderate",
+      "regulationNote": "Kaneohe has no resort zoning, so the enforced 30-day minimum stay applies townwide, and the practical strategy is long-term family tenancy anchored by Marine Corps Base Hawaii and windward school demand.",
+      "neighborhoods": [
+        {
+          "name": "Kaneohe Town",
+          "medianPrice": 934000,
+          "medianRent": 3600,
+          "note": "The central grid around Windward Mall with a March 2026 median near $934,000. The volume rental market: 1960s-70s houses, MCBH families, and the least rain of the town's microclimates."
+        },
+        {
+          "name": "Ahuimanu",
+          "medianPrice": 985000,
+          "medianRent": 3800,
+          "note": "The valley neighborhood north of town, median sale price near $985,000. Bigger lots against the mountains, more rain, and strong family tenancy in the Temple Valley corridor."
+        },
+        {
+          "name": "Heeia / Bay Side",
+          "medianPrice": 1100000,
+          "medianRent": 4000,
+          "note": "The bayfront and fishpond side where views price in and some parcels carry flood-zone insurance requirements. Verify the FEMA zone before the offer, not after."
+        }
+      ],
+      "localAngle": {
+        "tag": "Carrying Costs",
+        "title": "Rain is a line item: underwriting the windward side like a local.",
+        "body": "Every Oahu file fights the same ratio problem, but Kaneohe adds a set of carrying costs that only show up if you have owned on the windward side, and they are the difference between a projection and an operating budget. Start with weather. The town side of Kaneohe catches roughly 50 inches of rain a year and the valleys against the Koolau catch substantially more, which translates to shorter roof lives, perpetual gutter and drainage work, exterior repaint cycles measured in single-digit years, and mold prevention as a standing maintenance program rather than an occasional repair. Local landlords budget it; mainland spreadsheets do not. Add water in its other forms: bayfront and stream-adjacent parcels in Heeia and along Kamehameha Highway can sit in FEMA flood zones that trigger mandatory flood insurance on top of the standard homeowners and separate hurricane policies every Hawaii lender requires, and hillside parcels bring slope drainage and retaining-wall questions appraisers flag. Then the tax line: with the typical value at $1,089,620, most investor purchases here cross Honolulu's $1,000,000 Residential A threshold, where fiscal 2026-27 rates run $4.00 per $1,000 on the first million and $11.40 per $1,000 above, so a $1.3 million purchase pays roughly $7,400 a year, not the $4,550 the base class would suggest. None of this kills the windward thesis, which is scarce green-side family housing with base-anchored demand. It just prices it. Your matched specialist will build the file on windward operating numbers, not mainland ones."
+      },
+      "programFit": [
+        "no-ratio-dscr",
+        "interest-only-dscr",
+        "portfolio-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 2-bath SFR",
+        "neighborhood": "Kaneohe Town",
+        "purchasePrice": 1050000,
+        "downPaymentPct": 30,
+        "downPayment": 315000,
+        "loanAmount": 735000,
+        "loanType": "30-Year Fixed, No-Ratio",
+        "interestOnly": false,
+        "monthlyPI": 5138,
+        "monthlyTax": 403,
+        "monthlyInsurance": 280,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 5821,
+        "monthlyRent": 4300,
+        "dscr": 0.74,
+        "monthlyCashFlow": -1521,
+        "specialistFocus": [
+          "Structured the file as no-ratio at 30% down because 0.74 coverage is the honest windward number, and the investor is buying a scarce family house, not a yield instrument",
+          "Underwrote the Residential A classification triggered above the $1 million assessment threshold rather than the base residential figure in the listing estimate",
+          "Confirmed the parcel sits outside the FEMA flood zone and priced the separate hurricane policy plus a windward-realistic maintenance reserve for rain exposure"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Does the rain actually matter to a Kaneohe rental's returns?",
+          "answer": "Enough to deserve its own budget line. Windward Oahu's rainfall shortens roof and paint cycles, keeps gutters and drainage on permanent rotation, and makes moisture management a standing program, especially in valley neighborhoods like Ahuimanu that catch more weather than the town grid. Local landlords typically reserve meaningfully more for maintenance than an equivalent leeward house needs, and tenants expect functioning dehumidification and mold-free interiors as table stakes. None of this is exotic; it is line-item discipline. A Kaneohe pro forma using a mainland 5% maintenance assumption is optimistic by roughly half, and the windward premium only works when the house is kept windward-ready."
+        },
+        {
+          "question": "Will my Kaneohe purchase hit the Residential A tax class?",
+          "answer": "At current prices, probably. Honolulu applies Residential A to residential property without a home exemption assessed at $1,000,000 or more, and Kaneohe's typical value crossed that line. For fiscal 2026-27 the class pays $4.00 per $1,000 on the first million and $11.40 per $1,000 above it, so a $1.2 million rental pays about $6,280 a year while a $950,000 one pays $3,325 in the base class. That cliff makes purchase price strategy unusually consequential here: negotiating under the threshold, where the comps support it, buys a permanently lower tax class. Your matched specialist runs both scenarios so the assessment surprise never arrives."
+        },
+        {
+          "question": "Who rents in Kaneohe and what do they pay?",
+          "answer": "Three overlapping pools. Marine Corps Base Hawaii families anchor the 3 and 4 bedroom market, carrying 2026 allowances of $3,663 for an E-5 with dependents and $3,912 for an E-6, and Kaneohe is the closest real town to the base gates. Windward school families rent long-term for the Castle complex and private schools. And town workers accept the Pali or Likelike commute in exchange for green hills and the bay. Whole houses rent from the mid $3,000s to the mid $4,000s depending on size and condition, tenancies run long, and vacancy between leases is short when the house is maintained to windward standard."
+        },
+        {
+          "question": "Should I worry about flood zones on the bay side?",
+          "answer": "Check before you offer, because the answer is parcel-specific. Portions of Heeia, the stream corridors, and low bayfront stretches sit in mapped FEMA flood zones where lenders require flood insurance on top of the standard homeowners and separate hurricane policies, and that extra premium lands directly on a ratio that already runs near 0.53 at the median. Plenty of Kaneohe, including most of the town grid and the valley neighborhoods, sits outside the zones entirely. The FEMA map lookup takes minutes and moves real money. It is the first thing your matched specialist checks on any bay-side address, alongside the elevation certificate if one exists."
+        }
+      ],
+      "dataSources": [
+        "Zillow, Kaneohe typical home value, YoY change, and average rent, July 2026",
+        "Redfin and Homes.com, Kaneohe and Ahuimanu median sale prices, March-June 2026 (neighborhood rents est.)",
+        "Honolulu Real Property Assessment Division, FY2026-27 Residential A tiers and threshold, 2026",
+        "Defense Travel Management Office, 2026 BAH rates for the Oahu military housing area, January 2026",
+        "US Census Bureau Housing Vacancy Survey via FRED, Hawaii statewide rental vacancy, 2024",
+        "Living in Hawaii homeowners insurance guides, base plus separate hurricane and flood policies, 2025 (est.)"
+      ]
+    },
+    {
+      "city": "Kailua",
+      "slug": "kailua",
+      "county": "Honolulu County",
+      "metro": "Urban Honolulu",
+      "hook": "Kailua's typical home value is $1.53M against $4,015 rents, a 0.41 ratio that is simply the price of owning where everyone wants to live. These are equity files, and the honest ones say so.",
+      "metaDescription": "Kailua homes average $1.53M against $4,015 rents, a 0.41 DSCR. See how investors structure equity plays in Oahu's most wanted zip code. Get matched today.",
+      "market": {
+        "medianPrice": 1532217,
+        "medianRent": 4015,
+        "priceToRent": 31.8,
+        "vacancyRate": 7.4,
+        "yoyPrice": 1.6,
+        "yoyRent": 4.3,
+        "estDSCR": 0.41,
+        "propertyTaxRate": 0.657,
+        "insuranceMonthly": 350
+      },
+      "overview": "Kailua is the beach town everyone on earth seems to want, and its numbers read accordingly: a typical value of $1,532,217 as of July 2026, up 1.6%, with median sales printing around $1.55 million in spring 2026 and average rents at $4,015, up 4.3%. Run the formula and the median pencils at 0.41 with 20% down. No structure turns that into a cash-flow deal, and this page will not try. Kailua is an equity market where the rent defrays, never covers, the carry.\n\nIt is also the town where Oahu's vacation-rental wars were fought and lost by investors. Kailua was ground zero for illegal Airbnbs in the 2010s, the community backlash helped produce Ordinance 22-7 in 2022, and today the town has no resort zoning at all: the enforced minimum stay is 30 days, permits for new short-term operations do not exist here, and enforcement is complaint-driven in a neighborhood famous for complaining. Every Kailua file must be underwritten on long-term or 30-day-plus furnished income.\n\nWhat that income buys is the strongest tenant demand and the most resilient land value on the island. Executive relocations, military officers from MCBH one town over, and remote-work wealth compete for a small stock of houses, and Residential A taxation at these prices, an effective 0.66% at the median, is the cost of admission. Investors here structure interest-only or no-ratio at 30% to 40% down, fund the monthly gap deliberately, and hold the scarcest residential land in Hawaii.",
+      "regulationBadge": "moderate",
+      "regulationNote": "Kailua has zero resort zoning, so the 30-day enforced minimum stay applies everywhere in town, new short-term rental permits are unavailable, and enforcement is actively complaint-driven, making long-term and monthly furnished tenancy the only underwritable income.",
+      "neighborhoods": [
+        {
+          "name": "Enchanted Lake",
+          "medianPrice": 1150000,
+          "medianRent": 4500,
+          "note": "The relative value entry: updated single-family homes trade roughly $900,000 to $1.4 million around the lake. Family tenants, canal and lake-adjacent parcels need flood-zone checks, and it is the workable end of Kailua underwriting."
+        },
+        {
+          "name": "Coconut Grove",
+          "medianPrice": 1300000,
+          "medianRent": 4200,
+          "note": "The walkable flats between town and the beach: older cottages on good lots, some with ohana units that add a second lease. The location premium is real and so is the renovation backlog."
+        },
+        {
+          "name": "Maunawili",
+          "medianPrice": 1400000,
+          "medianRent": 4800,
+          "note": "The green valley inland: larger lots, rain-side maintenance, and executive-family tenancies. Quieter market with fewer trades, so comps demand care."
+        },
+        {
+          "name": "Lanikai",
+          "medianPrice": 2500000,
+          "medianRent": 8000,
+          "note": "The postcard: medians above $2.5 million and beachfront trading far beyond. A trophy market where files are structured on equity and the rent is a rounding error; it anchors the top of every Kailua appraisal."
+        }
+      ],
+      "localAngle": {
+        "tag": "STR Rules",
+        "title": "Kailua after the crackdown: the town that ended Oahu's Airbnb era does not want yours.",
+        "body": "In the 2010s Kailua became shorthand for Oahu's vacation-rental problem: by some counts hundreds of illegal short-term rentals operated across this one beach town, community opposition organized around exactly that, and the backlash carried Ordinance 22-7, Bill 41 of 2022, through the city council. The ordinance raised the minimum rental term outside resort-zoned areas to 90 days, a federal judge enjoined the 90-day provision in October 2022, and the city's 2025 successor, CO-25-02, is fighting the same battle, leaving 30 days as the enforced floor. Here is what matters for a Kailua buyer specifically: the town contains no resort-zoned land whatsoever, so there is no legal path to nightly rental, no permit queue to wait in, and no grandfathered inventory to buy, since Honolulu permits do not transfer with a sale. Enforcement relies on registration requirements, platform accountability, and fines that escalate to $10,000 per day, and it is complaint-driven in the one neighborhood on Oahu with a decade of practice filing complaints. The honest opportunity sits in the 30-day-plus furnished market: executive relocations, homeowners displaced by renovations, traveling medical staff, and military families between postings pay a genuine premium over unfurnished leases, legally, at monthly terms. It will not turn a 0.41 median into a cash-flow deal, and nothing will. Your matched specialist will underwrite the furnished monthly figure an appraiser can support and structure the file as the equity play it truly is."
+      },
+      "programFit": [
+        "no-ratio-dscr",
+        "interest-only-dscr",
+        "foreign-national-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "4-bed / 2-bath SFR",
+        "neighborhood": "Enchanted Lake",
+        "purchasePrice": 1400000,
+        "downPaymentPct": 30,
+        "downPayment": 420000,
+        "loanAmount": 980000,
+        "loanType": "30-Year Fixed, Interest-Only Period",
+        "interestOnly": true,
+        "monthlyPI": 6125,
+        "monthlyTax": 767,
+        "monthlyInsurance": 350,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 7242,
+        "monthlyRent": 4800,
+        "dscr": 0.66,
+        "monthlyCashFlow": -2442,
+        "specialistFocus": [
+          "Structured an interest-only period at 30% down for an investor holding for land value, cutting the monthly gap by roughly $700 versus the amortizing payment while equity does the work",
+          "Underwrote the Residential A tax bill in full, $4.00 per $1,000 on the first million and $11.40 above it, instead of the base rate a mainland pro forma would carry",
+          "Qualified on the appraiser's unfurnished market rent of $4,800 and documented the furnished 30-day-plus premium as upside rather than load-bearing income"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Can I Airbnb a Kailua house if I only do it occasionally?",
+          "answer": "No, and Kailua is the worst town on Oahu to test that theory. There is no resort zoning anywhere in town, so the enforced 30-day minimum applies to every parcel, occasional or not. Fines escalate to $10,000 per day, platforms face their own accountability rules, and enforcement is complaint-driven in the neighborhood that invented complaining about vacation rentals; your neighbors have a decade of practice and strong feelings. Permits do not transfer with a purchase, so a listing advertising rental history means nothing legally. The legal alternative is 30-day-plus furnished tenancy, which earns a real premium here. Underwrite that, not nightly fantasy numbers."
+        },
+        {
+          "question": "What justifies buying at a 0.41 ratio?",
+          "answer": "Only the equity thesis, stated honestly. Kailua owns a fixed stock of houses in the most demanded beach town in the state, buildable land is essentially exhausted, and values have compounded through every cycle while the tenant pool, executives, officers, remote wealth, never thins. An investor putting 30% to 40% down with an interest-only structure funds a known monthly gap, perhaps $2,000 to $2,500, as the carrying cost of an appreciating scarce asset with rent defraying most of the burn. That is a legitimate strategy with a century of precedent in coastal markets. What it is not is a cash-flow investment, and anyone marketing it as one is misreading the math."
+        },
+        {
+          "question": "How bad is the Residential A tax hit at Kailua prices?",
+          "answer": "Structural. Nearly every investor purchase here exceeds Honolulu's $1,000,000 Residential A threshold, so fiscal 2026-27 rates apply in tiers: $4.00 per $1,000 on the first million, $11.40 per $1,000 above it. At the $1.53 million typical value that is roughly $10,100 a year, about 0.66% effective, versus the $5,360 a base-class estimate would suggest. On the monthly ledger that is an extra $400 of carry that many pro formas miss entirely. There is no avoiding it at Kailua prices; there is only pricing it. Your matched specialist underwrites the tiered bill from the first draft of the file."
+        },
+        {
+          "question": "Where in Kailua does the math work least badly?",
+          "answer": "Enchanted Lake, by a clear margin. Updated homes trade from roughly $900,000 to $1.4 million, a genuine discount to the town core and beachside, while family rents hold in the mid $4,000s, and parcels under the $1 million tax threshold escape Residential A entirely, a double win. Coconut Grove cottages with legal ohana units can stack a second lease toward the same effect. Lanikai and the beachfront are trophy purchases where the ratio is ornamental. Wherever you land, check flood mapping on lake and canal parcels, budget windward maintenance, and let the file be the equity play it honestly is."
+        }
+      ],
+      "dataSources": [
+        "Zillow, Kailua typical home value, YoY change, and average rent, July 2026",
+        "Homeswipr and local MLS reporting, Kailua median sale prices, April-May 2026",
+        "Team Wong Hawaii and Alesia Barnes market guides, Lanikai and Enchanted Lake price ranges, 2026 (neighborhood rents est.)",
+        "Honolulu Real Property Assessment Division, FY2026-27 Residential A tiers, 2026",
+        "Honolulu Ordinance 22-7 (Bill 41) and CO-25-02 (Bill 62) enforcement coverage, 2026",
+        "US Census Bureau Housing Vacancy Survey via FRED, Hawaii statewide rental vacancy, 2024"
+      ]
+    }
+  ]
+}

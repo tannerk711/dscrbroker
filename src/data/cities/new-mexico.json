@@ -1,0 +1,1306 @@
+{
+  "state": "New Mexico",
+  "abbreviation": "NM",
+  "stateSlug": "new-mexico",
+  "dataUpdated": "2026-08",
+  "cities": [
+    {
+      "city": "Albuquerque",
+      "slug": "albuquerque",
+      "county": "Bernalillo County",
+      "metro": "Albuquerque, NM Metro",
+      "hook": "Albuquerque's typical home is $348K, up 1.4%, and a 3-bed house rents near $2,150. The catch nobody prices in: the property tax valuation resets to full market value the day you close.",
+      "metaDescription": "Albuquerque 3-bed houses rent near $2,150 while the post-sale tax reset hits 41.3 mills. See where DSCR files clear and the STR permit path. Get matched today.",
+      "market": {
+        "medianPrice": 348417,
+        "medianRent": 2150,
+        "priceToRent": 13.5,
+        "vacancyRate": 4.7,
+        "yoyPrice": 1.4,
+        "yoyRent": 1.8,
+        "estDSCR": 0.83,
+        "propertyTaxRate": 1.3771,
+        "insuranceMonthly": 235
+      },
+      "overview": "Albuquerque is the steadiest market in New Mexico and the most mispriced on taxes. The typical home value sits at $348,417 as of July 2026, up 1.4% year over year, and a three-bedroom house lists near $2,150 while the blended figure with apartments is only about $1,600. Apartment rents rose a modest 1.8% over the year per RentCafe, so the house-versus-apartment spread here is real but not dramatic. At 20% down the citywide median lands near 0.83, which means Albuquerque files clear through submarket selection and down payment, not wishful pro formas.\n\nThe number that blindsides out-of-state buyers is the tax bill. New Mexico caps annual valuation increases on residential property at 3% under Section 7-36-21.2 NMSA, but the cap dies at the closing table: the assessor revalues a sold property at full market value, a jolt locals call tax lightning. Albuquerque's in-city residential levy is 41.313 mills for 2025, the heaviest stack in the state, which works out to about 1.38% of market value on a fresh purchase. The seller's advertised tax bill, suppressed by years of capped increases, is not your tax bill.\n\nWhere files clear: Taylor Ranch and the Westside at $364,000 with $2,100 house rents, Barelas at $253,000 riding a 4.4% appreciation year, and La Mesa at $239,000 where entry is cheapest and management matters most.",
+      "regulationBadge": "friendly",
+      "regulationNote": "New Mexico preempts local rent control under NMSA 47-8A-1 and Albuquerque still issues short-term rental permits to non-owner-occupied investor properties with no citywide cap, which makes it one of the friendlier big-city regulatory setups in the Southwest.",
+      "neighborhoods": [
+        {
+          "name": "Taylor Ranch",
+          "medianPrice": 364090,
+          "medianRent": 2100,
+          "note": "Westside family submarket of 1980s and 1990s single-story homes, up 2.0% over the year while the core was flat. Renters are Intel and Kirtland commuters and the leases run long. The dependable middle of the Albuquerque rental market."
+        },
+        {
+          "name": "Nob Hill",
+          "medianPrice": 401682,
+          "medianRent": 1900,
+          "note": "The Route 66 walkable strip near UNM, values at $402,000 and easing 1.5%. Rents skew to young professionals and grad students, and the same block that long-term rents at $1,900 can hold an STR permit, which changes the math entirely."
+        },
+        {
+          "name": "Barelas",
+          "medianPrice": 253447,
+          "medianRent": 1500,
+          "note": "Historic near-downtown barrio up 4.4% in a year, the strongest appreciation of the four. Small pre-war stock, thin inventory, and a Rail Yards redevelopment story that is finally moving. Buy condition carefully, the housing stock is old."
+        },
+        {
+          "name": "La Mesa",
+          "medianPrice": 239205,
+          "medianRent": 1400,
+          "note": "The cheapest entry in the city at $239,000, down 3.9% over the year. Highest headline yield in Albuquerque and the most management-intensive, so underwrite turnover and condition honestly rather than annualizing the gross."
+        }
+      ],
+      "localAngle": {
+        "tag": "STR Rules",
+        "title": "Albuquerque still issues investor STR permits. Most cities this size stopped.",
+        "body": "While Nashville, Dallas suburbs, and half the mountain West closed the door on investor short-term rentals, Albuquerque's Short-Term Rental Ordinance, adopted as O-20-30 in 2020 and codified at Section 13-19 of the city code, still permits non-owner-occupied short-term rentals citywide. There is no permit cap. The permit costs $120 the first year and $90 to renew, occupancy is limited to two adults per bedroom plus two, and a Good Neighbor Agreement has to be posted in the unit. Since January 2025 the program runs through the city's business license system. Council members have tried to tighten it, most recently with buffer-zone and density bills, and those bills failed, including a 2026 vote against new limits. That is a real, durable difference: an investor can buy a house near Old Town or Nob Hill, permit it, and run it legally through Balloon Fiesta week in October, when the city fills with more than 800,000 visitor days and nightly pricing peaks. The honest caveats: the permit is a compliance obligation with real inspections of insurance proof, and the STR supply pool grows every year because entry is easy. Your matched specialist will structure an STR file on documented or appraiser-supported revenue, not a listing screenshot from Fiesta week."
+      },
+      "programFit": [
+        "standard-dscr",
+        "str-dscr",
+        "portfolio-dscr",
+        "bridge-to-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 2-bath SFR",
+        "neighborhood": "Taylor Ranch",
+        "purchasePrice": 340000,
+        "downPaymentPct": 30,
+        "downPayment": 102000,
+        "loanAmount": 238000,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 1664,
+        "monthlyTax": 390,
+        "monthlyInsurance": 210,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 2264,
+        "monthlyRent": 2295,
+        "dscr": 1.01,
+        "monthlyCashFlow": 31,
+        "specialistFocus": [
+          "Structured 30% down instead of 20% because Albuquerque's 41.3 mill levy drags the citywide ratio to 0.83, and the extra equity is what carried the file over 1.0",
+          "Underwrote the full post-sale reassessed tax bill at market value, not the seller's capped assessment that was running hundreds lower per year",
+          "Qualified on the appraiser's single-family market rent for the Westside instead of the citywide blended figure that mixes in apartment comps near $1,600"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Why is my Albuquerque property tax estimate so much higher than the seller's bill?",
+          "answer": "Because New Mexico's 3% annual valuation cap under Section 7-36-21.2 NMSA resets when the property sells. Locals call it tax lightning, and the state supreme court upheld the reset in Zhao v. Montoya in 2014. A longtime owner's taxable value can sit far below market; the assessor revalues you at full market value in your first year. With Albuquerque's 2025 in-city residential levy at 41.313 mills on one third of value, budget about 1.38% of your purchase price per year and treat any listing that quotes the seller's current bill as marketing."
+        },
+        {
+          "question": "Can I buy an Albuquerque house and run it as a short-term rental?",
+          "answer": "Yes, and that is increasingly rare for a metro of this size. Ordinance O-20-30, codified at Section 13-19 of the city code, allows non-owner-occupied short-term rentals with a permit, $120 the first year and $90 on renewal, with no citywide cap. Occupancy is capped at two adults per bedroom plus two, a Good Neighbor Agreement must be posted, and proof of STR insurance is required. Council attempts to add buffer zones failed as recently as 2026. Your matched specialist can structure the loan on an STR program qualified against supportable revenue."
+        },
+        {
+          "question": "What rent number should I actually underwrite in Albuquerque?",
+          "answer": "The one that matches the asset. The blended listing median is about $1,600, but that mixes studios and one-bed apartments into the figure. Three-bedroom houses, which is what most DSCR buyers here purchase, list near $2,150, and apartment-sector rents rose only about 1.8% over the year. An appraiser's single-family comparable rent schedule will land close to the house figure, not the blend. What actually decides an underwrite is that number against the post-sale tax bill, which is why the same house clears in Taylor Ranch and misses in higher-priced zip codes."
+        },
+        {
+          "question": "Which Albuquerque submarkets clear the DSCR ratio?",
+          "answer": "At 20% down, the citywide median lands near 0.83, so clearing 1.0 takes either 25% to 30% down or a cheaper entry. Taylor Ranch and the Westside pair $364,000 medians with $2,100 house rents and clear with a larger down payment. Barelas at $253,000 and La Mesa at $239,000 clear closer to 20% down but carry older stock and heavier management. The Northeast Heights above $400,000 generally needs interest-only structuring or serious equity. Your matched specialist can tell you which of the 70+ lenders fits each structure."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Albuquerque typical home value and YoY, July 2026",
+        "Zillow Rental Market Trends, Albuquerque median asking rent by bedroom count, August 2026",
+        "RentCafe, Albuquerque average apartment rent and 1.8% YoY trend, August 2026 (Zillow listing-median YoY rejected as mix noise)",
+        "NM DFA Certificate of Property Tax Rates TY2025, Bernalillo County, City of Albuquerque residential 41.313 mills",
+        "US Census Housing Vacancy Survey via iPropertyManagement, Albuquerque metro rental vacancy, 2025",
+        "Insurify / Insure.com, Albuquerque homeowners premium at $300K dwelling scaled to median, 2026 (est.)"
+      ]
+    },
+    {
+      "city": "Rio Rancho",
+      "slug": "rio-rancho",
+      "county": "Sandoval County",
+      "metro": "Albuquerque, NM Metro",
+      "hook": "Rio Rancho houses average $364K and list near $2,250 for rent, with Intel's $3.5 billion Fab 9 up the road. The mill levy runs 34.9, second heaviest in the metro, and it resets at closing.",
+      "metaDescription": "Rio Rancho pairs Intel's $3.5B Fab 9 with house rents near $2,250 and a 34.9 mill levy. See how DSCR files pencil in the metro's growth city. Get matched today.",
+      "market": {
+        "medianPrice": 364155,
+        "medianRent": 2250,
+        "priceToRent": 13.5,
+        "vacancyRate": 4.7,
+        "yoyPrice": 0.5,
+        "yoyRent": -2.1,
+        "estDSCR": 0.86,
+        "propertyTaxRate": 1.1632,
+        "insuranceMonthly": 240
+      },
+      "overview": "Rio Rancho is where Albuquerque's growth actually goes. The typical home value is $364,155 as of July 2026, up 0.5%, and house listings ask around $2,250 because the rental stock here is overwhelmingly single-family, newer, and three or four bedrooms. Apartment rents told a softer story, easing about 2.1% over the year per RentCafe, so the blended headlines undersell what a detached house collects. At 20% down the median lands near 0.86, close enough that structure decides the file.\n\nThe demand story is industrial and specific. Intel's Fab 9 opened in 2024 on the back of a $3.5 billion investment that made Rio Rancho the company's leading US hub for advanced packaging, the Foveros chip-stacking process, with roughly 700 permanent positions on top of a campus that was already the state's largest private employer, and local officials have publicly said the site sat safe through Intel's broader cutbacks. Those are exactly the tenants who rent a four-bedroom in Enchanted Hills or Loma Colorado at $2,400 and stay.\n\nThe carrying-cost print: 34.896 mills residential inside the city for 2025, about 1.16% of market value after the post-sale reset, meaningfully cheaper than Albuquerque's 41.3 but the second-heaviest bill in the metro. Bills also vary by zip, with the 87144 school and district stack running above 87124, a detail worth checking parcel by parcel before you write the offer.",
+      "regulationBadge": "friendly",
+      "regulationNote": "Rent control is preempted statewide under NMSA 47-8A-1 and Rio Rancho layers no unusual rental licensing on investors, so the practical regulatory load is a standard business registration and New Mexico's Uniform Owner-Resident Relations Act timelines.",
+      "neighborhoods": [
+        {
+          "name": "Enchanted Hills",
+          "medianPrice": 390000,
+          "medianRent": 2400,
+          "note": "Northern growth corridor closest to the Intel campus, 2000s-built stock with four-bedroom floor plans. Commands the strongest single-family rents in the city and draws the fab workforce, but note the 87144 tax stack runs above the city's south side."
+        },
+        {
+          "name": "Loma Colorado",
+          "medianPrice": 400000,
+          "medianRent": 2450,
+          "note": "Master-planned blocks around the aquatic center and library, the premium family address. Newer builds with HOA-kept streets rent fast to relocating professionals, and the price of that reliability is a ratio that needs 30% down to clear."
+        },
+        {
+          "name": "Cabezon",
+          "medianPrice": 350000,
+          "medianRent": 2250,
+          "note": "Mid-2000s stucco stock in the city's center of gravity, close to the Presbyterian Rust Medical Center employment node. The balanced pick: near-median entry, near-median rent, and the widest tenant pool in Rio Rancho."
+        },
+        {
+          "name": "Vista Hills",
+          "medianPrice": 300000,
+          "medianRent": 2000,
+          "note": "Older 1980s and 1990s section on the south side with the cheapest detached entry in the city. Shorter commutes to Albuquerque, slightly lower school-district tax stack, and the best shot at a ratio above 1.0 with 25% down."
+        }
+      ],
+      "localAngle": {
+        "tag": "Growth",
+        "title": "Fab 9 changed the tenant math. Chip packaging jobs rent four-bedroom houses.",
+        "body": "In 2021 Intel committed $3.5 billion to its Rio Rancho campus, and by early 2024 Fab 9 was open and running Foveros advanced packaging, the 3D chip-stacking process Intel is betting its US manufacturing story on. The expansion was announced at roughly 700 new permanent jobs plus about 1,000 construction jobs, layered on a campus that has anchored Sandoval County employment since the 1980s. When Intel ran companywide layoffs in 2024 and 2025, local officials publicly reported the New Mexico site was positioned to hold, because advanced packaging is the part of the company the CHIPS-era strategy protects. For a rental investor the transmission mechanism is simple: process engineers and technicians relocate on multi-year assignments, they want newer four-bedroom houses near the campus, and they pay $2,300 to $2,500 without blinking. That is why Rio Rancho's listing rents run above Albuquerque's despite similar price points. The honest counterweights: the city's fortunes concentrate in one employer's capital plans, apartment deliveries in the metro softened blended rents about 2.1% over the past year, and the 34.9 mill levy resets to your full purchase price at closing. Your matched specialist will structure the file on the appraiser's single-family rent schedule and the post-sale tax bill so the ratio you close on is the ratio you actually operate."
+      },
+      "programFit": [
+        "standard-dscr",
+        "interest-only-dscr",
+        "portfolio-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "4-bed / 2.5-bath SFR",
+        "neighborhood": "Enchanted Hills",
+        "purchasePrice": 365000,
+        "downPaymentPct": 25,
+        "downPayment": 91250,
+        "loanAmount": 273750,
+        "loanType": "Interest-Only DSCR",
+        "interestOnly": true,
+        "monthlyPI": 1711,
+        "monthlyTax": 354,
+        "monthlyInsurance": 230,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 2295,
+        "monthlyRent": 2350,
+        "dscr": 1.02,
+        "monthlyCashFlow": 55,
+        "specialistFocus": [
+          "Structured an interest-only period because the amortizing payment put the ratio at 0.95, and qualifying on the IO payment carried the file to 1.02 without more cash down",
+          "Underwrote the 87144 tax stack at the full post-sale reassessed value rather than the seller's capped bill, which was understating the real carry by over $100 a month",
+          "Qualified on the appraiser's market rent for four-bedroom stock near the Intel campus, documented against three comparable leases instead of the softer metro blend"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Is Rio Rancho's rental demand really tied to Intel?",
+          "answer": "Substantially, and that cuts both ways. The $3.5 billion Fab 9 investment made Rio Rancho Intel's lead US site for advanced packaging with roughly 700 added permanent roles, and relocating fab workers are the tenants paying $2,300 to $2,500 for newer four-bedroom houses. Local officials said the site held safe through Intel's broader cutbacks because packaging is strategically protected. But concentration risk is real: one employer's capital cycle moves this market. The hedge is buying floor plans that also rent to Rust Medical Center staff and Albuquerque commuters, which is most of the city's mid-tier stock."
+        },
+        {
+          "question": "How do Rio Rancho property taxes compare to Albuquerque for an investor?",
+          "answer": "Cheaper, but still the second-heaviest bill in the metro. The 2025 in-city residential rate is 34.896 mills on one third of value, about 1.16% of market value once the post-sale reassessment lands, versus roughly 1.38% in Albuquerque. Two cautions: New Mexico's 3% valuation cap resets when you buy, so the seller's bill is not yours, and rates vary within the city, with the 87144 stack in the northern growth area running above 87124. Pull the actual district for the parcel before you finalize the underwrite."
+        },
+        {
+          "question": "Why did rents dip if Rio Rancho is growing?",
+          "answer": "The dip is an apartment-sector number. RentCafe shows average apartment rents easing about 2.1% over the year as new metro deliveries competed for tenants. Single-family listings, which are what DSCR investors actually own here, ask around $2,250 and held far firmer because almost nothing detached gets built to rent. That is the two-layer read: blended headlines say soft, the four-bedroom near Fab 9 says otherwise. Underwrite the appraiser's single-family schedule, but stress the lease at a soft-market number so a metro-wide concession war cannot sink the file."
+        },
+        {
+          "question": "What does it take to clear 1.0 on a Rio Rancho DSCR file?",
+          "answer": "At the $364,000 median with 20% down, the ratio lands near 0.86, so something has to give. The three working levers: buy the south side near $300,000 where rents hold $2,000 and the ratio clears with 25% down, put 30% down on the newer northern stock, or use an interest-only structure that qualifies on the lower payment. Most closed files here use the second or third. Your matched specialist can price all three against the 70+ lenders and show you the cash-to-close difference side by side."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Rio Rancho typical home value and YoY, July 2026",
+        "Zillow Rental Market Trends, Rio Rancho median asking rent, August 2026",
+        "RentCafe, Rio Rancho average apartment rent and -2.1% YoY, August 2026 (Zillow listing-median +7% YoY rejected as mix noise)",
+        "NM DFA Certificate of Property Tax Rates TY2025, Sandoval County, City of Rio Rancho residential 34.896 mills",
+        "Intel / State of New Mexico announcements, $3.5B Fab 9 advanced packaging investment and job counts, 2021-2024",
+        "Neighborhood price and rent figures estimated from Zillow city data and listing spot checks, August 2026 (est.)"
+      ]
+    },
+    {
+      "city": "Santa Fe",
+      "slug": "santa-fe",
+      "county": "Santa Fe County",
+      "metro": "Santa Fe, NM Metro",
+      "hook": "Santa Fe's typical home runs $591K against $2,500 asking rents, a 0.62 ratio at the median. This is an appreciation, scarcity, and STR-cap market, and the files that close here are structured, not stumbled into.",
+      "metaDescription": "Santa Fe homes average $591K against $2,500 rents, so the median DSCR lands near 0.62. See the 1,000-permit STR cap and what still closes. Get matched today.",
+      "market": {
+        "medianPrice": 591316,
+        "medianRent": 2500,
+        "priceToRent": 19.7,
+        "vacancyRate": 6.6,
+        "yoyPrice": 0.6,
+        "yoyRent": 2.2,
+        "estDSCR": 0.62,
+        "propertyTaxRate": 0.7591,
+        "insuranceMonthly": 380
+      },
+      "overview": "Santa Fe is the most expensive market in New Mexico and the most honest place to say so. The typical home value is $591,316 as of July 2026, up 0.6%, while house listings ask about $2,500 and apartment rents rose 2.2% to an $1,866 average. Run the standard formula at 20% down and the median produces a ratio near 0.62. Nothing about submarket selection fixes that at the median price point; Santa Fe files are negative-carry appreciation plays, no-ratio structures, or carefully chosen sub-$450,000 pockets, and pretending otherwise is how buyers get hurt.\n\nWhat the price buys is scarcity with teeth. The city caps short-term rental permits in residential districts at 1,000 citywide, one permit per natural person, non-transferable when the property sells, with a waiting list behind the cap. And since October 27, 2025, when the Court of Appeals dissolved the injunction, buyers pay the voter-approved High-End Excise Tax: 3% of the purchase price above the threshold, adjusted to $1,029,000 as of May 2026, feeding the Affordable Housing Trust Fund.\n\nThe consolation is carry: 22.772 mills residential inside the city for 2025, about 0.76% of market value even after the post-sale reset, among the lightest tax loads of any US state capital. Cheap taxes, expensive dirt, capped STRs. Underwrite accordingly.",
+      "regulationBadge": "moderate",
+      "regulationNote": "Santa Fe caps residential-district STR permits at 1,000 with a waitlist and permits that die on sale, and buyers above $1,029,000 owe a 3% excise on the excess, so investors here plan around long-term or 30-day-plus furnished leases unless a permit is realistically obtainable.",
+      "neighborhoods": [
+        {
+          "name": "Tierra Contenta",
+          "medianPrice": 415000,
+          "medianRent": 2300,
+          "note": "The southside's master-planned workforce housing area and the cheapest meaningful entry in the city. Newer stock, real tenant depth from hospitality and state workers, and the closest Santa Fe gets to a ratio a lender likes."
+        },
+        {
+          "name": "Midtown",
+          "medianPrice": 520000,
+          "medianRent": 2500,
+          "note": "The St. Michael's corridor around the former university campus the city is redeveloping. Older ranches on real lots, mid-tier rents, and the best appreciation story tied to a specific public investment rather than vibes."
+        },
+        {
+          "name": "Rancho Viejo",
+          "medianPrice": 560000,
+          "medianRent": 2700,
+          "note": "Community-college-adjacent newer builds southeast of town. Rents at the top of the long-term market and HOA-tidy streets, but the entry price means files here are structured as appreciation holds, not cash flow."
+        },
+        {
+          "name": "Eastside / Historic District",
+          "medianPrice": 950000,
+          "medianRent": 3500,
+          "note": "Adobe scarcity near the Plaza where buyers above $1,029,000 owe the 3% high-end excise on the excess. Long-term rents cannot carry these prices; this is an asset-preservation and estate market wearing a rental costume."
+        }
+      ],
+      "localAngle": {
+        "tag": "STR Rules",
+        "title": "A 1,000-permit cap, permits that die at closing, and a tax on $1M+ purchases.",
+        "body": "Santa Fe regulates exactly the two things that made it famous: short-term rentals and expensive houses. Since 2021 the city has capped STR permits in residential zoning districts at 1,000 citywide, first come first served, with a waiting list behind the cap. The permit rules are built to block investor workarounds: one permit per natural person, not per LLC, and the permit does not transfer when the property sells, so buying an operating casita does not buy its permit. Non-residentially zoned units sit outside the cap, which is why the workable STR plays here are condos and compounds in commercial and mixed-use districts, or 30-day-plus furnished rentals to the film, medical, and government crowd, which need no permit at all. Then the purchase side: in November 2023 nearly three quarters of voters approved the High-End Excise Tax, litigation froze it, and on October 27, 2025 the Court of Appeals dissolved the injunction. Buyers now pay 3% of the price above the threshold, indexed to $1,029,000 since May 2026, into the Affordable Housing Trust Fund. On a $1.4 million Eastside adobe that is about $11,000 of closing cost that did not exist two years ago. Your matched specialist will structure the file on the income the property can legally produce under these rules, and will price the excise into cash-to-close before you write the offer."
+      },
+      "programFit": [
+        "no-ratio-dscr",
+        "interest-only-dscr",
+        "portfolio-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 2-bath SFR",
+        "neighborhood": "Tierra Contenta",
+        "purchasePrice": 450000,
+        "downPaymentPct": 30,
+        "downPayment": 135000,
+        "loanAmount": 315000,
+        "loanType": "No-Ratio DSCR, 30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 2202,
+        "monthlyTax": 285,
+        "monthlyInsurance": 290,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 2777,
+        "monthlyRent": 2400,
+        "dscr": 0.86,
+        "monthlyCashFlow": -377,
+        "specialistFocus": [
+          "Structured the file as no-ratio because the honest number is 0.86, and a program that does not price off the ratio beat pretending the rent was $400 higher",
+          "Qualified the borrower's reserves to carry the documented $377 monthly negative alongside the equity story, so the negative carry is a plan rather than a surprise",
+          "Underwrote the post-sale reassessed bill at Santa Fe's 22.772 mills, the one line item in this market that actually works in the investor's favor"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Can I buy a Santa Fe casita and run it as an Airbnb?",
+          "answer": "Only if you can actually get a permit, and the math on that is unforgiving. Residential districts are capped at 1,000 STR permits citywide with a waiting list, permits issue to natural persons rather than LLCs, and a permit does not transfer when the property sells, so buying a running STR does not buy its license. Non-residential zoning sits outside the cap, which is where the realistic investor plays live, along with 30-day-plus furnished rentals that need no permit. Your matched specialist will structure the loan on the income stream the property can legally document."
+        },
+        {
+          "question": "What is the Santa Fe mansion tax and do investors pay it?",
+          "answer": "Formally the High-End Excise Tax: buyers pay 3% of the residential purchase price above the threshold, which CPI-indexed to $1,029,000 effective May 1, 2026. Voters approved it by nearly three to one in November 2023, courts froze it, and the Court of Appeals dissolved the injunction on October 27, 2025, so it now applies at closing. It is buyer-paid regardless of investor status, feeds the Affordable Housing Trust Fund, and needs to sit in your cash-to-close on anything above the threshold. Below $1,029,000 it does not apply at all."
+        },
+        {
+          "question": "Does anything in Santa Fe actually cash flow?",
+          "answer": "At the $591,000 median, no, and the honest ratio there is about 0.62 at 20% down. What closes here: Tierra Contenta and southside stock near $415,000 with $2,300 rents gets within reach of break-even at 30% down, 30-day-plus furnished rentals to traveling medical staff and film crews collect a premium over standard leases without needing an STR permit, and everything else is a negative-carry appreciation hold structured as no-ratio or interest-only. Santa Fe rewards balance-sheet buyers. It punishes anyone who needs month-one cash flow to survive."
+        },
+        {
+          "question": "Why are Santa Fe property taxes so low when everything else is expensive?",
+          "answer": "Because the in-city residential levy is genuinely light: 22.772 mills for 2025 on one third of value, about 0.76% of market value even after New Mexico's post-sale reassessment. That is among the lightest tax loads of any state capital city and roughly half of what an Albuquerque purchase carries. On a $591,000 buy the difference versus Albuquerque's mills is about $300 a month, which is the one structural subsidy this market gives an investor. The 3% annual valuation cap then protects you going forward, since it resets to your own purchase price, not the seller's history."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Santa Fe typical home value and YoY, July 2026",
+        "Zillow Rental Market Trends, Santa Fe median asking rent, August 2026",
+        "RentCafe, Santa Fe average apartment rent and +2.15% YoY, August 2026 (Zillow listing-median -7% YoY rejected as mix noise)",
+        "Santa Fe County Assessor 2025 mill rate table, in-city residential (CI-R) 22.772 mills",
+        "City of Santa Fe, STR ordinance 1,000-permit residential cap and High-End Excise Tax threshold $1,029,000, 2026",
+        "Neighborhood price and rent figures estimated from Zillow city data and listing spot checks, August 2026 (est.)"
+      ]
+    },
+    {
+      "city": "Las Cruces",
+      "slug": "las-cruces",
+      "county": "Dona Ana County",
+      "metro": "Las Cruces, NM Metro",
+      "hook": "Las Cruces sits at $291K with 14,000 NMSU students and roughly $40 billion a year in border trade moving through Santa Teresa. Duplexes near campus are where the ratio actually clears.",
+      "metaDescription": "Las Cruces homes average $291K with NMSU demand and $40B in Santa Teresa border trade behind rents. See where DSCR duplex math clears 1.0. Get matched today.",
+      "market": {
+        "medianPrice": 291232,
+        "medianRent": 1695,
+        "priceToRent": 14.3,
+        "vacancyRate": 6.6,
+        "yoyPrice": -0.5,
+        "yoyRent": 0.5,
+        "estDSCR": 0.82,
+        "propertyTaxRate": 1.0096,
+        "insuranceMonthly": 200
+      },
+      "overview": "Las Cruces is the calmest growth story in New Mexico. The typical home value is $291,232 as of July 2026, off 0.5% in a soft-landing year, while three-bedroom houses list near $1,695 and apartment rents held nearly flat at plus 0.5%. Employment grew at a 1.5% annualized pace in early 2025 with construction and health services leading, which is what steady looks like in a metro of 230,000.\n\nTwo engines matter to a landlord here. New Mexico State University keeps roughly 14,000 Las Cruces-campus students in the rental pool every August, and the pockets around University Avenue rent by the bedroom at numbers a citywide median never shows. Forty minutes south, the Santa Teresa Port of Entry moved about $40 billion in trade last year, with Union Pacific building a 900-acre intermodal terminal and the foreign trade zone expanding, and that industrial payroll commutes home to Las Cruces because there is nowhere else to live at scale.\n\nThe file math: 30.287 mills residential inside city limits for 2025, about 1.01% of market value after the post-sale reset. At the median with 20% down the ratio lands near 0.82, but this is a market where the median misleads, because the native investor asset is the near-campus duplex, and two $1,250 units against a $340,000 basis is a different loan than one $1,695 house.",
+      "regulationBadge": "friendly",
+      "regulationNote": "Rent control is preempted statewide, Las Cruces adds no rental licensing beyond a standard business registration, and STRs currently operate under ordinary lodgers tax registration rather than a cap, so the practical constraint here is tenant mix, not city hall.",
+      "neighborhoods": [
+        {
+          "name": "University District",
+          "medianPrice": 300000,
+          "medianRent": 1900,
+          "note": "The blocks around NMSU where duplexes and older houses rent by the bedroom to students and grad assistants. Highest gross yields in the city, August-to-May leasing rhythm, and the turnover cost that comes with it."
+        },
+        {
+          "name": "Mesilla Park",
+          "medianPrice": 270000,
+          "medianRent": 1600,
+          "note": "Historic south-side pocket between the university and Old Mesilla with mature trees and mixed-age stock. Steady family and staff tenants, sub-median entry, and the best blend of yield and stability in the city."
+        },
+        {
+          "name": "Sonoma Ranch",
+          "medianPrice": 380000,
+          "medianRent": 2100,
+          "note": "The east-mesa growth corridor of 2000s-and-newer builds near the golf course and new hospital-side employment. Strongest rents and easiest management, but the price point means files need 30% down to clear."
+        },
+        {
+          "name": "Alameda / Downtown",
+          "medianPrice": 250000,
+          "medianRent": 1450,
+          "note": "Older central stock riding the downtown revival and the cheapest entry of the four. Condition varies house to house, so the win here is bought at inspection, not at appraisal."
+        }
+      ],
+      "localAngle": {
+        "tag": "Growth",
+        "title": "The border trade boom pays Las Cruces rents. The university sets the floor.",
+        "body": "Las Cruces rents are underwritten by two payrolls that do not move with the national cycle. The first is New Mexico State University, whose Las Cruces campus keeps roughly 14,000 students plus faculty and staff in the housing market every single August, giving near-campus landlords a lease-up date they can set a watch by. The second is the Santa Teresa border-industrial complex 40 minutes south, which has quietly become one of the busiest trade gateways on the southern border: roughly $40 billion in merchandise moved through the port of entry last year, Union Pacific is developing a 900-acre terminal designed to handle 100,000 containers annually, and the 1,200-acre foreign trade zone is expanding to hold manufacturers and logistics operators locating on the line. NMSU's own economic studies credit the industrial parks with about 7,000 jobs and $2 billion a year of state economic impact, and a large share of those paychecks rent in Las Cruces because Santa Teresa itself has almost no housing. The honest caveats: this is a modest-wage metro where 0.5% annual rent growth is normal, and the citywide median only pencils at 0.82 with 20% down. The duplex is the native instrument. Your matched specialist will structure multifamily files on combined actual leases, which is where this market's math genuinely clears."
+      },
+      "programFit": [
+        "standard-dscr",
+        "portfolio-dscr",
+        "interest-only-dscr",
+        "bridge-to-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "Duplex (2-unit)",
+        "neighborhood": "University District",
+        "purchasePrice": 340000,
+        "downPaymentPct": 25,
+        "downPayment": 85000,
+        "loanAmount": 255000,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 1782,
+        "monthlyTax": 286,
+        "monthlyInsurance": 210,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 2278,
+        "monthlyRent": 2500,
+        "dscr": 1.1,
+        "monthlyCashFlow": 222,
+        "specialistFocus": [
+          "Qualified on the combined actual leases of both units, two at $1,250 to NMSU graduate students, rather than a single-family comp that would have shown $1,695",
+          "Underwrote the post-sale reassessed bill at the full 30.287 mill in-city stack instead of the seller's capped assessment from nine years of ownership",
+          "Structured 25% down because the duplex's combined rent cleared 1.10 without needing the 30% that single-family files in this market typically require"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Is a student rental near NMSU a good DSCR play?",
+          "answer": "It is the strongest math in the city if you underwrite it as what it is. Near-campus duplexes rent by unit or bedroom to a pool of roughly 14,000 Las Cruces-campus students, which is why combined duplex rents near $2,500 clear a 1.10 ratio while the citywide single-family median sits at 0.82. The costs are rhythm and turnover: leases run August to May unless you write twelve-month terms, summers can run light, and unit condition takes a beating. DSCR lenders qualify on the lease income, and your matched specialist will match the file to lenders comfortable with student tenancy."
+        },
+        {
+          "question": "Does the Santa Teresa boom actually reach Las Cruces landlords?",
+          "answer": "Yes, through the payroll rather than the parcel map. Santa Teresa's port of entry moved about $40 billion in trade last year, Union Pacific is building a 900-acre intermodal terminal, and the foreign trade zone is expanding, but the industrial zone itself has almost no housing. Those roughly 7,000 industrial-park workers and the construction trades building the expansion largely live in Las Cruces and the valley towns, which supports the mid-tier three-bedroom market around $1,600 to $2,100. It is diversification the university alone never provided, and it is why flat-but-firm is the honest read on rents here."
+        },
+        {
+          "question": "What property tax should I underwrite on a Las Cruces purchase?",
+          "answer": "Inside city limits, the 2025 residential rate is 30.287 mills applied to one third of value, which is about 1.01% of full market value once the assessor resets you at purchase. New Mexico's 3% annual valuation cap protects existing owners, then resets on sale, so the seller's advertised bill routinely understates yours, sometimes by a third on long-held homes. County pockets outside the city line carry lower stacks, which occasionally makes an unincorporated Mesilla-valley property the better carry. Run the actual taxing district before you finalize any offer, not the listing's tax history."
+        },
+        {
+          "question": "Which Las Cruces submarkets clear the ratio?",
+          "answer": "The duplex belt around the University District clears comfortably, near 1.10 on combined leases at 25% down. Mesilla Park at $270,000 with $1,600 rents gets to roughly break-even at 25% to 30% down and rents to the steadiest tenant base in town. Alameda and the downtown blocks near $250,000 clear on paper but demand real condition diligence. Sonoma Ranch at $380,000 is the premium hold and needs 30% down or interest-only structuring. Your matched specialist can price each against the 70+ lenders and show which structure fits."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Las Cruces typical home value and YoY, July 2026",
+        "Zillow Rental Market Trends, Las Cruces median asking rent by bedroom, August 2026",
+        "RentCafe, Las Cruces average apartment rent and +0.48% YoY, August 2026 (Zillow listing-median +6.7% YoY rejected as mix noise)",
+        "Dona Ana County Assessor, 2025 in-city residential rate 0.030287, tax rates page",
+        "Dallas Fed Southern New Mexico Economic Indicators and NMSU C-BED Santa Teresa impact studies, 2025",
+        "Neighborhood price and rent figures estimated from Zillow city data and listing spot checks, August 2026 (est.)"
+      ]
+    },
+    {
+      "city": "Los Lunas",
+      "slug": "los-lunas",
+      "county": "Valencia County",
+      "metro": "Albuquerque, NM Metro",
+      "hook": "Los Lunas grew about 15% since 2020 on the back of Meta's $2.2 billion data center campus, one of the three fastest-growing towns in New Mexico. Houses average $332K, up 3.0%, and list near $2,100.",
+      "metaDescription": "Los Lunas rode Meta's $2.2B data center to 15% growth since 2020. Homes at $332K, house rents near $2,100. See the DSCR math that works. Get matched today.",
+      "market": {
+        "medianPrice": 332376,
+        "medianRent": 2100,
+        "priceToRent": 13.2,
+        "vacancyRate": 4.7,
+        "yoyPrice": 3,
+        "yoyRent": 2,
+        "estDSCR": 0.88,
+        "propertyTaxRate": 1.0717,
+        "insuranceMonthly": 225
+      },
+      "overview": "Los Lunas is the growth outlier in the Albuquerque metro. The village grew from roughly 17,300 residents in 2020 to more than 20,000, about 15%, making it one of the three fastest-growing municipalities in New Mexico, and home values followed: $332,376 as of July 2026, up 3.0% in a year when Albuquerque managed 1.4% and Rio Rancho 0.5%. House listings ask around $2,100, and the thin apartment stock rose about 2% per Apartments.com.\n\nThe engine is unambiguous. Meta's Los Lunas data center campus has grown into a $2.2 billion investment, a January 2025 expansion added two AI-dedicated buildings at roughly $800 million more, and the village has authorized industrial revenue bond capacity in series of up to $7.5 billion each for what comes next. The campus itself employs about 300 full-time staff, but the compounding effect is the roughly 1,100 construction workers on site through multi-year builds and the industrial and logistics tenants the campus pulled in behind it. Construction payroll rents houses.\n\nThe underwriting print: 32.151 mills residential inside the village for 2025, about 1.07% of market value post-reset, cheaper than Rio Rancho and far cheaper than Albuquerque. At the median with 20% down the ratio lands near 0.88; with 30% down the newer stock clears. The risk to respect is single-project concentration and a rental comp set thin enough that appraisers work hard here.",
+      "regulationBadge": "friendly",
+      "regulationNote": "Rent control is preempted statewide and the Village of Los Lunas imposes no rental licensing beyond standard business registration, so the practical investor constraints are appraisal comp depth and construction-cycle timing rather than regulation.",
+      "neighborhoods": [
+        {
+          "name": "Huning Ranch",
+          "medianPrice": 340000,
+          "medianRent": 2150,
+          "note": "The village's main master-planned community, 2000s-and-newer three and four bedrooms. This is where relocating data-center and construction payroll rents first, and where appraisers can actually find comps."
+        },
+        {
+          "name": "El Cerro / Los Chavez",
+          "medianPrice": 260000,
+          "medianRent": 1750,
+          "note": "Unincorporated county pockets ringing the village with older stock, larger lots, and a lighter county-only tax stack. Cheapest workable entry in the market and the best shot at a ratio above 1.0 at 25% down."
+        },
+        {
+          "name": "Monterey Park",
+          "medianPrice": 310000,
+          "medianRent": 2000,
+          "note": "Established village subdivision between I-25 and the river with 1990s and 2000s homes. The steady middle: near-median entry, dependable family tenants, and quick access to the Facebook Frontage employment side."
+        },
+        {
+          "name": "Tome / Valencia",
+          "medianPrice": 285000,
+          "medianRent": 1850,
+          "note": "South-valley county stretch toward the university branch campus with a mix of newer builds and acreage properties. Slower leasing than Huning Ranch but sticky long-term tenants once placed."
+        }
+      ],
+      "localAngle": {
+        "tag": "Growth",
+        "title": "A $2.2 billion data center made a village of 20,000 the metro's growth leader.",
+        "body": "Meta broke ground in Los Lunas in 2016, and the campus has compounded ever since: total investment has climbed to roughly $2.2 billion, a January 2025 expansion added two buildings dedicated to AI infrastructure at about $800 million, and the village council has authorized industrial revenue bonds in series of up to $7.5 billion each to accommodate future phases. Analysts tracking the project credit it with catalyzing more than $2.5 billion in direct regional investment and pulling industrial and logistics tenants into Valencia County behind it. The population followed, up about 15% since 2020 to more than 20,000, one of the three fastest growth curves in New Mexico. For a landlord the mechanism is layered: about 300 permanent campus jobs, roughly 1,100 construction workers on site through multi-year builds, and the service employment that follows both. Construction crews on eighteen-month assignments are premium tenants for furnished and standard three-bedroom rentals alike. The honest caveats: this is single-project concentration in its purest form, water use is the live local controversy around further expansion, and the rental comp set is thin enough that appraisals, not tenants, are often the binding constraint. Your matched specialist will structure the file on the appraiser's supportable rent and stress the exit against a post-construction lull, so the loan survives the boom cycle it was born in."
+      },
+      "programFit": [
+        "standard-dscr",
+        "interest-only-dscr",
+        "portfolio-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 2-bath SFR",
+        "neighborhood": "Huning Ranch",
+        "purchasePrice": 330000,
+        "downPaymentPct": 30,
+        "downPayment": 99000,
+        "loanAmount": 231000,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 1615,
+        "monthlyTax": 295,
+        "monthlyInsurance": 210,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 2120,
+        "monthlyRent": 2150,
+        "dscr": 1.01,
+        "monthlyCashFlow": 30,
+        "specialistFocus": [
+          "Structured 30% down because the village median at 20% lands near 0.88, and the added equity carried the file over 1.0 without leaning on an optimistic rent",
+          "Qualified on the appraiser's market rent supported by Huning Ranch comps rather than the thin village-wide listing set that whipsaws month to month",
+          "Underwrote the full post-sale reassessed bill at 32.151 mills instead of the seller's capped assessment from before the growth wave repriced the street"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Is buying a rental in Los Lunas just a bet on Meta?",
+          "answer": "Largely, and the file should admit it. The campus drove the village's 15% population growth since 2020, the $800 million AI expansion keeps roughly 1,100 construction workers cycling through multi-year builds, and the industrial tenants that followed diversify the base only somewhat. The bull case is that authorized bond capacity in the billions signals more phases. The hedge is buying stock that also serves Albuquerque commuters, which Huning Ranch and Monterey Park do, since I-25 puts downtown Albuquerque 35 minutes away. Underwrite the tenant pool with the campus, stress the exit without it."
+        },
+        {
+          "question": "What do Los Lunas property taxes look like for an investor?",
+          "answer": "Moderate for the metro: 32.151 mills residential inside the village for 2025, about 1.07% of market value once New Mexico's post-sale reassessment lands, versus roughly 1.16% in Rio Rancho and 1.38% in Albuquerque. The unincorporated pockets around the village, El Cerro, Los Chavez, and Tome, carry lighter county-only stacks, which is one reason the county-fringe properties sometimes out-carry village addresses at the same price. As everywhere in the state, the 3% valuation cap resets at closing, so build your underwrite on your purchase price, not the seller's tax history."
+        },
+        {
+          "question": "Why is the rent spread between apartments and houses so wide here?",
+          "answer": "Because the village barely has an apartment market. Apartments.com shows the small multifamily stock averaging around $730 and up about 2% on the year, while three-bedroom house listings ask near $2,100. Those are different products for different tenants: the apartment stock is older and small, while the house demand comes from relocating construction payroll and families priced out of Albuquerque. For a DSCR file the house number is the relevant one, but the thin comp set means appraiser-supported rent, not the asking price on the one competing listing, is what the lender will use."
+        },
+        {
+          "question": "What does it take to clear 1.0 on a Los Lunas file?",
+          "answer": "At the $332,000 median with 20% down the ratio lands near 0.88, so the working structures are 30% down on village stock, which clears at right about 1.0, or 25% down on county-fringe properties near $260,000 where rents hold $1,750 and the lighter tax stack helps the denominator. Interest-only structures also carry the newer Huning Ranch price points. The trap is overpaying for brand-new builds where the rent has not caught up to the price. Your matched specialist can run all three structures across the 70+ lenders and show the cash-to-close on each."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Los Lunas typical home value and YoY, July 2026",
+        "Zillow Rental Market Trends, Los Lunas median asking rent, August 2026",
+        "Apartments.com, Los Lunas average apartment rent and +2% YoY, June 2026 (Zillow listing-median +6.3% YoY rejected as mix noise)",
+        "NM DFA Certificate of Property Tax Rates TY2025, Valencia County, Village of Los Lunas residential 32.151 mills",
+        "The Tech Capital / Datacenter Dynamics / Valencia County News-Bulletin, Meta Los Lunas $2.2B investment, $800M AI expansion, and growth figures, January 2025",
+        "Neighborhood price and rent figures estimated from Zillow city data and listing spot checks, August 2026 (est.)"
+      ]
+    },
+    {
+      "city": "Ruidoso",
+      "slug": "ruidoso",
+      "county": "Lincoln County",
+      "metro": "Ruidoso, NM Micro Area",
+      "hook": "Ruidoso is a legal, permitted STR market where cabin values fell 3.2% after the 2024 South Fork Fire and the 2025 floods. That is exactly why deals are getting written now, carefully and on post-fire numbers.",
+      "metaDescription": "Ruidoso STR cabins carry a $300 village permit and 5% lodgers tax, with values down 3.2% post-fire. See honest DSCR math for the mountain. Get matched today.",
+      "market": {
+        "medianPrice": 329946,
+        "medianRent": 1675,
+        "priceToRent": 16.4,
+        "vacancyRate": 6.6,
+        "yoyPrice": -3.2,
+        "yoyRent": -4.3,
+        "estDSCR": 0.67,
+        "propertyTaxRate": 0.7772,
+        "insuranceMonthly": 425
+      },
+      "overview": "Ruidoso has to be underwritten as what it is: a mountain resort STR market two years into disaster recovery. The typical home value is $329,946 as of July 2026, down 3.2%, and long-term rentals list near $1,675, which is why the long-term ratio at the median is a brutal 0.67. Nobody buys Ruidoso for the twelve-month lease. They buy the short-term rental cabin, and the village regulates that openly rather than banning it: a Short-Term Rental Permit through the Village, updated by Ordinance 2025-01 and again by Ordinance 2026-10 in June 2026, a $300 new-permit fee covering inspection, annual renewal with a compliance inspection, safety requirements down to extinguisher placement, plus 5% lodgers tax and gross receipts collected and remitted monthly through the village's online system.\n\nThe recovery is the market. The June 2024 South Fork and Salt Fires burned into the village, then record flooding followed, including a July 2025 event that pushed the Rio Ruidoso more than 20 feet over its banks. The village has waived permit fees for fire and flood affected rebuilds, infrastructure is being restored, and officials say full recovery takes years. Insurance is the line item that moved most: wildland-urban interface premiums here now commonly run multiples of the state average, and any pro forma carrying pre-2024 insurance or 2023-peak nightly revenue is fiction. Priced honestly, entry costs are the lowest in years in a market with a 75-year tourism base, Ski Apache, and the Ruidoso Downs racetrack still operating.",
+      "regulationBadge": "friendly",
+      "regulationNote": "The Village of Ruidoso permits investor STRs outright under Ordinances 2025-01 and 2026-10, with a $300 permit, annual inspection, occupancy and safety standards, and 5% lodgers tax, so compliance is procedural rather than restrictive, and the real gatekeepers are insurers and flood maps.",
+      "neighborhoods": [
+        {
+          "name": "Midtown",
+          "medianPrice": 350000,
+          "medianRent": 1800,
+          "note": "Walk-to-Sudderth cabins with the strongest nightly demand in the village and the deepest STR comp set. Priced above the median for exactly that reason; check flood mapping carefully near the river blocks."
+        },
+        {
+          "name": "Upper Canyon",
+          "medianPrice": 380000,
+          "medianRent": 1850,
+          "note": "The classic tall-pines cabin district along the Rio Ruidoso headwaters. Premium settings and premium wildfire exposure, so insurance quotes here decide deals before appraisals do."
+        },
+        {
+          "name": "White Mountain Estates",
+          "medianPrice": 300000,
+          "medianRent": 1650,
+          "note": "Newer stock on the flatter west side that came through 2024 with less damage exposure. The practical pick for a first Ruidoso STR: insurable, rentable, and below the village median."
+        },
+        {
+          "name": "Alto",
+          "medianPrice": 450000,
+          "medianRent": 2000,
+          "note": "Unincorporated Lincoln County north of the village near Ski Apache access, with a country-club pocket and a lighter county tax stack. Outside village STR permitting but inside county lodgers tax obligations; confirm the parcel's rules before offering."
+        }
+      ],
+      "localAngle": {
+        "tag": "STR Rules",
+        "title": "Permitted STRs, a $300 inspection regime, and a market repriced by fire and flood.",
+        "body": "Ruidoso runs one of the more transparent STR regimes in the mountain West. Every short-term rental needs a New Mexico GRT registration and a Village Short-Term Rental Permit, a framework the council rebuilt with Ordinance 2025-01 and updated again with Ordinance 2026-10 in June 2026. New permits cost $300 including inspection and neighbor notification, renewal is annual with a compliance inspection, and the rules specify life-safety details like smoke alarms, extinguisher placement, and egress. Operators collect 5% lodgers tax plus gross receipts tax and remit monthly through the village's online portal, paper filings no longer accepted. There is no cap and no owner-occupancy requirement, which makes Ruidoso the clearest legal path to an investor STR in New Mexico. Now the other half of the truth. The June 2024 South Fork and Salt Fires destroyed structures inside the village, the October 2024 and July 2025 floods followed, with the Rio Ruidoso cresting more than 20 feet in the record 2025 event, and the village is years from full recovery, waiving rebuild permit fees for affected owners. Values are down 3.2% and nightly revenue sits below the 2023 peak. That is what a repriced entry looks like. Your matched specialist will structure the file on post-fire revenue, a real wildland-urban interface insurance quote, and flood mapping, not on a 2023 screenshot."
+      },
+      "programFit": [
+        "str-dscr",
+        "no-ratio-dscr",
+        "bridge-to-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 2-bath mountain cabin",
+        "neighborhood": "White Mountain Estates",
+        "purchasePrice": 330000,
+        "downPaymentPct": 25,
+        "downPayment": 82500,
+        "loanAmount": 247500,
+        "loanType": "STR DSCR, 30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 1730,
+        "monthlyTax": 214,
+        "monthlyInsurance": 400,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 2344,
+        "monthlyRent": 3000,
+        "dscr": 1.28,
+        "monthlyCashFlow": 656,
+        "specialistFocus": [
+          "Qualified on projected short-term rental income of $3,000 a month underwritten at post-fire occupancy and nightly numbers, deliberately below the 2023 peak comps",
+          "Structured the file around a bound wildland-urban interface insurance quote at $400 a month, obtained before appraisal, because premiums kill more Ruidoso deals than values do",
+          "Documented the Village STR permit path under Ordinance 2025-01, the 5% lodgers tax registration, and flood-zone status on the parcel before the offer went out"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Are short-term rentals actually legal for investors in Ruidoso?",
+          "answer": "Yes, plainly. The Village requires a Short-Term Rental Permit under a framework updated by Ordinance 2025-01 and Ordinance 2026-10, with no cap and no owner-occupancy requirement. A new permit runs $300 including the inspection, renewal is annual with a compliance check, and operators register for gross receipts tax and collect 5% lodgers tax, remitted monthly through the village's online system. The safety standards are specific, down to smoke alarms and extinguisher placement. Compliance is procedural rather than political here, which is rarer than it should be in mountain resort towns."
+        },
+        {
+          "question": "How bad was the South Fork Fire, honestly, and where does recovery stand?",
+          "answer": "Bad, and the market still wears it. The June 2024 South Fork and Salt Fires burned into the village and destroyed homes, then record flooding followed, including a July 2025 event that sent the Rio Ruidoso more than 20 feet over its banks and damaged hundreds of properties. The village has waived rebuild permit fees for affected owners and officials describe full recovery in years, not quarters. Values are down 3.2% over the year. Buying here now means buying the recovery at a discount, verified parcel by parcel with burn-scar and flood mapping."
+        },
+        {
+          "question": "What should I budget for insurance on a Ruidoso cabin?",
+          "answer": "More than any pro forma from before 2024 shows. Wildland-urban interface pricing hardened sharply after the South Fork Fire, and mountain cabins here commonly quote at several times the New Mexico average, with some carriers declining the canyon districts outright. A realistic planning number at a median-priced cabin is $400 or more a month, and river-adjacent parcels may need separate flood coverage on top. The right sequence is quote first, offer second: your matched specialist will want a bindable quote in hand before the file goes to an underwriter, because premiums decide more Ruidoso deals than appraisals do."
+        },
+        {
+          "question": "What nightly revenue should an STR underwrite use here?",
+          "answer": "Post-fire numbers, not the 2023 peak. Ruidoso's visitor base, built on Ski Apache, the racetrack, and Texas drive-up traffic, is durable, but occupancy and nightly pricing reset during recovery and the comp screenshots floating around listing decks predate the fires. A defensible underwrite for a mid-market three-bedroom cabin lands near $3,000 a month in gross projected revenue, which still clears a 1.25-plus ratio at 25% down because entry prices fell too. DSCR lenders for STR files qualify on documented projections or actual trailing revenue, and your matched specialist will build the file on whichever the property can prove."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Ruidoso typical home value and YoY, July 2026",
+        "Zillow Rental Market Trends, Ruidoso median asking rent, August 2026",
+        "Village of Ruidoso, STR Ordinances 2025-01 and 2026-10, $300 permit and 5% lodgers tax, June 2026",
+        "Village of Ruidoso and KCBD reporting, South Fork Fire one-year recovery status and July 2025 Rio Ruidoso record flood, 2025",
+        "NM DFA Certificate of Property Tax Rates TY2025, Lincoln County, Village of Ruidoso residential 23.315 mills",
+        "Insurance and neighborhood figures estimated from post-fire WUI market quotes and listing spot checks, August 2026 (est.)"
+      ]
+    },
+    {
+      "city": "Farmington",
+      "slug": "farmington",
+      "county": "San Juan County",
+      "metro": "Farmington, NM Metro",
+      "hook": "Farmington home values rose 6.4% in a year, the fastest in New Mexico, while the coal plant that anchored the old economy came down in 2024. Taxes near 0.79% keep the carry among the state's lowest.",
+      "metaDescription": "Farmington prices rose 6.4%, fastest in New Mexico, with investor taxes near 0.79%. See how DSCR buyers read the energy transition honestly. Get matched today.",
+      "market": {
+        "medianPrice": 286908,
+        "medianRent": 1750,
+        "priceToRent": 13.7,
+        "vacancyRate": 6.6,
+        "yoyPrice": 6.4,
+        "yoyRent": 6.8,
+        "estDSCR": 0.88,
+        "propertyTaxRate": 0.7858,
+        "insuranceMonthly": 195
+      },
+      "overview": "Farmington is the strangest chart in New Mexico: the town that lost its anchor industry posted the state's fastest home price growth. The typical value hit $286,908 in July 2026, up 6.4%, and three-bedroom listings ask about $1,750 with the overall listing median up around 6.8% on the year. That is not what a dying market looks like, and the reason is supply: almost nothing got built here through the 2010s, so even modest in-migration tightens everything.\n\nThe honest history first. The San Juan Generating Station closed in 2022, its smokestacks were imploded in August 2024, and third-party review pegged the closure of the plant and its mine at more than 1,500 jobs and $53 million a year in state and local tax revenue, the bill for the 2019 Energy Transition Act's phase-out schedule. The city's answer has been deliberate: $40 million in transition bonding for economic development and retraining, a hard pivot to outdoor recreation on the San Juan River and the surrounding mesa trail systems, and a mayor candid that replacing $100,000 plant jobs with recreation jobs is the uphill part. Meanwhile the San Juan Basin's gas fields still run, and Four Corners regional healthcare and retail employment centered here serves a tri-state trade area.\n\nThe underwriting case is carry: 23.574 mills in-city residential for 2025, about 0.79% of market value post-reset, near the lightest in the state. At the median with 20% down the ratio lands near 0.88; the value-add BRRRR on the older stock is how local operators push past 1.0.",
+      "regulationBadge": "friendly",
+      "regulationNote": "Rent control is preempted statewide, Farmington layers no rental licensing beyond standard business registration, and the light 23.574 mill levy means the post-sale tax reset stings less here than anywhere else in the metro conversation.",
+      "neighborhoods": [
+        {
+          "name": "Downtown / Animas District",
+          "medianPrice": 230000,
+          "medianRent": 1500,
+          "note": "Older stock around the Complete Streets-remade Main Street and the Animas River trails. The value-add hunting ground: dated houses at deep discounts to replacement cost, steps from the recreation pivot the city is funding."
+        },
+        {
+          "name": "Foothills / College Hills",
+          "medianPrice": 320000,
+          "medianRent": 1900,
+          "note": "The established east-side tier near San Juan College with the steadiest professional tenant base in town. Above-median entry, above-median rents, and the fewest surprises at inspection."
+        },
+        {
+          "name": "Crestview",
+          "medianPrice": 260000,
+          "medianRent": 1650,
+          "note": "Mid-century central neighborhoods that hit the market's middle: near-median entry, dependable family demand, and enough deferred maintenance on some blocks to create BRRRR spreads for hands-on buyers."
+        },
+        {
+          "name": "Crouch Mesa",
+          "medianPrice": 210000,
+          "medianRent": 1450,
+          "note": "Unincorporated county area between Farmington and Bloomfield with the lowest entry and a county-only tax stack. Mixed site-built and manufactured stock, so confirm the lender's property-type box before writing an offer."
+        }
+      ],
+      "localAngle": {
+        "tag": "Real Costs",
+        "title": "The smokestacks came down. Prices went up 6.4%. Both are true, and the file should hold both.",
+        "body": "In August 2024 PNM imploded the smokestacks of the San Juan Generating Station, the coal plant that had anchored northwest New Mexico for 50 years. The closure and its mine took more than 1,500 jobs and about $53 million in annual state and local tax revenue with them, per independent review, the scheduled cost of the 2019 Energy Transition Act. A market this size absorbing that shock should have rolled over. Instead Farmington posted the fastest home price growth in the state at 6.4%, with rents up too. The explanation is not magic: a decade of near-zero homebuilding left no slack, the Energy Transition Act routed $40 million in bonding toward redevelopment and retraining, gas production in the San Juan Basin kept running, and the city has aggressively rebuilt its identity around the river corridor and outdoor recreation to hold and attract residents. Farmington also remains the healthcare and retail hub for a tri-state trade area, which is the quiet employment ballast the coal narrative misses. The investor translation: buy the supply story, respect the wage story. Rents near $1,750 are real, but the tenant base earns less than the plant era, so condition and price discipline matter more than pro forma creativity. Your matched specialist will underwrite the actual lease, the light 23.574 mill tax stack, and a realistic rehab budget on the older stock where the value-add spread lives."
+      },
+      "programFit": [
+        "standard-dscr",
+        "bridge-to-dscr",
+        "portfolio-dscr"
+      ],
+      "dealExample": {
+        "label": "BRRRR Refinance",
+        "propertyType": "3-bed / 1.5-bath SFR",
+        "neighborhood": "Crestview",
+        "purchasePrice": 250000,
+        "downPaymentPct": 25,
+        "downPayment": 62500,
+        "loanAmount": 187500,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 1311,
+        "monthlyTax": 164,
+        "monthlyInsurance": 175,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 1650,
+        "monthlyRent": 1725,
+        "dscr": 1.05,
+        "monthlyCashFlow": 75,
+        "specialistFocus": [
+          "Structured the refinance at 75% of the $250,000 post-rehab appraised value, returning most of the investor's $38,000 purchase-plus-rehab equity from the distressed buy",
+          "Qualified on the executed lease at $1,725 rather than a projection, because the tenant was placed during the rehab seasoning period and the underwriter counted it in full",
+          "Underwrote the post-sale reassessed bill at Farmington's light 23.574 mill stack, which is the line item that lets a 6.4% appreciation market still ratio above 1.0"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Why would I buy in a town whose power plant just closed?",
+          "answer": "Because the price already knows and the supply does not. The San Juan Generating Station closure took over 1,500 jobs and $53 million in annual tax revenue, yet values rose 6.4% in the past year, the fastest in New Mexico, because a decade of near-zero construction left no inventory slack and the Energy Transition Act routed $40 million in transition funding into the region. Gas production continues, and Farmington anchors healthcare and retail for the Four Corners. The honest frame is a supply-constrained market with a wage ceiling: real, but not a market to overpay in."
+        },
+        {
+          "question": "How cheap are Farmington property taxes really?",
+          "answer": "Among the lightest in the state. The 2025 in-city residential rate is 23.574 mills on one third of value, roughly 0.79% of market price even after New Mexico's post-sale reassessment resets you to full value. On the $286,908 median that is about $188 a month, versus roughly $330 for the same price in Albuquerque. County pockets like Crouch Mesa run lighter still. That carry advantage is a structural reason marginal files clear here: the tax line simply is not fighting the ratio the way it does in Bernalillo County."
+        },
+        {
+          "question": "Is the BRRRR strategy realistic in Farmington?",
+          "answer": "It is the native strategy. The housing stock skews 1950s through 1980s, deferred maintenance is common after the plant-era workforce aged out, and distressed entries at $150,000 to $190,000 with $35,000 to $50,000 rehabs appraise near the $250,000 to $280,000 range the retail market now pays. DSCR lenders refinance the stabilized result at up to 75% of appraised value once seasoning requirements are met, qualifying on the new lease. The discipline is the rehab budget: contractor depth here is thinner than in Albuquerque, so pad timelines. Your matched specialist can sequence the bridge-to-DSCR structure lender by lender."
+        },
+        {
+          "question": "What is the rental demand story without the coal plant?",
+          "answer": "Broader than the headline. San Juan Regional Medical Center and the healthcare cluster serve a tri-state trade area, San Juan College and the schools anchor stable payroll, gas-field operations in the basin still employ field crews, and the city's outdoor recreation push, river trails, bike systems, and downtown reinvestment, is deliberately aimed at keeping and attracting residents. Three-bedroom listings ask about $1,750 and moved up roughly 6.8% over the year. The soft spot is wage depth: screen for income multiples honestly, because the tenant pool is steady but not rich."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Farmington typical home value and 6.4% YoY, July 2026",
+        "Zillow Rental Market Trends, Farmington median asking rent by bedroom, August 2026",
+        "NM DFA Certificate of Property Tax Rates TY2025, San Juan County, City of Farmington residential 23.574 mills",
+        "Albuquerque Journal / PNM, San Juan Generating Station demolition and Energy Transition Act funding, 2024",
+        "NM Political Report and legislative testimony, closure job and tax revenue impacts, 2024",
+        "Neighborhood price and rent figures estimated from Zillow city data and listing spot checks, August 2026 (est.)"
+      ]
+    },
+    {
+      "city": "Hobbs",
+      "slug": "hobbs",
+      "county": "Lea County",
+      "metro": "Hobbs, NM Micro Area",
+      "hook": "Hobbs sits in Lea County, the first US county ever to pump a million barrels of oil a day. Three-bed houses ask $2,300 against a $217K median, and that spread is both the entire opportunity and the entire risk.",
+      "metaDescription": "Hobbs 3-bed rents ask $2,300 in America's top oil county, but smart DSCR files get underwritten on pre-boom rents. See the honest math. Get matched today.",
+      "market": {
+        "medianPrice": 216854,
+        "medianRent": 1544,
+        "priceToRent": 11.7,
+        "vacancyRate": 6.6,
+        "yoyPrice": 3.5,
+        "yoyRent": 6.5,
+        "estDSCR": 0.99,
+        "propertyTaxRate": 0.8996,
+        "insuranceMonthly": 185
+      },
+      "overview": "Hobbs is an oil town, and every number on this page is downstream of that fact. Lea County was the first county in America to produce more than a million barrels of oil per day, and the workforce that pumps it has to live somewhere: the typical Hobbs home runs $216,854 as of July 2026, up 3.5%, while the blended listing median asks about $1,544 and a three-bedroom house asks $2,309. Rent trackers show asking rents up roughly 6.5% on the year, and during drilling surges the market has functionally zero vacancy in decent stock.\n\nHere is the two-layer truth this site exists to tell. At the blended rent the median clears roughly 0.99 at 20% down, right at break-even. At the boom-cycle three-bedroom rent the same house looks like a 1.5 ratio and a cash machine. Both numbers are real today; only one of them survives $50 oil. Hobbs rents crashed in 2015-16 and again in 2020 when rig counts fell, and the operators who survived were the ones who had underwritten mid-cycle rents and kept the boom premium as upside rather than as debt service.\n\nThe rest of the file is friendly: 26.989 mills in-city residential for 2025, about 0.90% of market value post-reset, in a county where oil and gas property carries 87% of the taxable base and residential owners ride cheap. New Mexico preempts rent control, evictions run on state timelines, and the city adds no rental licensing. The discipline is entirely in the rent line.",
+      "regulationBadge": "friendly",
+      "regulationNote": "Lea County's tax base is 87% oil and gas property, which keeps residential levies moderate, and neither Hobbs nor the state adds rental licensing or rent regulation, so the binding constraint on a file here is commodity-cycle rent volatility, not government.",
+      "neighborhoods": [
+        {
+          "name": "North Hobbs / Broadmoor",
+          "medianPrice": 250000,
+          "medianRent": 1900,
+          "note": "The newer north-side stock near the country club and the retail corridor where oilfield management and professional staff rent. Commands the boom premium hardest, which means it also gives it back fastest in a downturn."
+        },
+        {
+          "name": "College Lane / USW Area",
+          "medianPrice": 210000,
+          "medianRent": 1600,
+          "note": "Mid-tier blocks near the University of the Southwest and the junior college with a steadier mix of education, hospital, and field-office tenants. The closest Hobbs gets to a cycle-resistant address."
+        },
+        {
+          "name": "Central Hobbs",
+          "medianPrice": 165000,
+          "medianRent": 1350,
+          "note": "The 1950s-70s core with the cheapest entry in the market. Solid brick stock on some streets and rough condition on others, so this is a walk-every-block submarket where the spread is earned at inspection."
+        },
+        {
+          "name": "Sanger / South Hobbs",
+          "medianPrice": 140000,
+          "medianRent": 1200,
+          "note": "The highest headline yield in town and the most cycle-exposed tenant base. Numbers can look extraordinary on paper; underwrite turnover, collections, and downturn vacancy honestly before believing them."
+        }
+      ],
+      "localAngle": {
+        "tag": "Real Costs",
+        "title": "Underwrite the downcycle rent. Keep the boom rent as your upside, not your debt service.",
+        "body": "Every Hobbs listing deck leads with the same number: three-bedroom houses asking $2,300 or more in a town where the median purchase is $217,000. The number is real. Lea County pumps more crude than any county in America, operators pay retention premiums, and the New Mexico Business Coalition and regional press have documented years of housing shortage, with the city itself acknowledging it cannot house the workforce the boom brings. But this market has a memory. When oil collapsed in 2015-16 and again in 2020, Hobbs rents and occupancy fell with the rig count, fast, and the investors who had borrowed against boom rents fed properties back to the banks. The blended listing median today, about $1,544, is a decent proxy for what a normal cycle supports, and at that rent the median house sits at roughly break-even with 20% down, honest but unspectacular. The play that works here: buy below the median in the College Lane or Central corridors, finance against a mid-cycle rent that clears 1.0 on its own, and let the $2,300 boom lease be margin you harvest while it lasts. Structured that way, Hobbs is one of the few markets where genuine double-digit cash-on-cash is available without pretending. Your matched specialist will qualify the file on the appraiser's market rent and stress it against the downcycle, because in Lea County the cycle is not a hypothesis."
+      },
+      "programFit": [
+        "standard-dscr",
+        "no-ratio-dscr",
+        "portfolio-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 2-bath SFR",
+        "neighborhood": "College Lane / USW Area",
+        "purchasePrice": 220000,
+        "downPaymentPct": 25,
+        "downPayment": 55000,
+        "loanAmount": 165000,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 1153,
+        "monthlyTax": 165,
+        "monthlyInsurance": 175,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 1493,
+        "monthlyRent": 1550,
+        "dscr": 1.04,
+        "monthlyCashFlow": 57,
+        "specialistFocus": [
+          "Qualified on the appraiser's market rent of $1,550 instead of the $2,300 boom-cycle asking rent the listing advertised, so the loan clears 1.0 even in a downturn",
+          "Structured 25% down with six months of reserves documented, sized against the 2015 and 2020 rent drawdowns rather than a generic reserve requirement",
+          "Underwrote the post-sale reassessed bill at the full 26.989 mill in-city stack, not the seller's capped assessment from before the boom repriced the street"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Are Hobbs rents really as high as the listings say?",
+          "answer": "Today, yes. Three-bedroom houses ask around $2,309, asking rents rose roughly 6.5% over the year, and during drilling surges decent stock leases in days because Lea County's million-barrel-a-day workforce outruns the housing supply. The catch is durability: those are boom-cycle prices in a commodity town, and in 2015-16 and 2020 rents and occupancy fell hard with the rig count. Collect the boom rent gladly. Just finance the property against a mid-cycle number, near the $1,544 blended median, so the loan does not need the boom to survive."
+        },
+        {
+          "question": "What happens to my Hobbs rental when oil prices drop?",
+          "answer": "Rents fall, vacancy rises, and it happens faster than in any normal market, because the marginal tenant is a field crew that leaves when the rigs stack. That is not a reason to avoid Hobbs; it is the reason the yields exist. The defenses are mechanical: buy below the median so your basis is defended, qualify the loan at mid-cycle rent so a 20% rent drop does not break coverage, hold real reserves, and favor tenant bases with a non-oil anchor like the hospital, schools, and university corridor. Your matched specialist can structure the file to survive exactly this scenario."
+        },
+        {
+          "question": "How do Lea County property taxes work for an investor?",
+          "answer": "Favorably, because oil pays most of the bill. Oil and gas property makes up about 87% of Lea County's taxable value, which keeps residential levies moderate: the 2025 in-city Hobbs residential rate is 26.989 mills on one third of value, roughly 0.90% of market value after the post-sale reassessment. On the $216,854 median that is about $163 a month. New Mexico's 3% valuation cap resets at purchase, so use your price, not the seller's bill, but the reset stings far less here than in Albuquerque's 41-mill stack."
+        },
+        {
+          "question": "Which Hobbs submarkets make sense for a first deal?",
+          "answer": "The middle. The College Lane and university corridor pairs $210,000 entries with $1,600 steady rents and the most cycle-resistant tenant mix in town, education, hospital, and field-office staff rather than pure rig crews. North Hobbs collects the biggest boom premium but gives it back first in a bust. Central and south Hobbs offer the deepest yields with the heaviest management and condition risk, block by block. Most first-time out-of-state buyers here do best in the middle tier, and your matched specialist can match the structure across the 70+ lenders."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Hobbs typical home value and YoY, July 2026",
+        "Zillow Rental Market Trends, Hobbs median asking rent by bedroom, August 2026",
+        "Rent.com rental market trends, Hobbs asking rent +6.55% YoY, August 2026 (Zillow listing-median -12% YoY rejected as mix noise)",
+        "NM DFA Certificate of Property Tax Rates TY2025, Lea County, City of Hobbs residential 26.989 mills",
+        "NM LFC Property Taxes in New Mexico brief, oil and gas share of Lea County taxable value, May 2024",
+        "Neighborhood price and rent figures estimated from Zillow city data and listing spot checks, August 2026 (est.)"
+      ]
+    },
+    {
+      "city": "Carlsbad",
+      "slug": "carlsbad",
+      "county": "Eddy County",
+      "metro": "Carlsbad-Artesia, NM Micro Area",
+      "hook": "Carlsbad's median is $254K in the county that leads the entire Permian in oil production, with potash and the WIPP nuclear site adding non-oil payroll. Files here get underwritten on the floor, not the boom.",
+      "metaDescription": "Carlsbad DSCR deals ride Permian oil, potash, and WIPP payrolls with a $254K median and blended rents near $1,700. See the cash-out play. Get matched today.",
+      "market": {
+        "medianPrice": 254019,
+        "medianRent": 1700,
+        "priceToRent": 12.5,
+        "vacancyRate": 6.6,
+        "yoyPrice": 1.7,
+        "yoyRent": 2.1,
+        "estDSCR": 0.95,
+        "propertyTaxRate": 0.8421,
+        "insuranceMonthly": 195
+      },
+      "overview": "Carlsbad is the Permian's quieter twin. Eddy County has led the entire basin in oil and gas production for three consecutive years and is closing on the million-barrel-a-day mark its neighbor Lea crossed first, and the town under that output runs chronically short of housing: the city built an average of 175 homes a year plus about 700 apartment units through the last boom and still entered 2019 roughly 1,200 homes behind. The typical value now sits at $254,019, up 1.7%, with blended listings asking about $1,700, apartment rents up 2.1% per Apartments.com, and three-bedroom houses asking $2,500 when crew demand runs hot.\n\nWhat separates Carlsbad from Hobbs is the non-oil ballast. The Waste Isolation Pilot Plant, the federal nuclear repository east of town, carries more than a thousand permanent badge-holders, the potash mines have shipped from this district for a century, and Carlsbad Caverns pulls a steady tourism trade. Those payrolls do not stack rigs when crude dips, and they are why Carlsbad's downturns historically bottom shallower than pure oilfield towns.\n\nThe math: 25.262 mills in-city residential for 2025, about 0.84% of market value post-reset, in another county where oil and gas property carries most of the levy. At the median with 20% down the blended-rent ratio is 0.95; boom-cycle house rents put the same file far above 1.2. The honest structure finances the first number and pockets the second. Years of boom equity also make this the natural cash-out refinance market in southeast New Mexico.",
+      "regulationBadge": "friendly",
+      "regulationNote": "Eddy County's oil-heavy tax base keeps residential mills at 25.262 in-city, neither Carlsbad nor the state imposes rental licensing or rent regulation, and the practical underwriting constraint is commodity-cycle rent volatility softened somewhat by WIPP and potash payrolls.",
+      "neighborhoods": [
+        {
+          "name": "North Carlsbad / Riverside",
+          "medianPrice": 290000,
+          "medianRent": 2000,
+          "note": "The newer stock near the country club and the Pecos riverfront where WIPP professionals and operator staff rent. The premium address, and the one that holds value best when crew demand cools."
+        },
+        {
+          "name": "La Huerta",
+          "medianPrice": 240000,
+          "medianRent": 1700,
+          "note": "The near-median north-edge neighborhood with 1970s-90s ranches and a stable mix of nuclear, potash, and oilfield tenants. The balanced first buy in Carlsbad."
+        },
+        {
+          "name": "Central Carlsbad",
+          "medianPrice": 190000,
+          "medianRent": 1450,
+          "note": "Older core blocks below replacement cost with the deepest yield and the widest condition variance. The value-add pocket, priced for buyers who inspect hard and budget honestly."
+        },
+        {
+          "name": "South Carlsbad / San Jose",
+          "medianPrice": 165000,
+          "medianRent": 1300,
+          "note": "The cheapest entry in town, historically working-class blocks closest to the highway 285 oilfield traffic. High paper yield, heavier management, and the most cycle-sensitive tenant base."
+        }
+      ],
+      "localAngle": {
+        "tag": "Real Costs",
+        "title": "Three payrolls, one housing shortage, and equity looking for a cash-out.",
+        "body": "Carlsbad's investment case rests on a simple imbalance: Eddy County has led the whole Permian Basin in production for three straight years, potash and the WIPP federal nuclear site add over a thousand non-oil paychecks each, and the town has underbuilt housing for a decade, entering the last boom roughly 1,200 homes short by the city's own accounting. Rents show it, with three-bedroom houses asking $2,500 in hot stretches against a blended $1,700 market. But the more interesting Carlsbad story right now is on the equity side. Owners who bought between 2016 and 2021 rode the boom to six figures of appreciation, and a DSCR cash-out refinance converts that trapped equity into the next acquisition without selling the asset or showing tax returns: lenders qualify the loan on the property's lease against its new payment, typically to 70-75% of appraised value. The discipline mirrors the purchase side, because a cash-out sized against a boom rent is the same mistake as a purchase underwritten on one. Pull equity to a payment the blended-market rent covers, keep the crew-demand premium as margin, and the position survives a rig-count winter. The non-oil ballast is real but partial: WIPP and potash soften downturns, they do not cancel them. Your matched specialist will size the cash-out against the appraiser's market rent and the full post-sale tax bill so the new loan stands on mid-cycle numbers."
+      },
+      "programFit": [
+        "standard-dscr",
+        "portfolio-dscr",
+        "bridge-to-dscr"
+      ],
+      "dealExample": {
+        "label": "Cash-Out Refinance",
+        "propertyType": "3-bed / 2-bath SFR",
+        "neighborhood": "La Huerta",
+        "purchasePrice": 260000,
+        "downPaymentPct": 30,
+        "downPayment": 78000,
+        "loanAmount": 182000,
+        "loanType": "30-Year Fixed Cash-Out",
+        "interestOnly": false,
+        "monthlyPI": 1272,
+        "monthlyTax": 182,
+        "monthlyInsurance": 190,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 1644,
+        "monthlyRent": 1700,
+        "dscr": 1.03,
+        "monthlyCashFlow": 56,
+        "specialistFocus": [
+          "Structured the cash-out at 70% of the $260,000 appraised value on a house bought for $148,000 in 2017, returning roughly $95,000 of boom equity for the next purchase",
+          "Qualified on the in-place lease at $1,700, the blended-market number, rather than the $2,400 crew-demand asking rents two streets over, so coverage holds mid-cycle",
+          "Underwrote the reassessment at the full 25.262 mill in-city stack triggered by the refinance appraisal era values, not the owner's 2017 capped bill"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "How is Carlsbad different from Hobbs for a rental investor?",
+          "answer": "Same basin, better ballast. Both towns price off Permian activity, but Carlsbad layers two payrolls that ignore the rig count: the WIPP federal nuclear repository with over a thousand permanent workers, and potash mines that have shipped from this district for a century, plus a steady Caverns tourism trade. Historical downturns bottomed shallower here than in pure oilfield towns. The trade-off is entry price, $254,019 median versus Hobbs at $216,854, so headline yields run slightly thinner. For a first Permian deal, Carlsbad is the more forgiving version of the same bet."
+        },
+        {
+          "question": "Is a cash-out refinance realistic on a Carlsbad rental?",
+          "answer": "It is the signature move here. Owners who bought before or early in the boom hold large appreciation gains, and DSCR cash-out programs lend against the property's lease and appraised value, typically to 70-75%, without tax returns. The discipline is sizing: qualify the new payment against the blended-market rent near $1,700, not the $2,500 crew-demand peak, so the position survives a soft cycle. Seasoning rules and the reassessed tax bill both apply. Your matched specialist can line up which of the 70+ lenders prices Permian-market cash-outs most cleanly."
+        },
+        {
+          "question": "What rent should I underwrite on a Carlsbad three-bedroom?",
+          "answer": "Two numbers, used for two different jobs. The blended listing market asks about $1,700 and apartment rents rose a steady 2.1% this year; that is the financing number, the rent the loan should clear on. In tight stretches, three-bedroom houses ask $2,500 to oil and contractor crews, sometimes with per-diem housing budgets behind them; that is the harvest number, real income while the cycle runs but not something to owe money against. Appraisers here typically land near the blended figure, which conveniently enforces the honest structure."
+        },
+        {
+          "question": "What are Carlsbad property taxes on an investment purchase?",
+          "answer": "Light. The 2025 in-city residential rate is 25.262 mills on one third of value, about 0.84% of market value after New Mexico's post-sale reassessment, because oil and gas property carries most of Eddy County's levy. On the $254,019 median that is roughly $178 a month. The 3% annual valuation cap then limits future increases while you hold, but remember it resets to full market value the day you buy, so underwrite your own price, and expect the reassessment to catch up on long-held properties you cash-out refinance as well."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Carlsbad typical home value and YoY, July 2026",
+        "Zillow Rental Market Trends, Carlsbad median asking rent by bedroom, August 2026",
+        "Apartments.com, Carlsbad average apartment rent +2.1% YoY, June 2026 (Zillow listing-median -15% YoY rejected as mix noise)",
+        "NM DFA Certificate of Property Tax Rates TY2025, Eddy County, City of Carlsbad residential 25.262 mills",
+        "Eddy County production rankings and Carlsbad housing shortage reporting, NM Business Coalition and regional press, 2025",
+        "Neighborhood price and rent figures estimated from Zillow city data and listing spot checks, August 2026 (est.)"
+      ]
+    },
+    {
+      "city": "Roswell",
+      "slug": "roswell",
+      "county": "Chaves County",
+      "metro": "Roswell, NM Micro Area",
+      "hook": "Roswell's $178K median clears a 1.05 ratio at 20% down, one of the few New Mexico markets above water at the median. The October 2024 flood redrew the diligence map, so buy elevation, not just yield.",
+      "metaDescription": "Roswell homes average $178K and clear a 1.05 DSCR at the median, rare in New Mexico. Flood-zone diligence now decides deals here. Get matched today.",
+      "market": {
+        "medianPrice": 177920,
+        "medianRent": 1350,
+        "priceToRent": 11,
+        "vacancyRate": 6.6,
+        "yoyPrice": 1,
+        "yoyRent": 0.4,
+        "estDSCR": 1.05,
+        "propertyTaxRate": 0.8718,
+        "insuranceMonthly": 165
+      },
+      "overview": "Roswell is the rare New Mexico market where the arithmetic clears before you do anything clever. The typical home runs $177,920 as of July 2026, up 1.0%, three-bedroom houses list near $1,350, and at 20% down the median produces a ratio around 1.05. In a state where Albuquerque sits at 0.83 and Santa Fe at 0.62, that makes Roswell the honest yield play, priced by an economy of dairy and agriculture, the Roswell Air Center's aircraft storage and maintenance operations on the old base, oilfield spillover from the Permian's northwest shelf, and a UFO tourism trade that reliably fills hotels every July.\n\nNow the Memphis-style disclosure: what sits downstream of the ratio. On October 19-20, 2024, Roswell took an all-time record 5.78 inches of rain in a day, flooding far outside the mapped 100-year floodplain, killing two people and damaging hundreds of structures; the city is still working through 77 FEMA-scale remediation projects estimated near $170 million. Flood mapping here is now a first-order underwriting input, and the price difference between a flood-touched block and an elevated one is the most important spread in the market. Second, wages are thin: rents moved just 0.4% on the year, so this is a buy-for-yield market, not a growth story.\n\nTaxes run light, 26.153 mills in-city for 2025, about 0.87% of market value post-reset, and the state's landlord framework applies with no local additions. Buy elevation, screen hard, and the median genuinely cash flows.",
+      "regulationBadge": "friendly",
+      "regulationNote": "Chaves County adds no rental licensing on top of New Mexico's statewide framework and rent control preemption, so the real diligence layer in Roswell is post-2024 flood mapping and drainage remediation status, not regulation.",
+      "neighborhoods": [
+        {
+          "name": "Northeast Roswell / Country Club",
+          "medianPrice": 230000,
+          "medianRent": 1600,
+          "note": "The professional tier near the country club and the newer schools, where Air Center managers and medical staff rent. Higher ground, stronger tenants, and the thinnest yield spread in town, which is the trade."
+        },
+        {
+          "name": "Enchanted Hills / Del Norte",
+          "medianPrice": 185000,
+          "medianRent": 1400,
+          "note": "The near-median middle of the market with 1960s-80s ranches and steady family demand. The default first buy: clears the ratio at 20-25% down without touching the rough blocks."
+        },
+        {
+          "name": "Central / Downtown Roswell",
+          "medianPrice": 140000,
+          "medianRent": 1150,
+          "note": "Older core stock around Main Street's UFO-tourism strip. Deep value and real appreciation optionality if downtown reinvestment continues, but check 2024 flood exposure parcel by parcel here."
+        },
+        {
+          "name": "South Roswell",
+          "medianPrice": 120000,
+          "medianRent": 1050,
+          "note": "The cheapest entry in the market and the highest paper yield. Some blocks took the worst of the October 2024 water; remediation status and drainage improvements decide which streets are investable."
+        }
+      ],
+      "localAngle": {
+        "tag": "Real Costs",
+        "title": "The median clears here. The flood map decides whether your block does.",
+        "body": "Roswell's pitch is simple: a $177,920 median, $1,350 house rents, a 1.05 ratio at 20% down, and a light 26.153 mill tax stack. The economy under it is more diversified than the alien souvenirs suggest, anchored by the Roswell Air Center, where widebody storage, teardown, and MRO operations occupy the former Walker Air Force Base runways, one of the longest in the country, alongside dairy and ag processing, Permian-shelf oilfield work, and a tourism strip that reliably sells out every July. What changed the underwriting here happened on October 19-20, 2024, when an all-time record 5.78 inches of rain, half a normal year's total, fell in a day. Water ran far outside the mapped 100-year floodplain, two people died, hundreds of structures took damage, and the city has been executing 77 remediation projects across 302 damage sites at an estimated cost near $170 million. For an investor, three practical consequences. First, FEMA flood maps understate the real risk perimeter, because 2024 proved water goes where the maps said it would not. Second, remediated drainage is improving specific corridors, and knowing which ones is genuine local alpha. Third, flood-touched houses trade at discounts that are only bargains when elevation, remediation status, and insurance quotes all check out. Your matched specialist will structure the file with the flood determination, an accurate insurance quote, and the post-sale tax bill priced in from day one."
+      },
+      "programFit": [
+        "standard-dscr",
+        "portfolio-dscr",
+        "bridge-to-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 2-bath SFR",
+        "neighborhood": "Enchanted Hills / Del Norte",
+        "purchasePrice": 165000,
+        "downPaymentPct": 25,
+        "downPayment": 41250,
+        "loanAmount": 123750,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 865,
+        "monthlyTax": 120,
+        "monthlyInsurance": 145,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 1130,
+        "monthlyRent": 1295,
+        "dscr": 1.15,
+        "monthlyCashFlow": 165,
+        "specialistFocus": [
+          "Verified the parcel sat outside both the mapped floodplain and the October 2024 observed inundation area before the offer, which kept the insurance quote at $145 a month",
+          "Qualified on the appraiser's market rent of $1,295 against nearby leases rather than the softer citywide blend that includes flood-discounted stock",
+          "Structured 25% down to hold the ratio at 1.15 with margin, because thin-wage markets punish files that need every dollar of rent to perform"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Does Roswell really cash flow at the median?",
+          "answer": "Yes, and it is one of the few New Mexico markets that does. The $177,920 median against $1,350 three-bedroom rents produces a ratio near 1.05 at 20% down, with the light 26.153 mill tax stack, about 0.87% of market value post-reset, doing quiet work in the denominator. The honest qualifiers: rents grew just 0.4% this year, so you are buying yield rather than growth, and the tenant pool's wage depth demands real screening discipline. It is a Memphis-pattern market at one third the size: the ratio clears, and operations decide the rest."
+        },
+        {
+          "question": "How seriously should I take the 2024 flood when buying in Roswell?",
+          "answer": "As the first diligence item, before price. The October 2024 storm dropped a record 5.78 inches in a day and flooded well outside the mapped 100-year floodplain, which means a clean FEMA determination alone is not a clean bill of health here. The city is executing roughly $170 million of remediation across 302 damage sites, and drainage on specific corridors is genuinely improving. Practical rule: verify elevation and 2024 inundation history parcel by parcel, get the insurance quote before going firm, and treat flood-discounted listings as repriced risk, not free yield."
+        },
+        {
+          "question": "What actually drives rental demand in Roswell?",
+          "answer": "Four unglamorous engines. The Roswell Air Center runs aircraft storage, teardown, and maintenance operations on the former Walker AFB runways and anchors skilled payroll. Dairy and agricultural processing make Chaves County one of the state's ag centers. Permian-shelf oilfield activity spills commuter workers into town. And the UFO tourism economy, capped by the July festival, supports a hospitality workforce year-round. None of these pays Santa Fe wages, which is why rents sit at $1,350 and move slowly, but together they keep the tenant pool steadier than any single-industry town in the region."
+        },
+        {
+          "question": "What are the property taxes on a Roswell investment purchase?",
+          "answer": "Light, even by New Mexico standards. The 2025 in-city residential rate is 26.153 mills applied to one third of value, which works out near 0.87% of full market value once the post-sale reassessment lands. On a $165,000 purchase that is about $120 a month. The statewide 3% valuation cap resets at closing, so the seller's bill understates yours on long-held homes, but at Roswell's price points the reset is a matter of tens of dollars monthly, not the hundreds it means in Albuquerque. It is one more reason the median here holds above 1.0."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Roswell typical home value and YoY, July 2026",
+        "Zillow Rental Market Trends, Roswell median asking rent by bedroom, August 2026",
+        "NM DFA Certificate of Property Tax Rates TY2025, Chaves County, City of Roswell residential 26.153 mills",
+        "NASA Earth Observatory and Roswell Daily Record, October 2024 record flood and $170M remediation program, 2025",
+        "US Census Bureau, New Mexico statewide rental vacancy, 2025 (state-level, est.)",
+        "Neighborhood price and rent figures estimated from Zillow city data and listing spot checks, August 2026 (est.)"
+      ]
+    },
+    {
+      "city": "Clovis",
+      "slug": "clovis",
+      "county": "Curry County",
+      "metro": "Clovis, NM Micro Area",
+      "hook": "Clovis pairs a $163K median with a 1.17 ratio at 20% down and a tenant base anchored by Cannon Air Force Base, which just landed an $80 million dormitory project. Cheap entry, real yield, small pool.",
+      "metaDescription": "Clovis homes average $163K and clear a 1.17 DSCR at the median, with Cannon AFB tenants on housing allowances. See what the yield hides. Get matched today.",
+      "market": {
+        "medianPrice": 163292,
+        "medianRent": 1395,
+        "priceToRent": 9.8,
+        "vacancyRate": 6.6,
+        "yoyPrice": -0.1,
+        "yoyRent": 0.7,
+        "estDSCR": 1.17,
+        "propertyTaxRate": 0.8422,
+        "insuranceMonthly": 160
+      },
+      "overview": "Clovis has the best raw ratio in New Mexico. The typical home runs $163,292 as of July 2026, essentially flat at minus 0.1%, while the listing market asks about $1,395 blended and $1,450 for a three-bedroom. At 20% down the median clears roughly 1.17, and the price-to-rent multiple under 10 is the kind of number coastal investors assume is a typo.\n\nThe demand engine wears a uniform. Cannon Air Force Base, home of the 27th Special Operations Wing flying AC-130Js, MC-130Js, CV-22 Ospreys, and MQ-9s, sits eight miles west and anchors thousands of airmen, contractors, and civilian staff, many drawing a housing allowance that arrives on the first of the month regardless of the economy. The commitment signal is fresh: Cannon landed over $80 million in federal infrastructure funding in late 2025, headlined by an $80 million 192-bed dormitory, on top of years of mission investment. Eastern New Mexico University sits 19 miles down the road in Portales, and the region's cattle, dairy, and cheese-processing complex fills in the civilian tenant base.\n\nThe honest downstream: this is a small, flat market where PCS season sets the leasing calendar, hail rides the High Plains weather map into insurance quotes, and exit liquidity is thin because your eventual buyer is another landlord or a base family. Taxes help, 25.267 mills in-city for 2025, about 0.84% post-reset. The duplex-and-fourplex stock around the base is where local operators concentrate, because two allowance-backed leases against one cheap basis is the whole game here.",
+      "regulationBadge": "friendly",
+      "regulationNote": "Curry County layers nothing on top of New Mexico's statewide landlord framework and rent control preemption, and Cannon's housing office effectively sets the rental market's quality bar, so the operating risks here are PCS-cycle turnover and hail season rather than regulation.",
+      "neighborhoods": [
+        {
+          "name": "West Clovis / Base Corridor",
+          "medianPrice": 175000,
+          "medianRent": 1500,
+          "note": "The stock closest to Cannon's gate along US 60/84 where allowance-backed military tenants concentrate. Fastest leasing in the market during PCS season and the natural home for the duplex play."
+        },
+        {
+          "name": "North Clovis / Colonial Park",
+          "medianPrice": 200000,
+          "medianRent": 1600,
+          "note": "The newer north-side tier near the country club and hospital, renting to officers, medical staff, and ag-business management. Thinner yield, steadiest tenants, best exit liquidity in town."
+        },
+        {
+          "name": "Central Clovis",
+          "medianPrice": 130000,
+          "medianRent": 1150,
+          "note": "The 1950s-60s core around the historic Main Street. Deep-value entries under $140,000 that clear the ratio easily on paper; hail-aged roofs and deferred maintenance are where the spread gets spent."
+        },
+        {
+          "name": "Hull Street / South Clovis",
+          "medianPrice": 110000,
+          "medianRent": 1000,
+          "note": "The cheapest blocks in the market with the heaviest management load. Numbers look extraordinary until turnover and collections are priced honestly; this tier is for experienced operators only."
+        }
+      ],
+      "localAngle": {
+        "tag": "Growth",
+        "title": "Cannon's $80 million dorm is a federal vote of confidence in your tenant base.",
+        "body": "The question every Clovis investor should ask is the one locals asked for years: is the base staying? The 27th Special Operations Wing made Cannon its home in 2007, and the installation now flies some of the most heavily tasked aircraft in the Air Force inventory, AC-130J gunships, MC-130J transports, CV-22 Ospreys, and MQ-9 crews. The answer arrived in appropriations form: over $80 million in federal infrastructure funding secured in late 2025, led by an $80 million, 192-bed dormitory plus an $8 million security forces training facility, on top of a steady run of military construction. Nobody builds nine-figure dormitories on a base they intend to close. For a landlord the mechanics are unusually clean: airmen and civilian staff draw housing allowances pegged to the local market, paid monthly regardless of the macro cycle, and the off-base rental stock they compete for is small enough that well-kept three-bedrooms and duplexes near the base corridor lease within days of a PCS wave. The honest limits: Clovis is flat-price country, minus 0.1% on the year, so total return is the cash flow, hail is a recurring insurance event on the High Plains, and the leasing calendar breathes with military move cycles. Your matched specialist will structure the file on actual or appraiser-supported leases and a hail-realistic insurance quote, which is what a 1.17 median ratio needs to stay real."
+      },
+      "programFit": [
+        "standard-dscr",
+        "portfolio-dscr",
+        "bridge-to-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "Duplex (2-unit)",
+        "neighborhood": "West Clovis / Base Corridor",
+        "purchasePrice": 185000,
+        "downPaymentPct": 25,
+        "downPayment": 46250,
+        "loanAmount": 138750,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 970,
+        "monthlyTax": 130,
+        "monthlyInsurance": 165,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 1265,
+        "monthlyRent": 1800,
+        "dscr": 1.42,
+        "monthlyCashFlow": 535,
+        "specialistFocus": [
+          "Qualified on both units' combined leases at $900 each to Cannon-assigned tenants, documented against the base housing office's rental listings rather than a citywide blend",
+          "Underwrote insurance at $165 a month with a wind-hail deductible priced in, because High Plains hail is the recurring cost the pro formas from out of state always miss",
+          "Structured 25% down and let the 1.42 coverage stand as the buffer for PCS-season vacancy, instead of stretching the leverage the strong ratio technically allowed"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Is Cannon Air Force Base a stable anchor for a Clovis rental?",
+          "answer": "The evidence says yes. The 27th Special Operations Wing flies heavily tasked aircraft, and the federal government committed over $80 million to base infrastructure in late 2025, including an $80 million 192-bed dormitory, which is not what closure candidates receive. Military and civilian staff draw housing allowances paid monthly regardless of the economy, and their demand concentrates on the limited off-base stock. The risk to respect is mission dependence: Clovis without Cannon is a much smaller market, which is why the yield runs as rich as it does. Underwrite the cash flow, not an exit premium."
+        },
+        {
+          "question": "Why is the Clovis DSCR ratio so much higher than the rest of New Mexico?",
+          "answer": "Price, not magic. The $163,292 median against $1,395 blended rents puts price-to-rent under 10, versus 13.5 in Albuquerque and nearly 20 in Santa Fe, and the 25.267 mill tax stack costs only about 0.84% of market value post-reset. The market prices in its own limits: home values were flat this year, apartment rents rose just 0.7%, the tenant pool is small, and eventual resale is usually to another investor or a base family. You are being paid a genuine premium for illiquidity and single-anchor risk. Taken on those terms, the 1.17 median ratio is real."
+        },
+        {
+          "question": "What does hail season do to a Clovis underwrite?",
+          "answer": "It moves the insurance line more than anywhere else in the state. Clovis sits on the High Plains hail corridor, and carriers price it with wind-hail deductibles that often run 1-2% of dwelling coverage, plus roof-age surcharges on the older stock. A realistic quote on a median house runs near $160 a month, and a hail-aged roof can add thousands at purchase or at claim time. The discipline: get the actual quote and a roof inspection before going firm, and budget roof replacement into any value-add basis. The ratio survives hail; surprised buyers do not."
+        },
+        {
+          "question": "Should I buy a house or a duplex near Cannon?",
+          "answer": "The duplex math is hard to argue with. Two allowance-backed leases near $900 each against a basis around $185,000 produces coverage ratios in the 1.4 range at 25% down, and a single vacancy cuts income in half rather than to zero during PCS turnover. Single-family in the north-side tier trades yield for steadier officers-and-professionals tenancy and better resale. Most local operators run both: duplexes for cash flow, houses for stability. Your matched specialist can price both structures across the 70+ lenders, including small-portfolio loans once you hold several."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Clovis typical home value and YoY, July 2026",
+        "Zillow Rental Market Trends, Clovis median asking rent by bedroom, August 2026",
+        "Apartments.com, Clovis average apartment rent +0.7% YoY, June 2026 (Zillow listing-median +10% YoY rejected as mix noise)",
+        "NM DFA Certificate of Property Tax Rates TY2025, Curry County, City of Clovis residential 25.267 mills",
+        "NewsChannel10 / Sen. Heinrich office, Cannon AFB $80M dormitory and infrastructure funding, November 2025",
+        "Neighborhood price and rent figures estimated from Zillow city data and listing spot checks, August 2026 (est.)"
+      ]
+    },
+    {
+      "city": "Alamogordo",
+      "slug": "alamogordo",
+      "county": "Otero County",
+      "metro": "Alamogordo, NM Micro Area",
+      "hook": "Alamogordo's $222K median and $1,550 rents land at a 0.99 ratio, a coin flip that Holloman's F-16 training pipeline tenants and a slightly bigger down payment tip over the line.",
+      "metaDescription": "Alamogordo homes average $222K with Holloman AFB driving rents near $1,550 and a 0.99 median DSCR. See which structures clear the line. Get matched today.",
+      "market": {
+        "medianPrice": 222125,
+        "medianRent": 1550,
+        "priceToRent": 11.9,
+        "vacancyRate": 6.6,
+        "yoyPrice": -3.5,
+        "yoyRent": -1.6,
+        "estDSCR": 0.99,
+        "propertyTaxRate": 0.8506,
+        "insuranceMonthly": 170
+      },
+      "overview": "Alamogordo is a base town in a correction year, and both halves of that sentence matter. The typical home value sits at $222,125 as of July 2026, down 3.5%, the softest print among New Mexico's investable markets, while listings ask about $1,550 blended and $1,650 for a three-bedroom, off 1.6% on the year. At 20% down the median lands at 0.99, a coin-flip ratio that either a price negotiated below list or 25% down converts into real coverage. Corrections in allowance-backed markets are usually entry points rather than warnings, because the demand anchor does not read the housing news.\n\nThat anchor is Holloman Air Force Base, ten minutes west, home of the 49th Wing and the Air Force's F-16 training pipeline along with MQ-9 crew training for the US and allied nations. In June 2026 the wing moved from Air Education and Training Command to Air Combat Command in a restructuring of the fighter-pilot pipeline, an administrative change that underscores rather than threatens the mission: student pilots, instructors, and maintainers cycle through on orders continuously, drawing housing allowances and renting off-base because on-base housing cannot hold the throughput. White Sands National Park's tourism and Otero County's public payrolls fill in the rest.\n\nThe operating math is friendly: 25.519 mills in-city for 2025, about 0.85% of market value post-reset, insurance near $170 a month on the median house, and no local rental licensing. The discipline items are the PCS-season leasing calendar and buying the correction rather than fighting it: this year's minus 3.5% is next year's basis.",
+      "regulationBadge": "friendly",
+      "regulationNote": "Otero County and Alamogordo add no rental licensing to New Mexico's statewide framework, rent control is preempted, and Holloman's housing allowance schedule effectively anchors the rent ceiling, so the operating variables are PCS timing and price discipline rather than regulation.",
+      "neighborhoods": [
+        {
+          "name": "North Alamogordo / Desert Foothills",
+          "medianPrice": 260000,
+          "medianRent": 1750,
+          "note": "The newer foothill-view tier where instructors, officers, and hospital staff rent. Above-median entry with the steadiest tenants and the best resale audience when a base family decides to buy instead."
+        },
+        {
+          "name": "College Area / Scenic Drive",
+          "medianPrice": 220000,
+          "medianRent": 1550,
+          "note": "The mid-market around NMSU-Alamogordo and the medical center, matching the citywide median almost exactly. The default first buy: clears with 25% down and rents to a mixed military-civilian pool."
+        },
+        {
+          "name": "Central Alamogordo",
+          "medianPrice": 170000,
+          "medianRent": 1300,
+          "note": "Older grid stock below the highway with the deepest yields in town. Condition varies street to street; the ratio math works easily, so spend the diligence budget on roofs, plumbing, and evaporative-cooler-era systems."
+        },
+        {
+          "name": "La Luz / Tularosa fringe",
+          "medianPrice": 195000,
+          "medianRent": 1400,
+          "note": "Unincorporated settlements north of town with county-only tax stacks and acreage properties. Sticky long-term tenants and light carry, but slower leasing and appraisal comps take real work out here."
+        }
+      ],
+      "localAngle": {
+        "tag": "Growth",
+        "title": "The F-16 schoolhouse guarantees the tenant pipeline. The correction sets your basis.",
+        "body": "Holloman Air Force Base is the Air Force's F-16 schoolhouse: the 49th Wing trains the fighter pilots and a large share of the MQ-9 remotely piloted aircraft crews for the US and allied air forces, and in June 2026 the wing transferred from Air Education and Training Command to Air Combat Command as part of a service-wide restructuring of the fighter training pipeline. Read that transition correctly: the Air Force reorganized around the training mission, not away from it. What the mission means for a landlord is a tenant conveyor that never stops, student pilots on course dates, instructor cadres on multi-year tours, maintainers and contractors supporting the flying schedule, all drawing housing allowances and most renting off-base because base housing cannot absorb the throughput. Meanwhile the purchase side handed buyers a gift: values fell 3.5% over the past year, the softest print among New Mexico's investable markets, while allowance schedules and the training tempo held. That gap between soft prices and anchored demand is exactly what a disciplined entry looks like, and it will not persist indefinitely. The honest cautions: Alamogordo is a single-anchor town, leasing breathes with PCS season, and the correction can run further before it turns. Your matched specialist will structure the file at 25% down or better on a below-list negotiated price, qualified on the appraiser's rent, so the coin-flip median ratio closes as real coverage."
+      },
+      "programFit": [
+        "standard-dscr",
+        "interest-only-dscr",
+        "portfolio-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 2-bath SFR",
+        "neighborhood": "College Area / Scenic Drive",
+        "purchasePrice": 210000,
+        "downPaymentPct": 25,
+        "downPayment": 52500,
+        "loanAmount": 157500,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 1101,
+        "monthlyTax": 149,
+        "monthlyInsurance": 160,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 1410,
+        "monthlyRent": 1595,
+        "dscr": 1.13,
+        "monthlyCashFlow": 185,
+        "specialistFocus": [
+          "Structured the offer $12,000 below list in a market down 3.5% on the year, which moved the ratio at 25% down to 1.13, versus 0.99 at the citywide median price",
+          "Qualified on the appraiser's market rent of $1,595, cross-checked against Holloman's allowance schedule for the ranks that rent this tier of housing",
+          "Underwrote the post-sale reassessed bill at the full 25.519 mill in-city stack rather than the seller's capped assessment from twelve years of ownership"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Should the switch of Holloman's wing to Air Combat Command worry me?",
+          "answer": "No, and it arguably strengthens the case. In June 2026 the 49th Wing moved from Air Education and Training Command to Air Combat Command as part of an Air Force restructuring of the fighter training pipeline, keeping the F-16 schoolhouse and MQ-9 crew training missions at Holloman. Services reorganize around missions they are investing in. For a landlord, the relevant facts did not change: student pilots, instructors, and maintainers cycle through continuously on housing allowances, and off-base rentals absorb the throughput that base housing cannot. Single-anchor risk remains the honest caveat, as in every base town."
+        },
+        {
+          "question": "Is buying during Alamogordo's price correction smart or catching a falling knife?",
+          "answer": "The demand anchor answers that. Values fell 3.5% over the year, but Holloman's training tempo and allowance schedules did not fall with them, which is the definition of a basis opportunity in an allowance-backed market. The correction reflects rate-era affordability and thin civilian wage growth, not tenant flight. The disciplined play is negotiating below list, structuring 25% down, and letting the improved basis, not optimistic rent, carry the ratio from the 0.99 median coin flip to real coverage near 1.1. What kills buyers in corrections is paying last year's price, not the correction itself."
+        },
+        {
+          "question": "What rent can I realistically collect from Holloman tenants?",
+          "answer": "The allowance schedule is your rent ceiling and your comfort. Three-bedroom houses list near $1,650 and the blended market asks about $1,550, numbers that sit comfortably inside the housing allowances for the mid-level enlisted and company-grade officer ranks who rent this stock. Allowance-backed rent arrives on the first regardless of the economy, and well-kept houses near the base lease quickly during summer PCS waves. The trade-offs: tenancies run two to three years by orders rather than by choice, and the leasing calendar concentrates around move season, so vacancies that miss the wave can sit."
+        },
+        {
+          "question": "What does an Alamogordo investment property cost to carry?",
+          "answer": "Among the least in the state. The 2025 in-city residential levy is 25.519 mills on one third of value, roughly 0.85% of market value after the post-sale reassessment, about $157 monthly on the median house. Insurance runs near $170 a month, higher than the state's gentlest zip codes because of desert wind and hail exposure but nothing like mountain wildfire loads. No rental licensing exists locally, and New Mexico preempts rent control statewide. All-in fixed carry near $330 a month against $1,550 rents is why a market this small still clears the ratio with modest structuring."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Alamogordo typical home value and -3.5% YoY, July 2026",
+        "Zillow Rental Market Trends, Alamogordo median asking rent by bedroom, August 2026",
+        "NM DFA Certificate of Property Tax Rates TY2025, Otero County, City of Alamogordo residential 25.519 mills",
+        "Holloman AFB / VeteranPCS, 49th Wing F-16 and MQ-9 training mission and June 2026 ACC transition, 2026",
+        "US Census Bureau, New Mexico statewide rental vacancy, 2025 (state-level, est.)",
+        "Neighborhood price and rent figures estimated from Zillow city data and listing spot checks, August 2026 (est.)"
+      ]
+    }
+  ]
+}

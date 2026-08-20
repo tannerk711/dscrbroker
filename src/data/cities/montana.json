@@ -1,0 +1,1246 @@
+{
+  "state": "Montana",
+  "abbreviation": "MT",
+  "stateSlug": "montana",
+  "dataUpdated": "2026-08",
+  "cities": [
+    {
+      "city": "Billings",
+      "slug": "billings",
+      "county": "Yellowstone County",
+      "metro": "Billings",
+      "hook": "Billings is Montana's largest city and its most boring market in the useful sense: homes average $406K, up 2.4% in a year, 3-bed houses rent near $1,750, and vacancy holds near 5%. The 2026 tax reform decides whether your file pencils.",
+      "metaDescription": "Billings homes average $406K with 3-bed rents near $1,750. See how Montana's 2026 long-term rental tax class moves DSCR math. Get matched today.",
+      "market": {
+        "medianPrice": 406266,
+        "medianRent": 1750,
+        "priceToRent": 19.3,
+        "vacancyRate": 5,
+        "yoyPrice": 2.4,
+        "yoyRent": 3.2,
+        "estDSCR": 0.64,
+        "propertyTaxRate": 0.55,
+        "insuranceMonthly": 260
+      },
+      "overview": "Billings is the steady one. The typical home value sits at $406,266 as of July 2026, up 2.4% over the year while Bozeman and Belgrade went negative, and homes go pending in about 19 days. Three-bedroom houses rent near $1,750 and single-family rents rose about 3.2% over the year. Vacancy holds near 5%, balanced rather than oversupplied, because Billings never got the apartment construction wave that is currently drowning Bozeman in concessions.\n\nThe employment base is the widest in Montana: the state's medical hub with two major hospital systems, the Phillips 66 refinery inside the city, the CHS refinery ten miles west in Laurel, rail, logistics, and ag services. That mix is why Billings rents grew through 2026 while resort-market rents wobbled.\n\nNow the honest part. At the citywide median with 20% down, the ratio lands near 0.64, because even Montana's most affordable major metro saw prices run far ahead of rents. Billings files clear in three ways: duplexes on the South Side where two units rent a combined $2,600 to $2,800 against a $400,000 price, entry stock in 59101 at $336,360, and the 2026 tax reform. A certified long-term rental in Billings carries roughly 0.55% effective tax; the same house left in the default class carries about 1.37%. That single application is worth roughly $275 a month on the median house, and most out-of-state buyers have never heard of it.",
+      "regulationBadge": "friendly",
+      "regulationNote": "Montana bars local rent control statewide (Senate Bill 105, 2023 session), Billings has no rental licensing overlay, and evictions run through the state's landlord-friendly Title 70 process, so the practical work here is tax-class paperwork, not regulation.",
+      "neighborhoods": [
+        {
+          "name": "Heights (59105)",
+          "medianPrice": 425267,
+          "medianRent": 1850,
+          "note": "North-of-the-rims family neighborhood with 1970s to 2000s ranches, up 3.4% over the year, the strongest zip in the city. Long family tenancies and school-driven demand make it the stability pick rather than the yield pick."
+        },
+        {
+          "name": "West-Central (59102)",
+          "medianPrice": 388202,
+          "medianRent": 1750,
+          "note": "The hospital corridor. Tenants are healthcare workers on predictable incomes, values up 1.9% over the year, and the rent-to-price balance sits close to the citywide average."
+        },
+        {
+          "name": "South Side (59101)",
+          "medianPrice": 336360,
+          "medianRent": 1550,
+          "note": "Cheapest entry in the city at $336,360, up 2.7%, with most of Billings' duplex and small multifamily stock. Refinery, rail, and trade workforce tenants. This is where Billings files actually clear 1.0."
+        },
+        {
+          "name": "West End (59106)",
+          "medianPrice": 495000,
+          "medianRent": 2000,
+          "note": "Newer executive subdivisions past Shiloh. Strong tenant quality, weakest ratio in the city, so these are appreciation holds that need large down payments or interest-only structures."
+        }
+      ],
+      "localAngle": {
+        "tag": "Tax Reform",
+        "title": "Montana rewrote its property tax in 2025. The application is worth more than your rate negotiation.",
+        "body": "The 2025 Legislature passed Senate Bill 542 with House Bill 231, and starting with tax year 2026 every residential property in Montana lands in one of two worlds. Certified principal residences and long-term rentals get graduated homestead tiers: 0.76% on value up to the statewide median of about $395,400, 0.90% on the slice above that, stepping up on high-value property. Everything else, second homes and short-term rentals included, sits in a flat 1.9% default class. In Billings, at observed mill levels, that is the difference between roughly 0.55% effective and roughly 1.37% effective on the same house, about $3,300 a year on the median value. Here is the part built for investors: the Department of Revenue confirmed that a property meeting the long-term rental test, leases of 28 days or longer for at least 7 months of the year, qualifies for the reduced class regardless of ownership structure. An out-of-state LLC qualifies. But it is not automatic. Owners had to apply through the state portal, the 2026 window ran December 1, 2025 through the extended March 20, 2026 deadline, and landlords must periodically recertify. Miss the window and you carry the 1.9% class until the next one. Your matched specialist will underwrite the tax line to the class your property will actually sit in, not the seller's old bill."
+      },
+      "programFit": [
+        "standard-dscr",
+        "portfolio-dscr",
+        "bridge-to-dscr",
+        "interest-only-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "Duplex (2-unit)",
+        "neighborhood": "South Side (59101)",
+        "purchasePrice": 400000,
+        "downPaymentPct": 25,
+        "downPayment": 100000,
+        "loanAmount": 300000,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 2097,
+        "monthlyTax": 183,
+        "monthlyInsurance": 280,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 2560,
+        "monthlyRent": 2700,
+        "dscr": 1.05,
+        "monthlyCashFlow": 140,
+        "specialistFocus": [
+          "Steered the file to a duplex because a single 3-bed at the citywide median lands near 0.64 at 20% down, while two South Side units renting $1,350 each clear 1.0 at 25% down",
+          "Underwrote the tax line at the certified long-term rental class near 0.55% effective and flagged the state application deadline, since the default class would have added roughly $270 a month",
+          "Priced a hail-rated landlord policy instead of a national average, because Yellowstone County hail claims are what drive Montana premiums"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Is Billings a good market for a DSCR rental purchase?",
+          "answer": "It is Montana's most underwritable market, which is not the same as easy. Prices average $406,266 against 3-bed rents near $1,750, so a median single-family at 20% down lands near 0.64 and does not qualify on a standard program. What works: South Side duplexes around $400,000 with combined rents near $2,700, entry houses in 59101 at $336,360, and 25% to 30% down. What Billings gives you in exchange is a 5% vacancy market with the widest employment base in the state and rents that rose 3.2% while the resort markets stalled. Your matched specialist can show which of the 70+ lenders price small multifamily here."
+        },
+        {
+          "question": "How does Montana's 2026 property tax change hit Billings rentals?",
+          "answer": "It splits every rental into one of two classes. A certified long-term rental, leased in stretches of 28 days or more for at least 7 months a year, gets the graduated homestead tiers and lands near 0.55% effective in Billings. A property that never applied, or a short-term rental or second home, sits in the 1.9% default class, roughly 1.37% effective here. On the median $406,000 house that is about $3,300 a year of spread. The application ran through the state's homestead portal with a March 20, 2026 extended deadline for the 2026 tax year, LLC-owned rentals qualify, and landlords recertify periodically."
+        },
+        {
+          "question": "Why do Billings insurance quotes come back so high?",
+          "answer": "Hail. Insurify measured Montana home premiums up 18% in 2025, among the fastest-rising in the country, and Yellowstone County's hail corridor is a big reason, alongside wildfire exposure further west. Montana also has no state FAIR plan, so there is no insurer of last resort backstopping the market. Budget roughly $260 a month at the median value for a landlord policy, more for larger roofs, and get an actual roof age reading before you write the offer, because carriers here surcharge or decline older impact-prone roofs. A quote-killed deal after appraisal is an avoidable Billings mistake."
+        },
+        {
+          "question": "Should I buy in Billings or in Laurel?",
+          "answer": "Same county, different math. Laurel's typical value is $385,699, about 5% below Billings, with the CHS refinery anchoring local employment, and its observed effective tax runs slightly below the Billings city stack. Billings gives you deeper tenant demand, the medical employment base, and most of the region's duplex stock, which is what actually clears DSCR ratios here. Laurel gives you a small-town entry price with Billings commuter demand fifteen minutes away. If the deal is a single-family under $350,000, both pencil similarly; if it is small multifamily, Billings has the inventory."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Billings typical home value, YoY, days to pending, and rent trend, July 2026",
+        "Zumper Rent Research, Billings 3-bedroom median rent, August 2026",
+        "CRE Finder and Rental Beast market reports, Billings rental vacancy near 5 percent, late 2025",
+        "Montana SB 542 and HB 231 tax year 2026 residential classes, Montana Legislative Services summary, May 2025",
+        "Effective investor tax rates computed: SB 542 classes times Billings mill levels implied by Ownwell median-bill data, April 2026 (computed, est.)",
+        "Insurify Montana premium data and 2026 projection, scaled to Billings hail exposure for a landlord policy (est.)"
+      ]
+    },
+    {
+      "city": "Missoula",
+      "slug": "missoula",
+      "county": "Missoula County",
+      "metro": "Missoula",
+      "hook": "Missoula homes average $574K with 3-bed rents near $2,295, and the county carries some of the heaviest mill levies in Montana. The carrying cost, not the demand, is what your file has to beat.",
+      "metaDescription": "Missoula homes average $574K, 3-bed rents near $2,295, and mills run the heaviest in Montana. See what a DSCR file needs here. Get matched today.",
+      "market": {
+        "medianPrice": 574064,
+        "medianRent": 2295,
+        "priceToRent": 20.8,
+        "vacancyRate": 6.8,
+        "yoyPrice": 1,
+        "yoyRent": 3.4,
+        "estDSCR": 0.6,
+        "propertyTaxRate": 0.73,
+        "insuranceMonthly": 290
+      },
+      "overview": "Missoula is a demand story with a carrying-cost problem. The typical home value is $574,064 as of July 2026, up 1% over the year, and 3-bed rents run near $2,295, up 3.41%. The University of Montana plus the healthcare and regional-hub economy keeps rental demand deep: 41% of Missoula renters hold a bachelor's degree or higher, an unusually credentialed tenant pool.\n\nTwo things push back. First, vacancy loosened to 6.8% in early 2025 as new apartment projects delivered, including 438 dedicated affordable units that pulled tenants out of market-rate stock, with several hundred more units in the pipeline. Rent growth held positive but the days of naming your price ended. Second, and bigger: Missoula County carries the heaviest property tax load of Montana's urban counties. The observed median effective rate in the city ran about 1.22% under the old system, implying mill levels near 900 when the statewide average is around 500. Even after the 2025 reform, the Department of Revenue's own data showed the median Missoula County residence still paying $3,457, the highest bill of any Montana county at its value point.\n\nSo the Missoula file is math-first: a certified long-term rental lands near 0.73% effective, still the highest investor tax among Montana's major metros, and at the median with 20% down the ratio sits near 0.60. Files clear with 30% down, interest-only structures, or Franklin-to-the-Fort entry stock, not with optimism.",
+      "regulationBadge": "friendly",
+      "regulationNote": "Missoula's politics lean tenant but state law preempts the tools: Senate Bill 105 (2023) bars local rent control and the Montana Residential Landlord and Tenant Act controls process, so the binding constraint here is the county's tax load, not local ordinances.",
+      "neighborhoods": [
+        {
+          "name": "Central Missoula (59801)",
+          "medianPrice": 510279,
+          "medianRent": 2100,
+          "note": "University-side and mid-city stock at $510,279, flat over the year. Student and young-professional demand keeps units full, but older houses carry real capital expense and the per-bedroom student model prices differently than a family lease."
+        },
+        {
+          "name": "Mullan Road corridor (59808)",
+          "medianPrice": 576354,
+          "medianRent": 2400,
+          "note": "The northwest growth corridor at $576,354 with newer subdivisions and the strongest single-family rents in the city. Better tenant quality and lower maintenance drag, at a price that needs a large down payment to pencil."
+        },
+        {
+          "name": "Franklin to the Fort",
+          "medianPrice": 455000,
+          "medianRent": 2300,
+          "note": "The workhorse mid-city neighborhood, mostly postwar ranches below the citywide median. The best realistic entry for an investor file, and close enough to campus and downtown to pull from both tenant pools."
+        }
+      ],
+      "localAngle": {
+        "tag": "Carrying Cost",
+        "title": "Missoula's mills are the heaviest in urban Montana. Underwrite the county, not the state average.",
+        "body": "Montana taxes property as market value times a class rate times local mills, and mills are where Missoula separates itself. The observed median effective rate in the city ran about 1.22% under the pre-reform system against roughly 0.97% in Billings and 0.67% in Bozeman, which implies mill levels near 900 when the Department of Revenue puts the state average near 500. The 2025 reform, Senate Bill 542 with House Bill 231, cut the median Missoula County residential bill by an estimated $1,012, a 23% savings, and the county median still paid $3,457, more than pricier Gallatin County. For an investor the reform is still the best lever available: certify the property as a long-term rental, leases of 28 days or more covering at least 7 months a year, application through the state portal, and the house sits in the graduated homestead tiers at roughly 0.73% effective here. Skip the certification and the 1.9% default class puts the same house near 1.72% effective, about $475 a month of difference on the median value. That swing is bigger than most rent negotiations. Your matched specialist will structure the file on the certified class and the post-sale assessment, because a Missoula ratio underwritten on the seller's old bill does not survive underwriting."
+      },
+      "programFit": [
+        "standard-dscr",
+        "interest-only-dscr",
+        "no-ratio-dscr",
+        "portfolio-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 2-bath SFR",
+        "neighborhood": "Franklin to the Fort",
+        "purchasePrice": 455000,
+        "downPaymentPct": 30,
+        "downPayment": 136500,
+        "loanAmount": 318500,
+        "loanType": "30-Year Fixed, Interest-Only Period",
+        "interestOnly": true,
+        "monthlyPI": 1991,
+        "monthlyTax": 277,
+        "monthlyInsurance": 250,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 2518,
+        "monthlyRent": 2350,
+        "dscr": 0.93,
+        "monthlyCashFlow": -168,
+        "specialistFocus": [
+          "Structured an interest-only period with 30% down because a fully amortizing payment put the ratio near 0.83, and this buyer is underwriting Missoula's rent growth, not day-one cash flow",
+          "Underwrote the tax line at the certified long-term rental class and confirmed the application, since Missoula's mill levels make the 1.9% default class a $475-a-month mistake here",
+          "Qualified on the appraiser's market rent for a renovated 3-bed rather than the in-place lease, which was $200 under the Franklin corridor's going figure"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Why is my Missoula tax bill so much higher than a comparable house in Bozeman?",
+          "answer": "Mills. Montana's formula is market value times a class rate times local mills, and Missoula's combined city, county, and school levies imply mill levels near 900 against roughly 500 statewide and under 500 in Bozeman, where an enormous taxable base spreads the load. The 2025 reform helped, cutting the median county bill by about $1,012, but the county median still paid $3,457, the heaviest of Montana's urban counties relative to value. As an investor, certifying the property as a long-term rental is the one big lever: roughly 0.73% effective certified versus about 1.72% in the default class."
+        },
+        {
+          "question": "Did Missoula's student rental demand survive the new apartment supply?",
+          "answer": "Demand held; pricing power softened. Vacancy rose to about 6.8% in early 2025 as projects delivered, including 438 affordable units that pulled tenants out of older market-rate stock, and several hundred more units were under construction. But rents still rose 3.41% over the year to about $1,716 blended, with 3-beds near $2,295, because the university, the hospital system, and the regional-hub economy keep replacing tenants. The practical read: underwrite realistic rent and normal lease-up time, not the zero-vacancy market of 2021. Houses near campus still rent fast; they just no longer rent at any price."
+        },
+        {
+          "question": "Does anything in Missoula actually cash flow on a DSCR loan?",
+          "answer": "At the median, no, and it is better to know that going in. The citywide ratio at 20% down sits near 0.60 with certified-class taxes. Files that clear do three things: buy below the median in Franklin to the Fort or similar mid-city pockets around $455,000, put 30% down, and use interest-only or no-ratio structures where the plan is rent growth and equity rather than day-one cash flow. Duplexes near the university also pencil better than single-family at the same price. Your matched specialist can tell you which of the 70+ lenders price each of those structures."
+        },
+        {
+          "question": "Is Missoula landlord-friendly despite its politics?",
+          "answer": "Functionally yes. Whatever the city council's preferences, Montana preempts the tools that matter: Senate Bill 105 from the 2023 session prohibits local rent control on private property, and the Montana Residential Landlord and Tenant Act of 1977 sets a uniform, landlord-workable process for deposits, notice, and eviction statewide. Missoula has no rental licensing regime and no just-cause eviction rule. The real Missoula-specific risks are financial rather than regulatory: the heaviest urban mill levels in the state, wildfire-smoke-era insurance pricing, and a tenant pool that is credentialed but rate-sensitive after years of rent growth."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Missoula typical home value and YoY, July 2026",
+        "RentCafe, Missoula average and 3-bedroom rent with YoY, August 2026",
+        "Missoula Organization of Realtors data via Missoula Current, vacancy at 6.8 percent Q1 2025 and affordable-unit deliveries, 2025",
+        "Montana Free Press and Department of Revenue, 2025 median county tax bills including Missoula County at $3,457, November 2025",
+        "Effective investor tax rates computed: SB 542 classes times Missoula mill levels implied by Ownwell median-bill data, April 2026 (computed, est.)",
+        "Insurify Montana premium data scaled to Missoula value and wildfire exposure, landlord policy (est.)"
+      ]
+    },
+    {
+      "city": "Bozeman",
+      "slug": "bozeman",
+      "county": "Gallatin County",
+      "metro": "Bozeman",
+      "hook": "Bozeman's typical home is $727K against 3-bed rents near $2,500, apartment concessions hit 86.6% of listings in early 2026, and new investor Airbnb permits ended in 2023. This market is an equity thesis, not a cash-flow one.",
+      "metaDescription": "Bozeman homes average $727K against $2,500 rents, and investor STR permits closed in 2023. See the honest DSCR math and what still works. Get matched today.",
+      "market": {
+        "medianPrice": 727000,
+        "medianRent": 2500,
+        "priceToRent": 24.2,
+        "vacancyRate": 9.2,
+        "yoyPrice": -0.3,
+        "yoyRent": 2.3,
+        "estDSCR": 0.54,
+        "propertyTaxRate": 0.41,
+        "insuranceMonthly": 330
+      },
+      "overview": "Bozeman is where Montana's growth story and its rental math diverge hardest. The typical home value is $727,000 as of July 2026, essentially flat at down 0.3% over the year, with 3-bed rents near $2,500. Run the ratio at the median with 20% down and it lands near 0.54, the kind of number that ends a standard-program conversation before it starts.\n\nThe rental market is digesting a supply wave. Buildings delivered in 2024 and 2025 were running 44.2% vacant against 9.2% in older stock, close to 1,200 more market-rate units were under construction, and by early 2026 an estimated 86.6% of listings carried concessions, the highest share in the nation. Rents still inched up 2.3% on houses because single-family never competes head-on with lease-up towers, but the apartment side is a renter's market for the first time in a decade.\n\nWhat keeps capital here anyway: Gallatin County's tax base is so large that mills run among the lowest of Montana's urban counties. The 2025 reform cut the median county residence's bill by $1,020 to $2,710, and a certified long-term rental in Bozeman lands near 0.41% effective, roughly half of what Missoula charges. Files here are no-ratio or interest-only structures underwritten on equity, the airport corridor's growth, and the cheapest carrying cost in urban Montana, with the short-term rental door closed to investors since December 2023.",
+      "regulationBadge": "moderate",
+      "regulationNote": "Montana preempts rent control statewide, but Bozeman's Ordinance 2149 ended new non-owner-occupied short-term rental permits in December 2023 and blocks existing permits transferring on sale, so an investor buying here is buying a long-term or mid-term rental.",
+      "neighborhoods": [
+        {
+          "name": "West Bozeman (59718)",
+          "medianPrice": 647669,
+          "medianRent": 2800,
+          "note": "The newer half of the city at $647,669, down 1.0% over the year as new supply competes. Best single-family rent-to-price in the city, family and professional tenants, and the realistic venue for an investor file."
+        },
+        {
+          "name": "East Bozeman / historic core (59715)",
+          "medianPrice": 877501,
+          "medianRent": 3000,
+          "note": "The historic side at $877,501, up 0.6%. Walkable, supply-constrained, the strongest appreciation profile in the city, and a ratio that requires either a very large down payment or a different thesis entirely."
+        },
+        {
+          "name": "Midtown",
+          "medianPrice": 615000,
+          "medianRent": 2500,
+          "note": "Townhome and condo stock along the 7th Avenue corridor. Lower entry than detached, but HOA dues eat the spread, so underwrite the association budget as carefully as the lease."
+        }
+      ],
+      "localAngle": {
+        "tag": "STR Rules",
+        "title": "Bozeman closed the investor Airbnb door in 2023, and the permit does not survive a sale.",
+        "body": "Bozeman's Ordinance 2149, adopted October 17, 2023 and effective December 14, 2023, prohibited new Type 3 short-term rentals, the category for homes that are not the owner's primary residence. Just over 100 already-permitted Type 3 units were grandfathered as Legacy permits, and here is the clause that matters for buyers: those permits renew annually but cannot be transferred between owners or properties. Buying a house with a thriving Airbnb history in Bozeman buys you the house, not the business. The ordinance also raised the owner-occupancy bar for the remaining permit types, requiring the home to be a primary residence for most of the year, which an investor entity cannot satisfy. Listings still get marketed on gross STR revenue as if none of this happened; treat that as a screening tool for agents who have not read the code. What legally remains for investors: furnished mid-term rentals of 28 days or longer, which sit outside the permit regime entirely and pair well with the hospital, university, and construction-management tenant base, and conventional long-term leases, which also qualify the property for Montana's reduced long-term rental tax class. Your matched specialist will structure the file on the lease the property can legally sign, qualified on the appraiser's market rent rather than a dead Airbnb pro forma."
+      },
+      "programFit": [
+        "no-ratio-dscr",
+        "interest-only-dscr",
+        "standard-dscr",
+        "bridge-to-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 2-bath SFR",
+        "neighborhood": "West Bozeman (59718)",
+        "purchasePrice": 650000,
+        "downPaymentPct": 30,
+        "downPayment": 195000,
+        "loanAmount": 455000,
+        "loanType": "30-Year Fixed (No-Ratio)",
+        "interestOnly": false,
+        "monthlyPI": 3180,
+        "monthlyTax": 222,
+        "monthlyInsurance": 310,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 3712,
+        "monthlyRent": 2800,
+        "dscr": 0.75,
+        "monthlyCashFlow": -912,
+        "specialistFocus": [
+          "Matched the file to a no-ratio program at 30% down because a 0.75 ratio is what the honest Bozeman median produces, and pretending otherwise just moves the surprise to underwriting",
+          "Documented the buyer's reserves to carry the roughly $900 monthly negative while the thesis plays out, since this file is priced on Gallatin County equity growth, not day-one income",
+          "Underwrote the certified long-term rental tax class near 0.41% effective, the cheapest carrying cost of any urban Montana county and the one line where Bozeman actually helps the ratio"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Can I buy a house in Bozeman and run it as an Airbnb?",
+          "answer": "Not as an investor. Ordinance 2149, effective December 14, 2023, ended new Type 3 permits, the non-owner-occupied category, and the roughly 100 grandfathered Legacy permits cannot transfer to a new owner or address, so buying a permitted property does not buy the permit. Owner-occupied permit types require the home to be your primary residence most of the year, which an LLC cannot satisfy. The legal investor paths are furnished mid-term rentals of 28 days or longer, which sit outside the permit regime, and standard long-term leases. Note that 28-day-plus tenancies also qualify the property for Montana's reduced long-term rental tax class."
+        },
+        {
+          "question": "How bad is the Bozeman apartment oversupply for a single-family investor?",
+          "answer": "Bad for towers, survivable for houses. Buildings delivered in 2024 and 2025 ran 44.2% vacant while older stock sat near 9.2%, and by the first quarter of 2026 an estimated 86.6% of listings offered concessions, the highest share in the country. That is a lease-up war among amenity buildings. A 3-bed house in West Bozeman competes on yard, garage, and school district, which towers cannot offer, and house rents still rose about 2.3% through the glut. Underwrite longer lease-up and zero rent growth for a year or two, and do not buy a condo that competes directly with two months free downtown."
+        },
+        {
+          "question": "Why are Bozeman property taxes lower than everywhere else in Montana?",
+          "answer": "The base is enormous. Gallatin County's taxable value grew so much that the same school and county budgets spread across far more property, so mills run among the lowest of Montana's urban counties. The observed median effective rate in Bozeman was about 0.67% before the 2025 reform, and the Department of Revenue's data shows the reform cut the median county residence's bill by $1,020, or 27%, to $2,710. A certified long-term rental now lands near 0.41% effective. The catch is the default class: skip the long-term rental certification and the same house runs near 0.94% effective. In Bozeman the paperwork is literally worth more than a full point of ratio."
+        },
+        {
+          "question": "Does anything in the Bozeman area cash flow?",
+          "answer": "Inside city limits at today's prices, essentially nothing at conventional loan-to-value; the citywide ratio at 20% down is about 0.54. Files that get closest: West Bozeman detached stock around $650,000 renting near $2,800, mid-term furnished rentals to traveling medical and construction-management tenants, which legally sidestep the STR ban and rent at a premium to bare leases, and Belgrade, one exit west, where entry prices run about $175,000 lower. Most Bozeman buyers use no-ratio or interest-only structures and underwrite the equity trend line. That is a legitimate strategy as long as the reserves are real and nobody pretends the ratio is something it is not."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Bozeman city and zip-level home values with YoY, July 2026",
+        "Zumper Rent Research, Bozeman 3-bedroom median rent, August 2026",
+        "SterlingCRE Advisors and Bozeman Daily Chronicle, 2024-25 delivery vacancy at 44.2 percent and stabilized 9.2 percent, 2025",
+        "Rental Beast Q1 2026 report, 86.6 percent concession share highest in nation, 2026",
+        "City of Bozeman Ordinance 2149, Type 3 short-term rental prohibition and Legacy permit non-transfer rules, effective December 2023",
+        "Montana Free Press and Department of Revenue, Gallatin County median 2025 bill cut of $1,020 to $2,710; investor rates computed with SB 542 classes (computed, est.)"
+      ]
+    },
+    {
+      "city": "Great Falls",
+      "slug": "great-falls",
+      "county": "Cascade County",
+      "metro": "Great Falls",
+      "hook": "Great Falls averages $342K, up 3.3% in a year, with rents up 5% and vacancy near 4.5%, and the Sentinel missile program is about to put an estimated $1.5 to $2 billion of spending next door. The slowest-growing Montana metro is the one with the catalyst.",
+      "metaDescription": "Great Falls homes average $342K with rents up 5% and 4.5% vacancy, ahead of the Sentinel program's estimated $1.5B+ buildout. See the DSCR math. Get matched today.",
+      "market": {
+        "medianPrice": 341793,
+        "medianRent": 1850,
+        "priceToRent": 15.4,
+        "vacancyRate": 4.5,
+        "yoyPrice": 3.3,
+        "yoyRent": 5,
+        "estDSCR": 0.81,
+        "propertyTaxRate": 0.58,
+        "insuranceMonthly": 220
+      },
+      "overview": "Great Falls spent two decades as the Montana metro nobody moved to, and that is exactly why the numbers work now. The typical home value is $341,793 as of July 2026, up 3.3% over the year, the strongest appreciation of Montana's large cities, while blended rents rose about 5% and vacancy sits near 4.5%, one of the lowest figures in the city's history. Three-bedroom listings run near $1,850. The price-to-rent ratio of 15.4 is the best of any major Montana market.\n\nThen there is the catalyst. The Sentinel intercontinental ballistic missile modernization at Malmstrom Air Force Base is projected to bring an estimated $1.5 to $2 billion in direct Montana spending, more than 3,000 construction jobs, and over 500 long-term positions, with silo and cabling work spread across the missile fields around the city. Janicki Industries separately committed an $800 million aerospace manufacturing investment expected to employ more than 1,000 over time, and the Air National Guard has roughly $300 million of airport-side upgrades planned. For a city of about 60,000 with an aging housing stock, mostly built before 1980, that is a demand shock arriving into a market that has built almost nothing.\n\nThe honest caveats: this is still a slow-growth city until the projects actually staff up, the housing stock's age means real capital expenditure budgets, and at the median with 20% down the ratio lands near 0.81, so files still clear on duplexes, entry stock, and larger down payments rather than at the median.",
+      "regulationBadge": "friendly",
+      "regulationNote": "Cascade County operates under Montana's statewide landlord-tenant framework with no rent control, no rental licensing, and no short-term rental restrictions of note, so the operating risks here are stock age and tenant screening, not regulation.",
+      "neighborhoods": [
+        {
+          "name": "Riverview / Northside (59401)",
+          "medianPrice": 290629,
+          "medianRent": 1600,
+          "note": "The entry tier at about $290,629, up 3.2% over the year, with much of the city's duplex and fourplex stock. Base-adjacent tenant demand from Malmstrom personnel is steady and paperwork-reliable."
+        },
+        {
+          "name": "South Great Falls (59405)",
+          "medianPrice": 330449,
+          "medianRent": 1750,
+          "note": "Mid-century family neighborhoods at $330,449, up 3.4%. The steadiest school-driven rental demand in the city and the natural venue for a buy-and-hold single-family file."
+        },
+        {
+          "name": "West Great Falls / Sun River corridor (59404)",
+          "medianPrice": 355000,
+          "medianRent": 1850,
+          "note": "Newer stock toward the airport and the Sun River, closest to the Air National Guard buildout. Slightly richer entry, best positioned for the construction-era tenant wave if the Sentinel timeline holds."
+        }
+      ],
+      "localAngle": {
+        "tag": "Growth Catalyst",
+        "title": "The Sentinel program is a housing demand shock aimed at a city that stopped building in 1980.",
+        "body": "The Air Force's Sentinel program, the replacement of the Minuteman III missile system based at Malmstrom Air Force Base, is projected to bring an estimated $1.5 to $2 billion in direct Montana spending, more than 3,000 construction workers at peak, and over 500 permanent support positions, with hundreds of silos and thousands of miles of cabling to rework across the missile fields surrounding Great Falls. Stack Janicki Industries' $800 million aerospace plant commitment, expected to exceed 1,000 jobs over time, and roughly $300 million of Air National Guard facility upgrades, and you get the largest capital influx in the city's modern history. The two-layer truth: none of it is fully staffed yet, defense timelines slip, and Sentinel specifically has had cost and schedule turbulence at the national level, so a file underwritten on boom rents arriving next quarter is speculation. But the housing side of the equation is already tight, 4.5% vacancy against a stock mostly built before 1980, and the city's own 2024 housing assessment projects an undersupplied market for both rentals and for-sale product over the next decade. The play is buying the duplexes and workforce single-family that pencil at today's rents, near 0.81 at the median and above 1.0 on Riverview two-units, and treating Sentinel demand as upside. Your matched specialist will structure the file so it works if the boom is late."
+      },
+      "programFit": [
+        "standard-dscr",
+        "portfolio-dscr",
+        "bridge-to-dscr"
+      ],
+      "dealExample": {
+        "label": "Cash-Out Refinance",
+        "propertyType": "Duplex (2-unit)",
+        "neighborhood": "Riverview / Northside (59401)",
+        "purchasePrice": 350000,
+        "downPaymentPct": 30,
+        "downPayment": 105000,
+        "loanAmount": 245000,
+        "loanType": "30-Year Fixed Cash-Out",
+        "interestOnly": false,
+        "monthlyPI": 1713,
+        "monthlyTax": 169,
+        "monthlyInsurance": 225,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 2107,
+        "monthlyRent": 2300,
+        "dscr": 1.09,
+        "monthlyCashFlow": 193,
+        "specialistFocus": [
+          "Structured the cash-out at 70% of appraised value so the owner pulled roughly $95,000 of trapped equity for the next purchase while the duplex still covers at 1.09",
+          "Qualified on both units' leases at $1,150 each, in line with the Riverview two-unit market rather than the blended citywide apartment figure",
+          "Underwrote the certified long-term rental tax class and recertification calendar, keeping the tax line near 0.58% effective instead of the 1.9% default class"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Is Great Falls actually a good rental market or just a cheap one?",
+          "answer": "Both, which is the point. The price-to-rent ratio of 15.4 is the best of Montana's large markets, vacancy near 4.5% is among the lowest in the city's recorded history, rents rose about 5% over the year, and values rose 3.3% while Bozeman and Belgrade went flat or negative. The trade-off is stock age: most Great Falls housing predates 1980, so a real capital budget for roofs, sewer lines, and electrical belongs in every pro forma. Buy the mechanically updated duplex over the cosmetically flipped one and this is the most forgiving underwriting in the state."
+        },
+        {
+          "question": "Should I underwrite the Sentinel boom into my Great Falls purchase?",
+          "answer": "Treat it as upside, not as the base case. The program is real, an estimated $1.5 to $2 billion of direct Montana spending, 3,000-plus construction jobs, and 500-plus permanent positions around Malmstrom, plus Janicki's $800 million plant commitment. But defense schedules slip, and Sentinel has had publicized cost and timeline turbulence nationally. The disciplined move is buying property that pencils at today's $1,850 three-bed rents and 4.5% vacancy, which Great Falls uniquely allows, and letting any construction-era housing squeeze be the bonus. A file that only works if the boom lands on schedule is a speculation, not an investment."
+        },
+        {
+          "question": "What do taxes look like for a Great Falls rental after Montana's reform?",
+          "answer": "Manageable, with one required errand. Cascade County's 2025 reform savings ran about $681 on the median residence per Department of Revenue data. For tax year 2026, a certified long-term rental in Great Falls lands near 0.58% effective at observed mill levels, while an uncertified property sits in the 1.9% default class near 1.45% effective, roughly $2,500 a year of difference at the median value. Certification requires leases of 28 days or longer covering at least 7 months of the year and an application through the state portal, with periodic recertification for landlords. LLC-owned rentals qualify. Build the certified number into the file and calendar the renewal."
+        },
+        {
+          "question": "Where do military tenants fit in a Great Falls rental strategy?",
+          "answer": "They are the quiet advantage. Malmstrom's personnel draw housing allowances that reset with federal rates, arrive with orders and predictable timelines, and cluster in Riverview and the northside where the duplex stock sits. Turnover is scheduled rather than surprise, and payment reliability is high. The Sentinel construction phase adds a second tenant type: traveling skilled trades on multi-month assignments, which is where furnished 28-day-plus rentals can price at a premium while still qualifying as long-term rentals under Montana's tax rules. Screen normally, honor servicemember protections on early termination, and the base-adjacent tenant base is as steady as this market gets."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Great Falls city and zip-level values with YoY and rent trend, July 2026",
+        "Zumper Rent Research, Great Falls 3-bedroom median rent, August 2026",
+        "KRTV and Great Falls housing summit reporting, vacancy near 4.5 percent, 2025",
+        "Montana Free Press, Sentinel spending estimates, Janicki investment, and Great Falls development pipeline, July 2026",
+        "Great Falls Development Authority 2024 Housing Market Demand Assessment, undersupply projection, 2024",
+        "Effective investor tax rates computed: SB 542 classes times Great Falls mill levels implied by Ownwell median-bill data, April 2026 (computed, est.)"
+      ]
+    },
+    {
+      "city": "Butte",
+      "slug": "butte",
+      "county": "Butte-Silver Bow (consolidated)",
+      "metro": "Butte-Silver Bow",
+      "hook": "Butte's typical home is $288,740, up 4.8% in a year, the fastest of any Montana market on this site, off the cheapest base. The Superfund history everyone jokes about is disclosed, mapped, and priced in, which is more than most markets can say.",
+      "metaDescription": "Butte homes average $289K, up 4.8%, Montana's cheapest metro entry. See the honest BRRRR math and the Superfund fine print. Get matched today.",
+      "market": {
+        "medianPrice": 288740,
+        "medianRent": 1410,
+        "priceToRent": 17.1,
+        "vacancyRate": 5.9,
+        "yoyPrice": 4.8,
+        "yoyRent": 0.1,
+        "estDSCR": 0.72,
+        "propertyTaxRate": 0.61,
+        "insuranceMonthly": 185
+      },
+      "overview": "Butte is Montana's deep-value trade. The typical home value is $288,740 as of July 2026, up 4.8% over the year, the fastest growth of any market in this file, precisely because it starts from the lowest base. Homes go pending in about 17 days, listings are up sharply, and blended rents hold near $1,410, essentially flat over the year. The tenant base is anchored by Montana Technological University, about 2,500 students with a $40 million campus buildout starting construction in 2026, the hospital system, and Montana Resources' still-operating Continental Pit.\n\nThe elephant: Butte is one of America's most famous Superfund sites. The honest version is more specific than the joke. Remediation has run for decades, the EPA approved a repository plan for contaminated soils near the Berkeley Pit in recent years, and the consent-decree cleanup of Uptown and residential attics and yards is far along. Lenders finance Butte houses routinely. What it means practically: check whether a specific parcel sits in a remediated or pending area, use the county's records, and price older-stock environmental work like lead paint the way you would in any pre-1940 city.\n\nAt the median with 20% down the ratio lands near 0.72, but Butte's real play is the BRRRR: Uptown brick houses bought in the low $100s, renovated, appraising near $260,000, and refinanced at rents around $1,600. Mills run high, near Missoula levels, so the certified long-term rental class at roughly 0.61% effective matters here too.",
+      "regulationBadge": "friendly",
+      "regulationNote": "Butte-Silver Bow's consolidated government adds no rental licensing or rent regulation on top of Montana's landlord-friendly statewide framework, so diligence here is parcel-level environmental history rather than ordinances.",
+      "neighborhoods": [
+        {
+          "name": "Uptown historic district",
+          "medianPrice": 220000,
+          "medianRent": 1250,
+          "note": "Pre-1920 brick stock on the hill, the cheapest habitable entry in urban Montana and the BRRRR venue. Budget lead-paint-era renovation costs and verify the parcel's remediation status before writing the offer."
+        },
+        {
+          "name": "The Flats (59701 south)",
+          "medianPrice": 310000,
+          "medianRent": 1550,
+          "note": "Postwar ranches south of the hill, where the median sale actually happens, around $308,000. Flatter lots, newer systems, and the steadier family-tenant rental profile."
+        },
+        {
+          "name": "Country Club / southeast",
+          "medianPrice": 360000,
+          "medianRent": 1700,
+          "note": "The premium tier near the golf course. Best tenant quality and the weakest ratio in town, so it competes as a quality hold rather than a yield play."
+        }
+      ],
+      "localAngle": {
+        "tag": "Deep Value",
+        "title": "The Superfund label scares off exactly enough buyers to keep Butte cheap. Read the parcel, not the headline.",
+        "body": "Butte sits inside the Silver Bow Creek/Butte Area Superfund site, one of the country's largest, a legacy of a century of copper mining. That label does real work on prices: it is a big reason the typical home costs $288,740 in a state where the median is above $460,000. The specifics are less scary than the brand. Cleanup has run under EPA consent decrees for decades, residential yard and attic remediation across the hill is substantially complete, the agency approved a dedicated repository plan for remaining contaminated soils near the Berkeley Pit, and conventional lenders finance Butte houses every week. Meanwhile the economy quietly diversified: Montana Technological University enrolls about 2,500 students and starts a $40 million campus construction program in 2026, Montana Resources still operates the Continental Pit, and the hospital system anchors year-round employment. Values rose 4.8% over the past year, the fastest in this file, and listings up roughly 25% mean a buyer actually has selection. The diligence that matters: pull the parcel's remediation status from Butte-Silver Bow records, budget pre-1940 renovation realities like lead paint and galvanized plumbing, and appraise conservatively because comp scatter is wide on the hill. Your matched specialist will structure the refinance on the post-renovation appraisal and a market rent survey, which is how the Uptown BRRRR actually gets its capital back."
+      },
+      "programFit": [
+        "standard-dscr",
+        "bridge-to-dscr",
+        "portfolio-dscr"
+      ],
+      "dealExample": {
+        "label": "BRRRR Refinance",
+        "propertyType": "3-bed / 1-bath SFR (renovated)",
+        "neighborhood": "Uptown historic district",
+        "purchasePrice": 260000,
+        "downPaymentPct": 30,
+        "downPayment": 78000,
+        "loanAmount": 182000,
+        "loanType": "30-Year Fixed (BRRRR Exit)",
+        "interestOnly": false,
+        "monthlyPI": 1272,
+        "monthlyTax": 132,
+        "monthlyInsurance": 175,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 1579,
+        "monthlyRent": 1600,
+        "dscr": 1.01,
+        "monthlyCashFlow": 21,
+        "specialistFocus": [
+          "Structured the exit refinance at 70% of the $260,000 post-renovation appraisal, returning most of the investor's roughly $150,000 purchase-plus-rehab basis while the file still covers",
+          "Qualified on the appraiser's $1,600 market rent for a renovated 3-bed, supported by a rent survey, rather than the pre-renovation lease at $1,100",
+          "Underwrote Butte's heavy mill levels at the certified long-term rental class near 0.61% effective and confirmed the parcel's residential remediation status in county records before ordering the appraisal"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Will lenders even finance a house in a Superfund city?",
+          "answer": "Yes, routinely. The Superfund designation covers the mining district's soils and water legacy, not a prohibition on lending, and Butte houses close with conventional and DSCR financing every week. What underwriting actually cares about is the specific parcel: whether residential yard remediation is complete, documented in Butte-Silver Bow records, and whether the appraisal comps support value in a market with wide scatter. The label's real effect is on price, keeping the typical home at $288,740, which is the discount you are being paid to do twenty minutes of parcel-level homework. Your matched specialist can tell you which of the 70+ lenders are comfortable here."
+        },
+        {
+          "question": "Why is Butte appreciating faster than Bozeman right now?",
+          "answer": "Base effect plus real demand. Butte rose 4.8% over the year while Bozeman fell 0.3%, because Butte starts at $288,740, less than half of Bozeman, and priced-out Montana buyers rediscovered it. Montana Tech's roughly 2,500 students and its $40 million campus buildout starting in 2026, the hospital system, and Montana Resources' continuing mine operations give the demand a floor, and the I-90/I-15 junction keeps it connected. The honest caveat: rents did not follow yet, flat at 0.1% over the year, so the appreciation is a housing-affordability migration story, not a rent-growth story. Underwrite today's rents, take the appreciation as the kicker."
+        },
+        {
+          "question": "What does the BRRRR math actually look like in Uptown Butte?",
+          "answer": "It is one of the last places in Montana where the full cycle works. Entry stock on the hill trades in the low-to-mid $100s, a disciplined $50,000 to $70,000 renovation brings pre-1920 brick housing to rentable condition, post-renovation appraisals land near $260,000, and renovated 3-beds rent around $1,600. A refinance at 70% of value returns most of the basis while the property covers near 1.0. The two failure modes: over-improving for the block, since comp scatter on the hill is wide, and under-budgeting lead-paint-era surprises. Keep the rehab mechanical rather than designer and the cycle closes."
+        },
+        {
+          "question": "Are Butte's property taxes high or low for Montana?",
+          "answer": "High mills, low bills. Butte-Silver Bow's observed effective rate before the 2025 reform ran about 1.08%, implying mill levels near Missoula's, among the heaviest in the state, but applied to Montana's cheapest urban values the dollar amounts stay manageable. For tax year 2026, a certified long-term rental lands near 0.61% effective, roughly $147 a month on the median home, while an uncertified property in the 1.9% default class runs near 1.52%, about $365 a month. The certification, leases of 28 days or longer for at least 7 months a year with a state application, matters proportionally more here than almost anywhere because the mill base is so heavy."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Butte typical home value, YoY, days to pending, and rent, July 2026",
+        "Montana Technological University enrollment and $40 million campus program, university and press reports, 2025-2026",
+        "EPA and Montana media, Butte Superfund repository approval and residential remediation status, 2024-2025",
+        "Federal Reserve FRED, Montana rental vacancy at 5.9 percent applied as metro proxy, January 2025 (est.)",
+        "Effective investor tax rates computed: SB 542 classes times Butte-Silver Bow mill levels implied by Ownwell median-bill data, April 2026 (computed, est.)",
+        "Neighborhood medians derived from Zillow city and median-sale data (est.), August 2026"
+      ]
+    },
+    {
+      "city": "Helena",
+      "slug": "helena",
+      "county": "Lewis and Clark County",
+      "metro": "Helena",
+      "hook": "Helena's typical home is $484,550, up 3.0% in a year, with 3-bed rents near $2,200 and 5% vacancy, and the state government payroll never has a layoff cycle. The capital city is Montana's lowest-drama rental market.",
+      "metaDescription": "Helena homes average $485K with 3-bed rents near $2,200 and 5% vacancy on a government payroll base. See where DSCR files clear. Get matched today.",
+      "market": {
+        "medianPrice": 484550,
+        "medianRent": 2200,
+        "priceToRent": 18.4,
+        "vacancyRate": 5,
+        "yoyPrice": 3,
+        "yoyRent": 2.6,
+        "estDSCR": 0.7,
+        "propertyTaxRate": 0.48,
+        "insuranceMonthly": 260
+      },
+      "overview": "Helena is the market you buy when you want Montana exposure without Montana drama. The typical home value is $484,550 as of July 2026, up 3.0% over the year, steady growth while the resort markets went flat. Three-bedroom listings run near $2,200, blended rents eased about 1.3% as some new supply landed, and vacancy sits near 5%. Homes go pending in about a week.\n\nThe demand base is the state itself. Helena's payroll is government, and government in a state capital does not have boom-bust cycles: agencies, the university system offices, the hospital, and the federal presence produce tenants with stable incomes and long tenancies. That is why Helena's chart is a flat diagonal line while Bozeman's looks like weather.\n\nThe tax picture quietly favors investors. Lewis and Clark County's 2025 reform savings ran about $807 on the median residence per Department of Revenue data, and at observed mill levels a certified long-term rental in Helena lands near 0.48% effective for tax year 2026, cheaper than Billings, Great Falls, or Missoula. The default class for uncertified property runs near 1.17%, so the application swing is about $280 a month at the median. At the citywide median with 20% down the ratio lands near 0.70, and files clear the usual Montana way: duplexes near downtown, the Helena Valley's unincorporated parcels where county-only mills run lighter, and East Helena's sub-$425,000 entry stock.",
+      "regulationBadge": "friendly",
+      "regulationNote": "Helena adds no rental licensing or rent regulation to Montana's statewide framework, rent control is preempted by Senate Bill 105 (2023), and the tenant base skews toward stable government payrolls, making this the state's most predictable operating environment.",
+      "neighborhoods": [
+        {
+          "name": "Downtown / Last Chance Gulch",
+          "medianPrice": 430000,
+          "medianRent": 1800,
+          "note": "Historic core stock with walkable-district demand and most of Helena's duplex and small multifamily inventory. Older systems need real capital budgets, but two-unit files here are what clears 1.0 in this market."
+        },
+        {
+          "name": "Helena Valley (unincorporated)",
+          "medianPrice": 494049,
+          "medianRent": 2200,
+          "note": "The unincorporated valley north of town at $494,049, up 2.8%. County-only mills mean a lighter tax line than city parcels, and newer houses on larger lots rent to families who stay for years."
+        },
+        {
+          "name": "East Helena",
+          "medianPrice": 423188,
+          "medianRent": 1900,
+          "note": "A separate small city at $423,188, up 3.0%, the affordable entry of the metro. Its own smelter-era Superfund history is largely remediated; verify parcel status the same way you would in Butte."
+        }
+      ],
+      "localAngle": {
+        "tag": "Stability",
+        "title": "Helena's tenant base is the state payroll. Underwrite boredom, it pays on the first.",
+        "body": "Every Montana market in this file has a story: a supply glut, a missile program, a Superfund label, a resort economy. Helena's story is that there is no story, and for a financed rental that is worth real money. The dominant employer is the State of Montana itself, layered with federal agencies, the hospital system, and the school district. Government payrolls do not have layoff cycles timed to commodity prices or tourism seasons, which shows up in the data as 5% vacancy, homes pending in about 7 days, and 3.0% value growth in a year when Gallatin County went negative. The 2025 tax reform, Senate Bill 542 with House Bill 231, treated Lewis and Clark County well: the Department of Revenue's data shows the median residence saved about $807, and at observed mill levels a certified long-term rental lands near 0.48% effective, the second-cheapest investor carrying cost of Montana's major markets. The jurisdiction detail worth knowing: unincorporated Helena Valley parcels pay county mills without the city stack, so an identical house across the boundary line carries a meaningfully lighter tax line, and East Helena is its own municipality with its own levies and a remediated smelter-era history worth a parcel check. Your matched specialist will structure the file on the correct jurisdiction's mills and the certified rental class, which in Helena is most of the underwriting."
+      },
+      "programFit": [
+        "standard-dscr",
+        "portfolio-dscr",
+        "interest-only-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "Duplex (2-unit)",
+        "neighborhood": "Downtown / Last Chance Gulch",
+        "purchasePrice": 500000,
+        "downPaymentPct": 30,
+        "downPayment": 150000,
+        "loanAmount": 350000,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 2447,
+        "monthlyTax": 200,
+        "monthlyInsurance": 270,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 2917,
+        "monthlyRent": 3000,
+        "dscr": 1.03,
+        "monthlyCashFlow": 83,
+        "specialistFocus": [
+          "Steered the file to a downtown two-unit because a single 3-bed at Helena's median lands near 0.70 at 20% down, while paired $1,500 units clear with margin at 30% down",
+          "Underwrote the certified long-term rental class near 0.48% effective, the second-cheapest carrying cost among Montana's major markets, and calendared the state recertification",
+          "Verified both units' leases against the government-payroll tenant profile, two state-agency households with multi-year tenancy history, before presenting the file to lenders"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Is Helena too small a market for an out-of-state rental investor?",
+          "answer": "It is small, about 70,000 metro-wide, but small is not the risk metric that matters; income stability is. Helena's tenant base is the state government payroll plus federal agencies and the hospital, incomes that do not swing with tourism or commodity cycles. Vacancy near 5%, homes pending in about 7 days, and 3.0% value growth in a flat year are what that stability looks like in the data. The genuine small-market trade-offs: thinner property-management options than Billings or Missoula, slower exit liquidity, and less multifamily inventory. Price those in and Helena's boring is a feature."
+        },
+        {
+          "question": "How do Helena property taxes compare after the 2025 reform?",
+          "answer": "Favorably. Lewis and Clark County's median residence saved about $807 on its 2025 bill per Department of Revenue data, and for tax year 2026 a certified long-term rental in Helena lands near 0.48% effective at observed mill levels, cheaper than Billings, Great Falls, Missoula, or Butte. The uncertified default class runs near 1.17%, roughly $280 a month of difference at the median value, so the long-term rental application through the state portal is the single highest-value piece of paperwork in the file. One wrinkle: unincorporated Helena Valley parcels skip the city mill stack entirely, so jurisdiction checking pays here too."
+        },
+        {
+          "question": "Where does a DSCR file actually clear 1.0 in Helena?",
+          "answer": "Three places. Downtown and Last Chance Gulch duplexes, where paired units around $1,500 each against a $500,000 price clear at 30% down; East Helena, a separate municipality at a $423,188 median where entry single-family gets closest among houses; and the unincorporated Helena Valley, where the county-only tax line adds a few points of ratio on identical stock. A median-priced city single-family at 20% down lands near 0.70 and needs an interest-only structure or a larger down payment. The blended citywide rent figure also understates what a 3-bed house rents for, which runs near $2,200."
+        },
+        {
+          "question": "Does East Helena's smelter history create a problem like Butte's?",
+          "answer": "Same category, smaller scale, mostly resolved. East Helena grew around a lead smelter that closed in 2001, and the resulting Superfund work, soil remediation and groundwater controls, has run for two decades with residential cleanup substantially complete. Lenders finance East Helena homes routinely, and the market prices the history in, which is why the median sits at $423,188 against Helena's $484,550. The diligence is the same twenty minutes as Butte: confirm the specific parcel's remediation status in county and EPA records before writing the offer, and let the discount pay you for the homework."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Helena typical home value, YoY, and rent trend, July 2026",
+        "Zumper Rent Research, Helena 3-bedroom median rent, August 2026",
+        "Rental Beast Q2 2026 Montana report, Helena average rent and easing trend, 2026",
+        "Census ACS via Civic Dashboards, Helena rental vacancy near 5 percent, latest (est.)",
+        "Montana Free Press and Department of Revenue, Lewis and Clark County median 2025 savings of $807, November 2025",
+        "Effective investor tax rates computed: SB 542 classes times Helena mill levels implied by Ownwell median-bill data, April 2026 (computed, est.)"
+      ]
+    },
+    {
+      "city": "Kalispell",
+      "slug": "kalispell",
+      "county": "Flathead County",
+      "metro": "Kalispell",
+      "hook": "Kalispell's typical home is $565,555 with 3-bed rents near $2,250, and Flathead County vacancy loosened to about 8% as a decade of undersupply finally got answered with cranes. The Flathead's boomtown is digesting its own growth.",
+      "metaDescription": "Kalispell homes average $566K, 3-bed rents near $2,250, and Flathead vacancy sits near 8% after a supply wave. See the honest DSCR math. Get matched today.",
+      "market": {
+        "medianPrice": 565555,
+        "medianRent": 2250,
+        "priceToRent": 20.9,
+        "vacancyRate": 8,
+        "yoyPrice": 1,
+        "yoyRent": 4.3,
+        "estDSCR": 0.62,
+        "propertyTaxRate": 0.39,
+        "insuranceMonthly": 300
+      },
+      "overview": "Kalispell is the commercial hub of the Flathead Valley, the fastest-growing corner of Montana for a decade, and 2026 finds it mid-digestion. The typical home value is $565,555 as of July 2026, up 1.0% over the year, and Zillow's observed rents rose 4.3%. But Flathead County's rental vacancy loosened to about 8% as multifamily projects delivered into a market that ran below 2% for years, and some listing-based trackers show asking rents down sharply, a spread that says concessions and lease-up pricing, not collapse. Three-bed houses still list near $2,250.\n\nThe economic base is realer than the resort label suggests: Logan Health is the valley's dominant employer, Glacier Park tourism feeds the service economy, and the county functions as the retail and medical hub for everything north of Missoula. Growth did not stop; supply finally showed up.\n\nTwo structural advantages for investors. First, Flathead mills are light: the observed median effective rate ran about 0.65% pre-reform, and a certified long-term rental now lands near 0.39% effective, the cheapest investor tax line of Montana's major markets. Second, Kalispell is the workaround jurisdiction: it never enacted Whitefish-style short-term rental zoning bans, regulating STRs by zoning district instead, though the city was publicly weighing tighter rules through 2026. At the median with 20% down the ratio still lands near 0.62, so files clear on entry stock, Evergreen's county-only parcels, and larger down payments.",
+      "regulationBadge": "friendly",
+      "regulationNote": "Kalispell regulates short-term rentals by zoning district rather than banning investor units outright, and Montana preempts rent control statewide, but city planning discussions through 2026 have floated tighter STR rules, so verify the current code before underwriting nightly income.",
+      "neighborhoods": [
+        {
+          "name": "Downtown / Westside",
+          "medianPrice": 480000,
+          "medianRent": 1900,
+          "note": "The older core with the closest thing Kalispell has to entry stock. Hospital-corridor tenant demand from Logan Health staff, and the venue where a single-family file gets closest to penciling."
+        },
+        {
+          "name": "Evergreen (unincorporated)",
+          "medianPrice": 430000,
+          "medianRent": 1800,
+          "note": "Unincorporated county pocket northeast of the city: no city mills on the tax line and the valley's most affordable detached stock. Working-family tenant base and the best tax-adjusted ratio in the metro."
+        },
+        {
+          "name": "North Kalispell / Silverbrook",
+          "medianPrice": 650000,
+          "medianRent": 2500,
+          "note": "The new-construction growth corridor toward Whitefish. Newer systems and premium tenants, but the price point needs 30% down or an interest-only structure to carry."
+        }
+      ],
+      "localAngle": {
+        "tag": "Supply Wave",
+        "title": "The Flathead finally built. Vacancy at 8% is the hangover, and the tax line is the consolation.",
+        "body": "For a decade the Flathead Valley ran on a housing famine, with Kalispell rental vacancy at or near zero and rents compounding accordingly. The famine broke: multifamily deliveries pushed Flathead County rental vacancy to roughly 8%, and listing-based rent trackers briefly printed double-digit declines, which is what lease-up concessions look like in small-sample data while Zillow's stock-wide measure still shows rents up 4.3%. Read both honestly and you get the actual picture: apartments are negotiating, houses are holding, and a landlord underwriting 2021-style rent growth is a year early at best. The consolation prize is structural. Flathead mills are the lightest of Montana's urban counties, and after Senate Bill 542's 2026 classes a certified long-term rental in Kalispell carries roughly 0.39% effective tax, about $184 a month at the median value, versus roughly 0.91% in the 1.9% default class. The county's 2025 reform savings ran about $809 on the median residence. Add Evergreen's unincorporated parcels, which skip city mills entirely, and the Flathead offers the cheapest carrying cost in the state to offset its rich prices. On short-term rentals, Kalispell is the valley's permissive-by-comparison jurisdiction, zoning-based rather than Whitefish's near-ban, but city planning conversations through 2026 have floated tighter investor rules, so a nightly-income thesis needs a current code check. Your matched specialist will underwrite the class, the jurisdiction, and the realistic lease."
+      },
+      "programFit": [
+        "no-ratio-dscr",
+        "interest-only-dscr",
+        "standard-dscr",
+        "portfolio-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 2-bath SFR",
+        "neighborhood": "Downtown / Westside",
+        "purchasePrice": 550000,
+        "downPaymentPct": 30,
+        "downPayment": 165000,
+        "loanAmount": 385000,
+        "loanType": "30-Year Fixed (No-Ratio)",
+        "interestOnly": false,
+        "monthlyPI": 2691,
+        "monthlyTax": 179,
+        "monthlyInsurance": 290,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 3160,
+        "monthlyRent": 2450,
+        "dscr": 0.78,
+        "monthlyCashFlow": -710,
+        "specialistFocus": [
+          "Matched the file to a no-ratio program because 0.78 is what an honest Kalispell single-family produces at 30% down, and documented reserves to carry the negative while the Flathead thesis matures",
+          "Underwrote the certified long-term rental class near 0.39% effective, the lightest investor tax line of Montana's major markets and the one number working in this file's favor",
+          "Qualified on a conservative $2,450 lease against the 8% county vacancy backdrop rather than the pre-supply-wave rent the seller advertised"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Are Kalispell rents actually falling?",
+          "answer": "Depends which rents. Listing-based trackers showed asking rents down by double digits over the year, while Zillow's stock-wide observed measure showed rents up 4.3%. Both are real: new apartment projects are leasing up with concessions, which drags listing medians down hard in a small market, while rents on the occupied stock, especially single-family, kept grinding up. Flathead County vacancy near 8% is the honest backdrop after years below 2%. For underwriting, treat the two-layer data conservatively: use in-place or appraiser market rent for houses, assume apartments negotiate, and give any lease-up assumption an extra month or two."
+        },
+        {
+          "question": "Can I run a short-term rental in Kalispell since Whitefish restricts them?",
+          "answer": "Kalispell is the Flathead's comparatively permissive jurisdiction, regulating short-term rentals through zoning districts rather than a Whitefish-style near-ban, and unincorporated Flathead County parcels face lighter rules still. Two honest cautions. First, city planning discussions through 2026 floated tighter rules aimed at investor-owned units, so verify the current ordinance and any pending changes before you underwrite nightly income. Second, Montana's 2026 tax classes put short-term rentals in the 1.9% default class, roughly 0.91% effective here versus 0.39% for a certified long-term rental, so the STR tax line runs better than double. Price both risks before choosing the nightly model."
+        },
+        {
+          "question": "Why is the Kalispell property tax line so low?",
+          "answer": "Light mills on a fat base. Flathead County's observed median effective rate ran about 0.65% before the 2025 reform, among the lowest in Montana, because enormous valuation growth spread fixed budgets thin. After Senate Bill 542's tax year 2026 classes, a certified long-term rental in Kalispell lands near 0.39% effective, about $2,200 a year on the median home, the cheapest investor carrying cost of the state's major markets. The county's 2025 reform savings ran about $809 at the median. The catch is the same as everywhere in Montana: an uncertified rental sits in the 1.9% default class near 0.91% effective, so file the long-term rental application and calendar the recertification."
+        },
+        {
+          "question": "Does anything in the Flathead Valley cash flow at today's prices?",
+          "answer": "Barely, and only at the edges. The Kalispell median at 20% down lands near 0.62, so the realistic files are Evergreen's unincorporated parcels around $430,000, where no city mills and $1,800 rents get a 30%-down file into the high 0.8s, downtown-core entry houses near $480,000, and small multifamily when it surfaces. Most Flathead buyers are running equity theses on no-ratio or interest-only structures, betting on the valley's decade-long growth trend with the state's lightest tax line cushioning the carry. That is a defensible bet with real reserves, and a bad one without them."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Kalispell typical home value, YoY, and observed rent trend, July 2026",
+        "Zumper Rent Research, Kalispell 3-bedroom median rent, August 2026 (listing-based YoY decline rejected as lease-up mix noise; Zillow stock-wide trend used)",
+        "Daily Inter Lake, Flathead County rental vacancy near 8 percent, December 2024",
+        "Montana Free Press and Department of Revenue, Flathead County median 2025 savings of $809, November 2025",
+        "Effective investor tax rates computed: SB 542 classes times Kalispell mill levels implied by Ownwell median-bill data, April 2026 (computed, est.)",
+        "Neighborhood medians derived from Zillow city data (est.), August 2026"
+      ]
+    },
+    {
+      "city": "Whitefish",
+      "slug": "whitefish",
+      "county": "Flathead County",
+      "metro": "Kalispell",
+      "hook": "Whitefish averages $875K against long-term rents near $2,841, a 25.7 price-to-rent ratio that no lease can carry. This is a second-home market with a rental market attached, and Montana's 2026 tax classes now price it that way.",
+      "metaDescription": "Whitefish homes average $875K against rents near $2,841, and the 2026 second-home tax class reprices the carry. See the honest math. Get matched today.",
+      "market": {
+        "medianPrice": 875317,
+        "medianRent": 2841,
+        "priceToRent": 25.7,
+        "vacancyRate": 8,
+        "yoyPrice": 0.7,
+        "yoyRent": 4.8,
+        "estDSCR": 0.49,
+        "propertyTaxRate": 0.7,
+        "insuranceMonthly": 420
+      },
+      "overview": "Whitefish is Montana's resort blue chip: the typical home value is $875,317 as of July 2026, up 0.7% over the year, with observed rents near $2,841, up 4.8%. Divide those and you get a 25.7 price-to-rent ratio, the richest in this file, and an estimated ratio near 0.49 at the median with 20% down. No amount of clever structuring turns that into a cash-flow market. People buy Whitefish for the asset, the ski hill, and the appreciation record, and the honest underwriting starts there.\n\nTwo regulatory layers define the market. Short-term rentals are prohibited in most residential zoning and allowed only in specific resort and business districts under Whitefish City Code 11-3-35, with a permit, business license, fire inspection, and monthly resort-tax remittance. And Montana's 2026 tax classes hit Whitefish harder than anywhere: a residence that is neither owner-occupied nor a certified long-term rental sits in the 1.9% default class, roughly 0.70% effective here, while certifying the same house as a long-term rental drops it near 0.32%. On an $875,000 asset that swing is about $3,300 a year.\n\nThe market number shown on this page uses the default second-home class, because that is what most Whitefish investor property actually is. The wildfire-era insurance market is the other line that surprises buyers: forested-interface premiums have hardened sharply, Montana has no state FAIR plan, and $400-plus monthly premiums at this price point are normal, not a bad quote.",
+      "regulationBadge": "moderate",
+      "regulationNote": "Whitefish confines short-term rentals to specific resort and business zoning districts under City Code 11-3-35 with permits and resort-tax remittance, so most residential parcels here are legally long-term or mid-term rentals only.",
+      "neighborhoods": [
+        {
+          "name": "City core / downtown",
+          "medianPrice": 900000,
+          "medianRent": 3200,
+          "note": "Walkable downtown stock where demand is deepest and short-term rental use is prohibited in the residential zones. Long-term leases to resort-economy professionals, at a ratio that requires an equity thesis."
+        },
+        {
+          "name": "Resort zones (WB and WR districts)",
+          "medianPrice": 1250000,
+          "medianRent": 3800,
+          "note": "The limited districts where permitted short-term rental operation is legal under City Code 11-3-35. Priced accordingly, and the 1.9% default tax class plus resort-tax remittance belongs in every nightly pro forma."
+        },
+        {
+          "name": "Highway 93 South corridor",
+          "medianPrice": 850000,
+          "medianRent": 3200,
+          "note": "The workhorse stretch between Whitefish and Kalispell. Slightly below the city median, the most realistic venue for a long-term rental file, and closest to the valley's commuting employment base."
+        }
+      ],
+      "localAngle": {
+        "tag": "Second-Home Tax",
+        "title": "Montana's 2026 classes were written for places like Whitefish. Underwrite the class you will actually sit in.",
+        "body": "Senate Bill 542, with House Bill 231's coordination, split Montana residential property into two worlds starting with tax year 2026: certified principal residences and long-term rentals get graduated homestead tiers, and everything else, second homes and short-term rentals included, sits in a flat 1.9% default class. Whitefish is the poster child for the second world. At observed Flathead mill levels, the default class runs roughly 0.70% effective here while a certified long-term rental runs near 0.32%, about $3,300 a year of spread on the median $875,317 home. Legislative debate over this legislation was largely a fight about places exactly like Whitefish, family cabins and resort second homes versus resident housing, and the resulting law does not distinguish between a Montana family's lake place and an out-of-state investor's ski condo. The certification path is genuinely open to investors: leases of 28 days or longer covering at least 7 months of the year, applied for through the state portal, ownership structure irrelevant, LLCs included. A mid-term furnished strategy, monthly winter lets to seasonal workers and traveling professionals, can satisfy the test while renting at a premium to bare leases. What does not qualify is nightly rental, which also requires being in one of the limited City Code 11-3-35 districts to operate at all. Your matched specialist will structure the file on the class and the zoning the property actually has, not the one the listing implies."
+      },
+      "programFit": [
+        "no-ratio-dscr",
+        "interest-only-dscr",
+        "str-dscr",
+        "foreign-national-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 2-bath SFR",
+        "neighborhood": "Highway 93 South corridor",
+        "purchasePrice": 850000,
+        "downPaymentPct": 30,
+        "downPayment": 255000,
+        "loanAmount": 595000,
+        "loanType": "Interest-Only DSCR (No-Ratio)",
+        "interestOnly": true,
+        "monthlyPI": 3719,
+        "monthlyTax": 496,
+        "monthlyInsurance": 420,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 4635,
+        "monthlyRent": 3200,
+        "dscr": 0.69,
+        "monthlyCashFlow": -1435,
+        "specialistFocus": [
+          "Structured interest-only at 30% down and matched a no-ratio program, because 0.69 is what an honest Whitefish lease produces and the buyer is underwriting the asset, not the coupon",
+          "Underwrote the tax line at the 1.9% default class near 0.70% effective, then modeled the roughly $275 monthly saving if the buyer certifies a qualifying 28-day-plus rental strategy",
+          "Priced a wildfire-interface landlord policy at this elevation of the market instead of a statewide average, and verified the parcel's zoning district before any nightly-income conversation"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Can I buy a Whitefish house and put it on Airbnb?",
+          "answer": "Only in the right zoning. Whitefish City Code 11-3-35 confines short-term rental use to specific resort and business districts, the WB and WR-series zones, and prohibits it across most residential zoning. Legal operation requires a short-term rental permit, a city business license, a fire safety inspection, off-street parking compliance, and monthly resort-tax remittance. Buying a residentially zoned house and listing it nightly is a code violation, not a gray area. Also price the tax class: a short-term rental sits in Montana's 1.9% default class, roughly 0.70% effective here, more than double a certified long-term rental's line."
+        },
+        {
+          "question": "Does Whitefish make any sense on a DSCR loan at all?",
+          "answer": "As a cash-flow purchase, no; the median produces about 0.49 at 20% down and roughly 0.69 with 30% down and interest-only. As a financed asset play, it can, which is why no-ratio and interest-only programs exist. The honest frame: you are buying an $875,317 asset in a supply-constrained resort town with a two-decade appreciation record, financing it without tax returns, and paying roughly $1,400 a month for the privilege at current rents. That works for buyers with real reserves and a long horizon, and fails for anyone who needs the lease to carry the note. Your matched specialist can model both structures across the 70+ lenders."
+        },
+        {
+          "question": "How much does the 2026 second-home tax class cost me in Whitefish?",
+          "answer": "Roughly double the certified line. A Whitefish residence that is neither owner-occupied nor a certified long-term rental sits in the 1.9% default class, about 0.70% effective at observed Flathead mills, near $510 a month on the median value. Certify the property as a long-term rental, leases of 28 days or longer covering at least 7 months a year, application through the state portal, LLC ownership fine, and the line drops near 0.32%, about $235 a month. A monthly furnished winter-let strategy can satisfy the test while topping bare-lease rents. Miss the application window and you carry the default class until the next cycle."
+        },
+        {
+          "question": "Why did my Whitefish insurance quote come back over $5,000 a year?",
+          "answer": "Because that is the market now. Montana home premiums rose about 18% in 2025 per Insurify, nearly a third of Montana properties carry high wildfire risk, the highest share of any state, and Whitefish sits in exactly the forested wildland-urban interface that carriers have been repricing or exiting. Montana also has no state FAIR plan, so there is no insurer of last resort if the private market declines the roof, the fuels, or the access road. Budget $400 to $500 monthly at the median value, get the quote before the inspection contingency lapses, and treat defensible-space improvements as a pricing lever, not landscaping."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Whitefish typical home value, YoY, and observed rent, July 2026",
+        "Whitefish City Code 11-3-35 and city Short-Term Rental permit program, zoning district restrictions, current 2026",
+        "Montana SB 542 and HB 231 tax year 2026 classes; investor rates computed against Flathead mill levels implied by Ownwell median-bill data, April 2026 (computed, est.)",
+        "Daily Inter Lake, Flathead County rental vacancy near 8 percent applied as metro proxy, December 2024",
+        "Insurify, Montana premium growth of 18 percent in 2025 and wildfire risk share, scaled to Whitefish interface exposure (est.)",
+        "Neighborhood medians derived from Zillow city data and zoning geography (est.), August 2026"
+      ]
+    },
+    {
+      "city": "Belgrade",
+      "slug": "belgrade",
+      "county": "Gallatin County",
+      "metro": "Bozeman",
+      "hook": "Belgrade sits one exit from Bozeman at $552,669, about $175K below it, with rents near $2,344 and Montana's busiest airport in town, 2.8 million passengers in 2025. It is the Gallatin Valley's workforce housing market, priced like it.",
+      "metaDescription": "Belgrade homes average $553K, about $175K under Bozeman, with rents near $2,344 and BZN airport growth in town. See the DSCR math. Get matched today.",
+      "market": {
+        "medianPrice": 552669,
+        "medianRent": 2344,
+        "priceToRent": 19.6,
+        "vacancyRate": 9.2,
+        "yoyPrice": -1.3,
+        "yoyRent": 0.8,
+        "estDSCR": 0.66,
+        "propertyTaxRate": 0.4,
+        "insuranceMonthly": 280
+      },
+      "overview": "Belgrade is where the Gallatin Valley's actual workforce lives. The typical home value is $552,669 as of July 2026, down 1.3% over the year, a genuine correction as Bozeman's supply wave rippled outward, and about $175,000 below Bozeman's median. Observed rents run near $2,344, roughly flat at 0.8% growth, and homes take about 27 days to go pending, the slowest absorption in this file, so buyers here have negotiating room for the first time in years.\n\nThe town's anchor is Bozeman Yellowstone International Airport, which sits in Belgrade, not Bozeman, and served a record 2,809,419 passengers in 2025, up 6.3%, Montana's busiest airport since 2013. Airport operations, logistics, construction trades, and Bozeman commuters make up the tenant base: households earning real wages that cannot clear Bozeman's $727,000 median.\n\nThe underwriting picture is Gallatin County's, which helps: light mills mean a certified long-term rental carries roughly 0.40% effective tax, and the county's 2025 reform savings ran about $1,020 at the median residence. At the median with 20% down the ratio lands near 0.66, and the honest structure is 30% down on below-median stock, accepting modest negative carry against the valley's growth trend. The risk to price: Bozeman's concession war pulls some tenants back toward town when two months free shows up eleven miles east, which is exactly what the flat rent number is telling you.",
+      "regulationBadge": "friendly",
+      "regulationNote": "Belgrade layers no rental licensing or STR ban onto Montana's statewide framework, unlike Bozeman next door, and rent control is preempted statewide, so the practical exposure here is Bozeman's apartment concessions competing for your tenants, not regulation.",
+      "neighborhoods": [
+        {
+          "name": "Central Belgrade",
+          "medianPrice": 505000,
+          "medianRent": 2400,
+          "note": "The original townsite grid with the market's closest thing to entry stock. Walkable to schools and Main Street, and the realistic venue for an investor file below the citywide median."
+        },
+        {
+          "name": "River Rock",
+          "medianPrice": 520000,
+          "medianRent": 2450,
+          "note": "The large planned community south of town, mostly 2000s-era stock with HOA covenants. Predictable product and tenants, with dues and covenant rules to underwrite alongside the lease."
+        },
+        {
+          "name": "Airport / Jackrabbit corridor",
+          "medianPrice": 580000,
+          "medianRent": 2650,
+          "note": "Newer subdivisions along Jackrabbit Lane closest to BZN. Strongest rent point in town from airport and trades households, at a price that needs 30% down to approach covering."
+        }
+      ],
+      "localAngle": {
+        "tag": "Growth Corridor",
+        "title": "The airport is in Belgrade. So is the workforce that Bozeman priced out.",
+        "body": "Bozeman Yellowstone International Airport served 2,809,419 passengers in 2025, a record and a 6.3% jump over 2024, its fourth straight year of growth, and the entire operation sits inside Belgrade. That geography matters more than branding: airport operations, rental fleets, freight, hotels, and the construction trades feeding the whole valley base themselves here, and their households rent in Belgrade because Bozeman's $727,000 median is a nonstarter on trade wages. That is the durable demand story. The current-cycle story is softer: Belgrade's value slipped 1.3% over the year and rents went flat at 0.8% growth, because Bozeman's oversupplied apartment market, concessions on an estimated 86.6% of listings in early 2026, pulls marginal tenants back toward town. A Belgrade landlord competing against two months free eleven miles east wins on what apartments cannot offer, garages, yards, pets, schools, and loses on price-sensitive singles. Underwrite accordingly: family-sized detached product, conservative rent, and Gallatin County's structural advantages on the cost side. Those advantages are real: the lightest mill environment among Montana's urban counties puts a certified long-term rental near 0.40% effective, and the county's 2025 reform savings ran about $1,020 at the median. Your matched specialist will structure the file on flat near-term rents and the certified tax class, letting the valley's decade-long growth trend be upside rather than a requirement."
+      },
+      "programFit": [
+        "standard-dscr",
+        "interest-only-dscr",
+        "no-ratio-dscr",
+        "portfolio-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 2-bath SFR",
+        "neighborhood": "Central Belgrade",
+        "purchasePrice": 505000,
+        "downPaymentPct": 30,
+        "downPayment": 151500,
+        "loanAmount": 353500,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 2471,
+        "monthlyTax": 168,
+        "monthlyInsurance": 260,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 2899,
+        "monthlyRent": 2500,
+        "dscr": 0.86,
+        "monthlyCashFlow": -399,
+        "specialistFocus": [
+          "Structured 30% down on below-median stock because the citywide ratio at 20% lands near 0.66, and documented reserves for the roughly $400 monthly carry while Bozeman's concession war runs off",
+          "Underwrote flat rent growth against the 9.2% metro vacancy backdrop instead of the valley's historical trend, so the file survives the supply digestion it is buying into",
+          "Kept the tax line at the certified long-term rental class near 0.40% effective, Gallatin County's light mills being the one structural break this market gives a landlord"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Is Belgrade just a cheaper Bozeman, or a different market?",
+          "answer": "Different market, shared economy. Belgrade's median of $552,669 runs about $175,000 below Bozeman, but the deeper difference is the tenant base: airport operations, freight, hotels, and construction trades centered on BZN, which sits inside Belgrade and served a record 2.8 million passengers in 2025. Those households rent family-sized detached homes on trade wages, a steadier profile than Bozeman's amenity-apartment demographic. Regulation differs too: Belgrade has no STR ban, while Bozeman closed investor permits in 2023. What they share is the supply cycle, which is why Belgrade values slipped 1.3% and rents went flat this year."
+        },
+        {
+          "question": "Why did Belgrade home values fall while Billings and Great Falls rose?",
+          "answer": "Because the Gallatin Valley built and the rest of Montana did not. Bozeman's apartment wave, with new deliveries running 44.2% vacant and concessions on an estimated 86.6% of listings by early 2026, rippled outward: some Belgrade renters got pulled back toward discounted Bozeman leases, rent growth stalled at 0.8%, and values corrected 1.3% while homes stretched to 27 days to pending. That is a digestion phase, not a demand collapse; the airport set a passenger record the same year. For a buyer it means negotiating room and honest entry pricing, provided the file is underwritten on today's flat rents rather than the 2021 trend."
+        },
+        {
+          "question": "What does a realistic Belgrade DSCR file look like?",
+          "answer": "Thirty percent down on below-median stock, underwritten flat. A $505,000 Central Belgrade 3-bed renting near $2,500 with 30% down carries about 0.86 with certified-class taxes, roughly $400 a month of negative carry, which a no-ratio or standard program with reserves can absorb. The citywide median at 20% down lands near 0.66 and does not clear anything. What tilts the math: Gallatin County's certified long-term rental tax line near 0.40% effective, the lightest of Montana's urban counties, and family-sized product that Bozeman's concession-war apartments cannot substitute for. Duplexes are scarce here; when one surfaces near the townsite grid, it pencils best."
+        },
+        {
+          "question": "Do Montana's 2026 tax classes work the same in Belgrade as Bozeman?",
+          "answer": "Yes, same county, same mills, same classes. A certified long-term rental in Belgrade lands near 0.40% effective, among the cheapest investor tax lines in the state, while an uncertified property sits in the 1.9% default class near 0.94%, roughly $2,500 a year apart at the median value. Certification requires leases of 28 days or longer covering at least 7 months of the year, an application through the state's homestead portal, and periodic landlord recertification; LLC ownership qualifies. Gallatin County's 2025 reform savings ran about $1,020 at the median residence, the largest dollar figure of any Montana county, which is the light-mill advantage showing up in the data."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Belgrade typical home value, YoY, rent, and days to pending, July 2026",
+        "Bozeman Yellowstone International Airport, 2025 record of 2,809,419 passengers up 6.3 percent, January 2026",
+        "SterlingCRE Advisors and Rental Beast, Gallatin Valley vacancy and concession data applied as metro backdrop, 2025-2026",
+        "Montana Free Press and Department of Revenue, Gallatin County median 2025 savings of $1,020, November 2025",
+        "Effective investor tax rates computed: SB 542 classes times Gallatin mill levels implied by Ownwell median-bill data, April 2026 (computed, est.)",
+        "Neighborhood medians derived from Zillow city data (est.), August 2026"
+      ]
+    },
+    {
+      "city": "Livingston",
+      "slug": "livingston",
+      "county": "Park County",
+      "metro": "Livingston micropolitan area",
+      "hook": "Livingston homes average $541,697 against long-term rents near $1,600, a 28.2 price-to-rent ratio, the widest gap in Montana, because short-term rentals reached 11.5% of Park County's housing stock. The nightly market ate the lease market.",
+      "metaDescription": "Livingston averages $542K against $1,600 long-term rents, with STRs at 11.5% of Park County stock. See what actually underwrites here. Get matched today.",
+      "market": {
+        "medianPrice": 541697,
+        "medianRent": 1600,
+        "priceToRent": 28.2,
+        "vacancyRate": 5.9,
+        "yoyPrice": -0.6,
+        "yoyRent": -2.2,
+        "estDSCR": 0.45,
+        "propertyTaxRate": 0.44,
+        "insuranceMonthly": 310
+      },
+      "overview": "Livingston is the most extreme spread in this file, and it deserves the most honest treatment. The typical home value is $541,697 as of July 2026, down 0.6% over the year, while median long-term rents run near $1,600 and eased about 2.2%. That is a 28.2 price-to-rent ratio and an estimated ratio near 0.45 at the median with 20% down, the worst lease-based math in Montana. The cause is structural: Park County, the northern gateway to Yellowstone, had short-term rentals reach 11.5% of its entire housing stock by late 2023, over 1,100 properties, and nightly economics set the price of houses here, not leases. Median Airbnb revenue in Livingston ran about $2,938 a month against $1,600 for a lease as of mid-2026, with market ADR near $334 at 44.4% occupancy.\n\nThe town itself is real: a railroad-era Main Street an hour from the park entrance, a growing arts economy, wind that locals joke about and appraisers note, and Bozeman commuters pushed over the pass by Gallatin prices.\n\nWhat this means for a DSCR file: a conventional lease purchase at the median is a no-ratio equity play, full stop. The strategies that respect the local math are furnished mid-term rentals, 28-day-plus lets to seasonal workers, traveling professionals, and film crews, which capture part of the hospitality premium while still qualifying for Montana's reduced long-term rental tax class near 0.44% effective, and sub-median entry stock on the east side.",
+      "regulationBadge": "friendly",
+      "regulationNote": "Livingston and Park County impose minimal short-term rental regulation beyond state licensing and lodging taxes, an operator-friendly posture, though Montana's 2026 tax classes put nightly rentals in the 1.9% default class while 28-day-plus strategies keep the reduced line.",
+      "neighborhoods": [
+        {
+          "name": "Original townsite / Northside",
+          "medianPrice": 500000,
+          "medianRent": 1700,
+          "note": "The historic grid near Main Street where the character stock and the tourism premium concentrate. Pre-1940 houses need wind-rated roofing budgets, and nightly comparables set the asking prices."
+        },
+        {
+          "name": "Southside",
+          "medianPrice": 560000,
+          "medianRent": 1850,
+          "note": "The newer half toward the Absaroka views, where Bozeman commuters and remote-income households cluster. Better systems and tenants, at the market's widest gap between price and achievable lease."
+        },
+        {
+          "name": "East side / Island area",
+          "medianPrice": 420000,
+          "medianRent": 1600,
+          "note": "The workforce quarter and the only realistic entry tier, below the citywide median. This is where a lease-based file gets closest to defensible, and where mid-term furnished demand from seasonal workers lands."
+        }
+      ],
+      "localAngle": {
+        "tag": "Gateway Math",
+        "title": "In Park County the nightly market sets house prices. Underwrite against it, not around it.",
+        "body": "By September 2023, short-term rentals accounted for 11.5% of Park County's total housing stock, more than 1,100 properties, among the highest concentrations in Montana alongside Gallatin and Flathead counties. That single number explains Livingston's otherwise broken-looking spread: houses price off nightly revenue, median Airbnb income near $2,938 a month by mid-2026, while leases pay about $1,600, so the price-to-rent ratio stretched to 28.2 and lease-based files at the median compute near 0.45. Livingston's regulatory posture is permissive, minimal local registration beyond state public-accommodation licensing and lodging taxes, which is precisely why the concentration got this high. But two forces now squeeze the nightly model: occupancy runs 44.4% across 363 active listings, meaning the market is supplied and seasonal, and Montana's 2026 tax classes under Senate Bill 542 put short-term rentals in the 1.9% default class, roughly 1.04% effective here versus 0.44% for a certified long-term rental. The strategy that threads it: furnished 28-day-plus rentals to Yellowstone seasonal staff, traveling medical workers, and production crews, which rent well above bare leases, sidestep nightly volatility, and legally qualify for the reduced tax class. That, or east-side entry stock near $420,000 underwritten as a patient equity hold. Your matched specialist will structure the file on whichever income the property can document, not the gross figure a listing site advertises."
+      },
+      "programFit": [
+        "no-ratio-dscr",
+        "interest-only-dscr",
+        "str-dscr",
+        "standard-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 1-bath SFR",
+        "neighborhood": "East side / Island area",
+        "purchasePrice": 420000,
+        "downPaymentPct": 30,
+        "downPayment": 126000,
+        "loanAmount": 294000,
+        "loanType": "30-Year Fixed (No-Ratio)",
+        "interestOnly": false,
+        "monthlyPI": 2055,
+        "monthlyTax": 154,
+        "monthlyInsurance": 270,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 2479,
+        "monthlyRent": 1800,
+        "dscr": 0.73,
+        "monthlyCashFlow": -679,
+        "specialistFocus": [
+          "Matched a no-ratio program at 30% down because 0.73 is what an honest east-side lease produces, and verified reserves for the negative carry rather than reaching for a nightly pro forma",
+          "Modeled the furnished 28-day-plus alternative at winter and shoulder-season demand, which lifts income toward $2,400 while keeping the certified long-term rental tax class near 0.44% effective",
+          "Priced a wind-zone roof and insurance reality into the file, because Livingston's gusts are an appraisal line item here, not a local joke"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Why are Livingston houses so expensive relative to what they rent for?",
+          "answer": "Because leases stopped setting prices years ago. Short-term rentals reached 11.5% of Park County's housing stock by late 2023, over 1,100 properties serving Yellowstone's northern gateway, and sellers price against nightly revenue, median Airbnb income near $2,938 a month by mid-2026, not against the $1,600 median lease. The result is a 28.2 price-to-rent ratio, the widest in Montana, and lease-based DSCR math near 0.45 at the median. Nothing about that is hidden; it is simply a hospitality-priced asset market. Buy it with a hospitality or mid-term strategy, or buy below the median and underwrite equity."
+        },
+        {
+          "question": "Can I legally run a short-term rental in Livingston?",
+          "answer": "Yes, and that is part of the problem. Livingston and Park County take a minimal-regulation posture, essentially state public-accommodation licensing and lodging-tax registration rather than a municipal permit gauntlet, which is how the county reached one of Montana's highest STR concentrations. The constraints are economic and fiscal instead: 363 active listings compete at 44.4% average occupancy with hard winter seasonality, and Montana's 2026 classes tax nightly rentals at the 1.9% default class, roughly 1.04% effective here, versus 0.44% certified. Underwrite realistic seasonal occupancy and the higher tax class, and remember a 28-day-plus furnished model escapes both squeezes."
+        },
+        {
+          "question": "What is the mid-term rental play here?",
+          "answer": "It is the strategy the local math practically begs for. Yellowstone's seasonal workforce, traveling medical staff for the hospital, film and production crews drawn by the area's screen economy, and displaced-homeowner insurance placements all need furnished housing for one to six months. Those tenancies rent at a clear premium to bare leases, avoid the nightly market's 44.4% occupancy volatility, and because each stay runs 28 days or longer for at least 7 months of the year, the property can qualify for Montana's certified long-term rental class near 0.44% effective instead of the 1.9% default class. The furnishing capital is modest against the spread. It is the one Livingston model that respects every layer of the local math."
+        },
+        {
+          "question": "Is the Livingston wind actually an underwriting issue?",
+          "answer": "It is a line item, not a legend. Livingston's canyon winds are among the strongest sustained gusts of any Montana town, hard enough that carriers and inspectors treat roof age, fastening, and siding condition as pricing inputs, and insurance here runs above what the home value alone would predict, budget near $310 monthly at the median. On older Northside stock, a wind-worn roof is the most common inspection surprise and the easiest concession to negotiate. None of it kills deals; unpriced, it quietly eats the margin on a file that was already thin. Get the roof's age in writing and the quote before the contingency lapses."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Livingston typical home value and YoY, July 2026",
+        "AirROI and GemHaus market intelligence, Livingston median long-term rent of $1,600, STR revenue, ADR, and occupancy, June-July 2026",
+        "Daily Montanan, Park County short-term rentals at 11.5 percent of housing stock, reported February 2026",
+        "Zumper listing trend, Livingston rent down 2.15 percent year over year, June 2026",
+        "Federal Reserve FRED, Montana rental vacancy at 5.9 percent applied as area proxy, January 2025 (est.)",
+        "Effective investor tax rates computed: SB 542 classes times Park County mill levels implied by Ownwell median-bill data, April 2026 (computed, est.)"
+      ]
+    },
+    {
+      "city": "Columbia Falls",
+      "slug": "columbia-falls",
+      "county": "Flathead County",
+      "metro": "Kalispell",
+      "hook": "Columbia Falls is the Glacier gateway that still permits investor short-term rentals, 110 approved as of early 2026, with a $339 market ADR. Whitefish closed its residential zones; this is where that demand went.",
+      "metaDescription": "Columbia Falls permits investor STRs near Glacier, 110 approved, $339 market ADR. See the honest tax class and DSCR math. Get matched today.",
+      "market": {
+        "medianPrice": 614519,
+        "medianRent": 2250,
+        "priceToRent": 22.8,
+        "vacancyRate": 8,
+        "yoyPrice": 1,
+        "yoyRent": 4.3,
+        "estDSCR": 0.53,
+        "propertyTaxRate": 0.87,
+        "insuranceMonthly": 330
+      },
+      "overview": "Columbia Falls spent decades as the Flathead's mill town, and the last one turned it into the workaround. The typical home value is $614,519 as of July 2026, up 1.0% over the year, having passed Kalispell as Glacier National Park tourism repriced everything on the west-entrance corridor. Long-term 3-bed rents run near $2,250 on the valley market, while the short-term rental data explains the premium: market ADR of $339, 43.5% occupancy, roughly 590 active listings in the area, and average annual host revenue near $28,535, with full-time, well-run homes clearing meaningfully more.\n\nThe regulatory position is the story. Whitefish confines short-term rentals to a handful of resort districts; Columbia Falls allows them by right in its business zones and by conditional use permit elsewhere, with 110 permits approved and 11 in process as of February 2026. That openness has a clock on it: the city's planning commission spent early 2026 publicly working on tighter rules aimed at investor-owned units while protecting owner-occupied ones. The market number on this page uses Montana's 1.9% default tax class, roughly 0.87% effective here, because an STR is what most investors buy in this town; a certified long-term rental runs less than half that, near 0.37%.\n\nAt the median with 20% down a lease-based file computes near 0.53, so the honest split is: nightly files underwritten on documented projections at the higher tax class, or workforce leases on sub-median stock at the certified class. Both work; pretending one is the other does not.",
+      "regulationBadge": "moderate",
+      "regulationNote": "Columbia Falls currently allows short-term rentals by right in business zones and by conditional use permit in residential zones, 110 approved as of February 2026, but the planning commission was actively drafting tighter investor-focused rules through 2026, so verify the current ordinance before closing a nightly-income file.",
+      "neighborhoods": [
+        {
+          "name": "Nucleus Avenue core",
+          "medianPrice": 560000,
+          "medianRent": 2100,
+          "note": "The old downtown grid, walkable to the brewery-and-outfitter strip that replaced the mill economy. Business-zone parcels here carry by-right short-term rental use, which the pricing already knows."
+        },
+        {
+          "name": "Columbia Heights",
+          "medianPrice": 640000,
+          "medianRent": 2300,
+          "note": "The bench above town on the Glacier side, where view lots and newer builds serve both the commuter and vacation markets. Conditional-use territory for nightly rental, so the permit is the contingency."
+        },
+        {
+          "name": "Meadow Lake resort area",
+          "medianPrice": 700000,
+          "medianRent": 2500,
+          "note": "The golf-resort community with an established vacation-rental history and the town's deepest nightly comparables. HOA and resort rules layer on top of city permitting; read both before underwriting."
+        }
+      ],
+      "localAngle": {
+        "tag": "STR Window",
+        "title": "Whitefish closed. Columbia Falls is still open, with a permit, a higher tax class, and a clock.",
+        "body": "The Flathead's short-term rental demand did not disappear when Whitefish City Code 11-3-35 confined nightly rentals to a few resort districts; it moved twelve minutes east. Columbia Falls, the last town before Glacier's west entrance, allows short-term rentals by right in its business zones and by conditional use permit in residential zones, and as of February 2026 the city counted 110 approved permits with 11 more in process, in a town of about 5,500 people. The market data shows why operators bother: $339 average daily rate at 43.5% occupancy across roughly 590 area listings, average annual revenue near $28,535, and full-availability homes near the park entrance clearing well above the average. Now the two disclosures that belong in every file. First, Montana's 2026 classes under Senate Bill 542 tax short-term rentals at the 1.9% default class, roughly 0.87% effective at local mills, better than double the 0.37% a certified long-term rental carries, and this page's market numbers use the higher class deliberately. Second, the window is narrowing: the Columbia Falls planning commission spent early 2026 drafting rules aimed at investor-owned units while sparing owner-occupied ones, so the conditional use permit should be a written closing contingency, not an assumption. Your matched specialist will structure the file on a documented seasonal revenue projection and the second-home tax class, with the permit in hand before the appraisal is ordered."
+      },
+      "programFit": [
+        "str-dscr",
+        "standard-dscr",
+        "no-ratio-dscr",
+        "interest-only-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 2-bath SFR (furnished STR)",
+        "neighborhood": "Meadow Lake resort area",
+        "purchasePrice": 615000,
+        "downPaymentPct": 25,
+        "downPayment": 153750,
+        "loanAmount": 461250,
+        "loanType": "30-Year Fixed (STR DSCR)",
+        "interestOnly": false,
+        "monthlyPI": 3224,
+        "monthlyTax": 446,
+        "monthlyInsurance": 300,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 3970,
+        "monthlyRent": 4100,
+        "dscr": 1.03,
+        "monthlyCashFlow": 130,
+        "specialistFocus": [
+          "Qualified on a documented STR projection near $4,100 a month, built off the market's $339 ADR at full-availability seasonal occupancy rather than the blended average that includes part-time listings",
+          "Underwrote the tax line at the 1.9% default class, roughly 0.87% effective, because a nightly rental never qualifies for the certified long-term rental tiers, and the file has to carry the honest number",
+          "Made the conditional use permit a written closing contingency, since Columbia Falls was actively drafting tighter investor-unit rules through 2026 and an unpermitted file is a refinance problem waiting"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Can I still get a short-term rental permit in Columbia Falls?",
+          "answer": "As of early 2026, yes. Business-zone parcels carry the use by right, and residential parcels go through a conditional use permit process; the city counted 110 approved permits and 11 in process in February 2026. The honest caveat is trajectory: the planning commission spent early 2026 publicly drafting tighter rules targeting investor-owned units while protecting owner-occupied ones, which is the same sequence Whitefish and Bozeman ran before restricting. If the nightly model is the thesis, make the permit a written closing contingency and get it before funding, because a post-closing denial converts a hospitality pro forma into a 0.5-class lease file overnight."
+        },
+        {
+          "question": "What does a Columbia Falls Airbnb actually gross near Glacier?",
+          "answer": "The area market runs a $339 average daily rate at 43.5% occupancy across roughly 590 listings, with average annual host revenue near $28,535. That average includes part-time and seasonal listings; a full-availability, well-photographed 3-bed near the west entrance prices meaningfully above it, which is what supports underwriting in the $4,000-a-month range on documented projections. The shape matters as much as the total: summer park season carries the year, winter leans on Whitefish Mountain spillover, and shoulder months go quiet. Lenders on STR programs qualify off appraisal-grade revenue reports, so the projection needs documentation, not listing-site screenshots."
+        },
+        {
+          "question": "How does Montana's 2026 tax reform treat a Columbia Falls STR?",
+          "answer": "Expensively, and the site's numbers here show it. A short-term rental never qualifies for the certified long-term rental tiers, so it sits in the 1.9% default class, roughly 0.87% effective at local mill levels, about $446 a month on a $615,000 purchase. Convert the same house to leases of 28 days or longer for at least 7 months a year, certify it through the state portal, and the line drops near 0.37%, about $190 a month. That spread, roughly $3,100 a year, is the state's explicit thumb on the scale, and it belongs in every nightly-versus-lease comparison you run in this town."
+        },
+        {
+          "question": "Is the long-term rental play in Columbia Falls dead, then?",
+          "answer": "Not dead, just specific. The town still houses the Flathead's workforce, valley 3-bed rents run near $2,250, and Flathead County's light mills mean a certified long-term rental carries roughly 0.37% effective tax, among the cheapest lines in the state. The problem is the entry price: at the $614,519 median a lease file computes near 0.53 at 20% down, so lease-based buys only make sense on sub-median stock near the Nucleus Avenue grid, with 30% down, underwritten as patient equity holds. The market genuinely bifurcated: hospitality economics above the median, workforce economics below it. Pick a lane and underwrite that lane's numbers."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Columbia Falls typical home value and YoY, July 2026",
+        "AirROI, Columbia Falls STR market ADR $339, occupancy 43.5 percent, listings, and revenue, August 2025 to July 2026 dataset",
+        "Hungry Horse News, Columbia Falls STR permit counts and planning commission rule drafting, February 2026",
+        "Whitefish City Code 11-3-35 zoning restriction as the demand-displacement backdrop, current 2026",
+        "Long-term rent proxied from Zumper Kalispell 3-bedroom at $2,250 with Zillow Flathead trend, August 2026 (substitution noted, est.)",
+        "Effective investor tax rates computed: SB 542 classes times Flathead mill levels implied by Ownwell median-bill data, April 2026 (computed, est.)"
+      ]
+    },
+    {
+      "city": "Laurel",
+      "slug": "laurel",
+      "county": "Yellowstone County",
+      "metro": "Billings",
+      "hook": "Laurel's typical home is $385,699, about 5% under Billings fifteen minutes away, with the CHS refinery anchoring paychecks in town. Small-town entry price, metro tenant demand, one tax quirk worth knowing.",
+      "metaDescription": "Laurel homes average $386K, under Billings next door, with the CHS refinery anchoring demand. See the honest small-town DSCR math. Get matched today.",
+      "market": {
+        "medianPrice": 385699,
+        "medianRent": 1650,
+        "priceToRent": 19.5,
+        "vacancyRate": 5,
+        "yoyPrice": 1.3,
+        "yoyRent": 3.2,
+        "estDSCR": 0.64,
+        "propertyTaxRate": 0.52,
+        "insuranceMonthly": 240
+      },
+      "overview": "Laurel is the Billings metro's small-town value play. The typical home value is $385,699 as of July 2026, up 1.3% over the year, about 5% below Billings proper, and the town sits fifteen minutes west on I-90, close enough that its rental market is effectively a Billings submarket with a Main Street. Published rent data here is thin and apartment-skewed, showing blended figures near $1,240, but 3-bed houses realistically rent in the $1,600 to $1,750 range benchmarked against Billings' $1,750 metro figure, and vacancy tracks the metro's balanced 5%.\n\nThe anchor employer is the CHS refinery, one of Montana's largest industrial taxpayers, whose payroll has steadied Laurel for generations. The 2025 tax reform made that relationship unusually visible: the Department of Revenue's data shows CHS paying about $1.9 million more under the new law, part of the burden shift onto large industrial property that funded the residential cuts. Laurel homeowners and certified landlords are, quite literally, being subsidized by the refinery down the street.\n\nFor an investor the picture is simple: entry pricing below the metro, an observed effective tax rate that runs slightly under the Billings city stack, with a certified long-term rental landing near 0.52% effective, and tenant demand from refinery, rail, and Billings-commuter households. At the median with 20% down the ratio lands near 0.64, so files clear the metro's usual way: sub-median entry stock around $300,000 with 30% down, or the occasional duplex near the old town grid.",
+      "regulationBadge": "friendly",
+      "regulationNote": "Laurel adds nothing to Montana's statewide landlord-friendly framework, no rental licensing, no STR restrictions of note, and rent control is preempted statewide, so underwriting here is stock age and tenant screening, the same as the rest of Yellowstone County.",
+      "neighborhoods": [
+        {
+          "name": "Central Laurel",
+          "medianPrice": 385699,
+          "medianRent": 1650,
+          "note": "The original town grid around Main Street, where 1950s and 1960s ranches trade below $350,000 and rent to refinery and rail households. The entry tier, and the venue where files get closest to covering."
+        },
+        {
+          "name": "South Hills",
+          "medianPrice": 450000,
+          "medianRent": 1850,
+          "note": "Newer subdivisions south of the interstate with Billings-commuter households. Better systems and longer tenancies, at a price that needs the metro rent ceiling to keep climbing."
+        },
+        {
+          "name": "West Laurel / rural edge",
+          "medianPrice": 420000,
+          "medianRent": 1750,
+          "note": "Acreage-adjacent stock on the town's west side. Rents carry a premium for shops and space, and some parcels sit outside city limits with a lighter mill stack, worth a jurisdiction check."
+        }
+      ],
+      "localAngle": {
+        "tag": "Refinery Town",
+        "title": "The 2025 tax reform made the refinery pay more so Laurel's houses pay less. That is the whole trade.",
+        "body": "Montana's Senate Bill 542 and House Bill 231 did not just cut residential rates; they shifted the burden, and the Department of Revenue's own top-taxpayer analysis shows where it landed. CHS, operator of the Laurel refinery, is paying roughly $1.9 million more per year under the new law, alongside similar increases for NorthWestern Energy, BNSF Railway, and the Phillips 66 refinery in Billings. That is the machinery behind Yellowstone County's median residential savings of about $757 on 2025 bills: large industrial property picked up the slack. For a Laurel landlord the practical result is a certified long-term rental carrying roughly 0.52% effective tax, slightly better than the Billings city stack at 0.55%, in a town whose biggest taxpayer just took on more of the load. The two-layer truth worth stating plainly: refinery towns concentrate employer risk, and a single facility's turnaround schedule, expansion, or contraction moves the local rental market in ways a diversified metro absorbs quietly. Laurel's hedge is geography, fifteen minutes from the full Billings employment base, so a vacancy here backfills with commuters rather than sitting empty. Underwrite the certified tax class, the metro rent benchmark rather than the thin local listing data, and a tenant base that skews industrial-shift stable. Your matched specialist will structure the file on those numbers and flag the recertification calendar."
+      },
+      "programFit": [
+        "standard-dscr",
+        "portfolio-dscr",
+        "bridge-to-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 1-bath SFR",
+        "neighborhood": "Central Laurel",
+        "purchasePrice": 300000,
+        "downPaymentPct": 30,
+        "downPayment": 90000,
+        "loanAmount": 210000,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 1468,
+        "monthlyTax": 130,
+        "monthlyInsurance": 200,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 1798,
+        "monthlyRent": 1600,
+        "dscr": 0.89,
+        "monthlyCashFlow": -198,
+        "specialistFocus": [
+          "Structured 30% down on a sub-median 1950s ranch because Laurel's median at 20% lands near 0.64, and this entry tier is where the town's math gets defensible",
+          "Benchmarked the $1,600 lease against Billings metro 3-bed data rather than Laurel's thin, apartment-skewed listing figures, and documented it with a rent survey",
+          "Underwrote the certified long-term rental class near 0.52% effective and a hail-rated landlord policy, the two line items that decide whether a small Yellowstone County file covers"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Is Laurel too small to invest in, or does Billings carry it?",
+          "answer": "Billings carries it, and that is the design. Laurel is fifteen minutes from the full Billings employment base on I-90, so its rental market functions as a metro submarket: a vacancy here backfills with commuters, not just refinery households. What Laurel adds is entry price, a $385,699 median about 5% under Billings, and its own anchor payroll at the CHS refinery. What it lacks is depth, thin listing data, few duplexes, and slower exits. The honest frame: buy it like a Billings deal with a small-town discount and single-employer awareness, not like a standalone market."
+        },
+        {
+          "question": "What is the concentration risk with the refinery?",
+          "answer": "Real but hedged. The CHS refinery is Laurel's anchor employer and one of Montana's largest industrial taxpayers, now paying roughly $1.9 million more per year under the 2025 tax reform. A single facility's fortunes, turnaround cycles, expansions, or an eventual strategic shift, move a town of 7,000 more than any one employer moves Billings. The hedge is the fifteen-minute commute: Laurel tenants can work anywhere in the metro, so the realistic downside is slower rent growth, not structural vacancy. Underwrite metro-benchmark rents, avoid over-concentrating multiple doors in one small town, and the risk stays priced rather than ignored."
+        },
+        {
+          "question": "Why is Laurel's rent data so thin, and what should I underwrite?",
+          "answer": "Because the town is small and most listings that surface are apartments, which drags blended figures to around $1,240 and understates what houses rent for. The defensible method is benchmarking: Billings metro 3-beds run near $1,750, Laurel product typically leases at a modest discount to that, so $1,600 to $1,750 for an updated 3-bed house is the realistic band, and metro vacancy near 5% is the right backdrop. On any specific file, a documented rent survey or the appraiser's market rent schedule settles it. Underwriting Laurel off its own listing medians is the mistake; the metro benchmark is the honest number."
+        },
+        {
+          "question": "How does the 2026 tax class math work on a Laurel rental?",
+          "answer": "Same statute as everywhere in Montana, with Laurel's slightly lighter observed mill stack. A certified long-term rental, leases of 28 days or longer covering at least 7 months of the year, application filed through the state portal, lands near 0.52% effective, about $167 a month on the median value. Skip the certification and the 1.9% default class puts the same house near 1.29% effective, roughly $415 a month. LLC ownership qualifies for the rental certification, landlords recertify periodically, and the deadline for the 2026 year ran to March 20, 2026. On Laurel's margins, that single application is frequently the difference between covering and not."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Laurel typical home value and YoY, July 2026",
+        "Montana Free Press and Department of Revenue, CHS Laurel refinery paying $1.9 million more under 2025 law and Yellowstone County median savings of $757, November 2025",
+        "Laurel 3-bed rent benchmarked to Zumper Billings metro 3-bedroom at $1,750 with Zillow metro trend, August 2026 (substitution noted, est.)",
+        "Billings metro vacancy near 5 percent applied to Laurel, CRE Finder and Rental Beast, late 2025 (est.)",
+        "Effective investor tax rates computed: SB 542 classes times Laurel mill levels implied by Ownwell median-bill data, April 2026 (computed, est.)",
+        "Neighborhood medians derived from Zillow city data (est.), August 2026"
+      ]
+    }
+  ]
+}

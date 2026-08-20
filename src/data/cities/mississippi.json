@@ -1,0 +1,1263 @@
+{
+  "state": "Mississippi",
+  "abbreviation": "MS",
+  "stateSlug": "mississippi",
+  "dataUpdated": "2026-08",
+  "cities": [
+    {
+      "city": "Jackson",
+      "slug": "jackson",
+      "county": "Hinds County",
+      "metro": "Jackson",
+      "hook": "Jackson's typical home value is about $84K against rents near $1,175, one of the few American markets where the median clears the ratio with room to spare. The catch is a 186.67-mill tax stack and a water system run by a federal receiver.",
+      "metaDescription": "Jackson homes average $84K against $1,175 rents, one of the few US markets that clears 1.0 at the median. See the 15% assessment catch. Get matched today.",
+      "market": {
+        "medianPrice": 84299,
+        "medianRent": 1175,
+        "priceToRent": 6,
+        "vacancyRate": 12.2,
+        "yoyPrice": 1.3,
+        "yoyRent": 0,
+        "estDSCR": 1.42,
+        "propertyTaxRate": 2.8,
+        "insuranceMonthly": 160
+      },
+      "overview": "Jackson is the deepest value in this file and it is not close. The typical home value sits near $84,300 as of July 2026, up 1.3% year over year, while average rents run about $1,175 and held flat. That is a price-to-rent ratio of 6, which is why the standard formula at 20% down lands around 1.42 when almost every other market on this site sits below 1.0. Out-of-state buyers on BiggerPockets have noticed, and the $60,000 to $140,000 rental trade here is real.\n\nNow the two-layer truth. Mississippi assesses owner-occupied homes at 10% of value with a homestead credit, but a rental is Class 2 property assessed at 15% with no credit. Stack Jackson's combined millage, 63.03 city plus 84.81 Jackson Public Schools plus 38.83 Hinds County for 186.67 mills, and the investor's effective bill runs near 2.8% of value per year, roughly double what the seller's owner-occupied tax history suggests. On an $84,000 house that is manageable. Underwrite it anyway.\n\nThe second layer is infrastructure. Jackson's water system has operated under a federally appointed receiver since a 2022 court order, and in February 2026 the court approved a 12% increase in water bills. Service has stabilized under JXN Water, but tenants remember 2022, and the strongest rental demand concentrates in Northeast Jackson, Fondren, and Belhaven where the housing stock and the pipes are in better shape.",
+      "regulationBadge": "friendly",
+      "regulationNote": "Mississippi has no rent control at any level of government, and nonpayment evictions run on a 3-day notice under Miss. Code 89-8-13, so the practical landlord risk in Jackson is asset condition and submarket selection, not the rulebook.",
+      "neighborhoods": [
+        {
+          "name": "Fondren North",
+          "medianPrice": 249532,
+          "medianRent": 1650,
+          "note": "The arts district and the strongest retail strip in the city, anchored by the UMMC medical corridor next door. Values are up 2.0% over the year and this is where Jackson's professional tenant pool concentrates."
+        },
+        {
+          "name": "Greater Belhaven",
+          "medianPrice": 221699,
+          "medianRent": 1600,
+          "note": "Historic district near Belhaven University with the strongest appreciation in the city at 3.9% year over year. Older homes, real charm, and rehab budgets that need respect."
+        },
+        {
+          "name": "Northeast Jackson",
+          "medianPrice": 215212,
+          "medianRent": 1695,
+          "note": "The 39211 corridor holds the most conventional rental stock in the city, brick ranches that rent to healthcare and state-government households. Values up 1.3% and the easiest appraisals in Jackson."
+        },
+        {
+          "name": "South Jackson",
+          "medianPrice": 92753,
+          "medianRent": 1195,
+          "note": "The 39212 deep-value zone, where sub-$100K entry meets heavy rehab and Section 8 demand. The gross numbers look spectacular; the files that work are the ones priced for real capex."
+        }
+      ],
+      "localAngle": {
+        "tag": "Water Receivership",
+        "title": "The capital-city discount is real, and so is the reason for it.",
+        "body": "Jackson trades at the steepest discount of any state capital in the country, and the water system is a large part of why. After the 2022 failure of the O.B. Curtis plant, a federal court appointed a third-party receiver, and JXN Water has run the city's water and sewer systems ever since under interim manager Ted Henifin. In February 2026, U.S. District Judge Henry Wingate approved the utility's request to raise water bills 12%, about $9 to $11 a month for most households, over the city's objection. That is the honest backdrop to every Jackson pro forma: service has genuinely stabilized, billing is being enforced on accounts that went uncollected for years, and utility costs are rising to pay for it. For an investor the practical moves are simple. Verify the meter situation and any unpaid balance on the specific property before closing, budget the higher water bill on any unit where the owner pays utilities, and favor the submarkets where the infrastructure and the tenant base are strongest, Northeast Jackson, Fondren, and Belhaven. The math forgives a lot here, a median-priced rental clears the ratio even at the full 15% investor assessment and 186.67 mills. Your matched specialist structures the file on the full non-homestead tax bill and the property's real operating costs, so the ratio you close on is the one you actually live with."
+      },
+      "programFit": [
+        "standard-dscr",
+        "portfolio-dscr",
+        "bridge-to-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 2-bath SFR",
+        "neighborhood": "Northeast Jackson",
+        "purchasePrice": 180000,
+        "downPaymentPct": 25,
+        "downPayment": 45000,
+        "loanAmount": 135000,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 944,
+        "monthlyTax": 420,
+        "monthlyInsurance": 220,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 1584,
+        "monthlyRent": 1695,
+        "dscr": 1.07,
+        "monthlyCashFlow": 111,
+        "specialistFocus": [
+          "Underwrote the full Class 2 non-homestead tax bill at 186.67 mills instead of the seller's homesteaded figure, which was less than half the investor's real number",
+          "Qualified on the appraiser's market rent for the 39211 corridor, where brick-ranch rentals lease to healthcare and state-government tenants",
+          "Matched the file to lenders comfortable with Jackson metro collateral, and priced the water-bill increase into the operating reserves"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Is Jackson MS a good place to buy rental property?",
+          "answer": "The math is among the best in the country: an $84,000 typical value against $1,175 average rents produces a ratio near 1.42 at the median, and Mississippi's landlord process is fast. What the spreadsheets hide is dispersion. Northeast Jackson, Fondren, and Belhaven rent quickly to stable tenants; parts of South and West Jackson need serious rehab and street-by-street judgment. Buy the block, not the citywide average, budget real capex on older stock, and underwrite the 15% investor assessment. Investors who do those three things are the ones still buying here years later."
+        },
+        {
+          "question": "How does the Jackson water situation affect rentals in 2026?",
+          "answer": "The system has been run by a federally appointed receiver, JXN Water, since a 2022 court order, and day-to-day service has stabilized. The current story is cost, not outages: the court approved a 12% increase in water bills in February 2026, and the utility has been enforcing billing on accounts that previously went uncollected. Before closing, verify the property's meter status and any outstanding balance, and if you pay water on any unit, put the higher bill in the pro forma. Tenant expectations in the stronger submarkets have largely returned to normal."
+        },
+        {
+          "question": "What property taxes will I actually pay on a Jackson rental?",
+          "answer": "More than the listing suggests. Mississippi assesses rentals as Class 2 property at 15% of true value with no homestead credit, while the seller's bill was likely computed at the 10% owner-occupied ratio with the credit applied. Jackson's combined millage is 186.67 mills, city, schools, and county together, so an investor's effective bill runs near 2.8% of value per year, roughly twice the owner's number on the same house. On a $180,000 purchase that is about $420 a month. Your matched specialist underwrites that full figure up front so the ratio does not collapse after closing."
+        },
+        {
+          "question": "Which Jackson neighborhoods do DSCR lenders like?",
+          "answer": "Lenders lend on the appraisal and the lease, and both come back strongest in Northeast Jackson, Fondren, and Belhaven, where values run $215,000 to $250,000 and houses rent from the high $1,500s to around $1,700. Deep-value deals in South Jackson can absolutely close, the entry point near $93,000 is real, but appraisers apply condition adjustments and underwriters look harder at collateral under about $100,000, and some of the 70+ lenders in the network set minimum property values. Your matched specialist knows which lenders fit which block before you write the offer."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Jackson typical home value and YoY change, July 2026",
+        "Zillow Rental Manager market trends, Jackson average rent and YoY change, August 2026",
+        "iPropertyManagement via Census data, Jackson metro rental vacancy, 2024",
+        "Mississippi Free Press and Hinds County, Jackson combined millage of 186.67 mills (city 63.03, JPS 84.81, county 38.83), 2025",
+        "Mississippi Today and WLBT, JXN Water 12% bill increase approved by Judge Wingate, February 2026",
+        "Insurance estimate from Insurify Mississippi average premium applied to Jackson median, 2026 (est.)"
+      ]
+    },
+    {
+      "city": "Southaven",
+      "slug": "southaven",
+      "county": "DeSoto County",
+      "metro": "Memphis TN-MS-AR",
+      "hook": "Southaven pairs a $276K typical value with rents near $1,906 in the fastest-growing county in Mississippi. The spillover story is real; the tax story is not the one the sellers tell.",
+      "metaDescription": "Southaven runs $276K medians with $1,906 rents on the Memphis line. See what the 15% investor assessment does to the DSCR math. Get matched today.",
+      "market": {
+        "medianPrice": 276491,
+        "medianRent": 1906,
+        "priceToRent": 12.1,
+        "vacancyRate": 10.6,
+        "yoyPrice": 1.7,
+        "yoyRent": 0.3,
+        "estDSCR": 0.85,
+        "propertyTaxRate": 1.82,
+        "insuranceMonthly": 270
+      },
+      "overview": "Southaven is the front door of the Memphis spillover trade. DeSoto County has grown every single year since 2000, hit an estimated 197,918 residents in 2025, and remains the fastest-growing county in Mississippi. The typical Southaven home runs about $276,500, up 1.7% year over year, and rents average $1,906. The draw is exactly what the forums say it is: newer stock, DeSoto County schools, and tenants who commute to Memphis jobs without living under Memphis code enforcement and Memphis crime headlines.\n\nHere is the layer the turnkey pitch skips. \"Mississippi has low property taxes\" is an owner-occupied statement. Rentals are assessed at 15% of value with no homestead credit, and Southaven's stack, roughly 80.74 county-plus-school mills and a 40.45 city levy for fiscal 2026, puts the investor's effective bill near 1.82% of value. That is actually higher than the effective burden on a comparable Memphis rental. The county cut millage in August 2025, from 41.02 to 34.25 mills, but a reassessment raised the values those mills apply to, so most bills still went up.\n\nAt the median with 20% down the ratio lands near 0.85, which is why Southaven files get structured rather than rubber-stamped: 30% down, the west-side entry stock in 38671 where $236,000 buys a three-bedroom that rents near $1,789, and rent qualified on the appraiser's number, not the listing agent's.",
+      "regulationBadge": "friendly",
+      "regulationNote": "No rent control exists anywhere in Mississippi and DeSoto County's courts process the state's 3-day nonpayment eviction track quickly, so the binding constraints in Southaven are price and taxes, not regulation.",
+      "neighborhoods": [
+        {
+          "name": "Southaven West (38671)",
+          "medianPrice": 236424,
+          "medianRent": 1725,
+          "note": "The older half of the city near Stateline Road, 1980s and 1990s brick homes up 1.8% over the year. This is the entry point where the DSCR math comes closest to working at normal down payments."
+        },
+        {
+          "name": "Southaven East (38672)",
+          "medianPrice": 337222,
+          "medianRent": 2100,
+          "note": "Snowden Grove and the DeSoto Central school zone, newer builds that were flat over the last year at 0.2%. Great tenants, long leases, and ratios that need larger equity to clear."
+        },
+        {
+          "name": "Greenbrook",
+          "medianPrice": 189000,
+          "medianRent": 1595,
+          "note": "The first subdivision over the state line, 1970s stock and the cheapest doors in Southaven. Rehab-to-rent buyers live here; condition drives both the appraisal and the tenant quality."
+        }
+      ],
+      "localAngle": {
+        "tag": "Memphis Spillover",
+        "title": "The spillover is real. The tax arbitrage is not.",
+        "body": "The Southaven pitch writes itself: Memphis rents without Memphis problems, in the fastest-growing county in Mississippi, population 197,918 and climbing every year since 2000. The demand side of that pitch is true. The cost side gets sold wrong constantly. Sellers quote their own tax bill, which was computed at the 10% owner-occupied assessment with a homestead credit. Your bill as an investor is computed at 15% with no credit, against roughly 121 combined mills in Southaven for fiscal 2026, about 34.25 county, 40.45 city after a 13.53% cut, plus the school levy. Net effective burden: near 1.82% of market value, which is more than an equivalent Memphis rental carries at Shelby County's 25% assessment and combined rate. So the honest arbitrage is not taxes. It is newer collateral, school-district tenant demand, insurance that runs hundreds of dollars a year below Memphis quotes on comparable homes, and a legal environment where a nonpayment eviction runs on a 3-day notice. DeSoto County also reassessed in 2025, so the millage cuts did not mean smaller bills; run your number off the new assessed value, not last year's. Your matched specialist structures Southaven files on the full 15% assessment and the post-reassessment value, usually with 25% to 30% down, so the ratio that clears underwriting is the one the property actually produces."
+      },
+      "programFit": [
+        "standard-dscr",
+        "interest-only-dscr",
+        "portfolio-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 2-bath SFR",
+        "neighborhood": "Southaven West (38671)",
+        "purchasePrice": 236000,
+        "downPaymentPct": 30,
+        "downPayment": 70800,
+        "loanAmount": 165200,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 1155,
+        "monthlyTax": 358,
+        "monthlyInsurance": 250,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 1763,
+        "monthlyRent": 1789,
+        "dscr": 1.01,
+        "monthlyCashFlow": 26,
+        "specialistFocus": [
+          "Structured 30% down because the citywide ratio at 20% lands near 0.85, and the extra equity is what carried the file over 1.0",
+          "Underwrote taxes at the 15% Class 2 assessment against the 2025 reassessed value, not the seller's homesteaded bill at less than half that number",
+          "Qualified on the appraiser's market rent of $1,789 for west-side three-bedrooms rather than the higher figure quoted off new-build comps in 38672"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Is Southaven cheaper to own than Memphis for a rental?",
+          "answer": "On insurance and headaches, usually yes. On property taxes, usually no, and this surprises almost everyone. A Southaven rental is assessed at 15% of value against roughly 121 combined mills, an effective burden near 1.82%. A Memphis rental is assessed at 25% against the combined city-county rate, an effective burden near 1.32%. What Southaven buys you instead is newer stock, DeSoto County schools pulling long-term family tenants, faster courts, and a market where values have grown every year for two decades. Price the real trade, not the slogan."
+        },
+        {
+          "question": "What down payment does a Southaven DSCR deal actually need?",
+          "answer": "More than the 20% you see quoted nationally. At the $276,500 citywide median with 20% down, the ratio computes to roughly 0.85 once you load the full investor tax bill and insurance. Files here typically clear one of three ways: 30% down on median-priced homes, entry-priced stock in 38671 or Greenbrook where rents cover a smaller loan, or an interest-only structure that lowers the qualifying payment. All three are routine for DSCR lenders. Your matched specialist runs the structure against the 70+ lenders in the network to find which version prices best."
+        },
+        {
+          "question": "Did the 2025 DeSoto County tax cuts lower my bill?",
+          "answer": "Probably not, and it is worth understanding why. In August 2025 the county cut its millage from 41.02 to 34.25 mills, Southaven cut its city rate 13.53% to 40.45 mills, and every school district in the county trimmed rates too. But those cuts landed alongside a countywide reassessment that raised the values the mills apply to, so most owners saw flat or higher bills. For underwriting, ignore the seller's historical bill entirely: compute 15% of your purchase price times the current combined millage. That is the number your lender will use, and it is the number you will pay."
+        },
+        {
+          "question": "Where in Southaven does the rental math work best?",
+          "answer": "West of I-55 in 38671, where 1980s and 1990s brick homes run about $236,000 and rent near $1,789, and in Greenbrook, where entry stock under $200,000 rents in the high $1,500s. East Southaven in 38672 carries the best schools and tenants, but at a $337,000 median the ratio needs 30% down or interest-only structuring to clear. The dividing line is simple: the west side cash-flows on paper sooner, the east side leases faster and turns over less. Both close routinely; they just need different structures."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Southaven citywide and ZIP-level typical home values, July 2026",
+        "Zillow Rental Manager market trends, Southaven average rent and bedroom rents, August 2026",
+        "US Census Bureau Housing Vacancy Survey, Memphis metro rental vacancy, 2025",
+        "DeSoto County News and City of Southaven, FY2026 millage rates (county 34.25, city 40.45, combined county-plus-school 80.74), 2025",
+        "USAFacts and DeSoto County News, DeSoto County population 197,918 and growth streak, 2025",
+        "Insurance estimate from Insurify Mississippi average premium applied to Southaven median, 2026 (est.)"
+      ]
+    },
+    {
+      "city": "Gulfport",
+      "slug": "gulfport",
+      "county": "Harrison County",
+      "metro": "Gulfport-Biloxi",
+      "hook": "Gulfport's typical home value is about $206K against $1,600 rents, and on paper that looks workable. Then the wind pool raised premiums 16% in January 2026, and the coastal DSCR toll came due.",
+      "metaDescription": "Gulfport homes average $206K with $1,600 rents, but coastal wind premiums jumped 16% in January 2026. Run the wind pool DSCR math first. Get matched today.",
+      "market": {
+        "medianPrice": 205733,
+        "medianRent": 1600,
+        "priceToRent": 10.7,
+        "vacancyRate": 7.9,
+        "yoyPrice": 1.6,
+        "yoyRent": 0,
+        "estDSCR": 0.81,
+        "propertyTaxRate": 1.98,
+        "insuranceMonthly": 480
+      },
+      "overview": "Gulfport is Mississippi's second-largest city and the working half of the Gulf Coast: the port, the CSX corridor, and a rental base of military families, casino and port workers, and healthcare staff. The typical home runs about $205,700, up 1.6% year over year, average rents sit at $1,600 and were flat, and metro vacancy is a healthy 7.9% with very little new multifamily supply in the pipeline.\n\nThe number that decides Gulfport files is not the price or the rent. It is insurance. The average Gulfport-Biloxi metro homeowner premium was about $7,284 in 2025, several times the inland Mississippi figure, because coastal coverage here typically splits into a homeowners policy plus separate wind and flood coverage. The Mississippi Windstorm Underwriting Association, the wind pool that insures what the private market will not, raised premiums 16% on January 1, 2026. Loaded honestly at roughly $480 a month on a median-priced rental, the citywide ratio at 20% down computes to about 0.81. That is the coastal DSCR toll, and pretending it away is how out-of-state buyers end up surprised at closing.\n\nWhat still works: North Gulfport and Orange Grove above I-10, where newer stock at a $230,600 median carries lighter wind exposure, and entry-priced doors in 39501 where sub-$120K purchases keep the loan small relative to rent. Taxes stack to about 131.96 mills, near 1.98% effective for an investor.",
+      "regulationBadge": "friendly",
+      "regulationNote": "Mississippi's landlord-friendly statutes apply statewide, but Gulfport requires a city permit for short-term rentals, restricts them to specific zoning districts, and requires $500,000 in liability coverage, so verify zoning before underwriting any STR income.",
+      "neighborhoods": [
+        {
+          "name": "Orange Grove / North Gulfport (39503)",
+          "medianPrice": 230581,
+          "medianRent": 1750,
+          "note": "North of I-10, the newest stock in the city and up 2.1% over the year. Farther from the water means materially lighter wind premiums, which is exactly where the ratio needs the help."
+        },
+        {
+          "name": "East Gulfport (39507)",
+          "medianPrice": 212526,
+          "medianRent": 1650,
+          "note": "The Hewes Avenue and Edgewater corridor near the beach and the hospital. Solid mid-market rentals, but full coastal insurance load applies south of the tracks."
+        },
+        {
+          "name": "Bayou View",
+          "medianPrice": 245000,
+          "medianRent": 1795,
+          "note": "Established mid-century neighborhood with bayou access and the most stable owner mix in the city. Rents at the top of the Gulfport range; wind coverage still prices like the coast it is."
+        },
+        {
+          "name": "Downtown / South Gulfport (39501)",
+          "medianPrice": 115539,
+          "medianRent": 1300,
+          "note": "The cheapest entry on the coast at a $115,500 median, oldest housing stock, highest wind exposure. Small loans against $1,300 rents can carry the insurance; deferred maintenance is the real risk."
+        }
+      ],
+      "localAngle": {
+        "tag": "Wind Pool Math",
+        "title": "The wind pool raised premiums 16% in 2026. Underwrite it or it underwrites you.",
+        "body": "Every Gulf Coast pro forma lives or dies on one line item, and it is not taxes. Coastal Mississippi insurance typically stacks three coverages: a homeowners policy that excludes wind, a separate wind and hail policy, and flood coverage where the zone requires it. When the private market will not write the wind piece, it lands in the Mississippi Windstorm Underwriting Association, the state's insurer of last resort, and the MWUA raised premiums 16% effective January 1, 2026. The metro's average annual premium was already about $7,284 in 2025, and the state insurance commissioner has warned coastal owners to expect continued pressure. Concretely: a median-priced Gulfport rental needs roughly $480 a month of insurance in the underwrite, and at that load the citywide ratio at 20% down computes near 0.81. The deals that clear do three things. They buy north of I-10 where wind ratings improve and premiums drop. They favor newer roofs and fortified construction, which carry real premium discounts under Mississippi's mitigation programs. And they get quotes bound early, not estimated off a national average that is less than half the coastal reality. Your matched specialist structures the file with the actual bound premium, wind and flood included, so the ratio survives contact with the closing table."
+      },
+      "programFit": [
+        "no-ratio-dscr",
+        "standard-dscr",
+        "str-dscr",
+        "interest-only-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 2-bath SFR",
+        "neighborhood": "Bayou View",
+        "purchasePrice": 225000,
+        "downPaymentPct": 25,
+        "downPayment": 56250,
+        "loanAmount": 168750,
+        "loanType": "30-Year Fixed, No-Ratio",
+        "interestOnly": false,
+        "monthlyPI": 1180,
+        "monthlyTax": 371,
+        "monthlyInsurance": 520,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 2071,
+        "monthlyRent": 1700,
+        "dscr": 0.82,
+        "monthlyCashFlow": -371,
+        "specialistFocus": [
+          "Placed the file as a no-ratio DSCR because the fully loaded wind and flood premium put the ratio at 0.82, and the borrower's plan was appreciation plus a rent bump on turnover, not day-one cash flow",
+          "Bound the wind policy through the coastal market before underwriting instead of estimating from a national average, so the $520 monthly premium in the file was the real one",
+          "Documented the negative carry honestly at about $371 a month so the borrower sized reserves for it rather than finding out after closing"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "How much is landlord insurance really in Gulfport?",
+          "answer": "Plan on several times the national average. The Gulfport-Biloxi metro's average annual premium was about $7,284 in 2025, and coastal coverage typically splits into homeowners, separate wind and hail, and flood where required. The wind pool raised premiums 16% on January 1, 2026. On a median-priced rental, $450 to $550 a month is a realistic underwrite, less north of I-10, more near the beach on older roofs. Fortified-roof discounts are real and worth pursuing. Get the quote bound before you finalize the offer, because this single line item moves Gulfport ratios more than any other."
+        },
+        {
+          "question": "Can a Gulfport rental still work with a sub-1.0 ratio?",
+          "answer": "Yes, if you structure for it instead of pretending it clears. At the citywide median the honest ratio at 20% down computes near 0.81 once wind coverage is loaded. DSCR lenders handle that three ways: no-ratio programs that qualify without the coverage test at larger down payments, interest-only structures that lower the qualifying payment, and simply buying where the math is better, like Orange Grove or the 39501 entry stock. What does not work is underwriting an inland insurance number and hoping. Your matched specialist will tell you which of the 70+ lenders fits the structure you actually need."
+        },
+        {
+          "question": "Are short-term rentals legal in Gulfport?",
+          "answer": "Yes, with a city permit and real conditions. Gulfport requires a short-term rental permit issued through the Department of Urban Development to the property owner, carries a $500,000 minimum liability insurance requirement, and restricts STR operation to zoning districts designated for transient accommodation. Outside those districts, rentals must run 30 days or longer with limited exceptions. Deed restrictions and HOA covenants also apply. If you are underwriting projected STR income near the beach corridor, confirm the specific parcel's zoning first; your matched specialist can qualify the file on either STR projections or the long-term market rent, whichever the property legally supports."
+        },
+        {
+          "question": "What are property taxes on a Gulfport rental?",
+          "answer": "Gulfport's combined millage runs about 131.96 mills, city, school district, and Harrison County together, among the higher stacks on the coast. As a rental your assessment ratio is 15% of value with no homestead credit, which puts the effective bill near 1.98% of market value, roughly $371 a month on a $225,000 purchase. The seller's advertised bill was almost certainly computed at the 10% owner-occupied ratio with the credit, so expect your number to run close to double theirs. Underwrite the investor figure from day one and the ratio you close on holds."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Gulfport citywide and ZIP-level typical home values, July 2026",
+        "Zillow Rental Manager market trends, Gulfport average rent, August 2026",
+        "The Kirkland Company, Gulfport-Biloxi multifamily vacancy 7.9%, December 2024",
+        "Insurance Business and MWUA, Mississippi wind pool 16% premium increase effective January 1 2026, 2025",
+        "Insurify and Insurance.com, Gulfport-Biloxi metro average annual premium $7,284, 2025",
+        "WLOX and City of Gulfport, combined ad valorem millage 131.96 mills, 2026"
+      ]
+    },
+    {
+      "city": "Biloxi",
+      "slug": "biloxi",
+      "county": "Harrison County",
+      "metro": "Gulfport-Biloxi",
+      "hook": "Biloxi's typical home value is about $238K, up 2.7%, with the lowest combined millage on the coast at 111.77 mills. Casino-corridor short-term rentals are legal here with a permit, and Keesler AFB writes the long-term demand floor.",
+      "metaDescription": "Biloxi averages $238K with the coast's lowest 111.77-mill tax stack. STRs are legal in the right zones and Keesler anchors demand. Get matched today.",
+      "market": {
+        "medianPrice": 237901,
+        "medianRent": 1699,
+        "priceToRent": 11.7,
+        "vacancyRate": 7.9,
+        "yoyPrice": 2.7,
+        "yoyRent": 3.6,
+        "estDSCR": 0.77,
+        "propertyTaxRate": 1.68,
+        "insuranceMonthly": 550
+      },
+      "overview": "Biloxi runs on two payrolls that do not care about the national economy: eight casinos on the waterfront and Keesler Air Force Base, which keeps roughly 7,000 military and civilian personnel on base and cycles more than 28,000 students a year through its training wing. That is the demand floor under both the long-term and short-term rental markets. The typical home value is about $237,900, up 2.7% year over year, apartment rents rose 3.56%, and metro vacancy sits near 7.9%.\n\nBiloxi's quiet advantage is taxes. The combined city, school, and county stack is 111.77 mills, the lowest of the coastal cities, against Gulfport's 131.96 and Ocean Springs' 145.04. At the 15% investor assessment that is an effective bill near 1.68% of value. The mayor proposed a 3-mill increase in August 2026 and the council has been pushing to shrink it, so budget the outcome, not the headline. The offset is the same wind toll as everywhere on this coast: realistic insurance near $550 a month at the median after the wind pool's 16% January 2026 increase, which is why the citywide ratio at 20% down computes to about 0.77.\n\nThe honest play here is segmentation. North Biloxi and Woolmarket at a $274,500 median run as conventional family rentals. West Biloxi near the Keesler gates rents to military households on dependable BAH. And the casino corridor supports permitted short-term rentals, the one coastal STR market in this file with a clear legal path.",
+      "regulationBadge": "friendly",
+      "regulationNote": "Biloxi permits short-term rentals in much of the city through a certificate of occupancy and privilege license process but excludes single-family residential zones (RS-5, RS-7.5, RS-10, RE, RER), so the parcel's zoning district decides the STR question before anything else does.",
+      "neighborhoods": [
+        {
+          "name": "North Biloxi / Woolmarket (39532)",
+          "medianPrice": 274490,
+          "medianRent": 1895,
+          "note": "The growth half of the city, up 3.3% over the year, newer subdivisions north of the Back Bay with lighter wind exposure. Family tenants, DSCR files that look like normal suburbs with a coastal insurance line."
+        },
+        {
+          "name": "West Biloxi (39531)",
+          "medianPrice": 209683,
+          "medianRent": 1600,
+          "note": "The Keesler gate and beachfront condo corridor at a $209,700 median, up 2.0%. Military BAH tenants keep occupancy steady; condo files need HOA wind coverage reviewed before underwriting."
+        },
+        {
+          "name": "East Biloxi (39530)",
+          "medianPrice": 150000,
+          "medianRent": 1250,
+          "note": "The casino-walk peninsula, oldest stock on the coast and the cheapest entry in the city. Permitted STRs and workforce rentals coexist here; insurance and elevation certificates decide which deals pencil."
+        }
+      ],
+      "localAngle": {
+        "tag": "Casino Corridor STR",
+        "title": "Biloxi is the coast's clean STR path, if the zoning says yes.",
+        "body": "While Ocean Springs froze new residential STR permits in 2025 and Gulfport confines them to transient-accommodation districts, Biloxi wrote short-term rentals into its Land Development Ordinance as a permitted use across much of the city. The rules live in LDO Section 23-4-3(D)(10), amended by Ordinance 2537 adopted December 12, 2023. The short version: STRs are allowed in most commercial, waterfront, and multifamily districts but prohibited in the single-family zones, RS-5, RS-7.5, RS-10, RE, and RER, plus the agricultural districts. Operators need a Certificate of Occupancy, a Certificate of Zoning Compliance, and a privilege tax license from the city, with a $100 application fee and $50 inspection fee, a cap of four STR units per tax parcel, one on-site parking space per unit or per bedroom, whichever is greater, and an annual fire inspection. Sales and local tourism taxes apply. That is a real compliance list, but it is a published, followable one, which is exactly what a lender underwriting projected STR income wants to see: a permit regime the borrower demonstrably satisfies, not a gray market that could close by ordinance next year. The casino corridor and the beachfront condo towers are where the arithmetic concentrates. Your matched specialist structures STR files here on documented projections and the permit trail, or falls back to the appraiser's long-term market rent when that is the stronger file."
+      },
+      "programFit": [
+        "str-dscr",
+        "standard-dscr",
+        "interest-only-dscr",
+        "no-ratio-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "2-bed / 2-bath condo",
+        "neighborhood": "West Biloxi (39531)",
+        "purchasePrice": 250000,
+        "downPaymentPct": 25,
+        "downPayment": 62500,
+        "loanAmount": 187500,
+        "loanType": "30-Year Fixed, STR Income Qualified",
+        "interestOnly": false,
+        "monthlyPI": 1311,
+        "monthlyTax": 350,
+        "monthlyInsurance": 300,
+        "monthlyHOA": 350,
+        "monthlyPITIA": 2311,
+        "monthlyRent": 3400,
+        "dscr": 1.47,
+        "monthlyCashFlow": 1089,
+        "specialistFocus": [
+          "Verified the condo tower's zoning district permits short-term rentals under LDO Section 23-4-3(D)(10) and documented the certificate of occupancy and privilege license before underwriting a dollar of STR income",
+          "Qualified on conservative projected STR revenue of $3,400 a month for a gulf-view two-bedroom, cross-checked against the tower's actual operating comps rather than a listing-site screenshot",
+          "Reviewed the HOA master policy so the wind premium sat in the association budget where it belongs, keeping the unit-level insurance line at $300"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Can I legally run an Airbnb in Biloxi?",
+          "answer": "Yes, in the right zoning district. Biloxi's Land Development Ordinance permits short-term rentals across most commercial, waterfront, and multifamily districts, but prohibits them in the single-family residential zones: RS-5, RS-7.5, RS-10, RE, and RER. You need a Certificate of Occupancy, a Certificate of Zoning Compliance, and a privilege tax license, with a $100 application fee, a $50 inspection fee, a four-unit cap per parcel, parking per bedroom, and an annual fire inspection. Check the parcel's zoning before you write the offer; a beachfront condo and a house two streets back can sit in different worlds."
+        },
+        {
+          "question": "How does Keesler AFB affect Biloxi rentals?",
+          "answer": "It is the most dependable tenant pipeline on the coast. Keesler keeps roughly 7,000 military and civilian personnel on base and runs more than 28,000 students a year through its training programs, and the 2026 housing allowance for an E-5 with dependents is $1,602 a month, which conveniently brackets the rent on most West Biloxi three-bedrooms and two-bedroom condos. Military tenants arrive on orders, pay on allotment, and turn over on predictable schedules. Files near the Keesler gates underwrite cleanly because appraisers can document the rental demand without stretching."
+        },
+        {
+          "question": "Why are Biloxi property taxes lower than the rest of the coast?",
+          "answer": "Casino revenue does a lot of the city's fiscal lifting. Biloxi's combined city, school, and county millage is 111.77 mills, against 131.96 in Gulfport and 145.04 in Ocean Springs, and at the 15% rental assessment that is an effective bill near 1.68% of value. One caution: the mayor proposed a 3-mill increase in August 2026 to cover budget gaps and the council was pushing it down toward 1 mill as of late August, so the stack may drift slightly. Even at the proposed ceiling, Biloxi remains the cheapest tax jurisdiction on the coast by a wide margin."
+        },
+        {
+          "question": "Does the DSCR math work at Biloxi's median price?",
+          "answer": "Not at 20% down as a long-term rental, and it is better to know that walking in. At the $237,900 median with the wind-loaded $550 monthly insurance figure, the ratio computes near 0.77. Files clear by changing one variable: permitted STR income in the casino corridor, where projected revenue can double the long-term rent; military-corridor purchases in the low $200s where BAH-backed rents cover smaller loans; or North Biloxi purchases with 30% down. Your matched specialist runs all three structures against live lender pricing and shows you which one the property actually supports."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Biloxi citywide and ZIP-level typical home values, July 2026",
+        "RentCafe, Biloxi average apartment rent and YoY change, August 2026",
+        "The Kirkland Company, Gulfport-Biloxi multifamily vacancy 7.9%, December 2024",
+        "City of Biloxi Land Development Ordinance Section 23-4-3(D)(10) and Ordinance 2537, STR zoning and permit requirements, December 2023",
+        "WLOX, Biloxi millage 30.10 city / 111.77 combined and proposed 3-mill increase, August 2026",
+        "MyBaseGuide and Keesler AFB, personnel counts and 2026 BAH rates, 2026"
+      ]
+    },
+    {
+      "city": "Olive Branch",
+      "slug": "olive-branch",
+      "county": "DeSoto County",
+      "metro": "Memphis TN-MS-AR",
+      "hook": "Olive Branch carries the lowest city millage in DeSoto County at 35.05 mills and a $336K typical value, the premium end of the Memphis spillover. The rents are real; the ratios need structuring.",
+      "metaDescription": "Olive Branch pairs a $336K median with the lowest city millage in DeSoto County at 35.05 mills. See where the DSCR files clear. Get matched today.",
+      "market": {
+        "medianPrice": 336094,
+        "medianRent": 1940,
+        "priceToRent": 14.4,
+        "vacancyRate": 10.6,
+        "yoyPrice": 1.1,
+        "yoyRent": 2,
+        "estDSCR": 0.73,
+        "propertyTaxRate": 1.74,
+        "insuranceMonthly": 300
+      },
+      "overview": "Olive Branch is the executive suburb of the Mississippi side of Memphis: newer construction, a logistics-park employment base along the I-22 and Highway 78 corridor, and a city government that keeps taxes visibly lower than its neighbors. The city millage is 35.05 mills, the lowest municipal rate in DeSoto County, and the city has said publicly it intends to keep that title. The typical home runs about $336,100, the highest in this file, up 1.1% year over year, with average rents near $1,940 and apartment rents up about 2%.\n\nThat price point is the whole underwriting story. At the citywide median with 20% down, even with the county's most favorable tax stack, the ratio computes to about 0.73. Olive Branch is not a cash-flow market at the median; it is a tenant-quality and appreciation market where the households renting $2,200 to $2,500 homes have logistics-manager and FedEx-pilot incomes and stay for years. The national wave of build-to-rent capital figured this out already, which is part of why entry pricing stays firm.\n\nFiles that clear here look specific: four-bedroom newer builds where rent crosses $2,300, interest-only structures that lower the qualifying payment, and 30% equity. The reassessment caveat from the rest of DeSoto County applies here too, 2025 values reset upward even as millage rates fell, so compute taxes at 15% of your actual purchase price, not the seller's history.",
+      "regulationBadge": "friendly",
+      "regulationNote": "Olive Branch layers no city-level rental regulation on top of Mississippi's landlord-friendly statutes, but most newer subdivisions carry HOA covenants that prohibit short-term rentals, so this is a long-term lease market in practice.",
+      "neighborhoods": [
+        {
+          "name": "Cherokee Valley",
+          "medianPrice": 330000,
+          "medianRent": 1950,
+          "note": "Established golf-course community with 2000s-era stock near the city median. The most liquid rental segment in town; four-bedrooms here push rents toward $2,400."
+        },
+        {
+          "name": "Center Hill",
+          "medianPrice": 300000,
+          "medianRent": 1850,
+          "note": "The west-side corridor closest to the logistics parks. Slightly older stock than the east side, which is exactly why the price-to-rent trade is the best in the city."
+        },
+        {
+          "name": "Old Towne",
+          "medianPrice": 285000,
+          "medianRent": 1750,
+          "note": "The walkable historic core around the original town square. Smaller lots and older homes, the closest thing Olive Branch has to an entry point."
+        },
+        {
+          "name": "Wedgewood",
+          "medianPrice": 375000,
+          "medianRent": 2250,
+          "note": "Larger newer homes at the top of the market. Tenants are executive relocations; ratios only clear with interest-only structures or heavy equity."
+        }
+      ],
+      "localAngle": {
+        "tag": "Premium Spillover",
+        "title": "Lowest mills in the county, highest prices in the file. Both are true.",
+        "body": "Olive Branch markets itself on a real number: 35.05 city mills, the lowest municipal levy in DeSoto County, reduced again in the 2025 budget cycle while Southaven sits at 40.45 and Horn Lake at 45.00. Stack the roughly 80.74 county-and-school mills on top and an investor's effective bill lands near 1.74% of value at the 15% rental assessment, the best tax deal in the Mississippi suburbs of Memphis. Here is the two-layer truth: that advantage is worth about $22 a month per $100,000 of value versus Horn Lake, and Olive Branch's median price runs $130,000 higher. The tax line does not rescue the ratio; at the $336,100 median with 20% down the computation lands near 0.73. What Olive Branch actually sells is tenant quality and durability. The logistics corridor keeps six-figure households renting while they relocate or build, school demand keeps leases renewing, and the 2025 reassessment confirmed what buyers already knew about values. The files that work are deliberate: a four-bedroom in Cherokee Valley or Wedgewood where rent crosses $2,300, an interest-only period that drops the qualifying payment about 11%, and 30% equity. That combination clears, and the asset you own afterward is the one in the county everyone else is still trying to move up to. Your matched specialist structures the interest-only term and the equity split so the ratio clears without pretending the rent is something it is not."
+      },
+      "programFit": [
+        "standard-dscr",
+        "interest-only-dscr",
+        "portfolio-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "4-bed / 3-bath SFR",
+        "neighborhood": "Cherokee Valley",
+        "purchasePrice": 350000,
+        "downPaymentPct": 30,
+        "downPayment": 105000,
+        "loanAmount": 245000,
+        "loanType": "Interest-Only DSCR",
+        "interestOnly": true,
+        "monthlyPI": 1531,
+        "monthlyTax": 508,
+        "monthlyInsurance": 310,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 2349,
+        "monthlyRent": 2400,
+        "dscr": 1.02,
+        "monthlyCashFlow": 51,
+        "specialistFocus": [
+          "Structured an interest-only period because the amortizing payment put the ratio at 0.95, and the lower qualifying payment carried the file to 1.02",
+          "Paired 30% down with the interest-only term, since at 20% down not even the IO structure cleared at this price point",
+          "Underwrote taxes at the 15% rental assessment against the 2025 reassessed value, roughly double the seller's homesteaded bill on the same house"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Is Olive Branch a cash-flow market or an appreciation market?",
+          "answer": "Be honest with yourself: at a $336,100 median it is a tenant-quality and appreciation market. The citywide ratio at 20% down computes near 0.73, the lowest in the DeSoto County trio, because prices carry a premium the rents have not fully followed. What you are buying instead is the county's best schools-and-logistics tenant base, leases that renew, and the lowest city millage in the county at 35.05 mills. Investors chasing day-one cash flow do better in Horn Lake or west Southaven; investors parking money in the strongest suburb in Mississippi buy here."
+        },
+        {
+          "question": "How do investors make Olive Branch DSCR files clear?",
+          "answer": "Three levers, usually two at once. First, buy the four-bedroom: newer four-bedroom homes rent from roughly $2,300 to $2,500 while three-bedrooms sit near $1,828, and the rent jump outruns the price jump. Second, interest-only structuring drops the qualifying payment about 11%, which at this price point is often the difference between 0.95 and 1.02. Third, 30% equity. The example on this page uses all three. Your matched specialist prices each combination across the 70+ lenders in the network, because IO terms and no-ratio fallbacks vary widely lender to lender."
+        },
+        {
+          "question": "Can I run a short-term rental in Olive Branch?",
+          "answer": "Legally the city does not operate a permit regime the way the coastal cities do, but in practice most of the housing stock investors want sits inside HOA-governed subdivisions whose covenants prohibit rentals under 30 days, and Mississippi courts enforce covenants. Olive Branch is also a weekday-economy suburb, not a tourism market, so projected STR revenue rarely beats a strong long-term lease anyway. Underwrite this market on 12-month leases to logistics-corridor households. If a specific parcel sits outside covenant restrictions, your matched specialist can evaluate whether STR projections would even improve the file."
+        },
+        {
+          "question": "What will property taxes be on an Olive Branch rental?",
+          "answer": "Compute 15% of your purchase price times roughly 115.79 combined mills, which works out near 1.74% of value per year, about $508 a month on a $350,000 purchase. That is genuinely the lowest effective investor rate in DeSoto County, the city millage of 35.05 is the county's lowest and the city advertises it. But it is still near double the seller's homesteaded bill on the same house, because owner-occupants are assessed at 10% with a credit and rentals at 15% with none. The 2025 reassessment also reset values upward, so the seller's dollar figure is doubly stale."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Olive Branch typical home value and YoY change, July 2026",
+        "Zillow Rental Manager market trends, Olive Branch average and bedroom rents, August 2026",
+        "Apartments.com rent market trends, Olive Branch YoY rent change +2% (substituted for Zillow small-sample swing), June 2026",
+        "City of Olive Branch and DeSoto County News, city millage 35.05 mills lowest in county, 2025",
+        "US Census Bureau Housing Vacancy Survey, Memphis metro rental vacancy, 2025",
+        "Neighborhood medians estimated from Zillow city data and active listings, August 2026 (est.)"
+      ]
+    },
+    {
+      "city": "Horn Lake",
+      "slug": "horn-lake",
+      "county": "DeSoto County",
+      "metro": "Memphis TN-MS-AR",
+      "hook": "Horn Lake is the entry ticket to DeSoto County: a $204K typical value against $1,515 rents, five minutes from the Memphis line. It carries the county's highest city millage at 45 mills, and the BRRRR crowd buys here anyway.",
+      "metaDescription": "Horn Lake is DeSoto County's entry point at a $204K median and $1,515 rents. See the BRRRR math investors actually run here. Get matched today.",
+      "market": {
+        "medianPrice": 203546,
+        "medianRent": 1515,
+        "priceToRent": 11.2,
+        "vacancyRate": 10.6,
+        "yoyPrice": 0.7,
+        "yoyRent": 7.9,
+        "estDSCR": 0.89,
+        "propertyTaxRate": 1.89,
+        "insuranceMonthly": 240
+      },
+      "overview": "Horn Lake is where the Memphis spillover trade gets affordable. The typical home value is about $203,500, up 0.7% year over year, the lowest entry among DeSoto County's three cities, and apartment rents jumped 7.9% over the year per Apartments.com's quarterly series. The city sits directly on the state line, so the tenant pool is Memphis-employed households buying a quieter street and a DeSoto County school zone for the same rent they paid across the border.\n\nThe stock is the strategy here. Horn Lake's core is 1970s through 1990s starter homes, and a meaningful share of listings need the kind of $25,000 to $40,000 rehab that scares off owner-occupant buyers. That is why this is the BRRRR capital of the county: buy at $140,000 to $160,000 distressed, renovate, rent near $1,500 to $1,600, then refinance into a DSCR loan against the new appraised value. The refi math on this page is the template.\n\nThe honest caveats: Horn Lake's city millage is 45.00 mills, the highest municipal rate in the county, which puts the investor's effective tax bill near 1.89% of value at the 15% rental assessment. And the 2025 countywide reassessment reset values upward even as rates fell. At the citywide median with 20% down the ratio computes to about 0.89; the deals that clear are bought below median, rehabbed, and rented at the top of the range.",
+      "regulationBadge": "friendly",
+      "regulationNote": "No rent control, a 3-day nonpayment notice under state law, and no city-level rental licensing scheme make Horn Lake procedurally easy; the constraint is the county's highest city millage at 45 mills, not the rulebook.",
+      "neighborhoods": [
+        {
+          "name": "Twin Lakes",
+          "medianPrice": 185000,
+          "medianRent": 1495,
+          "note": "The classic Horn Lake BRRRR hunting ground, 1980s three-bedrooms around the lakes. Distressed entries in the $140s still surface here, and renovated comps support high-$1,400s rents."
+        },
+        {
+          "name": "DeSoto Village",
+          "medianPrice": 165000,
+          "medianRent": 1395,
+          "note": "The cheapest doors in the city, 1970s stock closest to the state line. Condition varies wildly house to house; appraisal-day surprises live here, so budget inspections seriously."
+        },
+        {
+          "name": "Nail Road East",
+          "medianPrice": 245000,
+          "medianRent": 1750,
+          "note": "The newer edge of Horn Lake heading toward Southaven, 2000s builds that rent to families at $1,700-plus. The stable end of the market; less upside, fewer surprises."
+        }
+      ],
+      "localAngle": {
+        "tag": "BRRRR Refinance",
+        "title": "The county's cheapest entry, and the refi that turns rehab into a rental.",
+        "body": "Horn Lake's role in the DeSoto County machine is specific: it is where investors manufacture equity instead of buying it. The playbook that repeats here, on BiggerPockets and in county deed records, is buy distressed in Twin Lakes or DeSoto Village in the $140s to $160s, put $25,000 to $40,000 into roof, HVAC, flooring, and kitchen, lease near $1,500 to $1,600, then refinance into a DSCR loan against the new appraised value around $190,000 to $210,000. Done right, the investor exits the project with most of their cash back and a tenant paying the mortgage. Two Horn Lake specifics decide whether the refi actually clears. First, taxes: at 45.00 city mills, the highest municipal rate in the county, plus roughly 80.74 county-and-school mills, the effective investor bill runs near 1.89% of the new value, and the reassessed 2025 base means the county's number will chase your renovation. Second, seasoning: DSCR lenders differ on how long you must hold before refinancing at appraised value rather than cost, and on how they treat rehab-inflated appraisals. Pick the wrong lender and your equity stays trapped for months. Your matched specialist structures the exit before the entry, matching the file to lenders whose seasoning rules fit your timeline so the refinance appraisal, the tax load, and the lease all land the way the spreadsheet promised."
+      },
+      "programFit": [
+        "standard-dscr",
+        "bridge-to-dscr",
+        "portfolio-dscr"
+      ],
+      "dealExample": {
+        "label": "BRRRR Refinance",
+        "propertyType": "3-bed / 2-bath SFR",
+        "neighborhood": "Twin Lakes",
+        "purchasePrice": 190000,
+        "downPaymentPct": 25,
+        "downPayment": 47500,
+        "loanAmount": 142500,
+        "loanType": "30-Year Fixed, Rate-and-Term Refinance",
+        "interestOnly": false,
+        "monthlyPI": 996,
+        "monthlyTax": 299,
+        "monthlyInsurance": 230,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 1525,
+        "monthlyRent": 1550,
+        "dscr": 1.02,
+        "monthlyCashFlow": 25,
+        "specialistFocus": [
+          "Timed the refinance to the lender's seasoning window so the $190,000 post-rehab appraised value counted, returning most of the investor's rehab cash at closing",
+          "Underwrote taxes on the post-renovation assessed value at the full 15% rental ratio, because DeSoto County's 2025 reassessment cycle catches improvements quickly",
+          "Qualified on the executed $1,550 lease rather than a projection, which several of the 70+ lenders price more favorably on refinances"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Why do BRRRR investors target Horn Lake specifically?",
+          "answer": "Because the ingredients line up on one street: 1970s to 1990s starter stock with genuine distressed entries in the $140,000s, renovated resale and appraisal comps near $190,000 to $210,000, and rents in the high $1,400s to $1,500s that support the refinance debt. Southaven's equivalent houses cost $30,000 to $50,000 more with similar rents, and Olive Branch barely has an entry tier at all. The spread between as-is price and after-repair value is the whole BRRRR engine, and Horn Lake has the widest spread in DeSoto County."
+        },
+        {
+          "question": "Do Horn Lake's high city taxes kill the deal?",
+          "answer": "They compress it; they do not kill it. At 45.00 city mills plus the county-and-school stack, an investor's effective bill runs near 1.89% of value, about $299 a month on a $190,000 appraisal, the heaviest municipal load in DeSoto County. The offset is that you are buying $30,000 to $70,000 less house than in Southaven or Olive Branch for rents only modestly lower, so the loan the tax bill sits on is smaller. Underwrite the full 15% rental assessment on the post-rehab value and let the purchase price do the work."
+        },
+        {
+          "question": "What happens to my appraisal and taxes after I renovate?",
+          "answer": "Both move, and in opposite directions of helpful. The refinance appraisal is the good news: renovated Twin Lakes three-bedrooms have been supporting $190,000-plus values against $150,000-ish all-in costs. The tax bill is the catch-up: DeSoto County reassessed countywide in 2025 and picks up improvements quickly, so the assessed value your 15% rental ratio applies to will chase your renovation within a cycle or two. Build the post-renovation tax figure into the refinance underwrite from day one. Your matched specialist runs the file that way by default, so the ratio holds after the county catches up."
+        },
+        {
+          "question": "What rents can I actually get in Horn Lake in 2026?",
+          "answer": "Renovated three-bedrooms lease in the high $1,400s to around $1,550, and the newer Nail Road East builds reach $1,700-plus. The trend is the notable part: Apartments.com's quarterly series showed Horn Lake rents up 7.9% year over year as of June 2026, the strongest print in DeSoto County, as Memphis-employed households keep crossing the line for school zones and price. Listing-site medians bounce around in a market this size, so appraisers lean on lease comps; a signed lease at market beats a projection here every time."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Horn Lake typical home value and YoY change, July 2026",
+        "Zillow Rental Manager market trends, Horn Lake average rent, August 2026",
+        "Apartments.com rent market trends, Horn Lake YoY rent change +7.9% (substituted for Zillow small-sample swing), June 2026",
+        "DeSoto County News, Horn Lake city millage 45.00 mills and county-school stack 80.74 mills, 2025",
+        "US Census Bureau Housing Vacancy Survey, Memphis metro rental vacancy, 2025",
+        "Neighborhood medians estimated from Zillow city data and active listings, August 2026 (est.)"
+      ]
+    },
+    {
+      "city": "Hattiesburg",
+      "slug": "hattiesburg",
+      "county": "Forrest County",
+      "metro": "Hattiesburg",
+      "hook": "Hattiesburg's typical home value is about $222K with apartment rents up 4.1% on university and hospital demand. The line that matters runs down the map: 184.3 mills inside the city, far less across the Oak Grove line.",
+      "metaDescription": "Hattiesburg homes average $222K, but inside-city addresses carry a 184.3-mill tax stack that Oak Grove escapes. See the DSCR split. Get matched today.",
+      "market": {
+        "medianPrice": 221980,
+        "medianRent": 1266,
+        "priceToRent": 14.6,
+        "vacancyRate": 7.6,
+        "yoyPrice": 2.9,
+        "yoyRent": 4.1,
+        "estDSCR": 0.63,
+        "propertyTaxRate": 2.76,
+        "insuranceMonthly": 260
+      },
+      "overview": "Hattiesburg is the Pine Belt's economic capital, and its rental demand comes from three engines that do not sync to the national cycle: the University of Southern Mississippi and William Carey University, the Forrest General and Merit Health hospital systems, and Camp Shelby's rotating training population south of town. The typical home value is about $222,000, up 2.9% year over year, and average apartment rents rose 4.07% to $1,266 per RentCafe. Zillow's blended listing figure runs lower and swings with student-lease season, which is worth knowing before you quote either number as gospel.\n\nThe map is the underwriting story. Inside the city limits in Forrest County the combined stack runs about 184.3 mills, which at the 15% rental assessment is an effective bill near 2.76% of value, one of the heaviest tax loads in this file. Cross into the Oak Grove side of the 39402 ZIP in unincorporated Lamar County and the millage drops dramatically while the median price jumps to $278,900. Same metro, two different deals: the city sells yield on cheap stock, the west side sells schools and appreciation.\n\nWhere the files clear: the Avenues and the blocks around USM, where $145,000-ish three-bedrooms rent near $1,400 to $1,500 to students, hospital staff, and young families, and the ratio survives even the full city tax load. At the blended citywide median the 20%-down computation is 0.63; nobody buys the citywide median here.",
+      "regulationBadge": "friendly",
+      "regulationNote": "Hattiesburg imposes no rent control or rental licensing beyond state law, and its practical quirk is seasonal: the student lease calendar concentrates turnover in May through August, so vacancy risk is a timing problem rather than a regulatory one.",
+      "neighborhoods": [
+        {
+          "name": "Avenues (39401)",
+          "medianPrice": 145492,
+          "medianRent": 1400,
+          "note": "The historic grid between downtown and USM at a $145,500 ZIP median, up 0.8%. Student and hospital-staff rentals with the best price-to-rent trade in the metro; condition and street selection do the heavy lifting."
+        },
+        {
+          "name": "Oak Grove (39402)",
+          "medianPrice": 278876,
+          "medianRent": 1900,
+          "note": "The west-side school-district magnet at a $278,900 ZIP median, up 2.8%. Much of it sits in unincorporated Lamar County outside the city millage stack, which changes the tax line materially."
+        },
+        {
+          "name": "Midtown / USM",
+          "medianPrice": 160000,
+          "medianRent": 1450,
+          "note": "The blocks ringing campus where by-the-bedroom student leases gross more than the appraiser's market rent. Underwrite on the 1007 figure and let the student premium be upside, not the base case."
+        },
+        {
+          "name": "Petal",
+          "medianPrice": 195000,
+          "medianRent": 1550,
+          "note": "The separate city across the Leaf River with its own school district and a lighter combined millage than Hattiesburg proper. Family rentals that lease fast; a quiet workaround to the city tax stack."
+        }
+      ],
+      "localAngle": {
+        "tag": "Two Tax Worlds",
+        "title": "One metro, two tax stacks. The city line is the underwriting line.",
+        "body": "Hattiesburg punishes lazy tax assumptions harder than any inland market in Mississippi. Inside the city limits in Forrest County, the combined levy runs about 184.3 mills, city, county, and school district together. At the 15% Class 2 rental assessment with no homestead credit, that is an effective bill near 2.76% of market value: $345 a month on a $150,000 house, $511 a month on the citywide median. Now cross Highway 589 into the Oak Grove side of 39402, where much of the housing sits in unincorporated Lamar County: no city millage at all, a different county and school stack, and an effective investor rate that can run close to half the in-city figure on the same-priced house. Sellers and listing agents quote whichever bill flatters the deal, homesteaded, in-city, or Lamar County, and the three numbers can differ by hundreds of dollars a month on identical-looking houses. The discipline is mechanical: pull the parcel, confirm which taxing district it actually sits in, then compute 15% of your price against that district's real millage. The Avenues clears the full city load because the entry price is low and rents near $1,400 are stout for the price point. Oak Grove clears because the stack is lighter. The citywide average clears nothing, because it blends two markets that share nothing but a mailing address. Your matched specialist structures every Hattiesburg file off the parcel's actual taxing district, not the ZIP code, before quoting a single ratio."
+      },
+      "programFit": [
+        "standard-dscr",
+        "portfolio-dscr",
+        "no-ratio-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 2-bath SFR",
+        "neighborhood": "Avenues (39401)",
+        "purchasePrice": 150000,
+        "downPaymentPct": 25,
+        "downPayment": 37500,
+        "loanAmount": 112500,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 786,
+        "monthlyTax": 345,
+        "monthlyInsurance": 220,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 1351,
+        "monthlyRent": 1500,
+        "dscr": 1.11,
+        "monthlyCashFlow": 149,
+        "specialistFocus": [
+          "Confirmed the parcel sat inside the city taxing district and underwrote the full 184.3-mill stack at the 15% rental assessment, $345 a month, rather than the seller's homesteaded figure",
+          "Qualified on the appraiser's $1,500 market rent for a long-term lease instead of the higher by-the-bedroom student gross the listing advertised",
+          "Timed closing ahead of the August lease cycle so the property hit the market at peak student and hospital-staff demand"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Why is the property tax difference inside vs outside Hattiesburg so large?",
+          "answer": "Because the city stack is one of the heaviest in Mississippi and the escape hatch is one parcel line away. In-city Forrest County addresses carry roughly 184.3 combined mills, an effective investor bill near 2.76% of value at the 15% rental assessment. Much of the Oak Grove side of 39402 sits in unincorporated Lamar County with no city millage and a lighter overall stack. On a $250,000 house the difference can exceed $250 a month, enough to flip a ratio from failing to passing. Always verify the actual taxing district on the parcel, not the ZIP code."
+        },
+        {
+          "question": "Can I underwrite student by-the-bedroom rents near USM?",
+          "answer": "You can collect them; you generally cannot qualify on them. A four-bedroom near campus renting at $500 per bedroom grosses $2,000, but DSCR lenders qualify on the appraiser's Form 1007 market rent for the property as a whole unit, which might come back at $1,500. The gap is real money and real disappointment if you modeled the loan on the student gross. The honest structure: qualify on the 1007 figure, treat the per-bedroom premium as operating upside, and keep reserves for the May-to-August turnover window that student markets impose."
+        },
+        {
+          "question": "Is Hattiesburg's rent growth real or a listing-site artifact?",
+          "answer": "The growth is real; the level depends on whose series you read. RentCafe's apartment series shows rents up 4.07% year over year to $1,266 as of August 2026, consistent with university enrollment, hospital hiring, and thin new supply. Zillow's blended listing median printed lower and actually showed a decline, an artifact of which units happened to be listed in a small market with a student calendar. For underwriting, the number that matters is neither: it is the appraiser's market rent on your specific property, which in the Avenues has been supporting $1,400 to $1,500 on renovated three-bedrooms."
+        },
+        {
+          "question": "What does Camp Shelby mean for Hattiesburg rentals?",
+          "answer": "Camp Shelby, about ten miles south of town, is the largest state-owned training site in the country and cycles National Guard and reserve units through mobilizations year-round. For landlords it produces a steady trickle of mid-term furnished demand, contractors, instructors, and families near a mobilization, layered on top of the university and hospital base. It is not a reason to buy by itself, but it thickens the tenant pool at the $1,300 to $1,600 price point where most Hattiesburg rentals sit, and it is one more demand source that does not track the national economy."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Hattiesburg citywide and ZIP-level typical home values, July 2026",
+        "RentCafe, Hattiesburg average apartment rent $1,266 and +4.07% YoY (substituted for Zillow small-sample swing), August 2026",
+        "TSC Maps Forrest County millage table, Hattiesburg-and-county 184.30 mills, 2025",
+        "iPropertyManagement via Census data, Mississippi statewide rental vacancy 7.6% applied as metro proxy, 2024",
+        "Insurance estimate from Insurify Mississippi average premium applied to Hattiesburg median, 2026 (est.)"
+      ]
+    },
+    {
+      "city": "Oxford",
+      "slug": "oxford",
+      "county": "Lafayette County",
+      "metro": "Oxford",
+      "hook": "Oxford's typical home value is $419K, the priciest market in Mississippi, riding Ole Miss's record 28,405 enrollment. The by-the-bedroom gross looks incredible; DSCR lenders qualify on the appraiser's rent, and that gap decides every file here.",
+      "metaDescription": "Oxford averages $419K on record Ole Miss enrollment. DSCR lenders use appraiser market rent, not by-the-bedroom gross. See the real math. Get matched today.",
+      "market": {
+        "medianPrice": 419443,
+        "medianRent": 2100,
+        "priceToRent": 16.6,
+        "vacancyRate": 7.6,
+        "yoyPrice": 3.4,
+        "yoyRent": 2,
+        "estDSCR": 0.63,
+        "propertyTaxRate": 1.95,
+        "insuranceMonthly": 330
+      },
+      "overview": "Oxford is Mississippi's most expensive housing market and its most crowded trade. Ole Miss set its third consecutive enrollment record in fall 2025 at 28,405 students across its campuses, with the largest freshman class in state history at more than 5,900, and off-campus preleasing hit 99.8% for fall 2025. The typical home value is $419,400, up 3.4% year over year, and average rents run about $2,100 with apartment rents up 1.95% per RentCafe.\n\nEvery investor who looks here runs the same seductive math: four bedrooms times $700 to $900 per bedroom equals a gross that makes a $400,000 purchase look easy. Two honest problems. First, DSCR lenders qualify on the appraiser's Form 1007 market rent for the whole unit, typically $1,900 to $2,900 depending on product, not the student per-bedroom gross, so the loan you can carry is smaller than the spreadsheet implies. Second, supply is finally coming: Ole Miss and Greystar are adding up to 2,700 on-campus beds by 2027, RISE Oxford Farms delivers 504 more, and close to 5,000 new student beds could land within a few years. Enrollment growth may absorb it, the university plans another 5,000 to 6,000 students by 2030, but per-bedroom pricing power is no longer a one-way bet.\n\nThe tax line is gentler than the price: 130.11 mills inside the city with the Oxford school district, about 1.95% effective for an investor, and lower still in county jurisdiction toward Taylor.",
+      "regulationBadge": "moderate",
+      "regulationNote": "Oxford regulates short-term rentals through zoning and a municipal permit regime and most HOA-governed subdivisions prohibit sub-30-day rentals outright, so game-day STR income belongs in a file only after the specific parcel's eligibility is verified in writing.",
+      "neighborhoods": [
+        {
+          "name": "Oxford Commons",
+          "medianPrice": 400000,
+          "medianRent": 2500,
+          "note": "The master-planned east side where newer four-bedrooms rent to faculty, professionals, and graduate-student households. The most conventional DSCR collateral in Oxford."
+        },
+        {
+          "name": "University Ave / Campus Edge",
+          "medianPrice": 495000,
+          "medianRent": 2900,
+          "note": "Walk-to-campus blocks where the per-bedroom student premium is strongest and prices reflect it. The 1007-versus-bedroom-gross gap is widest here; underwrite accordingly."
+        },
+        {
+          "name": "The Square / Downtown condos",
+          "medianPrice": 450000,
+          "medianRent": 2400,
+          "note": "Condo product around the Square trading on lifestyle and game-day proximity. HOA dues and STR eligibility vary building to building and change the file completely."
+        },
+        {
+          "name": "Taylor / County South",
+          "medianPrice": 350000,
+          "medianRent": 2000,
+          "note": "County jurisdiction a few minutes south where the millage stack drops to roughly 114 mills and prices ease. The value play for investors who do not need the campus walk."
+        }
+      ],
+      "localAngle": {
+        "tag": "1007 vs Bedroom Math",
+        "title": "The appraiser's rent, not the bedroom gross, is the number your loan lives on.",
+        "body": "Oxford's investor pitch is always the same arithmetic: a four-bedroom near campus at $800 a bedroom grosses $3,200 a month, so a $450,000 purchase looks like it carries itself. Then the appraisal comes back. DSCR lenders qualify files on the Form 1007 single-family comparable rent schedule, the appraiser's opinion of what the property rents for as one unit on one lease, and in Oxford that number routinely lands $500 to $1,000 below the by-the-bedroom student gross. The lender is not being difficult; the 1007 reflects what happens if the student model breaks, which is exactly the scenario underwriting exists to price. And the student model faces its first real test in years: with preleasing at 99.8% for fall 2025, Ole Miss and Greystar are pushing up to 2,700 new on-campus beds by 2027, RISE Oxford Farms adds 504, and the pipeline approaches 5,000 beds, while the university plans 5,000 to 6,000 more students by 2030. Absorption is plausible; guaranteed it is not. The files that work here either buy product where the whole-unit rent is genuinely strong, newer four-bedrooms in Oxford Commons appraising near $2,900, or bring 30% equity so the 1007 figure covers the smaller loan. Your matched specialist structures the file on the appraiser's number from the start and lets the per-bedroom premium be your upside, not your qualification."
+      },
+      "programFit": [
+        "standard-dscr",
+        "interest-only-dscr",
+        "no-ratio-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "4-bed / 3-bath SFR",
+        "neighborhood": "Oxford Commons",
+        "purchasePrice": 380000,
+        "downPaymentPct": 30,
+        "downPayment": 114000,
+        "loanAmount": 266000,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 1859,
+        "monthlyTax": 618,
+        "monthlyInsurance": 320,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 2797,
+        "monthlyRent": 2900,
+        "dscr": 1.04,
+        "monthlyCashFlow": 103,
+        "specialistFocus": [
+          "Qualified on the appraiser's $2,900 whole-unit market rent for a newer four-bedroom, not the $3,400 by-the-bedroom gross the seller's pro forma advertised",
+          "Structured 30% down because at 20% the 1007 rent covered only a 0.91 ratio at this price point",
+          "Underwrote the full 130.11-mill in-city stack at the 15% rental assessment rather than the seller's homesteaded bill"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Why won't my lender use Oxford's by-the-bedroom rents?",
+          "answer": "Because the loan is secured by one property, not four leases. DSCR underwriting uses the appraiser's Form 1007 market rent, the property's value as a single rental on a single lease, which in Oxford typically runs $500 to $1,000 below the student per-bedroom gross. That is the conservative case the lender must price: if the student model stops working, the house re-lets as a family rental at the 1007 number. Structure the loan so it clears on the appraiser's figure and treat the bedroom premium as cash-flow upside. Files built the other way around stall in underwriting."
+        },
+        {
+          "question": "Is the Oxford student housing supply wave a real risk?",
+          "answer": "It is real enough to underwrite. Preleasing hit 99.8% for fall 2025, effectively zero vacancy, but the response is the largest supply push in Oxford's history: up to 2,700 on-campus beds from the Ole Miss-Greystar plan by 2027, 504 at RISE Oxford Farms, close to 5,000 beds in the visible pipeline. Enrollment is growing too, 28,405 in fall 2025 with plans for 5,000 to 6,000 more by 2030. The likeliest outcome is absorption with flattening per-bedroom rents rather than a crash, which is precisely why qualifying on the whole-unit 1007 rent instead of peak student pricing is the durable structure."
+        },
+        {
+          "question": "Can I buy an Oxford house just for football weekend rentals?",
+          "answer": "Verify before you underwrite a dollar of it. Game-day demand is spectacular, hosts report multiples of normal nightly pricing on the seven home football weekends, but Oxford regulates short-term rentals through zoning and a municipal permit regime, and most HOA-governed subdivisions prohibit rentals under 30 days entirely. Seven weekends also does not carry a mortgage by itself. The workable structure is a property that clears on long-term or 1007 market rent, where legal game-day rental income, if the parcel qualifies in writing, becomes seasonal upside. Your matched specialist can structure the file both ways and show you the difference."
+        },
+        {
+          "question": "What are Oxford property taxes for an investor?",
+          "answer": "Moderate by Mississippi college-town standards. Inside the city with the Oxford school district the stack is 130.11 mills for 2025-2026, which at the 15% rental assessment is an effective bill near 1.95% of value, about $618 a month on a $380,000 purchase. Compare Starkville at 155.42 mills or Hattiesburg at 184.3. The county jurisdiction south toward Taylor drops to roughly 114 mills, a meaningful saving on a $350,000-plus asset. As everywhere in Mississippi, the seller's homesteaded bill was computed at 10% with a credit; yours will not be."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Oxford typical home value and YoY change, July 2026",
+        "Zillow Rental Manager and RentCafe, Oxford average rent $2,100 and +1.95% YoY (RentCafe substituted for Zillow small-sample swing), August 2026",
+        "TSC Maps Lafayette County millage table, inside-city Oxford 130.11 mills, 2025-2026",
+        "Ole Miss and Hotty Toddy, fall 2025 record enrollment 28,405 and 99.8% preleasing with 5,000-bed pipeline, November 2025",
+        "iPropertyManagement via Census data, Mississippi statewide rental vacancy 7.6% applied as proxy, 2024",
+        "Neighborhood medians estimated from Zillow city data and active listings, August 2026 (est.)"
+      ]
+    },
+    {
+      "city": "Starkville",
+      "slug": "starkville",
+      "county": "Oktibbeha County",
+      "metro": "Starkville",
+      "hook": "Starkville's typical home value is about $288K against MSU's record 23,563 enrollment, and single-family files rarely clear at 20% down. The duplex math is a different conversation, and it is the one worth having.",
+      "metaDescription": "Starkville rides MSU's record 23,563 enrollment with a $288K median. See how duplex files clear where SFR math does not. Get matched today.",
+      "market": {
+        "medianPrice": 288152,
+        "medianRent": 1521,
+        "priceToRent": 15.8,
+        "vacancyRate": 7.6,
+        "yoyPrice": 2.7,
+        "yoyRent": 1.4,
+        "estDSCR": 0.62,
+        "propertyTaxRate": 2.33,
+        "insuranceMonthly": 280
+      },
+      "overview": "Starkville is the steadier of Mississippi's two SEC college towns. Mississippi State posted another record in fall 2025 at 23,563 students and has grown ten of the past eleven years, the only public university in the state that can say so. The typical home value is about $288,200, up 2.7% year over year, and average rents run $1,521, up modestly. Unlike Oxford, Starkville never priced itself like a resort: the median sits $131,000 below Oxford's, and the tenant base mixes students with university faculty and staff, the town's largest employer by far.\n\nThe honest single-family math is tough anyway. Starkville's in-city stack runs 155.42 mills, an effective investor bill near 2.33% of value at the 15% rental assessment, and at the citywide median with 20% down the ratio computes to about 0.62. Three-bedroom houses renting near $1,800 against high-$200s prices do not carry themselves at standard structures.\n\nWhat does carry itself here is doors. Starkville's stock includes a real inventory of duplexes and small multifamily around the Cotton District and the University Drive corridor, where two two-bedroom units each renting near $1,200 stack $2,400 of income on a $270,000 asset. Mississippi assesses all non-owner-occupied real property, duplexes included, at the same 15% Class 2 ratio, so unlike some states there is no assessment penalty for going multifamily. The supply picture is also calmer than Oxford's: the new 412-bed Azalea Hall opened on campus in fall 2025, but no 5,000-bed private pipeline looms.",
+      "regulationBadge": "friendly",
+      "regulationNote": "Starkville adds no rent control or unusual rental restrictions on top of Mississippi's landlord-friendly framework, and MSU's requirement that freshmen live on campus mainly shapes which product upperclassmen rent rather than whether they rent.",
+      "neighborhoods": [
+        {
+          "name": "Cotton District",
+          "medianPrice": 320000,
+          "medianRent": 1900,
+          "note": "The famous walkable district between downtown and campus, dense with duplexes and cottages. Per-unit pricing is high but so is per-square-foot rent; small multifamily here is the signature Starkville asset."
+        },
+        {
+          "name": "University Drive Corridor",
+          "medianPrice": 280000,
+          "medianRent": 1700,
+          "note": "The main campus artery where student and staff rentals mix. Conventional houses and legacy duplexes; the middle of the Starkville market in every sense."
+        },
+        {
+          "name": "West Starkville / Hwy 12",
+          "medianPrice": 235000,
+          "medianRent": 1500,
+          "note": "The value end of town along the Highway 12 commercial spine. Family and staff tenants, softer per-bedroom premiums, and the best entry prices inside the city stack."
+        }
+      ],
+      "localAngle": {
+        "tag": "College Duplex Math",
+        "title": "In Starkville, the ratio problem is a unit-count problem.",
+        "body": "Run the standard file first so the problem is visible: a $288,200 median house, 20% down, taxes at the full 155.42-mill in-city stack and the 15% rental assessment, insurance at inland-Mississippi pricing, and the ratio computes to roughly 0.62 against $1,521 average rents. Even a strong three-bedroom at $1,800 does not rescue that structure. Now change the asset instead of the assumptions. Starkville's housing stock, particularly the Cotton District and the blocks off University Drive, carries a genuine inventory of duplexes and small multifamily built across decades of student demand. A $270,000 duplex with two two-bedroom units at $1,200 each produces $2,400 of monthly income, and the same tax regime that punished the single-family file treats the duplex identically: Mississippi assesses all non-owner-occupied real property at the 15% Class 2 ratio, duplex or house, no commercial reclassification the way Tennessee applies to two-plus-unit rentals. The demand side underwrites well too. MSU enrollment hit a record 23,563 in fall 2025 and has grown ten of eleven years, faculty and staff form a year-round tenant layer under the student cycle, and the campus supply response has been measured, the 412-bed Azalea Hall, not the 5,000-bed wave bearing down on Oxford. DSCR lenders finance 2-to-4-unit properties on the same rent-over-payment logic, using the appraiser's per-unit market rents. Your matched specialist structures Starkville files around unit count from the first conversation, because that is the variable that actually moves the ratio here."
+      },
+      "programFit": [
+        "standard-dscr",
+        "portfolio-dscr",
+        "interest-only-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "Duplex (2-unit)",
+        "neighborhood": "Cotton District",
+        "purchasePrice": 270000,
+        "downPaymentPct": 25,
+        "downPayment": 67500,
+        "loanAmount": 202500,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 1415,
+        "monthlyTax": 524,
+        "monthlyInsurance": 300,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 2239,
+        "monthlyRent": 2400,
+        "dscr": 1.07,
+        "monthlyCashFlow": 161,
+        "specialistFocus": [
+          "Structured the file as a 2-unit purchase because comparable single-family collateral at this price computed to a 0.62 ratio, and the second unit's income is what carried the file to 1.07",
+          "Qualified on the appraiser's per-unit market rents of $1,200 each rather than peak August student pricing",
+          "Underwrote the full 155.42-mill in-city stack at the 15% rental assessment, confirming Mississippi applies no separate commercial classification to duplexes"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Does buying a duplex raise my property taxes in Mississippi?",
+          "answer": "No, and this is a genuine structural advantage over neighboring states. Mississippi assesses all non-owner-occupied real property, single-family rental or duplex alike, as Class 2 property at 15% of true value. Tennessee, by contrast, reclassifies residential property with two or more rental units as commercial at a 40% assessment, which can nearly double the tax bill on a Nashville or Memphis duplex. In Starkville the duplex pays the same 155.42-mill stack at the same 15% ratio as the house next door while producing materially more rent, which is exactly why the duplex is the signature file here."
+        },
+        {
+          "question": "Is Starkville safer than Oxford for a student rental?",
+          "answer": "Different risk, mostly smaller. Starkville's median price sits about $131,000 below Oxford's, so the same dollar buys more doors, and its supply pipeline is calmer: the new Azalea Hall added 412 on-campus beds in fall 2025 versus the nearly 5,000-bed wave building in Oxford. MSU's enrollment growth is slower but steadier, a record 23,563 in fall 2025 and growth in ten of eleven years, with faculty and staff renting year-round beneath the student cycle. The tradeoff is thinner appreciation and per-bedroom premiums. For cash-flow-first investors, Starkville is usually the better-behaved market of the two."
+        },
+        {
+          "question": "What rents do Starkville rentals actually achieve?",
+          "answer": "Citywide the average runs $1,521, up modestly over the year, but the spread by product is what matters. Three-bedroom houses lease near $1,800, two-bedroom units in the Cotton District and near campus run $1,100 to $1,300 per unit, and West Starkville family rentals sit near $1,500. Appraisers here are experienced with the student market and their per-unit 1007 figures come back close to street reality, without the by-the-bedroom inflation that distorts Oxford pro formas. August is the leasing cliff: a unit that misses the student cycle may wait months, so underwrite a vacancy reserve around that calendar."
+        },
+        {
+          "question": "How heavy are Starkville property taxes on a rental?",
+          "answer": "Heavier than Oxford, lighter than Hattiesburg. The in-city stack runs 155.42 mills for most Starkville districts, which at the 15% rental assessment is an effective bill near 2.33% of value, about $524 a month on a $270,000 duplex. The seller's homesteaded bill was computed at the 10% ratio with a credit, so expect roughly double their number. The offset is that Starkville's entry prices are low enough that the mills apply to a smaller base, and on a two-unit file the tax line divides across two rents instead of one."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Starkville typical home value and YoY change, July 2026",
+        "Zillow Rental Manager market trends, Starkville average rent and YoY change, August 2026",
+        "TSC Maps Oktibbeha County millage table, inside-city Starkville 155.42 mills, 2025",
+        "Mississippi State University, fall 2025 record enrollment 23,563 and Azalea Hall opening, November 2025",
+        "iPropertyManagement via Census data, Mississippi statewide rental vacancy 7.6% applied as proxy, 2024",
+        "Neighborhood medians estimated from Zillow city data and active listings, August 2026 (est.)"
+      ]
+    },
+    {
+      "city": "Tupelo",
+      "slug": "tupelo",
+      "county": "Lee County",
+      "metro": "Tupelo",
+      "hook": "Tupelo's typical home value jumped 5.6% in a year to about $217K, the fastest appreciation in this file, on a healthcare-and-manufacturing economy anchored by North Mississippi Health Services' 4,000-plus jobs.",
+      "metaDescription": "Tupelo grew 5.6% in a year, the fastest in Mississippi's DSCR markets, on a $217K median and hospital-anchored jobs. See where the ratio lands. Get matched today.",
+      "market": {
+        "medianPrice": 217267,
+        "medianRent": 1235,
+        "priceToRent": 14.7,
+        "vacancyRate": 7.6,
+        "yoyPrice": 5.6,
+        "yoyRent": 2.9,
+        "estDSCR": 0.67,
+        "propertyTaxRate": 2.04,
+        "insuranceMonthly": 250
+      },
+      "overview": "Tupelo is northeast Mississippi's economic capital and the fastest-appreciating market in this file: the typical home value rose 5.6% over the past year to about $217,300, with the east-side 38804 ZIP up 6.9%. The engine is payroll depth unusual for a city this size. North Mississippi Health Services, whose flagship is among the largest rural hospitals in the country, employs more than 4,000 people, the furniture manufacturing corridor across Lee and surrounding counties remains one of America's densest, and the Toyota assembly plant at nearby Blue Springs anchors an automotive supplier network across the region.\n\nRents have not kept the same pace. The average runs about $1,235, up 2.9% year over year, with three-bedroom houses near $1,500. That spread, prices sprinting while rents jog, is compressing ratios that used to clear easily: at the citywide median with 20% down the computation now lands near 0.67. Tupelo is transitioning from a pure cash-flow market into a hybrid, and buyers still underwriting 2023 assumptions are the ones getting surprised.\n\nThe tax stack is middling for Mississippi: about 135.89 mills inside the city with Tupelo Public Schools, near 2.04% effective at the 15% rental assessment. Files still clear below the median: entry three-bedrooms in the $170s renting near $1,495 carry themselves at 25% down, and that is precisely the segment where hospital staff and manufacturing households rent.",
+      "regulationBadge": "friendly",
+      "regulationNote": "Tupelo layers no rent control or rental licensing on top of Mississippi's statutes, and the practical note is on the tax side: Lee County raised its levy 2 mills in September 2025 for a new detention center, so use current-year millage when underwriting.",
+      "neighborhoods": [
+        {
+          "name": "West Tupelo (38801)",
+          "medianPrice": 210221,
+          "medianRent": 1450,
+          "note": "The hospital side of town at a $210,200 ZIP median, up 5.4%. Medical-staff tenants and steady leases; the closest thing Tupelo has to a set-and-forget rental zone."
+        },
+        {
+          "name": "East Tupelo (38804)",
+          "medianPrice": 206348,
+          "medianRent": 1425,
+          "note": "The growth side, up 6.9% over the year, the fastest ZIP in this file. Entry stock in the $170s still surfaces here, which is where the DSCR math genuinely works."
+        },
+        {
+          "name": "Joyner",
+          "medianPrice": 175000,
+          "medianRent": 1350,
+          "note": "The midtown historic district of 1940s-1960s cottages. Charm-driven demand, modest prices, and rehab budgets that decide whether the file pencils."
+        }
+      ],
+      "localAngle": {
+        "tag": "Jobs-Backed Value",
+        "title": "The appreciation is new. The payroll underneath it is not.",
+        "body": "Tupelo's 5.6% year of price growth looks like a small market catching a bid, and partly it is, but the demand under it has been compounding for decades. North Mississippi Health Services is the region's dominant employer with more than 4,000 workers and a flagship hospital that ranks among the largest rural medical centers in the country, drawing patients, and staff, from a multi-county radius. The furniture industry that made this corridor famous still runs at national scale across Lee and the surrounding counties, and Toyota's Blue Springs assembly plant a few miles west feeds a supplier network that pays manufacturing wages into Tupelo's rental market. Those three payrolls rent houses in the $1,300 to $1,600 band, which is exactly where Tupelo's stock sits. The underwriting honesty: prices are outrunning rents. A market that cleared 1.0-plus at the median a few years ago now computes near 0.67 at 20% down, and the east-side 38804 ZIP, up 6.9%, is compressing fastest. The files that still work are bought below the median, entry three-bedrooms in the $170s in East Tupelo or Joyner renting near $1,495, where 25% down carries the debt with a little room. One more current-year detail: Lee County added 2 mills in September 2025 to fund a new detention center, so pull this year's stack, not last year's. Your matched specialist structures Tupelo files on current millage and the appraiser's rent, and will tell you plainly when a specific address has appreciated past its own lease."
+      },
+      "programFit": [
+        "standard-dscr",
+        "portfolio-dscr",
+        "bridge-to-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 2-bath SFR",
+        "neighborhood": "East Tupelo (38804)",
+        "purchasePrice": 175000,
+        "downPaymentPct": 25,
+        "downPayment": 43750,
+        "loanAmount": 131250,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 917,
+        "monthlyTax": 298,
+        "monthlyInsurance": 235,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 1450,
+        "monthlyRent": 1495,
+        "dscr": 1.03,
+        "monthlyCashFlow": 45,
+        "specialistFocus": [
+          "Targeted below-median entry stock because at the $217,300 citywide median the same structure computed to a 0.67 ratio",
+          "Underwrote taxes on the current 135.89-mill stack including Lee County's 2-mill increase from September 2025, at the full 15% rental assessment",
+          "Qualified on the appraiser's $1,495 market rent, consistent with hospital-staff and manufacturing-household lease comps on the east side"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Is Tupelo still a cash-flow market in 2026?",
+          "answer": "Below the median, yes; at the median, no longer. Prices rose 5.6% over the past year while rents rose 2.9%, and that scissors has pushed the citywide 20%-down computation to about 0.67. But Tupelo's stock still includes entry three-bedrooms in the $170s that rent near $1,495, and at 25% down those files clear with cash flow left over. The discipline is refusing to chase appreciation into the high $200s where the lease cannot follow. Buy the price point where hospital staff and manufacturing households actually rent, and the ratio still works."
+        },
+        {
+          "question": "What jobs support Tupelo tenant demand?",
+          "answer": "Three payrolls with unusual depth for a city of 38,000. North Mississippi Health Services employs more than 4,000 people and its flagship hospital is among the largest rural medical centers in the country, pulling staff from a multi-county radius. The furniture manufacturing corridor across Lee and surrounding counties remains one of the densest in America. And Toyota's Blue Springs assembly plant nearby anchors an automotive supplier network across northeast Mississippi. All three rent in the $1,300 to $1,600 band, which matches Tupelo's housing stock almost exactly and keeps vacancy short at that price point."
+        },
+        {
+          "question": "What is the property tax situation for a Tupelo rental?",
+          "answer": "Inside the city with Tupelo Public Schools, the combined stack runs about 135.89 mills, which at the 15% rental assessment is an effective bill near 2.04% of value, about $298 a month on a $175,000 purchase. Note the current-year change: Lee County's supervisors added 2 mills in September 2025 to fund a new detention center, so bills computed from older millage tables run light. And as everywhere in Mississippi, the seller's homesteaded figure was assessed at 10% with a credit; your Class 2 rental bill will run close to double it on the same house."
+        },
+        {
+          "question": "Which side of Tupelo should an investor buy?",
+          "answer": "East for growth, west for stability. The 38804 east side rose 6.9% over the past year, the fastest ZIP in this file, and still surfaces entry stock in the $170s where the DSCR math clears; it is also where appreciation is compressing ratios fastest, so speed matters. The 38801 west side, up 5.4%, sits closer to the hospital complex and rents to medical staff on quiet, renewing leases. Joyner's historic cottages split the difference on price with rehab risk attached. All three work; they reward different investor temperaments."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Tupelo citywide and ZIP-level typical home values, July 2026",
+        "Zillow Rental Manager market trends, Tupelo average rent and YoY change, August 2026",
+        "TSC Maps Lee County millage table and Daily Journal, Tupelo district 135.89 mills plus Lee County 2-mill increase, September 2025",
+        "Livability and CDF, North Mississippi Health Services employment 4,000-plus, 2024",
+        "iPropertyManagement via Census data, Mississippi statewide rental vacancy 7.6% applied as proxy, 2024",
+        "Insurance estimate from Insurify Mississippi average premium applied to Tupelo median, 2026 (est.)"
+      ]
+    },
+    {
+      "city": "Ocean Springs",
+      "slug": "ocean-springs",
+      "county": "Jackson County",
+      "metro": "Gulfport-Biloxi",
+      "hook": "Ocean Springs froze new residential short-term rental permits in August 2025 with a 115-permit cap already in place. The prettiest town on the coast is now a long-term rental market at a $271K median, whether the Airbnb spreadsheet knows it or not.",
+      "metaDescription": "Ocean Springs averages $271K and froze new residential STR permits in August 2025. See the long-term DSCR math that still works. Get matched today.",
+      "market": {
+        "medianPrice": 271190,
+        "medianRent": 1750,
+        "priceToRent": 12.9,
+        "vacancyRate": 7.9,
+        "yoyPrice": 0.5,
+        "yoyRent": 0.2,
+        "estDSCR": 0.68,
+        "propertyTaxRate": 2.18,
+        "insuranceMonthly": 560
+      },
+      "overview": "Ocean Springs is the Gulf Coast's lifestyle premium: a walkable arts-district downtown, oak-canopy streets, and the school district that pulls families across the bay from Biloxi. The typical home value is about $271,200, essentially flat over the past year at up 0.5%, with average rents near $1,750 and apartment rents flat at up 0.21% per RentCafe. Flat is the honest word for this market in 2026, and after the run-up of the early 2020s, flat is not an insult.\n\nThe regulatory story is the headline. In August 2025 the Board of Aldermen placed a moratorium on new residential short-term rental permits, on top of an existing framework that caps residential STRs at 115 permits citywide with density-zone limits and two overlay districts downtown and along Porter Avenue. Existing permit holders continue operating and commercial-zone STRs are unaffected, but an investor buying a house here today should underwrite it as a long-term rental, full stop.\n\nThe cost side carries the full coastal load. Ocean Springs' combined millage of 145.04 mills is the highest of the three coastal cities in this file, near 2.18% effective at the 15% rental assessment, and wind-loaded insurance near $560 a month at the median reflects the wind pool's 16% January 2026 increase. At 20% down the median computes to about 0.68. What clears: the school-district premium keeps professional families renting $1,850 to $2,200 houses long-term, and unincorporated St. Martin next door escapes the city millage entirely.",
+      "regulationBadge": "moderate",
+      "regulationNote": "A moratorium on new residential short-term rental permits has been in place since August 19, 2025, layered on a 115-permit citywide cap, so underwrite Ocean Springs purchases on long-term lease income unless the parcel sits in a commercial zone.",
+      "neighborhoods": [
+        {
+          "name": "Downtown Ocean Springs",
+          "medianPrice": 340000,
+          "medianRent": 2100,
+          "note": "The walkable core around Government Street and the arts district. Cottage stock at premium pricing; the STR permits that exist concentrate here, and they do not transfer with a sale you should count on."
+        },
+        {
+          "name": "East Ocean Springs / Gulf Park Estates",
+          "medianPrice": 250000,
+          "medianRent": 1700,
+          "note": "The family-rental workhorse east of downtown toward the Gulf Park Estates area. School-district demand, conventional stock, and the most predictable leases in the city."
+        },
+        {
+          "name": "St. Martin",
+          "medianPrice": 220000,
+          "medianRent": 1600,
+          "note": "The unincorporated community across the bayou, technically outside city limits, which means no 145-mill city stack, county-level millage only. The quiet tax arbitrage of the Ocean Springs market."
+        }
+      ],
+      "localAngle": {
+        "tag": "STR Moratorium",
+        "title": "The town that said no more: what the 2025 STR freeze means for your file.",
+        "body": "Ocean Springs spent the early 2020s as the coast's Airbnb darling, and then did what charming towns eventually do: it capped the trade. The existing ordinance already limited residential short-term rentals to 115 permits citywide, with a density-zone cap and additional allowances only inside the Downtown and Porter Avenue overlay districts. On August 19, 2025, the Board of Aldermen went further and placed a moratorium on new residential STR permits entirely while the Planning Commission reviews the framework. Existing valid permits continue to operate and commercial-zone STRs are unaffected, but the pipeline for a new investor buying a residential house and converting it to nightly rental is closed as of this writing. Do not buy here on an Airbnb pro forma. Two structures still make Ocean Springs files work. First, the long-term family rental: the school district is the coast's strongest magnet, professional households rent $1,850 to $2,200 houses for years, and metro vacancy sits near 7.9%. Second, the jurisdiction play: St. Martin, the unincorporated community next door, shares the school district while escaping the city's 145.04-mill stack, the highest of the coastal cities in this file, which redirects hundreds of dollars a year per $100,000 of value from the tax line back into the ratio. Your matched specialist structures Ocean Springs files on long-term lease income and the parcel's actual taxing jurisdiction, and treats any surviving STR permit as a diligence question, never an underwriting assumption."
+      },
+      "programFit": [
+        "no-ratio-dscr",
+        "standard-dscr",
+        "interest-only-dscr"
+      ],
+      "dealExample": {
+        "label": "Cash-Out Refinance",
+        "propertyType": "3-bed / 2-bath SFR",
+        "neighborhood": "Downtown Ocean Springs",
+        "purchasePrice": 300000,
+        "downPaymentPct": 30,
+        "downPayment": 90000,
+        "loanAmount": 210000,
+        "loanType": "30-Year Fixed, No-Ratio Cash-Out",
+        "interestOnly": false,
+        "monthlyPI": 1468,
+        "monthlyTax": 545,
+        "monthlyInsurance": 580,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 2593,
+        "monthlyRent": 2100,
+        "dscr": 0.81,
+        "monthlyCashFlow": -493,
+        "specialistFocus": [
+          "Placed the cash-out as a no-ratio DSCR at 70% of appraised value because the wind-loaded coverage ratio computed to 0.81, and the borrower was redeploying the equity into a higher-yield purchase elsewhere",
+          "Documented the negative carry of roughly $493 a month in writing so the borrower sized reserves for it as the cost of freeing $200,000-plus of trapped equity",
+          "Underwrote the full 145.04-mill city stack and the post-increase wind pool premium rather than the owner's legacy homesteaded and pre-2026 figures"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Can I buy a house in Ocean Springs and turn it into an Airbnb?",
+          "answer": "As of this writing, no. The city placed a moratorium on new residential short-term rental permits on August 19, 2025, on top of an ordinance that already capped residential STRs at 115 permits citywide with density-zone limits and overlay districts downtown and on Porter Avenue. Existing permits continue operating and commercial zones are exempt, but a residential purchase today has no permit path until the city reopens one. Do not assume a seller's permit conveys, and do not underwrite nightly income. Buy Ocean Springs as a long-term rental or buy somewhere else for the STR thesis; Biloxi's permit regime remains open in the right zones."
+        },
+        {
+          "question": "Why does a cash-out refinance here run cash-flow negative?",
+          "answer": "Because the carrying costs are coastal while the rents are residential. Pull equity to 70% of value on a $300,000 house and the new payment stacks $1,468 of principal and interest, about $545 of taxes at the 15% rental assessment against 145.04 mills, and $580 of wind-loaded insurance, roughly $2,593 against a $2,100 lease. That is a 0.81 ratio and negative carry near $493 a month. It can still be rational when the freed equity earns more elsewhere, which is why no-ratio programs exist, but it should be a decision made with open eyes and sized reserves, not a surprise that shows up at the closing table."
+        },
+        {
+          "question": "What makes Ocean Springs rents hold up without the STR market?",
+          "answer": "The school district. Ocean Springs schools are the strongest draw on the Mississippi coast, and families pay for access to them: professional households rent $1,850 to $2,200 houses for multi-year stretches, teachers and Keesler families fill the $1,500 to $1,800 band, and metro vacancy sits near 7.9%. RentCafe's apartment series shows rents essentially flat over the past year at up 0.21%, which reads less like weakness and more like a market that already priced its premium. Long-term Ocean Springs is a low-drama landlording proposition; the STR freeze changed the exit spreadsheet, not the tenant demand."
+        },
+        {
+          "question": "Is St. Martin a real alternative to buying inside Ocean Springs?",
+          "answer": "It is the quiet version of the same trade. St. Martin is unincorporated Jackson County immediately across the bayou: same commute, and crucially outside Ocean Springs city limits, so a rental there escapes the 145.04-mill city stack, the highest combined millage of the coastal cities in this file, and pays county-level rates instead. Entry prices run about $50,000 below comparable in-city stock. The tradeoffs are the address premium and walkability you give up. For a pure numbers file, St. Martin frequently clears where the in-city equivalent does not; your matched specialist can run both versions side by side."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Ocean Springs typical home value and YoY change, July 2026",
+        "Zillow Rental Manager and RentCafe, Ocean Springs average rent $1,750 and +0.21% YoY (RentCafe substituted for Zillow small-sample swing), August 2026",
+        "City of Ocean Springs and GCWire, residential STR moratorium August 19 2025 and 115-permit cap, 2025",
+        "WLOX and City of Biloxi comparison, Ocean Springs combined millage 145.04 mills, 2026",
+        "The Kirkland Company, Gulfport-Biloxi multifamily vacancy 7.9%, December 2024",
+        "Insurance Business and MWUA, wind pool 16% premium increase effective January 1 2026, 2025"
+      ]
+    },
+    {
+      "city": "Meridian",
+      "slug": "meridian",
+      "county": "Lauderdale County",
+      "metro": "Meridian",
+      "hook": "Meridian's typical home value is about $113K against rents near $1,275, deep-value math that clears the ratio at the median. Then a 176.58-mill tax stack, one of Mississippi's heaviest, takes its cut. Both numbers belong in the file.",
+      "metaDescription": "Meridian's $113K median clears the ratio with room to spare, then a 176.58-mill tax stack takes its cut. See the honest DSCR math. Get matched today.",
+      "market": {
+        "medianPrice": 113248,
+        "medianRent": 1275,
+        "priceToRent": 7.4,
+        "vacancyRate": 7.6,
+        "yoyPrice": 1.1,
+        "yoyRent": 5.1,
+        "estDSCR": 1.19,
+        "propertyTaxRate": 2.65,
+        "insuranceMonthly": 190
+      },
+      "overview": "Meridian is the Jackson trade at half the scale and none of the water headlines. The typical home value is about $113,200, up 1.1% year over year, against average rents near $1,275, with the apartment market up 5.1% per Apartments.com's quarterly series. That is a price-to-rent ratio of 7.4, and the standard 20%-down computation at the median lands near 1.19, one of only two markets in this file that clears at the median. The demand base is steadier than the price tag suggests: Naval Air Station Meridian trains Navy and Marine Corps aviators north of town, Key Field hosts the Air National Guard's 186th Air Refueling Wing, and the region's healthcare systems anchor the east-central Mississippi economy alongside MSU-Meridian's downtown campus.\n\nThe Memphis-pattern catch applies at full strength. Meridian's in-city stack, 52.7 city mills plus 69.1 for the school district and community college plus the county's share, totals about 176.58 mills, among the heaviest in Mississippi. At the 15% rental assessment that is an effective bill near 2.65% of value. On a $113,000 median the dollars stay manageable, about $250 a month, which is why the ratio survives; on the nicer Poplar Springs stock at $190,000-plus the tax line starts doing real damage.\n\nThe dispersion warning from every deep-value market applies here too: the 39307 west side carries a $61,900 ZIP median and genuine capex risk, while 39305 in the north holds the conventional rental stock. Price the block, not the citywide average.",
+      "regulationBadge": "friendly",
+      "regulationNote": "Meridian adds no rental licensing or rent regulation beyond Mississippi's landlord-friendly statutes, so the underwriting risks here are asset condition and submarket selection rather than anything in the code book.",
+      "neighborhoods": [
+        {
+          "name": "Poplar Springs",
+          "medianPrice": 190460,
+          "medianRent": 1450,
+          "note": "The 39305 north side, the conventional rental zone of Meridian at a $190,500 ZIP median. Healthcare and base-affiliated tenants; the safest appraisals and the heaviest per-door tax bills in town."
+        },
+        {
+          "name": "Midtown",
+          "medianPrice": 95348,
+          "medianRent": 1100,
+          "note": "The 39301 central district around downtown and the MSU-Meridian campus at a $95,300 ZIP median. The workhorse value zone where sub-$120K purchases rent in the $1,100 to $1,250 band."
+        },
+        {
+          "name": "West Meridian",
+          "medianPrice": 61883,
+          "medianRent": 895,
+          "note": "The 39307 deep-value zone with a $61,900 ZIP median, up 5.1% off a very low base. Gross yields look enormous; rehab, collateral minimums, and street-level diligence decide what is real."
+        }
+      ],
+      "localAngle": {
+        "tag": "Deep Value, Heavy Mills",
+        "title": "The ratio clears at the median. The tax stack is why you underwrite anyway.",
+        "body": "Meridian is the cleanest illustration in Mississippi of the pattern disciplined investors learn in Memphis: a market can clear the ratio at the median and still punish buyers who skip the second layer of math. The first layer is genuinely attractive. A $113,200 typical value against $1,275 average rents computes to about 1.19 at 20% down, military and healthcare payrolls, NAS Meridian's aviator training pipeline, Key Field's 186th Air Refueling Wing, and the regional hospital systems, keep the tenant pool stocked, and apartment rents rose 5.1% over the past year. The second layer is the stack. Meridian's combined levy runs about 176.58 mills, city at 52.7, school district and community college at 69.1, plus the county share, one of the heaviest totals in the state. At the 15% Class 2 rental assessment with no homestead credit, the effective bill is near 2.65% of market value, and it scales mercilessly: manageable at a $113,000 median, meaningful at Poplar Springs prices, and the difference between the seller's homesteaded figure and your investor bill can approach double. The third layer is dispersion. West Meridian's $61,900 ZIP median advertises spectacular gross yields on houses that may need $30,000 of work and sit below some lenders' collateral minimums, while Midtown's sub-$120K stock rents at $1,100-plus with far less drama. Your matched specialist structures Meridian files on the full 176.58-mill investor tax bill and the appraiser's rent for the specific block, which is how the deep-value math stays deep value after closing."
+      },
+      "programFit": [
+        "standard-dscr",
+        "portfolio-dscr",
+        "bridge-to-dscr"
+      ],
+      "dealExample": {
+        "label": "Purchase",
+        "propertyType": "3-bed / 2-bath SFR",
+        "neighborhood": "Midtown",
+        "purchasePrice": 120000,
+        "downPaymentPct": 25,
+        "downPayment": 30000,
+        "loanAmount": 90000,
+        "loanType": "30-Year Fixed",
+        "interestOnly": false,
+        "monthlyPI": 629,
+        "monthlyTax": 265,
+        "monthlyInsurance": 190,
+        "monthlyHOA": 0,
+        "monthlyPITIA": 1084,
+        "monthlyRent": 1250,
+        "dscr": 1.15,
+        "monthlyCashFlow": 166,
+        "specialistFocus": [
+          "Underwrote the full 176.58-mill stack at the 15% rental assessment, $265 a month, nearly double the seller's homesteaded bill on the same house",
+          "Confirmed the property cleared lender collateral minimums, since several of the 70+ lenders set floors that exclude the deepest-value stock in 39307",
+          "Qualified on the appraiser's $1,250 market rent, consistent with Midtown lease comps near the MSU-Meridian campus"
+        ]
+      },
+      "faqItems": [
+        {
+          "question": "Is Meridian too small a market for DSCR lending?",
+          "answer": "No, but it narrows the lender list. DSCR lenders finance Meridian routinely; what changes is collateral floors, several lenders set minimum property values or loan amounts that exclude the deepest-value stock on the west side, and appraisal scrutiny, since comps in a smaller market carry wider adjustments. Midtown and Poplar Springs purchases between $100,000 and $200,000 sit comfortably inside most guidelines. The practical move is matching the file to lenders whose minimums fit the price point before going under contract, which is precisely the matching problem this site exists to solve."
+        },
+        {
+          "question": "What drives rental demand in Meridian?",
+          "answer": "Payrolls that do not read the national news. NAS Meridian trains Navy and Marine Corps aviators and generates a steady rotation of instructors, students, and support families; Key Field hosts the Air National Guard's 186th Air Refueling Wing; the regional healthcare systems anchor east-central Mississippi's job base; and MSU-Meridian's downtown campus adds students and staff. That mix rents in the $900 to $1,450 band, matching Meridian's stock almost exactly, and it is why apartment rents rose 5.1% over the past year in a market where prices barely moved."
+        },
+        {
+          "question": "How bad are Meridian property taxes really?",
+          "answer": "Heavy as a percentage, manageable in dollars at the entry point. The combined in-city stack runs about 176.58 mills, and at the 15% rental assessment that is an effective bill near 2.65% of value, third-heaviest in this file behind Jackson and Hattiesburg. On a $120,000 Midtown purchase that is about $265 a month, which the $1,250 rent absorbs while still clearing 1.15. On a $190,000 Poplar Springs house the same percentage costs $420 a month and the ratio tightens fast. The stack rewards buying low here more than in any Mississippi market except Jackson."
+        },
+        {
+          "question": "Should I buy the cheap houses in West Meridian?",
+          "answer": "Only with eyes open and a rehab budget. The 39307 ZIP median of $61,900 produces gross yields that look absurd on paper, and the 5.1% one-year gain shows real money moving in. The honest checklist: many houses there need $20,000 to $40,000 of work before they rent at the $895 area median, some fall below lender collateral minimums entirely, and appraisals come back conservative. The BRRRR path, buy distressed, renovate, refinance on the improved value, works better here than a conventional purchase. Your matched specialist can structure the bridge-to-DSCR sequence that fits that plan."
+        }
+      ],
+      "dataSources": [
+        "Zillow Home Value Index, Meridian citywide and ZIP-level typical home values, July 2026",
+        "Zillow Rental Manager market trends, Meridian average rent $1,275, August 2026",
+        "Apartments.com rent market trends, Meridian YoY rent change +5.1% (substituted for Zillow small-sample swing), June 2026",
+        "TSC Maps Lauderdale County millage table and Meridian Star, in-city Meridian 176.58 mills (city 52.7, schools and MCC 69.1), 2025",
+        "iPropertyManagement via Census data, Mississippi statewide rental vacancy 7.6% applied as proxy, 2024",
+        "Insurance estimate from Insurify Mississippi average premium applied to Meridian median, 2026 (est.)"
+      ]
+    }
+  ]
+}
