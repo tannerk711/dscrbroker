@@ -1,0 +1,57 @@
+---
+/**
+ * Expectation-setting block: exactly what happens after the form. The silent
+ * fear on any match form is being sold to a call list, so this kills it
+ * explicitly (one specialist, not a lead blast) and keeps every licensed
+ * activity attributed to the matched specialist. Template furniture, same on
+ * every scenario page.
+ */
+const steps = [
+  {
+    title: 'You tap through about 10 quick questions',
+    body: 'Deal type, property, state, the numbers, timeline, then your name and contact info so your specialist can reach you. About 2 minutes. No SSN, no credit pull, no documents.',
+  },
+  {
+    title: 'We match you with one specialist',
+    body: 'One licensed DSCR specialist who covers your state, not a list of lenders bidding on your phone number. Your info goes to that one specialist only.',
+  },
+  {
+    title: 'Your specialist reviews the structure',
+    body: 'They look at how your deal is put together, flag anything that would trip underwriting, and tell you which lenders in their network fit the file.',
+  },
+  {
+    title: 'You decide whether to move',
+    body: 'If the fit is right, your specialist handles pre-approval, pricing, and the file from there. If it is not, you walk away owing nothing.',
+  },
+];
+---
+
+<section class="cv-auto border-t border-gray-200 bg-white py-14 md:py-20">
+  <div class="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
+    <div class="lr-reveal text-center">
+      <p class="text-xs font-semibold uppercase tracking-widest text-amber-dark">No surprises</p>
+      <h2 class="mt-2 text-2xl font-bold tracking-tight text-navy md:text-3xl">
+        What happens after you match
+      </h2>
+      <p class="mx-auto mt-3 max-w-xl text-base leading-relaxed text-gray-500">
+        We are an independent directory, not a lender. We match and route. Your
+        matched specialist does everything that requires a license.
+      </p>
+    </div>
+    <ol class="mt-10 space-y-4">
+      {steps.map((step, i) => (
+        <li class="lr-reveal flex gap-4 rounded-xl border border-gray-200 bg-off-white p-5">
+          <span
+            class="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-blue text-base font-bold text-white"
+            style="font-variant-numeric: tabular-nums;"
+            aria-hidden="true"
+          >{i + 1}</span>
+          <div>
+            <p class="font-bold text-navy">{step.title}</p>
+            <p class="mt-1 text-sm leading-relaxed text-gray-500 md:text-[0.9375rem]">{step.body}</p>
+          </div>
+        </li>
+      ))}
+    </ol>
+  </div>
+</section>

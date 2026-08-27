@@ -1,0 +1,32 @@
+---
+/**
+ * Text-style inline CTA for scenario pages. In-content text links convert
+ * 2-3x sidebar/end CTAs and dodge the banner blindness a second boxed CTA
+ * would trigger. The lead-in is context-matched per placement ("Not sure your
+ * structure clears this?"), never generic. Use once per page, at a decision
+ * moment MidCTA does not already cover.
+ */
+interface Props {
+  /** Context-matched lead-in sentence ending where the link picks up. */
+  lead: string;
+  /** The linked action text, first person. */
+  label?: string;
+  /** Sentence continuing after the link. Vary it when a page uses this twice. */
+  tail?: string;
+}
+const {
+  lead,
+  label = 'Match me with a specialist',
+  tail = 'and get a straight answer before anything gets submitted. 2 minutes, no SSN, no credit pull.',
+} = Astro.props;
+---
+
+<p class="lr-reveal my-8 rounded-lg border-l-[3px] border-l-blue bg-blue/[0.04] px-5 py-4 text-[1.0625rem] leading-relaxed text-navy">
+  {lead}
+  <a
+    href="/qualify/"
+    data-event="scroll_to_form"
+    data-location="inline_scenario"
+    class="font-semibold text-blue-dark underline decoration-blue/40 underline-offset-4 transition-colors hover:text-blue hover:decoration-blue"
+  >{label}</a> {tail}
+</p>

@@ -1,0 +1,64 @@
+---
+/**
+ * The scenario template's signature module: the cross-market variance table.
+ * Every ranking competitor is one lender presenting its own box as market
+ * truth; a directory sitting across 70+ lenders is the only party that can
+ * honestly publish where programs disagree. This table is simultaneously the
+ * page's unique-data module (scaled-content safe harbor), its AI-quotable
+ * asset, and its conversion argument (a specialist routes your file to the
+ * lenders whose box fits). One per page, rows unique to the scenario.
+ */
+interface Row {
+  /** The deal term that varies, e.g. "Entity vesting". */
+  aspect: string;
+  /** How it actually ranges across the network. Never a rate. */
+  range: string;
+  /** What decides which end of the range a file lands on. */
+  note: string;
+}
+interface Props {
+  rows: Row[];
+  caption?: string;
+}
+const { rows, caption } = Astro.props;
+---
+
+<figure class="lr-reveal my-10">
+  <div class="overflow-hidden rounded-xl border border-gray-200 bg-white shadow-md">
+    <div class="border-b border-gray-200 bg-navy px-5 py-4 md:px-6">
+      <p class="text-xs font-semibold uppercase tracking-widest text-amber">
+        Where lenders disagree
+      </p>
+      <p class="mt-1 text-sm leading-relaxed text-slate-300">
+        No single lender's article can show you this row by row. These are the
+        spreads you will see across DSCR programs, and the reason files get
+        matched to specific lenders.
+      </p>
+    </div>
+    <div class="table-scroll">
+      <table class="learn-table my-0 rounded-none border-0 shadow-none">
+        <thead>
+          <tr>
+            <th>Deal term</th>
+            <th>Across the network</th>
+            <th>What decides it</th>
+          </tr>
+        </thead>
+        <tbody>
+          {rows.map((row) => (
+            <tr>
+              <td>{row.aspect}</td>
+              <td>{row.range}</td>
+              <td>{row.note}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  </div>
+  {caption && (
+    <figcaption class="mt-3 text-sm leading-relaxed text-gray-500">
+      {caption}
+    </figcaption>
+  )}
+</figure>

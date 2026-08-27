@@ -1,0 +1,16 @@
+---
+import { getCollection, render } from 'astro:content';
+import ScenarioLayout from '../../layouts/ScenarioLayout.astro';
+
+export async function getStaticPaths() {
+  const pages = await getCollection('scenarios');
+  return pages.map((entry) => ({ params: { slug: entry.id }, props: { entry } }));
+}
+
+const { entry } = Astro.props;
+const { Content, headings } = await render(entry);
+---
+
+<ScenarioLayout entry={entry} headings={headings}>
+  <Content />
+</ScenarioLayout>

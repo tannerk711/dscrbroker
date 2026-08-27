@@ -10,8 +10,10 @@ interface Props {
   body: string;
   label: string;
   href?: string;
+  /** Optional friction-killer line under the button ("2 minutes. No credit pull."). */
+  note?: string;
 }
-const { heading, body, label, href = '/analyze/' } = Astro.props;
+const { heading, body, label, href = '/analyze/', note } = Astro.props;
 ---
 
 <div class="lr-reveal my-10 overflow-hidden rounded-xl border border-gray-200 bg-white shadow-md">
@@ -20,14 +22,17 @@ const { heading, body, label, href = '/analyze/' } = Astro.props;
       <p class="text-lg font-bold tracking-tight text-navy">{heading}</p>
       <p class="mt-1 text-sm leading-relaxed text-gray-500">{body}</p>
     </div>
-    <a
-      href={href}
-      class="inline-flex shrink-0 items-center justify-center gap-2 rounded-lg bg-blue px-6 py-3 text-base font-semibold text-white transition-all hover:bg-blue-dark hover:shadow-lg"
-    >
-      {label}
-      <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-        <path stroke-linecap="round" stroke-linejoin="round" d="M5 12h14m0 0l-7-7m7 7l-7 7" />
-      </svg>
-    </a>
+    <div class="flex shrink-0 flex-col items-start gap-1.5 sm:items-end">
+      <a
+        href={href}
+        class="inline-flex items-center justify-center gap-2 rounded-lg bg-blue px-6 py-3 text-base font-semibold text-white transition-all hover:bg-blue-dark hover:shadow-lg"
+      >
+        {label}
+        <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M5 12h14m0 0l-7-7m7 7l-7 7" />
+        </svg>
+      </a>
+      {note && <p class="text-xs text-gray-400">{note}</p>}
+    </div>
   </div>
 </div>

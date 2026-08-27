@@ -17,6 +17,7 @@ const resourceLinks = [
   { label: 'State Coverage', href: '/states/' },
   { label: 'Loan Programs', href: '/programs/' },
   { label: 'Learn DSCR', href: '/learn/' },
+  { label: 'Loan Scenarios', href: '/dscr-loans/' },
 ];
 
 const legalLinks = [
@@ -42,7 +43,7 @@ const legalLinks = [
 
       <!-- Column 2: Loan Programs -->
       <div>
-        <h4 class="text-xs font-semibold uppercase tracking-widest text-slate-400">Loan Programs</h4>
+        <h3 class="text-xs font-semibold uppercase tracking-widest text-slate-400">Loan Programs</h3>
         <ul class="mt-4 space-y-2">
           {programLinks.map((link) => (
             <li>
@@ -56,7 +57,7 @@ const legalLinks = [
 
       <!-- Column 3: Resources -->
       <div>
-        <h4 class="text-xs font-semibold uppercase tracking-widest text-slate-400">Resources</h4>
+        <h3 class="text-xs font-semibold uppercase tracking-widest text-slate-400">Resources</h3>
         <ul class="mt-4 space-y-2">
           {resourceLinks.map((link) => (
             <li>
@@ -70,7 +71,7 @@ const legalLinks = [
 
       <!-- Column 4: Get Started -->
       <div>
-        <h4 class="text-xs font-semibold uppercase tracking-widest text-slate-400">Get Started</h4>
+        <h3 class="text-xs font-semibold uppercase tracking-widest text-slate-400">Get Started</h3>
         <div class="mt-4 space-y-3">
           <a
             href="/qualify/"

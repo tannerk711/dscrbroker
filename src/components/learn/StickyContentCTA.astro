@@ -1,9 +1,14 @@
 ---
 /**
- * Phone-free sticky mobile CTA for /learn/ pages. Variant of
+ * Phone-free sticky mobile CTA for /learn/ and /dscr-loans/ pages. Variant of
  * lp/StickyMobileCTA.astro: single full-width button to /qualify/,
  * same show-after-600px logic. The directory has no phone number.
  */
+interface Props {
+  /** Analytics data-location value; scenario pages pass "sticky_scenario". */
+  location?: string;
+}
+const { location = 'sticky_learn' } = Astro.props;
 ---
 
 <!-- Mobile-only sticky bottom CTA bar. Appears after scrolling past 600px. -->
@@ -15,7 +20,7 @@
     <a
       href="/qualify/"
       data-event="scroll_to_form"
-      data-location="sticky_learn"
+      data-location={location}
       class="flex items-center justify-center gap-2 rounded-lg bg-blue py-3 text-sm font-semibold text-white active:bg-blue-dark"
     >
       Match Me With a Specialist

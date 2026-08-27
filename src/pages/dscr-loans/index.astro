@@ -1,0 +1,187 @@
+---
+/**
+ * Hub for the scenario keyword pages (/dscr-loans/). Groups pages by cluster;
+ * clusters with no pages simply do not render, so the hub grows with the
+ * collection. This is the navigation spine that keeps every scenario page
+ * within 2 clicks of home and out of orphan territory. It deliberately
+ * targets "dscr loan scenarios", never the "dscr loans" head term the
+ * homepage owns.
+ */
+import '../../styles/learn.css';
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const pages = await getCollection('scenarios');
+
+const clusterOrder = [
+  { key: 'borrowers', label: 'Borrower Scenarios', blurb: 'Who is on the loan, and how underwriting treats them.' },
+  { key: 'refinance', label: 'Refinance', blurb: 'Pulling equity out or restructuring what you already own.' },
+  { key: 'property-types', label: 'Property Types', blurb: 'Assets the average lender declines, and who takes them.' },
+  { key: 'mechanics', label: 'Loan Mechanics', blurb: 'The moving parts of a DSCR file, explained straight.' },
+  { key: 'comparisons', label: 'Comparisons', blurb: 'DSCR against the other ways to finance a rental.' },
+  { key: 'strategies', label: 'Strategies', blurb: 'Financing plays for how you actually invest.' },
+  { key: 'questions', label: 'Straight Answers', blurb: 'The questions investors actually ask, answered without the pitch.' },
+  { key: 'lenders', label: 'Choosing a Specialist', blurb: 'How to pick who handles your deal.' },
+] as const;
+
+const grouped = clusterOrder
+  .map((cluster) => ({
+    ...cluster,
+    pages: pages
+      .filter((p) => p.data.cluster === cluster.key)
+      .sort((a, b) => a.data.order - b.data.order),
+  }))
+  .filter((cluster) => cluster.pages.length > 0);
+
+const canonical = 'https://dscrbroker.com/dscr-loans/';
+
+const jsonLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    name: 'DSCR Loan Scenarios',
+    description:
+      'Situation-specific DSCR loan answers for real estate investors: entity vesting, property types, refinances, and loan mechanics, written across a 70+ lender network.',
+    url: canonical,
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://dscrbroker.com/' },
+      { '@type': 'ListItem', position: 2, name: 'DSCR Loans', item: canonical },
+    ],
+  },
+];
+---
+
+<BaseLayout
+  title="DSCR Loan Scenarios by Situation | DSCRBroker.com"
+  description="Situation-specific DSCR loan answers, built out scenario by scenario. Each page maps one deal question across a 70+ lender network, then matches you to a specialist."
+  canonical={canonical}
+  jsonLd={jsonLd}
+  selfHostFonts
+  skipHotjar
+>
+  <link
+    slot="head"
+    rel="preload"
+    as="font"
+    type="font/woff2"
+    crossorigin
+    href="/fonts/inter-latin-wght-normal.woff2"
+  />
+
+  <!-- Dark hero -->
+  <section class="relative overflow-hidden bg-navy pt-24 pb-20 md:pt-36 md:pb-28">
+    <div class="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_top,#131C31_0%,#0B1120_65%)]"></div>
+    <div class="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <nav class="flex flex-wrap items-center gap-2 text-sm text-slate-400" aria-label="Breadcrumb">
+        <a href="/" class="transition-colors hover:text-white">Home</a>
+        <span aria-hidden="true">/</span>
+        <span class="text-slate-300">DSCR Loans</span>
+      </nav>
+      <div class="mt-6 max-w-3xl">
+        <p class="text-xs font-semibold uppercase tracking-widest text-amber">Scenario library</p>
+        <h1 class="mt-3 text-3xl font-extrabold tracking-tight text-white md:text-5xl" style="line-height: 1.12; letter-spacing: -0.008em;">
+          DSCR Loan Answers for Your Exact Situation
+        </h1>
+        <p class="mt-5 max-w-2xl text-lg leading-relaxed text-slate-300">
+          Every page here answers one specific deal question the way only a
+          directory can: across 70+ lenders, not inside one lender's box. Find
+          your situation, get the straight answer, then match with a specialist
+          who structures it.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Cluster sections -->
+  <section class="bg-off-white py-14 md:py-20">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      {grouped.map((cluster) => (
+        <div class="mb-14 last:mb-0">
+          <div class="lr-reveal">
+            <h2 class="text-2xl font-bold tracking-tight text-navy md:text-3xl">{cluster.label}</h2>
+            <p class="mt-2 max-w-2xl text-base leading-relaxed text-gray-500">{cluster.blurb}</p>
+          </div>
+          <div class="mt-6 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
+            {cluster.pages.map((page) => (
+              <a
+                href={`/dscr-loans/${page.id}/`}
+                class="lr-reveal group flex flex-col rounded-xl border border-gray-200 bg-white p-6 shadow-sm transition-all hover:-translate-y-0.5 hover:border-blue/30 hover:shadow-md"
+              >
+                <span class="text-lg font-bold leading-snug tracking-tight text-navy transition-colors group-hover:text-blue-dark">
+                  {page.data.title}
+                </span>
+                <span class="mt-2 flex-1 text-sm leading-relaxed text-gray-500">{page.data.description}</span>
+                <span class="mt-4 flex items-center justify-between text-sm">
+                  <span class="font-semibold text-blue inline-flex items-center gap-1.5">
+                    Read the answer
+                    <svg class="h-4 w-4 transition-transform group-hover:translate-x-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                    </svg>
+                  </span>
+                  <span class="text-gray-400">{page.data.readTime} min</span>
+                </span>
+              </a>
+            ))}
+          </div>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <!-- End CTA band -->
+  <section class="cv-auto bg-navy py-16 md:py-24">
+    <div class="mx-auto max-w-3xl px-4 text-center sm:px-6 lg:px-8">
+      <div class="lr-reveal">
+        <p class="text-xs font-semibold uppercase tracking-widest text-amber">Skip the reading</p>
+        <h2 class="mt-2 text-2xl font-bold tracking-tight text-white sm:text-3xl md:text-4xl" style="line-height: 1.15;">
+          Your situation, reviewed by a specialist
+        </h2>
+        <p class="mx-auto mt-4 max-w-xl text-lg leading-relaxed text-slate-300">
+          Two minutes of questions, one matched DSCR specialist, and a straight
+          answer on how your deal gets structured.
+        </p>
+        <div class="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row">
+          <a
+            href="/qualify/"
+            data-event="scroll_to_form"
+            data-location="hub_scenario"
+            class="inline-flex w-full items-center justify-center gap-2 rounded-lg bg-blue px-8 py-4 text-lg font-bold text-white transition-all hover:bg-blue-dark hover:shadow-lg sm:w-auto"
+          >
+            Match Me With a Specialist
+            <svg class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M5 12h14m0 0l-7-7m7 7l-7 7" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    window.addEventListener('load', () => {
+      if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+      if (!('IntersectionObserver' in window)) return;
+      const io = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('lr-in');
+              io.unobserve(entry.target);
+            }
+          });
+        },
+        { rootMargin: '0px 0px -10% 0px' }
+      );
+      const vh = window.innerHeight;
+      document.querySelectorAll<HTMLElement>('.lr-reveal').forEach((el) => {
+        if (el.getBoundingClientRect().top < vh * 0.92) return;
+        el.classList.add('lr-prep');
+        io.observe(el);
+      });
+    });
+  </script>
+</BaseLayout>
