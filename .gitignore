@@ -37,6 +37,8 @@ scripts/
 !scripts/fix-vercel-cache-headers.mjs
 # IndexNow submitter must ship too (run manually after page-adding deploys).
 !scripts/indexnow-submit.mjs
+# City-data verifier must ship: the documented add-a-state recipe depends on it.
+!scripts/verify-city-data.mjs
 CHANGE-LOG-*.md
 
 # Local dev server log
