@@ -214,7 +214,7 @@ export default function ThankYou() {
     const gtag = (window as any).gtag;
     if (typeof gtag !== 'function') return;
     conversionFiredRef.current = true;
-    gtag('event', 'conversion', { send_to: 'AW-11297975154/E6kSCNqfnP4YEPLWpYsq' });
+    gtag('event', 'conversion', { send_to: 'AW-18416211451/zIc1COzC6ekcEPurxM1E' });
   }, [data]);
 
   useEffect(() => {

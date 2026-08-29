@@ -54,14 +54,14 @@ const canonicalUrl = canonical || new URL(Astro.url.pathname, siteUrl).href;
     )}
 
     <!-- Google tag (gtag.js): GA4 + Google Ads. The AW config registers the Ads
-         destination so conversion events with send_to AW-11297975154 are delivered. -->
+         destination so conversion events with send_to AW-18416211451 are delivered. -->
     <script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-W92EXVZW3P"></script>
     <script is:inline set:html={`
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
       gtag('config', 'G-W92EXVZW3P');
-      gtag('config', 'AW-11297975154');
+      gtag('config', 'AW-18416211451');
     `} />
 
     <!-- Google Tag Manager -->

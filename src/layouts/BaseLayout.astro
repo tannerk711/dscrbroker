@@ -108,7 +108,7 @@ const fullOgImage = ogImage.startsWith('http') ? ogImage : `${siteUrl}${ogImage}
   )}
 
   <!-- Google tag (gtag.js): GA4 + Google Ads. The AW config registers the Ads
-       destination so the thank-you page's conversion event (send_to AW-11297975154)
+       destination so the thank-you page's conversion event (send_to AW-18416211451)
        is actually delivered instead of silently dropped. -->
   <script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-W92EXVZW3P"></script>
   <script is:inline set:html={`
@@ -116,7 +116,7 @@ const fullOgImage = ogImage.startsWith('http') ? ogImage : `${siteUrl}${ogImage}
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
     gtag('config', 'G-W92EXVZW3P');
-    gtag('config', 'AW-11297975154');
+    gtag('config', 'AW-18416211451');
   `} />
 
   <!-- Google Tag Manager -->
