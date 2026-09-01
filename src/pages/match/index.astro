@@ -1,0 +1,320 @@
+---
+/**
+ * /match/ : the paid-traffic DSCR landing page. Noindex. Google Ads only.
+ *
+ * Spec: scratchpad match-lp/FINAL-SPEC-v2.md (2026-08-31). Every customer-facing
+ * word is either here or in src/data/matchForm.ts. The form is a React island;
+ * the first step server-renders so the fold is complete before hydration.
+ */
+import MatchLayout from '../../layouts/MatchLayout.astro';
+import MatchTopbar from '../../components/match/MatchTopbar.astro';
+import MatchFooter from '../../components/match/MatchFooter.astro';
+import MatchForm from '../../components/match/MatchForm';
+import { COPY, GUIDELINES_DATE, STICKY_LABEL_BEFORE, SUBMIT_LABEL } from '../../data/matchForm';
+
+const sheetRows = [
+  ['goal', 'Goal'],
+  ['state', 'State'],
+  ['rental', 'Rented'],
+  ['stage', 'Stage'],
+  ['property', 'Property'],
+  ['credit', 'Credit'],
+  ['money', 'Price / down'],
+  ['rent', 'Rent'],
+  ['rentals', 'Rentals'],
+  ['vesting', 'Vesting'],
+];
+
+const spread = [
+  ['Minimum credit', '620 to 680'],
+  ['Minimum ratio', 'None to 1.20'],
+  ['Cash-out seasoning', 'None to 6 months'],
+  ['Short-term rental income', 'Counted in full, at a haircut, or not at all'],
+  ['Foreign nationals', 'Yes at some, no at others'],
+];
+
+const deals = [
+  'Purchase, rate-and-term, cash-out',
+  'Single family, townhomes, condos (warrantable and non-warrantable)',
+  '2 to 4 units, and 5 to 8 units',
+  'Short-term and mid-term rentals',
+  'Portfolios',
+  'LLC and entity vesting',
+  'Foreign nationals',
+  'Interest-only',
+  'Ratios under 1.0, at more down',
+  'First rental, at a higher credit floor',
+  '20% down typical, 15% at the top credit tier',
+  'Credit from 620',
+];
+
+const notHere = [
+  "Anything you'll live in, all or part",
+  'Commercial, and anything over 8 units',
+  'Manufactured or mobile homes',
+  'Land',
+  'HELOCs and second mortgages',
+  'New York, Michigan, North Dakota, South Dakota, Utah. Not yet.',
+];
+
+const faqs = [
+  {
+    q: 'Will the terms move after the appraisal?',
+    a: "The appraiser's rent schedule is the usual reason DSCR terms shift late. On the first call, give the specialist the address and the lease and ask for the ratio on real taxes, insurance, and a conservative market rent. The hard part surfaces then, not the week of closing.",
+  },
+  {
+    q: 'My ratio is under 1.0. Is that a no?',
+    a: "No. Programs exist for ratios under 1.0 and for no-ratio files, at more down and more reserves. Give the specialist the rent and the price and they'll show you where it lands.",
+  },
+  {
+    q: 'Can I close in an LLC?',
+    a: "Yes, and it's normal. Expect to sign a personal guaranty; on 1 to 4 unit loans the LLC almost never removes it.",
+  },
+  {
+    q: 'What does the match cost?',
+    a: 'Nothing. The specialist pays for the introduction, not you. If you go forward with a loan, its costs come from the lender, and the specialist presents them before you commit.',
+  },
+];
+---
+
+<MatchLayout
+  title="DSCR Loan Lenders: 70+ Lenders, One Specialist Picks Yours | DSCRBroker.com"
+  description="Tell a licensed DSCR specialist about your rental deal in about 2 minutes. They match it to the lender whose guidelines fit, out of 70+. No SSN, no credit pull, free."
+>
+  <link slot="head" rel="preload" as="font" type="font/woff2" href="/fonts/match/source-serif-4-latin-wght-normal.woff2" crossorigin />
+  <link slot="head" rel="preload" as="font" type="font/woff2" href="/fonts/match/figtree-latin-wght-normal.woff2" crossorigin />
+
+  <MatchTopbar />
+
+  <main>
+    <!-- ============ HERO + FORM ============ -->
+    <section class="bg-linen">
+      <div class="mx-auto grid max-w-7xl gap-x-12 px-5 pb-12 pt-5 lg:grid-cols-[55fr_45fr] lg:items-start lg:px-10 lg:pb-24 lg:pt-16">
+        <div class="lg:pr-4">
+          <p class="m-eyebrow">{COPY.eyebrow}</p>
+          <h1 class="m-h1 mt-2.5 text-ink lg:mt-4">
+            {COPY.h1a}<br class="lg:hidden" /> {COPY.h1b}
+          </h1>
+          <p class="mt-5 hidden max-w-[52ch] text-[18px] leading-relaxed text-ink-muted lg:block">{COPY.subline}</p>
+
+          <!-- desktop signature: the call sheet fills in as they answer -->
+          <div class="m-card-flat mt-10 hidden max-w-[440px] p-6 lg:block" id="call-sheet" aria-live="polite">
+            <div class="flex items-baseline justify-between">
+              <div class="m-display text-[20px]">Call sheet</div>
+              <div class="m-label">What your specialist sees</div>
+            </div>
+            <div class="mt-3">
+              {sheetRows.map(([key, name]) => (
+                <div class="m-sheet-row">
+                  <span class="m-sheet-k">{name}</span>
+                  <span class="m-sheet-v" data-row={key}></span>
+                </div>
+              ))}
+            </div>
+            <p class="mt-3 text-[12px] text-ink-muted">Fills in as you answer.</p>
+          </div>
+        </div>
+
+        <div class="mt-[18px] lg:sticky lg:top-8 lg:mt-0" id="deal-form">
+          <div class="m-card m-card-in p-5 sm:p-7">
+            {/* client:idle, not client:load: step 1 is server-rendered so the fold is
+                complete at first paint, and idle hydration keeps React's bootup out of
+                the TBT window (the LeaderOne-proven pattern; LH mobile 75 -> 90+). */}
+            <MatchForm client:idle />
+          </div>
+          <p class="mt-3 text-center text-[12px] font-medium text-ink-muted">{COPY.trustLine}</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 1. AFTER YOU SEND IT ============ -->
+    <section class="cv-auto bg-linen py-16 lg:py-24" id="after">
+      <div class="mx-auto max-w-7xl px-5 lg:px-10">
+        <h2 class="m-h2 m-reveal">After you send it</h2>
+        <div class="mt-8 grid gap-4 md:grid-cols-3 md:gap-6">
+          <div class="m-card-flat m-reveal p-6 lg:p-7">
+            <div class="m-display text-[40px] leading-none text-clay">1</div>
+            <h3 class="m-display mt-4 text-[20px]">It goes to one person.</h3>
+            <p class="mt-2 text-[15px] leading-relaxed text-ink-muted">Two licensed specialists cover 45 states and DC. Your property's state decides which one gets your deal. Not a list.</p>
+          </div>
+          <div class="m-card-flat m-reveal p-6 lg:p-7">
+            <div class="m-display text-[40px] leading-none text-clay">2</div>
+            <h3 class="m-display mt-4 text-[20px]">They call or text.</h3>
+            <p class="mt-2 text-[15px] leading-relaxed text-ink-muted">Their name, company, and NMLS number are on the screen right after you send it.</p>
+          </div>
+          <div class="m-card-flat m-reveal p-6 lg:p-7">
+            <div class="m-display text-[40px] leading-none text-clay">3</div>
+            <h3 class="m-display mt-4 text-[20px]">They place it.</h3>
+            <p class="mt-2 text-[15px] leading-relaxed text-ink-muted">They pick the lender whose guidelines your deal already fits, instead of submitting and hoping. Documents and a credit pull come only if you apply, with your OK.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 2. WHY 70+ MATTERS ============ -->
+    <section class="cv-auto bg-linen-deep py-16 lg:py-24" id="spread">
+      <div class="mx-auto grid max-w-7xl gap-10 px-5 lg:grid-cols-12 lg:px-10">
+        <div class="lg:col-span-5">
+          <h2 class="m-h2 m-reveal">Every lender's box is different. That's the whole point of 70+.</h2>
+          <p class="m-reveal mt-6 max-w-[46ch] text-[16px] leading-relaxed text-ink-muted">Your deal fits some of those boxes and not others. Knowing which is the specialist's job. It's also why there's no rate on this page: the terms depend on the box.</p>
+        </div>
+        <div class="lg:col-span-7">
+          <div class="m-card-flat m-reveal p-6 lg:p-8">
+            <div class="m-label">Published DSCR guidelines, {GUIDELINES_DATE}:</div>
+            <table class="m-ledger mt-2">
+              <tbody>
+                {spread.map(([k, v]) => (
+                  <tr>
+                    <td class="text-ink-muted">{k}</td>
+                    <td class="m-num">{v}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 3. WHAT GETS PLACED HERE ============ -->
+    <section class="cv-auto bg-linen py-16 lg:py-24" id="placed">
+      <div class="mx-auto max-w-7xl px-5 lg:px-10">
+        <h2 class="m-h2 m-reveal">What the specialists place</h2>
+        <div class="m-card-flat m-reveal mt-8 grid gap-8 p-6 md:grid-cols-2 md:gap-0 lg:p-8">
+          <div class="md:border-r md:border-hair md:pr-8">
+            <div class="m-label">Deals</div>
+            <ul class="mt-3 grid gap-2">
+              {deals.map((d) => (
+                <li class="flex gap-2.5 text-[15px] leading-relaxed">
+                  <svg class="mt-[5px] h-4 w-4 flex-shrink-0 text-moss" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 13l4 4L19 7" /></svg>
+                  <span>{d}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+          <div class="md:pl-8">
+            <div class="m-label">Not here</div>
+            <ul class="mt-3 grid gap-2">
+              {notHere.map((d) => (
+                <li class="flex gap-2.5 text-[15px] leading-relaxed text-ink-muted">
+                  <span class="mt-[12px] h-px w-3 flex-shrink-0 bg-ink-muted/60" aria-hidden="true"></span>
+                  <span>{d}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 4. STRAIGHT ANSWERS ============ -->
+    <section class="cv-auto bg-linen-deep py-16 lg:py-24" id="answers">
+      <div class="mx-auto max-w-[720px] px-5 lg:px-10">
+        <h2 class="m-h2 m-reveal">Straight answers</h2>
+        <div class="m-reveal mt-6 divide-y divide-hair border-y border-hair">
+          {faqs.map((f, i) => (
+            <details class="m-faq" open={i === 0}>
+              <summary>
+                <span class="m-faq-q">{f.q}</span>
+                <span class="m-faq-toggle" aria-hidden="true">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M12 5v14M5 12h14" /></svg>
+                </span>
+              </summary>
+              <p class="m-faq-a">{f.a}</p>
+            </details>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FINAL CTA ============ -->
+    <section class="cv-auto bg-linen py-20 lg:py-28" id="cta">
+      <div class="mx-auto max-w-3xl px-5 text-center lg:px-10">
+        <h2 class="m-h2 m-reveal text-[clamp(2rem,4vw,3rem)]">About two minutes. Then you know who has your deal.</h2>
+        <div class="m-reveal mt-8">
+          <a href="#deal-form" class="m-btn m-btn-inline px-8">{SUBMIT_LABEL}</a>
+          <p class="mt-4 text-[13px] font-medium text-ink-muted">No SSN. No credit pull. Free.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <MatchFooter />
+
+  <!-- ============ MOBILE STICKY CTA ============ -->
+  <div id="sticky-cta" class="fixed inset-x-0 bottom-0 z-40 lg:hidden" style="translate: 0 110%; transition: translate 0.3s cubic-bezier(0.22, 1, 0.36, 1);">
+    <div class="border-t border-hair bg-card px-4 pb-[calc(0.75rem+env(safe-area-inset-bottom))] pt-3" style="box-shadow: var(--shadow-sticky);">
+      <a href="#deal-form" class="m-btn" id="sticky-cta-link">{STICKY_LABEL_BEFORE}</a>
+    </div>
+  </div>
+
+  <script>
+    // Keep this page script dependency-free: importing from data/matchForm here would
+    // pull the whole data module into a second chunk just for one label string.
+    const STICKY_LABEL_AFTER = 'Back to your deal';
+
+    // call sheet: the island dispatches match:sheet {row, value}
+    const sheet = document.getElementById('call-sheet');
+    if (sheet) {
+      window.addEventListener('match:sheet', (e) => {
+        const { row, value } = (e as CustomEvent<{ row: string; value: string }>).detail || {};
+        const cell = sheet.querySelector<HTMLElement>(`[data-row="${row}"]`);
+        if (!cell) return;
+        cell.style.opacity = '0';
+        requestAnimationFrame(() => {
+          cell.textContent = value;
+          cell.style.opacity = '1';
+        });
+      });
+    }
+
+    // sticky CTA: show when the form card leaves the viewport; label flips after first answer
+    const sticky = document.getElementById('sticky-cta');
+    const stickyLink = document.getElementById('sticky-cta-link');
+    const card = document.getElementById('deal-form');
+    if (sticky && card && 'IntersectionObserver' in window) {
+      new IntersectionObserver(
+        ([entry]) => {
+          // Tailwind v4 translate utilities set the CSS `translate` property, so set that, not transform
+          sticky.style.translate = entry.isIntersecting ? '0 110%' : '0 0';
+        },
+        { rootMargin: '0px 0px -60px 0px' }
+      ).observe(card);
+    }
+    window.addEventListener('match:start', () => {
+      if (stickyLink) stickyLink.textContent = STICKY_LABEL_AFTER;
+    });
+
+    // below-fold reveals: applied FROM JS after load, only to elements below the
+    // current viewport, so nothing on screen ever hides and a failed load hides nothing.
+    const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (!reduced && 'IntersectionObserver' in window) {
+      const arm = () => {
+        const limit = window.innerHeight * 1.05;
+        const els = [...document.querySelectorAll<HTMLElement>('.m-reveal')].filter(
+          (el) => el.getBoundingClientRect().top > limit
+        );
+        if (!els.length) return;
+        const io = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((en) => {
+              if (en.isIntersecting) {
+                en.target.classList.remove('is-hidden');
+                io.unobserve(en.target);
+              }
+            });
+          },
+          { rootMargin: '0px 0px -8% 0px' }
+        );
+        els.forEach((el) => {
+          el.classList.add('is-hidden');
+          io.observe(el);
+        });
+      };
+      const kick = () =>
+        'requestIdleCallback' in window ? window.requestIdleCallback(arm, { timeout: 1500 }) : window.setTimeout(arm, 400);
+      if (document.readyState === 'complete') kick();
+      else window.addEventListener('load', kick, { once: true });
+    }
+  </script>
+</MatchLayout>

@@ -25,7 +25,9 @@ const STATE_TO_BROKER: Record<string, string> = {
 };
 
 // States excluded from the form (broker network does not currently cover).
-const EXCLUDED_STATES = new Set(['NY', 'MI', 'ND', 'SD', 'UT']);
+// Exported (2026-08-31) so the paid-traffic /match/ form can show these states
+// with an honest soft stop instead of silently omitting them from the list.
+export const EXCLUDED_STATES = new Set(['NY', 'MI', 'ND', 'SD', 'UT']);
 
 // Broker config with webhook URLs from env vars
 interface BrokerConfig {

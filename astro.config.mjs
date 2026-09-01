@@ -14,10 +14,12 @@ export default defineConfig({
   integrations: [
     react(),
     mdx(),
-    // Exclude noindex routes (paid-ad /lp/* pages + the post-submit /thank-you/)
-    // so the sitemap does not contradict their robots meta.
+    // Exclude noindex routes (paid-ad /lp/* pages, the paid-ad /match/ funnel,
+    // and the post-submit /thank-you/) so the sitemap does not contradict their
+    // robots meta.
     sitemap({
-      filter: (page) => !page.includes('/lp/') && !page.includes('/thank-you'),
+      filter: (page) =>
+        !page.includes('/lp/') && !page.includes('/match') && !page.includes('/thank-you'),
     }),
   ],
   vite: {
