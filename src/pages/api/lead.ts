@@ -18,7 +18,6 @@
 export const prerender = false;
 
 import type { APIRoute } from 'astro';
-import { EXCLUDED_STATES } from '../../utils/brokerRouting';
 
 // Broker -> env var name. Must match the keys the form sends in `matchedBroker`.
 const BROKER_WEBHOOK_ENV: Record<string, string> = {
@@ -54,25 +53,6 @@ export const POST: APIRoute = async ({ request }) => {
     payload = await request.json();
   } catch {
     return json({ error: 'INVALID_BODY', message: 'Body must be JSON.' }, 400);
-  }
-
-  // Honeypot (added 2026-08-31 for the /match/ funnel; the /qualify/ form never sends
-  // this key). A filled `website` field means a bot: answer success so it learns
-  // nothing, forward nothing.
-  if (typeof payload.website === 'string' && payload.website.trim() !== '') {
-    return json({ success: true, assignedBroker: null }, 200);
-  }
-
-  // Coverage guard (added 2026-08-31). The forms never submit NY/MI/ND/SD/UT (they show
-  // an honest soft stop instead), so a submission carrying one is a bypassed client.
-  // Reject loudly rather than routing a lead no broker in the network can serve.
-  const submittedState =
-    typeof payload.stateCode === 'string' ? payload.stateCode.toUpperCase() : '';
-  if (EXCLUDED_STATES.has(submittedState)) {
-    return json(
-      { error: 'STATE_NOT_COVERED', message: 'No specialist in the network covers this state yet.' },
-      400
-    );
   }
 
   // TCPA consent is a legal record, and a client-only gate is bypassable, so the
