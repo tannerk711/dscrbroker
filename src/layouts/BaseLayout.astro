@@ -13,14 +13,6 @@ interface Props {
   jsonLd?: object;
   noIndex?: boolean;
   /**
-   * Learn pages self-host Inter (font-display: optional, declared in
-   * learn.css) and skip the Google Fonts links entirely, because the async
-   * Google CSS repaints the largest text block when the font lands late and
-   * that repaint registers as a 4.5s mobile LCP. Defaults to false, so every
-   * existing page renders exactly as before.
-   */
-  selfHostFonts?: boolean;
-  /**
    * Learn pages skip Hotjar (Tanner's call 2026-08-18): heatmaps matter on
    * conversion surfaces, not education pages, and its script sits in the
    * article LCP graph. gtag (GA4 + Ads) always loads regardless. Defaults to
@@ -37,7 +29,6 @@ const {
   ogType = 'website',
   jsonLd,
   noIndex = false,
-  selfHostFonts = false,
   skipHotjar = false,
 } = Astro.props;
 
@@ -77,30 +68,7 @@ const fullOgImage = ogImage.startsWith('http') ? ogImage : `${siteUrl}${ogImage}
   <!-- Favicon -->
   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 
-  <!-- Font loading: Inter 400-800 (skipped when the page self-hosts) -->
-  {!selfHostFonts && (
-    <>
-      <link rel="preconnect" href="https://fonts.googleapis.com" />
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-      <link
-        rel="preload"
-        as="style"
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
-      />
-      <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
-        rel="stylesheet"
-        media="print"
-        onload="this.media='all'"
-      />
-      <noscript>
-        <link
-          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
-          rel="stylesheet"
-        />
-      </noscript>
-    </>
-  )}
+  <!-- Inter is self-hosted site-wide (@font-face in global.css), no Google Fonts chain -->
 
   <!-- JSON-LD Structured Data -->
   {jsonLd && (
@@ -109,14 +77,27 @@ const fullOgImage = ogImage.startsWith('http') ? ogImage : `${siteUrl}${ogImage}
 
   <!-- Google tag (gtag.js): GA4 + Google Ads. The AW config registers the Ads
        destination so the thank-you page's conversion event (send_to AW-18416211451)
-       is actually delivered instead of silently dropped. -->
-  <script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-W92EXVZW3P"></script>
+       is actually delivered instead of silently dropped.
+       The inline dataLayer/gtag() queue runs immediately; the library itself is
+       injected on window load so its ~337KB (GA4 + the Ads container) stays off
+       the first-paint path. Config, page_view and the thank-you conversion all
+       queue in dataLayer and flush unchanged when the library lands. -->
   <script is:inline set:html={`
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
     gtag('config', 'G-W92EXVZW3P');
     gtag('config', 'AW-18416211451');
+    (function(){
+      function loadGtag(){
+        var s = document.createElement('script');
+        s.async = true;
+        s.src = 'https://www.googletagmanager.com/gtag/js?id=G-W92EXVZW3P';
+        document.head.appendChild(s);
+      }
+      if (document.readyState === 'complete') loadGtag();
+      else window.addEventListener('load', loadGtag, { once: true });
+    })();
   `} />
 
   <!-- Google Tag Manager -->

@@ -1,0 +1,96 @@
+---
+/**
+ * Mobile nav drawer. Vanilla script, no React island: as a client:load island
+ * it pulled the React runtime onto every page's critical chain for one toggle.
+ * Markup and classes match the old MobileNav.tsx exactly.
+ */
+const navLinks = [
+  { label: 'Loan Programs', href: '/programs/' },
+  { label: 'Deal Analyzer', href: '/analyze/' },
+  { label: 'States', href: '/states/' },
+  { label: 'Learn', href: '/learn/' },
+];
+---
+
+<div data-mobile-nav>
+  <!-- Hamburger button -->
+  <button
+    type="button"
+    data-mobile-nav-toggle
+    class="relative z-50 flex h-11 w-11 items-center justify-center rounded-lg text-white"
+    aria-label="Open menu"
+    aria-expanded="false"
+  >
+    <svg
+      class="h-6 w-6 transition-transform duration-300"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke="currentColor"
+      stroke-width="2"
+    >
+      <path data-icon-open stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+      <path data-icon-close class="hidden" stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+    </svg>
+  </button>
+
+  <!-- Overlay -->
+  <div data-mobile-nav-overlay class="fixed inset-0 z-40 hidden bg-navy/80 backdrop-blur-sm"></div>
+
+  <!-- Slide-out panel -->
+  <div
+    data-mobile-nav-panel
+    class="fixed top-0 right-0 z-40 h-full w-72 bg-navy-light border-l border-navy-mid transform transition-transform duration-300 ease-out translate-x-full"
+  >
+    <nav class="flex flex-col gap-1 px-4 pt-20" aria-label="Mobile navigation">
+      {navLinks.map((link) => (
+        <a
+          href={link.href}
+          data-mobile-nav-link
+          class="rounded-lg px-4 py-3 text-base font-medium text-slate-300 transition-colors hover:bg-navy-mid hover:text-white"
+        >
+          {link.label}
+        </a>
+      ))}
+
+      <div class="mt-4 border-t border-navy-mid pt-4">
+        <a
+          href="/qualify/"
+          data-mobile-nav-link
+          class="flex items-center justify-center rounded-lg bg-blue px-4 py-3 text-sm font-semibold text-white transition-colors hover:bg-blue-dark"
+        >
+          Match Me With a Specialist
+        </a>
+      </div>
+    </nav>
+  </div>
+</div>
+
+<script>
+  const root = document.querySelector<HTMLElement>('[data-mobile-nav]');
+  const toggle = root?.querySelector<HTMLButtonElement>('[data-mobile-nav-toggle]');
+  const overlay = root?.querySelector<HTMLElement>('[data-mobile-nav-overlay]');
+  const panel = root?.querySelector<HTMLElement>('[data-mobile-nav-panel]');
+  const iconOpen = root?.querySelector('[data-icon-open]');
+  const iconClose = root?.querySelector('[data-icon-close]');
+
+  if (root && toggle && overlay && panel) {
+    let isOpen = false;
+    const setOpen = (open: boolean) => {
+      isOpen = open;
+      toggle.setAttribute('aria-expanded', String(open));
+      toggle.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+      iconOpen?.classList.toggle('hidden', open);
+      iconClose?.classList.toggle('hidden', !open);
+      overlay.classList.toggle('hidden', !open);
+      panel.classList.toggle('translate-x-0', open);
+      panel.classList.toggle('translate-x-full', !open);
+      document.body.style.overflow = open ? 'hidden' : '';
+    };
+
+    toggle.addEventListener('click', () => setOpen(!isOpen));
+    overlay.addEventListener('click', () => setOpen(false));
+    root.querySelectorAll('[data-mobile-nav-link]').forEach((link) => {
+      link.addEventListener('click', () => setOpen(false));
+    });
+  }
+</script>

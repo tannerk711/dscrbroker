@@ -151,7 +151,7 @@ const faqJsonLd = {
             <h2 class="text-xl font-semibold text-white mb-1">Check Your DSCR Eligibility</h2>
             <p class="text-sm text-slate-400 mb-6">2 minutes. No SSN. No credit pull.</p>
             <div>
-              <DSCRForm client:load />
+              <DSCRForm client:visible />
             </div>
           </div>
         </div>
@@ -248,41 +248,32 @@ const faqJsonLd = {
   <!-- Section 10: Final CTA -->
   <FinalCTA />
 
-  <!-- GSAP Animations (vanilla script, not inside React) -->
+  <!-- GSAP Animations (vanilla script, not inside React).
+       GSAP + ScrollTrigger load via dynamic import on idle after window load,
+       so neither sits on the first-paint / LCP path. ScrollTrigger's init
+       forces a full style + layout pass; running it pre-paint stalled FCP. -->
   <script>
-    import { gsap } from 'gsap';
-    import { ScrollTrigger } from 'gsap/ScrollTrigger';
-
-    gsap.registerPlugin(ScrollTrigger);
-
     // Respect prefers-reduced-motion
     const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
-    if (!prefersReducedMotion) {
+    // Elements already on screen when motion starts render static: hiding an
+    // on-screen element after load is a late repaint Lantern bills to LCP.
+    const belowFold = (el: Element) => el.getBoundingClientRect().top > window.innerHeight * 1.05;
+
+    async function startMotion() {
+      const [{ gsap }, { ScrollTrigger }] = await Promise.all([
+        import('gsap'),
+        import('gsap/ScrollTrigger'),
+      ]);
+      gsap.registerPlugin(ScrollTrigger);
+
       // =====================
-      // 1. HERO ENTRANCE TIMELINE
+      // 1. HERO: deliberately static, no entrance timeline.
+      // The old timeline set the badge, H1, subhead, trust row and form to
+      // opacity 0 after first paint and faded them back in. The subhead is the
+      // mobile LCP element, so hiding and re-showing it pushed LCP to ~5s
+      // (simulated). The hero now paints once at FCP and stays put.
       // =====================
-      const heroElements = {
-        badge: document.querySelector('[data-hero="badge"]'),
-        title: document.querySelector('[data-hero="title"]'),
-        subhead: document.querySelector('[data-hero="subhead"]'),
-        trust: document.querySelector('[data-hero="trust"]'),
-        form: document.querySelector('[data-hero="form"]'),
-      };
-
-      // Set initial hidden state
-      Object.values(heroElements).forEach((el) => {
-        if (el) gsap.set(el, { opacity: 0, y: 30 });
-      });
-
-      // Build timeline
-      const heroTl = gsap.timeline({ delay: 0.2 });
-
-      if (heroElements.badge) heroTl.to(heroElements.badge, { opacity: 1, y: 0, duration: 0.5, ease: 'power2.out' });
-      if (heroElements.title) heroTl.to(heroElements.title, { opacity: 1, y: 0, duration: 0.7, ease: 'power2.out' }, '-=0.3');
-      if (heroElements.subhead) heroTl.to(heroElements.subhead, { opacity: 1, y: 0, duration: 0.6, ease: 'power2.out' }, '-=0.4');
-      if (heroElements.trust) heroTl.to(heroElements.trust, { opacity: 1, y: 0, duration: 0.6, ease: 'power2.out' }, '-=0.3');
-      if (heroElements.form) heroTl.to(heroElements.form, { opacity: 1, y: 0, duration: 0.8, ease: 'power2.out' }, '-=0.3');
 
       // =====================
       // 2. SCROLL REVEAL ANIMATIONS
@@ -290,6 +281,7 @@ const faqJsonLd = {
 
       // Standard reveals: eyebrow, heading, subhead
       document.querySelectorAll('[data-gsap="eyebrow"], [data-gsap="heading"], [data-gsap="subhead"]').forEach((el) => {
+        if (!belowFold(el)) return;
         gsap.set(el, { opacity: 0, y: 30 });
         gsap.to(el, {
           opacity: 1,
@@ -315,6 +307,7 @@ const faqJsonLd = {
       });
 
       cardGroups.forEach((cards) => {
+        if (!belowFold(cards[0])) return;
         gsap.set(cards, { opacity: 0, y: 50 });
         gsap.to(cards, {
           opacity: 1,
@@ -341,6 +334,7 @@ const faqJsonLd = {
       });
 
       tileGroups.forEach((tiles) => {
+        if (!belowFold(tiles[0])) return;
         gsap.set(tiles, { opacity: 0, y: 60 });
         gsap.to(tiles, {
           opacity: 1,
@@ -358,6 +352,7 @@ const faqJsonLd = {
 
       // Calculator / Deal Analyzer
       document.querySelectorAll('[data-gsap="calculator"]').forEach((el) => {
+        if (!belowFold(el)) return;
         gsap.set(el, { opacity: 0, y: 40 });
         gsap.to(el, {
           opacity: 1,
@@ -374,6 +369,7 @@ const faqJsonLd = {
 
       // CTA button bounce (final section)
       document.querySelectorAll('[data-gsap="cta"]').forEach((el) => {
+        if (!belowFold(el)) return;
         gsap.set(el, { opacity: 0, y: 20, scale: 0.95 });
         gsap.to(el, {
           opacity: 1,
@@ -395,7 +391,7 @@ const faqJsonLd = {
       // =====================
       document.querySelectorAll('[data-gsap="stat"]').forEach((statBlock) => {
         const numberEl = statBlock.querySelector('[data-count-to]') as HTMLElement | null;
-        if (!numberEl) return;
+        if (!numberEl || !belowFold(statBlock)) return;
 
         const target = parseInt(numberEl.dataset.countTo || '0', 10);
         const prefix = numberEl.dataset.countPrefix || '';
@@ -425,6 +421,15 @@ const faqJsonLd = {
           },
         });
       });
+    }
+
+    if (!prefersReducedMotion) {
+      const scheduleMotion = () => {
+        if ('requestIdleCallback' in window) requestIdleCallback(() => startMotion(), { timeout: 2200 });
+        else setTimeout(startMotion, 200);
+      };
+      if (document.readyState === 'complete') scheduleMotion();
+      else window.addEventListener('load', scheduleMotion, { once: true });
     }
   </script>
 </BaseLayout>
