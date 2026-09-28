@@ -5,6 +5,10 @@
  * Site ID 6753255. Loaded on every page via BaseLayout and LandingLayout so
  * recordings cover the full journey (LP -> state page -> program page -> qualify -> thank-you).
  *
+ * The hj() queue is defined immediately; the 64KB script is injected on idle
+ * after window load so it never sits in the first-paint / LCP graph.
+ * Recordings and heatmaps are unchanged (it snapshots the DOM when it starts).
+ *
  * Skipped in dev so local browsing never pollutes the recording set.
  */
 const HOTJAR_ID = 6753255;
@@ -16,10 +20,18 @@ const enabled = import.meta.env.PROD;
     (function(h,o,t,j,a,r){
         h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
         h._hjSettings={hjid:${HOTJAR_ID},hjsv:6};
-        a=o.getElementsByTagName('head')[0];
-        r=o.createElement('script');r.async=1;
-        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-        a.appendChild(r);
+        function loadHotjar(){
+            a=o.getElementsByTagName('head')[0];
+            r=o.createElement('script');r.async=1;
+            r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+            a.appendChild(r);
+        }
+        function onIdle(){
+            if ('requestIdleCallback' in h) h.requestIdleCallback(loadHotjar, { timeout: 3000 });
+            else setTimeout(loadHotjar, 1500);
+        }
+        if (o.readyState === 'complete') onIdle();
+        else h.addEventListener('load', onIdle, { once: true });
     })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
   `} />
 )}
