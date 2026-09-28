@@ -3,6 +3,7 @@ import '../styles/global.css';
 import Header from '../components/global/Header.astro';
 import Footer from '../components/global/Footer.astro';
 import Hotjar from '../components/global/Hotjar.astro';
+import AfterPaint from '../components/global/AfterPaint.astro';
 
 interface Props {
   title: string;
@@ -75,29 +76,29 @@ const fullOgImage = ogImage.startsWith('http') ? ogImage : `${siteUrl}${ogImage}
     <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
   )}
 
+  <!-- Shared afterPaint() gate for gtag, Hotjar and homepage motion -->
+  <AfterPaint />
+
   <!-- Google tag (gtag.js): GA4 + Google Ads. The AW config registers the Ads
        destination so the thank-you page's conversion event (send_to AW-18416211451)
        is actually delivered instead of silently dropped.
        The inline dataLayer/gtag() queue runs immediately; the library itself is
-       injected on window load so its ~337KB (GA4 + the Ads container) stays off
-       the first-paint path. Config, page_view and the thank-you conversion all
-       queue in dataLayer and flush unchanged when the library lands. -->
+       injected by afterPaint (load + first paint, then idle) so its ~337KB
+       (GA4 + the Ads container) stays out of the LCP graph. Config, page_view
+       and the thank-you conversion all queue in dataLayer and flush unchanged
+       when the library lands. -->
   <script is:inline set:html={`
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
     gtag('config', 'G-W92EXVZW3P');
     gtag('config', 'AW-18416211451');
-    (function(){
-      function loadGtag(){
-        var s = document.createElement('script');
-        s.async = true;
-        s.src = 'https://www.googletagmanager.com/gtag/js?id=G-W92EXVZW3P';
-        document.head.appendChild(s);
-      }
-      if (document.readyState === 'complete') loadGtag();
-      else window.addEventListener('load', loadGtag, { once: true });
-    })();
+    afterPaint(function(){
+      var s = document.createElement('script');
+      s.async = true;
+      s.src = 'https://www.googletagmanager.com/gtag/js?id=G-W92EXVZW3P';
+      document.head.appendChild(s);
+    });
   `} />
 
   <!-- Google Tag Manager -->

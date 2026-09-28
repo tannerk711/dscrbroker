@@ -249,10 +249,14 @@ const faqJsonLd = {
   <FinalCTA />
 
   <!-- GSAP Animations (vanilla script, not inside React).
-       GSAP + ScrollTrigger load via dynamic import on idle after window load,
-       so neither sits on the first-paint / LCP path. ScrollTrigger's init
-       forces a full style + layout pass; running it pre-paint stalled FCP. -->
+       GSAP + ScrollTrigger load via dynamic import through the afterPaint gate
+       (load + first paint, then idle), so neither sits on the first-paint / LCP
+       path. ScrollTrigger's init forces a full style + layout pass; running it
+       pre-paint stalled FCP. -->
   <script>
+    // Defined inline in BaseLayout's <head> (AfterPaint.astro)
+    declare const afterPaint: (fn: () => void) => void;
+
     // Respect prefers-reduced-motion
     const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
@@ -423,13 +427,6 @@ const faqJsonLd = {
       });
     }
 
-    if (!prefersReducedMotion) {
-      const scheduleMotion = () => {
-        if ('requestIdleCallback' in window) requestIdleCallback(() => startMotion(), { timeout: 2200 });
-        else setTimeout(startMotion, 200);
-      };
-      if (document.readyState === 'complete') scheduleMotion();
-      else window.addEventListener('load', scheduleMotion, { once: true });
-    }
+    if (!prefersReducedMotion) afterPaint(() => startMotion());
   </script>
 </BaseLayout>

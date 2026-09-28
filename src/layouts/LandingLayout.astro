@@ -1,6 +1,7 @@
 ---
 import '../styles/global.css';
 import Hotjar from '../components/global/Hotjar.astro';
+import AfterPaint from '../components/global/AfterPaint.astro';
 
 interface Props {
   title: string;
@@ -75,7 +76,8 @@ const canonicalUrl = canonical || new URL(Astro.url.pathname, siteUrl).href;
       `} />
     )}
 
-    <!-- Hotjar: session recordings + heatmaps -->
+    <!-- Hotjar: session recordings + heatmaps (injected via the afterPaint gate) -->
+    <AfterPaint />
     <Hotjar />
 
     <slot name="head" />
