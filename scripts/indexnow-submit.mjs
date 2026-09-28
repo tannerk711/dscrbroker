@@ -10,6 +10,9 @@
  * (e.g. a new city-page wave):
  *   node scripts/indexnow-submit.mjs
  *
+ * To submit only the pages a deploy changed, pass a URL regex:
+ *   node scripts/indexnow-submit.mjs --only "^https://dscrbroker.com/states/([a-z-]+/)?$"
+ *
  * The key file must stay live at /<KEY>.txt (it ships from public/).
  */
 
@@ -17,6 +20,8 @@ const HOST = 'dscrbroker.com';
 const KEY = 'eef7c16dad327f56bfeb306c0da88556';
 const SITEMAP = `https://${HOST}/sitemap-0.xml`;
 const ENDPOINT = 'https://api.indexnow.org/indexnow';
+const onlyIdx = process.argv.indexOf('--only');
+const ONLY = onlyIdx !== -1 ? new RegExp(process.argv[onlyIdx + 1]) : null;
 
 const keyFileUrl = `https://${HOST}/${KEY}.txt`;
 const keyRes = await fetch(keyFileUrl);
@@ -32,7 +37,8 @@ const xml = await (await fetch(SITEMAP)).text();
 const urls = [...xml.matchAll(/<loc>([^<]+)<\/loc>/g)]
   .map((m) => m[1].trim())
   // /qualify/ is meta-noindexed; asking engines to index it is noise.
-  .filter((u) => !u.includes('/qualify'));
+  .filter((u) => !u.includes('/qualify'))
+  .filter((u) => !ONLY || ONLY.test(u));
 
 if (urls.length === 0) {
   console.error(`No URLs parsed from ${SITEMAP}`);
