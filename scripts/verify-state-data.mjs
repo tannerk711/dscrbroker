@@ -13,8 +13,10 @@
 //      from the authored inputs (same conventions as verify-city-data.mjs).
 //   3. Compliance sweep over every string: em/en dashes, rate positioning, "50+ lenders",
 //      close-day-count PROMISES in prose, "soft pull", banned words, phone numbers.
-//   4. Warnings (non-failing): repeated template tells and FAQ questions reused verbatim
-//      (state-swapped) across more than 10 states.
+//   4. Anti-template guards (hard problems since the 2026-09 prose rewrite): template-tell
+//      phrases, FAQ questions reused (state-swapped) on more than 4 states, stateHook shape
+//      (1-3 sentences, a number in the first), FAQ answers 40-120 words with at most a third
+//      opening "Yes."/"No.", and a unique 140-160 char metaAngle on every state.
 
 import { readFileSync, writeFileSync } from 'node:fs';
 import { join, dirname } from 'node:path';
@@ -43,13 +45,17 @@ const REQUIRED_TOP_KEYS = [
   'propertyTaxRate', 'insuranceMonthly', 'estimatedDSCR', 'landlordFriendly',
   'topCities', 'stateHook', 'relatedStates', 'commonPropertyTypes',
   'licensingNote', 'tier', 'marketOverview', 'dealExample', 'faqItems',
-  'dataSources', 'dataUpdated',
+  'dataSources', 'dataUpdated', 'metaAngle',
 ];
-const OPTIONAL_TOP_KEYS = ['metaAngle'];
+const OPTIONAL_TOP_KEYS = [];
 const ALLOWED_TOP_KEYS = new Set([...REQUIRED_TOP_KEYS, ...OPTIONAL_TOP_KEYS]);
 
+// label drives the layout's row labels (refis show Appraised Value / Equity Retained).
+const VALID_DEAL_LABELS = new Set(['Purchase', 'Cash-Out Refinance', 'BRRRR Refinance']);
+const FAQ_REUSE_LIMIT = 4; // a state-swapped FAQ question may appear on at most this many states
+
 const REQUIRED_DEAL_KEYS = [
-  'city', 'propertyType', 'purchasePrice', 'downPaymentPct', 'downPayment',
+  'label', 'city', 'propertyType', 'purchasePrice', 'downPaymentPct', 'downPayment',
   'loanAmount', 'loanType', 'interestOnly', 'monthlyPI', 'monthlyTax',
   'monthlyInsurance', 'monthlyHOA', 'monthlyPITIA', 'monthlyRent', 'dscr',
   'monthlyCashFlow', 'closingDays',
@@ -84,9 +90,21 @@ const BANNED_PATTERNS = [
   ...['discover', 'unlock', 'elevate', 'seamlessly', 'cutting-edge', 'delve',
     'comprehensive', 'transformative', 'robust', 'curated', 'tailored', 'empower',
     'innovative', 'revolutionizing', 'disrupting', 'hassle-free', 'stress-free',
-    'one-stop shop', 'navigate', 'streamline', 'crucial', 'vital'].map((w) => [new RegExp(`\\b${w.replace(/[-\s]/g, '[-\\s]')}\\b`, 'i'), `banned word "${w}"`]),
+    'one-stop shop', 'crucial', 'vital'].map((w) => [new RegExp(`\\b${w.replace(/[-\s]/g, '[-\\s]')}\\b`, 'i'), `banned word "${w}"`]),
+  // Stem matches: "streamlined" and "navigating" slipped past the word-boundary list.
+  [/\bstreamlin\w*/i, 'banned word "streamline"'],
+  [/\bnavigat\w*/i, 'banned word "navigate"'],
+  [/\bleverag(e|es|ed|ing)\b/i, 'banned word "leverage"'],
   [/\bdream\s+home\b/i, 'banned phrase "dream home"'],
+  [/\bour\s+[\w-]+(\s+[\w-]+)?\s+(program|product)s?\b/i, '"our ... program" (reads as the site lending)'],
 ];
+
+// Sentence split that does not break on "St. Louis", "U.S.", "F.E. Warren", etc.
+function sentences(str) {
+  const guarded = str.replace(/\b(St|Ft|Mt|Dr|Jr|Sr|U\.S|D\.C|F\.E|J\.B)\./g, (m) => m.replace(/\./g, '\u0000'));
+  return guarded.split(/(?<=[.!?])\s+(?=[A-Z0-9$])/).filter(Boolean);
+}
+const wordCount = (str) => str.trim().split(/\s+/).length;
 
 // Effective property-tax-rate mentions we must not flag as a rate claim, e.g.
 // "0.41% effective rate" / "1.74% property tax". Checked separately so the
@@ -179,16 +197,15 @@ if (!Array.isArray(data)) {
 const allSlugs = new Set(data.map((s) => s.slug).filter(Boolean));
 const seenSlugs = new Set();
 const metaAngles = new Map(); // metaAngle text -> [slugs]
-const faqQuestionCounts = new Map(); // normalized question -> count
+const faqQuestionCounts = new Map(); // normalized question -> [slugs]
 
-// Template-tell phrases (WARNINGS category, non-failing).
+// Template-tell phrases from the pre-2026-09 prose. Any hit is a problem.
 const TEMPLATE_TELLS = [
   /opportunities\s+for\s+investors\s+who/i,
   /create\s+unique\s+DSCR\s+opportunities/i,
   /offers\s+DSCR\s+investors/i,
   /provides\s+DSCR\s+investors/i,
 ];
-const tellCounts = new Map(); // tell source -> count
 const tellLabels = [
   '"opportunities for investors who"',
   '"create unique DSCR opportunities"',
@@ -297,15 +314,32 @@ for (const entry of data) {
     if (!Array.isArray(entry.faqItems) || entry.faqItems.length < 4 || entry.faqItems.length > 6) {
       problem(slug, `${p}.faqItems`, `count ${Array.isArray(entry.faqItems) ? entry.faqItems.length : typeof entry.faqItems} (need 4-6)`);
     } else {
+      let yesNoOpeners = 0;
       entry.faqItems.forEach((f, i) => {
         if (!f || typeof f.question !== 'string' || !f.question.trim()) problem(slug, `${p}.faqItems[${i}]`, `empty/missing question`);
         if (!f || typeof f.answer !== 'string' || !f.answer.trim()) problem(slug, `${p}.faqItems[${i}]`, `empty/missing answer`);
+        if (f && typeof f.answer === 'string' && f.answer.trim()) {
+          const words = wordCount(f.answer);
+          if (words < 40 || words > 120) problem(slug, `${p}.faqItems[${i}].answer`, `${words} words (need 40-120)`);
+          if (/^(Yes|No)[.,!]/.test(f.answer.trim())) yesNoOpeners++;
+        }
         if (f && f.question && entry.state) {
           const normalized = f.question.replace(new RegExp(entry.state, 'gi'), '{S}').trim().toLowerCase();
-          faqQuestionCounts.set(normalized, (faqQuestionCounts.get(normalized) || 0) + 1);
+          faqQuestionCounts.set(normalized, [...(faqQuestionCounts.get(normalized) || []), slug]);
         }
       });
+      const maxYesNo = Math.floor(entry.faqItems.length / 3);
+      if (yesNoOpeners > maxYesNo) {
+        problem(slug, `${p}.faqItems`, `${yesNoOpeners} answers open with "Yes."/"No." (max ${maxYesNo} of ${entry.faqItems.length})`);
+      }
     }
+  }
+
+  // --- stateHook shape: 1-3 sentences, a real number in the first ---
+  if (typeof entry.stateHook === 'string' && entry.stateHook.trim()) {
+    const hookSentences = sentences(entry.stateHook);
+    if (hookSentences.length > 3) problem(slug, `${p}.stateHook`, `${hookSentences.length} sentences (max 3)`);
+    if (!/\d/.test(hookSentences[0] || '')) problem(slug, `${p}.stateHook`, `first sentence has no number`);
   }
 
   // --- metaAngle (optional) ---
@@ -364,6 +398,9 @@ for (const entry of data) {
     const missDeal = missing(d, REQUIRED_DEAL_KEYS.filter((k) => k !== 'interestOnly' && k !== 'monthlyHOA'));
     for (const key of missDeal) problem(slug, dp, `missing ${key}`);
 
+    if (d.label !== undefined && !VALID_DEAL_LABELS.has(d.label)) {
+      problem(slug, `${dp}.label`, `"${d.label}" not ${[...VALID_DEAL_LABELS].join(' | ')}`);
+    }
     if (d.downPaymentPct !== undefined && !(d.downPaymentPct >= 15 && d.downPaymentPct <= 40)) {
       problem(slug, `${dp}.downPaymentPct`, `${d.downPaymentPct} outside 15-40`);
     }
@@ -485,13 +522,10 @@ for (const entry of data) {
     summaryLines.push(`${slug} | estimatedDSCR ${dscrColText} | deal dscr N/A (no dealExample) | cash flow N/A (no dealExample)`);
   }
 
-  // --- Template-tell warnings ---
+  // --- Template tells: any occurrence is a problem ---
   const haystack = JSON.stringify(entry);
   TEMPLATE_TELLS.forEach((re, i) => {
-    if (re.test(haystack)) {
-      const label = tellLabels[i];
-      tellCounts.set(label, (tellCounts.get(label) || 0) + 1);
-    }
+    if (re.test(haystack)) problem(slug, `${p}.(prose)`, `template tell ${tellLabels[i]}`);
   });
 }
 
@@ -502,14 +536,11 @@ for (const [text, slugs] of metaAngles) {
   }
 }
 
-// --- Cross-state warning: FAQ question reused verbatim on >10 states ---
-for (const [question, count] of faqQuestionCounts) {
-  if (count > 10) {
-    warn(`FAQ question reused on ${count} states (>10 threshold): "${question.slice(0, 90)}"`);
+// --- Cross-state: FAQ question reused (state-swapped) on too many states ---
+for (const [question, slugs] of faqQuestionCounts) {
+  if (slugs.length > FAQ_REUSE_LIMIT) {
+    problem(slugs[0], '(cross-state)', `FAQ question reused on ${slugs.length} states (max ${FAQ_REUSE_LIMIT}): "${question.slice(0, 90)}" [${slugs.join(', ')}]`);
   }
-}
-for (const [label, count] of tellCounts) {
-  warn(`Template tell ${label}: appears on ${count} state(s)`);
 }
 
 // --- Compliance sweep (after fixes, so messages reflect final content) ---
