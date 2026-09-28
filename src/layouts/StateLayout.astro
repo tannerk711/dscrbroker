@@ -10,6 +10,8 @@ interface CityData {
 }
 
 interface DealExample {
+  /** Refi labels switch the rows to Appraised Value / Equity Retained. */
+  label?: 'Purchase' | 'Cash-Out Refinance' | 'BRRRR Refinance';
   city: string;
   propertyType: string;
   purchasePrice: number;
@@ -17,9 +19,11 @@ interface DealExample {
   downPayment: number;
   loanAmount: number;
   loanType: string;
+  interestOnly?: boolean;
   monthlyPI: number;
   monthlyTax: number;
   monthlyInsurance: number;
+  monthlyHOA?: number;
   monthlyPITIA: number;
   monthlyRent: number;
   dscr: number;
@@ -154,6 +158,38 @@ const programs = [
 ];
 
 const overviewParagraphs = marketOverview.split('\n\n').filter(p => p.trim());
+
+const dealLabel = dealExample.label || 'Purchase';
+const isRefi = dealLabel !== 'Purchase';
+const dealHOA = dealExample.monthlyHOA || 0;
+
+// Final CTA: one of five variants keyed off the landlord climate and whether city guides exist,
+// so the closing pitch is not the same sentence with the state name swapped.
+const hasCityGuides = cityPages.length > 0;
+const finalCta = landlordFriendly === 'tenant'
+  ? {
+      heading: `Want a second set of eyes on your ${state} deal?`,
+      body: `Tenant rules here shape the exit as much as the entry. Your matched specialist can structure the loan around the rents in place, not the rents you hope for.`,
+    }
+  : landlordFriendly === 'friendly' && hasCityGuides
+    ? {
+        heading: `Found your ${state} market?`,
+        body: `The city guides above get you to a shortlist. Your matched specialist takes it from there and structures the file around the property's rent, not your tax returns.`,
+      }
+    : landlordFriendly === 'friendly'
+      ? {
+          heading: `Already eyeing a property in ${state}?`,
+          body: `Bring the address or just a price range. Your matched specialist will run the ratio, flag what the lender will ask for, and structure the file around the rent.`,
+        }
+      : hasCityGuides
+        ? {
+            heading: `Narrowed your ${state} search to one city?`,
+            body: `Use the city guides above for the local numbers, then let your matched specialist check the deal against lenders in the network before you write the offer.`,
+          }
+        : {
+            heading: `Running the numbers on a rental in ${state}?`,
+            body: `Send the scenario. Your matched specialist will tell you which structure the rent can actually support: standard, interest-only, or no-ratio.`,
+          };
 ---
 
 <BaseLayout
@@ -224,7 +260,6 @@ const overviewParagraphs = marketOverview.split('\n\n').filter(p => p.trim());
       <div class="grid md:grid-cols-5 gap-10">
         <!-- Left: Overview (3/5) -->
         <div class="md:col-span-3">
-          <p class="text-xs font-semibold uppercase tracking-widest text-blue-500 mb-3">MARKET OVERVIEW</p>
           <h2 class="text-3xl font-bold text-[#0B1120] mb-6">{state} DSCR Loan Market</h2>
           <div class="text-base text-slate-600 leading-relaxed space-y-4">
             {overviewParagraphs.map((p) => (
@@ -260,8 +295,8 @@ const overviewParagraphs = marketOverview.split('\n\n').filter(p => p.trim());
                   {(topCities as CityData[]).map((c) => (
                     <tr class="border-b border-[#F0EDE8] last:border-0">
                       <td class="text-sm font-medium text-[#0B1120] py-2.5 px-4">{c.city}</td>
-                      <td class="text-sm text-slate-600 py-2.5 px-4 text-right font-mono">{formatCurrencyShort(c.medianPrice)}</td>
-                      <td class="text-sm text-slate-600 py-2.5 px-4 text-right font-mono">{formatCurrency(c.medianRent)}</td>
+                      <td class="text-sm text-slate-600 py-2.5 px-4 text-right tabular-nums">{formatCurrencyShort(c.medianPrice)}</td>
+                      <td class="text-sm text-slate-600 py-2.5 px-4 text-right tabular-nums">{formatCurrency(c.medianRent)}</td>
                       <td class={`text-sm font-semibold py-2.5 px-4 text-right ${c.estDSCR >= 1.0 ? 'text-emerald-600' : 'text-amber-600'}`}>{c.estDSCR.toFixed(2)}x</td>
                     </tr>
                   ))}
@@ -292,7 +327,6 @@ const overviewParagraphs = marketOverview.split('\n\n').filter(p => p.trim());
   <!-- Section 3: Available Programs (Light Alt) -->
   <section class="bg-white py-16 md:py-24">
     <div class="mx-auto max-w-6xl px-4 sm:px-6">
-      <p class="text-xs font-semibold uppercase tracking-widest text-blue-500 mb-3">PROGRAMS AVAILABLE IN {state.toUpperCase()}</p>
       <h2 class="text-3xl font-bold text-[#0B1120] mb-8">8 DSCR Loan Programs for {state} Investors</h2>
       <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
         {programs.map((prog) => (
@@ -309,7 +343,6 @@ const overviewParagraphs = marketOverview.split('\n\n').filter(p => p.trim());
   <!-- Section 4: State-Specific Requirements (Light) -->
   <section class="bg-[#F8F6F1] py-16 md:py-24">
     <div class="mx-auto max-w-6xl px-4 sm:px-6">
-      <p class="text-xs font-semibold uppercase tracking-widest text-blue-500 mb-3">REQUIREMENTS</p>
       <h2 class="text-3xl font-bold text-[#0B1120] mb-8">DSCR Loan Requirements in {state}</h2>
 
       <div class="grid md:grid-cols-2 gap-6">
@@ -320,7 +353,7 @@ const overviewParagraphs = marketOverview.split('\n\n').filter(p => p.trim());
             Licensing &amp; Regulatory
           </h3>
           <p class="text-sm text-slate-600 leading-relaxed">{licensingNote}</p>
-          <p class="text-xs text-slate-400 mt-3">{/* PLACEHOLDER: Broker NMLS numbers */}All lending decisions and terms are determined solely by the matched broker and their wholesale lending partners.</p>
+          <p class="text-xs text-slate-400 mt-3">All lending decisions and terms are determined solely by the matched broker and their wholesale lending partners.</p>
         </div>
 
         <!-- Common Property Types -->
@@ -371,7 +404,6 @@ const overviewParagraphs = marketOverview.split('\n\n').filter(p => p.trim());
   <!-- Section 5: Deal Example (Light Alt) -->
   <section class="bg-white py-16 md:py-24">
     <div class="mx-auto max-w-6xl px-4 sm:px-6">
-      <p class="text-xs font-semibold uppercase tracking-widest text-blue-500 mb-3">DEAL EXAMPLE</p>
       <h2 class="text-3xl font-bold text-[#0B1120] mb-8">Sample DSCR Deal in {dealExample.city}, {state}</h2>
 
       <div class="grid md:grid-cols-2 gap-8">
@@ -380,7 +412,7 @@ const overviewParagraphs = marketOverview.split('\n\n').filter(p => p.trim());
           <div class="flex items-center justify-between mb-4">
             <div>
               <p class="text-sm font-bold text-[#0B1120]">{dealExample.propertyType}</p>
-              <p class="text-xs text-slate-500 mt-0.5">{dealExample.city}, {state}</p>
+              <p class="text-xs text-slate-500 mt-0.5">{dealLabel} in {dealExample.city}, {state}</p>
             </div>
             <span class="bg-blue-50 text-blue-600 text-xs font-semibold uppercase tracking-wider px-3 py-1 rounded">
               {dealExample.loanType.split(' ').slice(-1)[0] === 'DSCR' ? 'DSCR' : dealExample.loanType.includes('STR') ? 'STR DSCR' : 'DSCR'}
@@ -388,11 +420,11 @@ const overviewParagraphs = marketOverview.split('\n\n').filter(p => p.trim());
           </div>
           <div class="space-y-0">
             <div class="flex justify-between py-2.5 border-b border-[#E8E4DD]">
-              <span class="text-sm text-slate-500">Purchase Price</span>
+              <span class="text-sm text-slate-500">{isRefi ? 'Appraised Value' : 'Purchase Price'}</span>
               <span class="text-sm font-semibold text-[#0B1120]">{formatCurrency(dealExample.purchasePrice)}</span>
             </div>
             <div class="flex justify-between py-2.5 border-b border-[#E8E4DD]">
-              <span class="text-sm text-slate-500">Down Payment</span>
+              <span class="text-sm text-slate-500">{isRefi ? 'Equity Retained' : 'Down Payment'}</span>
               <span class="text-sm font-semibold text-[#0B1120]">{dealExample.downPaymentPct}% ({formatCurrency(dealExample.downPayment)})</span>
             </div>
             <div class="flex justify-between py-2.5 border-b border-[#E8E4DD]">
@@ -411,7 +443,7 @@ const overviewParagraphs = marketOverview.split('\n\n').filter(p => p.trim());
           <h3 class="text-sm font-bold text-[#0B1120] mb-4">Monthly Breakdown</h3>
           <div class="space-y-0">
             <div class="flex justify-between py-2.5 border-b border-[#E8E4DD]">
-              <span class="text-sm text-slate-500">Principal & Interest</span>
+              <span class="text-sm text-slate-500">{dealExample.interestOnly ? 'Interest (Interest-Only)' : 'Principal & Interest'}</span>
               <span class="text-sm font-semibold text-[#0B1120]">{formatCurrency(dealExample.monthlyPI)}</span>
             </div>
             <div class="flex justify-between py-2.5 border-b border-[#E8E4DD]">
@@ -422,6 +454,12 @@ const overviewParagraphs = marketOverview.split('\n\n').filter(p => p.trim());
               <span class="text-sm text-slate-500">Insurance</span>
               <span class="text-sm font-semibold text-[#0B1120]">{formatCurrency(dealExample.monthlyInsurance)}</span>
             </div>
+            {dealHOA > 0 && (
+              <div class="flex justify-between py-2.5 border-b border-[#E8E4DD]">
+                <span class="text-sm text-slate-500">HOA Dues</span>
+                <span class="text-sm font-semibold text-[#0B1120]">{formatCurrency(dealHOA)}</span>
+              </div>
+            )}
             <div class="flex justify-between py-2.5 border-b border-[#E8E4DD] font-semibold">
               <span class="text-sm text-[#0B1120]">Total PITIA</span>
               <span class="text-sm text-[#0B1120]">{formatCurrency(dealExample.monthlyPITIA)}</span>
@@ -455,7 +493,7 @@ const overviewParagraphs = marketOverview.split('\n\n').filter(p => p.trim());
       </div>
 
       <!-- Math Line -->
-      <div class="bg-[#F8F6F1] border border-[#E8E4DD] rounded-xl px-6 py-4 mt-6 text-center text-sm text-slate-600 font-mono">
+      <div class="bg-[#F8F6F1] border border-[#E8E4DD] rounded-xl px-6 py-4 mt-6 text-center text-sm text-slate-600 tabular-nums">
         DSCR = {formatCurrency(dealExample.monthlyRent)} ÷ {formatCurrency(dealExample.monthlyPITIA)} = {dealExample.dscr.toFixed(2)}x
       </div>
 
@@ -474,7 +512,6 @@ const overviewParagraphs = marketOverview.split('\n\n').filter(p => p.trim());
   <!-- Section 6: FAQ (Light) -->
   <section class="bg-[#F8F6F1] py-16 md:py-24">
     <div class="mx-auto max-w-3xl px-4 sm:px-6">
-      <p class="text-xs font-semibold uppercase tracking-widest text-blue-500 mb-3">FREQUENTLY ASKED</p>
       <h2 class="text-3xl font-bold text-[#0B1120] mb-8">DSCR Loan Questions for {state} Investors</h2>
       <FAQAccordion items={faqItems} client:visible />
     </div>
@@ -484,7 +521,6 @@ const overviewParagraphs = marketOverview.split('\n\n').filter(p => p.trim());
   {cityPages.length > 0 && (
     <section class="bg-white py-16 md:py-24 border-b border-[#F0EDE8]">
       <div class="mx-auto max-w-6xl px-4 sm:px-6">
-        <p class="text-xs font-semibold uppercase tracking-widest text-blue-500 mb-3">CITY GUIDES</p>
         <h2 class="text-3xl font-bold text-[#0B1120] mb-3">DSCR Loans by City in {state}</h2>
         <p class="text-base text-slate-600 leading-relaxed max-w-3xl mb-8">
           City-level market data, submarkets investors target, worked deal examples, and local rules for {state}'s top rental markets.
@@ -533,10 +569,9 @@ const overviewParagraphs = marketOverview.split('\n\n').filter(p => p.trim());
   <section class="relative bg-[#0B1120] py-16 md:py-24 overflow-hidden">
     <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(59,130,246,0.08),transparent_70%)]" />
     <div class="relative mx-auto max-w-2xl px-4 sm:px-6 text-center">
-      <p class="text-xs font-semibold uppercase tracking-widest text-amber-400 mb-3">GET STARTED</p>
-      <h2 class="text-3xl font-bold text-white mb-4">Ready to Invest in {state}?</h2>
+      <h2 class="text-3xl font-bold text-white mb-4">{finalCta.heading}</h2>
       <p class="text-slate-300 text-base leading-relaxed mb-8">
-        Get matched with a licensed {state} DSCR specialist in under 2 minutes. No credit pull. No commitment.
+        {finalCta.body} 2 minutes. No SSN. No credit pull.
       </p>
       <a
         href="/qualify/"

@@ -36,21 +36,9 @@ const relatedStates = (stateData.relatedStates || [])
     medianRent: s.medianRent,
   }));
 
-// Build meta description
-const stateFactMap: Record<string, string> = {
-  TX: 'No state income tax. Four top-20 metros.',
-  FL: 'No state income tax. Top STR market in the nation.',
-  CA: 'Largest rental market in the US. Strong appreciation.',
-  GA: 'Atlanta leads Southeast growth. Landlord-friendly.',
-  NC: 'Research Triangle tech boom. Charlotte banking hub.',
-  NY: 'Upstate cash flow. NYC appreciation.',
-  AZ: 'Landlord-friendly. Low property taxes at 0.63%.',
-  TN: 'No state income tax. Smoky Mountain STR goldmine.',
-  OH: 'Three metros. Ultra-affordable cash flow.',
-  CO: 'Tech economy. Mountain resort STR markets.',
-};
-const stateFact = stateFactMap[stateData.abbreviation] || `${stateData.landlordFriendly === 'friendly' ? 'Landlord-friendly laws.' : stateData.landlordFriendly === 'tenant' ? 'Strong rental demand.' : 'Steady rental market.'} Property tax at ${stateData.propertyTaxRate}%.`;
-const metaDescription = `DSCR loans in ${stateData.state} from a licensed specialist. ${stateFact} No income docs. Match with a ${stateData.state} DSCR specialist at DSCRBroker.com.`;
+// Meta description: authored per state in states.json (140-160 chars, unique; the
+// verify script enforces both).
+const metaDescription = stateData.metaAngle;
 
 // Build title
 const title = `DSCR Loans in ${stateData.state} | Licensed Specialist | DSCRBroker.com`;
