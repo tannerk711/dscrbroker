@@ -131,12 +131,12 @@ const dscrColor = estimatedDSCR >= 1.25
       : 'text-red-400';
 
 const dealDscrColor = dealExample.dscr >= 1.25
-  ? 'text-emerald-500'
+  ? 'text-emerald-600'
   : dealExample.dscr >= 1.0
-    ? 'text-blue-500'
+    ? 'text-blue-600'
     : dealExample.dscr >= 0.75
-      ? 'text-amber-500'
-      : 'text-red-500';
+      ? 'text-amber-700'
+      : 'text-red-600';
 
 const landlordBadge = landlordFriendly === 'friendly'
   ? { text: 'LANDLORD-FRIENDLY STATE', color: 'bg-emerald-100 text-emerald-700' }
@@ -247,7 +247,7 @@ const finalCta = landlordFriendly === 'tenant'
       <!-- CTA -->
       <a
         href="/qualify/"
-        class="inline-block mt-8 bg-blue-500 hover:bg-blue-600 text-white font-semibold text-sm uppercase tracking-wider px-8 py-4 rounded-lg transition-colors"
+        class="inline-block mt-8 bg-blue-600 hover:bg-blue-700 text-white font-semibold text-sm uppercase tracking-wider px-8 py-4 rounded-lg transition-colors"
       >
         Match Me With a {state} Specialist
       </a>
@@ -297,7 +297,7 @@ const finalCta = landlordFriendly === 'tenant'
                       <td class="text-sm font-medium text-[#0B1120] py-2.5 px-4">{c.city}</td>
                       <td class="text-sm text-slate-600 py-2.5 px-4 text-right tabular-nums">{formatCurrencyShort(c.medianPrice)}</td>
                       <td class="text-sm text-slate-600 py-2.5 px-4 text-right tabular-nums">{formatCurrency(c.medianRent)}</td>
-                      <td class={`text-sm font-semibold py-2.5 px-4 text-right ${c.estDSCR >= 1.0 ? 'text-emerald-600' : 'text-amber-600'}`}>{c.estDSCR.toFixed(2)}x</td>
+                      <td class={`text-sm font-semibold py-2.5 px-4 text-right ${c.estDSCR >= 1.0 ? 'text-emerald-700' : 'text-amber-700'}`}>{c.estDSCR.toFixed(2)}x</td>
                     </tr>
                   ))}
                 </tbody>
@@ -466,7 +466,7 @@ const finalCta = landlordFriendly === 'tenant'
             </div>
             <div class="flex justify-between py-2.5 border-b border-[#E8E4DD]">
               <span class="text-sm text-slate-500">Monthly Rent</span>
-              <span class="text-sm font-semibold text-emerald-600">{formatCurrency(dealExample.monthlyRent)}</span>
+              <span class="text-sm font-semibold text-emerald-700">{formatCurrency(dealExample.monthlyRent)}</span>
             </div>
           </div>
 
@@ -479,7 +479,7 @@ const finalCta = landlordFriendly === 'tenant'
             <div class="flex justify-between mt-4">
               <div>
                 <div class="text-xs text-slate-500">Monthly Cash Flow</div>
-                <div class={`text-sm font-semibold ${dealExample.monthlyCashFlow >= 0 ? 'text-emerald-600' : 'text-amber-600'}`}>
+                <div class={`text-sm font-semibold ${dealExample.monthlyCashFlow >= 0 ? 'text-emerald-700' : 'text-amber-700'}`}>
                   {dealExample.monthlyCashFlow >= 0 ? '+' : ''}{formatCurrency(dealExample.monthlyCashFlow)}
                 </div>
               </div>
@@ -530,7 +530,7 @@ const finalCta = landlordFriendly === 'tenant'
             <a href={`/states/${slug}/${cp.slug}/`} class="group bg-[#F8F6F1] border border-[#E8E4DD] rounded-xl p-4 hover:border-blue-300 hover:shadow-md transition-all">
               <div class="flex items-start justify-between gap-2">
                 <h3 class="text-sm font-bold text-[#0B1120] group-hover:text-blue-600 transition-colors">{cp.city}</h3>
-                <span class={`text-xs font-semibold ${cp.estDSCR >= 1.0 ? 'text-emerald-600' : 'text-amber-600'}`}>{cp.estDSCR.toFixed(2)}x</span>
+                <span class={`text-xs font-semibold ${cp.estDSCR >= 1.0 ? 'text-emerald-700' : 'text-amber-700'}`}>{cp.estDSCR.toFixed(2)}x</span>
               </div>
               <div class="mt-2 space-y-0.5 text-xs text-slate-500">
                 <div>Median: <span class="font-semibold text-[#0B1120]">{formatCurrencyShort(cp.medianPrice)}</span></div>
