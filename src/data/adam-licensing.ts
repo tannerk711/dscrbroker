@@ -1,6 +1,6 @@
 // Adam C. Cunningham / Tall Timbers Realty and Financial Services licensing block.
 // Kept deliberately simple (Tanner's call, 2026-08-11). Language is based on the
-// approved Tall Timbers footer copy (clients/tall-timbers-funnel, Footer.astro):
+// approved Tall Timbers footer copy (clients/tall-timbers/funnels/dscr, Footer.astro):
 // "Loans are originated by Adam C. Cunningham, Mortgage Loan Originator, NMLS #312817,
 // through our network of wholesale lender partners."
 //
