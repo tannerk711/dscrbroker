@@ -362,7 +362,16 @@ export default function DSCRForm() {
       // Persist submission for the thank-you page to render the verdict + broker context.
       // matchedBroker reflects the SERVER's assignment (split states may differ from
       // the client-side guess) so the right specialist renders on /thank-you/.
-      const successPayload = { ...payload, matchedBroker: assignedBroker, dealVerdict, program: programRec };
+      // The trap value itself stays out of sessionStorage; only the flag travels,
+      // so /thank-you can keep the Ads conversion off for a filled trap.
+      const { ff_hp, ...stored } = payload;
+      const successPayload = {
+        ...stored,
+        matchedBroker: assignedBroker,
+        dealVerdict,
+        program: programRec,
+        honeypotFilled: typeof ff_hp === 'string' && ff_hp.trim() !== '',
+      };
       sessionStorage.setItem('dscrbroker_submission', JSON.stringify(successPayload));
       $submittedData.set(successPayload);
       clearFormData();

@@ -15,6 +15,7 @@ interface SubmissionPayload {
   dealVerdict?: DealVerdict;
   program?: ProgramRecommendation;
   isFake?: boolean;
+  honeypotFilled?: boolean; // client-side trap value was non-empty at submit; the server decides, the conversion stays off
 }
 
 const TIER_STYLES: Record<DealVerdict['tier'], { ring: string; pill: string; pillText: string }> = {
@@ -205,10 +206,12 @@ export default function ThankYou() {
     setLoaded(true);
   }, []);
 
-  // Fire the Google Ads "New Lead" conversion. Real leads only: skip honeypot
-  // submissions (isFake) and the ?demo=1 preview. Fires once per page load.
+  // Fire the Google Ads "New Lead" conversion. Real leads only: skip the
+  // ?demo=1 preview (isFake) and any submit whose trap field was filled
+  // (honeypotFilled; the server may still forward a slow one, flagged, but a
+  // bot the server dropped also lands here with a success shape). Fires once.
   useEffect(() => {
-    if (!data || data.isFake || conversionFiredRef.current) return;
+    if (!data || data.isFake || data.honeypotFilled || conversionFiredRef.current) return;
     if (typeof window === 'undefined') return;
     if (new URLSearchParams(window.location.search).get('demo') === '1') return;
     const gtag = (window as any).gtag;
