@@ -34,6 +34,7 @@ export const $consent = atom(false);
 // TCPA consent record forwarded with the lead; cleared if the box is unchecked.
 export const $consentAt = atom('');
 export const $honeypot = atom('');
+export const $formStartedAt = atom(0);
 export const $isSubmitting = atom(false);
 export const $submitError = atom<string | null>(null);
 export const $submittedData = atom<Record<string, unknown> | null>(null);

@@ -55,6 +55,39 @@ export const POST: APIRoute = async ({ request }) => {
     return json({ error: 'INVALID_BODY', message: 'Body must be JSON.' }, 400);
   }
 
+  // Honeypot. The trap carries a nonsense name (`ff_hp`) plus password-manager
+  // ignore attributes, and a filled trap is only decisive when the form was
+  // "completed" in seconds. A human whose form filler hit it takes longer; that
+  // lead is forwarded with honeypotFilled: true instead of vanishing. The
+  // client never fakes a thank-you and always POSTs. `website` is the
+  // pre-rename trap name; cached bundles still send it.
+  const who = () =>
+    JSON.stringify({
+      name: [payload.firstName, payload.lastName].filter((v) => typeof v === 'string' && v).join(' '),
+      email: payload.email,
+    });
+  const trap = [payload.ff_hp, payload.website].find(
+    (v) => typeof v === 'string' && v.trim() !== ''
+  );
+  delete payload.ff_hp;
+  delete payload.website;
+  const seconds = Number(payload.secondsToComplete);
+  payload.honeypotFilled = trap !== undefined;
+  if (trap !== undefined) {
+    if (!Number.isFinite(seconds) || seconds < 20) {
+      console.warn(`[lead] dropped: honeypot filled, form done in ${seconds}s`, who());
+      return json({ success: true, assignedBroker: 'broker_a' }, 200);
+    }
+    console.warn(`[lead] honeypot filled after ${seconds}s, forwarding flagged`, who());
+  }
+
+  for (const req of ['firstName', 'email', 'phone']) {
+    if (typeof payload[req] !== 'string' || (payload[req] as string).trim() === '') {
+      console.warn(`[lead] rejected: missing ${req}`, who());
+      return json({ error: 'MISSING_FIELD', message: `Missing ${req}.` }, 400);
+    }
+  }
+
   // TCPA consent is a legal record, and a client-only gate is bypassable, so the
   // server refuses any submission without one. The form always sends `consent`
   // ({ agreed, text, agreedAt, url }); its absence means a bypassed or broken
@@ -82,6 +115,7 @@ export const POST: APIRoute = async ({ request }) => {
       typeof payload.phone === 'string' && payload.phone.length > 0 &&
       typeof payload.matchedBroker === 'string';
     if (!looksLikeLegacyLead) {
+      console.warn('[lead] rejected: missing consent', who());
       return json(
         { error: 'CONSENT_REQUIRED', message: 'TCPA consent is required to submit.' },
         400
@@ -138,7 +172,7 @@ export const POST: APIRoute = async ({ request }) => {
   if (!webhookUrl) {
     // No webhook configured. Log it so a misconfigured env is visible in Vercel
     // logs instead of silently dropping the lead.
-    console.error(`[lead] No webhook configured for ${brokerKey} (env ${envName})`);
+    console.error(`[lead] No webhook configured for ${brokerKey} (env ${envName})`, who());
     return json(
       { error: 'WEBHOOK_NOT_CONFIGURED', message: 'Lead endpoint is not configured.' },
       503
@@ -154,15 +188,26 @@ export const POST: APIRoute = async ({ request }) => {
     });
 
     if (!res.ok) {
-      console.error(`[lead] Webhook for ${brokerKey} returned ${res.status}`);
+      console.error(`[lead] webhook answered ${res.status}`, who());
       return json({ error: 'WEBHOOK_FAILED', status: res.status }, 502);
     }
 
     // assignedBroker tells the form who actually got the lead (matters for split
     // states) so the thank-you page renders the right specialist.
+    console.log(
+      `[lead] accepted, webhook ${res.status}`,
+      JSON.stringify({
+        name: JSON.parse(who()).name,
+        email: payload.email,
+        receivedAt: (payload.consent as Record<string, unknown>).receivedAt,
+        ip: (payload.consent as Record<string, unknown>).clientIp,
+        seconds,
+        honeypotFilled: payload.honeypotFilled,
+      })
+    );
     return json({ success: true, assignedBroker: brokerKey }, 200);
   } catch (error) {
-    console.error('[lead] Webhook forward error:', error);
+    console.error('[lead] webhook unreachable', who(), error);
     return json({ error: 'WEBHOOK_ERROR' }, 502);
   }
 };

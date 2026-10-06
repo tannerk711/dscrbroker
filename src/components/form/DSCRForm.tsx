@@ -4,7 +4,7 @@ import {
   $loanGoal, $propertyType, $state, $propertyValue, $downPayment, $loanBalance,
   $rehabBudget, $cashFlow, $creditScore, $usCitizen, $timeline,
   $firstName, $lastName, $phone, $email, $utmParams,
-  $currentStep, $direction, $consent, $consentAt, $honeypot, $isSubmitting, $submitError,
+  $currentStep, $direction, $consent, $consentAt, $honeypot, $formStartedAt, $isSubmitting, $submitError,
   $submittedData, $matchedBroker, captureUTMParams, clearFormData, processURLParams,
 } from '../../stores/formStore';
 import { getBrokerForState, formatPhoneE164, getDeviceType, STATE_NAMES } from '../../utils/brokerRouting';
@@ -22,6 +22,11 @@ import StepCreditScore from './StepCreditScore';
 import StepCitizenship from './StepCitizenship';
 import StepTimeline from './StepTimeline';
 import StepContact, { CONSENT_CHECKBOX_TEXT, CONSENT_DISCLOSURE_TEXT } from './StepContact';
+
+// Start of the first interaction, set once; feeds secondsToComplete.
+function markStarted() {
+  if (!$formStartedAt.get()) $formStartedAt.set(Date.now());
+}
 
 function trackEvent(eventName: string, params: Record<string, unknown> = {}) {
   if (typeof window !== 'undefined' && (window as any).gtag) {
@@ -148,6 +153,7 @@ export default function DSCRForm() {
 
   // Step 1: Loan Goal, auto-advance and set path
   const handleLoanGoalSelect = useCallback((value: string) => {
+    markStarted();
     $loanGoal.set(value);
     setTimeout(() => {
       $direction.set('forward');
@@ -158,6 +164,7 @@ export default function DSCRForm() {
 
   // Property Type, auto-advance
   const handlePropertyTypeSelect = useCallback((value: string) => {
+    markStarted();
     const from = $currentStep.get();
     $propertyType.set(value);
     scheduleAdvance(from, 300);
@@ -165,6 +172,7 @@ export default function DSCRForm() {
 
   // Location, auto-advance with confirmation delay
   const handleLocationSelect = useCallback((value: string) => {
+    markStarted();
     const from = $currentStep.get();
     $state.set(value);
     const broker = getBrokerForState(value);
@@ -174,6 +182,7 @@ export default function DSCRForm() {
 
   // Down payment, auto-advance after a beat (so user sees the qualifier message)
   const handleDownPaymentSelect = useCallback((value: string) => {
+    markStarted();
     const from = $currentStep.get();
     $downPayment.set(value);
     scheduleAdvance(from, 450);
@@ -181,6 +190,7 @@ export default function DSCRForm() {
 
   // Cash flow, auto-advance
   const handleCashFlowSelect = useCallback((value: string) => {
+    markStarted();
     const from = $currentStep.get();
     $cashFlow.set(value);
     scheduleAdvance(from, 450);
@@ -188,6 +198,7 @@ export default function DSCRForm() {
 
   // Credit, auto-advance
   const handleCreditSelect = useCallback((value: string) => {
+    markStarted();
     const from = $currentStep.get();
     $creditScore.set(value);
     scheduleAdvance(from, 450);
@@ -195,6 +206,7 @@ export default function DSCRForm() {
 
   // Citizenship, auto-advance
   const handleCitizenshipSelect = useCallback((value: string) => {
+    markStarted();
     const from = $currentStep.get();
     $usCitizen.set(value);
     scheduleAdvance(from, 450);
@@ -202,6 +214,7 @@ export default function DSCRForm() {
 
   // Timeline, auto-advance
   const handleTimelineSelect = useCallback((value: string) => {
+    markStarted();
     const from = $currentStep.get();
     $timeline.set(value);
     scheduleAdvance(from, 450);
@@ -210,31 +223,6 @@ export default function DSCRForm() {
   // Submit
   const handleSubmit = useCallback(async () => {
     trackEvent('form_submit_click', { step: currentStep });
-
-    // Honeypot check. Silently route to thank-you with fake data.
-    if ($honeypot.get()) {
-      const fakeVerdict = getDealVerdict('700_739');
-      const fakeProgram = getRecommendedProgram({
-        loanGoal: $loanGoal.get(),
-        cashFlow: $cashFlow.get(),
-        usCitizen: $usCitizen.get() || 'yes',
-        propertyType: $propertyType.get() || 'single_family',
-      });
-      const payload = {
-        loanGoal: $loanGoal.get() || 'purchase',
-        state: STATE_NAMES[$state.get()] || $state.get() || 'Texas',
-        stateCode: $state.get() || 'TX',
-        propertyType: $propertyType.get() || 'single_family',
-        creditScore: '700_739',
-        cashFlow: 'positive',
-        dealVerdict: fakeVerdict,
-        program: fakeProgram,
-        isFake: true,
-      };
-      sessionStorage.setItem('dscrbroker_submission', JSON.stringify(payload));
-      window.location.href = '/thank-you/';
-      return;
-    }
 
     // Consent gate at submit time. The Try Again path calls handleSubmit directly
     // (bypassing StepContact's zod gate), so a user who unchecks the box and then
@@ -310,6 +298,9 @@ export default function DSCRForm() {
         deviceType: getDeviceType(),
       },
       submittedAt: new Date().toISOString(),
+      // Seconds from first interaction to submit; the server's honeypot time gate reads it.
+      secondsToComplete: $formStartedAt.get() ? Math.round((Date.now() - $formStartedAt.get()) / 1000) : null,
+      ff_hp: $honeypot.get(),
     };
 
     let success = false;

@@ -251,13 +251,17 @@ export default function StepContact({
 
       {/* Honeypot */}
       <div className="sr-only" aria-hidden="true" tabIndex={-1}>
-        <label htmlFor="website">Website</label>
+        <label htmlFor="ff-hp">Leave this empty</label>
         <input
           type="text"
-          id="website"
-          name="website"
+          id="ff-hp"
+          name="ff_hp"
           autoComplete="off"
           tabIndex={-1}
+          aria-hidden="true"
+          data-lpignore="true"
+          data-1p-ignore
+          data-form-type="other"
           value={honeypot}
           onChange={(e) => onHoneypotChange(e.target.value)}
         />
