@@ -55,12 +55,10 @@ export const POST: APIRoute = async ({ request }) => {
     return json({ error: 'INVALID_BODY', message: 'Body must be JSON.' }, 400);
   }
 
-  // Honeypot. The trap carries a nonsense name (`ff_hp`) plus password-manager
-  // ignore attributes, and a filled trap is only decisive when the form was
-  // "completed" in seconds. A human whose form filler hit it takes longer; that
-  // lead is forwarded with honeypotFilled: true instead of vanishing. The
-  // client never fakes a thank-you and always POSTs. `website` is the
-  // pre-rename trap name; cached bundles still send it.
+  // Honeypot is a LABEL, never a gate (Tanner, 2026-10-06: every complete
+  // submit fires the Zap and becomes a lead). A filled trap travels as
+  // honeypotFilled: true on the payload and gets one log line; nothing is
+  // dropped. The pre-rename trap key is still read for cached bundles.
   const who = () =>
     JSON.stringify({
       name: [payload.firstName, payload.lastName].filter((v) => typeof v === 'string' && v).join(' '),
@@ -74,11 +72,7 @@ export const POST: APIRoute = async ({ request }) => {
   const seconds = Number(payload.secondsToComplete);
   payload.honeypotFilled = trap !== undefined;
   if (trap !== undefined) {
-    if (!Number.isFinite(seconds) || seconds < 20) {
-      console.warn(`[lead] dropped: honeypot filled, form done in ${seconds}s`, who());
-      return json({ success: true, assignedBroker: 'broker_a' }, 200);
-    }
-    console.warn(`[lead] honeypot filled after ${seconds}s, forwarding flagged`, who());
+    console.warn(`[lead] trap filled (${seconds}s), forwarding flagged`, who());
   }
 
   for (const req of ['firstName', 'email', 'phone']) {
