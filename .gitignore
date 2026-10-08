@@ -40,6 +40,11 @@ scripts/
 # City-data verifier must ship: the documented add-a-state recipe depends on it.
 !scripts/verify-city-data.mjs
 !scripts/verify-state-data.mjs
+# Postbuild sitemap split + lastmod and the scoped trailing-slash 308s run on Vercel.
+!scripts/build-sitemaps.mjs
+!scripts/fix-vercel-redirects.mjs
+# Writes src/data/lastmod.json locally (git dates) before a content commit.
+!scripts/lastmod-manifest.mjs
 CHANGE-LOG-*.md
 
 # Local dev server log
