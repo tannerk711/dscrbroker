@@ -124,6 +124,19 @@ const {
 } = Astro.props;
 
 const canonical = `https://dscrbroker.com/programs/${slug}/`;
+
+// Real pixel size of each hero file in public/images/programs (read from the files).
+const heroSizes: Record<string, { width: number; height: number }> = {
+  '/images/programs/standard-dscr.jpg': { width: 768, height: 416 },
+  '/images/programs/no-ratio-dscr.jpg': { width: 768, height: 416 },
+  '/images/programs/foreign-national-dscr.jpg': { width: 768, height: 416 },
+  '/images/programs/interest-only-dscr.jpg': { width: 768, height: 416 },
+  '/images/programs/bank-statement-dscr.jpg': { width: 768, height: 416 },
+  '/images/programs/str-dscr.jpg': { width: 768, height: 416 },
+  '/images/programs/portfolio-dscr.jpg': { width: 768, height: 416 },
+  '/images/programs/bridge-to-dscr.jpg': { width: 768, height: 416 },
+};
+const heroSize = heroImage ? heroSizes[heroImage] : undefined;
 ---
 
 <BaseLayout
@@ -137,7 +150,7 @@ const canonical = `https://dscrbroker.com/programs/${slug}/`;
   <section class="relative bg-[#0B1120] pt-16 pb-20 md:pt-24 md:pb-20 overflow-hidden">
     {heroImage && (
       <div class="absolute inset-0">
-        <img src={heroImage} alt="" class="w-full h-full object-cover" aria-hidden="true" />
+        <img src={heroImage} width={heroSize?.width} height={heroSize?.height} alt="" class="w-full h-full object-cover" aria-hidden="true" />
         <div class="absolute inset-0 bg-[#0B1120]/80 backdrop-blur-[2px]" />
       </div>
     )}
@@ -147,7 +160,7 @@ const canonical = `https://dscrbroker.com/programs/${slug}/`;
         <ol class="flex items-center gap-1.5">
           <li><a href="/" class="hover:text-white transition-colors">Home</a></li>
           <li class="text-slate-500">/</li>
-          <li><a href="/programs" class="hover:text-white transition-colors">Loan Programs</a></li>
+          <li><a href="/programs/" class="hover:text-white transition-colors">Loan Programs</a></li>
           <li class="text-slate-500">/</li>
           <li class="text-white">{programName} Loans</li>
         </ol>

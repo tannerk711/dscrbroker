@@ -20,6 +20,8 @@ const programs = [
     ],
     image: '/images/programs/cards/standard-dscr.webp',
     imageAlt: 'Single-family rental home at golden hour',
+    imageWidth: 768,
+    imageHeight: 416,
     highlight: true,
   },
   {
@@ -33,6 +35,8 @@ const programs = [
     ],
     image: '/images/programs/cards/no-ratio-dscr.webp',
     imageAlt: 'Modern luxury home at dusk with glowing interior',
+    imageWidth: 768,
+    imageHeight: 416,
   },
   {
     name: 'Foreign National DSCR',
@@ -45,6 +49,8 @@ const programs = [
     ],
     image: '/images/programs/cards/foreign-national-dscr.webp',
     imageAlt: 'Aerial view of waterfront properties along tropical coastline',
+    imageWidth: 768,
+    imageHeight: 416,
   },
   {
     name: 'Interest-Only DSCR',
@@ -57,6 +63,8 @@ const programs = [
     ],
     image: '/images/programs/cards/interest-only-dscr.webp',
     imageAlt: 'Gold house keys and coins representing lower payments',
+    imageWidth: 768,
+    imageHeight: 416,
   },
   {
     name: 'Short-Term Rental DSCR',
@@ -69,6 +77,8 @@ const programs = [
     ],
     image: '/images/programs/cards/str-dscr.webp',
     imageAlt: 'Luxury cabin vacation rental with mountain view and fireplace',
+    imageWidth: 768,
+    imageHeight: 416,
   },
   {
     name: 'Portfolio DSCR',
@@ -81,6 +91,8 @@ const programs = [
     ],
     image: '/images/programs/cards/portfolio-dscr.webp',
     imageAlt: 'Aerial view of suburban neighborhood with rows of rental homes',
+    imageWidth: 768,
+    imageHeight: 416,
   },
 ];
 ---
@@ -107,6 +119,8 @@ const programs = [
             <img
               src={program.image}
               alt={program.imageAlt}
+              width={program.imageWidth}
+              height={program.imageHeight}
               class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
               loading="lazy"
               decoding="async"

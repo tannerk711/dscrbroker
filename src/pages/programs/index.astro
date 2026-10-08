@@ -41,6 +41,8 @@ const programs = [
     highlight: true,
     image: '/images/programs/standard-dscr.jpg',
     imageAlt: 'Single-family rental home at golden hour with warm sunlight',
+    imageWidth: 768,
+    imageHeight: 416,
   },
   {
     name: 'No-Ratio DSCR',
@@ -53,6 +55,8 @@ const programs = [
     bestFor: 'Negative cash flow deals',
     image: '/images/programs/no-ratio-dscr.jpg',
     imageAlt: 'Modern luxury home at dusk with glowing interior lights',
+    imageWidth: 768,
+    imageHeight: 416,
   },
   {
     name: 'Foreign National DSCR',
@@ -65,6 +69,8 @@ const programs = [
     bestFor: 'Non-US investors',
     image: '/images/programs/foreign-national-dscr.jpg',
     imageAlt: 'Aerial view of waterfront properties along a tropical coastline',
+    imageWidth: 768,
+    imageHeight: 416,
   },
   {
     name: 'Interest-Only DSCR',
@@ -77,6 +83,8 @@ const programs = [
     bestFor: 'Cash flow maximizers',
     image: '/images/programs/interest-only-dscr.jpg',
     imageAlt: 'Gold house keys and coins representing lower monthly payments',
+    imageWidth: 768,
+    imageHeight: 416,
   },
   {
     name: 'Bank Statement DSCR',
@@ -89,6 +97,8 @@ const programs = [
     bestFor: 'Self-employed investors',
     image: '/images/programs/bank-statement-dscr.jpg',
     imageAlt: 'Executive workspace with laptop showing financial charts and bank statements',
+    imageWidth: 768,
+    imageHeight: 416,
   },
   {
     name: 'Short-Term Rental DSCR',
@@ -101,6 +111,8 @@ const programs = [
     bestFor: 'Airbnb/VRBO operators',
     image: '/images/programs/str-dscr.jpg',
     imageAlt: 'Luxury cabin vacation rental interior with mountain view and warm fireplace',
+    imageWidth: 768,
+    imageHeight: 416,
   },
   {
     name: 'Portfolio DSCR',
@@ -113,6 +125,8 @@ const programs = [
     bestFor: '3+ property bundles',
     image: '/images/programs/portfolio-dscr.jpg',
     imageAlt: 'Aerial view of suburban neighborhood with rows of rental homes at golden hour',
+    imageWidth: 768,
+    imageHeight: 416,
   },
   {
     name: 'Bridge-to-DSCR',
@@ -125,6 +139,8 @@ const programs = [
     bestFor: 'BRRRR investors',
     image: '/images/programs/bridge-to-dscr.jpg',
     imageAlt: 'Before and after renovation of a BRRRR investment property',
+    imageWidth: 768,
+    imageHeight: 416,
   },
 ];
 
@@ -133,7 +149,7 @@ const jsonLd = {
   "@type": "CollectionPage",
   "name": "DSCR Loan Programs",
   "description": description,
-  "url": "https://dscrbroker.com/programs",
+  "url": "https://dscrbroker.com/programs/",
   "provider": {
     "@type": "Organization",
     "name": "DSCRBroker.com",
@@ -170,7 +186,7 @@ const jsonLd = {
       <div class="grid md:grid-cols-2 gap-6">
         {programs.map((program) => (
           <a
-            href={`/programs/${program.slug}`}
+            href={`/programs/${program.slug}/`}
             class={`group block bg-white border rounded-xl overflow-hidden hover:shadow-lg transition-shadow ${program.highlight ? 'border-blue-200 ring-1 ring-blue-100' : 'border-[#E8E4DD]'}`}
           >
             {/* Photo banner with icon overlay */}
@@ -178,6 +194,8 @@ const jsonLd = {
               <img
                 src={program.image}
                 alt={program.imageAlt}
+                width={program.imageWidth}
+                height={program.imageHeight}
                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 loading="lazy"
                 decoding="async"
@@ -331,7 +349,7 @@ const jsonLd = {
         Answer a few questions and we will match you with the right DSCR program and broker for your deal. Takes 2 minutes. No credit pull.
       </p>
       <a
-        href="/qualify"
+        href="/qualify/"
         class="inline-block bg-amber-500 hover:bg-amber-600 text-[#0B1120] font-semibold text-sm uppercase tracking-wider px-8 py-4 rounded transition-colors"
       >
         Match Me With a Specialist
