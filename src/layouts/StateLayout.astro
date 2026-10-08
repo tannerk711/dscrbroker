@@ -1,6 +1,7 @@
 ---
 import BaseLayout from './BaseLayout.astro';
 import FAQAccordion from '../components/FAQAccordion';
+import StickyContentCTA from '../components/learn/StickyContentCTA.astro';
 
 interface CityData {
   city: string;
@@ -565,8 +566,9 @@ const finalCta = landlordFriendly === 'tenant'
     </section>
   )}
 
-  <!-- Section 8: CTA (Dark) -->
-  <section class="relative bg-[#0B1120] py-16 md:py-24 overflow-hidden">
+  <!-- Section 8: CTA (Dark). data-sticky-cta-hide: the sticky mobile bar
+       retracts while this band is on screen. -->
+  <section class="relative bg-[#0B1120] py-16 md:py-24 overflow-hidden" data-sticky-cta-hide>
     <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(59,130,246,0.08),transparent_70%)]" />
     <div class="relative mx-auto max-w-2xl px-4 sm:px-6 text-center">
       <h2 class="text-3xl font-bold text-white mb-4">{finalCta.heading}</h2>
@@ -608,5 +610,7 @@ const finalCta = landlordFriendly === 'tenant'
       </p>
     </div>
   </div>
+
+  <StickyContentCTA location="sticky_state" />
 
 </BaseLayout>

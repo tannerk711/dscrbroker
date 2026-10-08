@@ -6,6 +6,7 @@
 // Validate data with: node scripts/verify-city-data.mjs --fix
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import FAQAccordion from '../../../components/FAQAccordion';
+import StickyContentCTA from '../../../components/learn/StickyContentCTA.astro';
 import statesData from '../../../data/states.json';
 
 export function getStaticPaths() {
@@ -515,8 +516,9 @@ const monthlyTaxAtMedian = Math.round(m.medianPrice * m.propertyTaxRate / 100 / 
     </div>
   </section>
 
-  <!-- Section 8: CTA (Dark) -->
-  <section class="relative bg-[#0B1120] py-16 md:py-24 overflow-hidden">
+  <!-- Section 8: CTA (Dark). data-sticky-cta-hide: the sticky mobile bar
+       retracts while this band is on screen. -->
+  <section class="relative bg-[#0B1120] py-16 md:py-24 overflow-hidden" data-sticky-cta-hide>
     <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(59,130,246,0.08),transparent_70%)]" />
     <div class="relative mx-auto max-w-2xl px-4 sm:px-6 text-center">
       <p class="text-xs font-semibold uppercase tracking-widest text-amber-400 mb-3">GET STARTED</p>
@@ -559,5 +561,7 @@ const monthlyTaxAtMedian = Math.round(m.medianPrice * m.propertyTaxRate / 100 / 
       </p>
     </div>
   </div>
+
+  <StickyContentCTA location="sticky_city" />
 
 </BaseLayout>

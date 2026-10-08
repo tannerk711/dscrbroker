@@ -1,11 +1,14 @@
 ---
 /**
- * Phone-free sticky mobile CTA for /learn/ and /dscr-loans/ pages. Variant of
- * lp/StickyMobileCTA.astro: single full-width button to /qualify/,
- * same show-after-600px logic. The directory has no phone number.
+ * Phone-free sticky mobile CTA for content pages (/learn/, /dscr-loans/,
+ * /states/ and city pages). Variant of lp/StickyMobileCTA.astro: single
+ * full-width button to /qualify/, same show-after-600px logic. The directory
+ * has no phone number. Hides while the page footer or any element marked
+ * data-sticky-cta-hide (the final-CTA band) is on screen, so it never covers
+ * the band's own button or the footer links.
  */
 interface Props {
-  /** Analytics data-location value; scenario pages pass "sticky_scenario". */
+  /** Analytics data-location value: sticky_learn | sticky_scenario | sticky_state | sticky_city. */
   location?: string;
 }
 const { location = 'sticky_learn' } = Astro.props;
@@ -37,14 +40,32 @@ const { location = 'sticky_learn' } = Astro.props;
   const stickyEl = document.getElementById('sticky-content-cta');
   if (stickyEl) {
     let visible = false;
-    const onScroll = () => {
-      const shouldShow = window.scrollY > 600;
+    let blocked = false; // footer or final-CTA band on screen
+    const apply = () => {
+      const shouldShow = window.scrollY > 600 && !blocked;
       if (shouldShow !== visible) {
         visible = shouldShow;
         stickyEl.style.translate = shouldShow ? '0 0' : '0 100%';
       }
     };
-    window.addEventListener('scroll', onScroll, { passive: true });
-    onScroll();
+    window.addEventListener('scroll', apply, { passive: true });
+
+    const blockers = [
+      ...document.querySelectorAll('[data-sticky-cta-hide]'),
+      ...document.querySelectorAll('footer'),
+    ];
+    if (blockers.length && 'IntersectionObserver' in window) {
+      const onScreen = new Set<Element>();
+      const io = new IntersectionObserver((entries) => {
+        for (const entry of entries) {
+          if (entry.isIntersecting) onScreen.add(entry.target);
+          else onScreen.delete(entry.target);
+        }
+        blocked = onScreen.size > 0;
+        apply();
+      });
+      blockers.forEach((el) => io.observe(el));
+    }
+    apply();
   }
 </script>

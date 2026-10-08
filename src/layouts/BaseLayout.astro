@@ -137,5 +137,21 @@ const fullOgImage = ogImage.startsWith('http') ? ogImage : `${siteUrl}${ogImage}
   </main>
 
   <Footer />
+
+  <!-- CTA click tracking: CTAs carry data-event / data-location (the sticky
+       mobile CTA on state, city, learn and scenario pages, the scenario inline
+       CTAs). Same delegated listener as LandingLayout; without it the
+       attributes are dead markup. gtag() is the inline queue from the head, so
+       clicks before the library lands still flush. -->
+  <script is:inline set:html={`
+    document.addEventListener('click', function (e) {
+      var el = e.target && e.target.closest ? e.target.closest('[data-event]') : null;
+      if (!el || typeof window.gtag !== 'function') return;
+      window.gtag('event', el.getAttribute('data-event'), {
+        location: el.getAttribute('data-location') || undefined,
+        page: window.location.pathname,
+      });
+    });
+  `} />
 </body>
 </html>
