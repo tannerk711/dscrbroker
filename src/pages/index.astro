@@ -20,15 +20,6 @@ const lead: LeadConfig = { ...qualifyLead, leadSource: 'homepage-v3' };
 const title = 'DSCR Loans | Specialist Brokers in All 50 States | DSCRBroker.com';
 const description = 'DSCR loans for real estate investors, structured by licensed specialists in all 50 states. No income verification, no tax returns, no credit pull. Matched in 2 minutes.';
 
-// Hero trust chips. Rendered twice: beside the H1 from md up, below the form
-// card on mobile (the iPhone SE fold needs the card above them).
-const trustChips = [
-  { label: 'No Income Docs', color: 'text-green', paths: ['M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z'] },
-  { label: 'Same Day Pre-Approval', color: 'text-green', paths: ['M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z'] },
-  { label: 'Fast Closing', color: 'text-navy-mid', paths: ['M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z'] },
-  { label: 'All 50 States', color: 'text-navy-mid', paths: ['M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z', 'M15 11a3 3 0 11-6 0 3 3 0 016 0z'] },
-];
-
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "FinancialService",
@@ -107,44 +98,24 @@ const faqJsonLd = {
   <!-- FAQ Schema -->
   <script is:inline slot="head" type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />
 
-  <!-- Section 1: Hero -->
-  <!-- Mobile fold (iPhone SE 375x667): the pill is hidden, the paragraph is one
-       sentence, the trust chips sit below the form card, and the hero padding
-       and card padding tighten. From md up every class resolves to the
-       original desktop layout. -->
-  <!-- Centered lp-t4 shape (Tanner 2026-10-30): H1 is the LCP element and
-       stays static; nothing inside the form stage ever receives GSAP or a
-       CSS reveal. The V3 island is the SAME form /qualify/ runs. -->
-  <section class="relative overflow-hidden bg-white pt-20 pb-10 md:pt-28 md:pb-16" aria-labelledby="hero-h1">
+  <!-- Section 1: Hero. Centered lp-t4 shape (Tanner 2026-10-30): H1 + one
+       matching-service line + the form, nothing else (pill and trust chips cut
+       on his call, "neither look good"), generous spacing on phones ("give the
+       hero more spacing"). H1 is the LCP element and stays static; nothing
+       inside the form stage ever receives GSAP or a CSS reveal. The V3 island
+       is the SAME form /qualify/ runs. -->
+  <section class="relative overflow-hidden bg-white pt-28 pb-14 md:pt-36 md:pb-20" aria-labelledby="hero-h1">
     <div class="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center">
-      <span class="hidden md:inline-flex items-center gap-2 rounded-full bg-navy-mid px-3.5 py-1.5 text-xs font-bold uppercase tracking-wider text-off-white">
-        <svg class="h-3.5 w-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
-        </svg>
-        70+ DSCR Lenders. All 50 States.
-      </span>
-
-      <h1 id="hero-h1" class="md:mt-5 text-3xl font-bold tracking-[-0.008em] text-navy sm:text-4xl md:text-5xl lg:text-[52px]" style="line-height: 1.12;">
+      <h1 id="hero-h1" class="text-3xl font-bold tracking-[-0.008em] text-navy sm:text-4xl md:text-5xl lg:text-[52px]" style="line-height: 1.12;">
         DSCR Loans, Structured<br />by a Specialist.
       </h1>
 
-      <p class="mx-auto mt-3 max-w-2xl text-base leading-relaxed text-gray-600 md:mt-4 md:text-lg">
+      <p class="mx-auto mt-4 max-w-2xl text-base leading-relaxed text-gray-600 md:mt-5 md:text-lg">
         We match real estate investors with licensed DSCR specialists in all 50 states.
       </p>
 
-      <div id="lead-form" class="home-v3 mx-auto mt-5 w-full max-w-4xl text-left scroll-mt-24 md:mt-8">
+      <div id="lead-form" class="home-v3 mx-auto mt-8 w-full max-w-4xl text-left scroll-mt-24 md:mt-10">
         <FormV3 client:load embedded lead={lead} />
-      </div>
-
-      <div class="mt-6 flex flex-wrap justify-center gap-2.5 md:mt-8 md:gap-3">
-        {trustChips.map((chip) => (
-          <span class="inline-flex items-center gap-2 rounded-full bg-white border border-gray-200 shadow-sm px-3.5 py-2 text-xs font-medium text-gray-600">
-            <svg class={`h-4 w-4 ${chip.color}`} fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
-              {chip.paths.map((d) => <path stroke-linecap="round" stroke-linejoin="round" d={d} />)}
-            </svg>
-            {chip.label}
-          </span>
-        ))}
       </div>
     </div>
   </section>

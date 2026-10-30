@@ -60,10 +60,11 @@ const { title = seo.title, description = seo.description } = Astro.props;
       </>
     )}
 
-    <!-- Self-hosted latin variable fonts, font-display: optional (lp-t4.css).
-         Same-origin preload + optional is the proven text-LCP combo. -->
-    <link rel="preload" href="/fonts/bricolage-grotesque-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin />
-    <link rel="preload" href="/fonts/manrope-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin />
+    <!-- Self-hosted latin variable font, font-display: optional (lp-t4.css).
+         Same-origin preload + optional is the proven text-LCP combo. Roboto
+         site-wide since 2026-10-30 (Tanner: "The qualify page should have the
+         same font"); Bricolage + Manrope deleted. -->
+    <link rel="preload" href="/fonts/roboto-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin />
   </head>
   <body class="ground-paper">
     <slot />

@@ -306,22 +306,10 @@ body {
   --fv3-secure-ok: #15803d;
 }
 
-/* Mobile fold tighten for the embedded V3 stage, same values /qualify runs
-   (lp-t4.css): stepper top margin, step-headline bottom margin, and the
-   stage's top padding come in under 768px. */
-@media (max-width: 767px) {
-  .home-v3 .fv3-embedded .fv3-progress-track + div {
-    margin-top: 0.5rem;
-  }
-
-  .home-v3 .fv3-embedded div:has(> .fv3-display) {
-    margin-bottom: 1.25rem;
-  }
-
-  .home-v3 .fv3-embedded > div:has(> [aria-live]) {
-    padding-top: 1.25rem;
-  }
-}
+/* No mobile fold-tighten here on purpose: /qualify crams its stage to clear
+   an 844px fold gate, but Tanner wants the homepage hero to breathe on phones
+   (2026-10-30: "its wayyy to scrunched"). The V3 island runs its natural
+   spacing on this page. */
 
 /* === FL LP visual upgrade additions === */
 

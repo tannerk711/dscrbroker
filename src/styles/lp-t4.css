@@ -29,55 +29,41 @@
    Rules baked in here:
      - every shared component class lives in @layer components (utilities win)
      - headline line-height is set through --tw-leading, never a bare value
-     - no monospace anywhere; data styling = Manrope 600-700, uppercase, tracked
+     - no monospace anywhere; data styling = Roboto 600-700, uppercase, tracked
      - no green, no purple gradients, no glass, no blur filters on hero layers
    ========================================================================== */
 
-/* ---------- self-hosted variable fonts (latin only, optional display) ---------- */
+/* ---------- self-hosted variable font (latin only, optional display) ----------
+   Roboto site-wide since 2026-10-30 (Tanner matched the brand to the fhaloans
+   form face and extended it here: "The qualify page should have the same
+   font"). Bricolage Grotesque + Manrope deleted. */
 
 @font-face {
-  font-family: "Bricolage Grotesque";
+  font-family: "Roboto";
   font-style: normal;
-  font-weight: 200 800;
+  font-weight: 100 900;
   font-display: optional;
-  src: url("/fonts/bricolage-grotesque-latin-wght-normal.woff2") format("woff2-variations");
+  src: url("/fonts/roboto-latin-wght-normal.woff2") format("woff2-variations");
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
+/* Metric-matched local fallback so the fold does not move when the web font
+   is skipped (font-display: optional on a slow first visit). Arial runs
+   metrically close to Roboto. */
 @font-face {
-  font-family: "Manrope";
-  font-style: normal;
-  font-weight: 200 800;
-  font-display: optional;
-  src: url("/fonts/manrope-latin-wght-normal.woff2") format("woff2-variations");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-
-/* Metric-matched local fallbacks so the fold does not move when the web font
-   is skipped (font-display: optional on a slow first visit). */
-@font-face {
-  font-family: "Bricolage Fallback";
+  font-family: "Roboto Fallback";
   src: local("Arial");
-  size-adjust: 106%;
-  ascent-override: 94%;
-  descent-override: 24%;
-  line-gap-override: 0%;
-}
-
-@font-face {
-  font-family: "Manrope Fallback";
-  src: local("Segoe UI");
-  size-adjust: 101%;
-  ascent-override: 100%;
-  descent-override: 27%;
+  size-adjust: 100%;
+  ascent-override: 92.7%;
+  descent-override: 24.4%;
   line-gap-override: 0%;
 }
 
 /* ---------- tokens ---------- */
 
 @theme {
-  --font-display: "Bricolage Grotesque", "Bricolage Fallback", Arial, sans-serif;
-  --font-body: "Manrope", "Manrope Fallback", system-ui, sans-serif;
+  --font-display: "Roboto", "Roboto Fallback", Arial, sans-serif;
+  --font-body: "Roboto", "Roboto Fallback", system-ui, sans-serif;
 
   /* DSCRBroker.com palette (global.css @theme + CLAUDE.md Design Direction),
      mapped onto template 4's roles on 2026-09-09 for the /qualify move:
