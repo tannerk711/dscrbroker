@@ -1,38 +1,38 @@
 @import "tailwindcss";
 
-/* Self-hosted Inter, site-wide (slim wght-axis latin variable, copied from
-   @fontsource-variable/inter into public/fonts). font-display: optional is
-   deliberate: with swap, the late font repaints the largest text block and
-   that repaint becomes the mobile LCP (7.0s on /states/texas/ with the Google
-   Fonts chain). With optional, first paint is final. Do not preload it: the
-   preload steals critical-path bandwidth from the HTML + CSS during FCP. */
+/* Self-hosted Roboto, site-wide (slim wght-axis latin variable, copied from
+   @fontsource-variable/roboto into public/fonts). Replaced Inter 2026-10-30:
+   Tanner matched the site to the fhaloans.com form face (verified Roboto Bold
+   against his screenshot). font-display: optional is deliberate: with swap,
+   the late font repaints the largest text block and that repaint becomes the
+   mobile LCP (7.0s on /states/texas/ with the Google Fonts chain). With
+   optional, first paint is final. Do not preload it: the preload steals
+   critical-path bandwidth from the HTML + CSS during FCP. */
 @font-face {
-  font-family: 'Inter';
+  font-family: 'Roboto';
   font-style: normal;
   font-display: optional;
   font-weight: 100 900;
-  src: url('/fonts/inter-latin-wght-normal.woff2') format('woff2-variations');
+  src: url('/fonts/roboto-latin-wght-normal.woff2') format('woff2-variations');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
     U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193,
     U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
 @theme {
-  /* Brand colors.
-     Light retheme 2026-10-30 (decisions.md 10/29): white grounds, ink type,
-     navy reserved for the band under the hero + final CTA + footer. Values
-     mirror src/styles/lp-t4.css (the approved /qualify treatment): navy is
-     the ink + dark-band family, amber is THE action color (fhaloans bright
-     yellow, never body text on light grounds), brand-soft is the selected
-     tint. amber-light/amber-dark are the legacy muted ramp; swept out of the
-     remaining pages in chunk B. */
+  /* Brand colors. Tanner's 2026-10-30 retheme call: the ORIGINAL dark
+     treatment stays everywhere except the white hero + the navy band under
+     it, amber stays the muted text/tint accent it always was, and the bright
+     fhaloans yellow lives ONLY on the action family below (every CTA button,
+     the stat-band numbers, the hero form) via --color-action. */
   --color-navy: #0B1120;
   --color-navy-light: #131C31;
   --color-navy-mid: #1A2540;
-  --color-amber: #FFC72C;
-  --color-amber-deep: #F0B71D;
+  --color-amber: #D4930D;
   --color-amber-light: #F5DFA0;
   --color-amber-dark: #A57209;
+  --color-action: #FFC72C;
+  --color-action-deep: #F0B71D;
   --color-brand-soft: #E8ECF5;
   --color-blue: #3B82F6;
   --color-blue-light: #60A5FA;
@@ -57,7 +57,7 @@
   --color-slate-500: #475569;
 
   /* Typography */
-  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-sans: 'Roboto', system-ui, -apple-system, sans-serif;
 
   /* Type scale */
   --text-xs: 0.75rem;
@@ -111,12 +111,12 @@ body {
 }
 
 ::selection {
-  background-color: var(--color-amber);
-  color: var(--color-navy);
+  background-color: var(--color-blue);
+  color: var(--color-white);
 }
 
 :focus-visible {
-  outline: 2px solid var(--color-navy-mid);
+  outline: 2px solid var(--color-blue);
   outline-offset: 2px;
 }
 
@@ -191,54 +191,14 @@ body {
 .animate-delay-300 { animation-delay: 300ms; opacity: 0; }
 .animate-delay-400 { animation-delay: 400ms; opacity: 0; }
 
-/* Form currency slider, light theme (amber fill, white thumb with a navy ring
-   and amber halo, same ramp as lp-t4's amber-range) */
-.dscr-slider {
-  -webkit-appearance: none;
-  appearance: none;
-  height: 8px;
-  border-radius: 9999px;
-  background: linear-gradient(
-    to right,
-    var(--color-amber) 0%,
-    var(--color-amber) var(--range-progress, 0%),
-    var(--color-gray-200) var(--range-progress, 0%),
-    var(--color-gray-200) 100%
-  );
-  outline: none;
-  cursor: pointer;
-}
-.dscr-slider::-webkit-slider-thumb {
-  -webkit-appearance: none;
-  appearance: none;
-  width: 22px;
-  height: 22px;
-  border-radius: 50%;
-  background: #fff;
-  border: 2px solid var(--color-navy-mid);
-  box-shadow: 0 1px 2px rgba(16, 19, 25, 0.18), 0 0 0 5px rgba(255, 199, 44, 0.25);
-  cursor: pointer;
-  transition: transform 0.15s ease;
-}
-.dscr-slider::-moz-range-thumb {
-  width: 22px;
-  height: 22px;
-  border-radius: 50%;
-  background: #fff;
-  border: 2px solid var(--color-navy-mid);
-  box-shadow: 0 1px 2px rgba(16, 19, 25, 0.18), 0 0 0 5px rgba(255, 199, 44, 0.25);
-  cursor: pointer;
-  transition: transform 0.15s ease;
-}
-.dscr-slider:active::-webkit-slider-thumb,
-.dscr-slider:focus-visible::-webkit-slider-thumb {
-  transform: scale(1.15);
-}
+/* (The old DSCRForm currency slider CSS lived here; the form and its /lp/
+   consumers were deleted 2026-10-30. The hero form is the self-styled V3.) */
 
-/* === Light-theme action buttons (ported from lp-t4.css so site CTAs match
-   the approved /qualify treatment; font swapped to the site's Inter) === */
+/* === The yellow action button (ported from lp-t4's .btn-amber so site CTAs
+   match the approved /qualify treatment; Tanner 2026-10-30: "I do like the
+   yellow cta buttons"). Works on light and dark grounds. === */
 @layer components {
-  .btn-amber {
+  .btn-action {
     position: relative;
     display: inline-flex;
     align-items: center;
@@ -248,7 +208,7 @@ body {
     padding: 0.85rem 1.6rem;
     border-radius: 12px;
     border: 1px solid rgba(184, 134, 11, 0.45);
-    background: var(--color-amber);
+    background: var(--color-action);
     color: var(--color-navy);
     font-family: var(--font-sans);
     font-weight: 700;
@@ -262,42 +222,104 @@ body {
     -webkit-tap-highlight-color: transparent;
   }
 
-  .btn-amber:hover {
-    background: var(--color-amber-deep);
+  .btn-action:hover {
+    background: var(--color-action-deep);
     translate: 0 -1px;
     box-shadow: 0 3px 0 rgba(16, 19, 25, 0.12), 0 18px 32px -12px rgba(255, 199, 44, 0.7);
   }
 
-  .btn-amber:active {
+  .btn-action:active {
     translate: 0 1px;
     box-shadow: 0 1px 0 rgba(16, 19, 25, 0.12), 0 6px 14px -8px rgba(255, 199, 44, 0.5);
   }
+}
 
-  .btn-ghost-light {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    gap: 0.5rem;
-    min-height: 3rem;
-    padding: 0.8rem 1.4rem;
-    border-radius: 12px;
-    border: 1px solid rgba(247, 245, 240, 0.45);
-    background: transparent;
-    color: var(--color-off-white);
-    font-family: var(--font-sans);
-    font-weight: 600;
-    font-size: 0.95rem;
-    line-height: 1.2;
-    text-decoration: none;
-    cursor: pointer;
-    transition: background-color 160ms ease, border-color 160ms ease, translate 200ms var(--ease-out);
-    -webkit-tap-highlight-color: transparent;
+/* === Homepage V3 form theme: the same retint /qualify applies to the shared
+   FormV3 island (.lp-t4-theme in lp-t4.css), translated to global tokens, with
+   the type pointed at the site font. The V3 component is otherwise fully
+   self-styled (its CSS_TEXT); only these variables theme it. === */
+.home-v3 .fv3-root {
+  --fv3-font-body: var(--font-sans);
+  --fv3-font-display: var(--font-sans);
+  --fv3-stage-bg: transparent;
+  --fv3-band: var(--color-navy-mid);
+  --fv3-text: #101319;
+  --fv3-text-soft: rgba(16, 19, 25, 0.82);
+  --fv3-text-muted: rgba(16, 19, 25, 0.66);
+  --fv3-focus: var(--color-navy-mid);
+  --fv3-action: var(--color-action);
+  --fv3-action-hover: #ffd34f;
+  --fv3-action-active: var(--color-action-deep);
+  --fv3-action-selected: #f2b90d;
+  --fv3-action-text: #101319;
+  --fv3-action-disabled: #f7dc8a;
+  --fv3-action-disabled-text: rgba(16, 19, 25, 0.5);
+  --fv3-action-shadow-edge: rgba(122, 84, 0, 0.35);
+  --fv3-action-shadow-drop: rgba(16, 19, 25, 0.14);
+  --fv3-action-inset: rgba(90, 60, 0, 0.25);
+  --fv3-mile-pulse: rgba(26, 37, 64, 0.45);
+  --fv3-slider-thumb-shadow: rgba(16, 19, 25, 0.3);
+  --fv3-success-disc-bg: #ffffff;
+  --fv3-success-disc-shadow: rgba(16, 19, 25, 0.2);
+  --fv3-art-paper: #ffffff;
+  --fv3-art-leaf: var(--color-brand-soft);
+  --fv3-progress-track: #dde1e8;
+  --fv3-mile-done-bg: var(--color-navy-mid);
+  --fv3-mile-check: var(--color-off-white);
+  --fv3-mile-line-on: var(--color-navy-mid);
+  --fv3-mile-line-off: #dde1e8;
+  --fv3-mile-ring: var(--color-navy-mid);
+  --fv3-mile-ring-off: rgba(26, 37, 64, 0.32);
+  --fv3-card-bg: #ffffff;
+  --fv3-card-text: #101319;
+  --fv3-card-key: var(--color-navy-mid);
+  --fv3-card-border-hover: var(--color-action);
+  --fv3-card-shadow: rgba(16, 19, 25, 0.14);
+  --fv3-art-stroke: var(--color-navy-mid);
+  --fv3-art-backdrop: var(--color-brand-soft);
+  --fv3-art-fill: #c9d3e8;
+  --fv3-art-accent: var(--color-action);
+  --fv3-input-bg: #ffffff;
+  --fv3-input-text: #101319;
+  --fv3-input-placeholder: rgba(16, 19, 25, 0.4);
+  --fv3-input-border: #dde1e8;
+  --fv3-input-focus-ring: rgba(255, 199, 44, 0.45);
+  --fv3-input-shadow: rgba(16, 19, 25, 0.08);
+  --fv3-list-bg: #ffffff;
+  --fv3-list-text: var(--color-navy-mid);
+  --fv3-list-hl-bg: #faefd2;
+  --fv3-list-hl-text: #101319;
+  --fv3-list-shadow: rgba(16, 19, 25, 0.22);
+  --fv3-slider-track-off: #dde1e8;
+  --fv3-slider-thumb-ring: #ffffff;
+  --fv3-checkbox-border: var(--color-navy-mid);
+  --fv3-checkbox-bg: #ffffff;
+  --fv3-checkbox-check: #101319;
+  --fv3-ghost-border: rgba(26, 37, 64, 0.45);
+  --fv3-ghost-text: var(--color-navy-mid);
+  --fv3-ghost-hover: rgba(26, 37, 64, 0.08);
+  --fv3-success-check: var(--color-navy-mid);
+  --fv3-rays: var(--color-action);
+  --fv3-pill-border: rgba(26, 37, 64, 0.35);
+  /* SECURE badge one step darker than the component default so the 11px label
+     clears 4.5:1 on the white input (same call as /qualify) */
+  --fv3-secure-ok: #15803d;
+}
+
+/* Mobile fold tighten for the embedded V3 stage, same values /qualify runs
+   (lp-t4.css): stepper top margin, step-headline bottom margin, and the
+   stage's top padding come in under 768px. */
+@media (max-width: 767px) {
+  .home-v3 .fv3-embedded .fv3-progress-track + div {
+    margin-top: 0.5rem;
   }
 
-  .btn-ghost-light:hover {
-    background: rgba(247, 245, 240, 0.1);
-    border-color: var(--color-off-white);
-    translate: 0 -1px;
+  .home-v3 .fv3-embedded div:has(> .fv3-display) {
+    margin-bottom: 1.25rem;
+  }
+
+  .home-v3 .fv3-embedded > div:has(> [aria-live]) {
+    padding-top: 1.25rem;
   }
 }
 

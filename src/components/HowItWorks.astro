@@ -22,10 +22,15 @@ const steps = [
 ---
 
 <section id="how-it-works" class="relative bg-white py-16 md:py-24 overflow-hidden">
+  <!-- Background image with heavy tint -->
+  <div class="absolute inset-0" aria-hidden="true">
+    <img src="/images/sections/how-it-works.webp" width="1280" height="480" loading="lazy" decoding="async" alt="" class="w-full h-full object-cover opacity-[0.04]" aria-hidden="true" />
+  </div>
   <div class="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
     <!-- Section header -->
     <div class="mx-auto max-w-3xl text-center">
-      <h2 data-gsap="heading" class="text-3xl font-bold tracking-[-0.008em] text-navy md:text-4xl">Three Steps to a Structured Deal</h2>
+      <p data-gsap="eyebrow" class="text-xs font-medium uppercase tracking-[0.1em] text-amber mb-3">HOW IT WORKS</p>
+      <h2 data-gsap="heading" class="text-3xl font-bold tracking-tight text-navy md:text-4xl">Three Steps to a Structured Deal</h2>
       <p data-gsap="subhead" class="mt-4 text-lg text-gray-500">One form. A licensed DSCR specialist. A deal structured for approval.</p>
     </div>
 
@@ -38,7 +43,7 @@ const steps = [
       {steps.map((step) => (
         <div data-gsap="card" class="relative flex flex-col items-center text-center md:items-start md:text-left">
           <!-- Number badge -->
-          <div class="flex h-12 w-12 items-center justify-center rounded-full bg-brand-soft border border-navy-mid/10 text-sm font-bold text-navy-mid">
+          <div class="flex h-12 w-12 items-center justify-center rounded-full bg-amber/10 text-sm font-semibold text-amber">
             {step.number}
           </div>
 

@@ -24,7 +24,7 @@ export default function FAQAccordion({ items }: FAQAccordionProps) {
           <div
             key={index}
             className={`rounded-2xl bg-white border transition-shadow ${
-              isOpen ? 'border-navy-mid/30 shadow-md' : 'border-gray-200 shadow-sm hover:shadow-md'
+              isOpen ? 'border-blue/30 shadow-md' : 'border-gray-100 shadow-sm hover:shadow-md'
             }`}
           >
             <button
@@ -37,7 +37,7 @@ export default function FAQAccordion({ items }: FAQAccordionProps) {
               </span>
               <span
                 className={`flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-full transition-all duration-200 ${
-                  isOpen ? 'bg-navy-mid text-white rotate-45' : 'bg-brand-soft text-navy-mid'
+                  isOpen ? 'bg-blue text-white rotate-45' : 'bg-blue/10 text-blue'
                 }`}
                 aria-hidden="true"
               >

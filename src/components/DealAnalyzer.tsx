@@ -11,14 +11,6 @@ import {
   formatDSCR,
   type DSCRResult,
 } from '../lib/dscr-calculator';
-import {
-  $loanGoal,
-  $propertyType,
-  $propertyValue,
-  $downPayment,
-  $currentStep,
-  $direction,
-} from '../stores/formStore';
 
 // --- Types ---
 
@@ -293,54 +285,14 @@ export default function DealAnalyzer() {
     setMode('results');
   }
 
-  // --- Form Pre-Fill + Scroll ---
+  // --- Scroll to the hero form ---
 
   function handleGetStructured() {
     if (!result) return;
 
-    // The analyzer only models purchase-style deals, so lock the path to purchase.
-    // PATHS in DSCRForm is keyed on loanGoal; leaving it unset broke path resolution.
-    $loanGoal.set('purchase');
-
-    // $propertyValue holds a RAW NUMERIC STRING for the slider (see formStore).
-    // Writing a bracket token like '200k_500k' made StepPropertyValue's Number()
-    // parse to NaN and render "$NaN". Write the real number instead.
-    if (result.propertyValue) $propertyValue.set(String(result.propertyValue));
-
-    // Map analyzer property types to the form's canonical card values. The form
-    // has no 'condo' / 'str' / 'mixed_use' cards, so an unmapped value silently drops.
-    const PROPERTY_TYPE_MAP: Record<string, string> = {
-      single_family: 'single_family',
-      condo: 'warrantable_condo',
-      warrantable_condo: 'warrantable_condo',
-      non_warrantable_condo: 'non_warrantable_condo',
-      multi_family: 'multi_family_small',
-      str: 'single_family',
-      mixed_use: 'single_family',
-    };
-    if (result.propertyType) {
-      const mapped = PROPERTY_TYPE_MAP[result.propertyType];
-      if (mapped) $propertyType.set(mapped);
-    }
-    // Do NOT pre-fill $state. A pre-selected state renders the location step with
-    // a green confirmation but no way to advance (auto-advance only fires on a real
-    // onChange, and re-picking the same option fires nothing), stalling the lead.
-    // Same reason URL-param state prefill was removed on 2026-07-24 (formStore.ts).
-    // The lead actively selects their own state.
-
-    const downStr = String(result.downPaymentPercent);
-    if (['20', '25', '30'].includes(downStr)) {
-      $downPayment.set(downStr);
-    } else if (result.downPaymentPercent >= 35) {
-      $downPayment.set('35_plus');
-    }
-
-    // Start at loan goal so the user confirms the path; prefilled answers persist,
-    // so they simply tap through the steps we already have data for.
-    $direction.set('forward');
-    $currentStep.set(1);
-
-    // Smooth scroll to form if on homepage, otherwise navigate to /qualify/
+    // The hero form is the self-contained V3 island (same one /qualify/ runs);
+    // it keeps its own state, so there is no cross-store prefill. The old
+    // DSCRForm prefill died with that form on 2026-10-30.
     const formEl = document.getElementById('lead-form');
     if (formEl) {
       formEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
@@ -575,7 +527,7 @@ export default function DealAnalyzer() {
 
           <button
             onClick={handleQuickAnalyze}
-            className="mt-4 w-full sm:w-auto px-6 py-2.5 bg-amber hover:bg-amber-deep text-navy text-sm font-bold rounded-lg transition-colors duration-150"
+            className="mt-4 w-full sm:w-auto px-6 py-2.5 bg-action hover:bg-action-deep text-navy text-sm font-bold rounded-lg transition-colors duration-150"
           >
             Analyze This Deal
           </button>
@@ -737,7 +689,7 @@ const ResultsCard = forwardRef<HTMLDivElement, {
       <div className="mt-6 pt-4 border-t border-white/[0.06] flex flex-col sm:flex-row items-start sm:items-center gap-3">
         <button
           onClick={onGetStructured}
-          className="px-6 py-2.5 bg-amber hover:bg-amber-deep text-navy text-sm font-bold rounded-lg transition-colors duration-150"
+          className="px-6 py-2.5 bg-action hover:bg-action-deep text-navy text-sm font-bold rounded-lg transition-colors duration-150"
         >
           Get This Deal Structured
         </button>

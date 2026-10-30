@@ -50,6 +50,7 @@
     "vite": "^7"
   },
   "devDependencies": {
+    "@fontsource-variable/roboto": "^5.3.0",
     "lighthouse": "^13.4.1",
     "puppeteer-core": "^25.10.0"
   }

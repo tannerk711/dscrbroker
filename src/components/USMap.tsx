@@ -49,7 +49,7 @@ export default function USMap() {
       {/* Tooltip */}
       {hovered && (
         <div
-          className="pointer-events-none absolute z-10 rounded-lg bg-white border border-gray-200 px-3.5 py-2 shadow-lg"
+          className="pointer-events-none absolute z-10 rounded-lg bg-navy-light border border-navy-mid px-3.5 py-2 shadow-xl"
           style={{
             left: tooltipPos.x,
             top: tooltipPos.y,
@@ -57,8 +57,8 @@ export default function USMap() {
             animation: 'fadeIn 100ms ease-out',
           }}
         >
-          <p className="text-sm font-semibold text-navy whitespace-nowrap">{tooltipName}</p>
-          <p className="text-[11px] font-medium text-navy-mid whitespace-nowrap">View DSCR loans &rarr;</p>
+          <p className="text-sm font-semibold text-white whitespace-nowrap">{tooltipName}</p>
+          <p className="text-[11px] text-blue whitespace-nowrap">View DSCR loans &rarr;</p>
         </div>
       )}
 
@@ -75,9 +75,9 @@ export default function USMap() {
           const slug = toSlug(state.name);
           const href = `/states/${slug}/`;
 
-          // Base fill colors (light context: brand-soft tints, navy hover)
-          const baseFill = isTop ? '#C9D3E8' : '#E8ECF5';
-          const hoverFill = '#1A2540';
+          // Base fill colors
+          const baseFill = isTop ? '#1E3A5F' : '#162D4A';
+          const hoverFill = '#3B82F6';
           const fill = isHovered ? hoverFill : baseFill;
 
           // DC is a circle
@@ -89,12 +89,12 @@ export default function USMap() {
                   cy={state.cy}
                   r={isHovered ? '7' : state.r}
                   fill={fill}
-                  stroke="#FFFFFF"
+                  stroke="#0B1120"
                   strokeWidth="1"
                   className="cursor-pointer"
                   style={{
                     transition: 'all 200ms ease-out',
-                    filter: isHovered ? 'drop-shadow(0 0 10px rgba(26,37,64,0.4))' : 'none',
+                    filter: isHovered ? 'drop-shadow(0 0 10px rgba(59,130,246,0.6))' : 'none',
                   }}
                   onMouseEnter={(e) => handleMouseMove(e as any, abbr, state.name)}
                   onMouseMove={(e) => handleMouseMove(e as any, abbr, state.name)}
@@ -111,13 +111,13 @@ export default function USMap() {
               <path
                 d={state.d}
                 fill={fill}
-                stroke="#FFFFFF"
+                stroke="#0B1120"
                 strokeWidth="1"
                 strokeLinejoin="round"
                 className="cursor-pointer"
                 style={{
                   transition: 'fill 200ms ease-out, filter 200ms ease-out, transform 200ms ease-out',
-                  filter: isHovered ? 'drop-shadow(0 0 10px rgba(26,37,64,0.4))' : 'none',
+                  filter: isHovered ? 'drop-shadow(0 0 10px rgba(59,130,246,0.6))' : 'none',
                   transformOrigin: 'center',
                   transformBox: 'fill-box',
                   transform: isHovered ? 'scale(1.04)' : 'scale(1)',
