@@ -3,6 +3,7 @@ import { STATE_NAMES, PROPERTY_TYPE_NAMES } from '../../utils/brokerRouting';
 import type { DealVerdict, ProgramRecommendation } from '../../utils/rateEstimation';
 import { JOHN_LICENSING_LINE, JOHN_LICENSING_PARAGRAPH } from '../../data/john-licensing';
 import { ADAM_LICENSING_LINE, ADAM_LICENSING_PARAGRAPH } from '../../data/adam-licensing';
+import { TAYLOR_LICENSING_LINE, TAYLOR_LICENSING_PARAGRAPH } from '../../data/taylor-licensing';
 
 interface SubmissionPayload {
   loanGoal?: string;
@@ -25,9 +26,11 @@ const TIER_STYLES: Record<DealVerdict['tier'], { ring: string; pill: string; pil
   review: { ring: 'ring-amber/30', pill: 'bg-amber/15 border-amber/30', pillText: 'text-amber' },
 };
 
-// Per-broker specialist profiles. To start, every state routes to John Peisner's team
-// at Barrett Financial. As more LOs come into the network, add their entries here keyed
-// by the broker identifier in brokerRouting.ts.
+// Per-broker specialist profiles, keyed by the broker identifier in brokerRouting.ts.
+// broker_a..broker_e = John Peisner (Barrett Financial), broker_f = Adam Cunningham
+// (Tall Timbers), broker_g = Taylor Sundquist (Future Mortgage). When a new LO joins
+// the network, add their entry here IN THE SAME COMMIT as the routing change; an
+// unknown key silently falls back to John's profile below.
 interface SpecialistProfile {
   // Legal identity. The individual licensed loan officer. Used for NMLS attribution
   // and any compliance text. Never a "team" or company name.
@@ -42,16 +45,23 @@ interface SpecialistProfile {
   // Dark logos (e.g. Tall Timbers green-on-transparent) need a light chip behind
   // them to read on the navy background. White-negative logos leave this false.
   logoOnLightChip?: boolean;
-  headshot: string;
+  // Omit or null when no headshot was supplied: the card renders an initials circle
+  // instead. Never generate a headshot or use a stock photo.
+  headshot?: string | null;
   message: string;
   videoEmbedUrl: string | null;
-  reviews: {
+  // Omit when there is no verified rating and no approved quotes: the rating/quote
+  // strip then does not render. Never invent a rating, count, or quote.
+  reviews?: {
     rating: number;
     // Omit when there is no verified review count to claim; the "N+ reviews"
     // label simply doesn't render. Never invent a count.
     count?: number;
     quotes: { quote: string; author: string; avatar?: string }[];
   };
+  // Optional link to the broker's own public Google reviews. Renders a plain
+  // "See reviews on Google" link row under (or instead of) the reviews strip.
+  reviewsUrl?: string;
   // Full state-licensing disclaimer for this specialist. Rendered in the thank-you
   // page footer only when this broker is the matched specialist. null = no block.
   licensing: { line: string; paragraph: string } | null;
@@ -99,7 +109,8 @@ const DEFAULT_SPECIALIST: SpecialistProfile = {
 };
 
 // Adam Cunningham / Tall Timbers. Second lender in the network (added 2026-08-11).
-// Covers AK, HI, LA, MS, MO, MT, NM, OH solo, plus the GA 50/50 split with John.
+// Covers AK, HI, LA, MS, MO, NM, OH solo, plus the GA 50/50 split with John
+// (MT moved to broker_g / Taylor Sundquist 2026-10-29).
 // Review quotes are the approved Tall Timbers deal stories (clients/tall-timbers-funnel,
 // funnel.ts), trimmed for length. No invented numbers: 250+ closed is the locked claim.
 const ADAM_SPECIALIST: SpecialistProfile = {
@@ -140,6 +151,36 @@ const ADAM_SPECIALIST: SpecialistProfile = {
   },
 };
 
+// Taylor Sundquist / Future Mortgage. Third lender in the network (onboarded 2026-10-29
+// via the CLP onboarding form). Takes CA, ID, MT, OR, WA solo (moved off John and Adam).
+// No headshot was supplied, so the card renders an initials circle. No rating, count,
+// or quotes render: none were supplied and nothing is invented; reviewsUrl links his own
+// Google reviews instead. The company NMLS (2236028) lives in the licensing block because
+// the profile has no company-NMLS field. Message and title are drafts pending Tanner's
+// approval: process statements only, no counts, no time promises.
+const TAYLOR_SPECIALIST: SpecialistProfile = {
+  name: 'Taylor Sundquist',
+  displayName: 'Taylor Sundquist',
+  title: 'Mortgage Loan Originator',
+  nmls: '2112661',
+  company: 'Future Mortgage',
+  companyLogo: '/images/future-mortgage-logo.png',
+  logoOnLightChip: true,
+  headshot: null,
+  message:
+    "I help real estate investors structure DSCR and non-QM loans. The questionnaire you just filled out gives me a real starting point, but every deal has details that don't fit in a form. I'll review your file personally, reach out to walk through what I'm seeing, and lay out the cleanest path to closing. No call center, no runaround.",
+  videoEmbedUrl: null,
+  // Resolved from the share.google link Taylor submitted on the onboarding form
+  // (https://share.google/3mAzAVsKLjHrkw2o3): it 301s to the Google knowledge panel
+  // for entity kgmid /g/11fml3gbw3, named "Future" (the Future Mortgage GBP). The
+  // kgmid form below is the stable canonical; Tanner click-verifies once before live.
+  reviewsUrl: 'https://www.google.com/search?q=Future+Mortgage&kgmid=/g/11fml3gbw3',
+  licensing: {
+    line: TAYLOR_LICENSING_LINE,
+    paragraph: TAYLOR_LICENSING_PARAGRAPH,
+  },
+};
+
 const BROKER_PROFILES: Record<string, SpecialistProfile> = {
   broker_a: DEFAULT_SPECIALIST,
   broker_b: DEFAULT_SPECIALIST,
@@ -147,6 +188,7 @@ const BROKER_PROFILES: Record<string, SpecialistProfile> = {
   broker_d: DEFAULT_SPECIALIST,
   broker_e: DEFAULT_SPECIALIST,
   broker_f: ADAM_SPECIALIST,
+  broker_g: TAYLOR_SPECIALIST,
 };
 
 function getThankYouCopy(loanGoal: string | undefined, firstName: string | undefined): { headline: string; body: string } {
@@ -267,6 +309,7 @@ export default function ThankYou() {
   const specialist = (matchedBroker && BROKER_PROFILES[matchedBroker]) || DEFAULT_SPECIALIST;
   // Presentation label (may be a team name). Legal/NMLS text still uses specialist.name.
   const specialistDisplayName = specialist.displayName ?? specialist.name;
+  const reviews = specialist.reviews ?? null;
 
   return (
     <div className="max-w-3xl mx-auto">
@@ -316,12 +359,28 @@ export default function ThankYou() {
       <div className="bg-gradient-to-br from-white/[0.07] to-white/[0.03] border border-white/10 rounded-2xl p-6 md:p-8 mt-8">
         <div className="flex flex-col sm:flex-row sm:items-center gap-5">
           <div className="relative flex-shrink-0 mx-auto sm:mx-0">
-            <img
-              src={specialist.headshot}
-              alt={`${specialistDisplayName}, ${specialist.title}`}
-              className="w-24 h-24 md:w-28 md:h-28 rounded-full object-cover ring-2 ring-white/15"
-              loading="lazy"
-            />
+            {specialist.headshot ? (
+              <img
+                src={specialist.headshot}
+                alt={`${specialistDisplayName}, ${specialist.title}`}
+                className="w-24 h-24 md:w-28 md:h-28 rounded-full object-cover ring-2 ring-white/15"
+                loading="lazy"
+              />
+            ) : (
+              <div
+                role="img"
+                aria-label={`${specialistDisplayName}, ${specialist.title}`}
+                className="w-24 h-24 md:w-28 md:h-28 rounded-full bg-white/10 ring-2 ring-white/15 flex items-center justify-center text-2xl md:text-3xl font-bold text-white/80"
+                style={{ fontFamily: 'var(--font-sans)' }}
+              >
+                {specialist.name
+                  .split(' ')
+                  .map((part) => part[0])
+                  .join('')
+                  .slice(0, 2)
+                  .toUpperCase()}
+              </div>
+            )}
             <div className="absolute -bottom-1 -right-1 w-7 h-7 rounded-full bg-green flex items-center justify-center ring-2 ring-navy">
               <svg className="w-4 h-4 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="3">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
@@ -438,76 +497,97 @@ export default function ThankYou() {
         </div>
       )}
 
-      {/* Reviews strip */}
-      <div className="mt-10 pt-8 border-t border-white/10">
-        <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 mb-5">
-          <div>
-            <p className="text-[11px] font-semibold uppercase tracking-[0.1em] text-white/50" style={{ fontFamily: 'var(--font-sans)' }}>
-              What {specialist.name.split(' ')[0]}'s Clients Say
-            </p>
-            <div className="flex items-center gap-2 mt-1.5">
-              <div className="flex items-center gap-0.5">
-                {Array.from({ length: 5 }).map((_, i) => (
-                  <svg key={i} className="w-4 h-4 text-amber" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M12 2l2.39 7.36h7.74l-6.26 4.55 2.39 7.36L12 16.72l-6.26 4.55 2.39-7.36L1.87 9.36h7.74L12 2z" />
-                  </svg>
-                ))}
-              </div>
-              <span className="text-sm font-semibold text-white">
-                {specialist.reviews.rating.toFixed(1)}
-              </span>
-              {typeof specialist.reviews.count === 'number' && (
-                <span className="text-sm text-white/50">
-                  · {specialist.reviews.count}+ reviews
-                </span>
-              )}
-            </div>
-          </div>
-        </div>
-
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
-          {specialist.reviews.quotes.map((review, i) => (
-            <div key={i} className="bg-white/5 border border-white/10 rounded-xl p-5 flex flex-col">
-              <div className="flex items-center gap-0.5 mb-3">
-                {Array.from({ length: 5 }).map((_, j) => (
-                  <svg key={j} className="w-3.5 h-3.5 text-amber" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M12 2l2.39 7.36h7.74l-6.26 4.55 2.39 7.36L12 16.72l-6.26 4.55 2.39-7.36L1.87 9.36h7.74L12 2z" />
-                  </svg>
-                ))}
-              </div>
-              <p className="text-sm text-white/80 leading-relaxed flex-1">"{review.quote}"</p>
-              <div className="flex items-center gap-3 mt-4 pt-4 border-t border-white/10">
-                {review.avatar ? (
-                  <img
-                    src={review.avatar}
-                    alt={review.author}
-                    className="w-9 h-9 rounded-full object-cover ring-1 ring-white/15 flex-shrink-0"
-                    loading="lazy"
-                  />
-                ) : (
-                  <div className="w-9 h-9 rounded-full bg-white/10 ring-1 ring-white/15 flex-shrink-0 flex items-center justify-center text-[11px] font-semibold text-white/70">
-                    {review.author
-                      .split(',')[0]
-                      .split(' ')
-                      .map((part) => part[0])
-                      .join('')
-                      .slice(0, 2)
-                      .toUpperCase()}
+      {/* Reviews strip: verified rating + quotes, and/or a link to the broker's own
+          Google reviews. Renders nothing when a profile has neither. */}
+      {(reviews || specialist.reviewsUrl) && (
+        <div className="mt-10 pt-8 border-t border-white/10">
+          {reviews && (
+            <>
+              <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 mb-5">
+                <div>
+                  <p className="text-[11px] font-semibold uppercase tracking-[0.1em] text-white/50" style={{ fontFamily: 'var(--font-sans)' }}>
+                    What {specialist.name.split(' ')[0]}'s Clients Say
+                  </p>
+                  <div className="flex items-center gap-2 mt-1.5">
+                    <div className="flex items-center gap-0.5">
+                      {Array.from({ length: 5 }).map((_, i) => (
+                        <svg key={i} className="w-4 h-4 text-amber" fill="currentColor" viewBox="0 0 24 24">
+                          <path d="M12 2l2.39 7.36h7.74l-6.26 4.55 2.39 7.36L12 16.72l-6.26 4.55 2.39-7.36L1.87 9.36h7.74L12 2z" />
+                        </svg>
+                      ))}
+                    </div>
+                    <span className="text-sm font-semibold text-white">
+                      {reviews.rating.toFixed(1)}
+                    </span>
+                    {typeof reviews.count === 'number' && (
+                      <span className="text-sm text-white/50">
+                        · {reviews.count}+ reviews
+                      </span>
+                    )}
                   </div>
-                )}
-                <p className="text-xs text-white/60 leading-tight">{review.author}</p>
+                </div>
               </div>
+
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
+                {reviews.quotes.map((review, i) => (
+                  <div key={i} className="bg-white/5 border border-white/10 rounded-xl p-5 flex flex-col">
+                    <div className="flex items-center gap-0.5 mb-3">
+                      {Array.from({ length: 5 }).map((_, j) => (
+                        <svg key={j} className="w-3.5 h-3.5 text-amber" fill="currentColor" viewBox="0 0 24 24">
+                          <path d="M12 2l2.39 7.36h7.74l-6.26 4.55 2.39 7.36L12 16.72l-6.26 4.55 2.39-7.36L1.87 9.36h7.74L12 2z" />
+                        </svg>
+                      ))}
+                    </div>
+                    <p className="text-sm text-white/80 leading-relaxed flex-1">"{review.quote}"</p>
+                    <div className="flex items-center gap-3 mt-4 pt-4 border-t border-white/10">
+                      {review.avatar ? (
+                        <img
+                          src={review.avatar}
+                          alt={review.author}
+                          className="w-9 h-9 rounded-full object-cover ring-1 ring-white/15 flex-shrink-0"
+                          loading="lazy"
+                        />
+                      ) : (
+                        <div className="w-9 h-9 rounded-full bg-white/10 ring-1 ring-white/15 flex-shrink-0 flex items-center justify-center text-[11px] font-semibold text-white/70">
+                          {review.author
+                            .split(',')[0]
+                            .split(' ')
+                            .map((part) => part[0])
+                            .join('')
+                            .slice(0, 2)
+                            .toUpperCase()}
+                        </div>
+                      )}
+                      <p className="text-xs text-white/60 leading-tight">{review.author}</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </>
+          )}
+
+          {specialist.reviewsUrl && (
+            <div className={reviews ? 'mt-5 text-center' : 'text-center'}>
+              <a
+                href={specialist.reviewsUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-4 py-2 text-sm font-medium text-white/80 transition-colors hover:bg-white/10 hover:text-white"
+              >
+                See {specialist.company} reviews on Google
+              </a>
             </div>
-          ))}
+          )}
         </div>
-      </div>
+      )}
 
       <p className="text-white/30 text-xs mt-10 max-w-xl mx-auto text-center leading-relaxed">
         Pre-qualification is based on the information you provided. Final approval is subject to your specialist's review, full underwriting, appraisal, and lender guidelines. This is not a loan offer or commitment to lend. DSCRBroker.com is a matching service, not a lender or mortgage broker. {specialist.name} is a licensed loan officer with {specialist.company} (NMLS #{specialist.nmls}).
       </p>
 
       {/* Matched-specialist licensing block. Renders only when the matched broker
-          carries a licensing disclaimer (currently John Peisner / Barrett Financial). */}
+          carries a licensing disclaimer (John, Adam, and Taylor all do). Never show
+          one broker's licensing text under another broker's name. */}
       {specialist.licensing && (
         <div className="mt-8 pt-6 border-t border-white/10 text-white/30 text-[11px] leading-relaxed space-y-3 max-w-3xl mx-auto">
           <p>

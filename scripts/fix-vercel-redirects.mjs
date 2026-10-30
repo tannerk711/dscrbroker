@@ -40,6 +40,23 @@ const removed = routes.filter(isGlobalSlash);
 routes = routes.filter((r) => !isGlobalSlash(r) && !isOurs(r));
 routes.unshift(...scoped);
 
+// Widen Astro-emitted LITERAL page redirects (from astro.config `redirects`, e.g.
+// the retired /lp/california-dscr) to tolerate a trailing slash: Astro dedupes the
+// slashed and slash-less keys into one `^/path$` route, leaving `/path/` a 404.
+// Only routes with a fixed Location (no $ capture) and no regex groups qualify.
+for (const r of routes) {
+  if (
+    typeof r?.src === 'string' &&
+    r?.status >= 300 && r.status < 400 &&
+    typeof r?.headers?.Location === 'string' &&
+    !r.headers.Location.includes('$') &&
+    !r.src.includes('(') &&
+    r.src.endsWith('$') && !r.src.endsWith('/?$')
+  ) {
+    r.src = r.src.replace(/\$$/, '/?$');
+  }
+}
+
 // The invariant that matters: no redirect may touch the lead endpoint.
 const PROBES = ['/api/lead', '/api/analyze-property', '/states/texas/index.html', '/_astro/x.css', '/sitemap-index.xml'];
 for (const r of routes) {

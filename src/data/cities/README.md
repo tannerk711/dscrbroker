@@ -16,8 +16,12 @@ Zero template changes. Zero config changes. The sitemap picks the new routes up 
 
 ## Before you write a new state file
 
-1. Verify the state is on John's licensing list (`src/data/john-licensing.ts`) AND not in
-   `EXCLUDED_STATES` (`src/utils/brokerRouting.ts`). Both must pass.
+1. Verify the state is NOT in `EXCLUDED_STATES` (`src/utils/brokerRouting.ts`), then check
+   the state's broker in `STATE_TO_BROKER` and verify that broker covers it: John-side
+   states (broker_a..broker_e) must be on John's licensing list (`src/data/john-licensing.ts`);
+   Adam-side states (broker_f: AK HI LA MS MO NM OH) pass via Adam's coverage; Taylor-side
+   states (broker_g: CA ID MT OR WA) pass via Taylor's licensed-state coverage. Both checks
+   must pass.
 2. The state must already exist in `src/data/states.json` (the city template pulls the
    state-level `licensingNote` from there for the footer disclaimer bar).
 3. Research real data with sources. No invented numbers. Every city carries a

@@ -1,19 +1,21 @@
 // State-to-broker routing map
 // Note: NY, MI, ND, SD, UT excluded from form (trimmed 2026-08-11; was 13 states from 2026-04-27).
-// broker_f = Adam Cunningham / Tall Timbers (added 2026-08-11): AK, HI, LA, MS, MO, MT, NM, OH.
+// broker_f = Adam Cunningham / Tall Timbers (added 2026-08-11): AK, HI, LA, MS, MO, NM, OH.
+// broker_g = Taylor Sundquist / Future Mortgage (added 2026-10-29): CA, ID, MT, OR, WA solo
+// (CA/WA moved off broker_b, ID/OR off broker_a, MT off broker_f; the server also forces
+// these five in src/pages/api/lead.ts SINGLE_OWNER_STATES to cover stale client bundles).
 // GA is a 50/50 split between John (broker_c) and Adam (broker_f). The client-side map
 // keeps GA -> broker_c as a placeholder; the REAL pick happens server-side in
 // src/pages/api/lead.ts (SPLIT_STATES), which returns the assigned broker to the form.
 const STATE_TO_BROKER: Record<string, string> = {
   AL: 'broker_a', AR: 'broker_a', CT: 'broker_a',
-  DE: 'broker_a', ID: 'broker_a', IN: 'broker_a',
+  DE: 'broker_a', IN: 'broker_a',
   IA: 'broker_a', KS: 'broker_a', KY: 'broker_a', ME: 'broker_a',
   MN: 'broker_a',
-  NE: 'broker_a', NH: 'broker_a', OR: 'broker_a',
+  NE: 'broker_a', NH: 'broker_a',
   RI: 'broker_a', VT: 'broker_a', WI: 'broker_a',
   WY: 'broker_a',
-  AZ: 'broker_b', CA: 'broker_b', CO: 'broker_b', NV: 'broker_b',
-  WA: 'broker_b',
+  AZ: 'broker_b', CO: 'broker_b', NV: 'broker_b',
   FL: 'broker_c', GA: 'broker_c', NC: 'broker_c', SC: 'broker_c',
   TN: 'broker_c', VA: 'broker_c',
   TX: 'broker_d', OK: 'broker_d',
@@ -21,42 +23,21 @@ const STATE_TO_BROKER: Record<string, string> = {
   NJ: 'broker_e', PA: 'broker_e', MA: 'broker_e',
   IL: 'broker_e', DC: 'broker_e', WV: 'broker_e',
   AK: 'broker_f', HI: 'broker_f', LA: 'broker_f', MS: 'broker_f',
-  MO: 'broker_f', MT: 'broker_f', NM: 'broker_f', OH: 'broker_f',
+  MO: 'broker_f', NM: 'broker_f', OH: 'broker_f',
+  CA: 'broker_g', ID: 'broker_g', MT: 'broker_g', OR: 'broker_g',
+  WA: 'broker_g',
 };
 
 // States excluded from the form (broker network does not currently cover).
 const EXCLUDED_STATES = new Set(['NY', 'MI', 'ND', 'SD', 'UT']);
 
-// Broker config with webhook URLs from env vars
-interface BrokerConfig {
-  webhookUrl: string;
-  apiKey: string;
-  fallbackEmail: string;
-}
-
-const BROKER_ENV_MAP: Record<string, { webhook: string; apiKey: string; email: string }> = {
-  broker_a: { webhook: 'WEBHOOK_BROKER_A', apiKey: 'API_KEY_BROKER_A', email: 'EMAIL_BROKER_A' },
-  broker_b: { webhook: 'WEBHOOK_BROKER_B', apiKey: 'API_KEY_BROKER_B', email: 'EMAIL_BROKER_B' },
-  broker_c: { webhook: 'WEBHOOK_BROKER_C', apiKey: 'API_KEY_BROKER_C', email: 'EMAIL_BROKER_C' },
-  broker_d: { webhook: 'WEBHOOK_BROKER_D', apiKey: 'API_KEY_BROKER_D', email: 'EMAIL_BROKER_D' },
-  broker_e: { webhook: 'WEBHOOK_BROKER_E', apiKey: 'API_KEY_BROKER_E', email: 'EMAIL_BROKER_E' },
-  broker_f: { webhook: 'WEBHOOK_BROKER_F', apiKey: 'API_KEY_BROKER_F', email: 'EMAIL_BROKER_F' },
-};
+// The per-broker webhook env NAMES (WEBHOOK_BROKER_A..G) live server-side only, in
+// src/pages/api/lead.ts BROKER_WEBHOOK_ENV. The old client-side BROKER_ENV_MAP +
+// getBrokerConfig pair (API_KEY_*/EMAIL_* triples) was dead code with zero callers
+// and was deleted 2026-10-29; the browser never sees a webhook URL.
 
 export function getBrokerForState(stateAbbr: string): string {
   return STATE_TO_BROKER[stateAbbr.toUpperCase()] || 'broker_a';
-}
-
-export function getBrokerConfig(brokerKey: string): BrokerConfig {
-  const envMap = BROKER_ENV_MAP[brokerKey];
-  if (!envMap) {
-    return { webhookUrl: '', apiKey: '', fallbackEmail: '' };
-  }
-  return {
-    webhookUrl: (typeof import.meta !== 'undefined' && (import.meta as any).env?.[envMap.webhook]) || '',
-    apiKey: (typeof import.meta !== 'undefined' && (import.meta as any).env?.[envMap.apiKey]) || '',
-    fallbackEmail: (typeof import.meta !== 'undefined' && (import.meta as any).env?.[envMap.email]) || '',
-  };
 }
 
 // Full state names for display

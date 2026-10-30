@@ -18,6 +18,15 @@ export default defineConfig({
   // the dev server) and the form island posts to the slash-less paths. It
   // also makes the Vercel adapter emit a global trailing-slash 308.
   trailingSlash: 'ignore',
+  // The John-branded California paid LP was deleted 2026-10-29 when CA moved to
+  // broker_g (Taylor Sundquist). The only references to the old URL are a PAUSED
+  // legacy ad group's final URLs; send them to the CA state page instead of a 404.
+  // Both slash variants work in production: scripts/fix-vercel-redirects.mjs widens
+  // this literal redirect route to tolerate a trailing slash (the old ad final URLs
+  // end in one).
+  redirects: {
+    '/lp/california-dscr': '/states/california/',
+  },
   adapter: vercel(),
   integrations: [
     react(),

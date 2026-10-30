@@ -27,6 +27,7 @@ const BROKER_WEBHOOK_ENV: Record<string, string> = {
   broker_d: 'WEBHOOK_BROKER_D',
   broker_e: 'WEBHOOK_BROKER_E',
   broker_f: 'WEBHOOK_BROKER_F',
+  broker_g: 'WEBHOOK_BROKER_G',
 };
 
 // States split between two brokers, resolved HERE (server-side), never client-side.
@@ -34,6 +35,19 @@ const BROKER_WEBHOOK_ENV: Record<string, string> = {
 // GA: John Peisner (broker_c) / Adam Cunningham (broker_f), 50/50. Added 2026-08-11.
 const SPLIT_STATES: Record<string, [string, string]> = {
   GA: ['broker_c', 'broker_f'],
+};
+
+// States owned by exactly one broker where the SERVER, not the client bundle, is
+// authoritative. A browser that loaded the form before a routing deploy keeps the
+// old client-side map and would keep sending these to the previous broker; this
+// override closes that window. Added 2026-10-29 when CA/ID/MT/OR/WA moved to
+// broker_g (Taylor Sundquist / Future Mortgage).
+const SINGLE_OWNER_STATES: Record<string, string> = {
+  CA: 'broker_g',
+  ID: 'broker_g',
+  MT: 'broker_g',
+  OR: 'broker_g',
+  WA: 'broker_g',
 };
 
 // 50/50 pick: strict alternation while the serverless instance stays warm, random
@@ -141,6 +155,15 @@ export const POST: APIRoute = async ({ request }) => {
   // Split states: the server owns the pick. Overrides whatever the client sent.
   const stateCode =
     typeof payload.stateCode === 'string' ? payload.stateCode.toUpperCase() : '';
+
+  // Single-owner override: the server owns the pick for these states. Keep the
+  // forwarded payload consistent so the CRM record matches who really got the lead.
+  const singleOwner = SINGLE_OWNER_STATES[stateCode];
+  if (singleOwner) {
+    brokerKey = singleOwner;
+    payload.matchedBroker = singleOwner;
+  }
+
   const split = SPLIT_STATES[stateCode];
   if (split) {
     splitFlip = 1 - splitFlip;
