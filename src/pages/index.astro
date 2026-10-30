@@ -18,8 +18,8 @@ const description = 'DSCR loans for real estate investors, structured by license
 const trustChips = [
   { label: 'No Income Docs', color: 'text-green', paths: ['M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z'] },
   { label: 'Same Day Pre-Approval', color: 'text-green', paths: ['M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z'] },
-  { label: 'Fast Closing', color: 'text-blue-light', paths: ['M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z'] },
-  { label: 'All 50 States', color: 'text-blue-light', paths: ['M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z', 'M15 11a3 3 0 11-6 0 3 3 0 016 0z'] },
+  { label: 'Fast Closing', color: 'text-navy-mid', paths: ['M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z'] },
+  { label: 'All 50 States', color: 'text-navy-mid', paths: ['M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z', 'M15 11a3 3 0 11-6 0 3 3 0 016 0z'] },
 ];
 
 const jsonLd = {
@@ -105,36 +105,33 @@ const faqJsonLd = {
        sentence, the trust chips sit below the form card, and the hero padding
        and card padding tighten. From md up every class resolves to the
        original desktop layout. -->
-  <section class="relative overflow-hidden bg-navy pt-20 pb-12 md:pt-32 md:pb-24">
-    <!-- Subtle radial gradient background -->
-    <div class="absolute inset-0" style="background: radial-gradient(ellipse at 50% 40%, #131C31 0%, #0B1120 70%);" aria-hidden="true"></div>
-
+  <section class="relative overflow-hidden bg-white pt-20 pb-12 md:pt-32 md:pb-24">
     <div class="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
       <div class="grid items-center gap-6 md:grid-cols-12 md:gap-12 lg:gap-16">
         <!-- Left column -->
         <div class="md:col-span-7">
-          <span data-hero="badge" class="hidden md:inline-flex items-center gap-2 rounded-full bg-amber/10 border border-amber/20 px-3 py-1.5 text-xs font-medium uppercase tracking-wider text-amber">
+          <span data-hero="badge" class="hidden md:inline-flex items-center gap-2 rounded-full bg-navy-mid px-3.5 py-1.5 text-xs font-bold uppercase tracking-wider text-off-white">
             <svg class="h-3.5 w-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
               <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
             </svg>
             70+ DSCR Lenders. All 50 States.
           </span>
 
-          <h1 data-hero="title" class="md:mt-6 text-3xl font-bold tracking-tight text-white sm:text-4xl md:text-5xl lg:text-[56px]" style="line-height: 1.1;">
+          <h1 data-hero="title" class="md:mt-6 text-3xl font-bold tracking-[-0.008em] text-navy sm:text-4xl md:text-5xl lg:text-[56px]" style="line-height: 1.12;">
             DSCR Loans, Structured<br />by a Specialist.
           </h1>
 
-          <p data-hero="subhead" class="mt-4 text-lg leading-relaxed text-slate-300 md:hidden">
+          <p data-hero="subhead" class="mt-4 text-lg leading-relaxed text-gray-600 md:hidden">
             The property's rent qualifies the loan, not your tax returns.
           </p>
-          <p data-hero="subhead" class="hidden md:block mt-6 text-lg leading-relaxed text-slate-300 max-w-xl">
+          <p data-hero="subhead" class="hidden md:block mt-6 text-lg leading-relaxed text-gray-600 max-w-xl">
             DSCR loans qualify the property, not you. No income verification. No employment check. No tax returns. Just your credit score, your down payment, and a property that generates rent. Our network of licensed DSCR specialists structures your deal for approval and matches it to the right lender from 70+ in our network. Getting matched takes one short form. No credit pull.
           </p>
 
           <!-- Trust badges (md and up) -->
           <div data-hero="trust" class="mt-8 hidden md:flex flex-wrap gap-3">
             {trustChips.map((chip) => (
-              <span class="inline-flex items-center gap-2 rounded-full bg-white/5 border border-white/[0.08] px-3.5 py-2 text-xs font-medium text-slate-300">
+              <span class="inline-flex items-center gap-2 rounded-full bg-white border border-gray-200 shadow-sm px-3.5 py-2 text-xs font-medium text-gray-600">
                 <svg class={`h-4 w-4 ${chip.color}`} fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
                   {chip.paths.map((d) => <path stroke-linecap="round" stroke-linejoin="round" d={d} />)}
                 </svg>
@@ -146,9 +143,9 @@ const faqJsonLd = {
 
         <!-- Right column (form) -->
         <div data-hero="form" class="md:col-span-5" id="lead-form">
-          <div class="rounded-xl bg-white/[0.04] border border-white/[0.08] p-4 md:p-8">
-            <h2 class="text-xl font-semibold text-white mb-1">Check Your DSCR Eligibility</h2>
-            <p class="text-sm text-slate-400 mb-4 md:mb-6">2 minutes. No SSN. No credit pull.</p>
+          <div class="rounded-xl bg-white border border-gray-200 shadow-card-lg p-4 md:p-8">
+            <h2 class="text-xl font-semibold text-navy mb-1">Check Your DSCR Eligibility</h2>
+            <p class="text-sm text-gray-500 mb-4 md:mb-6">2 minutes. No SSN. No credit pull.</p>
             <div>
               <DSCRForm client:visible />
             </div>
@@ -157,7 +154,7 @@ const faqJsonLd = {
           <!-- Trust badges (mobile, below the card) -->
           <div data-hero="trust" class="mt-5 flex flex-wrap gap-2.5 md:hidden">
             {trustChips.map((chip) => (
-              <span class="inline-flex items-center gap-2 rounded-full bg-white/5 border border-white/[0.08] px-3.5 py-2 text-xs font-medium text-slate-300">
+              <span class="inline-flex items-center gap-2 rounded-full bg-white border border-gray-200 shadow-sm px-3.5 py-2 text-xs font-medium text-gray-600">
                 <svg class={`h-4 w-4 ${chip.color}`} fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
                   {chip.paths.map((d) => <path stroke-linecap="round" stroke-linejoin="round" d={d} />)}
                 </svg>
@@ -170,29 +167,30 @@ const faqJsonLd = {
     </div>
   </section>
 
-  <!-- Section 2: Trust Bar -->
-  <section class="bg-off-white py-12 md:py-16">
-    <div class="mx-auto max-w-[1080px] px-4 sm:px-6 lg:px-8">
+  <!-- Section 2: Trust Bar (the navy band directly under the white hero) -->
+  <section class="relative overflow-hidden bg-navy py-12 md:py-16">
+    <div class="absolute inset-0" style="background: radial-gradient(900px 480px at 50% -10%, rgba(255, 199, 44, 0.14), transparent 62%);" aria-hidden="true"></div>
+    <div class="relative mx-auto max-w-[1080px] px-4 sm:px-6 lg:px-8">
       <div class="grid grid-cols-2 gap-8 md:grid-cols-4 md:gap-12">
-        <div data-gsap="stat" class="text-center md:border-r md:border-gray-200">
-          <p class="text-4xl font-bold text-navy md:text-5xl" style="font-variant-numeric: tabular-nums;" data-count-to="70" data-count-suffix="+">70+</p>
-          <p class="mt-1 text-xs font-medium uppercase tracking-[0.08em] text-gray-500">Lenders in Network</p>
-          <p class="mt-0.5 text-[13px] text-gray-400">More ways to structure your deal</p>
+        <div data-gsap="stat" class="text-center md:border-r md:border-white/10">
+          <p class="text-4xl font-bold text-amber md:text-5xl" style="font-variant-numeric: tabular-nums;" data-count-to="70" data-count-suffix="+">70+</p>
+          <p class="mt-1 text-xs font-medium uppercase tracking-[0.08em] text-slate-300">Lenders in Network</p>
+          <p class="mt-0.5 text-[13px] text-slate-400">More ways to structure your deal</p>
         </div>
-        <div data-gsap="stat" class="text-center md:border-r md:border-gray-200">
-          <p class="text-4xl font-bold text-navy md:text-5xl" style="font-variant-numeric: tabular-nums;" data-count-to="50">50</p>
-          <p class="mt-1 text-xs font-medium uppercase tracking-[0.08em] text-gray-500">States Covered</p>
-          <p class="mt-0.5 text-[13px] text-gray-400">Licensed in every state</p>
+        <div data-gsap="stat" class="text-center md:border-r md:border-white/10">
+          <p class="text-4xl font-bold text-amber md:text-5xl" style="font-variant-numeric: tabular-nums;" data-count-to="50">50</p>
+          <p class="mt-1 text-xs font-medium uppercase tracking-[0.08em] text-slate-300">States Covered</p>
+          <p class="mt-0.5 text-[13px] text-slate-400">Licensed in every state</p>
         </div>
-        <div data-gsap="stat" class="text-center md:border-r md:border-gray-200">
-          <p class="text-4xl font-bold text-navy md:text-5xl" style="font-variant-numeric: tabular-nums;" data-count-to="21">21</p>
-          <p class="mt-1 text-xs font-medium uppercase tracking-[0.08em] text-gray-500">Day Avg Close</p>
-          <p class="mt-0.5 text-[13px] text-gray-400">Application to funded</p>
+        <div data-gsap="stat" class="text-center md:border-r md:border-white/10">
+          <p class="text-4xl font-bold text-amber md:text-5xl" style="font-variant-numeric: tabular-nums;" data-count-to="21">21</p>
+          <p class="mt-1 text-xs font-medium uppercase tracking-[0.08em] text-slate-300">Day Avg Close</p>
+          <p class="mt-0.5 text-[13px] text-slate-400">Application to funded</p>
         </div>
         <div data-gsap="stat" class="text-center">
-          <p class="text-4xl font-bold text-navy md:text-5xl" style="font-variant-numeric: tabular-nums;" data-count-to="0" data-count-prefix="$">$0</p>
-          <p class="mt-1 text-xs font-medium uppercase tracking-[0.08em] text-gray-500">Upfront Fees</p>
-          <p class="mt-0.5 text-[13px] text-gray-400">No application or junk fees</p>
+          <p class="text-4xl font-bold text-amber md:text-5xl" style="font-variant-numeric: tabular-nums;" data-count-to="0" data-count-prefix="$">$0</p>
+          <p class="mt-1 text-xs font-medium uppercase tracking-[0.08em] text-slate-300">Upfront Fees</p>
+          <p class="mt-0.5 text-[13px] text-slate-400">No application or junk fees</p>
         </div>
       </div>
     </div>
@@ -204,17 +202,20 @@ const faqJsonLd = {
   <!-- Section 4: Loan Programs -->
   <ProgramGrid />
 
-  <!-- Section 5: Deal Analyzer -->
-  <section id="deal-analyzer" class="relative bg-navy py-16 md:py-24 overflow-hidden">
-    <div class="absolute inset-0" style="background: radial-gradient(ellipse at 50% 30%, #131C31 0%, #0B1120 70%);" aria-hidden="true"></div>
+  <!-- Section 5: Deal Analyzer (light section, dark instrument card) -->
+  <section id="deal-analyzer" class="relative bg-white py-16 md:py-24 overflow-hidden">
     <div class="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
       <div class="mx-auto max-w-3xl text-center mb-10">
-        <p data-gsap="eyebrow" class="text-xs font-medium uppercase tracking-[0.1em] text-amber mb-3">DEAL ANALYZER</p>
-        <h2 data-gsap="heading" class="text-3xl font-bold tracking-tight text-white md:text-4xl">Instantly Analyze Your Deal</h2>
-        <p data-gsap="subhead" class="mt-4 text-lg text-slate-400">Paste a property URL, describe your deal, or enter the numbers. Get an instant DSCR verdict, monthly cash flow projection, and a preview of what your specialist will structure, before you apply.</p>
+        <h2 data-gsap="heading" class="text-3xl font-bold tracking-[-0.008em] text-navy md:text-4xl">Instantly Analyze Your Deal</h2>
+        <p data-gsap="subhead" class="mt-4 text-lg text-gray-500">Paste a property URL, describe your deal, or enter the numbers. Get an instant DSCR verdict, monthly cash flow projection, and a preview of what your specialist will structure, before you apply.</p>
       </div>
       <div data-gsap="calculator" class="mx-auto max-w-4xl">
-        <DealAnalyzer client:visible />
+        <div
+          class="rounded-2xl border border-white/10 px-5 pt-5 pb-0 md:px-8 md:pt-8"
+          style="background: linear-gradient(180deg, #131C31 0%, #0B1120 100%); box-shadow: inset 0 1px 0 rgba(247, 245, 240, 0.06), 0 30px 70px -28px rgba(0, 0, 0, 0.6);"
+        >
+          <DealAnalyzer client:visible />
+        </div>
       </div>
     </div>
   </section>
@@ -229,8 +230,7 @@ const faqJsonLd = {
   <section id="testimonials" class="bg-off-white py-16 md:py-24">
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
       <div class="mx-auto max-w-3xl text-center">
-        <p data-gsap="eyebrow" class="text-xs font-medium uppercase tracking-[0.1em] text-amber mb-3">RESULTS</p>
-        <h2 data-gsap="heading" class="text-3xl font-bold tracking-tight text-navy md:text-4xl">What Investors Say After Closing</h2>
+        <h2 data-gsap="heading" class="text-3xl font-bold tracking-[-0.008em] text-navy md:text-4xl">What Investors Say After Closing</h2>
         <p data-gsap="subhead" class="mt-4 text-lg text-gray-500">Real deals. Real numbers. Real investors who closed through our broker network.</p>
       </div>
       <div class="mt-12">
@@ -246,8 +246,7 @@ const faqJsonLd = {
   <section id="faq" class="bg-white py-16 md:py-24">
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
       <div class="mx-auto max-w-3xl text-center">
-        <p data-gsap="eyebrow" class="text-xs font-medium uppercase tracking-[0.1em] text-amber mb-3">FAQ</p>
-        <h2 data-gsap="heading" class="text-3xl font-bold tracking-tight text-navy md:text-4xl">What Investors Ask About DSCR Loans</h2>
+        <h2 data-gsap="heading" class="text-3xl font-bold tracking-[-0.008em] text-navy md:text-4xl">What Investors Ask About DSCR Loans</h2>
         <p data-gsap="subhead" class="mt-4 text-lg text-gray-500">Straight answers. No bank-speak.</p>
       </div>
       <div class="mx-auto mt-12 max-w-3xl">

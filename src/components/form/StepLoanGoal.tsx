@@ -51,7 +51,7 @@ const GOAL_OPTIONS = [
 export default function StepLoanGoal({ value, onSelect }: StepLoanGoalProps) {
   return (
     <div>
-      <h3 className="text-lg font-semibold text-white mb-6">What are you looking to do?</h3>
+      <h3 className="text-lg font-semibold text-navy mb-6">What are you looking to do?</h3>
       <div className="flex flex-col gap-3" role="radiogroup" aria-label="Loan goal">
         {GOAL_OPTIONS.map((opt) => (
           <SelectionCard

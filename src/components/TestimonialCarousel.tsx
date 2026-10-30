@@ -140,7 +140,7 @@ export default function TestimonialCarousel() {
                 {/* Deal stats */}
                 <div className="mt-4 border-t border-gray-100 pt-4">
                   <div className="mb-3">
-                    <p className="text-xs uppercase tracking-wider text-amber font-semibold">Outcome</p>
+                    <p className="text-xs uppercase tracking-wider text-navy-mid font-semibold">Outcome</p>
                     <p className="font-semibold text-navy text-sm mt-0.5">{t.outcome}</p>
                   </div>
                   <div className="flex gap-6">

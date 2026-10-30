@@ -16,8 +16,8 @@ export default function StepRehabBudget({ value, onChange, onContinue }: StepReh
 
   return (
     <div>
-      <h3 className="text-lg font-semibold text-white mb-1">What is your rehab budget?</h3>
-      <p className="text-sm text-white/50 mb-6">A rough estimate is fine. Your specialist will refine it on the scope of work.</p>
+      <h3 className="text-lg font-semibold text-navy mb-1">What is your rehab budget?</h3>
+      <p className="text-sm text-gray-500 mb-6">A rough estimate is fine. Your specialist will refine it on the scope of work.</p>
 
       <CurrencySlider
         value={numeric}
@@ -34,7 +34,7 @@ export default function StepRehabBudget({ value, onChange, onContinue }: StepReh
           if (!value) onChange(String(DEFAULT));
           onContinue();
         }}
-        className="mt-8 w-full py-3 rounded text-sm font-semibold uppercase tracking-wider bg-blue hover:bg-blue/90 text-white cursor-pointer transition-colors duration-150"
+        className="mt-8 w-full py-3 rounded text-sm font-bold uppercase tracking-wider bg-amber hover:bg-amber-deep text-navy cursor-pointer transition-colors duration-150"
         style={{ fontFamily: 'var(--font-sans)' }}
       >
         Continue

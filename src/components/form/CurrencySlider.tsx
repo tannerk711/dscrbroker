@@ -95,7 +95,7 @@ export default function CurrencySlider({
           onBlur={handleTextBlur}
           onKeyDown={handleTextKey}
           aria-label={`${ariaLabel} (type to override)`}
-          className="w-full rounded-lg border border-white/10 bg-white/5 px-5 py-3 text-center text-2xl font-bold tabular-nums text-white shadow-sm transition-colors focus:border-blue focus:outline-none focus:ring-2 focus:ring-blue/30 md:text-3xl"
+          className="w-full rounded-lg border border-gray-200 bg-white px-5 py-3 text-center text-2xl font-bold tabular-nums text-navy shadow-sm transition-colors focus:border-navy-mid focus:outline-none focus:ring-2 focus:ring-navy-mid/20 md:text-3xl"
           style={{ fontFamily: 'var(--font-sans)' }}
         />
       </div>
@@ -112,16 +112,16 @@ export default function CurrencySlider({
         style={{ ['--range-progress' as string]: `${progressPct}%` }}
       />
 
-      <div className="mt-2 flex items-center justify-between text-xs text-white/40 tabular-nums" style={{ fontFamily: 'var(--font-sans)' }}>
+      <div className="mt-2 flex items-center justify-between text-xs text-gray-400 tabular-nums" style={{ fontFamily: 'var(--font-sans)' }}>
         <span>{formatUsd(min)}</span>
         <span>{formatUsd(max)}</span>
       </div>
 
       {helperHint && (
-        <p className="mt-3 text-center text-xs text-white/50">{helperHint}</p>
+        <p className="mt-3 text-center text-xs text-gray-500">{helperHint}</p>
       )}
       {freeAndClearCopy && value === 0 && (
-        <p className="mt-3 text-center text-xs font-medium text-green-400">
+        <p className="mt-3 text-center text-xs font-medium text-green-700">
           {freeAndClearCopy}
         </p>
       )}

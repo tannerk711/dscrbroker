@@ -17,8 +17,8 @@ export default function StepLoanBalance({ value, propertyValue, onChange, onCont
 
   return (
     <div>
-      <h3 className="text-lg font-semibold text-white mb-1">How much do you still owe?</h3>
-      <p className="text-sm text-white/50 mb-6">Approximate is fine. Your specialist will pull the exact payoff.</p>
+      <h3 className="text-lg font-semibold text-navy mb-1">How much do you still owe?</h3>
+      <p className="text-sm text-gray-500 mb-6">Approximate is fine. Your specialist will pull the exact payoff.</p>
 
       <CurrencySlider
         value={numeric}
@@ -36,7 +36,7 @@ export default function StepLoanBalance({ value, propertyValue, onChange, onCont
           if (value === '') onChange(String(defaultBal));
           onContinue();
         }}
-        className="mt-8 w-full py-3 rounded text-sm font-semibold uppercase tracking-wider bg-blue hover:bg-blue/90 text-white cursor-pointer transition-colors duration-150"
+        className="mt-8 w-full py-3 rounded text-sm font-bold uppercase tracking-wider bg-amber hover:bg-amber-deep text-navy cursor-pointer transition-colors duration-150"
         style={{ fontFamily: 'var(--font-sans)' }}
       >
         Continue

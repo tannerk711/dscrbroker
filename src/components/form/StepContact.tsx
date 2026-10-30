@@ -120,12 +120,12 @@ export default function StepContact({
 
   return (
     <div>
-      <h3 className="text-lg font-semibold text-white mb-6">Last step before we match you with the DSCR specialist.</h3>
+      <h3 className="text-lg font-semibold text-navy mb-6">Last step before we match you with the DSCR specialist.</h3>
 
       {/* Name row */}
       <div className="grid grid-cols-2 gap-3 mb-4">
         <div>
-          <label htmlFor="firstName" className="block text-[11px] font-semibold uppercase tracking-[0.1em] text-white/50 mb-1.5" style={{ fontFamily: 'var(--font-sans)' }}>
+          <label htmlFor="firstName" className="block text-[11px] font-semibold uppercase tracking-[0.1em] text-gray-500 mb-1.5" style={{ fontFamily: 'var(--font-sans)' }}>
             First Name
           </label>
           <input
@@ -136,18 +136,18 @@ export default function StepContact({
             onBlur={() => handleBlur('firstName')}
             placeholder="First name"
             aria-describedby={errors.firstName ? 'firstName-error' : undefined}
-            className={`w-full bg-white/5 border rounded px-4 py-3 text-white placeholder-white/30 text-sm focus:outline-none focus:ring-1 transition-colors duration-150 ${
+            className={`w-full bg-white border rounded px-4 py-3 text-navy placeholder-gray-400 text-sm shadow-sm focus:outline-none focus:ring-1 transition-colors duration-150 ${
               errors.firstName && touched.firstName
                 ? 'border-red-500 focus:border-red-500 focus:ring-red-500/30'
-                : 'border-white/10 focus:border-blue focus:ring-blue/30'
+                : 'border-gray-200 focus:border-navy-mid focus:ring-navy-mid/30'
             }`}
           />
           {errors.firstName && touched.firstName && (
-            <p id="firstName-error" className="text-red-400 text-xs mt-1 animate-[fadeIn_150ms_ease-out]">{errors.firstName}</p>
+            <p id="firstName-error" className="text-red-600 text-xs mt-1 animate-[fadeIn_150ms_ease-out]">{errors.firstName}</p>
           )}
         </div>
         <div>
-          <label htmlFor="lastName" className="block text-[11px] font-semibold uppercase tracking-[0.1em] text-white/50 mb-1.5" style={{ fontFamily: 'var(--font-sans)' }}>
+          <label htmlFor="lastName" className="block text-[11px] font-semibold uppercase tracking-[0.1em] text-gray-500 mb-1.5" style={{ fontFamily: 'var(--font-sans)' }}>
             Last Name
           </label>
           <input
@@ -158,21 +158,21 @@ export default function StepContact({
             onBlur={() => handleBlur('lastName')}
             placeholder="Last name"
             aria-describedby={errors.lastName ? 'lastName-error' : undefined}
-            className={`w-full bg-white/5 border rounded px-4 py-3 text-white placeholder-white/30 text-sm focus:outline-none focus:ring-1 transition-colors duration-150 ${
+            className={`w-full bg-white border rounded px-4 py-3 text-navy placeholder-gray-400 text-sm shadow-sm focus:outline-none focus:ring-1 transition-colors duration-150 ${
               errors.lastName && touched.lastName
                 ? 'border-red-500 focus:border-red-500 focus:ring-red-500/30'
-                : 'border-white/10 focus:border-blue focus:ring-blue/30'
+                : 'border-gray-200 focus:border-navy-mid focus:ring-navy-mid/30'
             }`}
           />
           {errors.lastName && touched.lastName && (
-            <p id="lastName-error" className="text-red-400 text-xs mt-1 animate-[fadeIn_150ms_ease-out]">{errors.lastName}</p>
+            <p id="lastName-error" className="text-red-600 text-xs mt-1 animate-[fadeIn_150ms_ease-out]">{errors.lastName}</p>
           )}
         </div>
       </div>
 
       {/* Email */}
       <div className="mb-4">
-        <label htmlFor="email" className="block text-[11px] font-semibold uppercase tracking-[0.1em] text-white/50 mb-1.5" style={{ fontFamily: 'var(--font-sans)' }}>
+        <label htmlFor="email" className="block text-[11px] font-semibold uppercase tracking-[0.1em] text-gray-500 mb-1.5" style={{ fontFamily: 'var(--font-sans)' }}>
           Email
         </label>
         <input
@@ -183,20 +183,20 @@ export default function StepContact({
           onBlur={() => handleBlur('email')}
           placeholder="Email address"
           aria-describedby={errors.email ? 'email-error' : undefined}
-          className={`w-full bg-white/5 border rounded px-4 py-3 text-white placeholder-white/30 text-sm focus:outline-none focus:ring-1 transition-colors duration-150 ${
+          className={`w-full bg-white border rounded px-4 py-3 text-navy placeholder-gray-400 text-sm shadow-sm focus:outline-none focus:ring-1 transition-colors duration-150 ${
             errors.email && touched.email
               ? 'border-red-500 focus:border-red-500 focus:ring-red-500/30'
-              : 'border-white/10 focus:border-blue focus:ring-blue/30'
+              : 'border-gray-200 focus:border-navy-mid focus:ring-navy-mid/30'
           }`}
         />
         {errors.email && touched.email && (
-          <p id="email-error" className="text-red-400 text-xs mt-1 animate-[fadeIn_150ms_ease-out]">{errors.email}</p>
+          <p id="email-error" className="text-red-600 text-xs mt-1 animate-[fadeIn_150ms_ease-out]">{errors.email}</p>
         )}
       </div>
 
       {/* Phone */}
       <div className="mb-4">
-        <label htmlFor="phone" className="block text-[11px] font-semibold uppercase tracking-[0.1em] text-white/50 mb-1.5" style={{ fontFamily: 'var(--font-sans)' }}>
+        <label htmlFor="phone" className="block text-[11px] font-semibold uppercase tracking-[0.1em] text-gray-500 mb-1.5" style={{ fontFamily: 'var(--font-sans)' }}>
           Phone
         </label>
         <input
@@ -207,14 +207,14 @@ export default function StepContact({
           onBlur={() => handleBlur('phone')}
           placeholder="(555) 555-5555"
           aria-describedby={errors.phone ? 'phone-error' : undefined}
-          className={`w-full bg-white/5 border rounded px-4 py-3 text-white placeholder-white/30 text-sm focus:outline-none focus:ring-1 transition-colors duration-150 ${
+          className={`w-full bg-white border rounded px-4 py-3 text-navy placeholder-gray-400 text-sm shadow-sm focus:outline-none focus:ring-1 transition-colors duration-150 ${
             errors.phone && touched.phone
               ? 'border-red-500 focus:border-red-500 focus:ring-red-500/30'
-              : 'border-white/10 focus:border-blue focus:ring-blue/30'
+              : 'border-gray-200 focus:border-navy-mid focus:ring-navy-mid/30'
           }`}
         />
         {errors.phone && touched.phone && (
-          <p id="phone-error" className="text-red-400 text-xs mt-1 animate-[fadeIn_150ms_ease-out]">{errors.phone}</p>
+          <p id="phone-error" className="text-red-600 text-xs mt-1 animate-[fadeIn_150ms_ease-out]">{errors.phone}</p>
         )}
       </div>
 
@@ -234,17 +234,17 @@ export default function StepContact({
                 });
               }
             }}
-            className="mt-0.5 w-5 h-5 rounded border border-white/20 bg-white/5 checked:bg-blue checked:border-blue appearance-none cursor-pointer flex-shrink-0 relative
-              after:content-[''] after:absolute after:left-1.5 after:top-0.5 after:w-1.5 after:h-3 after:border-white after:border-r-2 after:border-b-2 after:rotate-45 after:opacity-0 checked:after:opacity-100"
+            className="mt-0.5 w-5 h-5 rounded border-2 border-navy-mid bg-white checked:bg-navy-mid checked:border-navy-mid appearance-none cursor-pointer flex-shrink-0 relative
+              after:content-[''] after:absolute after:left-1 after:top-0 after:w-1.5 after:h-3 after:border-white after:border-r-2 after:border-b-2 after:rotate-45 after:opacity-0 checked:after:opacity-100"
           />
-          <span className="text-white/60 text-xs leading-relaxed">
+          <span className="text-gray-600 text-xs leading-relaxed">
             {CONSENT_CHECKBOX_TEXT}
           </span>
         </label>
         {errors.consent && touched.consent && (
-          <p className="text-red-400 text-xs mt-1 ml-8 animate-[fadeIn_150ms_ease-out]">{errors.consent}</p>
+          <p className="text-red-600 text-xs mt-1 ml-8 animate-[fadeIn_150ms_ease-out]">{errors.consent}</p>
         )}
-        <p className="text-white/40 text-xs leading-relaxed mt-2 ml-8">
+        <p className="text-gray-400 text-xs leading-relaxed mt-2 ml-8">
           {CONSENT_DISCLOSURE_TEXT}
         </p>
       </div>
@@ -269,13 +269,13 @@ export default function StepContact({
 
       {/* Submit Error */}
       {submitError && (
-        <div className="bg-red-500/10 border border-red-500/20 text-red-400 rounded-lg p-4 text-sm mb-4">
+        <div className="bg-red-500/10 border border-red-500/30 text-red-700 rounded-lg p-4 text-sm mb-4">
           <p>{submitError}</p>
           <div className="mt-3 flex items-center gap-4">
             <button
               type="button"
               onClick={onRetry}
-              className="bg-white/10 hover:bg-white/20 text-white text-sm px-6 py-2 rounded uppercase tracking-wider"
+              className="bg-navy-mid hover:bg-navy text-white text-sm px-6 py-2 rounded uppercase tracking-wider"
               style={{ fontFamily: 'var(--font-sans)' }}
             >
               Try Again
@@ -290,12 +290,12 @@ export default function StepContact({
         onClick={handleSubmit}
         disabled={!canSubmit}
         className={`
-          w-full py-4 rounded text-sm font-semibold uppercase tracking-wider transition-colors duration-150
+          w-full py-4 rounded text-sm font-bold uppercase tracking-wider transition-colors duration-150
           ${isSubmitting
-            ? 'bg-blue/80 text-white/80 cursor-wait'
+            ? 'bg-amber/80 text-navy/70 cursor-wait'
             : canSubmit
-              ? 'bg-blue hover:bg-blue/90 text-white cursor-pointer'
-              : 'bg-blue/40 text-white/50 cursor-not-allowed'
+              ? 'bg-amber hover:bg-amber-deep text-navy cursor-pointer'
+              : 'bg-amber/40 text-navy/50 cursor-not-allowed'
           }
         `}
         style={{ fontFamily: 'var(--font-sans)' }}
@@ -314,7 +314,7 @@ export default function StepContact({
       </button>
 
       {/* Privacy note */}
-      <p className="text-white/30 text-xs text-center mt-3">
+      <p className="text-gray-400 text-xs text-center mt-3">
         Your information is shared only with the licensed broker matched to your inquiry. We do not sell your data.
       </p>
     </div>

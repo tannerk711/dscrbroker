@@ -575,7 +575,7 @@ export default function DealAnalyzer() {
 
           <button
             onClick={handleQuickAnalyze}
-            className="mt-4 w-full sm:w-auto px-6 py-2.5 bg-amber hover:bg-amber-dark text-white text-sm font-semibold rounded-lg transition-colors duration-150"
+            className="mt-4 w-full sm:w-auto px-6 py-2.5 bg-amber hover:bg-amber-deep text-navy text-sm font-bold rounded-lg transition-colors duration-150"
           >
             Analyze This Deal
           </button>
@@ -737,7 +737,7 @@ const ResultsCard = forwardRef<HTMLDivElement, {
       <div className="mt-6 pt-4 border-t border-white/[0.06] flex flex-col sm:flex-row items-start sm:items-center gap-3">
         <button
           onClick={onGetStructured}
-          className="px-6 py-2.5 bg-amber hover:bg-amber-dark text-white text-sm font-semibold rounded-lg transition-colors duration-150"
+          className="px-6 py-2.5 bg-amber hover:bg-amber-deep text-navy text-sm font-bold rounded-lg transition-colors duration-150"
         >
           Get This Deal Structured
         </button>

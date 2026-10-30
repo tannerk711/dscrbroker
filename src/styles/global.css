@@ -18,13 +18,22 @@
 }
 
 @theme {
-  /* Brand colors */
+  /* Brand colors.
+     Light retheme 2026-10-30 (decisions.md 10/29): white grounds, ink type,
+     navy reserved for the band under the hero + final CTA + footer. Values
+     mirror src/styles/lp-t4.css (the approved /qualify treatment): navy is
+     the ink + dark-band family, amber is THE action color (fhaloans bright
+     yellow, never body text on light grounds), brand-soft is the selected
+     tint. amber-light/amber-dark are the legacy muted ramp; swept out of the
+     remaining pages in chunk B. */
   --color-navy: #0B1120;
   --color-navy-light: #131C31;
   --color-navy-mid: #1A2540;
-  --color-amber: #D4930D;
+  --color-amber: #FFC72C;
+  --color-amber-deep: #F0B71D;
   --color-amber-light: #F5DFA0;
   --color-amber-dark: #A57209;
+  --color-brand-soft: #E8ECF5;
   --color-blue: #3B82F6;
   --color-blue-light: #60A5FA;
   --color-blue-dark: #2563EB;
@@ -78,6 +87,9 @@
   --shadow-md: 0 4px 12px rgba(11, 17, 32, 0.12);
   --shadow-lg: 0 8px 24px rgba(11, 17, 32, 0.16);
   --shadow-xl: 0 16px 48px rgba(11, 17, 32, 0.20);
+  --shadow-card: 0 1px 2px rgba(16, 19, 25, 0.06), 0 14px 34px -16px rgba(11, 17, 32, 0.28);
+  --shadow-card-lg: 0 2px 4px rgba(16, 19, 25, 0.06), 0 30px 70px -28px rgba(11, 17, 32, 0.38);
+  --shadow-btn: 0 2px 0 rgba(16, 19, 25, 0.12), 0 12px 26px -12px rgba(255, 199, 44, 0.6);
 
   /* Easing */
   --ease-out: cubic-bezier(0.25, 0.46, 0.45, 0.94);
@@ -99,12 +111,12 @@ body {
 }
 
 ::selection {
-  background-color: var(--color-blue);
-  color: var(--color-white);
+  background-color: var(--color-amber);
+  color: var(--color-navy);
 }
 
 :focus-visible {
-  outline: 2px solid var(--color-blue);
+  outline: 2px solid var(--color-navy-mid);
   outline-offset: 2px;
 }
 
@@ -179,7 +191,8 @@ body {
 .animate-delay-300 { animation-delay: 300ms; opacity: 0; }
 .animate-delay-400 { animation-delay: 400ms; opacity: 0; }
 
-/* Form currency slider, dark theme */
+/* Form currency slider, light theme (amber fill, white thumb with a navy ring
+   and amber halo, same ramp as lp-t4's amber-range) */
 .dscr-slider {
   -webkit-appearance: none;
   appearance: none;
@@ -187,10 +200,10 @@ body {
   border-radius: 9999px;
   background: linear-gradient(
     to right,
-    var(--color-blue) 0%,
-    var(--color-blue) var(--range-progress, 0%),
-    rgba(255, 255, 255, 0.1) var(--range-progress, 0%),
-    rgba(255, 255, 255, 0.1) 100%
+    var(--color-amber) 0%,
+    var(--color-amber) var(--range-progress, 0%),
+    var(--color-gray-200) var(--range-progress, 0%),
+    var(--color-gray-200) 100%
   );
   outline: none;
   cursor: pointer;
@@ -201,9 +214,9 @@ body {
   width: 22px;
   height: 22px;
   border-radius: 50%;
-  background: var(--color-blue);
-  border: 3px solid #fff;
-  box-shadow: 0 2px 8px rgba(59, 130, 246, 0.5);
+  background: #fff;
+  border: 2px solid var(--color-navy-mid);
+  box-shadow: 0 1px 2px rgba(16, 19, 25, 0.18), 0 0 0 5px rgba(255, 199, 44, 0.25);
   cursor: pointer;
   transition: transform 0.15s ease;
 }
@@ -211,15 +224,81 @@ body {
   width: 22px;
   height: 22px;
   border-radius: 50%;
-  background: var(--color-blue);
-  border: 3px solid #fff;
-  box-shadow: 0 2px 8px rgba(59, 130, 246, 0.5);
+  background: #fff;
+  border: 2px solid var(--color-navy-mid);
+  box-shadow: 0 1px 2px rgba(16, 19, 25, 0.18), 0 0 0 5px rgba(255, 199, 44, 0.25);
   cursor: pointer;
   transition: transform 0.15s ease;
 }
 .dscr-slider:active::-webkit-slider-thumb,
 .dscr-slider:focus-visible::-webkit-slider-thumb {
   transform: scale(1.15);
+}
+
+/* === Light-theme action buttons (ported from lp-t4.css so site CTAs match
+   the approved /qualify treatment; font swapped to the site's Inter) === */
+@layer components {
+  .btn-amber {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.6rem;
+    min-height: 3rem;
+    padding: 0.85rem 1.6rem;
+    border-radius: 12px;
+    border: 1px solid rgba(184, 134, 11, 0.45);
+    background: var(--color-amber);
+    color: var(--color-navy);
+    font-family: var(--font-sans);
+    font-weight: 700;
+    font-size: 1rem;
+    letter-spacing: 0.005em;
+    line-height: 1.2;
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: var(--shadow-btn);
+    transition: background-color 160ms ease, box-shadow 200ms var(--ease-out), translate 200ms var(--ease-out);
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .btn-amber:hover {
+    background: var(--color-amber-deep);
+    translate: 0 -1px;
+    box-shadow: 0 3px 0 rgba(16, 19, 25, 0.12), 0 18px 32px -12px rgba(255, 199, 44, 0.7);
+  }
+
+  .btn-amber:active {
+    translate: 0 1px;
+    box-shadow: 0 1px 0 rgba(16, 19, 25, 0.12), 0 6px 14px -8px rgba(255, 199, 44, 0.5);
+  }
+
+  .btn-ghost-light {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    min-height: 3rem;
+    padding: 0.8rem 1.4rem;
+    border-radius: 12px;
+    border: 1px solid rgba(247, 245, 240, 0.45);
+    background: transparent;
+    color: var(--color-off-white);
+    font-family: var(--font-sans);
+    font-weight: 600;
+    font-size: 0.95rem;
+    line-height: 1.2;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 160ms ease, border-color 160ms ease, translate 200ms var(--ease-out);
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .btn-ghost-light:hover {
+    background: rgba(247, 245, 240, 0.1);
+    border-color: var(--color-off-white);
+    translate: 0 -1px;
+  }
 }
 
 /* === FL LP visual upgrade additions === */
