@@ -31,6 +31,9 @@ const arg = (name, dflt = null) => {
 const STATE = arg('state', 'Texas');
 const TAG = arg('tag', STATE.toLowerCase().replace(/[^a-z]+/g, '-'));
 const PROXY = arg('proxy', null);
+// The homepage hero mounts the same V3 island since 2026-10-30; --path=/ walks
+// it there (default stays the /qualify/ page).
+const PAGE_PATH = arg('path', LP_T4_PATH);
 const CONSENT_400 = argv.includes('--consent400');
 
 const QA_LEAD = {
@@ -126,7 +129,7 @@ async function walk() {
       }
     });
 
-    await page.goto(`${QA_BASE}${LP_T4_PATH}${LANDING_QS}`, { waitUntil: 'networkidle0', timeout: 45000 });
+    await page.goto(`${QA_BASE}${PAGE_PATH}${LANDING_QS}`, { waitUntil: 'networkidle0', timeout: 45000 });
     await settle(1800);
 
     const clickText = (text) =>
@@ -207,7 +210,9 @@ async function walk() {
         return true;
       }),
     );
-    await clickText('GET MY BROKER!');
+    // V3's live submit label (the old 'GET MY BROKER!' is stale; a missed click
+    // here used to time out silently at the wait below)
+    await step('submit', () => clickText('MATCH ME WITH A BROKER'));
 
     await page.waitForFunction(
       () => location.pathname === '/thank-you/' || !!document.querySelector('[role="alert"]'),
@@ -242,7 +247,7 @@ async function walk() {
     await page.screenshot({ path: `tools/shots/live/desktop-${TAG}-${onThankYou ? 'thankyou' : 'error'}.png` });
 
     const req = record.request || {};
-    log('landing url', `${LP_T4_PATH}${LANDING_QS}`);
+    log('landing url', `${PAGE_PATH}${LANDING_QS}`);
     log('payload keys', Object.keys(req));
     log('source', req.source);
     log('consent', req.consent ? { agreed: req.consent.agreed, agreedAt: req.consent.agreedAt, url: req.consent.url, textLen: (req.consent.text || '').length } : null);
