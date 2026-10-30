@@ -161,8 +161,9 @@ const ADAM_SPECIALIST: SpecialistProfile = {
 // via the CLP onboarding form). Takes CA, ID, MT, OR, WA solo (moved off John and Adam).
 // Headshot added 2026-10-30 (enhanced from the 200px original Tanner dropped in inbox/).
 // googleRating is the Future Mortgage Google profile's live numbers as Tanner supplied
-// them 2026-10-30 (4.9 across 5,358 reviews); no quotes strip renders because no approved
-// quotes exist. The company NMLS (2236028) lives in the licensing block because the
+// them 2026-10-30 (4.8 across 53 reviews; the Boise "Future" GBP the reviewsUrl points
+// at; an earlier 4.9/5,358 figure was John's widget, corrected same day); no quotes
+// strip renders because no approved quotes exist. The company NMLS (2236028) lives in the licensing block because the
 // profile has no company-NMLS field. Message and title are drafts Tanner shipped as-is:
 // process statements only, no counts, no time promises.
 const TAYLOR_SPECIALIST: SpecialistProfile = {
@@ -182,7 +183,7 @@ const TAYLOR_SPECIALIST: SpecialistProfile = {
   // for entity kgmid /g/11fml3gbw3, named "Future" (the Future Mortgage GBP). The
   // kgmid form below is the stable canonical; Tanner click-verifies once before live.
   reviewsUrl: 'https://www.google.com/search?q=Future+Mortgage&kgmid=/g/11fml3gbw3',
-  googleRating: { rating: 4.9, count: 5358 },
+  googleRating: { rating: 4.8, count: 53 },
   licensing: {
     line: TAYLOR_LICENSING_LINE,
     paragraph: TAYLOR_LICENSING_PARAGRAPH,
