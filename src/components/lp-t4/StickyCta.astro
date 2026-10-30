@@ -1,0 +1,57 @@
+---
+// StickyCta: mobile-only fixed bottom bar (BRIEF 2b). Starts hidden; the
+// inline observer shows it while #start is out of view AND the FinalCta
+// [data-persist] element is not in view. Toggled ONLY via the hidden
+// attribute ([hidden] wins in CSS). Paper ground, amber button.
+import { cta } from '../../config/lp-t4';
+---
+
+<div id="sticky-cta" class="sticky-bar md:hidden" hidden>
+  <a href="#start" data-scroll-to="#start" class="btn-amber sticky-btn">{cta.sticky}</a>
+</div>
+
+<script>
+  try {
+    const bar = document.getElementById('sticky-cta');
+    const start = document.getElementById('start');
+    if (bar && start) {
+      const persist = document.querySelector('[data-persist]');
+      let startIn = true;
+      let persistIn = false;
+      const update = () => {
+        bar.hidden = startIn || persistIn;
+      };
+      const io = new IntersectionObserver(
+        (entries) => {
+          for (const e of entries) {
+            if (e.target === start) startIn = e.isIntersecting;
+            else persistIn = e.isIntersecting;
+          }
+          update();
+        },
+        { threshold: 0 }
+      );
+      io.observe(start);
+      if (persist) io.observe(persist);
+    }
+  } catch {
+    /* the page never breaks because of the sticky bar */
+  }
+</script>
+
+<style>
+  .sticky-bar {
+    position: fixed;
+    inset-inline: 0;
+    bottom: 0;
+    z-index: 60;
+    padding: 0.7rem 1rem calc(0.7rem + env(safe-area-inset-bottom, 0px));
+    background: var(--color-paper);
+    border-top: 1px solid var(--color-line);
+    box-shadow: 0 -10px 30px -18px rgba(16, 19, 25, 0.4);
+  }
+
+  .sticky-btn {
+    width: 100%;
+  }
+</style>

@@ -1,0 +1,1153 @@
+@import "tailwindcss" source(none);
+@source "../components/lp-t4";
+@source "../components/form-templates/v3";
+@source "../layouts/LpT4Layout.astro";
+@source "../pages/qualify.astro";
+
+/* ==========================================================================
+   /qualify/ page stylesheet. Port of DSCR funnel template 4's design
+   system ("Civic ledger") scoped to this ONE route: explicit @source lines
+   above so the entry never scans the rest of the site, and this file is the
+   only stylesheet the LpT4Layout imports (global.css never loads here).
+
+   Token ROLES (rebrand = values only, zero markup changes):
+     paper       page ground (warm off-white)
+     sheet       cards
+     mist        quiet section ground
+     line        hairlines and borders
+     ink         text + darkest surfaces
+     ink-2       dark band gradient partner (navy-light)
+     brand       primary (navy-mid): bands, links, heading accents
+     brand-deep  final CTA ground
+     brand-soft  tinted chips and icon coins
+     amber       THE action color: buttons, progress fill, highlights
+     amber-deep  hover ground for .btn-amber and >= 24px display accents ONLY.
+                 Never body, label or link text on paper/sheet/mist (fails AA).
+                 Amber as TEXT only on ink / ink-2 / brand-deep.
+     cream       text on dark grounds
+
+   Rules baked in here:
+     - every shared component class lives in @layer components (utilities win)
+     - headline line-height is set through --tw-leading, never a bare value
+     - no monospace anywhere; data styling = Manrope 600-700, uppercase, tracked
+     - no green, no purple gradients, no glass, no blur filters on hero layers
+   ========================================================================== */
+
+/* ---------- self-hosted variable fonts (latin only, optional display) ---------- */
+
+@font-face {
+  font-family: "Bricolage Grotesque";
+  font-style: normal;
+  font-weight: 200 800;
+  font-display: optional;
+  src: url("/fonts/bricolage-grotesque-latin-wght-normal.woff2") format("woff2-variations");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 200 800;
+  font-display: optional;
+  src: url("/fonts/manrope-latin-wght-normal.woff2") format("woff2-variations");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* Metric-matched local fallbacks so the fold does not move when the web font
+   is skipped (font-display: optional on a slow first visit). */
+@font-face {
+  font-family: "Bricolage Fallback";
+  src: local("Arial");
+  size-adjust: 106%;
+  ascent-override: 94%;
+  descent-override: 24%;
+  line-gap-override: 0%;
+}
+
+@font-face {
+  font-family: "Manrope Fallback";
+  src: local("Segoe UI");
+  size-adjust: 101%;
+  ascent-override: 100%;
+  descent-override: 27%;
+  line-gap-override: 0%;
+}
+
+/* ---------- tokens ---------- */
+
+@theme {
+  --font-display: "Bricolage Grotesque", "Bricolage Fallback", Arial, sans-serif;
+  --font-body: "Manrope", "Manrope Fallback", system-ui, sans-serif;
+
+  /* DSCRBroker.com palette (global.css @theme + CLAUDE.md Design Direction),
+     mapped onto template 4's roles on 2026-09-09 for the /qualify move:
+     brand = navy-mid, brand-deep = navy, ink-2 = navy-light, cream/paper = off-white. */
+  --color-paper: #f7f5f0;
+  --color-sheet: #ffffff;
+  --color-mist: #eef0f4;
+  --color-line: #dde1e8;
+  --color-ink: #101319;
+  --color-ink-2: #131c31;
+  --color-brand: #1a2540;
+  --color-brand-deep: #0b1120;
+  --color-brand-soft: #e8ecf5;
+  /* 2026-09-09 (Tanner): the site's muted amber #d4930d read dull next to
+     fhaloans.com; this page uses fhaloans' bright yellow #ffc72c for every
+     button, the progress fill and the slider. amber-deep = the pressed shade. */
+  --color-amber: #ffc72c;
+  --color-amber-deep: #f0b71d;
+  --color-cream: #f7f5f0;
+  --color-footer: #070b14;
+
+  --shadow-card: 0 1px 2px rgba(16, 19, 25, 0.06), 0 14px 34px -16px rgba(11, 17, 32, 0.28);
+  --shadow-card-lg: 0 2px 4px rgba(16, 19, 25, 0.06), 0 30px 70px -28px rgba(11, 17, 32, 0.38);
+  --shadow-btn: 0 2px 0 rgba(16, 19, 25, 0.12), 0 12px 26px -12px rgba(255, 199, 44, 0.6);
+
+  --ease-out-quart: cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+/* ---------- base ---------- */
+
+html {
+  /* Lenis owns smooth scroll on desktop; the motion spine's rAF scroll elsewhere. */
+  scroll-behavior: auto;
+}
+
+body {
+  font-family: var(--font-body);
+  background: var(--color-paper);
+  color: var(--color-ink);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  /* GSAP from-states must never widen the mobile layout viewport: clip, not hidden. */
+  overflow-x: clip;
+}
+
+::selection {
+  background: var(--color-amber);
+  color: var(--color-ink);
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-brand);
+  outline-offset: 3px;
+}
+
+[hidden] {
+  display: none !important;
+}
+
+/* ---------- shared component classes (ALL inside the components layer) ---------- */
+
+@layer components {
+  /* ----- grounds + layout ----- */
+
+  .ground-paper {
+    background-color: var(--color-paper);
+    color: var(--color-ink);
+  }
+
+  .ground-mist {
+    background-color: var(--color-mist);
+    color: var(--color-ink);
+  }
+
+  .ground-dark {
+    background-color: var(--color-ink);
+    background-image: linear-gradient(180deg, var(--color-ink) 0%, var(--color-ink-2) 100%);
+    color: var(--color-cream);
+  }
+
+  .ground-brand {
+    background-color: var(--color-brand);
+    color: var(--color-cream);
+  }
+
+  /* the page footer sits below the dark stats/final bands on the deepest navy */
+  footer.ground-dark {
+    background-color: var(--color-footer);
+    background-image: linear-gradient(180deg, var(--color-brand-deep) 0%, var(--color-footer) 100%);
+  }
+
+  .ground-brand-deep {
+    background-color: var(--color-brand-deep);
+    background-image: radial-gradient(900px 480px at 50% -10%, rgba(255, 199, 44, 0.16), transparent 62%);
+    color: var(--color-cream);
+  }
+
+  .container-x {
+    width: 100%;
+    max-width: 72rem;
+    margin-inline: auto;
+    padding-inline: 1.25rem;
+  }
+
+  @media (min-width: 768px) {
+    .container-x {
+      padding-inline: 2.5rem;
+    }
+  }
+
+  /* ----- type ----- */
+
+  .h-display {
+    font-family: var(--font-display);
+    font-weight: 800;
+    font-size: clamp(2.4rem, 5.6vw, 4.6rem);
+    letter-spacing: -0.008em;
+    --tw-leading: 1.15;
+    line-height: var(--tw-leading);
+    text-wrap: balance;
+    color: var(--color-ink);
+  }
+
+  .h-section {
+    font-family: var(--font-display);
+    font-weight: 800;
+    font-size: clamp(2rem, 4vw, 3.4rem);
+    letter-spacing: -0.008em;
+    --tw-leading: 1.15;
+    line-height: var(--tw-leading);
+    text-wrap: balance;
+  }
+
+  .h-step {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: clamp(1.35rem, 2.4vw, 1.7rem);
+    letter-spacing: -0.008em;
+    --tw-leading: 1.2;
+    line-height: var(--tw-leading);
+    text-wrap: balance;
+    color: var(--color-ink);
+  }
+
+  .label {
+    font-family: var(--font-body);
+    font-weight: 700;
+    font-size: 0.72rem;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: rgba(16, 19, 25, 0.62);
+  }
+
+  .prose-body {
+    font-family: var(--font-body);
+    font-weight: 400;
+    font-size: 1.0625rem;
+    --tw-leading: 1.6;
+    line-height: var(--tw-leading);
+    max-width: 62ch;
+    color: rgba(16, 19, 25, 0.82);
+  }
+
+  .prose-body strong {
+    font-weight: 700;
+    color: var(--color-ink);
+  }
+
+  .tabular {
+    font-variant-numeric: tabular-nums;
+  }
+
+  .link {
+    color: var(--color-brand);
+    font-weight: 600;
+    text-decoration: underline;
+    text-decoration-color: rgba(26, 37, 64, 0.35);
+    text-underline-offset: 0.18em;
+    text-decoration-thickness: 1px;
+    transition: text-decoration-color 160ms ease, color 160ms ease;
+  }
+
+  .link:hover {
+    color: var(--color-brand-deep);
+    text-decoration-color: currentColor;
+  }
+
+  /* ----- cards ----- */
+
+  .card {
+    position: relative;
+    background: var(--color-sheet);
+    border: 1px solid var(--color-line);
+    border-radius: 18px;
+    box-shadow: var(--shadow-card);
+  }
+
+  .card-lg {
+    position: relative;
+    background: var(--color-sheet);
+    border: 1px solid var(--color-line);
+    border-radius: 18px;
+    box-shadow: var(--shadow-card-lg);
+  }
+
+  .card-dark {
+    position: relative;
+    background: linear-gradient(180deg, var(--color-ink-2) 0%, var(--color-ink) 100%);
+    border: 1px solid rgba(247, 245, 240, 0.1);
+    border-radius: 18px;
+    box-shadow: inset 0 1px 0 rgba(247, 245, 240, 0.06), 0 30px 70px -28px rgba(0, 0, 0, 0.6);
+    color: var(--color-cream);
+  }
+
+  /* perspective wrapper for data-tilt cards (the tilted child is the card) */
+  .card-tilt {
+    perspective: 1200px;
+    transform-style: preserve-3d;
+  }
+
+  .card-tilt > * {
+    transform-style: preserve-3d;
+  }
+
+  /* layer promotion only where tilt can actually run (the motion spine gates
+     tilt to hover:hover + pointer:fine); touch devices never pay the raster memory */
+  @media (hover: hover) and (pointer: fine) {
+    .card-tilt > * {
+      will-change: transform;
+    }
+  }
+
+  /* ----- buttons ----- */
+
+  .btn-amber {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.6rem;
+    min-height: 3rem;
+    padding: 0.85rem 1.6rem;
+    border-radius: 12px;
+    border: 1px solid rgba(184, 134, 11, 0.45);
+    background: var(--color-amber);
+    color: var(--color-ink);
+    font-family: var(--font-body);
+    font-weight: 700;
+    font-size: 1rem;
+    letter-spacing: 0.005em;
+    line-height: 1.2;
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: var(--shadow-btn);
+    transition: background-color 160ms ease, box-shadow 200ms var(--ease-out-quart), translate 200ms var(--ease-out-quart);
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .btn-amber:hover {
+    background: var(--color-amber-deep);
+    translate: 0 -1px;
+    box-shadow: 0 3px 0 rgba(16, 19, 25, 0.12), 0 18px 32px -12px rgba(255, 199, 44, 0.7);
+  }
+
+  .btn-amber:active {
+    translate: 0 1px;
+    box-shadow: 0 1px 0 rgba(16, 19, 25, 0.12), 0 6px 14px -8px rgba(255, 199, 44, 0.5);
+  }
+
+  .btn-amber:disabled {
+    cursor: progress;
+    translate: 0 0;
+    background: var(--color-amber);
+    opacity: 0.85;
+    overflow: hidden;
+  }
+
+  /* working state: a soft sheen sweeps while the lead posts */
+  .btn-amber:disabled::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(105deg, transparent 30%, rgba(255, 255, 255, 0.35) 50%, transparent 70%);
+    translate: -100% 0;
+    animation: btn-sheen 1.2s var(--ease-out-quart) infinite;
+    pointer-events: none;
+  }
+
+  .btn-ghost {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    min-height: 3rem;
+    padding: 0.8rem 1.4rem;
+    border-radius: 12px;
+    border: 1px solid var(--color-brand);
+    background: transparent;
+    color: var(--color-brand);
+    font-family: var(--font-body);
+    font-weight: 700;
+    font-size: 0.95rem;
+    line-height: 1.2;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 160ms ease, color 160ms ease, translate 200ms var(--ease-out-quart);
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .btn-ghost:hover {
+    background: var(--color-brand);
+    color: var(--color-cream);
+    translate: 0 -1px;
+  }
+
+  .btn-ghost:active {
+    translate: 0 0;
+  }
+
+  .btn-ghost-light {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    min-height: 3rem;
+    padding: 0.8rem 1.4rem;
+    border-radius: 12px;
+    border: 1px solid rgba(247, 245, 240, 0.45);
+    background: transparent;
+    color: var(--color-cream);
+    font-family: var(--font-body);
+    font-weight: 700;
+    font-size: 0.95rem;
+    line-height: 1.2;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 160ms ease, border-color 160ms ease, translate 200ms var(--ease-out-quart);
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .btn-ghost-light:hover {
+    background: rgba(247, 245, 240, 0.1);
+    border-color: var(--color-cream);
+    translate: 0 -1px;
+  }
+
+  /* ----- form: option cards (step 1) ----- */
+
+  .opt-coin {
+    display: inline-grid;
+    place-items: center;
+    flex: none;
+    width: 44px;
+    height: 44px;
+    border-radius: 999px;
+    background: var(--color-brand-soft);
+    color: var(--color-brand);
+    border: 1px solid rgba(26, 37, 64, 0.1);
+    transition: background-color 180ms ease, color 180ms ease, scale 220ms var(--ease-out-quart), border-color 180ms ease;
+  }
+
+  .opt-card {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    width: 100%;
+    min-height: 64px;
+    padding: 0.7rem 0.9rem;
+    text-align: left;
+    background: var(--color-sheet);
+    border: 1px solid var(--color-line);
+    border-radius: 18px;
+    box-shadow: var(--shadow-card);
+    color: var(--color-ink);
+    font-family: var(--font-body);
+    font-weight: 700;
+    font-size: 1.02rem;
+    line-height: 1.25;
+    cursor: pointer;
+    transition: border-color 160ms ease, box-shadow 220ms var(--ease-out-quart), translate 220ms var(--ease-out-quart), background-color 160ms ease;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .opt-card:hover {
+    border-color: rgba(26, 37, 64, 0.45);
+    translate: 0 -2px;
+    box-shadow: var(--shadow-card-lg);
+  }
+
+  .opt-card:active {
+    translate: 0 0;
+  }
+
+  .opt-card.is-selected {
+    border-color: var(--color-brand);
+    background: linear-gradient(180deg, #ffffff 0%, var(--color-brand-soft) 100%);
+    box-shadow: 0 0 0 2px var(--color-brand), var(--shadow-card-lg);
+  }
+
+  .opt-card.is-selected .opt-coin {
+    background: var(--color-brand);
+    border-color: var(--color-brand);
+    color: var(--color-cream);
+    scale: 1.06;
+  }
+
+  /* >= 768px: vertical illustrated card, icon coin on top, label below */
+  @media (min-width: 768px) {
+    .opt-card {
+      flex-direction: column;
+      justify-content: center;
+      gap: 1rem;
+      min-height: 11.5rem;
+      padding: 1.5rem 1rem 1.35rem;
+      text-align: center;
+      font-size: 1.05rem;
+    }
+
+    .opt-card .opt-coin {
+      width: 72px;
+      height: 72px;
+    }
+
+    .opt-card .opt-coin svg {
+      width: 40px;
+      height: 40px;
+    }
+  }
+
+  /* ----- form: option rows (steps 2, 3, state suggestions) ----- */
+
+  .opt-btn {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    width: 100%;
+    min-height: 3.25rem;
+    padding: 0.7rem 0.95rem;
+    text-align: left;
+    background: var(--color-sheet);
+    border: 1px solid var(--color-line);
+    border-radius: 12px;
+    box-shadow: 0 1px 2px rgba(16, 19, 25, 0.05);
+    color: var(--color-ink);
+    font-family: var(--font-body);
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.25;
+    cursor: pointer;
+    transition: border-color 160ms ease, box-shadow 200ms var(--ease-out-quart), translate 200ms var(--ease-out-quart), background-color 160ms ease;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .opt-btn .opt-coin {
+    width: 36px;
+    height: 36px;
+  }
+
+  /* Narrow phones, 2-col option grids: tighten the row's chrome so "Short-term"
+     fits on one line instead of breaking at the hyphen into a 3-line label. */
+  @media (max-width: 479px) {
+    .opt-btn {
+      padding-inline: 0.6rem;
+      gap: 0.6rem;
+    }
+  }
+
+  .opt-btn:hover {
+    border-color: rgba(26, 37, 64, 0.45);
+    translate: 0 -1px;
+    box-shadow: var(--shadow-card);
+  }
+
+  .opt-btn:active {
+    translate: 0 0;
+  }
+
+  .opt-btn.is-selected {
+    border-color: var(--color-brand);
+    background: var(--color-brand-soft);
+    box-shadow: 0 0 0 1px var(--color-brand), var(--shadow-card);
+  }
+
+  .opt-btn.is-selected .opt-coin {
+    background: var(--color-brand);
+    border-color: var(--color-brand);
+    color: var(--color-cream);
+  }
+
+  /* ----- form: text inputs ----- */
+
+  .field-input {
+    width: 100%;
+    min-height: 3.25rem;
+    padding: 0.9rem 1.05rem;
+    border-radius: 12px;
+    border: 1px solid var(--color-line);
+    background: var(--color-sheet);
+    box-shadow: inset 0 1px 2px rgba(16, 19, 25, 0.04);
+    font-family: var(--font-body);
+    font-size: 1.05rem;
+    font-weight: 500;
+    color: var(--color-ink);
+    transition: border-color 160ms ease, box-shadow 160ms ease;
+  }
+
+  .field-input::placeholder {
+    color: rgba(16, 19, 25, 0.38);
+    font-weight: 400;
+  }
+
+  .field-input:focus {
+    outline: none;
+    border-color: var(--color-brand);
+    box-shadow: 0 0 0 3px rgba(26, 37, 64, 0.16);
+  }
+
+  /* ----- form: amber range slider (--fill drives the track) ----- */
+
+  input[type="range"].amber-range {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 44px;
+    padding: 19px 0;
+    margin: 0;
+    border-radius: 999px;
+    background:
+      linear-gradient(
+        to right,
+        var(--color-amber) 0%,
+        var(--color-amber) var(--fill, 50%),
+        var(--color-line) var(--fill, 50%),
+        var(--color-line) 100%
+      )
+      no-repeat;
+    background-clip: content-box;
+    cursor: pointer;
+    touch-action: pan-y;
+  }
+
+  input[type="range"].amber-range:focus-visible {
+    outline: 2px solid var(--color-brand);
+    outline-offset: 4px;
+  }
+
+  input[type="range"].amber-range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: var(--color-sheet);
+    border: 2px solid var(--color-brand);
+    box-shadow: 0 1px 2px rgba(16, 19, 25, 0.18), 0 6px 16px rgba(16, 19, 25, 0.2), 0 0 0 6px rgba(255, 199, 44, 0.22);
+    cursor: grab;
+    transition: scale 150ms var(--ease-out-quart);
+  }
+
+  input[type="range"].amber-range::-moz-range-thumb {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background: var(--color-sheet);
+    border: 2px solid var(--color-brand);
+    box-shadow: 0 1px 2px rgba(16, 19, 25, 0.18), 0 6px 16px rgba(16, 19, 25, 0.2), 0 0 0 6px rgba(255, 199, 44, 0.22);
+    cursor: grab;
+  }
+
+  input[type="range"].amber-range:active::-webkit-slider-thumb {
+    cursor: grabbing;
+    scale: 1.12;
+  }
+
+  input[type="range"].amber-range:active::-moz-range-thumb {
+    cursor: grabbing;
+  }
+
+  /* ----- form: TCPA consent box (container + custom check on the NATIVE input) ----- */
+
+  .tcpa-box {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.8rem;
+    padding: 0.9rem 1rem;
+    border-radius: 12px;
+    border: 1px solid var(--color-line);
+    background: var(--color-sheet);
+    box-shadow: 0 1px 2px rgba(16, 19, 25, 0.05);
+    color: rgba(16, 19, 25, 0.72);
+    font-size: 0.8rem;
+    line-height: 1.55;
+    cursor: pointer;
+    transition: border-color 200ms ease, background-color 200ms ease, box-shadow 200ms ease;
+  }
+
+  .tcpa-box:hover {
+    border-color: rgba(26, 37, 64, 0.4);
+  }
+
+  .tcpa-box.is-consented {
+    border-color: rgba(26, 37, 64, 0.5);
+    background: linear-gradient(180deg, #ffffff 0%, var(--color-brand-soft) 100%);
+    box-shadow: inset 3px 0 0 var(--color-brand), 0 1px 2px rgba(16, 19, 25, 0.05);
+    color: rgba(16, 19, 25, 0.86);
+  }
+
+  input[type="checkbox"].tcpa-check {
+    -webkit-appearance: none;
+    appearance: none;
+    flex: none;
+    width: 1.4rem;
+    height: 1.4rem;
+    margin-top: 0.1rem;
+    border-radius: 6px;
+    border: 2px solid var(--color-brand);
+    background: var(--color-sheet);
+    display: inline-grid;
+    place-content: center;
+    cursor: pointer;
+    transition: background-color 160ms ease, border-color 160ms ease;
+  }
+
+  input[type="checkbox"].tcpa-check::before {
+    content: "";
+    width: 0.8rem;
+    height: 0.8rem;
+    scale: 0;
+    background: var(--color-cream);
+    clip-path: polygon(14% 46%, 0% 62%, 40% 100%, 100% 20%, 84% 6%, 38% 68%);
+    transition: scale 160ms var(--ease-out-quart);
+  }
+
+  input[type="checkbox"].tcpa-check:checked {
+    background: var(--color-brand);
+    border-color: var(--color-brand);
+  }
+
+  input[type="checkbox"].tcpa-check:checked::before {
+    scale: 1;
+  }
+
+  input[type="checkbox"].tcpa-check:focus-visible {
+    outline: 2px solid var(--color-brand);
+    outline-offset: 2px;
+  }
+
+  /* ----- form: recap chips, phase pills, progress ----- */
+
+  .deal-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.36rem 0.75rem;
+    border-radius: 999px;
+    background: var(--color-sheet);
+    border: 1px solid var(--color-line);
+    box-shadow: 0 1px 2px rgba(16, 19, 25, 0.05);
+    color: var(--color-brand);
+    font-family: var(--font-body);
+    font-weight: 700;
+    font-size: 0.68rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+
+  .deal-chip svg {
+    flex: none;
+    width: 14px;
+    height: 14px;
+    opacity: 0.8;
+  }
+
+  .phase-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    padding: 0.3rem 0.7rem;
+    border-radius: 999px;
+    border: 1px solid var(--color-line);
+    background: transparent;
+    color: rgba(16, 19, 25, 0.55);
+    font-family: var(--font-body);
+    font-weight: 700;
+    font-size: 0.66rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    white-space: nowrap;
+    transition: background-color 200ms ease, color 200ms ease, border-color 200ms ease;
+  }
+
+  .phase-pill.is-active {
+    background: var(--color-brand);
+    border-color: var(--color-brand);
+    color: var(--color-cream);
+  }
+
+  .phase-pill.is-done {
+    background: var(--color-brand-soft);
+    border-color: rgba(26, 37, 64, 0.25);
+    color: var(--color-brand);
+  }
+
+  .progress-track {
+    position: relative;
+    width: 100%;
+    height: 4px;
+    border-radius: 999px;
+    background: var(--color-line);
+    overflow: hidden;
+  }
+
+  .progress-fill {
+    position: absolute;
+    inset: 0 auto 0 0;
+    width: 0%;
+    border-radius: 999px;
+    background: linear-gradient(90deg, var(--color-amber-deep), var(--color-amber));
+    transition: width 420ms var(--ease-out-quart);
+  }
+
+  /* ----- form: step transitions (React/CSS only; never GSAP inside #start) ----- */
+
+  .step-enter {
+    animation: step-in 320ms var(--ease-out-quart) both;
+  }
+
+  .step-enter-back {
+    animation: step-in-back 320ms var(--ease-out-quart) both;
+  }
+
+  /* honeypot: off-canvas, present for bots, invisible to people and screen readers */
+  .hp-field {
+    position: absolute;
+    left: -9999px;
+    top: 0;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  /* ----- hero atmosphere (CSS only; the H1 must stay the LCP element) ----- */
+
+  .hero-atmo {
+    position: absolute;
+    inset: 0;
+    overflow: hidden;
+    contain: paint;
+    pointer-events: none;
+    z-index: 0;
+    background-color: var(--color-paper);
+    background-image:
+      radial-gradient(820px 460px at 50% -8%, rgba(26, 37, 64, 0.1), transparent 66%),
+      radial-gradient(560px 320px at 88% 96%, rgba(255, 199, 44, 0.12), transparent 64%),
+      radial-gradient(rgba(16, 19, 25, 0.35) 1px, transparent 1.5px);
+    background-size: auto, auto, 28px 28px;
+    background-position: center top, right bottom, 0 0;
+  }
+
+  .hero-atmo::before {
+    /* fades the dot grid out toward the middle so text never sits on dots */
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(247, 245, 240, 0.35) 0%, rgba(247, 245, 240, 0.75) 45%, var(--color-paper) 100%);
+  }
+
+  .hero-atmo::after {
+    /* light sweep: inert until html.motion-ready; desktop only; transform only */
+    content: "";
+    position: absolute;
+    top: -20%;
+    bottom: -20%;
+    left: 0;
+    width: 40vw;
+    opacity: 0.18;
+    background: linear-gradient(100deg, transparent 0%, rgba(255, 255, 255, 0.9) 45%, rgba(255, 199, 44, 0.35) 55%, transparent 100%);
+    transform: translateX(-60vw) skewX(-8deg);
+    will-change: transform;
+    display: none;
+  }
+
+  @media (min-width: 1024px) {
+    .hero-atmo::after {
+      display: block;
+    }
+
+    html.motion-ready .hero-atmo::after {
+      animation: hero-sweep 14s linear infinite;
+    }
+  }
+
+  /* ----- lp-t4 hero: WHITE stage that carries the V3 form as the hero
+     (Tanner 2026-09-09: heroes default to light mode, and after a side by side
+     with fhaloans.com the paper tint, navy haze and dot grid all came off so the
+     hero reads as bright as theirs: plain white, ink type, yellow buttons). ----- */
+
+  .lp-hero {
+    position: relative;
+    isolation: isolate;
+    overflow: hidden;
+    /* Breathing room beats the old 844px-at-390 fold gate (Tanner 2026-10-26,
+       from live screenshots: the hero read "super squished" at 0.5rem top) */
+    padding-block: 1.75rem 3.25rem;
+    background-color: var(--color-sheet);
+    color: var(--color-ink);
+  }
+
+  .lp-hero-h1 {
+    margin-inline: auto;
+    /* 27ch locks the desktop break after "Loans": "DSCR Rental Property Loans /
+       for Real Estate Investors" */
+    max-width: 27ch;
+    text-align: center;
+    color: var(--color-ink);
+    /* 2.1rem floor: the 2026-10-26 headline is 52 characters, so the old
+       2.25rem floor pushed four lines at 390 wide; 2.1 holds it to three */
+    font-size: clamp(2.1rem, 5.6vw, 4.6rem);
+  }
+
+  .lp-stage {
+    width: 100%;
+    max-width: 56rem;
+    margin: 0.75rem auto 0;
+    scroll-margin-top: 1rem;
+  }
+
+  @media (min-width: 768px) {
+    .lp-hero {
+      padding-block: 4.25rem 5.5rem;
+    }
+
+    .lp-stage {
+      margin-top: 1.75rem;
+    }
+  }
+
+  /* ----- decor ----- */
+
+  .seam {
+    position: absolute;
+    inset: 0 0 auto 0;
+    height: 1px;
+    background: linear-gradient(90deg, var(--color-amber), var(--color-brand) 50%, transparent);
+    transform-origin: left center;
+    pointer-events: none;
+  }
+
+  /* attribute label (facts only, never superlatives) */
+  .ribbon {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.4rem 0.85rem;
+    border-radius: 999px;
+    background: var(--color-brand);
+    color: var(--color-cream);
+    font-family: var(--font-body);
+    font-weight: 700;
+    font-size: 0.68rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    white-space: nowrap;
+    box-shadow: 0 6px 14px -8px rgba(26, 37, 64, 0.7);
+  }
+
+  /* photo with an offset frame drawn behind it */
+  .offset-frame {
+    position: relative;
+    display: block;
+    border-radius: 18px;
+    isolation: isolate;
+  }
+
+  .offset-frame::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 18px;
+    border: 1.5px solid var(--color-brand);
+    translate: 14px 14px;
+    z-index: -1;
+    pointer-events: none;
+  }
+
+  .offset-frame::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 18px;
+    background: var(--color-brand-soft);
+    translate: -10px -10px;
+    z-index: -2;
+    pointer-events: none;
+  }
+
+  .offset-frame img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 18px;
+    box-shadow: var(--shadow-card-lg);
+  }
+
+  /* ----- below-fold rendering ----- */
+
+  .cv-auto {
+    content-visibility: auto;
+    contain-intrinsic-size: auto 720px;
+  }
+}
+
+/* ---------- V3 form theme (OUTSIDE any layer so it beats the component's
+   own --fv3-* defaults in CSS_TEXT). The hero section carries .lp-t4-theme.
+   LIGHT stage (2026-09-09): ink text on paper, navy for the stepper, rings,
+   checkbox and ghost button; amber stays the one action color. ---------- */
+
+.lp-t4-theme .fv3-root {
+  --fv3-font-body: var(--font-body);
+  --fv3-font-display: var(--font-display);
+  --fv3-stage-bg: transparent;
+  --fv3-band: var(--color-brand);
+  --fv3-text: var(--color-ink);
+  --fv3-text-soft: rgba(16,19,25,0.82);
+  --fv3-text-muted: rgba(16,19,25,0.66);
+  --fv3-focus: var(--color-brand);
+  /* action = fhaloans' own yellow ramp (the V3 component defaults) */
+  --fv3-action: var(--color-amber);
+  --fv3-action-hover: #ffd34f;
+  --fv3-action-active: var(--color-amber-deep);
+  --fv3-action-selected: #f2b90d;
+  --fv3-action-text: var(--color-ink);
+  /* disabled = "not valid yet" affordance (WCAG exempts inactive controls) */
+  --fv3-action-disabled: #f7dc8a;
+  --fv3-action-disabled-text: rgba(16,19,25,0.5);
+  --fv3-action-shadow-edge: rgba(122,84,0,0.35);
+  --fv3-action-shadow-drop: rgba(16,19,25,0.14);
+  --fv3-action-inset: rgba(90,60,0,0.25);
+  --fv3-mile-pulse: rgba(26,37,64,0.45);
+  --fv3-slider-thumb-shadow: rgba(16,19,25,0.3);
+  --fv3-success-disc-bg: var(--color-sheet);
+  --fv3-success-disc-shadow: rgba(16,19,25,0.2);
+  --fv3-art-paper: var(--color-sheet);
+  --fv3-art-leaf: var(--color-brand-soft);
+  --fv3-progress-track: var(--color-line);
+  --fv3-mile-done-bg: var(--color-brand);
+  --fv3-mile-check: var(--color-cream);
+  --fv3-mile-line-on: var(--color-brand);
+  --fv3-mile-line-off: var(--color-line);
+  --fv3-mile-ring: var(--color-brand);
+  --fv3-mile-ring-off: rgba(26,37,64,0.32);
+  --fv3-card-bg: var(--color-sheet);
+  --fv3-card-text: var(--color-ink);
+  --fv3-card-key: var(--color-brand);
+  --fv3-card-border-hover: var(--color-amber);
+  --fv3-card-shadow: rgba(16,19,25,0.14);
+  --fv3-art-stroke: var(--color-brand);
+  --fv3-art-backdrop: var(--color-brand-soft);
+  --fv3-art-fill: #c9d3e8;
+  --fv3-art-accent: var(--color-amber);
+  --fv3-input-bg: var(--color-sheet);
+  --fv3-input-text: var(--color-ink);
+  --fv3-input-placeholder: rgba(16,19,25,0.4);
+  --fv3-input-border: var(--color-line);
+  --fv3-input-focus-ring: rgba(255,199,44,0.45);
+  --fv3-input-shadow: rgba(16,19,25,0.08);
+  --fv3-list-bg: var(--color-sheet);
+  --fv3-list-text: var(--color-brand);
+  --fv3-list-hl-bg: #faefd2;
+  --fv3-list-hl-text: var(--color-ink);
+  --fv3-list-shadow: rgba(16,19,25,0.22);
+  --fv3-slider-track-off: var(--color-line);
+  --fv3-slider-thumb-ring: var(--color-sheet);
+  --fv3-checkbox-border: var(--color-brand);
+  --fv3-checkbox-bg: var(--color-sheet);
+  --fv3-checkbox-check: var(--color-ink);
+  --fv3-ghost-border: rgba(26,37,64,0.45);
+  --fv3-ghost-text: var(--color-brand);
+  --fv3-ghost-hover: rgba(26,37,64,0.08);
+  --fv3-success-check: var(--color-brand);
+  --fv3-rays: var(--color-amber);
+  --fv3-pill-border: rgba(26,37,64,0.35);
+  /* SECURE badge stays green, one step darker than the component default so the
+     11px label clears 4.5:1 on the white input (5.0:1); the standalone page keeps its default */
+  --fv3-secure-ok: #15803d;
+}
+
+/* Mobile fold tighten (BRIEF 3b, steps 2 and 3, applied after the hero
+   padding cut): the embedded stepper's top margin, the step headline's bottom
+   margin, and the stage's top padding come in on < 768px so the three path
+   cards clear 844px with the sub line still visible. Unlayered so it beats
+   the component's utility classes; scoped to the embedded root on this page. */
+@media (max-width: 767px) {
+  .lp-t4-theme .fv3-embedded .fv3-progress-track + div {
+    margin-top: 0.5rem;
+  }
+
+  .lp-t4-theme .fv3-embedded div:has(> .fv3-display) {
+    margin-bottom: 1.25rem;
+  }
+
+  .lp-t4-theme .fv3-embedded > div:has(> [aria-live]) {
+    padding-top: 1.25rem;
+  }
+}
+
+/* ---------- keyframes (outside the layer; referenced by classes above) ---------- */
+
+@keyframes hero-sweep {
+  from {
+    transform: translateX(-60vw) skewX(-8deg);
+  }
+  to {
+    transform: translateX(140vw) skewX(-8deg);
+  }
+}
+
+@keyframes btn-sheen {
+  to {
+    translate: 100% 0;
+  }
+}
+
+@keyframes step-in {
+  from {
+    opacity: 0;
+    translate: 28px 0;
+  }
+  to {
+    opacity: 1;
+    translate: 0 0;
+  }
+}
+
+@keyframes step-in-back {
+  from {
+    opacity: 0;
+    translate: -28px 0;
+  }
+  to {
+    opacity: 1;
+    translate: 0 0;
+  }
+}
+
+/* ---------- reduced motion: keyframes and transitions dead, everything visible ---------- */
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  html.motion-ready .hero-atmo::after {
+    animation: none;
+    display: none;
+  }
+
+  .step-enter,
+  .step-enter-back {
+    animation: none;
+  }
+}

@@ -1,0 +1,81 @@
+---
+// TrustBand: the program spec sheet, three claims on the NAVY brand ground
+// (Tanner 2026-09-09: darker band under the white hero for section-to-section
+// contrast, the fhaloans blue-band move). Cream line icons in translucent coins,
+// cream labels. The ONLY surface for 620 / no tax returns / LLC. No strip, no
+// CTA (the form is one viewport above; the sticky bar covers mobile). Reveal
+// carrier is the inner .container-x (data-stagger); each spec is
+// [data-child][data-reveal="fade-up"].
+// NEVER .cv-auto (it can sit in the first desktop viewport).
+import { specs } from '../../config/lp-t4';
+import Icon from './Icon.astro';
+---
+
+<section class="ground-brand trust-band">
+  <div class="container-x" data-stagger>
+    <div class="tb-specs">
+      {specs.map((s) => (
+        <div class="tb-spec" data-child data-reveal="fade-up">
+          <span class="tb-coin"><Icon name={s.icon} size={26} /></span>
+          <span class="tb-spec-label">{s.label}</span>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+
+<style>
+  .trust-band {
+    padding-block: clamp(2.25rem, 5vw, 3.75rem);
+  }
+
+  .tb-specs {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .tb-spec {
+    display: flex;
+    align-items: center;
+    gap: 0.9rem;
+  }
+
+  .tb-coin {
+    display: inline-grid;
+    place-items: center;
+    flex: none;
+    width: 56px;
+    height: 56px;
+    border-radius: 999px;
+    background: rgba(247, 245, 240, 0.1);
+    border: 1px solid rgba(247, 245, 240, 0.24);
+    color: var(--color-cream);
+  }
+
+  .tb-spec-label {
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.3;
+    color: var(--color-cream);
+    /* never split "W-2s" at the hyphen: balance picks the space break */
+    text-wrap: balance;
+  }
+
+  @media (min-width: 768px) {
+    .tb-specs {
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.5rem;
+    }
+
+    .tb-spec {
+      flex-direction: column;
+      text-align: center;
+      gap: 0.8rem;
+    }
+
+    .tb-spec-label {
+      max-width: 16ch;
+    }
+  }
+</style>

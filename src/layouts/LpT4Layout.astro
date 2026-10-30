@@ -1,0 +1,71 @@
+---
+// Layout for /qualify/ (the lp-t4 page) ONLY. Imports the page-scoped lp-t4.css
+// (never global.css). The page stays noindex: it is the paid-traffic destination,
+// not a ranking target (FORM-LP-BRIEF.md section 8).
+//
+// Tracking is gated on `leadDelivery` (src/config/lp-t4.ts): in 'test' mode the
+// page makes zero third-party requests (FORM-LP-BRIEF hard rule 2, `npm run
+// lp:network`). In 'live' mode the site's gtag stack loads exactly like
+// BaseLayout: the inline dataLayer/gtag() queue runs immediately, the ~337KB
+// library is injected by afterPaint (load + first contentful paint, then idle)
+// so it stays out of the LCP graph on PSI hardware (the window-load-only defer
+// regressed there; see context/NEXT-SESSION-PROMPT.md perf reference). Hotjar
+// rides the same gate (PROD-gated internally). Same ids as BaseLayout (GA4
+// G-W92EXVZW3P + Ads AW-18416211451, the account that owns the "New Lead"
+// conversion fired from /thank-you/). Never AW-11297975154.
+import '../styles/lp-t4.css';
+import Hotjar from '../components/global/Hotjar.astro';
+import AfterPaint from '../components/global/AfterPaint.astro';
+import { seo, leadDelivery } from '../config/lp-t4';
+
+interface Props {
+  title?: string;
+  description?: string;
+}
+
+const { title = seo.title, description = seo.description } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <meta name="robots" content="noindex, nofollow" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="theme-color" content="#1a2540" />
+
+    {leadDelivery === 'live' && (
+      <>
+        <AfterPaint />
+        <script
+          is:inline
+          set:html={`
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-W92EXVZW3P');
+    gtag('config', 'AW-18416211451');
+    afterPaint(function(){
+      var s = document.createElement('script');
+      s.async = true;
+      s.src = 'https://www.googletagmanager.com/gtag/js?id=G-W92EXVZW3P';
+      document.head.appendChild(s);
+    });
+  `}
+        />
+        <Hotjar />
+      </>
+    )}
+
+    <!-- Self-hosted latin variable fonts, font-display: optional (lp-t4.css).
+         Same-origin preload + optional is the proven text-LCP combo. -->
+    <link rel="preload" href="/fonts/bricolage-grotesque-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/fonts/manrope-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin />
+  </head>
+  <body class="ground-paper">
+    <slot />
+  </body>
+</html>

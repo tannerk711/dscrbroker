@@ -1,0 +1,75 @@
+---
+// FHA-advantages layout (Tanner 2026-10-26, his fhaloans screenshot is the
+// reference): broker-thesis prose left, six dense white cards right in a
+// two-column grid, each a coin icon + title + packed body. The FAQ's facts
+// live in these cards. Section ends on the one CTA (outcome test).
+// No desktop pin (the pinned column died with the old card stack).
+// ground-mist: sits between the paper how-it-works and the brand-deep final CTA.
+import { advantages } from '../../config/lp-t4';
+import Icon from './Icon.astro';
+---
+
+<section class="ground-mist relative">
+  <div class="container-x py-20 lg:py-28">
+    <div class="grid items-start gap-12 lg:grid-cols-[minmax(0,5fr)_minmax(0,7fr)] lg:gap-14">
+      <div data-reveal="slide-left">
+        <h2 class="h-section">{advantages.h2}</h2>
+        {advantages.prose.map((para) => <p class="prose-body mt-5">{para}</p>)}
+      </div>
+
+      <div class="grid gap-5 sm:grid-cols-2" data-stagger>
+        {
+          advantages.blocks.map((b) => (
+            <article class="card adv-card" data-child data-reveal="scale-up">
+              <span class="opt-coin adv-coin" aria-hidden="true">
+                <Icon name={b.icon} size={26} />
+              </span>
+              <h3 class="adv-title mt-4">{b.title}</h3>
+              <p class="prose-body adv-body mt-2">{b.body}</p>
+            </article>
+          ))
+        }
+      </div>
+    </div>
+
+    <div class="mt-12 text-center lg:mt-14" data-reveal="scale-up">
+      <a href="#start" data-scroll-to="#start" class="btn-ghost">
+        {advantages.cta}
+        <Icon name="arrow" size={18} />
+      </a>
+    </div>
+  </div>
+</section>
+
+<style>
+  .adv-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1.5rem 1.4rem 1.6rem;
+  }
+
+  .adv-coin {
+    width: 48px;
+    height: 48px;
+  }
+
+  .adv-coin svg {
+    width: 26px;
+    height: 26px;
+  }
+
+  .adv-title {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 1.06rem;
+    line-height: 1.25;
+    letter-spacing: -0.008em;
+    color: var(--color-ink);
+  }
+
+  .adv-body {
+    font-size: 0.92rem;
+    line-height: 1.62;
+  }
+</style>

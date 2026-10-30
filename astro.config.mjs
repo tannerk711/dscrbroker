@@ -31,12 +31,14 @@ export default defineConfig({
   integrations: [
     react(),
     mdx(),
-    // Exclude noindex routes (paid-ad /lp/* pages + the post-submit /thank-you/)
-    // so the sitemap does not contradict their robots meta. The integration's
-    // single sitemap-0.xml is then split by family and given lastmod by the
-    // postbuild scripts/build-sitemaps.mjs.
+    // Exclude noindex routes (paid-ad /lp/* pages, the post-submit /thank-you/,
+    // and /qualify/, the lp-t4 paid destination since 2026-10-30) so the sitemap
+    // does not contradict their robots meta. The integration's single
+    // sitemap-0.xml is then split by family and given lastmod by the postbuild
+    // scripts/build-sitemaps.mjs.
     sitemap({
-      filter: (page) => !page.includes('/lp/') && !page.includes('/thank-you'),
+      filter: (page) =>
+        !page.includes('/lp/') && !page.includes('/thank-you') && !page.includes('/qualify'),
     }),
   ],
   vite: {

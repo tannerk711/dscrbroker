@@ -1,47 +1,36 @@
 ---
-import LandingLayout from '../layouts/LandingLayout.astro';
-import DSCRForm from '../components/form/DSCRForm';
+// /qualify/: the lp-t4 paid-traffic landing page (template 4 structure carrying
+// the V3 form as the hero), migrated from branch form-templates on 2026-10-30
+// per FORM-LP-BRIEF.md section 8. Tanner approved the page 2026-09-09 and ran
+// his own review passes 2026-10-08 + 2026-10-26; structure, motion, copy, and
+// form flow are LOCKED. Live lead delivery + tracking switch: src/config/lp-t4.ts.
+// Section rhythm (2026-10-26 edit: FAQ cut, its facts folded into Advantages):
+// white (hero) -> navy (trust) -> paper (how) -> mist (advantages) ->
+// brand-deep (final) -> ink (footer).
+import LpT4Layout from '../layouts/LpT4Layout.astro';
+import Topbar from '../components/lp-t4/Topbar.astro';
+import HeroStage from '../components/lp-t4/HeroStage.astro';
+import TrustBand from '../components/lp-t4/TrustBand.astro';
+import HowItWorks from '../components/lp-t4/HowItWorks.astro';
+import Advantages from '../components/lp-t4/Advantages.astro';
+import FinalCta from '../components/lp-t4/FinalCta.astro';
+import Footer from '../components/lp-t4/Footer.astro';
+import StickyCta from '../components/lp-t4/StickyCta.astro';
 ---
 
-<LandingLayout
-  title="Get Matched With a DSCR Specialist | DSCRBroker.com"
-  description="Get matched with a licensed DSCR specialist in your state in 60 seconds. No income verification. No credit impact. Your deal, structured for approval."
-  noIndex={true}
->
-  <section class="relative min-h-[calc(100vh-140px)] flex items-center justify-center py-12 px-4">
-    <!-- Subtle radial gradient background -->
-    <div class="absolute inset-0" style="background: radial-gradient(ellipse at 50% 40%, #131C31 0%, #0B1120 70%);" aria-hidden="true"></div>
+<LpT4Layout>
+  <Topbar />
+  <main id="main">
+    <HeroStage />
+    <TrustBand />
+    <HowItWorks />
+    <Advantages />
+    <FinalCta />
+  </main>
+  <Footer />
+  <StickyCta />
+</LpT4Layout>
 
-    <div class="relative w-full max-w-[560px] mx-auto">
-      {/* Form card */}
-      <div class="rounded-xl bg-white/[0.04] border border-white/[0.08] p-6 sm:p-8">
-        <h1 class="text-2xl font-bold text-white mb-1">Check Your DSCR Eligibility</h1>
-        <p class="text-sm text-white/50 mb-6">2 minutes. No SSN. No credit pull.</p>
-        <DSCRForm client:load />
-      </div>
-
-      {/* Trust signals below form */}
-      <div class="mt-6 flex flex-wrap items-center justify-center gap-4">
-        <span class="flex items-center gap-1.5 text-xs text-white/40">
-          <svg class="h-4 w-4 text-green" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
-          </svg>
-          No Credit Pull
-        </span>
-        <span class="flex items-center gap-1.5 text-xs text-white/40">
-          <svg class="h-4 w-4 text-blue-light" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-          </svg>
-          Results in 60 Seconds
-        </span>
-        <span class="flex items-center gap-1.5 text-xs text-white/40">
-          <svg class="h-4 w-4 text-blue-light" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-            <path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-          </svg>
-          All 50 States
-        </span>
-      </div>
-    </div>
-  </section>
-</LandingLayout>
+<script>
+  import '../scripts/lp-motion.ts';
+</script>

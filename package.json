@@ -9,7 +9,17 @@
     "dev": "astro dev",
     "build": "astro build && node scripts/fix-vercel-cache-headers.mjs && node scripts/fix-vercel-redirects.mjs && node scripts/build-sitemaps.mjs",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "lp:shoot": "node tools/lp-shoot.mjs",
+    "lp:walk": "node tools/lp-walk.mjs",
+    "lp:network": "node tools/lp-network.mjs",
+    "lp:fold": "node tools/lp-fold.mjs",
+    "lp:overflow": "node tools/lp-overflow.mjs",
+    "lp:motion": "node tools/lp-motion-check.mjs",
+    "lp:lint": "node tools/lp-lint.mjs",
+    "lp:lh": "node tools/lp-lh.mjs",
+    "lp:qa": "npm run lp:network && npm run lp:fold && npm run lp:overflow && npm run lp:motion && npm run lp:lint",
+    "lp:states": "node tools/lp-states.mjs"
   },
   "dependencies": {
     "@astrojs/mdx": "^6.0.3",
@@ -28,6 +38,7 @@
     "embla-carousel-react": "^8.6.0",
     "framer-motion": "^12.38.0",
     "gsap": "^3.14.2",
+    "lenis": "^1.3.26",
     "lucide-react": "^1.7.0",
     "nanostores": "^1.2.0",
     "react": "^19.2.4",
@@ -37,5 +48,9 @@
   },
   "overrides": {
     "vite": "^7"
+  },
+  "devDependencies": {
+    "lighthouse": "^13.4.1",
+    "puppeteer-core": "^25.10.0"
   }
 }

@@ -1,0 +1,32 @@
+---
+// Persistent final CTA on the brand-deep ground. The inner wrapper carries
+// data-persist (the motion spine excludes it from reverse/kill paths and the
+// sticky bar uses it as its IntersectionObserver target) and data-stagger.
+// No phone button. NEVER .cv-auto here.
+import { finalCta } from '../../config/lp-t4';
+import Icon from './Icon.astro';
+---
+
+<section class="ground-brand-deep relative">
+  <div class="seam" data-seam></div>
+
+  <div class="container-x py-24 lg:py-32" data-persist data-stagger>
+    <div class="max-w-3xl">
+      <h2 class="h-section" data-reveal="clip-up" data-child>{finalCta.heading}</h2>
+      <p class="prose-body fc-body mt-5" data-child>{finalCta.body}</p>
+      <div class="mt-10 flex flex-wrap items-center gap-4" data-child>
+        <a href="#start" data-scroll-to="#start" class="btn-amber" data-magnet>
+          {finalCta.cta}
+          <Icon name="arrow" size={18} />
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .fc-body {
+    color: rgba(247, 245, 240, 0.82);
+    max-width: 52ch;
+  }
+</style>

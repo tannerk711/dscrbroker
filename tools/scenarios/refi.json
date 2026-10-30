@@ -1,0 +1,15 @@
+{
+  "route": "/qualify/",
+  "prefix": "refi",
+  "steps": [
+    { "shot": "01-path", "click": "refinance" },
+    { "shot": "02-process", "click": "Just exploring my options" },
+    { "shot": "03-property", "click": "Single-family" },
+    { "shot": "04-credit", "click": "740 or above" },
+    { "shot": "05-price", "continue": "CONTINUE" },
+    { "shot": "06-fork", "click": "Less than 50%" },
+    { "shot": "07-location", "fills": [{ "value": "Texas" }], "continue": "CONTINUE" },
+    { "shot": "08-contact", "fills": [{ "value": "QA" }, { "value": "Test DeleteMe" }, { "value": "qa@example.com" }], "continue": "CONTINUE" },
+    { "shot": "09-phone-ready", "fills": [{ "value": "5555550140" }], "check": true }
+  ]
+}

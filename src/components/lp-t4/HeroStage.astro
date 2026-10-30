@@ -1,0 +1,21 @@
+---
+// The hero IS the form (BRIEF hard rule 11). WHITE stage (Tanner 2026-09-09:
+// heroes default to light mode, as bright as fhaloans): static H1 (the LCP
+// element, never animated) straight into the #start wrapper carrying the V3
+// island hydrated on load. The sub and the Equal Housing mark were cut
+// (Tanner 2026-10-26: not a lender, do not advertise EHO).
+// Nothing here, and nothing inside #start, ever receives data-reveal,
+// data-tilt, data-stagger, GSAP, or a CSS animation.
+import FormV3 from '../form-templates/v3/FormV3';
+import { hero, lead } from '../../config/lp-t4';
+---
+
+<section class="lp-hero lp-t4-theme" aria-labelledby="hero-h1">
+  <div class="container-x">
+    <h1 id="hero-h1" class="h-display lp-hero-h1">{hero.h1}</h1>
+
+    <div id="start" class="lp-stage">
+      <FormV3 client:load embedded lead={lead} />
+    </div>
+  </div>
+</section>

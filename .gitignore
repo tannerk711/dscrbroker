@@ -52,3 +52,12 @@ dev.log
 
 .vercel
 .env*
+
+# LP QA artifacts (screenshots, Lighthouse reports)
+tools/shots/
+tools/lh-reports/
+
+# src/scripts/ is app source (the lp-t4 motion spine), not the gitignored
+# build-scripts folder; without this negation the bare scripts/ pattern above
+# hides it at any depth (2026-09-08 lesson).
+!src/scripts/

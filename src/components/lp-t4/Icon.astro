@@ -1,0 +1,33 @@
+---
+// Icon renderer for the lp-t4 page. One <path d> per entry in icons[name]
+// (src/config/lp-t4.ts). Unknown name renders nothing and logs a build warning.
+import { icons, type IconName } from '../../config/lp-t4';
+
+interface Props {
+  name: IconName | string;
+  size?: number;
+  class?: string;
+}
+
+const { name, size = 24, class: className } = Astro.props;
+const paths = (icons as Record<string, string[]>)[name];
+if (!paths) console.warn(`[lp-t4 Icon] unknown icon name "${name}"; rendering nothing`);
+---
+
+{paths && (
+  <svg
+    viewBox="0 0 24 24"
+    width={size}
+    height={size}
+    fill="none"
+    stroke="currentColor"
+    stroke-width="1.8"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    aria-hidden="true"
+    focusable="false"
+    class={className}
+  >
+    {paths.map((d) => <path d={d} />)}
+  </svg>
+)}

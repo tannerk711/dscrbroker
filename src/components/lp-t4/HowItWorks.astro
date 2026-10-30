@@ -1,0 +1,149 @@
+---
+// H2, the brokerage logo bar (one white card, five marks at optically
+// normalized heights; replaced the boxed collage, Tanner 2026-10-26), then the
+// three numbered steps with the stroke-drawn connector (data-draw, desktop
+// only). ground-paper (2026-09-09: moved above the specialist section,
+// directly under the mist trust band), .cv-auto.
+import { howItWorks } from '../../config/lp-t4';
+import Icon from './Icon.astro';
+
+const steps = howItWorks.steps;
+---
+
+<section class="ground-paper cv-auto relative">
+  <div class="container-x py-20 lg:py-28">
+    <div data-reveal="scale-up">
+      <h2 class="h-section text-center">{howItWorks.h2}</h2>
+    </div>
+
+    <div class="logo-bar mt-10 lg:mt-12" data-reveal="scale-up">
+      {
+        howItWorks.logos.map((logo) => (
+          <img
+            src={logo.src}
+            alt={logo.alt}
+            style={`height:${logo.h}px`}
+            loading="lazy"
+            decoding="async"
+          />
+        ))
+      }
+    </div>
+
+    <div class="relative mt-16 lg:mt-20">
+      <svg
+        class="hiw-connector"
+        viewBox="0 0 1000 64"
+        fill="none"
+        preserveAspectRatio="none"
+        aria-hidden="true"
+      >
+        <path
+          d="M40 44 C 180 8, 330 56, 500 30 C 570 19, 640 40, 706 30"
+          stroke="var(--color-brand)"
+          stroke-width="2"
+          stroke-linecap="round"
+          opacity="0.35"
+          data-draw></path>
+      </svg>
+
+      <ol class="grid gap-10 md:grid-cols-3 md:gap-8" data-stagger>
+        {
+          steps.map((step, i) => (
+            <li class="hiw-step" data-child data-reveal="scale-up">
+              <span class="hiw-num" aria-hidden="true">
+                {i + 1}
+              </span>
+              <h3 class="h-step mt-5">{step.title}</h3>
+              <p class="prose-body hiw-body mt-2">{step.body}</p>
+              {i === steps.length - 1 && (
+                <span class="hiw-check" aria-hidden="true">
+                  <Icon name="check" size={16} />
+                </span>
+              )}
+            </li>
+          ))
+        }
+      </ol>
+    </div>
+  </div>
+</section>
+
+<style>
+  /* One white bar, logos sitting directly on it (white-background PNGs blend
+     in, so no per-logo tiles). Wraps to two centered rows on small screens. */
+  .logo-bar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    column-gap: clamp(1.75rem, 5vw, 4rem);
+    row-gap: 1.5rem;
+    padding: 1.75rem clamp(1.25rem, 4vw, 2.5rem);
+    background: #fff;
+    border: 1px solid var(--color-line);
+    border-radius: 18px;
+    box-shadow: var(--shadow-card-lg);
+  }
+
+  .logo-bar img {
+    display: block;
+    width: auto;
+    flex: none;
+  }
+
+  .hiw-connector {
+    position: absolute;
+    top: 4px;
+    left: 0;
+    width: 100%;
+    height: 64px;
+    display: none;
+    pointer-events: none;
+  }
+
+  @media (min-width: 768px) {
+    .hiw-connector {
+      display: block;
+    }
+  }
+
+  .hiw-step {
+    position: relative;
+  }
+
+  .hiw-num {
+    position: relative;
+    z-index: 1;
+    display: inline-grid;
+    place-items: center;
+    width: 52px;
+    height: 52px;
+    border-radius: 999px;
+    background: var(--color-brand);
+    color: var(--color-cream);
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 1.35rem;
+    box-shadow: 0 8px 18px -8px rgba(26, 37, 64, 0.6);
+  }
+
+  .hiw-check {
+    position: absolute;
+    top: 0;
+    left: 38px;
+    z-index: 2;
+    display: inline-grid;
+    place-items: center;
+    width: 24px;
+    height: 24px;
+    border-radius: 999px;
+    background: var(--color-amber);
+    color: var(--color-ink);
+    border: 2px solid var(--color-paper);
+  }
+
+  .hiw-body {
+    font-size: 1rem;
+  }
+</style>

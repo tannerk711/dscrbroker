@@ -1,0 +1,97 @@
+---
+// Dark footer: wordmark + tagline, the three links, the two verbatim legal
+// paragraphs (the ONE surface for the full not-a-lender language), copyright.
+// The Equal Housing GLYPH is cut page-wide (Tanner 2026-10-26: not a lender);
+// the verbatim housing paragraph about the brokers stays.
+// No state directory columns, no phone. .cv-auto.
+import { brand, footer } from '../../config/lp-t4';
+---
+
+<footer class="ground-dark cv-auto">
+  <div class="container-x pt-16 pb-10 lg:pt-20">
+    <div class="grid gap-10 lg:grid-cols-[minmax(0,7fr)_minmax(0,5fr)] lg:gap-16">
+      <div>
+        <p class="ft-wordmark">{brand.logoText}<span class="ft-wordmark-dot">{brand.logoSuffix}</span></p>
+        <p class="ft-tagline mt-2">{brand.tagline}</p>
+      </div>
+
+      <nav aria-label="Footer">
+        <ul class="flex flex-wrap gap-x-7 gap-y-2 lg:justify-end">
+          {footer.links.map((link) => (
+            <li>
+              <a href={link.href} class="ft-link">{link.label}</a>
+            </li>
+          ))}
+        </ul>
+      </nav>
+    </div>
+
+    <hr class="ft-rule mt-12 mb-10" />
+
+    <div class="ft-legal flex flex-col gap-4">
+      <p>{footer.disclaimer}</p>
+      <p>{footer.housing}</p>
+      <p class="ft-copyright mt-2">{footer.copyright}</p>
+    </div>
+  </div>
+</footer>
+
+<style>
+  .ft-wordmark {
+    font-family: var(--font-display);
+    font-weight: 800;
+    font-size: 1.5rem;
+    letter-spacing: -0.008em;
+    color: var(--color-cream);
+  }
+
+  .ft-wordmark-dot {
+    color: var(--color-amber);
+  }
+
+  .ft-tagline {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: rgba(247, 245, 240, 0.6);
+  }
+
+  .ft-link {
+    display: inline-block;
+    /* tap comfort: lifts the hit target to ~24px+ without changing the rhythm */
+    padding-block: 0.15rem;
+    font-size: 0.92rem;
+    font-weight: 500;
+    line-height: 1.5;
+    color: rgba(247, 245, 240, 0.74);
+    text-decoration: none;
+    transition: color 160ms ease;
+  }
+
+  .ft-link:hover {
+    color: var(--color-cream);
+    text-decoration: underline;
+    text-underline-offset: 0.18em;
+  }
+
+  .ft-rule {
+    border: 0;
+    height: 1px;
+    background: rgba(247, 245, 240, 0.12);
+  }
+
+  .ft-legal {
+    font-size: 0.78rem;
+    line-height: 1.6;
+    color: rgba(247, 245, 240, 0.55);
+  }
+
+  .ft-legal p {
+    max-width: 90ch;
+  }
+
+  .ft-copyright {
+    font-size: 0.78rem;
+    /* 0.58 on the #070B14 footer ground composites to ~6.4:1 (AA for 12.5px text) */
+    color: rgba(247, 245, 240, 0.58);
+  }
+</style>

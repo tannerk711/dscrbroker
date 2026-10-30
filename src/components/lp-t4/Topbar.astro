@@ -1,0 +1,100 @@
+---
+// Topbar: thin claret notice bar (the form-adjacent not-a-lender line) + the
+// header row: wordmark + the compact amber header CTA, nothing else (tagline
+// and audience line cut, Tanner 2026-10-26). No phone. Static section: NO
+// data-reveal here.
+import { brand, notice, cta } from '../../config/lp-t4';
+---
+
+<header class="topbar ground-paper">
+  <p class="tb-notice">{notice}</p>
+  <div class="container-x tb-row">
+    <a href="/" class="tb-logo" aria-label={brand.name}>
+      <span class="tb-logotext">{brand.logoText}<span class="tb-logodot">{brand.logoSuffix}</span></span>
+    </a>
+
+    <div class="tb-actions">
+      <a href="#start" data-scroll-to="#start" class="btn-amber tb-cta">{cta.header}</a>
+    </div>
+  </div>
+</header>
+
+<style>
+  /* white, same as the hero below it: header + hero read as one bright block (fhaloans) */
+  .topbar {
+    background: var(--color-sheet);
+  }
+
+  .tb-notice {
+    margin: 0;
+    padding: 0.45rem 1rem;
+    background: var(--color-brand);
+    color: rgba(247, 245, 240, 0.88);
+    text-align: center;
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    line-height: 1.4;
+  }
+
+  .tb-row {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding-block: 0.85rem;
+    border-bottom: 1px solid var(--color-line);
+  }
+
+  .tb-logo {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: var(--color-ink);
+    flex: 0 1 auto;
+    min-width: 0;
+  }
+
+  .tb-logotext {
+    font-family: var(--font-display);
+    font-weight: 800;
+    font-size: clamp(1rem, 4.6vw, 1.45rem);
+    line-height: 1.1;
+    letter-spacing: -0.008em;
+    white-space: nowrap;
+  }
+
+  .tb-logodot {
+    color: var(--color-brand);
+  }
+
+  .tb-actions {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-left: auto;
+    flex: none;
+  }
+
+  /* compact variant of .btn-amber for the header (scoped, unlayered, wins) */
+  .tb-cta {
+    min-height: 2.75rem;
+    padding: 0.5rem 0.75rem;
+    font-size: 0.78rem;
+    border-radius: 10px;
+    white-space: nowrap;
+  }
+
+  @media (min-width: 480px) {
+    .tb-cta {
+      padding: 0.55rem 1.05rem;
+      font-size: 0.85rem;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .tb-row {
+      gap: 1.25rem;
+      padding-block: 1rem;
+    }
+  }
+</style>

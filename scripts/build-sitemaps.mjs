@@ -39,8 +39,8 @@ const urls = [...read(join(outDir, 'sitemap-0.xml').replace(root + '\\', '').rep
 if (urls.length < 100) throw new Error(`[build-sitemaps] only ${urls.length} URLs parsed from sitemap-0.xml`);
 
 // ---------- validate every URL ----------
-const bad = urls.filter((u) => !u.startsWith(SITE + '/') || !u.endsWith('/') || u.includes('www.') || u.includes('/lp/') || u.includes('/thank-you'));
-if (bad.length) throw new Error(`[build-sitemaps] ${bad.length} URLs fail the canonical rules (apex, trailing slash, no /lp/, no /thank-you):\n${bad.join('\n')}`);
+const bad = urls.filter((u) => !u.startsWith(SITE + '/') || !u.endsWith('/') || u.includes('www.') || u.includes('/lp/') || u.includes('/thank-you') || u.includes('/qualify'));
+if (bad.length) throw new Error(`[build-sitemaps] ${bad.length} URLs fail the canonical rules (apex, trailing slash, no /lp/, no /thank-you, no /qualify):\n${bad.join('\n')}`);
 if (new Set(urls).size !== urls.length) throw new Error('[build-sitemaps] duplicate URLs in sitemap-0.xml');
 
 // ---------- lastmod sources ----------

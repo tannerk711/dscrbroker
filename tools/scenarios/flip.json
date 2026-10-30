@@ -1,0 +1,15 @@
+{
+  "route": "/qualify/",
+  "prefix": "flip",
+  "steps": [
+    { "shot": "01-path", "click": "fix & flip" },
+    { "shot": "02-process", "click": "Scouting deals" },
+    { "shot": "03-property", "click": "Single-family" },
+    { "shot": "04-credit", "click": "740 or above" },
+    { "shot": "05-price", "continue": "CONTINUE" },
+    { "shot": "06-fork", "click": "$25K to $50K" },
+    { "shot": "07-location", "fills": [{ "value": "Texas" }], "continue": "CONTINUE" },
+    { "shot": "08-contact", "fills": [{ "value": "QA" }, { "value": "Test DeleteMe" }, { "value": "qa@example.com" }], "continue": "CONTINUE" },
+    { "shot": "09-phone-ready", "fills": [{ "value": "5555550140" }], "check": true }
+  ]
+}

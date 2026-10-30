@@ -1,0 +1,15 @@
+{
+  "route": "/qualify/",
+  "prefix": "state-kickout",
+  "steps": [
+    { "shot": "01-path", "click": "buy a rental" },
+    { "shot": "02-process", "click": "Just starting my research" },
+    { "shot": "03-property", "click": "Single-family" },
+    { "shot": "04-credit", "click": "740 or above" },
+    { "shot": "05-price", "continue": "CONTINUE" },
+    { "shot": "06-down", "continue": "CONTINUE" },
+    { "shot": "07-location", "fills": [{ "value": "New York" }], "continue": "CONTINUE" },
+    { "shot": "08-state-kickout", "click": "Change the state" },
+    { "shot": "09-back-on-location" }
+  ]
+}
