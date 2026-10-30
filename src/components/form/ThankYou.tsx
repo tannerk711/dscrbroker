@@ -60,8 +60,14 @@ interface SpecialistProfile {
     quotes: { quote: string; author: string; avatar?: string }[];
   };
   // Optional link to the broker's own public Google reviews. Renders a plain
-  // "See reviews on Google" link row under (or instead of) the reviews strip.
+  // "See reviews on Google" link row under (or instead of) the reviews strip,
+  // unless googleRating is set (the badge then carries the link instead).
   reviewsUrl?: string;
+  // Aggregate Google rating badge (G mark + stars + count) rendered beside the
+  // company logo in the specialist card, linked to reviewsUrl. Real numbers from
+  // the broker's live Google profile only, never invented; the count may lag the
+  // live profile (undercounting is the safe direction).
+  googleRating?: { rating: number; count: number };
   // Full state-licensing disclaimer for this specialist. Rendered in the thank-you
   // page footer only when this broker is the matched specialist. null = no block.
   licensing: { line: string; paragraph: string } | null;
@@ -153,11 +159,12 @@ const ADAM_SPECIALIST: SpecialistProfile = {
 
 // Taylor Sundquist / Future Mortgage. Third lender in the network (onboarded 2026-10-29
 // via the CLP onboarding form). Takes CA, ID, MT, OR, WA solo (moved off John and Adam).
-// No headshot was supplied, so the card renders an initials circle. No rating, count,
-// or quotes render: none were supplied and nothing is invented; reviewsUrl links his own
-// Google reviews instead. The company NMLS (2236028) lives in the licensing block because
-// the profile has no company-NMLS field. Message and title are drafts pending Tanner's
-// approval: process statements only, no counts, no time promises.
+// Headshot added 2026-10-30 (enhanced from the 200px original Tanner dropped in inbox/).
+// googleRating is the Future Mortgage Google profile's live numbers as Tanner supplied
+// them 2026-10-30 (4.9 across 5,358 reviews); no quotes strip renders because no approved
+// quotes exist. The company NMLS (2236028) lives in the licensing block because the
+// profile has no company-NMLS field. Message and title are drafts Tanner shipped as-is:
+// process statements only, no counts, no time promises.
 const TAYLOR_SPECIALIST: SpecialistProfile = {
   name: 'Taylor Sundquist',
   displayName: 'Taylor Sundquist',
@@ -166,7 +173,7 @@ const TAYLOR_SPECIALIST: SpecialistProfile = {
   company: 'Future Mortgage',
   companyLogo: '/images/future-mortgage-logo.png',
   logoOnLightChip: true,
-  headshot: null,
+  headshot: '/images/taylor-sundquist.webp',
   message:
     "I help real estate investors structure DSCR and non-QM loans. The questionnaire you just filled out gives me a real starting point, but every deal has details that don't fit in a form. I'll review your file personally, reach out to walk through what I'm seeing, and lay out the cleanest path to closing. No call center, no runaround.",
   videoEmbedUrl: null,
@@ -175,6 +182,7 @@ const TAYLOR_SPECIALIST: SpecialistProfile = {
   // for entity kgmid /g/11fml3gbw3, named "Future" (the Future Mortgage GBP). The
   // kgmid form below is the stable canonical; Tanner click-verifies once before live.
   reviewsUrl: 'https://www.google.com/search?q=Future+Mortgage&kgmid=/g/11fml3gbw3',
+  googleRating: { rating: 4.9, count: 5358 },
   licensing: {
     line: TAYLOR_LICENSING_LINE,
     paragraph: TAYLOR_LICENSING_PARAGRAPH,
@@ -409,6 +417,37 @@ export default function ThankYou() {
                 loading="lazy"
               />
             </div>
+            {specialist.googleRating && (
+              <div className="flex justify-center sm:justify-start">
+                <a
+                  href={specialist.reviewsUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-3 inline-flex items-center gap-1.5 group"
+                  aria-label={`${specialist.company}: ${specialist.googleRating.rating.toFixed(1)} stars from ${specialist.googleRating.count.toLocaleString('en-US')} Google reviews`}
+                >
+                  <svg className="w-4 h-4 flex-shrink-0" viewBox="0 0 24 24" aria-hidden="true">
+                    <path fill="#4285F4" d="M23.49 12.27c0-.79-.07-1.54-.19-2.27H12v4.51h6.47c-.29 1.48-1.14 2.73-2.4 3.58v3h3.86c2.26-2.09 3.56-5.17 3.56-8.82z" />
+                    <path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.86-3c-1.08.72-2.45 1.16-4.07 1.16-3.13 0-5.78-2.11-6.73-4.96H1.29v3.09C3.26 21.3 7.31 24 12 24z" />
+                    <path fill="#FBBC05" d="M5.27 14.29c-.25-.72-.38-1.49-.38-2.29s.14-1.57.38-2.29V6.62H1.29C.47 8.24 0 10.06 0 12s.47 3.76 1.29 5.38l3.98-3.09z" />
+                    <path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.31 0 3.26 2.7 1.29 6.62l3.98 3.09C6.22 6.86 8.87 4.75 12 4.75z" />
+                  </svg>
+                  <span className="text-sm font-semibold text-white">
+                    {specialist.googleRating.rating.toFixed(1)}
+                  </span>
+                  <span className="flex items-center gap-0.5" aria-hidden="true">
+                    {Array.from({ length: 5 }).map((_, i) => (
+                      <svg key={i} className="w-3.5 h-3.5 text-amber" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M12 2l2.39 7.36h7.74l-6.26 4.55 2.39 7.36L12 16.72l-6.26 4.55 2.39-7.36L1.87 9.36h7.74L12 2z" />
+                      </svg>
+                    ))}
+                  </span>
+                  <span className="text-sm text-white/50 transition-colors group-hover:text-white/80">
+                    ({specialist.googleRating.count.toLocaleString('en-US')})
+                  </span>
+                </a>
+              </div>
+            )}
           </div>
         </div>
 
@@ -498,8 +537,9 @@ export default function ThankYou() {
       )}
 
       {/* Reviews strip: verified rating + quotes, and/or a link to the broker's own
-          Google reviews. Renders nothing when a profile has neither. */}
-      {(reviews || specialist.reviewsUrl) && (
+          Google reviews. Renders nothing when a profile has neither, or when the
+          googleRating badge in the specialist card already carries the link. */}
+      {(reviews || (specialist.reviewsUrl && !specialist.googleRating)) && (
         <div className="mt-10 pt-8 border-t border-white/10">
           {reviews && (
             <>
@@ -566,7 +606,7 @@ export default function ThankYou() {
             </>
           )}
 
-          {specialist.reviewsUrl && (
+          {specialist.reviewsUrl && !specialist.googleRating && (
             <div className={reviews ? 'mt-5 text-center' : 'text-center'}>
               <a
                 href={specialist.reviewsUrl}
