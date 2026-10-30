@@ -84,9 +84,12 @@ const DEFAULT_SPECIALIST: SpecialistProfile = {
   message:
     "I've spent my career structuring DSCR and non-QM deals for real estate investors, including the ones other lenders walk away from. The questionnaire you just filled out gives me a real starting point, but every deal has nuance that doesn't fit in a form. I'll personally review your file, call you within the hour, and walk you through exactly what we can do. No call center, no runaround.",
   videoEmbedUrl: null,
+  // John's real Google aggregate (Tanner, 2026-10-30, from his live reviews widget);
+  // supersedes the old "5.0 · 180+ reviews" strip line, which the badge now replaces.
+  // Unlinked until Tanner supplies John's Google reviews URL (no reviewsUrl here).
+  googleRating: { rating: 4.9, count: 5358 },
   reviews: {
     rating: 5.0,
-    count: 180,
     quotes: [
       {
         quote:
@@ -418,15 +421,10 @@ export default function ThankYou() {
                 loading="lazy"
               />
             </div>
-            {specialist.googleRating && (
-              <div className="flex justify-center sm:justify-start">
-                <a
-                  href={specialist.reviewsUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="mt-3 inline-flex items-center gap-1.5 group"
-                  aria-label={`${specialist.company}: ${specialist.googleRating.rating.toFixed(1)} stars from ${specialist.googleRating.count.toLocaleString('en-US')} Google reviews`}
-                >
+            {specialist.googleRating && (() => {
+              const ariaLabel = `${specialist.company}: ${specialist.googleRating.rating.toFixed(1)} stars from ${specialist.googleRating.count.toLocaleString('en-US')} Google reviews`;
+              const inner = (
+                <>
                   <svg className="w-4 h-4 flex-shrink-0" viewBox="0 0 24 24" aria-hidden="true">
                     <path fill="#4285F4" d="M23.49 12.27c0-.79-.07-1.54-.19-2.27H12v4.51h6.47c-.29 1.48-1.14 2.73-2.4 3.58v3h3.86c2.26-2.09 3.56-5.17 3.56-8.82z" />
                     <path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.86-3c-1.08.72-2.45 1.16-4.07 1.16-3.13 0-5.78-2.11-6.73-4.96H1.29v3.09C3.26 21.3 7.31 24 12 24z" />
@@ -446,9 +444,28 @@ export default function ThankYou() {
                   <span className="text-sm text-white/50 transition-colors group-hover:text-white/80">
                     ({specialist.googleRating.count.toLocaleString('en-US')})
                   </span>
-                </a>
-              </div>
-            )}
+                </>
+              );
+              return (
+                <div className="flex justify-center sm:justify-start">
+                  {specialist.reviewsUrl ? (
+                    <a
+                      href={specialist.reviewsUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="mt-3 inline-flex items-center gap-1.5 group"
+                      aria-label={ariaLabel}
+                    >
+                      {inner}
+                    </a>
+                  ) : (
+                    <div className="mt-3 inline-flex items-center gap-1.5" role="img" aria-label={ariaLabel}>
+                      {inner}
+                    </div>
+                  )}
+                </div>
+              );
+            })()}
           </div>
         </div>
 
@@ -549,23 +566,28 @@ export default function ThankYou() {
                   <p className="text-[11px] font-semibold uppercase tracking-[0.1em] text-white/50" style={{ fontFamily: 'var(--font-sans)' }}>
                     What {specialist.name.split(' ')[0]}'s Clients Say
                   </p>
-                  <div className="flex items-center gap-2 mt-1.5">
-                    <div className="flex items-center gap-0.5">
-                      {Array.from({ length: 5 }).map((_, i) => (
-                        <svg key={i} className="w-4 h-4 text-amber" fill="currentColor" viewBox="0 0 24 24">
-                          <path d="M12 2l2.39 7.36h7.74l-6.26 4.55 2.39 7.36L12 16.72l-6.26 4.55 2.39-7.36L1.87 9.36h7.74L12 2z" />
-                        </svg>
-                      ))}
-                    </div>
-                    <span className="text-sm font-semibold text-white">
-                      {reviews.rating.toFixed(1)}
-                    </span>
-                    {typeof reviews.count === 'number' && (
-                      <span className="text-sm text-white/50">
-                        · {reviews.count}+ reviews
+                  {/* Rating/count line renders only when the specialist card's
+                      googleRating badge isn't already carrying the numbers
+                      (say-it-once; two different figures on one page is worse). */}
+                  {!specialist.googleRating && (
+                    <div className="flex items-center gap-2 mt-1.5">
+                      <div className="flex items-center gap-0.5">
+                        {Array.from({ length: 5 }).map((_, i) => (
+                          <svg key={i} className="w-4 h-4 text-amber" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 2l2.39 7.36h7.74l-6.26 4.55 2.39 7.36L12 16.72l-6.26 4.55 2.39-7.36L1.87 9.36h7.74L12 2z" />
+                          </svg>
+                        ))}
+                      </div>
+                      <span className="text-sm font-semibold text-white">
+                        {reviews.rating.toFixed(1)}
                       </span>
-                    )}
-                  </div>
+                      {typeof reviews.count === 'number' && (
+                        <span className="text-sm text-white/50">
+                          · {reviews.count}+ reviews
+                        </span>
+                      )}
+                    </div>
+                  )}
                 </div>
               </div>
 
