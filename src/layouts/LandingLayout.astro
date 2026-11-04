@@ -56,13 +56,21 @@ const canonicalUrl = canonical || new URL(Astro.url.pathname, siteUrl).href;
 
     <!-- Google tag (gtag.js): GA4 + Google Ads. The AW config registers the Ads
          destination so conversion events with send_to AW-18416211451 are delivered. -->
-    <script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-W92EXVZW3P"></script>
     <script is:inline set:html={`
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
       gtag('config', 'G-W92EXVZW3P');
       gtag('config', 'AW-18416211451');
+      /* Same async load as the old static tag, but declared automation
+         (navigator.webdriver) never gets the library: keeps headless
+         crawlers out of GA4/Ads data. The gtag() queue stays defined. */
+      if (!navigator.webdriver) {
+        var gt = document.createElement('script');
+        gt.async = true;
+        gt.src = 'https://www.googletagmanager.com/gtag/js?id=G-W92EXVZW3P';
+        document.head.appendChild(gt);
+      }
     `} />
 
     <!-- Google Tag Manager -->

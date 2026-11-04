@@ -49,6 +49,9 @@ const { title = seo.title, description = seo.description } = Astro.props;
     gtag('config', 'G-W92EXVZW3P');
     gtag('config', 'AW-18416211451');
     afterPaint(function(){
+      /* Declared automation (navigator.webdriver) never loads the library:
+         keeps headless crawlers out of GA4/Ads data. Queue stays defined. */
+      if (navigator.webdriver) return;
       var s = document.createElement('script');
       s.async = true;
       s.src = 'https://www.googletagmanager.com/gtag/js?id=G-W92EXVZW3P';

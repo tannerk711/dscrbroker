@@ -94,6 +94,10 @@ const fullOgImage = ogImage.startsWith('http') ? ogImage : `${siteUrl}${ogImage}
     gtag('config', 'G-W92EXVZW3P');
     gtag('config', 'AW-18416211451');
     afterPaint(function(){
+      /* navigator.webdriver = declared automation (headless crawlers). They were
+         60% of GA4 sessions by Nov 2026; skipping the library keeps them out of
+         GA4/Ads data. gtag() keeps queueing to dataLayer so calls never throw. */
+      if (navigator.webdriver) return;
       var s = document.createElement('script');
       s.async = true;
       s.src = 'https://www.googletagmanager.com/gtag/js?id=G-W92EXVZW3P';
