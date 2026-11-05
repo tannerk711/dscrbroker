@@ -16,6 +16,7 @@
 import '../styles/lp-t4.css';
 import Hotjar from '../components/global/Hotjar.astro';
 import AfterPaint from '../components/global/AfterPaint.astro';
+import Attribution from '../components/global/Attribution.astro';
 import { seo, leadDelivery } from '../config/lp-t4';
 
 interface Props {
@@ -40,6 +41,7 @@ const { title = seo.title, description = seo.description } = Astro.props;
     {leadDelivery === 'live' && (
       <>
         <AfterPaint />
+        <Attribution />
         <script
           is:inline
           set:html={`

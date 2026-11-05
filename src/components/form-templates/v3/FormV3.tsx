@@ -40,6 +40,7 @@ import {
   type LeadConfig,
   type Tracking,
 } from '../../../lib/form-templates/live-submit';
+import { track, trackBeacon } from '../../../lib/analytics';
 import { MilestoneStepper, FormV3Ctx } from './bits';
 import { StepPath, StepProcess, StepProperty, StepCredit, StepPrice, StepFork } from './steps-choice';
 import { StepLocation, StepContact, StepPhone } from './steps-input';
@@ -66,6 +67,22 @@ const TRUST = [
   { icon: FileX2, label: 'No tax returns or W-2s' },
   { icon: Home, label: 'Qualify on rental income' },
 ];
+
+// GA4 form_step names (Phase 0 funnel). The fork step is path-specific so the
+// reports read in plain English instead of "step 6".
+function stepEventName(step: number, path: PathId): string {
+  switch (step) {
+    case 1: return 'loan_goal';
+    case 2: return 'process';
+    case 3: return 'property_type';
+    case 4: return 'credit';
+    case 5: return 'price';
+    case 6: return path === 'buy' ? 'down_payment' : path === 'refi' ? 'loan_balance' : 'rehab_budget';
+    case 7: return 'state';
+    case 8: return 'contact';
+    default: return 'phone';
+  }
+}
 
 function questionFor(step: number, path: PathId): string {
   switch (step) {
@@ -113,8 +130,16 @@ export default function FormV3({ embedded = false, lead }: { embedded?: boolean;
   const reduce = !!useReducedMotion();
   const ctx = useMemo(() => ({ embedded }), [embedded]);
 
+  // GA4 event params shared by every funnel event. `surface` = which mount
+  // (homepage-v3 / qualify-lp-t4); the island is the same either way.
+  const surface = lead?.leadSource ?? 'standalone';
+
   useEffect(() => {
     if (lead) trackingRef.current = captureTracking();
+    // form_view: the island mounted and is usable (scoreboard numerator for
+    // "visit -> form start" needs the denominator actually rendered).
+    track('form_view', { surface });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [lead]);
 
   const changeConsent = (v: boolean) => {
@@ -135,12 +160,25 @@ export default function FormV3({ embedded = false, lead }: { embedded?: boolean;
     setDir(1);
     setView(nextView);
     setStep(nextStep);
+    // Forward entry into a step = the previous step was answered. Back
+    // navigation never fires (clearPending/back don't route through here).
+    if (nextView === 'flow') {
+      track('form_step', {
+        surface,
+        step_number: nextStep,
+        step_name: stepEventName(nextStep, answers.path ?? 'buy'),
+      });
+    }
   };
 
   /** Show the selected state for a beat, then slide forward. */
   const flashThen = (apply: () => void, nav: () => void) => {
     if (lockRef.current) return;
-    if (!startedAtRef.current) startedAtRef.current = Date.now();
+    if (!startedAtRef.current) {
+      startedAtRef.current = Date.now();
+      // First answer given: the "start -> completed lead" denominator.
+      track('form_start', { surface });
+    }
     lockRef.current = true;
     apply();
     timerRef.current = setTimeout(() => {
@@ -179,6 +217,8 @@ export default function FormV3({ embedded = false, lead }: { embedded?: boolean;
           setKickoutKind('credit');
           setDir(1);
           setView('kickout');
+          // The <620 dead-end, finally counted (it was invisible in GA4).
+          track('credit_kickout', { surface });
         },
       );
       return;
@@ -200,6 +240,8 @@ export default function FormV3({ embedded = false, lead }: { embedded?: boolean;
       setKickoutKind('state');
       setDir(1);
       setView('kickout');
+      // NY/MI/ND/SD/UT dead-end counted, with which state got turned away.
+      track('state_kickout', { surface, state: answers.location ?? '' });
       return;
     }
     goTo(8);
@@ -226,6 +268,22 @@ export default function FormV3({ embedded = false, lead }: { embedded?: boolean;
     const result = await submitLiveLead(built.payload);
     if (result.ok) {
       persistSubmission(built, result.assignedBroker);
+      // Beacon transport: these race the navigation to /thank-you/. Funnel
+      // event fires on demo walks too (DebugView shows the full funnel);
+      // generate_lead is the GA4 key event and is demo-suppressed, same rule
+      // as the Ads conversion on /thank-you/.
+      const common = {
+        surface,
+        loan_goal: answers.path ?? 'buy',
+        state: answers.location ?? '',
+      };
+      trackBeacon('form_complete', common);
+      if (!tracking.demo) {
+        trackBeacon('generate_lead', {
+          ...common,
+          lead_source: String(built.payload.lead_source ?? ''),
+        });
+      }
       window.location.assign(thankYouUrl(lead.thankYouPath, tracking.demo));
       return; // keep the button in its sending state while the page unloads
     }

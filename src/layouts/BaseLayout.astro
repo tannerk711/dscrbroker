@@ -4,6 +4,7 @@ import Header from '../components/global/Header.astro';
 import Footer from '../components/global/Footer.astro';
 import Hotjar from '../components/global/Hotjar.astro';
 import AfterPaint from '../components/global/AfterPaint.astro';
+import Attribution from '../components/global/Attribution.astro';
 
 interface Props {
   title: string;
@@ -78,6 +79,9 @@ const fullOgImage = ogImage.startsWith('http') ? ogImage : `${siteUrl}${ogImage}
 
   <!-- Shared afterPaint() gate for gtag, Hotjar and homepage motion -->
   <AfterPaint />
+
+  <!-- Site-wide attribution capture (every page load; see src/lib/attribution.ts) -->
+  <Attribution />
 
   <!-- Google tag (gtag.js): GA4 + Google Ads. The AW config registers the Ads
        destination so the thank-you page's conversion event (send_to AW-18416211451)

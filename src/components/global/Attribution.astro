@@ -1,0 +1,11 @@
+---
+// Site-wide attribution capture (restructure Phase 0). Rendered by every
+// layout so the click/channel record exists BEFORE the visitor reaches a page
+// with the form. First-party, same-origin, a few hundred bytes bundled; never
+// a third-party request (the lp-t4 test-mode network rule stays intact).
+---
+
+<script>
+  import { captureAttribution } from '../../lib/attribution';
+  captureAttribution();
+</script>

@@ -28,6 +28,7 @@ import {
   formatPhoneE164,
   getDeviceType,
 } from '../../utils/brokerRouting';
+import { getAttribution, leadFields, type AttributionRecord } from '../attribution';
 import { getDealVerdict, getRecommendedProgram } from '../../utils/rateEstimation';
 
 export type LeadDelivery = 'test' | 'live';
@@ -69,63 +70,35 @@ export function isCoveredState(code: string | null): boolean {
 /* ------------------------------ tracking ------------------------------ */
 
 export interface Tracking {
-  utm_source: string | null;
-  utm_medium: string | null;
-  utm_campaign: string | null;
-  utm_term: string | null;
-  utm_content: string | null;
-  gclid: string | null;
-  fbclid: string | null;
-  landingPageUrl: string;
-  referrer: string;
-  /** `?demo=1` on the landing URL: passed through to /thank-you/ so the AW conversion is suppressed. */
+  /** The site-wide attribution record (src/lib/attribution.ts): captured on
+      every page load into localStorage (90 days, newest ad click wins, first
+      touch kept for organic), so a state-page-to-/qualify hop keeps the click. */
+  attribution: AttributionRecord;
+  /** `?demo=1` on the form page's URL: passed through to /thank-you/ so the AW conversion is suppressed. */
   demo: boolean;
 }
 
-const TRACKING_KEY = 'dscrbroker_lp_tracking';
-const TRACKED = ['utm_source', 'utm_medium', 'utm_campaign', 'utm_term', 'utm_content', 'gclid', 'fbclid'] as const;
-
 /**
- * Same parse as formStore.ts captureUTMParams(), taken on load and persisted for
- * the tab so the values survive a reload between steps. Params on the current
- * URL always win over a stored set.
+ * Attribution comes from the site-wide store (the layouts capture on every
+ * page load; getAttribution() also captures, so the island works whichever
+ * runs first). `demo` is read off the form page's own URL: the island never
+ * navigates mid-form, so the flag cannot be lost between steps.
  */
 export function captureTracking(): Tracking {
-  const empty: Tracking = {
-    utm_source: null,
-    utm_medium: null,
-    utm_campaign: null,
-    utm_term: null,
-    utm_content: null,
-    gclid: null,
-    fbclid: null,
-    landingPageUrl: '',
-    referrer: '',
-    demo: false,
+  if (typeof window === 'undefined') {
+    return { attribution: { params: emptyAttrParams(), landingPage: '', referrer: '', firstSeenAt: '' }, demo: false };
+  }
+  return {
+    attribution: getAttribution(),
+    demo: new URLSearchParams(window.location.search).get('demo') === '1',
   };
-  if (typeof window === 'undefined') return empty;
+}
 
-  const params = new URLSearchParams(window.location.search);
-  const fresh: Tracking = { ...empty, landingPageUrl: window.location.href, referrer: document.referrer || '' };
-  for (const key of TRACKED) fresh[key] = params.get(key);
-  fresh.demo = params.get('demo') === '1';
-
-  let stored: Tracking | null = null;
-  try {
-    const raw = sessionStorage.getItem(TRACKING_KEY);
-    if (raw) stored = JSON.parse(raw);
-  } catch {
-    /* storage unavailable */
-  }
-
-  const hasFresh = TRACKED.some((k) => fresh[k]);
-  const merged: Tracking = hasFresh || !stored ? fresh : { ...stored, demo: stored.demo || fresh.demo };
-  try {
-    sessionStorage.setItem(TRACKING_KEY, JSON.stringify(merged));
-  } catch {
-    /* ignore */
-  }
-  return merged;
+function emptyAttrParams(): AttributionRecord['params'] {
+  return {
+    gclid: '', gbraid: '', wbraid: '', fbclid: '',
+    utm_source: '', utm_medium: '', utm_campaign: '', utm_term: '', utm_content: '',
+  };
 }
 
 /* ------------------------------- mapping ------------------------------ */
@@ -209,9 +182,14 @@ export function buildLeadPayload(
       : raw;
   const program = getRecommendedProgram({ loanGoal, cashFlow: '', usCitizen: '', propertyType });
 
-  const t = opts.tracking;
+  const attr = opts.tracking.attribution;
+  // The five flat fields Tanner maps in GHL (lead_source = CHANNEL: google_ads /
+  // ai_chatgpt / organic_google / direct / ...; `leadSource` below stays the
+  // SURFACE: homepage-v3 / qualify-lp-t4). Every key present, '' when absent.
+  const flat = leadFields(attr);
   const payload: Record<string, unknown> = {
     submissionId: newSubmissionId(),
+    ...flat,
     firstName: (answers.firstName ?? '').trim(),
     lastName: (answers.lastName ?? '').trim(),
     email: (answers.email ?? '').trim().toLowerCase(),
@@ -250,16 +228,22 @@ export function buildLeadPayload(
       agreedAt: opts.consentAt || new Date().toISOString(),
       url: typeof window !== 'undefined' ? window.location.href : '',
     },
+    // Full source record (same keys the Zap map has always seen, now fed from
+    // the site-wide store instead of the form page's own URL, plus the ad-click
+    // extras). The flat fields above are the mapped view of this.
     source: {
-      utmSource: t.utm_source,
-      utmMedium: t.utm_medium,
-      utmCampaign: t.utm_campaign,
-      utmTerm: t.utm_term,
-      utmContent: t.utm_content,
-      gclid: t.gclid,
-      fbclid: t.fbclid,
-      landingPageUrl: t.landingPageUrl || (typeof window !== 'undefined' ? window.location.href : ''),
-      referrer: t.referrer,
+      utmSource: attr.params.utm_source || null,
+      utmMedium: attr.params.utm_medium || null,
+      utmCampaign: attr.params.utm_campaign || null,
+      utmTerm: attr.params.utm_term || null,
+      utmContent: attr.params.utm_content || null,
+      gclid: attr.params.gclid || null,
+      gbraid: attr.params.gbraid || null,
+      wbraid: attr.params.wbraid || null,
+      fbclid: attr.params.fbclid || null,
+      landingPageUrl: attr.landingPage || (typeof window !== 'undefined' ? window.location.href : ''),
+      referrer: attr.referrer,
+      firstSeenAt: attr.firstSeenAt,
       deviceType: getDeviceType(),
       leadSource: opts.leadSource,
     },

@@ -6,6 +6,7 @@ import { ADAM_LICENSING_LINE, ADAM_LICENSING_PARAGRAPH } from '../../data/adam-l
 import { TAYLOR_LICENSING_LINE, TAYLOR_LICENSING_PARAGRAPH } from '../../data/taylor-licensing';
 
 interface SubmissionPayload {
+  submissionId?: string;
   loanGoal?: string;
   state?: string;
   propertyType?: string;
@@ -270,7 +271,14 @@ export default function ThankYou() {
     const gtag = (window as any).gtag;
     if (typeof gtag !== 'function') return;
     conversionFiredRef.current = true;
-    gtag('event', 'conversion', { send_to: 'AW-18416211451/zIc1COzC6ekcEPurxM1E' });
+    // transaction_id = the lead's submissionId: Google dedupes repeat hits with
+    // the same id, so a /thank-you/ reload can no longer double-count the
+    // conversion (restructure Phase 0, 2026-11-04). Old sessionStorage records
+    // without an id fall back to the previous behavior.
+    gtag('event', 'conversion', {
+      send_to: 'AW-18416211451/zIc1COzC6ekcEPurxM1E',
+      ...(data.submissionId ? { transaction_id: data.submissionId } : {}),
+    });
   }, [data]);
 
   useEffect(() => {

@@ -12,6 +12,7 @@
     "astro": "astro",
     "lp:shoot": "node tools/lp-shoot.mjs",
     "lp:walk": "node tools/lp-walk.mjs",
+    "lp:events": "node tools/lp-events.mjs",
     "lp:network": "node tools/lp-network.mjs",
     "lp:fold": "node tools/lp-fold.mjs",
     "lp:overflow": "node tools/lp-overflow.mjs",
