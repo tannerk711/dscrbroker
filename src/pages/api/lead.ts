@@ -30,30 +30,21 @@ const BROKER_WEBHOOK_ENV: Record<string, string> = {
   broker_g: 'WEBHOOK_BROKER_G',
 };
 
-// States split between two brokers, resolved HERE (server-side), never client-side.
-// Exactly ONE broker gets each lead. No shared leads, ever.
-// GA: John Peisner (broker_c) / Adam Cunningham (broker_f), 50/50. Added 2026-08-11.
-const SPLIT_STATES: Record<string, [string, string]> = {
-  GA: ['broker_c', 'broker_f'],
-};
-
 // States owned by exactly one broker where the SERVER, not the client bundle, is
 // authoritative. A browser that loaded the form before a routing deploy keeps the
 // old client-side map and would keep sending these to the previous broker; this
 // override closes that window. Added 2026-10-29 when CA/ID/MT/OR/WA moved to
-// broker_g (Taylor Sundquist / Future Mortgage).
+// broker_g (Taylor Sundquist / Future Mortgage). GA added 2026-11-07 when the
+// 50/50 John/Adam split retired and GA went to broker_f (Adam / Tall Timbers)
+// solo; every state is now single-broker and the SPLIT_STATES machinery is gone.
 const SINGLE_OWNER_STATES: Record<string, string> = {
   CA: 'broker_g',
   ID: 'broker_g',
   MT: 'broker_g',
   OR: 'broker_g',
   WA: 'broker_g',
+  GA: 'broker_f',
 };
-
-// 50/50 pick: strict alternation while the serverless instance stays warm, random
-// re-seed on cold start. Approximates round robin without a datastore; long-run
-// distribution is 50/50 either way.
-let splitFlip = Math.random() < 0.5 ? 0 : 1;
 
 const json = (body: unknown, status: number) =>
   new Response(JSON.stringify(body), {
@@ -152,7 +143,6 @@ export const POST: APIRoute = async ({ request }) => {
   let brokerKey =
     (typeof payload.matchedBroker === 'string' && payload.matchedBroker) || 'broker_a';
 
-  // Split states: the server owns the pick. Overrides whatever the client sent.
   const stateCode =
     typeof payload.stateCode === 'string' ? payload.stateCode.toUpperCase() : '';
 
@@ -162,25 +152,6 @@ export const POST: APIRoute = async ({ request }) => {
   if (singleOwner) {
     brokerKey = singleOwner;
     payload.matchedBroker = singleOwner;
-  }
-
-  const split = SPLIT_STATES[stateCode];
-  if (split) {
-    splitFlip = 1 - splitFlip;
-    let pick = split[splitFlip];
-    // Resilience: if the picked broker's webhook is not configured yet, fall back
-    // to the other split broker instead of dropping the lead.
-    if (!import.meta.env[BROKER_WEBHOOK_ENV[pick]]) {
-      const other = split[1 - splitFlip];
-      if (import.meta.env[BROKER_WEBHOOK_ENV[other]]) {
-        console.error(`[lead] Split pick ${pick} has no webhook; falling back to ${other}`);
-        pick = other;
-      }
-    }
-    brokerKey = pick;
-    // Keep the forwarded payload consistent with the actual assignment so the
-    // CRM record matches who really got the lead.
-    payload.matchedBroker = brokerKey;
   }
 
   const envName = BROKER_WEBHOOK_ENV[brokerKey] || BROKER_WEBHOOK_ENV.broker_a;

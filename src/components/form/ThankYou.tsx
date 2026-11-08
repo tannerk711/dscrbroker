@@ -119,8 +119,8 @@ const DEFAULT_SPECIALIST: SpecialistProfile = {
 };
 
 // Adam Cunningham / Tall Timbers. Second lender in the network (added 2026-08-11).
-// Covers AK, HI, LA, MS, MO, NM, OH solo, plus the GA 50/50 split with John
-// (MT moved to broker_g / Taylor Sundquist 2026-10-29).
+// Covers AK, GA, HI, LA, MS, MO, NM, OH solo (GA solo since 2026-11-07, 50/50
+// split retired; MT moved to broker_g / Taylor Sundquist 2026-10-29).
 // Review quotes are the approved Tall Timbers deal stories (clients/tall-timbers-funnel,
 // funnel.ts), trimmed for length. No invented numbers: 250+ closed is the locked claim.
 const ADAM_SPECIALIST: SpecialistProfile = {

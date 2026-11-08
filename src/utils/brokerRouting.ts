@@ -1,12 +1,11 @@
 // State-to-broker routing map
 // Note: NY, MI, ND, SD, UT excluded from form (trimmed 2026-08-11; was 13 states from 2026-04-27).
-// broker_f = Adam Cunningham / Tall Timbers (added 2026-08-11): AK, HI, LA, MS, MO, NM, OH.
+// broker_f = Adam Cunningham / Tall Timbers (added 2026-08-11): AK, HI, LA, MS, MO, NM, OH;
+// GA added solo 2026-11-07 (the old 50/50 John/Adam split is retired; every state is
+// single-broker, and the server forces GA in src/pages/api/lead.ts SINGLE_OWNER_STATES
+// to cover stale client bundles).
 // broker_g = Taylor Sundquist / Future Mortgage (added 2026-10-29): CA, ID, MT, OR, WA solo
-// (CA/WA moved off broker_b, ID/OR off broker_a, MT off broker_f; the server also forces
-// these five in src/pages/api/lead.ts SINGLE_OWNER_STATES to cover stale client bundles).
-// GA is a 50/50 split between John (broker_c) and Adam (broker_f). The client-side map
-// keeps GA -> broker_c as a placeholder; the REAL pick happens server-side in
-// src/pages/api/lead.ts (SPLIT_STATES), which returns the assigned broker to the form.
+// (CA/WA moved off broker_b, ID/OR off broker_a, MT off broker_f; also server-forced).
 const STATE_TO_BROKER: Record<string, string> = {
   AL: 'broker_a', AR: 'broker_a', CT: 'broker_a',
   DE: 'broker_a', IN: 'broker_a',
@@ -16,13 +15,13 @@ const STATE_TO_BROKER: Record<string, string> = {
   RI: 'broker_a', VT: 'broker_a', WI: 'broker_a',
   WY: 'broker_a',
   AZ: 'broker_b', CO: 'broker_b', NV: 'broker_b',
-  FL: 'broker_c', GA: 'broker_c', NC: 'broker_c', SC: 'broker_c',
+  FL: 'broker_c', NC: 'broker_c', SC: 'broker_c',
   TN: 'broker_c', VA: 'broker_c',
   TX: 'broker_d', OK: 'broker_d',
   MD: 'broker_d',
   NJ: 'broker_e', PA: 'broker_e', MA: 'broker_e',
   IL: 'broker_e', DC: 'broker_e', WV: 'broker_e',
-  AK: 'broker_f', HI: 'broker_f', LA: 'broker_f', MS: 'broker_f',
+  AK: 'broker_f', GA: 'broker_f', HI: 'broker_f', LA: 'broker_f', MS: 'broker_f',
   MO: 'broker_f', NM: 'broker_f', OH: 'broker_f',
   CA: 'broker_g', ID: 'broker_g', MT: 'broker_g', OR: 'broker_g',
   WA: 'broker_g',

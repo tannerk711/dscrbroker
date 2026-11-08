@@ -11,8 +11,9 @@
 //     (a 502 can mean the Zap already fired), only a thrown network error retries once
 //   - the TCPA consent record is the verbatim CONSENT_TEXT + the click timestamp +
 //     the URL; the server stamps IP / user agent / received-at and 400s without it
-//   - split states (GA) are resolved SERVER-SIDE; `matchedBroker` here is a guess the
-//     API overrides, and the thank-you page renders the API's `assignedBroker`
+//   - server-forced states (SINGLE_OWNER_STATES in api/lead.ts, incl. GA since
+//     2026-11-07) override `matchedBroker`; the thank-you page renders the API's
+//     `assignedBroker`
 //   - excluded states never POST (the network has nobody to send them to)
 import {
   CONSENT_TEXT,
