@@ -18,7 +18,9 @@
 
 const HOST = 'dscrbroker.com';
 const KEY = 'eef7c16dad327f56bfeb306c0da88556';
-const SITEMAP = `https://${HOST}/sitemap-0.xml`;
+// sitemap-index.xml points at the four family files (sitemap-0.xml retired
+// by the 2026-10-07 family split; this script caught up 2026-11-07).
+const SITEMAP_INDEX = `https://${HOST}/sitemap-index.xml`;
 const ENDPOINT = 'https://api.indexnow.org/indexnow';
 const onlyIdx = process.argv.indexOf('--only');
 const ONLY = onlyIdx !== -1 ? new RegExp(process.argv[onlyIdx + 1]) : null;
@@ -33,15 +35,26 @@ if (!keyRes.ok || keyBody !== KEY) {
 }
 console.log(`Key file live: ${keyFileUrl}`);
 
-const xml = await (await fetch(SITEMAP)).text();
-const urls = [...xml.matchAll(/<loc>([^<]+)<\/loc>/g)]
-  .map((m) => m[1].trim())
-  // /qualify/ is meta-noindexed; asking engines to index it is noise.
-  .filter((u) => !u.includes('/qualify'))
-  .filter((u) => !ONLY || ONLY.test(u));
+const indexXml = await (await fetch(SITEMAP_INDEX)).text();
+const sitemaps = [...indexXml.matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => m[1].trim());
+if (sitemaps.length === 0) {
+  console.error(`No sitemap files parsed from ${SITEMAP_INDEX}`);
+  process.exit(1);
+}
+const urls = [];
+for (const sm of sitemaps) {
+  const xml = await (await fetch(sm)).text();
+  for (const m of xml.matchAll(/<loc>([^<]+)<\/loc>/g)) {
+    const u = m[1].trim();
+    // /qualify/ is meta-noindexed; asking engines to index it is noise.
+    if (u.includes('/qualify')) continue;
+    if (ONLY && !ONLY.test(u)) continue;
+    urls.push(u);
+  }
+}
 
 if (urls.length === 0) {
-  console.error(`No URLs parsed from ${SITEMAP}`);
+  console.error(`No URLs parsed from ${sitemaps.length} sitemap file(s)`);
   process.exit(1);
 }
 console.log(`Submitting ${urls.length} URLs from the sitemap...`);
