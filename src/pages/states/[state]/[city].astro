@@ -51,34 +51,19 @@ const nearbyCities = stateFile.cities
 const title = `DSCR Loans in ${c.city}, ${stateFile.abbreviation} | DSCRBroker.com`;
 const canonical = `https://dscrbroker.com/states/${stateSlug}/${c.slug}/`;
 
+// WebPage replaced the old FinancialService + AggregateOffer block (invented
+// offer figures, fake local-presence signal); rebuilt honest 2026-11-07.
 const jsonLd = [
   {
     "@context": "https://schema.org",
-    "@type": "FinancialService",
+    "@type": "WebPage",
     "name": `DSCR Loans in ${c.city}, ${stateName} | DSCRBroker.com`,
     "url": canonical,
-    "description": `DSCR loans in ${c.city}, ${stateName} structured by licensed DSCR specialists. Access to 70+ lenders. No income documentation required.`,
-    "serviceType": "DSCR Loan Broker Matching",
-    "areaServed": {
-      "@type": "City",
-      "name": c.city,
-      "containedInPlace": {
-        "@type": "State",
-        "name": stateName,
-        "containedInPlace": { "@type": "Country", "name": "United States" }
-      }
-    },
-    "provider": {
+    "description": `DSCR loan programs and market data for ${c.city}, ${stateName} real estate investors. DSCRBroker.com is a matching service, not a lender.`,
+    "publisher": {
       "@type": "Organization",
       "name": "DSCRBroker.com",
       "url": "https://dscrbroker.com"
-    },
-    "offers": {
-      "@type": "AggregateOffer",
-      "priceCurrency": "USD",
-      "lowPrice": "75000",
-      "highPrice": "3000000",
-      "offerCount": "8"
     }
   },
   {
@@ -209,8 +194,8 @@ const monthlyTaxAtMedian = Math.round(m.medianPrice * m.propertyTaxRate / 100 / 
           <div class="text-xs text-slate-400 uppercase tracking-wider mt-1 font-medium">Est. DSCR at Median</div>
         </div>
         <div class="bg-white/[0.04] border border-white/[0.08] rounded-lg px-5 py-4 text-center">
-          <div class="text-2xl font-extrabold text-white">70+</div>
-          <div class="text-xs text-slate-400 uppercase tracking-wider mt-1 font-medium">Lenders in Network</div>
+          <div class="text-2xl font-extrabold text-white">8</div>
+          <div class="text-xs text-slate-400 uppercase tracking-wider mt-1 font-medium">DSCR Loan Programs</div>
         </div>
       </div>
 
@@ -535,11 +520,11 @@ const monthlyTaxAtMedian = Math.round(m.medianPrice * m.propertyTaxRate / 100 / 
       <div class="flex flex-wrap justify-center gap-6 mt-8 text-xs text-slate-400">
         <span class="flex items-center gap-1.5">
           <svg class="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" /></svg>
-          70+ DSCR Lenders
+          Vetted DSCR Brokers
         </span>
         <span class="flex items-center gap-1.5">
           <svg class="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" /></svg>
-          All 50 States
+          45 States + DC
         </span>
         <span class="flex items-center gap-1.5">
           <svg class="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" /></svg>

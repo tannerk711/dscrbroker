@@ -28,7 +28,9 @@ const STATE_TO_BROKER: Record<string, string> = {
 };
 
 // States excluded from the form (broker network does not currently cover).
-const EXCLUDED_STATES = new Set(['NY', 'MI', 'ND', 'SD', 'UT']);
+// Exported since 2026-11-07: StateLayout renders the honest no-coverage
+// treatment for these five instead of the matched-broker licensing note.
+export const EXCLUDED_STATES = new Set(['NY', 'MI', 'ND', 'SD', 'UT']);
 
 // The per-broker webhook env NAMES (WEBHOOK_BROKER_A..G) live server-side only, in
 // src/pages/api/lead.ts BROKER_WEBHOOK_ENV. The old client-side BROKER_ENV_MAP +

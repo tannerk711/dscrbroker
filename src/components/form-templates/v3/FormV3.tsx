@@ -422,7 +422,7 @@ export default function FormV3({ embedded = false, lead }: { embedded?: boolean;
                   DSCRBroker.com
                 </p>
                 <p className="fv3-t-soft mt-1 text-[11px] sm:text-xs">
-                  An Independent DSCR Lender Network
+                  An Independent DSCR Broker Network
                 </p>
               </div>
               <div className="hidden text-right md:block">

@@ -4,7 +4,6 @@ import HowItWorks from '../components/HowItWorks.astro';
 import ProgramGrid from '../components/ProgramGrid.astro';
 import WhoQualifies from '../components/WhoQualifies.astro';
 import StateCoverage from '../components/StateCoverage.astro';
-import TestimonialCarousel from '../components/TestimonialCarousel';
 import FAQAccordion from '../components/FAQAccordion';
 import FinalCTA from '../components/FinalCTA.astro';
 import FormV3 from '../components/form-templates/v3/FormV3';
@@ -17,30 +16,21 @@ import type { LeadConfig } from '../lib/form-templates/live-submit';
 // only the leadSource differs so GHL tells homepage leads from /qualify/ leads.
 const lead: LeadConfig = { ...qualifyLead, leadSource: 'homepage-v3' };
 
-const title = 'DSCR Loans | Specialist Brokers in All 50 States | DSCRBroker.com';
-const description = 'DSCR loans for real estate investors, structured by licensed specialists in all 50 states. No income verification, no tax returns, no credit pull. Matched in 2 minutes.';
+const title = 'DSCR Loans | Vetted Broker Matching | DSCRBroker.com';
+const description = 'DSCR loans for investors. Get matched with the vetted DSCR broker for your state in 2 minutes. No income docs, no tax returns, no credit pull.';
 
 const jsonLd = {
   "@context": "https://schema.org",
-  "@type": "FinancialService",
+  "@type": "Organization",
   "name": "DSCRBroker.com",
-  "description": "DSCR loan matching service connecting real estate investors with licensed brokers across all 50 states.",
   "url": "https://dscrbroker.com",
-  "areaServed": {
-    "@type": "Country",
-    "name": "United States"
-  },
-  "serviceType": "DSCR Loan Matching",
-  "provider": {
-    "@type": "Organization",
-    "name": "DSCRBroker.com"
-  }
+  "description": "A matching service that connects real estate investors with vetted, licensed DSCR brokers in 45 states and D.C. DSCRBroker.com is not a lender."
 };
 
 const faqItems = [
   {
     question: 'What is a DSCR loan?',
-    answer: 'A DSCR (Debt Service Coverage Ratio) loan qualifies you based on the property\'s rental income, not your personal income. The lender divides the monthly rent by the monthly mortgage payment (PITIA). If the ratio is 1.0x or higher, the property qualifies. No W-2s, no tax returns, no employment verification. Available on single-family homes, 2-8 unit properties, condos, and townhomes in all 50 states.',
+    answer: 'A DSCR (Debt Service Coverage Ratio) loan qualifies you based on the property\'s rental income, not your personal income. The lender divides the monthly rent by the monthly mortgage payment (PITIA). If the ratio is 1.0x or higher, the property qualifies. No W-2s, no tax returns, no employment verification. Available on single-family homes, 2-8 unit properties, condos, and townhomes in 45 states and D.C.',
   },
   {
     question: 'What credit score do I need for a DSCR loan?',
@@ -64,7 +54,7 @@ const faqItems = [
   },
   {
     question: 'How is DSCRBroker.com different from going direct to a lender?',
-    answer: 'When you go direct, you get one lender\'s program, and a loan officer whose job is to fit your file into that lender\'s box. When you use DSCRBroker.com, your matched broker is a DSCR specialist who structures your deal for approval and matches it to the right lender from 70+ in our network. The difference is judgment: which lender\'s overlays fit your scenario, how to position the file, and how to handle exceptions when automation breaks.',
+    answer: 'When you go direct, you get one lender\'s program, and a loan officer whose job is to fit your file into that lender\'s box. When you use DSCRBroker.com, your matched broker is a DSCR specialist who structures your deal for approval and routes it to the lender whose guidelines actually fit it. The difference is judgment: which lender\'s overlays fit your scenario, how to position the file, and how to handle exceptions when automation breaks.',
   },
   {
     question: 'Does submitting the form affect my credit score?',
@@ -111,7 +101,7 @@ const faqJsonLd = {
       </h1>
 
       <p class="mx-auto mt-4 max-w-2xl text-base leading-relaxed text-gray-600 md:mt-5 md:text-lg">
-        We match real estate investors with licensed DSCR specialists in all 50 states.
+        We match real estate investors with a vetted DSCR broker for their state.
       </p>
 
       <div id="lead-form" class="home-v3 mx-auto mt-8 w-full max-w-4xl text-left scroll-mt-24 md:mt-10">
@@ -126,24 +116,24 @@ const faqJsonLd = {
     <div class="relative mx-auto max-w-[1080px] px-4 sm:px-6 lg:px-8">
       <div class="grid grid-cols-2 gap-8 md:grid-cols-4 md:gap-12">
         <div data-gsap="stat" class="text-center md:border-r md:border-white/10">
-          <p class="text-4xl font-bold text-action md:text-5xl" style="font-variant-numeric: tabular-nums;" data-count-to="70" data-count-suffix="+">70+</p>
-          <p class="mt-1 text-xs font-medium uppercase tracking-[0.08em] text-slate-300">Lenders in Network</p>
-          <p class="mt-0.5 text-[13px] text-slate-400">More ways to structure your deal</p>
+          <p class="text-4xl font-bold text-action md:text-5xl" style="font-variant-numeric: tabular-nums;">4.9&#9733;</p>
+          <p class="mt-1 text-xs font-medium uppercase tracking-[0.08em] text-slate-300">Google Rating</p>
+          <p class="mt-0.5 text-[13px] text-slate-400">Our brokers, across 5,400+ reviews</p>
         </div>
         <div data-gsap="stat" class="text-center md:border-r md:border-white/10">
-          <p class="text-4xl font-bold text-action md:text-5xl" style="font-variant-numeric: tabular-nums;" data-count-to="50">50</p>
-          <p class="mt-1 text-xs font-medium uppercase tracking-[0.08em] text-slate-300">States Covered</p>
-          <p class="mt-0.5 text-[13px] text-slate-400">Licensed in every state</p>
+          <p class="text-4xl font-bold text-action md:text-5xl" style="font-variant-numeric: tabular-nums;" data-count-to="45">45</p>
+          <p class="mt-1 text-xs font-medium uppercase tracking-[0.08em] text-slate-300">States + DC</p>
+          <p class="mt-0.5 text-[13px] text-slate-400">Matched by your property's state</p>
         </div>
         <div data-gsap="stat" class="text-center md:border-r md:border-white/10">
-          <p class="text-4xl font-bold text-action md:text-5xl" style="font-variant-numeric: tabular-nums;" data-count-to="21">21</p>
-          <p class="mt-1 text-xs font-medium uppercase tracking-[0.08em] text-slate-300">Day Avg Close</p>
-          <p class="mt-0.5 text-[13px] text-slate-400">Application to funded</p>
+          <p class="text-4xl font-bold text-action md:text-5xl" style="font-variant-numeric: tabular-nums;" data-count-to="1">1</p>
+          <p class="mt-1 text-xs font-medium uppercase tracking-[0.08em] text-slate-300">Broker Gets Your File</p>
+          <p class="mt-0.5 text-[13px] text-slate-400">One call, never a call list</p>
         </div>
         <div data-gsap="stat" class="text-center">
           <p class="text-4xl font-bold text-action md:text-5xl" style="font-variant-numeric: tabular-nums;" data-count-to="0" data-count-prefix="$">$0</p>
-          <p class="mt-1 text-xs font-medium uppercase tracking-[0.08em] text-slate-300">Upfront Fees</p>
-          <p class="mt-0.5 text-[13px] text-slate-400">No application or junk fees</p>
+          <p class="mt-1 text-xs font-medium uppercase tracking-[0.08em] text-slate-300">Cost to Investors</p>
+          <p class="mt-0.5 text-[13px] text-slate-400">Free to get matched</p>
         </div>
       </div>
     </div>
@@ -176,22 +166,9 @@ const faqJsonLd = {
   <!-- Section 7: State Coverage -->
   <StateCoverage />
 
-  <!-- Section 8: Testimonials -->
-  <section id="testimonials" class="bg-off-white py-16 md:py-24">
-    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-      <div class="mx-auto max-w-3xl text-center">
-        <p data-gsap="eyebrow" class="text-xs font-medium uppercase tracking-[0.1em] text-amber mb-3">RESULTS</p>
-        <h2 data-gsap="heading" class="text-3xl font-bold tracking-tight text-navy md:text-4xl">What Investors Say After Closing</h2>
-        <p data-gsap="subhead" class="mt-4 text-lg text-gray-500">Real deals. Real numbers. Real investors who closed through our broker network.</p>
-      </div>
-      <div class="mt-12">
-        <TestimonialCarousel client:visible />
-      </div>
-      <p class="text-xs text-gray-400 mt-8 text-center max-w-2xl mx-auto">
-        Results may vary. Individual loan terms depend on borrower qualifications, property characteristics, and lender guidelines. Past results do not guarantee future performance. Testimonials reflect the individual experiences of specific borrowers and are not representative of all borrowers.
-      </p>
-    </div>
-  </section>
+  <!-- Section 8 (Testimonials) REMOVED 2026-11-07: the carousel's quotes were
+       fabricated (restructure Phase 1). The slot stays empty until Phase 2's
+       homepage mocks decide what, if anything, fills it. -->
 
   <!-- Section 9: FAQ -->
   <section id="faq" class="bg-white py-16 md:py-24">

@@ -147,7 +147,7 @@ Full detail in the project `CLAUDE.md` (Positioning Thesis + Copy & Tone Rules) 
    allowed; the site claiming rates is not.
 3. Licensed activity (quoting, structuring, underwriting, credit pulls, presenting to
    lenders) is attributed to "your matched specialist" / "DSCR lenders", never "we".
-4. "70+ lenders", never "50+".
+4. NO lender-count claims at all ("70+", "50+", "all lenders": every count is banned since 2026-11-07). Say "the lender network" / "many lenders".
 5. No close-time day counts. "Fast closings on clean files" is the ceiling.
 6. No phone numbers.
 7. No "soft pull" / credit-pull claims about the form.

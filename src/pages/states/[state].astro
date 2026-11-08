@@ -43,39 +43,20 @@ const metaDescription = stateData.metaAngle;
 // Build title
 const title = `DSCR Loans in ${stateData.state} | Licensed Specialist | DSCRBroker.com`;
 
-// Build JSON-LD (3 schemas: FinancialService, FAQPage, BreadcrumbList)
+// Build JSON-LD (3 schemas: WebPage, FAQPage, BreadcrumbList). The old
+// FinancialService + AggregateOffer + PostalAddress block implied a local
+// office and invented offer figures; rebuilt honest 2026-11-07 (Phase 1).
 const jsonLd = [
   {
     "@context": "https://schema.org",
-    "@type": "FinancialService",
+    "@type": "WebPage",
     "name": `DSCR Loans in ${stateData.state} | DSCRBroker.com`,
     "url": `https://dscrbroker.com/states/${stateData.slug}/`,
-    "description": `DSCR loans in ${stateData.state} structured by licensed DSCR specialists. Access to 70+ lenders. No income documentation required.`,
-    "serviceType": "DSCR Loan Broker Matching",
-    "areaServed": {
-      "@type": "State",
-      "name": stateData.state,
-      "containedInPlace": {
-        "@type": "Country",
-        "name": "United States"
-      }
-    },
-    "provider": {
+    "description": `DSCR loan programs and market data for ${stateData.state} real estate investors. DSCRBroker.com is a matching service, not a lender.`,
+    "publisher": {
       "@type": "Organization",
       "name": "DSCRBroker.com",
       "url": "https://dscrbroker.com"
-    },
-    "offers": {
-      "@type": "AggregateOffer",
-      "priceCurrency": "USD",
-      "lowPrice": "75000",
-      "highPrice": "3000000",
-      "offerCount": "8"
-    },
-    "address": {
-      "@type": "PostalAddress",
-      "addressRegion": stateData.abbreviation,
-      "addressCountry": "US"
     }
   },
   {

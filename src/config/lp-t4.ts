@@ -66,7 +66,7 @@ export const brand = {
   logoSuffix: '.com',
   // Topbar shows the wordmark alone (tagline + audience line cut, Tanner 2026-10-26);
   // the footer still uses the tagline under the wordmark.
-  tagline: 'Independent DSCR lender network',
+  tagline: 'Independent DSCR broker network',
 };
 
 export const seo = {

@@ -358,13 +358,13 @@ export default function ThankYou() {
             <svg className="mt-0.5 h-5 w-5 flex-shrink-0 text-blue-light" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2.5">
               <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
             </svg>
-            <span className="text-sm md:text-base">Your matched specialist has access to over 70 sources of funding and will work to find the best fit for your file.</span>
+            <span className="text-sm md:text-base">Your matched specialist works across many lenders and knows which ones actually fit files like yours.</span>
           </li>
           <li className="flex items-start gap-3 text-white/80">
             <svg className="mt-0.5 h-5 w-5 flex-shrink-0 text-blue-light" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2.5">
               <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
             </svg>
-            <span className="text-sm md:text-base">Your matched DSCR specialist{stateFullName ? ` in ${stateFullName}` : ''} will reach out within 1 business hour to verify a few details.</span>
+            <span className="text-sm md:text-base">Your matched DSCR specialist{stateFullName ? ` in ${stateFullName}` : ''} will reach out shortly to verify a few details.</span>
           </li>
           <li className="flex items-start gap-3 text-white/80">
             <svg className="mt-0.5 h-5 w-5 flex-shrink-0 text-blue-light" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2.5">

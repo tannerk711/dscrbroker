@@ -102,20 +102,16 @@ const legalLinks = [
         DSCRBroker.com is a referral and matching service. We are not a lender, bank, or mortgage broker. We connect borrowers with licensed DSCR loan professionals. All loan decisions are made by the matched broker and their wholesale lending partners. Loan terms and approval are subject to individual lender guidelines and borrower qualifications. DSCRBroker.com does not charge borrowers any fees.
       </p>
 
-      <!-- Equal Housing Opportunity -->
-      <div class="flex items-start justify-center gap-3 text-xs text-slate-400 max-w-4xl mx-auto">
-        <!-- EHO Logo SVG -->
-        <svg class="h-6 w-6 flex-shrink-0 fill-slate-400" viewBox="0 0 24 24" aria-label="Equal Housing Opportunity">
-          <path d="M12 2L2 10h3v10h14V10h3L12 2zm0 2.84L18 10v10H6V10l6-5.16zM11 12h2v6h-2v-6z" />
-        </svg>
-        <p class="leading-relaxed">
-          Equal Housing Opportunity. All participating brokers in the DSCRBroker.com network are equal opportunity lenders. Loans are available regardless of race, color, religion, national origin, sex, handicap, or familial status, in accordance with the Fair Housing Act.
-        </p>
-      </div>
+      <!-- Housing paragraph: attributes EHO to the participating brokers (the one
+           sanctioned carve-out; the directory itself never displays the EHO mark,
+           glyph removed 2026-11-07 on Tanner's sanction). -->
+      <p class="text-xs text-slate-400 max-w-4xl mx-auto text-center leading-relaxed">
+        Equal Housing Opportunity. All participating brokers in the DSCRBroker.com network are equal opportunity lenders. Loans are available regardless of race, color, religion, national origin, sex, handicap, or familial status, in accordance with the Fair Housing Act.
+      </p>
 
       <!-- Copyright -->
       <p class="text-center text-xs text-slate-500">
-        &copy; {currentYear} DSCRBroker.com. All rights reserved. {/* PLACEHOLDER: NMLS #XXXXXX */}
+        &copy; {currentYear} DSCRBroker.com. All rights reserved.
       </p>
     </div>
   </div>
