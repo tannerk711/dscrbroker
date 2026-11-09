@@ -17,7 +17,7 @@ const navLinks = [
   <button
     type="button"
     data-mobile-nav-toggle
-    class="relative z-50 flex h-11 w-11 items-center justify-center rounded-lg text-navy"
+    class="relative z-50 flex h-11 w-11 items-center justify-center rounded-lg text-white"
     aria-label="Open menu"
     aria-expanded="false"
   >
@@ -34,26 +34,30 @@ const navLinks = [
   </button>
 
   <!-- Overlay -->
-  <div data-mobile-nav-overlay class="fixed inset-0 z-40 hidden bg-navy/50 backdrop-blur-sm"></div>
+  <div data-mobile-nav-overlay class="fixed inset-0 z-40 hidden bg-navy/80 backdrop-blur-sm"></div>
 
   <!-- Slide-out panel -->
   <div
     data-mobile-nav-panel
-    class="fixed top-0 right-0 z-40 h-full w-72 bg-white border-l border-gray-200 shadow-xl transform transition-transform duration-300 ease-out translate-x-full"
+    class="fixed top-0 right-0 z-40 h-full w-72 bg-navy-light border-l border-navy-mid transform transition-transform duration-300 ease-out translate-x-full"
   >
     <nav class="flex flex-col gap-1 px-4 pt-20" aria-label="Mobile navigation">
       {navLinks.map((link) => (
         <a
           href={link.href}
           data-mobile-nav-link
-          class="rounded-lg px-4 py-3 text-base font-medium text-gray-600 transition-colors hover:bg-gray-100 hover:text-navy"
+          class="rounded-lg px-4 py-3 text-base font-medium text-slate-300 transition-colors hover:bg-navy-mid hover:text-white"
         >
           {link.label}
         </a>
       ))}
 
-      <div class="mt-4 border-t border-gray-200 pt-4">
-        <a href="/qualify/" data-mobile-nav-link class="btn-action w-full text-sm">
+      <div class="mt-4 border-t border-navy-mid pt-4">
+        <a
+          href="/qualify/"
+          data-mobile-nav-link
+          class="flex items-center justify-center rounded-lg bg-blue px-4 py-3 text-sm font-semibold text-white transition-colors hover:bg-blue-dark"
+        >
           Match Me With a Specialist
         </a>
       </div>
