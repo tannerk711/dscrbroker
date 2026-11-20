@@ -19,7 +19,7 @@
 //     Every key always present, '' when absent.
 //
 // lead_source is the CHANNEL, never the surface (the payload's `leadSource`
-// already names the surface: homepage-v3 / qualify-lp-t4). Taxonomy:
+// already names the surface: homepage-classic / qualify-classic). Taxonomy:
 //   google_ads | ai_chatgpt | ai_perplexity | ai_copilot | ai_gemini |
 //   ai_claude | organic_google | organic_bing | organic_duckduckgo |
 //   organic_yahoo | <utm src/medium> | referral:<host> | direct

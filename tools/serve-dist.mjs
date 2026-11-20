@@ -1,7 +1,6 @@
-// Static server for the BUILT output (FORM-LP-BRIEF.md section 5). `astro preview`
-// is not supported by the Vercel adapter, so this stands in for Lighthouse and
-// prod-like reads of the shipped HTML/CSS. Ported from
-// clients/dscr-funnel-template-4/tools/serve-dist.mjs.
+// Static server for the BUILT output. `astro preview` is not supported by the
+// Vercel adapter, so this stands in for prod-like reads of the shipped HTML/CSS
+// (the lp-events gate and qualify-shoot run it in-process).
 //
 // Root: dist/client, fallback .vercel/output/static, fallback dist/.
 // Clean URLs: `/` -> index.html, `/a/b` -> /a/b/index.html then /a/b.html, else 404.
