@@ -1,36 +1,47 @@
 ---
-// /qualify/: the lp-t4 paid-traffic landing page (template 4 structure carrying
-// the V3 form as the hero), migrated from branch form-templates on 2026-10-30
-// per FORM-LP-BRIEF.md section 8. Tanner approved the page 2026-09-09 and ran
-// his own review passes 2026-10-08 + 2026-10-26; structure, motion, copy, and
-// form flow are LOCKED. Live lead delivery + tracking switch: src/config/lp-t4.ts.
-// Section rhythm (2026-10-26 edit: FAQ cut, its facts folded into Advantages):
-// white (hero) -> navy (trust) -> paper (how) -> mist (advantages) ->
-// brand-deep (final) -> ink (footer).
-import LpT4Layout from '../layouts/LpT4Layout.astro';
-import Topbar from '../components/lp-t4/Topbar.astro';
-import HeroStage from '../components/lp-t4/HeroStage.astro';
-import TrustBand from '../components/lp-t4/TrustBand.astro';
-import HowItWorks from '../components/lp-t4/HowItWorks.astro';
-import Advantages from '../components/lp-t4/Advantages.astro';
-import FinalCta from '../components/lp-t4/FinalCta.astro';
-import Footer from '../components/lp-t4/Footer.astro';
-import StickyCta from '../components/lp-t4/StickyCta.astro';
+// /qualify/: the ORIGINAL form-only page, restored 2026-11-19 on Tanner's call
+// (the pre-10/30 shape from e0a8de0: the DSCRForm card on the dark ground and
+// nothing else). Same island as the homepage hero; `surface` tags its events
+// and leads `qualify-classic`. Claims per positioning-anchors v2 (45 + DC, no
+// speed claims). noindex + out of the sitemap, as before.
+import LandingLayout from '../layouts/LandingLayout.astro';
+import DSCRForm from '../components/form/DSCRForm';
+
+const trustChips = [
+  { label: 'No Credit Pull', color: 'text-green', paths: ['M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z'] },
+  { label: 'No Income Docs', color: 'text-blue-light', paths: ['M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z'] },
+  { label: '45 States + DC', color: 'text-blue-light', paths: ['M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z', 'M15 11a3 3 0 11-6 0 3 3 0 016 0z'] },
+];
 ---
 
-<LpT4Layout>
-  <Topbar />
-  <main id="main">
-    <HeroStage />
-    <TrustBand />
-    <HowItWorks />
-    <Advantages />
-    <FinalCta />
-  </main>
-  <Footer />
-  <StickyCta />
-</LpT4Layout>
+<LandingLayout
+  title="Get Matched With a DSCR Specialist | DSCRBroker.com"
+  description="Get matched with a licensed DSCR specialist for your state in 2 minutes. No income docs, no tax returns, no credit pull."
+  noIndex={true}
+>
+  <section class="relative min-h-[calc(100vh-140px)] flex items-start sm:items-center justify-center py-6 sm:py-12 px-4">
+    <!-- Subtle radial gradient background -->
+    <div class="absolute inset-0" style="background: radial-gradient(ellipse at 50% 40%, #131C31 0%, #0B1120 70%);" aria-hidden="true"></div>
 
-<script>
-  import '../scripts/lp-motion.ts';
-</script>
+    <div class="relative w-full max-w-[560px] mx-auto">
+      {/* Form card */}
+      <div id="lead-form" class="rounded-xl bg-white/[0.04] border border-white/[0.08] p-4 sm:p-8">
+        <h1 class="text-2xl font-bold text-white mb-1">Check Your DSCR Eligibility</h1>
+        <p class="text-sm text-white/50 mb-4 sm:mb-6">2 minutes. No SSN. No credit pull.</p>
+        <DSCRForm client:load surface="qualify-classic" />
+      </div>
+
+      {/* Trust signals below form */}
+      <div class="mt-6 flex flex-wrap items-center justify-center gap-4">
+        {trustChips.map((chip) => (
+          <span class="flex items-center gap-1.5 text-xs text-white/40">
+            <svg class={`h-4 w-4 ${chip.color}`} fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+              {chip.paths.map((d) => <path stroke-linecap="round" stroke-linejoin="round" d={d} />)}
+            </svg>
+            {chip.label}
+          </span>
+        ))}
+      </div>
+    </div>
+  </section>
+</LandingLayout>

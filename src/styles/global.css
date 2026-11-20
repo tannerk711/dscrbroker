@@ -110,6 +110,15 @@ body {
   line-height: 1.6;
 }
 
+/* LandingLayout pages (/qualify, legal) sit on the dark ground end to end.
+   Unlayered on purpose: the rule above is unlayered too, so bg-navy/text-white
+   utilities on <body> lose to it and the footer disclaimer rendered white on
+   off-white. */
+body.landing-dark {
+  color: #fff;
+  background-color: var(--color-navy);
+}
+
 ::selection {
   background-color: var(--color-blue);
   color: var(--color-white);

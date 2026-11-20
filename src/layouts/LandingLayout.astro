@@ -42,13 +42,7 @@ const canonicalUrl = canonical || new URL(Astro.url.pathname, siteUrl).href;
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 
-    <!-- Font preload -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
-      rel="stylesheet"
-    />
+    <!-- Roboto is self-hosted site-wide (@font-face in global.css), no Google Fonts chain -->
 
     <!-- JSON-LD Structured Data -->
     {jsonLd && (
@@ -94,7 +88,7 @@ const canonicalUrl = canonical || new URL(Astro.url.pathname, siteUrl).href;
 
     <slot name="head" />
   </head>
-  <body class="bg-navy min-h-screen text-white antialiased" style="font-family: 'Inter', system-ui, sans-serif;">
+  <body class="landing-dark min-h-screen antialiased">
     {/* GTM noscript fallback */}
     {import.meta.env.PUBLIC_GTM_ID && (
       <noscript>

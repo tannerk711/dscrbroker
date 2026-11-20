@@ -28,7 +28,7 @@ export default defineConfig({
     react(),
     mdx(),
     // Exclude noindex routes (paid-ad /lp/* pages, the post-submit /thank-you/,
-    // and /qualify/, the lp-t4 paid destination since 2026-10-30) so the sitemap
+    // and /qualify/, the standalone form page) so the sitemap
     // does not contradict their robots meta. The integration's single
     // sitemap-0.xml is then split by family and given lastmod by the postbuild
     // scripts/build-sitemaps.mjs.

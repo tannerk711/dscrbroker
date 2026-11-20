@@ -25,10 +25,12 @@ import StepCitizenship from './StepCitizenship';
 import StepTimeline from './StepTimeline';
 import StepContact, { CONSENT_CHECKBOX_TEXT, CONSENT_DISCLOSURE_TEXT } from './StepContact';
 
-// Phase 0 funnel vocabulary (src/lib/analytics.ts): this island reports the same
-// event names as the V3 form on /qualify, under its own surface, so the GA4
-// funnel reads both forms in one report.
-const SURFACE = 'homepage-classic';
+// Phase 0 funnel vocabulary (src/lib/analytics.ts). The same island mounts on the homepage hero and on /qualify (restored
+// 2026-11-19); the `surface` prop names which one, on every GA4 event and as
+// the payload's `leadSource`. One island per page, so the module-level value
+// is set once at render.
+export type FormSurface = 'homepage-classic' | 'qualify-classic';
+let SURFACE: FormSurface = 'homepage-classic';
 
 const isDemo = () =>
   typeof window !== 'undefined' && new URLSearchParams(window.location.search).get('demo') === '1';
@@ -101,7 +103,8 @@ function getPathSteps(loanGoal: string): StepKey[] {
   return PATHS[loanGoal] || PATHS.purchase;
 }
 
-export default function DSCRForm() {
+export default function DSCRForm({ surface = 'homepage-classic' }: { surface?: FormSurface }) {
+  SURFACE = surface;
   const currentStep = useStore($currentStep);
   const direction = useStore($direction);
   const loanGoal = useStore($loanGoal);
