@@ -11,7 +11,8 @@
     "preview": "astro preview",
     "astro": "astro",
     "lp:events": "node tools/lp-events.mjs",
-    "qualify:shoot": "node tools/qualify-shoot.mjs"
+    "qualify:shoot": "node tools/qualify-shoot.mjs",
+    "qa:tracking": "node tools/qa-tracking.mjs"
   },
   "dependencies": {
     "@astrojs/mdx": "^6.0.3",
